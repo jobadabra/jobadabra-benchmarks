@@ -1,0 +1,460 @@
+{
+ "candidate": {
+  "id": "c18",
+  "family": "mechanic",
+  "title": "Car Mechanic",
+  "city": "Seville",
+  "country": "Spain",
+  "language": "Spanish",
+  "filter": "es6",
+  "prefix": "ES61",
+  "region": "Andalusia (Seville)"
+ },
+ "result": {
+  "id": "c18",
+  "city": "Seville",
+  "country": "Spain",
+  "role": "Car Mechanic",
+  "family": "mechanic",
+  "language": "Spanish",
+  "x_by_count": 5,
+  "eures_rows_in_region": 29,
+  "searched": true,
+  "n_found": 0,
+  "jobs_shown": 15,
+  "overlap": 0,
+  "x_pooled": 5,
+  "search_seconds": 135,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "Empleado de lavado de vehículos",
+   "company": "Auto Sexi SL",
+   "location": "Andalusia (Seville), Spain (ES614)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Conductor/a de Camión Pluma (Carnet C + CAP)",
+   "company": "malaga transport 2019 SL",
+   "location": "Andalusia (Seville), Spain (ES61)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CARPINTERO METALICO",
+   "company": "PEGASUS REPAIRS & SUPRLIES, S.L.L",
+   "location": "Andalusia (Seville), Spain (ES618)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "mecanico vehiculo industriales",
+   "company": "talleres castro bus",
+   "location": "Andalusia (Seville), Spain (ES618)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mecanico con experiencia en camiones hormigoneras y palas cargadoras",
+   "company": "HORMI CONTADO, S.L.",
+   "location": "Andalusia (Seville), Spain (ES617)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MECANICO NAVAL",
+   "company": "REBARRAL, S.L.",
+   "location": "Andalusia (Seville), Spain (ES612)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MECANICO/A",
+   "company": "AGROPEDEL SL",
+   "location": "Andalusia (Seville), Spain (ES618)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "jefe de máquinas con 6000kW",
+   "company": "AUXILIAR MARITIMA DEL SUR, S.A.",
+   "location": "Andalusia (Seville), Spain (ES615)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MECÁNICO NAVAL",
+   "company": "REPARACIONES NAVALES F SANCHEZ SL",
+   "location": "Andalusia (Seville), Spain (ES61)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MECÁNICOS DE MANTENIMIENTO INDUSTRIAL",
+   "company": "",
+   "location": "Andalusia (Seville), Spain (ES617)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TÉCNICO/A SAT Climatización Industrial",
+   "company": "FIRST HUNTING S.L.",
+   "location": "Andalusia (Seville), Spain (ES618)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Técnico de mantenimiento de ascensores en Granada",
+   "company": "ASCENSORES ZENER",
+   "location": "Andalusia (Seville), Spain (ES614)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Técnico de mantenimiento de ascensores en Málag",
+   "company": "ASCENSORES ZENER",
+   "location": "Andalusia (Seville), Spain (ES617)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Oficial Electricista-Mantenimiento Industrial Bombeos riegos",
+   "company": "comunidad de regantes del Guadalcacin",
+   "location": "Andalusia (Seville), Spain (ES612)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTROMECÁNICO/A",
+   "company": "Eulen Flexiplan",
+   "location": "Andalusia (Seville), Spain (ES618)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electromecánico/a Algeciras",
+   "company": "HUNE RENTAL S.L.U.",
+   "location": "Andalusia (Seville), Spain (ES612)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "OPERARIO MANTENIMIENTO INDUSTRIAL SERVICIOS EXTERNOS",
+   "company": "vilfesur sl",
+   "location": "Andalusia (Seville), Spain (ES617)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OPERARIO MANTENIMIENTO INDUSTRIAL SERVICIOS EXTERNOS",
+   "company": "vilfesur sl",
+   "location": "Andalusia (Seville), Spain (ES617)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TÉCNICO PUERTAS DE GARAJE",
+   "company": "MANTENIMIENTOS PUERTAS BAHÍA SL",
+   "location": "Andalusia (Seville), Spain (ES612)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mecánico Industrial",
+   "company": "AGROAMBIENTAL CRISMA, SLU",
+   "location": "Andalusia (Seville), Spain (ES616)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Técnico/a de mantenimiento",
+   "company": "Congelados Apolo, S.L.",
+   "location": "Andalusia (Seville), Spain (ES614)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MONTADOR DE MOTORES",
+   "company": "rectificados sutil & gallego,s.l.",
+   "location": "Andalusia (Seville), Spain (ES618)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CARPINTERO MADERA",
+   "company": "PRODUCCIONES AGASA SL",
+   "location": "Andalusia (Seville), Spain (ES618)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CARPINTERO/A DE ALUMINIO, METÁLICO Y PVC",
+   "company": "Oficina del Servicio Andaluz de Empleo",
+   "location": "Andalusia (Seville), Spain (ES611)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CONDUCTORES-OPERADORES DE CARRETILLA ELEVADORA, EN GENERAL",
+   "company": "",
+   "location": "Andalusia (Seville), Spain (ES611)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MECANICO AUTOMOCION",
+   "company": "PAGAMENOS,S.A",
+   "location": "Andalusia (Seville), Spain (ES617)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BAR MANAGER",
+   "company": "SERRAS SEVILLA, SL",
+   "location": "Andalusia (Seville), Spain (ES618)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CONDUCTOR CAP",
+   "company": "GRUPO EXO",
+   "location": "Andalusia (Seville), Spain (ES611)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PEON MANTENIMIENTO CARROS",
+   "company": "MURGIPLAST",
+   "location": "Andalusia (Seville), Spain (ES611)",
+   "provider": "EURES",
+   "found": 10900,
+   "role": "no",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "Service Technician",
+   "company": "BEUMERGroup1",
+   "location": "L'Hospitalet de Llobregat, es",
+   "provider": "BEUMERGroup1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Asesor/a de Servicio con Inglés",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Consultor/a Junior de Posventa (Automoción)",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Consultor/a de Digitalización de Posventa (Automoción)",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Especialista de Recambios",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Formador / a técnico",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Formador/a Técnico y Producto",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Gestor/a de Garantías (Automoción)",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Parts Specialist",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "O&M Coordinator- Madrid",
+   "company": "alcazar-energy",
+   "location": "Madrid",
+   "provider": "alcazar-energy",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Frigorista (Barcelona)",
+   "company": "arceclima",
+   "location": "Barcelona, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Frigorista (Donostia/ San Sebastián)",
+   "company": "arceclima",
+   "location": "Donostia / San Sebastián, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Soldador/a (Madrid)",
+   "company": "arceclima",
+   "location": "Madrid, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Técnico/a de Mantenimiento Multiservicio (Madrid)",
+   "company": "arceclima",
+   "location": "Madrid, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Service Technician (Madrid, Barcelona or Bilbao Spain)",
+   "company": "li-thermal-works",
+   "location": "Madrid, Barcelona or Bilbao Spain (On-Site) 75% travel requirement within Spain",
+   "provider": "li-thermal-works",
+   "role": "no",
+   "place": "no"
+  }
+ ],
+ "ours_shown": 15
+}

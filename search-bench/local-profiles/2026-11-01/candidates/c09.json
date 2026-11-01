@@ -1,0 +1,34 @@
+{
+ "candidate": {
+  "id": "c09",
+  "family": "hotel",
+  "title": "Hotel Receptionist",
+  "city": "Tallinn",
+  "country": "Estonia",
+  "language": "Estonian",
+  "filter": "ee0",
+  "prefix": "EE00",
+  "region": "Estonia (Tallinn)"
+ },
+ "result": {
+  "id": "c09",
+  "city": "Tallinn",
+  "country": "Estonia",
+  "role": "Hotel Receptionist",
+  "family": "hotel",
+  "language": "Estonian",
+  "x_by_count": 0,
+  "eures_rows_in_region": 0,
+  "searched": false,
+  "n_found": null,
+  "jobs_shown": null,
+  "overlap": null,
+  "x_pooled": 0,
+  "search_seconds": null,
+  "verdict": "not measured",
+  "why": "no EURES rows for this city: no independent count"
+ },
+ "eures_judged": null,
+ "ours_judged": null,
+ "ours_shown": 0
+}

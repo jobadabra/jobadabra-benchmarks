@@ -1,0 +1,131 @@
+{
+ "candidate": {
+  "id": "c08",
+  "family": "pharmacist",
+  "title": "Pharmacist",
+  "city": "Oslo",
+  "country": "Norway",
+  "language": "Norwegian",
+  "filter": "no0",
+  "prefix": "NO08",
+  "region": "Oslo"
+ },
+ "result": {
+  "id": "c08",
+  "city": "Oslo",
+  "country": "Norway",
+  "role": "Pharmacist",
+  "family": "pharmacist",
+  "language": "Norwegian",
+  "x_by_count": 4,
+  "eures_rows_in_region": 6,
+  "searched": true,
+  "n_found": 0,
+  "jobs_shown": 4,
+  "overlap": 0,
+  "x_pooled": 4,
+  "search_seconds": 135,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "Farmasøyt - 12 måneders vikariat i publikumsavdelingen på Aker",
+   "company": "SYKEHUSAPOTEKET OSLO AKER",
+   "location": "Oslo, Norway (NO081)",
+   "provider": "EURES",
+   "found": 17,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Enhet for riktig legemiddelbruk - To deltidsmedarbeidere i engasjement ",
+   "company": "DIREKTORATET FOR MEDISINSKE PRODUKTER",
+   "location": "Oslo, Norway (NO081)",
+   "provider": "EURES",
+   "found": 17,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vikariat farmasøyt i 100% stilling til publikumsavdelingen",
+   "company": "SYKEHUSAPOTEKET MOSS",
+   "location": "Oslo, Norway (NO083)",
+   "provider": "EURES",
+   "found": 17,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Apoteker, Farmasøyt, Apotektekniker og Apotekmedarbeider søkes!",
+   "company": "HEALTHCARE ALLIANCE AS",
+   "location": "Oslo, Norway (NO085)",
+   "provider": "EURES",
+   "found": 17,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "We're looking for professionals ready to contribute to short international assignments in emergency response contexts.",
+   "company": "ISS FACILITY SERVICES AS AVD 304677  LEGER UTEN GRENSER",
+   "location": "Oslo, Norway (NO081)",
+   "provider": "EURES",
+   "found": 17,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vil du utvikle materialene som får kritiske tetningsløsninger til å fungere?",
+   "company": "SEAL ENGINEERING AS",
+   "location": "Oslo, Norway (NO083)",
+   "provider": "EURES",
+   "found": 17,
+   "role": "no",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "Medical Science Liaison/Senior Medical Science Liaison (Southeast Region)",
+   "company": "olema",
+   "location": "Remote",
+   "provider": "olema",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Combined ADHD Assessor & Non-Medical Prescriber for Children",
+   "company": "palomahealthuk",
+   "location": "Remote",
+   "provider": "palomahealthuk",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Combined ADHD Senior Assessor & Non-Medical Prescriber for Children",
+   "company": "palomahealthuk",
+   "location": "Remote",
+   "provider": "palomahealthuk",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Non-Medical Prescriber - CYP ADHD",
+   "company": "palomahealthuk",
+   "location": "Remote",
+   "provider": "palomahealthuk",
+   "role": "yes",
+   "place": "remote"
+  }
+ ],
+ "ours_shown": 4
+}

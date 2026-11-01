@@ -1,0 +1,2373 @@
+{
+ "candidate": {
+  "id": "c12",
+  "family": "electrician",
+  "title": "Electrician",
+  "city": "Graz",
+  "country": "Austria",
+  "language": "German",
+  "filter": "at2",
+  "prefix": "AT22",
+  "region": "Styria (Graz)"
+ },
+ "result": {
+  "id": "c12",
+  "city": "Graz",
+  "country": "Austria",
+  "role": "Electrician",
+  "family": "electrician",
+  "language": "German",
+  "x_by_count": 46,
+  "eures_rows_in_region": 70,
+  "searched": true,
+  "n_found": 19,
+  "jobs_shown": 182,
+  "overlap": 9,
+  "x_pooled": 56,
+  "search_seconds": 135,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "Head of Electrical Engineering (m/w/d)\n",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Design Engineer (w/m/d) Power Transformers",
+   "company": "Siemens Energy Austria",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektrotechniker_in - Bezirk Graz-Umgebung",
+   "company": "SYNERGIE Personal Austria",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mitarbeiter_in elektrische Montage",
+   "company": "SYNERGIE Personal Austria",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical & Automation Maintenance Engineer",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT223)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Konstrukteur_in Elektrotechnik",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT223)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "E-Plan Konstrukteur (m/d/w) im Sondermaschinenbau",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT225)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Konstrukteur Elektrotechnik / Elektroplaner - schaffe Stromkreise die begeistern! (m/w/d)",
+   "company": "teampool engineering",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Konstrukteur/in - Elektroinstallationstechnik",
+   "company": "RH technik",
+   "location": "Styria (Graz), Austria (AT223)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Konstrukteur Elektrotechnik (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT223)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELEKTRIKER (m/w/d) Raum Graz",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallationstechniker (m/w)",
+   "company": "HR Personalmarketing",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallationstechniker_in im Servicebereich",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallationstechniker_in",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektriker_in",
+   "company": "SYNERGIE Personal Austria",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kundendiensttechniker:in - Großraum Graz und Umgebung",
+   "company": "Hoval",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallationstechniker_in mit oder ohne Lehrabschluss",
+   "company": "DM Industrieservice",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "A-8161 Elektriker (m/w/d)",
+   "company": "DHT",
+   "location": "Styria (Graz), Austria (AT225)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektrotechniker:in MSR Projekttechnik",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektrotechniker (m/w/d)",
+   "company": "e-lion",
+   "location": "Styria (Graz), Austria (AT225)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektriker:in in Hart bei Graz (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallationstechniker_in (w/m/d)",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Servicetechniker:in (m/w/d)",
+   "company": "ATTRIA",
+   "location": "Styria (Graz), Austria (AT22)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallationstechniker_in",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": " Elektrotechniker/in",
+   "company": "Spindler E-Technik",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELEKTRIKER (m/w/d) Raum Hartberg/Fürstenfeld",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektrotechniker / Gebäudetechniker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallationstechniker_in",
+   "company": "WINDISCH Elektro Technik",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "A-8461 Obermonteur Elektrotechnik (m/w/d)",
+   "company": "DHT",
+   "location": "Styria (Graz), Austria (AT225)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELEKTRIKER (m/w/d) Raum Voitsberg",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT225)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektro-Installationstechniker_in (22398)",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallationstechniker - Lieboch (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallationstechniker_in",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektriker_innen mit LAP für die Gebäudetechnik",
+   "company": "Peitler Personal Service e.U.",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Servicemitarbeiter_in im Bereich Schwimmbadanlagen",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallateur (w/m/d)",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT226)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektrotechniker_in",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallateur_in oder Elektriker_in",
+   "company": "Sochor",
+   "location": "Styria (Graz), Austria (AT223)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELEKTRIKER (m/w/d) Raum Weiz",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektrotechniker_in für die Instandhaltung",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT226)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELEKTROINSTALLATIONSTECHNIKER_IN - ELEKTROTECHNIKER_IN",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektrotechniker_in - Elektro- und Gebäudetechnik oder Elektroinstallationstechniker_in",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallationstechniker_in",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELEKTRIKER (m/w/d) Raum Leibnitz",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT225)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektrotechniker/in",
+   "company": "Krasniqi EWK",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Bauleitung (m/w/d) - Elektrotechnik",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektro - Monteur_in (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Servicetechniker_in",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELEKTRIKER (m/w/d) Raum Süd-Ost-Steiermark",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektriker_in",
+   "company": "SYNERGIE Personal Austria",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektromonteur_in",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELEKTRIKER (m/w/d) Raum Bruck/Mürzzuschlag",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT223)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektrotechniker / Elektromonteur (m/w/d) - Elektromann Liezen/Schladming",
+   "company": "Landmarkt KG",
+   "location": "Styria (Graz), Austria (AT222)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektrotechniker_in",
+   "company": "e-Lugitsch Elektro",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "E-Planer_in",
+   "company": "Elektro Eibl",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Servicetechniker/in für Haustechnik/Gebäudetechnik",
+   "company": "Heizung - Wasser Hörmann",
+   "location": "Styria (Graz), Austria (AT225)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallateur fürs Prüffeld (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELEKTRIKER (m/w/d) Raum Deutschlandsberg",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT225)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Photovoltaik Techniker:in Österreich Vollzeit (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT226)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektriker/in",
+   "company": "SYNERGIE Personal Austria",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektriker_in",
+   "company": "SYNERGIE Personal Austria",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektriker_in",
+   "company": "Powertec",
+   "location": "Styria (Graz), Austria (AT222)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektrotechniker (m/w/d)",
+   "company": "SYNERGIE Personal Austria",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektroinstallateur_in",
+   "company": "Elektro Sturm",
+   "location": "Styria (Graz), Austria (AT225)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Projektmanager_in Elektrotechnik",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT226)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Produktion & Assistenz der Geschäftsführung (m/w/d)\n",
+   "company": "Zenz Verteilerbau mit System",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mitarbeiter_in Produktion Elektrotechnik (m/w/d)\n",
+   "company": "Zenz Verteilerbau mit System",
+   "location": "Styria (Graz), Austria (AT221)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Monteur_in im Elektrobereich - vorzugsweise in Vollzeit (38,5 Wochenstunden)",
+   "company": "Elektro Schützenhofer",
+   "location": "Styria (Graz), Austria (AT224)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELEKTRIKER:INNEN (m/w/d)",
+   "company": "THG Personal",
+   "location": "Styria (Graz), Austria (AT223)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Elektriker in Leibnitz (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Styria (Graz), Austria (AT225)",
+   "provider": "EURES",
+   "found": 3233,
+   "role": "yes",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "Anlernkraft Arbeitsvorbereitung – Kabelzuschnitt (w/m/d)",
+   "company": "AntonPaar1",
+   "location": "Graz, at",
+   "provider": "AntonPaar1",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Electronics Production Specialist - Afternoon Model with Additional Allowance (f/m/x)",
+   "company": "AntonPaar1",
+   "location": "Graz, at",
+   "provider": "AntonPaar1",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Facharbeiter in der Elektronischen Fertigung – Nachmittagsmodell mit Zulage (m/w/d)",
+   "company": "AntonPaar1",
+   "location": "Graz, at",
+   "provider": "AntonPaar1",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Production Preparation Operator – Cable Cutting (f/m/x)",
+   "company": "AntonPaar1",
+   "location": "Graz, at",
+   "provider": "AntonPaar1",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Qualitätstechniker Elektronik – Zukaufteile (w/m/d)",
+   "company": "AntonPaar1",
+   "location": "Graz, at",
+   "provider": "AntonPaar1",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "SYNERGIE Personal Austria",
+   "location": "Oststeiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "siehe Beschreibung",
+   "location": "Westliche Obersteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "ENERGIEFREUND,",
+   "location": "Tiroler Oberland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "siehe Beschreibung",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "siehe Beschreibung",
+   "location": "Steyr-Kirchdorf, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Elektro Gasser",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "P3-Personal,",
+   "location": "Salzburg und Umgebung, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Elektrotechnik Fellner-Novak",
+   "location": "Unterkärnten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker*in",
+   "company": "siehe Beschreibung",
+   "location": "Mostviertel-Eisenwurzen, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Montage Technik Bombek Schroll",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "siehe Beschreibung",
+   "location": "Waldviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "P3-Personal,",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "siehe Beschreibung",
+   "location": "Wiener Umland/Südteil, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "siehe Beschreibung",
+   "location": "Traunviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "IDM Energiesysteme",
+   "location": "Oberkärnten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "siehe Beschreibung",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Trenkwalder Personaldienste",
+   "location": "Oberösterreich, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Trenkwalder Personaldienste",
+   "location": "Tirol, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "siehe Beschreibung",
+   "location": "Innviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "teampool personal service",
+   "location": "Innviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Venturi Kälte OG",
+   "location": "Pinzgau-Pongau, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Regionalpersonal",
+   "location": "Pinzgau-Pongau, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Bergmann Alfred",
+   "location": "Salzburg und Umgebung, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Jobcom Personal",
+   "location": "Graz, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "ETAS Teams",
+   "location": "Salzburg und Umgebung, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker*in",
+   "company": "siehe Beschreibung",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "HR Personalmanagement",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Fair Jobs Personalmanagement",
+   "location": "Steyr-Kirchdorf, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "JOBzone Personalmanagement",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "POLAR Personal Services",
+   "location": "Wiener Umland/Südteil, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Grüßer Baumaschinen",
+   "location": "Liezen, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Brandstetter",
+   "location": "Sankt Pölten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "siehe Beschreibung",
+   "location": "Niederösterreich-Süd, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Personalservice VCK",
+   "location": "Traunviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Jobcom Personal",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Elektro SCHULLER",
+   "location": "Oberkärnten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "JOBzone Personalmanagement",
+   "location": "Wiener Umland/Südteil, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "siehe Beschreibung",
+   "location": "Unterkärnten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Randstad Austria",
+   "location": "Salzburg und Umgebung, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Strombuam Elektrotechnik",
+   "location": "Pinzgau-Pongau, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "Jobcom Personal",
+   "location": "Salzburg und Umgebung, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "GGL",
+   "location": "Liezen, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in",
+   "company": "IDEE Personal",
+   "location": "Innviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/innen",
+   "company": "siehe Beschreibung",
+   "location": "Oststeiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/innen",
+   "company": "JOBzone Personalmanagement",
+   "location": "Bludenz-Bregenzer Wald, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/innen",
+   "company": "Jobcom Personal",
+   "location": "Rheintal-Bodenseegebiet, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/innen",
+   "company": "siehe Beschreibung",
+   "location": "Steyr-Kirchdorf, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/innen",
+   "company": "Talentcrew",
+   "location": "Tirol, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/innen",
+   "company": "JOBzone Personalmanagement",
+   "location": "Rheintal-Bodenseegebiet, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/innen",
+   "company": "siehe Beschreibung",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/innen",
+   "company": "JOBzone Personalmanagement",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/innen",
+   "company": "Talentcrew",
+   "location": "Innsbruck, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/innen",
+   "company": "Jobcom Personal",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/innen",
+   "company": "Jobcom Personal",
+   "location": "Innsbruck, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ELEKTRIKER oder ELEKTRIKERHELFER (m/w)",
+   "company": "Elektro Maislinger",
+   "location": "Innviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker(m/w/d)",
+   "company": "Der Phalke  M. Kadlec",
+   "location": "Wiener Umland/Nordteil, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "DHT",
+   "location": "Unterkärnten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Innsbruck, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker m/w/d",
+   "company": "MECO",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker(m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Wiener Umland/Nordteil, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Rheintal-Bodenseegebiet, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w)",
+   "company": "siehe Beschreibung",
+   "location": "Wiener Umland/Südteil, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker/in (m/w/d)",
+   "company": "Q-Drives",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ELEKTRIKER Elektroinstallationstechniker (m/w/d)",
+   "company": "Elektroinstallationen Elektro Rohner",
+   "location": "Innsbruck, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "A-8161 Elektriker (m/w/d)",
+   "company": "DHT",
+   "location": "West- und Südsteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "ELEKTRIKER (m/w/d) Raum Graz",
+   "company": "siehe Beschreibung",
+   "location": "Graz, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "ELEKTRIKER (m/w/d) Raum Voitsberg",
+   "company": "siehe Beschreibung",
+   "location": "West- und Südsteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "ELEKTRIKER (m/w/d) Raum Weiz",
+   "company": "siehe Beschreibung",
+   "location": "Oststeiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "ELEKTRIKER (m/w/d) Raum Leibnitz",
+   "company": "siehe Beschreibung",
+   "location": "West- und Südsteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "ELEKTRIKER (m/w/d) Raum Deutschlandsberg",
+   "company": "siehe Beschreibung",
+   "location": "West- und Südsteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Oberkärnten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d).",
+   "company": "teampool personal service",
+   "location": "Unterkärnten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ELEKTRIKER M/W/D",
+   "company": "F/LIST",
+   "location": "Niederösterreich-Süd, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "teampool personal service",
+   "location": "Oststeiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Niederösterreich-Süd, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/x)",
+   "company": "hekro Personalservice",
+   "location": "Innviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Steyr-Kirchdorf, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "hands.on",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "HETWIN Automation Systems",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/x)",
+   "company": "Arbeiterring Personalbereitstellung",
+   "location": "Unterkärnten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/x)",
+   "company": "Arbeiterring Personalbereitstellung",
+   "location": "Westliche Obersteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Traunviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Mostviertel-Eisenwurzen, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/x)",
+   "company": "Trenkwalder Personaldienste",
+   "location": "Westliche Obersteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Pinzgau-Pongau, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "hands.on",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ELEKTRIKER (M/W/D)",
+   "company": "Magirus Defense Systems",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m | w | d)",
+   "company": "VIVATRO",
+   "location": "Unterkärnten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "West- und Südsteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Östliche Obersteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "Powerwork",
+   "location": "Traunviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vorarlberg, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/x)",
+   "company": "Roither Maschinenbau",
+   "location": "Traunviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "teampool personal service",
+   "location": "Rheintal-Bodenseegebiet, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "ACTIEF JOBMADE",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "ACTIEF JOBMADE",
+   "location": "Oststeiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "hands.on",
+   "location": "Salzburg und Umgebung, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "HR Personalmanagement",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "INP Austria",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker (m/w/d)",
+   "company": "Trenkwalder Personaldienste",
+   "location": "Liezen, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektriker*in/Elektrotechniker*in",
+   "company": "siehe Beschreibung",
+   "location": "Innviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "A-5753 Elektriker/in",
+   "company": "siehe Beschreibung",
+   "location": "Pinzgau-Pongau, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker*in - Elektriker*in",
+   "company": "siehe Beschreibung",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "siehe Beschreibung",
+   "location": "Wiener Umland/Nordteil, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "Powermont",
+   "location": "Wien, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "pc personalmarketing",
+   "location": "Wien, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "ISP Personalschmiede",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "siehe Beschreibung",
+   "location": "Niederösterreich, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "hb24 Haustechnik",
+   "location": "Wiener Umland/Nordteil, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "GEKO Green Energy",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "PAK Personal .",
+   "location": "Rheintal-Bodenseegebiet, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "MAR Montage",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "siehe Beschreibung",
+   "location": "Salzburg und Umgebung, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "siehe Beschreibung",
+   "location": "Nordburgenland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Traunviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "siehe Beschreibung",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "siehe Beschreibung",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "siehe Beschreibung",
+   "location": "Rheintal-Bodenseegebiet, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in",
+   "company": "siehe Beschreibung",
+   "location": "Westliche Obersteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "siehe Beschreibung",
+   "location": "Mostviertel-Eisenwurzen, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Bludenz-Bregenzer Wald, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Mostviertel-Eisenwurzen, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "siehe Beschreibung",
+   "location": "Wien, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "I-Smart Personal Solutions",
+   "location": "Sankt Pölten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Mühlviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Steyr-Kirchdorf, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Südburgenland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Salzburg und Umgebung, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Niederösterreich-Süd, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Pinzgau-Pongau, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "siehe Beschreibung",
+   "location": "Mittelburgenland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "OCTOJOBS Personalmanagement",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur(e)innen",
+   "company": "siehe Beschreibung",
+   "location": "Unterkärnten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur (w/m/d)",
+   "company": "siehe Beschreibung",
+   "location": "Westliche Obersteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektroinstallateur/in im Verteilerbau",
+   "company": "siehe Beschreibung",
+   "location": "Wiener Umland/Nordteil, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "Green Testing Lab",
+   "location": "Oststeiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "siehe Beschreibung",
+   "location": "West- und Südsteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "siehe Beschreibung",
+   "location": "Wien, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "talentvoll Personal",
+   "location": "Steyr-Kirchdorf, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "siehe Beschreibung",
+   "location": "Nordburgenland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "siehe Beschreibung",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "Stradner Industriemontagen",
+   "location": "Rheintal-Bodenseegebiet, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "siehe Beschreibung",
+   "location": "Oststeiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "ACTIEF JOBMADE",
+   "location": "Oststeiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "Hansesun Austria",
+   "location": "Rheintal-Bodenseegebiet, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "siehe Beschreibung",
+   "location": "Innviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "siehe Beschreibung",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "siehe Beschreibung",
+   "location": "Liezen, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "Regionalpersonal",
+   "location": "Pinzgau-Pongau, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "Öhe Elektrotechnik",
+   "location": "Rheintal-Bodenseegebiet, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "SIDMA Integrations",
+   "location": "Wiener Umland/Nordteil, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "CS Elektrotechnik",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "Trenkwalder Personaldienste",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "Powerwork",
+   "location": "Traunviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "siehe Beschreibung",
+   "location": "Unterkärnten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker*in",
+   "company": "siehe Beschreibung",
+   "location": "Steyr-Kirchdorf, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "Spindler E-Technik",
+   "location": "Oststeiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "Penias Lebensmitteltechnik",
+   "location": "Innviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "TECCON KONSTRUKTIONEN",
+   "location": "Oberkärnten, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "Krasniqi EWK",
+   "location": "Graz, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker*in",
+   "company": "eXperts consulting center",
+   "location": "Wiener Umland/Nordteil, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker/in",
+   "company": "Bau- und Zimmermeister DREIHANS",
+   "location": "Mühlviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ELEKTROTECHNIKER*IN",
+   "company": "siehe Beschreibung",
+   "location": "Graz, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "ELEKTROTECHNIKER (M/W/D)",
+   "company": "siehe Beschreibung",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker (m/w/d)",
+   "company": "Trenkwalder Personaldienste",
+   "location": "Linz-Wels, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker (f/m/x)",
+   "company": "siehe Beschreibung",
+   "location": "Waldviertel, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker (m/w/d)",
+   "company": "Heliotherm Wärmepumpentechnik Ges.m.b.H",
+   "location": "Tiroler Unterland, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker (m/w/d)",
+   "company": "Trenkwalder Personaldienste",
+   "location": "West- und Südsteiermark, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Elektrotechniker (m/w/d)",
+   "company": "Adecco Personalbereitstellungs",
+   "location": "Klagenfurt-Villach, Austria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  }
+ ],
+ "ours_shown": 182
+}

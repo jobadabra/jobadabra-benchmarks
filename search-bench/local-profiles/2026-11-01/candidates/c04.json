@@ -1,0 +1,1154 @@
+{
+ "candidate": {
+  "id": "c04",
+  "family": "electrician",
+  "title": "Electrician",
+  "city": "Madrid",
+  "country": "Spain",
+  "language": "Spanish",
+  "filter": "es3",
+  "prefix": "ES30",
+  "region": "Madrid region"
+ },
+ "result": {
+  "id": "c04",
+  "city": "Madrid",
+  "country": "Spain",
+  "role": "Electrician",
+  "family": "electrician",
+  "language": "Spanish",
+  "x_by_count": 61,
+  "eures_rows_in_region": 93,
+  "searched": true,
+  "n_found": 2,
+  "jobs_shown": 21,
+  "overlap": 0,
+  "x_pooled": 63,
+  "search_seconds": 135,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "Electricidad/Mantenimiento",
+   "company": "Cotelux electricidad y telecomunicaciones, s.l.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFICIAL 3ª ELECTRICIDAD",
+   "company": "ELECTRONAEN SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Oficial de 1ª electricidad",
+   "company": "INSTALACIONES ELECTRICAS JESUS SEGURA MARTIN S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFERTA EMPLEO OFICIAL ELECTRICIDAD",
+   "company": "AGF ELECTRICIDAD",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Oficial de 2ª Electricidad",
+   "company": "INSTALACIONES ELECTRICAS JESUS SEGURA MARTIN S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Jefe de obra electricidad Madrid",
+   "company": "Infrilux",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Program Manager",
+   "company": "TK ELEVATOR MANUFACTURING SPAIN",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFERTA 9037 ELECTRICISTA DE AUTOMOCION",
+   "company": "",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFERTA 8585 ELECTROMECÁNICO DE AUTOMÓVILES",
+   "company": "",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Instalación de dispositivos telemáticos en vehículos",
+   "company": "LOJACK ESPAÑA S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electromecánico industrial",
+   "company": "KeySolution RRHH, S.L",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electromecánico industrial",
+   "company": "KeySolution RRHH, S.L",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MECANICO ELECTRICISTA ELECTRONICO DEL AUTOMOVIL",
+   "company": "MIRACAR AUTOMOCION",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electromecánico/a Coslada (Madrid)",
+   "company": "HUNE RENTAL S.L.U.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OPERARIO/A PLEGADORA(ARTES GRÁFICAS-SUSTITUCIÓN)",
+   "company": "AFANIAS ASOCIACIÓN PRO PERSONAS CON DISCAPACIDAD",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFERTA 8784_OFICIALES 2ª/3ª ELECTRICISTAS.",
+   "company": "",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TÉCNICO ELECTRICISTA - INSTALACIONES ELÉCTRICAS BAJA TENSIÓN",
+   "company": "MARTÍN PORTUGUÉS, S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electricistas oficiales 1ª y 2ª",
+   "company": "iberluz proyectos e instalaciones slu",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTA OFICIAL DE 1ª O 2ª",
+   "company": "Electrificaciones y comunicaciones del centro SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Oficial/a 1ª electricista",
+   "company": "CLECE F.S. S.A.U.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electricista Madrid",
+   "company": "Infrilux",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFICIAL DE PRIMERA ELECTRICISTA (AUTOMATIZACION INDUSTRIAL)",
+   "company": "Compañía Entreriana de Electricidad SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TÉCNICO DE MANTENIMIENTO PCI CON DISCAPACIDAD",
+   "company": "FIRE BUSINESS SLU",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTA",
+   "company": "Instalaciones Sanchez Jaen",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTAS OF 1/2 LEGANÉS",
+   "company": "FRANMAR WORK SOLUTION",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTAS OFICIALES 1ª/2ª NAVALCARNERO",
+   "company": "FRANMAR WORK SOLUTION",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTAS 1ª/2ª MADRID",
+   "company": "FRANMAR WORK SOLUTION",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTAS",
+   "company": "Dipelectric SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Oficiales electricistas (1ª, 2ª y 3ª)",
+   "company": "Kronos INstalaciones y Montajes S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFICIAL 1 ELECTRICISTA",
+   "company": "OKA SERVICIOS GENERALES SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFICIAL ELECTRICISTA",
+   "company": "INARA",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "INSTALADOR ELECTRICISTA",
+   "company": "SISTEMAS FENIX 2010 SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Oficial 1ª PCI Detección",
+   "company": "Tecasem DLMS, S.L.U.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "INSTALADOR ELECTRICISTA (EXPERTO)",
+   "company": "vecitorprom sl",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Técnico/a Instalador y Mantenedor de Sistemas de Protección Contra Incendios (PCI)",
+   "company": "SGI ENERGIA,S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Instalador eléctrico Madrid",
+   "company": "Infrilux",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electricista senior Madrid",
+   "company": "Infrilux",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFICIAL TÉCNICO INSTALADOR PROTECCIÓN CONTRA INCENDIOS",
+   "company": "Detecfire And Security,S L.O",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electricista- especialista PCI",
+   "company": "DERRADEIRA SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTA",
+   "company": "ASESORAMIENTO DE USUARIOS DE ENERGIA SA",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MANITAS",
+   "company": "JOSE MARÍA RICO",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFICIAL 3º ELECTRICISTA",
+   "company": "MARTÍN PORTUGUÉS, S.L.",
+   "location": "Madrid region, Spain (ES30)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFICIAL DE 1º ELECTRICISTA",
+   "company": "INSTALACIONES ELECTRICAS HNOS ALAMILLO S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTA",
+   "company": "GRUPO ANADE OBRAS Y PROYECTOS, S.L",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TÉCNICO/A ENERGIA MADRID",
+   "company": "SOLUTIONS30 IBERIA 2017 SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electricistas oficiales 1ª y 2ª",
+   "company": "iberluz proyectos e instalaciones slu",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "oficial electricista",
+   "company": "SANTA FE ARQUITECTURA Y REHABILITACION SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTAS",
+   "company": "Grupo F D 2018 SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Técnico Instalador Electricista",
+   "company": "Tecsitel Servicios Integrales, S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTA",
+   "company": "Ouarda Taoutaou",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTA OFICIAL DE SEGUNDA. PUESTO EN ZONA PRINCIPE PIO EN MADRID.",
+   "company": "",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Instalador eléctrico sistemas PCI",
+   "company": "AITECH FIRE SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Técnico eléctrico",
+   "company": "DMSE XXI S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Oficial Electricista Industrial",
+   "company": "Montrel Ingenieria Electrica SA",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFICIAL 3ª ELECTRICISTA",
+   "company": "Moyano Telsa Sistemas Radiantes y Telecomunicaciones, S.A",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TÉCNICO/A MANTENIMIENTO_CONTRATO TEMPORAL (ITALFARMACO)",
+   "company": "ITALFARMACO S.A.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Oficiales 1° 2° o 3° Instaladores protección contra incendios - Electricistas",
+   "company": "MARÍA ALEJANDRA ACERO NARIÑO (AITECH FIRE)",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTA",
+   "company": "DABANTE ENERGY SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Oficial de Primera",
+   "company": "REAL JARDIN BOTANICO",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFICIALES ELECTRICISTAS 1º,2º Y 3º",
+   "company": "WYM INSTAL S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFICIAL ELECTRICISTA",
+   "company": "BBR INSTALACIONES S,L",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTA",
+   "company": "KFI TECNOLOGIA Y SERVICIO AL CLIENT",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Oficial de primera grupo cotización 8",
+   "company": "REAL JARDIN BOTANICO",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Técnico de mantenimiento industrial",
+   "company": "Electroaplicaciones Ridelec S.L",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Cuadrista - Taller de cuadros eléctricos",
+   "company": "ENGINEERS SOURCING",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electricista",
+   "company": "Portu Espacios Climatizados S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "FABRICANTE DE CUADROS ELÉCTRICOS",
+   "company": "PROMAEL SUMINISTROS ELECTRICOS, S.L",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Ingeniero Eléctrico / Ingeniero Industrial (Especialidad en Electricidad)",
+   "company": "Instalacion J.Hernández S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electricista",
+   "company": "F.B.Instalaciones Electricas",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "INSTALADOR/A ELECTRICISTA (Sector Climatización)",
+   "company": "FIRST HUNTING S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Oficiales electricistas de 1ª y  2ª",
+   "company": "iberoluz española sl",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electricista",
+   "company": "montajes e instalaciones san marcos, s.l.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "instalador electricista",
+   "company": "montajes electricos linde sl",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTA",
+   "company": "MISETELIA S.L.U",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Ingeniero Eléctrico / Ingeniero Industrial (Especialidad en Electricidad)",
+   "company": "Instalacion J.Hernández S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Oficial de 1 Electricista",
+   "company": "KeySolution RRHH, S.L",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTRICISTAS DE MANTENIMIENTO Y REPARACIÓN, EN GENERAL (75211071)",
+   "company": "CHIKABIKA",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Ingeniero Eléctrico",
+   "company": "Diseño y Desarrollo de Instalaciones",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Modelador BIM",
+   "company": "PLENUM INGENIEROS S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Técnico Especialista en Mantenimiento e Ingeniería Electromecánica (Tratamiento de Agua)",
+   "company": "SERVICIOS TECNICOS SETA S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Ingeniero/a industrial",
+   "company": "HUBLANCE EUROPE, S.L.U.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Proyectista Eléctrico",
+   "company": "FEV Iberia SLU",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Ingeniero/a diseño HW Electrónica Potencia",
+   "company": "Quest Global",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Hardware Electrical Engineer",
+   "company": "TK ELEVATOR MANUFACTURING SPAIN",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mecánico Industrial – Electricidad y Automatismos",
+   "company": "GALASITEC",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OFICIAL 3ª MECANICO HERRAMINTAS ELECTRICAS",
+   "company": "TALLERES BARAHONA, SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Responsable Técnico de Instalaciones Fotovoltaicas",
+   "company": "FUTURE VOLTAICS SL",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico Proteccion contra incendios o electricidad",
+   "company": "OLVIS, S.A",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AUXILIAR DE MANTENIMIENTO (fontanería, carpintería, electricidad...)",
+   "company": "ASOCIACIÓN CENTRO TRAMA",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TÉCNICOS SUPEROR ELECTRICIDAD /DELINEANTES/ INGENIEROS INDUSTRIALES",
+   "company": "carlos belda inst. elect. s.l.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TECNICO DE MANTENIMIENTO DE SUBESTACIONES ELECTRICAS",
+   "company": "ELDU ELECTROAPLICACIONES, S.A.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Técnico en electrónica y electricidad del automóvil",
+   "company": "Instalaciones tecnicas del automovil S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Técnico en electrónica y electricidad del automóvil",
+   "company": "Instalaciones tecnicas del automovil S.L.",
+   "location": "Madrid region, Spain (ES300)",
+   "provider": "EURES",
+   "found": 1282,
+   "role": "no",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "Tecnico/a especialista en Redes y comunicaciones VOIP",
+   "company": "7play",
+   "location": "Lleida, Spain",
+   "provider": "7play",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Técnico instalador y mantenimiento de Fibra Óptica",
+   "company": "7play",
+   "location": "Lleida, Spain",
+   "provider": "7play",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Técnico instalador y mantenimiento de Fibra Óptica",
+   "company": "7play",
+   "location": "Igualada, Spain",
+   "provider": "7play",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Service Technician",
+   "company": "BEUMERGroup1",
+   "location": "L'Hospitalet de Llobregat, es",
+   "provider": "BEUMERGroup1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Formador / a técnico",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Formador/a Técnico y Producto",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Technical Trainer",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Maintennance Engineer",
+   "company": "O-I",
+   "location": "Sevilla, es",
+   "provider": "O-I",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Técnic@ de Legionella y Control de Plagas (Itinerancia)",
+   "company": "RentokilInitial1",
+   "location": "Alicante (Alacant), es",
+   "provider": "RentokilInitial1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Técnico aplicador - Barcelona",
+   "company": "RentokilInitial1",
+   "location": "Barcelona, es",
+   "provider": "RentokilInitial1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Técnico/a Control de Plagas - Barcelona",
+   "company": "RentokilInitial1",
+   "location": "Barcelona, es",
+   "provider": "RentokilInitial1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Técnico/a Control de Plagas - Barcelona",
+   "company": "RentokilInitial1",
+   "location": "Barcelona, es",
+   "provider": "RentokilInitial1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Técnico/a Control de Plagas - Barcelona",
+   "company": "RentokilInitial1",
+   "location": "Palma, es",
+   "provider": "RentokilInitial1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Técnico/a de Control de Plagas",
+   "company": "RentokilInitial1",
+   "location": "Zaragoza, es",
+   "provider": "RentokilInitial1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Frigorista (Barcelona)",
+   "company": "arceclima",
+   "location": "Barcelona, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Frigorista (Donostia/ San Sebastián)",
+   "company": "arceclima",
+   "location": "Donostia / San Sebastián, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Soldador/a (Madrid)",
+   "company": "arceclima",
+   "location": "Madrid, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "TUBERO/A DELEGACIÓN DE MADRID",
+   "company": "arceclima",
+   "location": "Madrid, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Técnico/a de Mantenimiento Multiservicio (Madrid)",
+   "company": "arceclima",
+   "location": "Madrid, Spain",
+   "provider": "arceclima",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Técnico/a de Proyectos y Legalizaciones",
+   "company": "arceclima",
+   "location": "A Coruña, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Service Technician (Madrid, Barcelona or Bilbao Spain)",
+   "company": "li-thermal-works",
+   "location": "Madrid, Barcelona or Bilbao Spain (On-Site) 75% travel requirement within Spain",
+   "provider": "li-thermal-works",
+   "role": "yes",
+   "place": "yes"
+  }
+ ],
+ "ours_shown": 21
+}

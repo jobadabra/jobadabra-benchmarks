@@ -1,0 +1,334 @@
+{
+ "candidate": {
+  "id": "c07",
+  "family": "teacher",
+  "title": "Secondary School Teacher",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "language": "Danish",
+  "filter": "dk0",
+  "prefix": "DK01",
+  "region": "Capital Region of Denmark"
+ },
+ "result": {
+  "id": "c07",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "role": "Secondary School Teacher",
+  "family": "teacher",
+  "language": "Danish",
+  "x_by_count": 5,
+  "eures_rows_in_region": 30,
+  "searched": true,
+  "n_found": 0,
+  "jobs_shown": 0,
+  "overlap": 0,
+  "x_pooled": 5,
+  "search_seconds": 117,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "Associate Professor in Public Health: Children and Young People",
+   "company": "Statens Institut for Folkesundhed SDU",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tutor | Mentor | Lektiehjælper | Online | Privatunderviser | Folkeskole og gymnasie",
+   "company": "Tutora ApS",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vi søger en engageret barselsvikar pr. 1. januar 2027",
+   "company": "SANKT ANSGARS SKOLE",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vi søger en engageret geografilærer pr. 1. januar 2027",
+   "company": "SANKT ANSGARS SKOLE",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "”Et skolevæsen for alle” – vil du stå i spidsen for Skolen ved Nordens Plads?",
+   "company": "Frederiksberg Kommune",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sprichst du Deutsch und hast du Freude daran, Kindern und Jugendlichen etwas beizubringen? Dann lies weiter!",
+   "company": "Brøndby Kommune",
+   "location": "Capital Region of Denmark, Denmark (DK012)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Gribskov Efterskole søger lærer til deltidsstilling",
+   "company": "Gribskov Efterskole",
+   "location": "Capital Region of Denmark, Denmark (DK013)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Kan du få tallene til at give mening? - Skolen ved Bülowsvej søger matematiklærer til indskoling og mellemtrin",
+   "company": "Frederiksberg Kommune",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tenure-track Assistant Professor or Associate Professor of Food and Ingredient Biochemical Processing",
+   "company": "KU - SCIENCE -FOOD og NEXS",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Laboratory technician at DTU Metabolomics Core - DTU Bioengineering",
+   "company": "DTU Bioengineering",
+   "location": "Capital Region of Denmark, Denmark (DK012)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PhD fellowship in Veterinary Virology",
+   "company": "KU SCIENCE FAK. SEK.",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "211-0367/26-2K Professor within Microbial interactions in plant and environmental systems",
+   "company": "KU - SCIENCE - PLEN",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vil du være en del af vores stærke pædagogteam i børnehaven i Schous Børnehus?",
+   "company": "Schous Børnehus",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tenure Track assistant professor, associate professor or professor of Food Processing & Technology",
+   "company": "KU - SCIENCE -FOOD og NEXS",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tenure Track Assistant Professor or Associate Professor and Curator of Mammals",
+   "company": "KU – SCIENCE – SNM",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Bøgely søger pædagog til vuggestuen",
+   "company": "Furesø Kommune",
+   "location": "Capital Region of Denmark, Denmark (DK013)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Helsingør Børneasyl søger en fleksibel timelønnet",
+   "company": "HELSINGØR BØRNEASYL",
+   "location": "Capital Region of Denmark, Denmark (DK013)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Vi søger en pædagog med hjertet på det rette sted til vores lille og hyggelige private daginstitution. Vuggestuepædagog med interesse for pædagogisk idræt.",
+   "company": "Jellerød Børnegård",
+   "location": "Capital Region of Denmark, Denmark (DK013)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vi søger en pau. El. pædagogmedhjælper med hjertet på det rette sted til vores lille og hyggelige private daginstitution. Børnehave medhjælper med interesse for pædagogisk idræt.",
+   "company": "Jellerød Børnegård",
+   "location": "Capital Region of Denmark, Denmark (DK013)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": " Pædagogisk medarbejder til Birkestuen – vil du være en del af Langekær?",
+   "company": "Egedal Kommune",
+   "location": "Capital Region of Denmark, Denmark (DK013)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pædagog til Eventyrhuset - Børnehave i Dragør ",
+   "company": "Eventyrhuset",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PhD scholarship in Development of High Temperature Heat Pumps with Thermal Energy Storage - DTU Construct",
+   "company": "DTU Construct",
+   "location": "Capital Region of Denmark, Denmark (DK012)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Join Our Winter Service Team",
+   "company": "Frigaarden ApS",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Bartender til The Moose Bar",
+   "company": "Sværtegade 5 ApS",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tire fitter for Albertslund",
+   "company": "Humanizer",
+   "location": "Capital Region of Denmark, Denmark (DK012)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Deltidsstilling som kirketjener ved Lyngby Kirke, Kongens Lyngby sogn",
+   "company": "Bolig - Lyngby Kirkestræde 10A, 2800 Kgs. Lyngby",
+   "location": "Capital Region of Denmark, Denmark (DK012)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kok søges til Restaurant Rimini – vi har brug for flere hænder i køkkenet! - Chef Wanted at Restaurant Rimini – Join Our Kitchen Team!",
+   "company": "FETAI ApS",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Operations Planner Wanted for Staffing Agency",
+   "company": "Manora Vikar ApS",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Fiskehandler / Chauffør",
+   "company": "HARALDS FISK ApS",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Erfaren Kok / Kitchen Lead – Rays Chicken på Gamma Bar (Nordvest)",
+   "company": "Diamond Slice Blågårdsgade ApS",
+   "location": "Capital Region of Denmark, Denmark (DK011)",
+   "provider": "EURES",
+   "found": 85,
+   "role": "no",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": null,
+ "ours_shown": 0
+}

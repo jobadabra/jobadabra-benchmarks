@@ -1,0 +1,550 @@
+{
+ "candidate": {
+  "id": "c20",
+  "family": "welder",
+  "title": "Welder",
+  "city": "Naples",
+  "country": "Italy",
+  "language": "Italian",
+  "filter": "itf",
+  "prefix": "ITF3",
+  "region": "Campania (Naples)"
+ },
+ "result": {
+  "id": "c20",
+  "city": "Naples",
+  "country": "Italy",
+  "role": "Welder",
+  "family": "welder",
+  "language": "Italian",
+  "x_by_count": 0,
+  "eures_rows_in_region": 19,
+  "searched": true,
+  "n_found": 0,
+  "jobs_shown": 36,
+  "overlap": 0,
+  "x_pooled": 0,
+  "search_seconds": 136,
+  "verdict": "not measured",
+  "why": "EURES rows found but none relevant: no independent count"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "cameriere/cameriera",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF33)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "operatore di magazzino/operatrice di magazzino",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF35)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "segretario/segretaria",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF33)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "assistente di negozio",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF31)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "contabile",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF35)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF31)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "elettricista civile",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF35)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ispettore di pesi e misure/ispettrice di pesi e misure",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF33)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "elettricista civile",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF33)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "assistente di negozio",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF31)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF31)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF33)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "elettricista nel settore dell’illuminazione pubblica",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF33)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "elettricista nel settore dell’illuminazione pubblica",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF31)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF31)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF34)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF35)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF32)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campania (Naples), Italy (ITF33)",
+   "provider": "EURES",
+   "found": 731,
+   "role": "no",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "Conducteur de chantiers - Voirie (h-f-x)",
+   "company": "BESIX",
+   "location": "Marche-en-Famenne, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Tecnico per Impianti Fotovoltaici e Pompe di Calore — Romagna",
+   "company": "Enpal",
+   "location": "Milan",
+   "provider": "Enpal",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Campobasso, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Genova, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "carpentiere/carpentiera",
+   "company": "GI GROUP S.P.A.",
+   "location": "Udine, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Massa-Carrara, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Parma, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Verona, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lecce, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Bergamo, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "L’Aquila, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Bolzano-Bozen, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Treviso, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Torino, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Chieti, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Vicenza, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Udine, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Gorizia, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Pescara, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "coordinatore di saldatura/coordinatrice di saldatura",
+   "company": "GI GROUP S.P.A.",
+   "location": "Modena, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "operatore di catene di montaggio automatizzate/operatrice di catene di montaggio automatizzate",
+   "company": "GI GROUP S.P.A.",
+   "location": "Milano, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "operatore di catene di montaggio automatizzate/operatrice di catene di montaggio automatizzate",
+   "company": "GI GROUP S.P.A.",
+   "location": "Savona, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "meccanico di macchinari industriali",
+   "company": "GI GROUP S.P.A.",
+   "location": "Vicenza, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "meccanico di macchinari industriali",
+   "company": "GI GROUP S.P.A.",
+   "location": "Varese, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "operaio lamierista/operaia lamierista",
+   "company": "GI GROUP S.P.A.",
+   "location": "Padova, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "meccanico di macchinari industriali",
+   "company": "GI GROUP S.P.A.",
+   "location": "Milano, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "operaio lamierista/operaia lamierista",
+   "company": "GI GROUP S.P.A.",
+   "location": "Reggio nell’Emilia, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "operaio lamierista/operaia lamierista",
+   "company": "GI GROUP S.P.A.",
+   "location": "Trieste, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "operaio lamierista/operaia lamierista",
+   "company": "GI GROUP S.P.A.",
+   "location": "Bergamo, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "operaio lamierista/operaia lamierista",
+   "company": "GI GROUP S.P.A.",
+   "location": "Siena, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "operaio lamierista/operaia lamierista",
+   "company": "GI GROUP S.P.A.",
+   "location": "Udine, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "operaio lamierista/operaia lamierista",
+   "company": "GI GROUP S.P.A.",
+   "location": "Treviso, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "operaio lamierista/operaia lamierista",
+   "company": "GI GROUP S.P.A.",
+   "location": "Forlì-Cesena, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "carrozziere restauratore/carrozziera restauratrice",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lecce, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "carrozziere restauratore/carrozziera restauratrice",
+   "company": "GI GROUP S.P.A.",
+   "location": "Cuneo, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "carrozziere restauratore/carrozziera restauratrice",
+   "company": "IDACAR S.R.L.S. A S.U.",
+   "location": "Roma, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  }
+ ],
+ "ours_shown": 36
+}

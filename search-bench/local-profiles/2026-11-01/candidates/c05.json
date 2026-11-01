@@ -1,0 +1,1284 @@
+{
+ "candidate": {
+  "id": "c05",
+  "family": "civil-engineer",
+  "title": "Civil Engineer",
+  "city": "Milan",
+  "country": "Italy",
+  "language": "Italian",
+  "filter": "itc",
+  "prefix": "ITC4",
+  "region": "Lombardy (Milan area)"
+ },
+ "result": {
+  "id": "c05",
+  "city": "Milan",
+  "country": "Italy",
+  "role": "Civil Engineer",
+  "family": "civil-engineer",
+  "language": "Italian",
+  "x_by_count": 8,
+  "eures_rows_in_region": 97,
+  "searched": true,
+  "n_found": 2,
+  "jobs_shown": 31,
+  "overlap": 2,
+  "x_pooled": 8,
+  "search_seconds": 147,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "tecnico dell'ingegneria civile",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC46)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico dell'ingegneria civile",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC46)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "elettricista civile",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC46)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "elettricista civile",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "elettricista civile",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC46)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "responsabile di indagine statistica e rilevazione dati",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "disegnatore/disegnatrice",
+   "company": "STUDIOEMME S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC41)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC49)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC49)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "STUDIOEMME S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC41)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "elettricista di miniera",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC46)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "responsabile di linea di autotrasporti",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "geologo/geologa",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC42)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "geologo/geologa",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Database and network professionals",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "statistico/statistica",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ingegnere meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ispettore di pesi e misure/ispettrice di pesi e misure",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ingegnere meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4D)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "consulente legale",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "consulente legale",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ingegnere meccanico",
+   "company": "STUDIOEMME S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC41)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ingegnere meccanico",
+   "company": "STUDIOEMME S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC41)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "responsabile di linea di autotrasporti",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "supervisore dei cantieri edili",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "meccanico di macchinari industriali",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC49)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "commerciante all’ingrosso",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC44)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "segretario/segretaria",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "addetto all’informazione e all’assistenza dei clienti/addetta all’informazione e all’assistenza dei clienti",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "supervisore dei cantieri edili",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC46)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "dirigente delle risorse umane",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "dirigente delle risorse umane",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ricercatore universitario/ricercatrice universitaria",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "analista contabile",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4D)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "elettrotecnico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC48)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "responsabile di linea di autotrasporti",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4D)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico dell’ambiente",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "segretario/segretaria",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "direttore aziendale/direttrice aziendale",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC46)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "direttore aziendale/direttrice aziendale",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC46)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4A)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4A)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "supervisore dei cantieri edili",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4A)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4D)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "geologo/geologa",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "geofisico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC42)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "caldaista",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC46)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "caldaista",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC46)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "caldaista",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC48)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC43)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC49)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4D)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "WYSER  S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC43)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4D)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4B)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4D)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC49)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC44)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC44)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC44)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico meccanico",
+   "company": "STUDIOEMME S.R.L.",
+   "location": "Lombardy (Milan area), Italy (ITC41)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico chimico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico chimico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC42)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "disegnatore/disegnatrice",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "disegnatore/disegnatrice",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "disegnatore/disegnatrice",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "disegnatore/disegnatrice",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "disegnatore/disegnatrice",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4C)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "disegnatore/disegnatrice",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4D)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "disegnatore/disegnatrice",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4D)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "disegnatore/disegnatrice",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "disegnatore/disegnatrice",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4B)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "disegnatore/disegnatrice",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4B)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "tecnico metallurgico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC47)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "confezionatore caseario artigianale /confezionatrice casearia artigianale",
+   "company": "GI GROUP S.P.A.",
+   "location": "Lombardy (Milan area), Italy (ITC4B)",
+   "provider": "EURES",
+   "found": 424,
+   "role": "no",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "ingegnere meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Milano, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "ingegnere meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Chieti, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ingegnere meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Monza e della Brianza, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "ingegnere meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Roma, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ingegnere meccanico",
+   "company": "GI GROUP S.P.A.",
+   "location": "Vicenza, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ingegnere meccanico",
+   "company": "STUDIOEMME S.R.L.",
+   "location": "Varese, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ingegnere meccanico",
+   "company": "UNIVERSO SRL",
+   "location": "Bologna, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ingegnere meccanico",
+   "company": "UNIVERSO SRL",
+   "location": "Ancona, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "GI GROUP S.P.A.",
+   "location": "Roma, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "GI GROUP S.P.A.",
+   "location": "Firenze, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "GI GROUP S.P.A.",
+   "location": "Bari, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "GI GROUP S.P.A.",
+   "location": "Novara, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "GI GROUP S.P.A.",
+   "location": "Napoli, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "GI GROUP S.P.A.",
+   "location": "Brindisi, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "GI GROUP S.P.A.",
+   "location": "Ancona, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "WYSER  S.R.L.",
+   "location": "Milano, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "GI GROUP S.P.A.",
+   "location": "Torino, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "WYSER  S.R.L.",
+   "location": "Milano, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "OPENJOBMETIS S.P.A. AGENZIA PER IL LAVORO",
+   "location": "Padova, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "OPENJOBMETIS S.P.A. AGENZIA PER IL LAVORO",
+   "location": "Lecce, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "OPENJOBMETIS S.P.A. AGENZIA PER IL LAVORO",
+   "location": "Ancona, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "OPENJOBMETIS S.P.A. AGENZIA PER IL LAVORO",
+   "location": "Alessandria, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Engineering professionals (excluding electrotechnology)",
+   "company": "GI GROUP S.P.A.",
+   "location": "Modena, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "GI GROUP S.P.A.",
+   "location": "Milano, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "GI GROUP S.P.A.",
+   "location": "Piacenza, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Mining, manufacturing and construction supervisors",
+   "company": "GI GROUP S.P.A.",
+   "location": "Brescia, Italy",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "tecnico dell'ingegneria civile",
+   "company": "GI GROUP S.P.A.",
+   "location": "Roma, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "tecnico dell'ingegneria civile",
+   "company": "GI GROUP S.P.A.",
+   "location": "Bergamo, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "tecnico dell'ingegneria civile",
+   "company": "GI GROUP S.P.A.",
+   "location": "L’Aquila, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "supervisore dei cantieri edili",
+   "company": "STUDIOEMME S.R.L.",
+   "location": "Varese, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "supervisore dei cantieri edili",
+   "company": "GI GROUP S.P.A.",
+   "location": "Milano, Italy",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  }
+ ],
+ "ours_shown": 31
+}

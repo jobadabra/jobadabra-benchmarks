@@ -1,0 +1,1179 @@
+{
+ "candidate": {
+  "id": "c02",
+  "family": "sales",
+  "title": "Sales Representative",
+  "city": "Vienna",
+  "country": "Austria",
+  "language": "German",
+  "filter": "at1",
+  "prefix": "AT13",
+  "region": "Vienna"
+ },
+ "result": {
+  "id": "c02",
+  "city": "Vienna",
+  "country": "Austria",
+  "role": "Sales Representative",
+  "family": "sales",
+  "language": "German",
+  "x_by_count": 71,
+  "eures_rows_in_region": 100,
+  "searched": true,
+  "n_found": 11,
+  "jobs_shown": 16,
+  "overlap": 0,
+  "x_pooled": 82,
+  "search_seconds": 124,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "Technical Field Sales Representative (m/w/d) in Wien 1110 (Sales-Manager/in)",
+   "company": "ZF Friedrichshafen AG",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Technical Field Sales Representative (m/w/d) in Wien 1110 (Sales-Manager/in)",
+   "company": "ZF Friedrichshafen AG",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Developement Representative (Dutch) (m/f/d)",
+   "company": "fonio",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Developement Representative (German-speaking) (m/f/d)",
+   "company": "fonio",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Developement Representative (French-speaking) (m/f/d)",
+   "company": "fonio",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager (m/w/d) (Sales-Manager/in)",
+   "company": "Motel One Germany BetriebsGmbH",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Junior Sales Manager / Sales Assistant (m/w/x)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vertriebsleiter/innen",
+   "company": "Medtronic Österreich",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales-Manager_in",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Advisor (m/w/d) Wien",
+   "company": "Globe personal services",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales-Catering Mitarbeiter_in",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager_in Maschinenbau",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager_in Sondermaschinenbau",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VERTRIEBSBERATER_IN INNENDIENST / INSIDE SALES (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior SAP Sales Consultant (w/m/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Sales / Account Executive (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES MANAGER (M/W/D) B2B - ÖSTERREICHT-OST, SLOWENIEN & KROATIEN (Sales-Manager/in)",
+   "company": "Th. Geyer Ingredients GmbH & Co. KG",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "EXPORT SALES MANAGER/IN",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales & Showroom Specialist (M I W I D)",
+   "company": "steininger.designers",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Inside Sales/Customer Service Coordinator (m/w/d)",
+   "company": "RECOM Power",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Werkstudent:in Sales (m/w/d)",
+   "company": "Northscope",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES AGENT(m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager (m/w/d)",
+   "company": "Hotel Hotel Imperial Vienna",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager_in (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Consultant (m/w/x)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Assistant (m/w/x)",
+   "company": "SNIPES",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Assistant (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Stylist/in / Modeberater/in",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Junior Sales & Project Manager_in  AT",
+   "company": "Mediaplanet",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Talent Pool: Client Relationship & Sales Allrounder (m|w|d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Specialist New Business (w/m/x) - Energy Services",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Account Manager_in - Medizintechnik / Diagnostik",
+   "company": "Sales Passion",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES ASSISTANT (M/W/X) WIEN",
+   "company": "ZARA",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES ASSISTANT (M/W/X) WIEN",
+   "company": "Bershka",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Sales Assistant (m/w/x)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "B2B Sales Manager (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pre-Sales Consultant (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager (m/w/d) Textilbranche",
+   "company": "Trenkwalder Personaldienste",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Lead Poland (m/f/d)",
+   "company": "fonio",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES ASSISTANT (M/W/X) WIEN",
+   "company": "ZARA",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Sales Expert (f/m/x)",
+   "company": "enspired",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Support - Immobilienvermittlung (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES ASSISTANT (M/W/X) WIEN",
+   "company": "Pull & Bear",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Excellence Manager (m/w/x)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Technical Sales Coach (m/w/x)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES ASSISTANT (M/W/X) WIEN",
+   "company": "STRADIVARIUS",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES ASSISTANT (M/W/X) WIEN",
+   "company": "STRADIVARIUS",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES ASSISTANT (M/W/X) WIEN",
+   "company": "Pull & Bear",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES ASSISTANT (M/W/X) WIEN",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES ASSISTANT (M/W/X) WIEN",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Enablement Manager (m/f/d)",
+   "company": "fonio",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Convention Sales Coordinator (m/w/x)\n",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mitarbeiter (m/w/d) Sales Support / Vertriebsinnendienst, 30 Std. / Woche",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager Außendienst (all genders) - Neukundengewinnung & Marktausbau im B2B-Vertrieb",
+   "company": "ISG Personalmanagement",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CRM Manager_in mit Fokus B2B Sales",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mitarbeiter (m/w/d) Customer Service & Sales Support, 30 Std. / Woche",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mitarbeiter (m/w/d) Customer Service & Sales Support, 30 Std. / Woche",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales-Manager für Reisebüro (w/m/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "International Sales Manager (m/w/d) Traffic",
+   "company": "Sales Passion",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales & Business Development Manager (m/w/d)",
+   "company": "Rail Expert Consult",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager (m/w/x) - Prüf- & Zertifizierungsdienstleistungen",
+   "company": "OFFNER.tech",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sachbearbeiter(m/w/d) Service Sales Support",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Analytics & CRM Specialist (m/w/d)",
+   "company": "Trenkwalder Personaldienste",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vice President Global Sales (m/f/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Junior Sales Consultant (m/w/d) - Wien",
+   "company": "Hays Österreich",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Management Trainee Program - Sales (w/m/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "International Sales- und Exportmanager:in  (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "C# Developer für Dynamics 365 Sales (CRM)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Sales Manager_in mit Option zur Standortgeschäftsleitung",
+   "company": "steininger.designers",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Regional IT Sales Manager (m/w/d) - Ostösterreich",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES-TALENTE (m/w/d) im Innendienst - B2B",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "A1 B2B Inside Sales Verkäufer (m/w/d)",
+   "company": "Squadra Personalmanagement",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager_in (m/w/x) im B2B-Bereich",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Technical Sales Support Engineer Gebäudeautomation (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Mitarbeiter (m/w/d) - Teilzeit & flexible Arbeitszeiten",
+   "company": "ManpowerGroup",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Business Development & Sales Lead - Water Monitoring (m/f/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Business Development & Sales Lead - Bioprocess Analytics (m/f/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Convention Sales Executive im Cluster Wien (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SALES MANAGER DIGITAL MEDIA-PARTNERSHIPS (W/M/X) - FUTUREZONE.AT",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Consultant - IoT & AI GreenTech Scale-UP (m/w/d)",
+   "company": "Wohnio",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Executive, B2B SaaS App, IT-Firma, Wien (w/m/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Account Manager/in/Sales Engineer (Vertriebsing.) (w/m/x) - Referenznummer: 690749",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Area Sales Manager (m/w/d) für Wien, Niederösterreich & Burgenland - Lüftungstechnik",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Verkaufsberater_in/Sales Manager (m/w/d) - Premium Whirlpools & SwimSpas Standort Wien",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "After Sales Area Manager Automobile & Motorrad (m/w/d) für unseren Kunden in Wien, Favoriten",
+   "company": "SYNERGIE Personal Austria",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Leit. Tech. Berater_in",
+   "company": "Medtronic Österreich",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vertriebsprofi Projektgeschäft im Außendienst (m/w/d) HKLS",
+   "company": "Sales Passion",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Key Account Manager (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mitarbeiter (m/w/d) Kundenbetreuung & Sales Support, 30 Std. / Woche, Betriebsstätte der G... (Betriebswirt/in (Fachschule) - Catering/Verpflegungsmanagement/Bachelor Professional in Wirtschaft)",
+   "company": "GMS GOURMET GmbH",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Partnership Account Manager (m/w/d)",
+   "company": "fonio",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Spezialist Vertriebssteuerung (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vertriebsprofi im Außendienst - BLUECARE & MATS (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Fachberater_in im Außendienst - Straßenbau und Korrosionsschutz",
+   "company": "Sales Passion",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Key Account Manager (m/w/d)",
+   "company": "TRENKWALDER Personaldienste",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Account Manager Spain (m/f/d)",
+   "company": "fonio",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Account Manager France (m/f/d)",
+   "company": "fonio",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Account Manager DACH (m/w/d)",
+   "company": "fonio",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Consultant SAP Group Reporting/Konsolidierung (m/w/d)",
+   "company": "siehe Beschreibung",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Founding Account Executive - Agentische Finanz (m/w/d)",
+   "company": "Northscope",
+   "location": "Vienna, Austria (AT130)",
+   "provider": "EURES",
+   "found": 10296,
+   "role": "yes",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "Account Executive (Italian)",
+   "company": "Fonio",
+   "location": "Barcelona; Vienna",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Executive (Polish)",
+   "company": "Fonio",
+   "location": "Vienna; Warsaw",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Executive (Spanish)",
+   "company": "Fonio",
+   "location": "Barcelona; Vienna",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Executive (UK)",
+   "company": "Fonio",
+   "location": "London; Vienna",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager (French)",
+   "company": "Fonio",
+   "location": "Barcelona; Vienna",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager (German)",
+   "company": "Fonio",
+   "location": "Vienna",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager (Spanish)",
+   "company": "Fonio",
+   "location": "Barcelona; Vienna",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager - Polish Market",
+   "company": "Fonio",
+   "location": "Warsaw; Vienna",
+   "provider": "Fonio",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Junior Customer Success Manager (DACH)",
+   "company": "Fonio",
+   "location": "Vienna",
+   "provider": "Fonio",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Partnership Account Executive (DACH)",
+   "company": "Fonio",
+   "location": "Vienna",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Sales Developement Representative (French)",
+   "company": "Fonio",
+   "location": "Barcelona; Vienna",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Sales Development Representative (Dutch)",
+   "company": "Fonio",
+   "location": "Barcelona; Vienna",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Sales Development Representative (German-speaking)",
+   "company": "Fonio",
+   "location": "Vienna; Barcelona",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Customer Success Manager (DACH)",
+   "company": "Fonio",
+   "location": "Vienna",
+   "provider": "Fonio",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Customer Success Manager (French)",
+   "company": "Fonio",
+   "location": "Vienna; Barcelona",
+   "provider": "Fonio",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Customer Success Manager (Italian)",
+   "company": "Fonio",
+   "location": "Barcelona; Vienna",
+   "provider": "Fonio",
+   "role": "no",
+   "place": "yes"
+  }
+ ],
+ "ours_shown": 16
+}

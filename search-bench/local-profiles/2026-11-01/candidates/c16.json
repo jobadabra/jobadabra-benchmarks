@@ -1,0 +1,204 @@
+{
+ "candidate": {
+  "id": "c16",
+  "family": "sales",
+  "title": "Sales Representative",
+  "city": "Toulouse",
+  "country": "France",
+  "language": "French",
+  "filter": "frj",
+  "prefix": "FRJ2",
+  "region": "Occitanie (Toulouse)"
+ },
+ "result": {
+  "id": "c16",
+  "city": "Toulouse",
+  "country": "France",
+  "role": "Sales Representative",
+  "family": "sales",
+  "language": "French",
+  "x_by_count": 10,
+  "eures_rows_in_region": 17,
+  "searched": true,
+  "n_found": 0,
+  "jobs_shown": 0,
+  "overlap": 0,
+  "x_pooled": 10,
+  "search_seconds": 92,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "Field Representative Senior - Technicien Support Terrain (H/F)",
+   "company": "NBTECH TOULOUSE",
+   "location": "Occitanie (Toulouse), France (FRJ23)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager (H/F/NB)",
+   "company": "Non renseigné",
+   "location": "Occitanie (Toulouse), France (FRJ27)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager Senior Grands Comptes - Colomiers (H/F)",
+   "company": "Non renseigné",
+   "location": "Occitanie (Toulouse), France (FRJ23)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Product Owner SAP S - 4Hana - Sales & Service (H/F)",
+   "company": "NBTECH TOULOUSE",
+   "location": "Occitanie (Toulouse), France (FRJ23)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Strategy & pricing manager - blagnac f/h (H/F)",
+   "company": "Non renseigné",
+   "location": "Occitanie (Toulouse), France (FRJ23)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commercial BtoB Saas (H/F)",
+   "company": "ARES SIGNUM",
+   "location": "Occitanie (Toulouse), France (FRJ23)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commercial sédentaire (H/F)",
+   "company": "Non renseigné",
+   "location": "Occitanie (Toulouse), France (FRJ28)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Responsable Commercial France (F/H)",
+   "company": "Non renseigné",
+   "location": "Occitanie (Toulouse), France (FRJ23)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Responsable Régional Développement des Ventes -Valence - H/F",
+   "company": "CARGLASS SERVICES",
+   "location": "Occitanie (Toulouse), France (FRJ28)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Commercial / Commerciale auprès d'une clientèle d'entreprises (H/F)",
+   "company": "UPTOO\n        ",
+   "location": "Occitanie (Toulouse), France (FRJ23)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Avionics retrofit systems manager (m/f) (h/f) (H/F)",
+   "company": "Non renseigné",
+   "location": "Occitanie (Toulouse), France (FRJ23)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Ingénieur/e SE/MBSE - Aéronautique - Toulouse (H/F)",
+   "company": "Non renseigné",
+   "location": "Occitanie (Toulouse), France (FRJ23)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Account Manager (H/F)",
+   "company": "ARES SIGNUM",
+   "location": "Occitanie (Toulouse), France (FRJ23)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Ingénieur Sûreté Aéronautique (H/F)",
+   "company": "AIRBUS",
+   "location": "Occitanie (Toulouse), France (FRJ23)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "COMMERCIAL(E) DEBUTANT(E) (H/F)",
+   "company": "VERISURE",
+   "location": "Occitanie (Toulouse), France (FRJ25)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commercial en agence de placement (H/F)",
+   "company": "Work&You",
+   "location": "Occitanie (Toulouse), France (FRJ24)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commercial transport (H/F)",
+   "company": "Fed Supply",
+   "location": "Occitanie (Toulouse), France (FRJ23)",
+   "provider": "EURES",
+   "found": 34650,
+   "role": "yes",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": null,
+ "ours_shown": 0
+}

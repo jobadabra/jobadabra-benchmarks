@@ -1,0 +1,222 @@
+[
+ {
+  "id": "c01",
+  "family": "accountant",
+  "title": "Accountant",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "language": "Dutch",
+  "filter": "nl3",
+  "prefix": "NL32",
+  "region": "Noord-Holland (Amsterdam area)"
+ },
+ {
+  "id": "c02",
+  "family": "sales",
+  "title": "Sales Representative",
+  "city": "Vienna",
+  "country": "Austria",
+  "language": "German",
+  "filter": "at1",
+  "prefix": "AT13",
+  "region": "Vienna"
+ },
+ {
+  "id": "c03",
+  "family": "nurse",
+  "title": "Registered Nurse",
+  "city": "Lyon",
+  "country": "France",
+  "language": "French",
+  "filter": "frk",
+  "prefix": "FRK2",
+  "region": "Auvergne-Rhone-Alpes (Lyon area)"
+ },
+ {
+  "id": "c04",
+  "family": "electrician",
+  "title": "Electrician",
+  "city": "Madrid",
+  "country": "Spain",
+  "language": "Spanish",
+  "filter": "es3",
+  "prefix": "ES30",
+  "region": "Madrid region"
+ },
+ {
+  "id": "c05",
+  "family": "civil-engineer",
+  "title": "Civil Engineer",
+  "city": "Milan",
+  "country": "Italy",
+  "language": "Italian",
+  "filter": "itc",
+  "prefix": "ITC4",
+  "region": "Lombardy (Milan area)"
+ },
+ {
+  "id": "c06",
+  "family": "mechanic",
+  "title": "Car Mechanic",
+  "city": "Prague",
+  "country": "Czechia",
+  "language": "Czech",
+  "filter": "cz0",
+  "prefix": "CZ01",
+  "region": "Prague"
+ },
+ {
+  "id": "c07",
+  "family": "teacher",
+  "title": "Secondary School Teacher",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "language": "Danish",
+  "filter": "dk0",
+  "prefix": "DK01",
+  "region": "Capital Region of Denmark"
+ },
+ {
+  "id": "c08",
+  "family": "pharmacist",
+  "title": "Pharmacist",
+  "city": "Oslo",
+  "country": "Norway",
+  "language": "Norwegian",
+  "filter": "no0",
+  "prefix": "NO08",
+  "region": "Oslo"
+ },
+ {
+  "id": "c09",
+  "family": "hotel",
+  "title": "Hotel Receptionist",
+  "city": "Tallinn",
+  "country": "Estonia",
+  "language": "Estonian",
+  "filter": "ee0",
+  "prefix": "EE00",
+  "region": "Estonia (Tallinn)"
+ },
+ {
+  "id": "c10",
+  "family": "welder",
+  "title": "Welder",
+  "city": "Ljubljana",
+  "country": "Slovenia",
+  "language": "Slovenian",
+  "filter": "si0",
+  "prefix": "SI04",
+  "region": "Central Slovenia (Ljubljana)"
+ },
+ {
+  "id": "c11",
+  "family": "nurse",
+  "title": "Registered Nurse",
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "language": "Slovak",
+  "filter": "sk0",
+  "prefix": "SK01",
+  "region": "Bratislava region"
+ },
+ {
+  "id": "c12",
+  "family": "electrician",
+  "title": "Electrician",
+  "city": "Graz",
+  "country": "Austria",
+  "language": "German",
+  "filter": "at2",
+  "prefix": "AT22",
+  "region": "Styria (Graz)"
+ },
+ {
+  "id": "c13",
+  "family": "pharmacist",
+  "title": "Pharmacist",
+  "city": "Brno",
+  "country": "Czechia",
+  "language": "Czech",
+  "filter": "cz0",
+  "prefix": "CZ06",
+  "region": "South Moravia (Brno)"
+ },
+ {
+  "id": "c14",
+  "family": "accountant",
+  "title": "Accountant",
+  "city": "Bologna",
+  "country": "Italy",
+  "language": "Italian",
+  "filter": "ith",
+  "prefix": "ITH5",
+  "region": "Emilia-Romagna (Bologna)"
+ },
+ {
+  "id": "c15",
+  "family": "teacher",
+  "title": "Secondary School Teacher",
+  "city": "Valencia",
+  "country": "Spain",
+  "language": "Spanish",
+  "filter": "es5",
+  "prefix": "ES52",
+  "region": "Valencia region"
+ },
+ {
+  "id": "c16",
+  "family": "sales",
+  "title": "Sales Representative",
+  "city": "Toulouse",
+  "country": "France",
+  "language": "French",
+  "filter": "frj",
+  "prefix": "FRJ2",
+  "region": "Occitanie (Toulouse)"
+ },
+ {
+  "id": "c17",
+  "family": "civil-engineer",
+  "title": "Civil Engineer",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "language": "Dutch",
+  "filter": "nl3",
+  "prefix": "NL33",
+  "region": "South Holland (Rotterdam)"
+ },
+ {
+  "id": "c18",
+  "family": "mechanic",
+  "title": "Car Mechanic",
+  "city": "Seville",
+  "country": "Spain",
+  "language": "Spanish",
+  "filter": "es6",
+  "prefix": "ES61",
+  "region": "Andalusia (Seville)"
+ },
+ {
+  "id": "c19",
+  "family": "hotel",
+  "title": "Hotel Receptionist",
+  "city": "Paris",
+  "country": "France",
+  "language": "French",
+  "filter": "fr1",
+  "prefix": "FR10",
+  "region": "Ile-de-France (Paris)"
+ },
+ {
+  "id": "c20",
+  "family": "welder",
+  "title": "Welder",
+  "city": "Naples",
+  "country": "Italy",
+  "language": "Italian",
+  "filter": "itf",
+  "prefix": "ITF3",
+  "region": "Campania (Naples)"
+ }
+]
