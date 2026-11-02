@@ -5,7 +5,7 @@
 #   about $0.77 a week), on Mondays. Each Monday it draws 6 forms nobody has seen: career-ops' list
 # (pinned tag), minus every company in our product repo, this repo's form lists and runs, the fixed set and every earlier week
 # (tools/excluded.sh), seeded by the ISO week so anyone can redo it. Ids YYWW*100+1.. so a form id names one form in every round.
-# The draw goes to the branch weekly-picks (weekly/<week>.json; main is merged by hand), then the form round runs all four tools once on
+# The draw goes to the tag weekly-picks (weekly/<week>.json; main is merged by hand), then the form round runs all four tools once on
 # it and publishes itself as week-YYYY-Www. Never Submit (lib/guard.mjs), fake applicant only, as in every round.
 name: form weekly (fixed set + new set)
 on:
@@ -13,7 +13,7 @@ on:
     - cron: '0 6 * * *'   # 06:00 UTC daily; the `when` job picks the day's rounds
   workflow_dispatch:
 permissions:
-  contents: write   # the weekly-picks branch
+  contents: write   # moves the tag weekly-picks; Why (2 Nov 2026, owner: "let's use tags not branches for storing things. Otherwise, they keep popping up like that"): the weekly-picks state is the TAG weekly-picks (tools/state-tag.sh: read, and a compare-and-swap write); a pushed branch made GitHub offer "Compare & pull request".
   actions: write    # starts the form round
 env:
   CAREER_OPS_TAG: career-ops-v1.38.0
@@ -55,9 +55,9 @@ jobs:
       - name: career-ops' company list (pinned)
         uses: actions/checkout@v5
         with: {repository: career-ops-hq/career-ops, ref: '${{ env.CAREER_OPS_TAG }}', path: career-ops, persist-credentials: false, sparse-checkout: templates}
-      - name: Earlier weeks (branch weekly-picks)
+      - name: Earlier weeks (tag weekly-picks)
         run: |
-          git fetch -q origin weekly-picks && git worktree add -q picks FETCH_HEAD || { git worktree add -q --orphan -b weekly-picks picks; }
+          tools/state-tag.sh read weekly-picks picks
           mkdir -p picks/weekly; ls picks/weekly
       - name: Draw this week's 6 forms
         id: draw
@@ -68,12 +68,10 @@ jobs:
           node pick-forms.mjs career-ops/templates/portals.example.yml excluded.txt "picks/weekly/$week.json" --seed "week-$week" --first-id "$first"
           test "$(node -e "console.log(require('./picks/weekly/$week.json').picks.length)")" = 6
           echo "week=$week" | tee -a "$GITHUB_OUTPUT"
-      - name: Keep the draw (branch weekly-picks)
+      - name: Keep the draw (tag weekly-picks)
         env: {WEEK: '${{ steps.draw.outputs.week }}'}
         run: |
-          cd picks && git add "weekly/$WEEK.json"
-          git -c user.name=github-actions -c user.email=github-actions@users.noreply.github.com commit -q -m "Weekly new set $WEEK"
-          git push -q origin HEAD:weekly-picks
+          tools/state-tag.sh write weekly-picks picks "Weekly new set $WEEK" "weekly/$WEEK.json"
       - name: The form round on it (all four tools, 1 repeat), publishing as week-YYYY-Www
         env: {GH_TOKEN: '${{ github.token }}', WEEK: '${{ steps.draw.outputs.week }}'}
         run: |

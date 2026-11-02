@@ -1,5 +1,5 @@
 // tools/excluded.sh: every web address in the product repo's tracked files, this repo's form lists and saved runs, and any extra dir
-// (the weekly-picks branch) is on the list, lowercased, host + first path part; an untracked product file is not read.
+// (the weekly-picks tag) is on the list, lowercased, host + first path part; an untracked product file is not read.
 import test from 'node:test'; import assert from 'node:assert/strict'; import fs from 'node:fs'; import os from 'node:os'; import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 const SCRIPT = new URL('../tools/excluded.sh', import.meta.url).pathname;
