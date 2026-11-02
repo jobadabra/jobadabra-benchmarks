@@ -27,6 +27,8 @@ const isUnitTests = text => !/secrets\./.test(text) && /^\s+- run: python3 -I se
 const LABELS = {'gitar-label.yml': ['pull_request_target', 'pull_request_review', 'issue_comment'], 'conflict-label.yml': ['push', 'pull_request_target']};
 for (const f of files) {
   const text = fs.readFileSync(path.join(dir, f), 'utf8');
+  // Why (2 Nov 2026, Gitar on benchmarks#16): the org's PR checks (jobadabra templates/org-repo/pr-checks.yml) start on pull_request only and hold no secret: the PR-description check and "All checks passed".
+  if (f === 'pr-checks.yml') { test(`${f}: org PR checks, exact trigger, no secret`, () => { assert.deepEqual(triggersOf(text), ['pull_request']); assert.doesNotMatch(text, /secrets\./); }); continue; }
   if (LABELS[f]) { test(`${f}: PR label workflow, exact triggers, no secret`, () => { assert.deepEqual(triggersOf(text), LABELS[f]); assert.doesNotMatch(text, /secrets\./);
     // Why (2 Nov 2026, Gitar on web#258 and #307): the scripts come from jobadabra's main as FILE patterns (cone mode reads each entry as a folder and fetches nothing), and a YAML block has no comments.
     assert.match(text, /sparse-checkout-cone-mode: false/); assert.match(text, /repository: jobadabra\/jobadabra[^\n]*\n\s+ref: main\n/);
