@@ -3,7 +3,7 @@ Each keeps the FIRST 100 results it shows (about five pages), as judge pool rows
 Usage (on CI only, by hand: .github/workflows/search-rivals.yml): python3 rivals.py <jobspy|eures|adzuna> <personas.json> <index 1-10> <out.json>
 - jobspy: python-jobspy as shipped (LinkedIn, Indeed, Glassdoor, Google), one call per site, no login or cookies. Its reads stay in this
   benchmark: never copied into Jobadabra's product or index (owner, 27 Oct 2026).
-- eures: the EU job portal's own public search (no key), the role as keyword and the city's region as the place, as its site lets a person pick.
+- eures: the EU job portal's own public search (no key), the role as keyword and the city's own area (NUTS-3) as the place, each row labelled by its own place codes.
 - adzuna: its public API (ADZUNA_APP_ID / ADZUNA_APP_KEY), the role as `what`, the city as `where`; only the countries Adzuna serves."""
 import json
 import os
@@ -12,11 +12,13 @@ import urllib.parse
 import urllib.request
 
 KEEP = 100
-# The persona city's region, as EURES lists places (NUTS 2), and its name for the judge.
-REGIONS = {'Sofia': ('bg41', 'Sofia region (Yugozapaden)'), 'Cluj-Napoca': ('ro11', 'Cluj region (Nord-Vest)'), 'Brussels': ('be10', 'Brussels-Capital Region'),
-           'Zurich': ('ch04', 'Zurich region'), 'Krakow': ('pl21', 'Krakow region (Malopolskie)'), 'Zagreb': ('hr05', 'City of Zagreb'),
-           'Stockholm': ('se11', 'Stockholm region'), 'Nuremberg': ('de25', 'Nuremberg region (Mittelfranken)'), 'Helsinki': ('fi1b', 'Helsinki-Uusimaa'),
-           'Lisbon': ('pt17', 'Lisbon metropolitan area')}
+# The persona city's own area, as EURES lists places (NUTS 3, NUTS 2021), and that area's name for the judge.
+# Why (2 Nov 2026, Gitar on benchmarks#12): a NUTS-2 prefix plus the region's name as every row's place made Blagoevgrad jobs read as Sofia, so the judge
+# said "right place" for jobs in another town. The prefix is the city's own code; the label is built from each row's own codes (xcount.py in local-profiles/2026-11-01).
+REGIONS = {'Sofia': ('bg411', 'Sofia (stolitsa)'), 'Cluj-Napoca': ('ro113', 'Cluj'), 'Brussels': ('be100', 'Brussels-Capital Region'),
+           'Zurich': ('ch040', 'Zurich'), 'Krakow': ('pl213', 'Krakow (city)'), 'Zagreb': ('hr050', 'City of Zagreb'),
+           'Stockholm': ('se110', 'Stockholm county'), 'Nuremberg': ('de254', 'Nuremberg (city)'), 'Helsinki': ('fi1b1', 'Helsinki-Uusimaa'),
+           'Lisbon': ('pt170', 'Lisbon metropolitan area')}
 ADZUNA = {'Belgium': 'be', 'Switzerland': 'ch', 'Poland': 'pl', 'Germany': 'de', 'Austria': 'at', 'France': 'fr', 'Netherlands': 'nl', 'Spain': 'es', 'Italy': 'it'}
 
 
@@ -27,9 +29,9 @@ def post(url, body):
 
 def eures(p):
     """EURES's place filter takes large regions only (NUTS 1, e.g. be1; be10 returns nothing): that region's best matches, page by page
-    (at most 10 pages of 50), keeping those whose place code lies in the city's own region (NUTS 2), until 100 are kept."""
+    (at most 10 pages of 50), keeping those whose place code lies in the city's own area (NUTS 3), until 100 are kept. Each row's place is built from its own codes in that area."""
     region, name = REGIONS[p['city']]
-    rows, scanned, place = [], 0, region[:3]
+    rows, scanned, place, coarse = [], 0, region[:3], 0   # coarse = jobs whose only codes are broader than the city's area (no town known)
     for page in range(1, 11):
         body = {'resultsPerPage': 50, 'page': page, 'sortSearch': 'BEST_MATCH', 'keywords': [{'keyword': p['title'], 'specificSearchCode': 'EVERYWHERE'}],
                 'publicationPeriod': None, 'occupationUris': [], 'skillUris': [], 'requiredExperienceCodes': [], 'positionScheduleCodes': [], 'sectorCodes': [],
@@ -41,11 +43,16 @@ def eures(p):
         jvs = data.get('jvs', []); scanned += len(jvs)
         for j in jvs:
             places = [c for codes in (j.get("locationMap") or {}).values() for c in (codes or []) if c]
-            if any(c.upper().startswith(region.upper()) for c in places):
+            inside = [c for c in places if c.upper().startswith(region.upper())]
+            if not inside and any(region.upper().startswith(c.upper()) for c in places):
+                coarse += 1
+            if inside:
                 rows.append({'tool': 'eures', 'title': j.get('title') or '', 'company': (j.get('employer') or {}).get('name') or '',
-                             'location': f"{name}, {p['country']} ({', '.join(places)})", 'provider': 'EURES', 'found': data.get('numberRecords'), 'filter': place})
+                             'location': f"{p['city']} area ({name}, {', '.join(inside)}), {p['country']}", 'provider': 'EURES', 'found': data.get('numberRecords'), 'filter': place})
         if len(rows) >= KEEP or len(jvs) < 50:
             break
+    if not rows and coarse:
+        return None   # Why (2 Nov 2026, coordinator on benchmarks#14): jobs that carry only a region code (Krakow: PL21) do not say which town, so "none in the city" is unknown, never 0
     for r in rows:
         r['scanned'] = scanned
     return rows[:KEEP]
@@ -90,6 +97,6 @@ if __name__ == '__main__':
     else:
         rows = {'eures': eures, 'adzuna': adzuna}[kind](p)
     meta = {'rival': kind, 'persona': p, 'kept': None if rows is None else len(rows), 'notServed': rows is None, 'errors': errors}
-    json.dump(rows or [], open(out, 'w'), ensure_ascii=False, indent=1)
+    json.dump(rows, open(out, 'w'), ensure_ascii=False, indent=1)   # Why (2 Nov 2026, coordinator): null = not served / not measured; pool.mjs lists a non-list as missing (unknown), an empty list is a real 0
     json.dump(meta, open(out.replace('.json', '.meta.json'), 'w'), ensure_ascii=False, indent=1)
     print(kind, p['city'], 'not served' if rows is None else f'{len(rows)} rows', json.dumps(errors)[:300])

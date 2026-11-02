@@ -13,13 +13,13 @@ const key = row => [row.title, row.company, row.location].map(part => (part || '
 const relevant = row => row.role === 'yes' && row.place === 'yes';
 
 /** rowsByPersona: {N: judged rows of persona N} (judge.py's rows) -> {round, build, tools: {tool: {relevant, found}}, personas: {N: {label, relevant, found}}} (personas: ours only) */
-export function noteOf(rowsByPersona, {round = '', build = '', labels = {}, missing = [], rivalsOff = false} = {}) {
+export function noteOf(rowsByPersona, {round = '', build = '', labels = {}, missing = [], notServed = [], rivalsOff = false} = {}) {
   const tools = {}, personas = {}, beyond = {};
   for (const [n, rows] of Object.entries(rowsByPersona)) {
     for (const rival of RIVALS) {   // our relevant jobs (every source on) that this rival did not show, summed over the personas
       const seen = new Set(rows.filter(row => row.tool === rival).map(key));
       // Why (27 Oct 2026, gitar-bot, #9): a rival whose job failed has no rows; counting every ours-all job as beyond it would show a made-up lead.
-      if (!missing.includes(`${rival} p${n}`) && rows.some(row => row.tool === 'ours-all')) beyond[rival] = (beyond[rival] || 0) + rows.filter(row => row.tool === 'ours-all' && relevant(row) && !seen.has(key(row))).length;
+      if (!missing.includes(`${rival} p${n}`) && !notServed.includes(`${rival} p${n}`) && rows.some(row => row.tool === 'ours-all')) beyond[rival] = (beyond[rival] || 0) + rows.filter(row => row.tool === 'ours-all' && relevant(row) && !seen.has(key(row))).length;
     }
     for (const row of rows) { const t = (tools[row.tool] ||= {relevant: 0, found: 0}); t.found++; if (relevant(row)) t.relevant++; }
     const ours = rows.filter(row => row.tool === 'ours');
@@ -39,7 +39,7 @@ export function readRound(dir) {
 const diff = (now, then) => (then == null ? '' : now > then ? ` ▲${now - then}` : now < then ? ` ▼${then - now}` : ' =');
 
 /** note, baseline and last (notes or null), {missing: ["ours p3"], url} -> the message text */
-export function noteText(note, baseline, last, {missing = [], url = ''} = {}) {
+export function noteText(note, baseline, last, {missing = [], notServed = [], url = ''} = {}) {
   const ours = note.tools.ours, none = Object.values(note.personas).filter(p => p.relevant === 0).length;
   // Why (27 Oct 2026, gitar-bot, #9): "ours" now runs with the rivals' sources off; the baseline and the notes saved before ran with everything on. Each line is
   // compared only with a reference that ran the same way: ours with a note that has rivalsOff, ours-all with a note's ours-all, or (an old note) its ours, which had every source on.
@@ -57,6 +57,7 @@ export function noteText(note, baseline, last, {missing = [], url = ''} = {}) {
     lines.push(`${p.label}: ${p.relevant} of ${p.found} shown${diff(p.relevant, ref?.relevant)}`);
   }
   if (missing.length) lines.push(`⚠ Missing (a job failed, not a 0): ${missing.join(', ')}`);
+  if (notServed.length) lines.push(`ℹ Not served (the rival has no data for that place; not a failure, not a 0): ${notServed.join(', ')}`);
   if (url) lines.push(url);
   return lines.join('\n');
 }
@@ -65,13 +66,13 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const work = process.argv[2], arg = n => { const i = process.argv.indexOf(`--${n}`); return i > 0 ? process.argv[i + 1] : ''; };
   const personas = rj(path.join(import.meta.dirname, 'personas.json')).personas;
   const labels = Object.fromEntries(personas.map((p, i) => [i + 1, `${p.title} · ${p.city}`]));
-  const missingNow = rj(path.join(work, 'missing.json')) || [];
-  const note = noteOf(readRound(work), {round: arg('round'), build: arg('build'), labels, missing: missingNow, rivalsOff: true});
+  const missingNow = rj(path.join(work, 'missing.json')) || [], notServedNow = rj(path.join(work, 'notserved.json')) || [];
+  const note = noteOf(readRound(work), {round: arg('round'), build: arg('build'), labels, missing: missingNow, notServed: notServedNow, rivalsOff: true});
   const baseline = arg('baseline') ? noteOf(readRound(arg('baseline')), {labels}) : null;
   const lastDir = arg('last'), lastFile = lastDir && fs.existsSync(lastDir) ? fs.readdirSync(lastDir).filter(f => f.endsWith('.json')).sort().at(-1) : '';
   const last = lastFile ? rj(path.join(lastDir, lastFile)) : null;
   const unjudged = personas.map((_, i) => i + 1).filter(n => !fs.existsSync(path.join(work, `judged${n}.json`))).map(n => `judge p${n}`);
-  const text = noteText(note, baseline, last, {missing: [...missingNow, ...unjudged], url: arg('url')});
+  const text = noteText(note, baseline, last, {missing: [...missingNow, ...unjudged], notServed: notServedNow, url: arg('url')});
   if (arg('out')) { fs.mkdirSync(path.dirname(arg('out')), {recursive: true}); fs.writeFileSync(arg('out'), JSON.stringify(note, null, 1) + '\n'); }
   console.log(text);
   const {BENCH_TELEGRAM_BOT_TOKEN: token, BENCH_TELEGRAM_CHAT_ID: chat} = process.env;
