@@ -1,0 +1,1021 @@
+{
+ "candidate": {
+  "id": "c10",
+  "family": "welder",
+  "title": "Welder",
+  "city": "Ljubljana",
+  "country": "Slovenia",
+  "language": "Slovenian",
+  "filter": "si0",
+  "prefix": "SI041",
+  "region": "Osrednjeslovenska"
+ },
+ "result": {
+  "id": "c10",
+  "city": "Ljubljana",
+  "country": "Slovenia",
+  "role": "Welder",
+  "family": "welder",
+  "language": "Slovenian",
+  "x_by_count": 4,
+  "eures_rows_in_region": 68,
+  "searched": true,
+  "n_found": 6,
+  "jobs_shown": 34,
+  "overlap": 4,
+  "x_pooled": 6,
+  "search_seconds": 104,
+  "verdict": "pass"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "VARILEC - M/Ž",
+   "company": "TEO-MONT, gradbene storitve, d.o.o., VI. ulica 14 , 1235 RADOMLJE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VARILEC - M/Ž",
+   "company": "AVTOMOBILSKE STORITVE KENDA D.O.O., Pod lipami 2 , 1370 LOGATEC",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VARILEC - M/Ž",
+   "company": "SPC, storitveno podjetje, d.o.o., Premrlova ulica 11 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "POMOČNIK CEVARJA - M/Ž",
+   "company": "TEO-MONT, gradbene storitve, d.o.o., VI. ulica 14 , 1235 RADOMLJE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CEVAR - M/Ž",
+   "company": "TEO-MONT, gradbene storitve, d.o.o., VI. ulica 14 , 1235 RADOMLJE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "POMOČNIK VARILCA - M/Ž",
+   "company": "TEO-MONT, gradbene storitve, d.o.o., VI. ulica 14 , 1235 RADOMLJE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "NATAKARICA - M/Ž",
+   "company": "Gostinstvo, Ajas Rastoder s.p., Ulica Lojzke Štebijeve 8 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "STREŽBA - M/Ž",
+   "company": "Gostinske storitve, Barbara Koderman Lenček s.p., Zagorica pri Rovah 4 , 1235 RADOMLJE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SERVIRKA II - M/Ž ",
+   "company": "DOM STAREJŠIH OBČANOV KAMNIK, Neveljska pot 26 , 1241 KAMNIK",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "NATAKARICA - M/Ž",
+   "company": "Gostinstvo, Ajas Rastoder s.p., Ulica Lojzke Štebijeve 8 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PRODAJA POHIŠTVA - M/Ž",
+   "company": "AGENCIJA AG64, trgovina in storitve, d.o.o., Jalnova ulica 70 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PRODAJALEC IN SVETOVALEC NA ODDELKU SPALNIC IN DROBNEGA POHIŠTVA - M/Ž",
+   "company": "RUTAR MARKETING, TRGOVSKA D.O.O., Premrlova ulica 14 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "DELAVEC V TRGOVINI - M/Ž",
+   "company": "MEDITERRANEO, trgovina in gostinstvo, d.o.o., Italijanska ulica 7 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PRODAJALEC VOZIL - M/Ž",
+   "company": "AVTO MOSTE, trgovina in servis, d.o.o., Vodovodna cesta 93 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PRODAJALEC VOZIL - M/Ž",
+   "company": "INTERCLASS CARS TRGOVINA, SERVIS IN DRUGE STORITVE, D.O.O., Gorjupova ulica 1 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "KOMERCIALIST - M/Ž",
+   "company": "Vector Medical Group, trgovina in zastopanje d.o.o., Rozmanova ulica 33 , 8270 KRŠKO",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "PRODAJALEC GRADBENEGA IN TEHNIČNEGA MATERIALA V TRGOVINI NA LAVRICI - M/Ž",
+   "company": "SBS TRGOVINA D.O.O., PODJETJE ZA ZUNANJO IN NOTRANJO TRGOVINO, PROIZVODNJO IN STORITVE, Dolenjska cesta 320 , 1291 ŠKOFLJICA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PRODAJALEC RIB - M/Ž",
+   "company": "Ribarnica Aleš d.o.o.; Ribarnica Aleš d.o.o., PE Ljubljana, Adamič-Lundrovo nabrežje 3 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PRODAJALEC RIB - M/Ž",
+   "company": "Ribarnica Aleš d.o.o.; Ribarnica Aleš d.o.o., PE Ljubljana, Adamič-Lundrovo nabrežje 3 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SVETOVALEC V SLUŽBI ZA ORGANIZIRANJE DELA MESTNEGA SVETA (ŠIFRA DM: 152) - M/Ž",
+   "company": "MESTNA OBČINA LJUBLJANA, Mestni trg 1 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "DIREKTOR OBČINSKE UPRAVE - M/Ž",
+   "company": "OBČINA MORAVČE, Vegova ulica 9 , 1251 MORAVČE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SOCIALNI DELAVEC III, ZA POTREBE NEVROLOŠKE KLINIKE, KLINIČNO INŠTITUT ZA KLINIČNO NEVROFIZIOLOGIJO, M/Ž - M/Ž",
+   "company": "UNIVERZITETNI KLINIČNI CENTER LJUBLJANA, Zaloška cesta 2 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "STROKOVNI DELAVEC NA CSD III - PRIPRAVNIK - ENOTA LOGATEC - SISTEM PRIPRAVNIŠTVA - M/Ž ",
+   "company": "Center za socialno delo Ljubljana, Dalmatinova ulica 2 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "STROKOVNI DELAVEC NA CSD III - PRIPRAVNIK - ENOTA VRHNIKA - SISTEM PRIPRAVNIŠTVA - M/Ž",
+   "company": "Center za socialno delo Ljubljana, Dalmatinova ulica 2 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "STROKOVNI DELAVEC NA CSD I - ENOTA LJUBLJANA MOSTE POLJE - M/Ž",
+   "company": "Center za socialno delo Ljubljana, Dalmatinova ulica 2 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "STROKOVNI DELAVEC NA CSD I - ENOTA VRHNIKA - M/Ž",
+   "company": "Center za socialno delo Ljubljana, Dalmatinova ulica 2 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "USKLAJEVALEC OSEBNE ASISTENCE - M/Ž",
+   "company": "Zavod za osebno asistenco in pomoč na domu Generacije, Brekovice 3 , 4226 ŽIRI",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "STROKOVNI VODJA OA - M/Ž",
+   "company": "Zavod za osebno asistenco in pomoč na domu Generacije, Brekovice 3 , 4226 ŽIRI",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ODČITOVALEC - M/Ž",
+   "company": "JAVNO PODJETJE VODOVOD KANALIZACIJA SNAGA d.o.o., Vodovodna cesta 90 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VOZNIK TOVORNEGA VOZILA - DELO V IVANČNI GORICI - M/Ž",
+   "company": "SBS TRGOVINA D.O.O., PODJETJE ZA ZUNANJO IN NOTRANJO TRGOVINO, PROIZVODNJO IN STORITVE, Dolenjska cesta 320 , 1291 ŠKOFLJICA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "STROKOVNI SODELAVEC V STANOVANJSKI SKUPINI - M/Ž",
+   "company": "ŠENT - SLOVENSKO ZDRUŽENJE ZA DUŠEVNO ZDRAVJE, Šmartinska cesta 130 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VIŠJI PRAVOSODNI SVETOVALEC (PDI) – STROKOVNI SODELAVEC (PREISKOVALNI ODDELEK) - M/Ž",
+   "company": "OKROŽNO SODIŠČE V LJUBLJANI, Tavčarjeva ulica 9 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VIŠJI PRAVOSODNI SVETOVALEC (PDI) – STROKOVNI SODELAVEC V SPECIALIZIRANEM ODDELKU - M/Ž",
+   "company": "OKROŽNO SODIŠČE V LJUBLJANI, Tavčarjeva ulica 9 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VIŠJI PRAVOSODNI SVETOVALEC (PDI) – STROKOVNI SODELAVEC (KAZENSKI ODDELEK) - M/Ž",
+   "company": "OKROŽNO SODIŠČE V LJUBLJANI, Tavčarjeva ulica 9 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "POMOČNIK MONTERJA - M/Ž",
+   "company": "MK Montage, montaža in gradbeništvo, d.o.o., Vodnikova cesta 229 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "POMOŽNI GRADBENI DELAVEC - M/Ž",
+   "company": "BITGRAD, gradbeništvo, Armend Ajdini s.p., Parmova ulica 53 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SVETOVALEC V PRAVOSODJU v Službi za brezplačno pravno pomoč - M/Ž",
+   "company": "OKROŽNO SODIŠČE V LJUBLJANI, Tavčarjeva ulica 9 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VODJA KAKOVOSTI - M/Ž",
+   "company": "AVTO KRKA ISO, trgovina, servis, zastopstvo, d.o.o., Cankarjeva cesta 16 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "NAMEŠČEVALEC OGLASNIH SPOROČIL NA VOZILIH - M/Ž",
+   "company": "MEDIA BUS PODJETJE ZA EKONOMSKO PROPAGANDO D.O.O., Breznikova cesta 7 A, 1230 DOMŽALE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VODJA KAKOVOSTI - M/Ž",
+   "company": "AVTO KRKA ISO, trgovina, servis, zastopstvo, d.o.o., Cankarjeva cesta 16 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "DELAVEC V PROIZVODNJI - M/Ž",
+   "company": "EZS PROIZVODNJA, TRGOVINA, INŽENIRING, D.O.O., GROSUPLJE, Brezje pri Grosupljem 10 , 1290 GROSUPLJE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PODSEKRETAR ZA PRAVNE ZADEVE - M/Ž",
+   "company": "OBČINA LOGATEC, Tržaška cesta 50 A, 1370 LOGATEC",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TEHNIČNI UREDNIK VI (MMC) - M/Ž",
+   "company": "RADIOTELEVIZIJA SLOVENIJA JAVNI ZAVOD, LJUBLJANA, Kolodvorska ulica 2 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VODJA DELAVNICE IN MONTAŽE - M/Ž",
+   "company": "MAORI, odrska in scenska tehnika, d.o.o., Savlje 87 G, 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SAMOSTOJNI STROKOVNI SVETOVALEC PODROČJA V VISOKOŠOLSKI DEJAVNOSTI VII/2-I  - ZA ZAŠČITO INTELEKTUALNE LASTNINE (M/Ž), ŠIFRA DELOVNEGA MESTA: D057023 - M/Ž",
+   "company": "UNIVERZA V LJUBLJANI, Kongresni trg 12 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VIŠJI SVETOVALEC PODROČJA II, ŠIFRA DM: I017160, SREDIŠČE ZA RAZVOJ POKLICNEGA IZOBRAŽEVANJA - M/Ž",
+   "company": "CENTER REPUBLIKE SLOVENIJE ZA POKLICNO IZOBRAŽEVANJE, Kajuhova ulica 32 U, 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VIŠJI SVETOVALEC PODROČJA II, ŠIFRA DM: I017160, SREDIŠČE ZA RAZVOJ POKLICNEGA IZOBRAŽEVANJA - M/Ž",
+   "company": "CENTER REPUBLIKE SLOVENIJE ZA POKLICNO IZOBRAŽEVANJE, Kajuhova ulica 32 U, 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VIŠJI SVETOVALEC PODROČJA II, ŠIFRA DM: I017160, SREDIŠČE ZA MEDNARODNO SODELOVANJE,  PROJEKT NCP EQF - M/Ž",
+   "company": "CENTER REPUBLIKE SLOVENIJE ZA POKLICNO IZOBRAŽEVANJE, Kajuhova ulica 32 U, 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "DELO V LESNI PROIZVODNJI - M/Ž",
+   "company": "HRIBLES ŽAGA proizvodnja in trgovina z lesom, d.o.o., Sidol 6 , 1219 LAZE V TUHINJU",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ZDRAVNIK BREZ SPECIALIZACIJE Z OSNOVNO LICENCO PPD3 - SOBNI ZDRAVNIK - M/Ž",
+   "company": "Bolnišnica za otroke in mladostnike Rakitna, Rakitna 96 , 1352 PRESERJE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "STROKOVNI DELAVEC V VISOKOŠOLSKI DEJAVNOSTI VII/1-II (M/Ž) NA INŠTITUTU ZA FIZIOLOGIJO - M/Ž",
+   "company": "UNIVERZA V LJUBLJANI, MEDICINSKA FAKULTETA, Vrazov trg 2 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ŽIVILSKI DELAVEC V MEŠALNICI MAS - M/Ž",
+   "company": "MESO KAMNIK MESNA INDUSTRIJA D.D., Korenova cesta 9 , 1241 KAMNIK",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ŽIVILSKI DELAVEC ZA ENOSTAVNA DELA - M/Ž",
+   "company": "MESO KAMNIK MESNA INDUSTRIJA D.D., Korenova cesta 9 , 1241 KAMNIK",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ŽIVILSKI DELAVEC V TERMIČNI OBDELAVI ŽIVIL - M/Ž",
+   "company": "MESO KAMNIK MESNA INDUSTRIJA D.D., Korenova cesta 9 , 1241 KAMNIK",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PROIZVODNI DELAVEC I - M/Ž",
+   "company": "TIPRO, razvoj, proizvodnja in trženje računalniških terminalov in perifernih enot, d.o.o., Ljubljanska cesta 64 , 1290 GROSUPLJE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "DELAVEC V PROIZVODNJI IN VOZNIK - M/Ž",
+   "company": "DIAMANT PLUS PROIZVODNJA, TRGOVINA IN STORITVE D.O.O., Stara cesta 20 , 1230 DOMŽALE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ŽIVILSKI DELAVEC V TERMIČNI OBDELAVI ŽIVIL - M/Ž",
+   "company": "MESO KAMNIK MESNA INDUSTRIJA D.D., Korenova cesta 9 , 1241 KAMNIK",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PROIZVODNI DELAVEC I - M/Ž",
+   "company": "TIPRO, razvoj, proizvodnja in trženje računalniških terminalov in perifernih enot, d.o.o., Ljubljanska cesta 64 , 1290 GROSUPLJE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ZDRAVSTVENI SODELAVEC II, E047078, ZA POTREBE OSKRBOVALNIH SLUŽB, CENTRALNA KURIRSKA IN GOSPODINJSKA SLUŽBA - M/Ž",
+   "company": "UNIVERZITETNI KLINIČNI CENTER LJUBLJANA, Zaloška cesta 2 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OSKRBOVALKA, NPK – SOCIALNA OSKRBOVALKA - M/Ž",
+   "company": "PRIZMA PONIKVE, POSEBNI SOCIALNO VARSTVENI ZAVOD, Ponikve 76 , 1312 VIDEM - DOBREPOLJE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VARUHINJA – INSTITUCIONALNO VARSTVO - DELO V BE MENGEŠ - M/Ž",
+   "company": "PRIZMA PONIKVE, POSEBNI SOCIALNO VARSTVENI ZAVOD, Ponikve 76 , 1312 VIDEM - DOBREPOLJE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "STROKOVNI SODELAVEC VII/2 (I) (ŠIFRA DM: E097170) - M/Ž",
+   "company": "ZAVOD REPUBLIKE SLOVENIJE ZA PRESADITVE ORGANOV IN TKIV SLOVENIJA TRANSPLANT, Zaloška cesta 7 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "NAMESTNIK DIREKTORJA ZA PODROČJE INVESTICIJ M/Ž V SLUŽBI ZA INVESTICIJE, ŠIFRA DM: B017398 - M/Ž",
+   "company": "Kemijski inštitut, Hajdrihova ulica 19 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VARUH INSTITUCIONALNO VARSTVO - M/Ž",
+   "company": "SONČEK - ZVEZA DRUŠTEV ZA CEREBRALNO PARALIZO SLOVENIJE SO.P., Rožanska ulica 2 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SOCIALNA OSKRBOVALKA II - M/Ž",
+   "company": "DOM UPOKOJENCEV DOMŽALE, Karantanska cesta 5 , 1230 DOMŽALE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SOCIALNA OSKRBOVALKA I - M/Ž",
+   "company": "DOM UPOKOJENCEV DOMŽALE, Karantanska cesta 5 , 1230 DOMŽALE",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SVETOVALEC POOBLAŠČENCA ZA INFORMATIKO IN TEHNIČNO PODPORO VII/1 (M/Ž), ŠIFRA DELOVNEGA MESTA: C087085 - M/Ž",
+   "company": "INFORMACIJSKI POOBLAŠČENEC, Dunajska cesta 22 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "»POMOČNIK PREDSEDNIKA UPRAVE«  ZA PODROČJE KORPORATIVNE VARNOSTI - M/Ž",
+   "company": "Slovenski državni holding, d.d., Mala ulica 5 , 1000 LJUBLJANA",
+   "location": "Ljubljana area (Osrednjeslovenska, SI041), Slovenia",
+   "provider": "EURES",
+   "found": 243,
+   "role": "no",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "VARILEC - M/Ž",
+   "company": "STREGA, proizvodnja strežnih linij d.o.o., Lendavska ulica 1 , 9000 MURSKA SOBOTA",
+   "location": "Pomurska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC - M/Ž",
+   "company": "VS, varilstvo, Vahid Smajić s.p., Čopova ulica 23 , 3000 CELJE",
+   "location": "Savinjska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC - M/Ž",
+   "company": "MOTULII, razvoj in proizvodnja, d.o.o., Zalog 14 , 8000 NOVO MESTO",
+   "location": "Jugovzhodna Slovenija, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC - M/Ž",
+   "company": "BS METAL, ključavničarstvo d.o.o., Dolenja Nemška vas 30 , 8210 TREBNJE",
+   "location": "Jugovzhodna Slovenija, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC - M/Ž",
+   "company": "VAMAR, PROIZVODNJA, TRGOVINA IN STORITVE D.O.O., Cesta k Tamu 59 , 2000 MARIBOR",
+   "location": "Podravska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC - M/Ž",
+   "company": "TEO-MONT, gradbene storitve, d.o.o., VI. ulica 14 , 1235 RADOMLJE",
+   "location": "Osrednjeslovenska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC - M/Ž",
+   "company": "CONTAINER PROIZVODNO PODJETJE, D.O.O., Bežigrajska cesta 6 , 3000 CELJE",
+   "location": "Savinjska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC - M/Ž",
+   "company": "FORTIS MARIBOR, inženiring, obdelava kovin in ostale storitve, d.o.o., Zagrebška cesta 100 , 2000 MARIBOR",
+   "location": "Podravska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC - M/Ž",
+   "company": "AVTOMOBILSKE STORITVE KENDA D.O.O., Pod lipami 2 , 1370 LOGATEC",
+   "location": "Osrednjeslovenska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC - M/Ž",
+   "company": "SPC, storitveno podjetje, d.o.o., Premrlova ulica 11 , 1000 LJUBLJANA",
+   "location": "Osrednjeslovenska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC/VARILKA (M/Ž/D) - M/Ž",
+   "company": "NOVAK, IZPUŠNI SISTEMI, D.O.O., Na Lazu 1 , 8000 NOVO MESTO",
+   "location": "Jugovzhodna Slovenija, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC / KLJUČAVNIČAR - M/Ž",
+   "company": "MF-CT, proizvodnja, trgovina, storitve, d.o.o., Babinska cesta 6 , 9240 LJUTOMER",
+   "location": "Pomurska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC/KLJUČAVNIČAR - M/Ž",
+   "company": "Čiščenje in vzdrževanje objektov BLITZ BLANK, Saša Jeftenić, s.p., Šentjane 43 , 6320 PORTOROŽ - PORTOROSE",
+   "location": "Obalno-kraška, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "KLJUČAVNIČAR - VARILEC - M/Ž",
+   "company": "PLAMEN KLJUČAVNIČARSTVO d.o.o., Senadole 11 , 6224 SENOŽEČE",
+   "location": "Obalno-kraška, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC - KLJUČAVNIČAR - M/Ž",
+   "company": "CONTAINER PROIZVODNO PODJETJE, D.O.O., Bežigrajska cesta 6 , 3000 CELJE",
+   "location": "Savinjska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "MIG-MAG VARILEC - M/Ž",
+   "company": "HSG KARIERA nacionalni kadrovski operater d.o.o., Leskoškova cesta 9 C, 1000 LJUBLJANA",
+   "location": "Jugovzhodna Slovenija, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC MIG/MAG - M/Ž",
+   "company": "MOBITEX, proizvodnja in storitve d.o.o., Notranja ulica 31 , 9220 LENDAVA - LENDVA",
+   "location": "Pomurska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "KLJUČAVNIČAR MONTER/VARILEC - M/Ž",
+   "company": "BIJOL ZASTOPANJE, PROIZVODNJA D.O.O., Livarska cesta 17 , 2367 VUZENICA",
+   "location": "Koroška, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "OBLIKOVALEC IN SPAJALEC KOVIN - VARILEC - M/Ž",
+   "company": "ŠKRLJ KOVINSKA OPREMA D.O.O., Dunajska cesta 196 , 1000 LJUBLJANA",
+   "location": "Goriška, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC AUTOGEN (311)  PLAMENSKO VARJENJE - M/Ž",
+   "company": "Kremsmüller – SLO Montaža in servis industrijskih strojev ter naprav d.o.o., Linhartova ulica 11 A, 2000 MARIBOR",
+   "location": "Podravska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC TIG (141) ZA MONTAŽO CEVOVODOV - M/Ž",
+   "company": "Kremsmüller – SLO Montaža in servis industrijskih strojev ter naprav d.o.o., Linhartova ulica 11 A, 2000 MARIBOR",
+   "location": "Podravska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC IN OBDELOVALEC KOVIN, MONTER IN SERVISER NAKLADALNIH PLOŠČADI - M/Ž",
+   "company": "VID NADGRADNJE, URŠA VRANKAR S.P., Buč 8 B, 1219 LAZE V TUHINJU",
+   "location": "Osrednjeslovenska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "VARILEC TIG/MAG (141/135)  ZA IZDELAVO IN POPRAVILO INDUSTRIJSKIH REZERVOARJEV - M/Ž",
+   "company": "Kremsmüller – SLO Montaža in servis industrijskih strojev ter naprav d.o.o., Linhartova ulica 11 A, 2000 MARIBOR",
+   "location": "Podravska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "DELAVEC V PROIZVODNJI- POMOČNIK PRI VARJENJU IN MONTAŽI KOVINSKIH ELEMENTOV - M/Ž",
+   "company": "TERMONT METAL, proizvodnja in storitve d.o.o., Savinjska cesta 87 A, 3310 ŽALEC",
+   "location": "Savinjska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "KALILEC - M/Ž",
+   "company": "TRO - rezalna orodja d.o.o., Perzonali 2 , 2391 PREVALJE",
+   "location": "Koroška, Slovenia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "POMOČNIK VARILCA - M/Ž",
+   "company": "TEO-MONT, gradbene storitve, d.o.o., VI. ulica 14 , 1235 RADOMLJE",
+   "location": "Osrednjeslovenska, Slovenia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "MERILEC / MONTER - M/Ž",
+   "company": "ARTLINIA GLASS STUDIO, umetniško steklarstvo, d.o.o., Grajska vas 49 , 3303 GOMILSKO",
+   "location": "Savinjska, Slovenia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "KALILEC ORODJA (M/Ž) - ODKOVKI - TERMIČNA - M/Ž",
+   "company": "UNIOR KOVAŠKA INDUSTRIJA D.D., Kovaška cesta 10 , 3214 ZREČE",
+   "location": "Savinjska, Slovenia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "TALILEC LIVAR I - DELOVNO MESTO SE DOLOČI ZNOTRAJ VRSTE DEL PROIZVODNA DELA II - M/Ž",
+   "company": "TALUM TOVARNA ALUMINIJA D.D. KIDRIČEVO, Tovarniška cesta 10 , 2325 KIDRIČEVO",
+   "location": "Podravska, Slovenia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Obdelovalec kovin (m/ž) v Celju - M/Ž",
+   "company": "TRENKWALDER KADROVSKE STORITVE, D.O.O., Ulica Ambrožiča Novljana 5 , 1000 LJUBLJANA",
+   "location": "Savinjska, Slovenia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "OPERATER TALJENJA - M/Ž",
+   "company": "VALJI, PROIZVODNJA VALJEV IN ULITKOV D.O.O., Železarska cesta 3 , 3220 ŠTORE",
+   "location": "Savinjska, Slovenia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "KLJUČAVNIČAR ZA MONTAŽNA DELA - M/Ž",
+   "company": "Kremsmüller – SLO Montaža in servis industrijskih strojev ter naprav d.o.o., Linhartova ulica 11 A, 2000 MARIBOR",
+   "location": "Podravska, Slovenia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "MONTER STROJNIH INŠTALACIJ (RAZEN KLIMATSKIH IN HLADILNIH SISTEMOV) - M/Ž",
+   "company": "ALEŠ, strojne instalacije, d.o.o., Kasaze 28 , 3301 PETROVČE",
+   "location": "Savinjska, Slovenia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "MONTER STROJNIH INŠTALACIJ (RAZEN KLIMATSKIH IN HLADILNIH SISTEMOV) - M/Ž",
+   "company": "ALEŠ Strojne instalacije, Aleš Kos s.p., Kasaze 28 , 3301 PETROVČE",
+   "location": "Savinjska, Slovenia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  }
+ ],
+ "ours_shown": 34
+}

@@ -1,0 +1,154 @@
+{
+ "candidate": {
+  "id": "c16",
+  "family": "sales",
+  "title": "Sales Representative",
+  "city": "Toulouse",
+  "country": "France",
+  "language": "French",
+  "filter": "frj",
+  "prefix": "FRJ23",
+  "region": "Haute-Garonne"
+ },
+ "result": {
+  "id": "c16",
+  "city": "Toulouse",
+  "country": "France",
+  "role": "Sales Representative",
+  "family": "sales",
+  "language": "French",
+  "x_by_count": 6,
+  "eures_rows_in_region": 12,
+  "searched": true,
+  "n_found": 0,
+  "jobs_shown": 0,
+  "overlap": 0,
+  "x_pooled": 6,
+  "search_seconds": 92,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "Field Representative Senior - Technicien Support Terrain (H/F)",
+   "company": "NBTECH TOULOUSE",
+   "location": "Toulouse area (Haute-Garonne, FRJ23), France",
+   "provider": "EURES",
+   "found": 34773,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Manager Senior Grands Comptes - Colomiers (H/F)",
+   "company": "Non renseigné",
+   "location": "Toulouse area (Haute-Garonne, FRJ23), France",
+   "provider": "EURES",
+   "found": 34773,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Product Owner SAP S - 4Hana - Sales & Service (H/F)",
+   "company": "NBTECH TOULOUSE",
+   "location": "Toulouse area (Haute-Garonne, FRJ23), France",
+   "provider": "EURES",
+   "found": 34773,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Strategy & pricing manager - blagnac f/h (H/F)",
+   "company": "Non renseigné",
+   "location": "Toulouse area (Haute-Garonne, FRJ23), France",
+   "provider": "EURES",
+   "found": 34773,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commercial BtoB Saas (H/F)",
+   "company": "ARES SIGNUM",
+   "location": "Toulouse area (Haute-Garonne, FRJ23), France",
+   "provider": "EURES",
+   "found": 34773,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Responsable Commercial France (F/H)",
+   "company": "Non renseigné",
+   "location": "Toulouse area (Haute-Garonne, FRJ23), France",
+   "provider": "EURES",
+   "found": 34773,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commercial / Commerciale auprès d'une clientèle d'entreprises (H/F)",
+   "company": "UPTOO\n        ",
+   "location": "Toulouse area (Haute-Garonne, FRJ23), France",
+   "provider": "EURES",
+   "found": 34773,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Avionics retrofit systems manager (m/f) (h/f) (H/F)",
+   "company": "Non renseigné",
+   "location": "Toulouse area (Haute-Garonne, FRJ23), France",
+   "provider": "EURES",
+   "found": 34773,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Ingénieur/e SE/MBSE - Aéronautique - Toulouse (H/F)",
+   "company": "Non renseigné",
+   "location": "Toulouse area (Haute-Garonne, FRJ23), France",
+   "provider": "EURES",
+   "found": 34773,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Account Manager (H/F)",
+   "company": "ARES SIGNUM",
+   "location": "Toulouse area (Haute-Garonne, FRJ23), France",
+   "provider": "EURES",
+   "found": 34773,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Ingénieur Sûreté Aéronautique (H/F)",
+   "company": "AIRBUS",
+   "location": "Toulouse area (Haute-Garonne, FRJ23), France",
+   "provider": "EURES",
+   "found": 34773,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commercial transport (H/F)",
+   "company": "Fed Supply",
+   "location": "Toulouse area (Haute-Garonne, FRJ23), France",
+   "provider": "EURES",
+   "found": 34773,
+   "role": "yes",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": null,
+ "ours_shown": 0
+}

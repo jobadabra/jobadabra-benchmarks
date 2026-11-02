@@ -1,0 +1,224 @@
+{
+ "candidate": {
+  "id": "c07",
+  "family": "teacher",
+  "title": "Secondary School Teacher",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "language": "Danish",
+  "filter": "dk0",
+  "prefix": "DK011",
+  "region": "Byen København"
+ },
+ "result": {
+  "id": "c07",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "role": "Secondary School Teacher",
+  "family": "teacher",
+  "language": "Danish",
+  "x_by_count": 4,
+  "eures_rows_in_region": 19,
+  "searched": true,
+  "n_found": 0,
+  "jobs_shown": 0,
+  "overlap": 0,
+  "x_pooled": 4,
+  "search_seconds": 117,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "Associate Professor in Public Health: Children and Young People",
+   "company": "Statens Institut for Folkesundhed SDU",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tutor | Mentor | Lektiehjælper | Online | Privatunderviser | Folkeskole og gymnasie",
+   "company": "Tutora ApS",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vi søger en engageret geografilærer pr. 1. januar 2027",
+   "company": "SANKT ANSGARS SKOLE",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vi søger en engageret barselsvikar pr. 1. januar 2027",
+   "company": "SANKT ANSGARS SKOLE",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "”Et skolevæsen for alle” – vil du stå i spidsen for Skolen ved Nordens Plads?",
+   "company": "Frederiksberg Kommune",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kan du få tallene til at give mening? - Skolen ved Bülowsvej søger matematiklærer til indskoling og mellemtrin",
+   "company": "Frederiksberg Kommune",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tenure-track Assistant Professor or Associate Professor of Food and Ingredient Biochemical Processing",
+   "company": "KU - SCIENCE -FOOD og NEXS",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PhD fellowship in Veterinary Virology",
+   "company": "KU SCIENCE FAK. SEK.",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "211-0367/26-2K Professor within Microbial interactions in plant and environmental systems",
+   "company": "KU - SCIENCE - PLEN",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vil du være en del af vores stærke pædagogteam i børnehaven i Schous Børnehus?",
+   "company": "Schous Børnehus",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tenure Track assistant professor, associate professor or professor of Food Processing & Technology",
+   "company": "KU - SCIENCE -FOOD og NEXS",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tenure Track Assistant Professor or Associate Professor and Curator of Mammals",
+   "company": "KU – SCIENCE – SNM",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pædagog til Eventyrhuset - Børnehave i Dragør ",
+   "company": "Eventyrhuset",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Join Our Winter Service Team",
+   "company": "Frigaarden ApS",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Bartender til The Moose Bar",
+   "company": "Sværtegade 5 ApS",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kok søges til Restaurant Rimini – vi har brug for flere hænder i køkkenet! - Chef Wanted at Restaurant Rimini – Join Our Kitchen Team!",
+   "company": "FETAI ApS",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Operations Planner Wanted for Staffing Agency",
+   "company": "Manora Vikar ApS",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Fiskehandler / Chauffør",
+   "company": "HARALDS FISK ApS",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Erfaren Kok / Kitchen Lead – Rays Chicken på Gamma Bar (Nordvest)",
+   "company": "Diamond Slice Blågårdsgade ApS",
+   "location": "Copenhagen area (Byen København, DK011), Denmark",
+   "provider": "EURES",
+   "found": 82,
+   "role": "no",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": null,
+ "ours_shown": 0
+}

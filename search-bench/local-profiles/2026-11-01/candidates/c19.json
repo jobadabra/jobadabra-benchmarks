@@ -1,0 +1,564 @@
+{
+ "candidate": {
+  "id": "c19",
+  "family": "hotel",
+  "title": "Hotel Receptionist",
+  "city": "Paris",
+  "country": "France",
+  "language": "French",
+  "filter": "fr1",
+  "prefix": "FR101",
+  "region": "Paris"
+ },
+ "result": {
+  "id": "c19",
+  "city": "Paris",
+  "country": "France",
+  "role": "Hotel Receptionist",
+  "family": "hotel",
+  "language": "French",
+  "x_by_count": 42,
+  "eures_rows_in_region": 53,
+  "searched": true,
+  "n_found": 0,
+  "jobs_shown": 0,
+  "overlap": 0,
+  "x_pooled": 42,
+  "search_seconds": 166,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "RECEPTIONNISTE HOTEL (H/F)",
+   "company": "SENECLA",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "RECEPTIONNISTE HOTEL (H/F)",
+   "company": "SENECLA",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Equipier Polyvalent F/H - Hotel Rond Point des Champs Elysées",
+   "company": "Hotel Rond Point des Champs Elysées",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Night Audit (H/F) - Paris Marriott Champs Elysees Hotel (H/F)",
+   "company": "MARRIOTT HOTELS MANAGEMENT FRANCE SAS",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CHEF DE PARTIE pour un HOTEL 5* LES JARDINS DU FAUBOURG (H/F)",
+   "company": "LES JARDINS DU FAUBOURG PARIS",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Night/Receptionniste de nuit F/H - Hôtel Brighton",
+   "company": "Hôtel Brighton",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Night/Receptionniste de nuit F/H - Hôtel Brighton",
+   "company": "Hôtel Brighton",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Responsable Commercial Hotellerie (F/H)",
+   "company": "Non renseigné",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Maison Albar Hotels - Valet / Femme de chambre (H/F)",
+   "company": "Maison Albar Hotels",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Receptionniste de nuit (H/F)",
+   "company": "ADAGIO HOLDING",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Employé / Employée de réservation en hôtellerie (H/F)",
+   "company": "369 Degrés - Siège Social",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste de nuit (H/F)",
+   "company": "UTF",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "RÉCEPTIONNISTE 35H/HEBDO HÔTEL LITTÉRAIRE LE SWANN 4**** - H/F",
+   "company": "BWH HOTEL GROUP FRANCE",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "RECEPTIONNISTE JOUR H/F CDI (H/F)",
+   "company": "CORESOR",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "RECEPTIONNISTE JOUR H/F CDI (H/F)",
+   "company": "HOME PLAZZA",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "RECEPTIONNISTE NIGHT CDI H/F (H/F)",
+   "company": "HOME PLAZZA",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Responsable de réception hôtelière (H/F)",
+   "company": "Hôtel SAX Paris",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste de jour F/H - Hôtel Bastille Spéria",
+   "company": "Hôtel Bastille Spéria",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "RÉCEPTIONNISTE DE NUIT HÔTEL H/F 4**** - H/F",
+   "company": "BWH HOTEL GROUP FRANCE",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "1ER(E) RÉCEPTIONNISTE DE JOUR - H/F",
+   "company": "BWH HOTEL GROUP FRANCE",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PREMIER DE RÉCEPTION - H/F",
+   "company": "BWH HOTEL GROUP FRANCE",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "RÉCEPTIONNISTE POLYVALENT - H/F",
+   "company": "BWH HOTEL GROUP FRANCE",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PREMIER(E) DE RÉCEPTION - H/F",
+   "company": "BWH HOTEL GROUP FRANCE",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste en Hôtellerie H/F",
+   "company": "Connectt Travail Temporaire",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Chef de réception (H/F)",
+   "company": "Hosco",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "HappyCulture - Réceptionniste de nuit (H/F)",
+   "company": "HappyCulture",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Reservation Manager (H/F)",
+   "company": "Non renseigné",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste en hôtellerie (H/F)",
+   "company": "CITADINES",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste de nuit (H/F)",
+   "company": "LA DEPENDANCE HOTEL",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste (F/H)",
+   "company": "APPART'CITY Paris Vaugirard",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste en hôtellerie (H/F)",
+   "company": "Le Mercato de l'Emploi",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste tournant (H/F)",
+   "company": "Oceania Hotels",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste tournant / Réceptionniste tournante en établisseme (H/F)",
+   "company": "Ibis La Villette Cité des Sciences 19ème",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Cadre de Santé de Nuit (F/H)",
+   "company": "Non renseigné",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "- Architecte Chef de Projet - Hôtellerie de Luxe (H/F)",
+   "company": "LTd",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste de nuit H/F",
+   "company": "The People Paris Nation",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "LA LORRAINE - Hôte / Hôtesse d'accueil de l'hôtellerie (H/F)",
+   "company": "LA LORRAINE",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Hôte/Réceptionniste de Nuit (H/F)",
+   "company": "HOTEL SERVICES",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste de jour (H/F)",
+   "company": "Non renseigné",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Responsable de réception hôtelière (H/F)",
+   "company": "Hôtel SAX Paris",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Chef de réception en hôtellerie (H/F)",
+   "company": "Hôtel SAX Paris",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste en hôtellerie (H/F)",
+   "company": "ADECCO",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste d'Hôtel avec maîtrise du PMS Opera (H/F)",
+   "company": "Hosco",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste en établissement hôtelier (H/F)",
+   "company": "UTF France",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste en établissement hôtelier (H/F)",
+   "company": "EFHT - Ecole Supérieure de Tourisme",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste en hôtellerie (H/F)",
+   "company": "EFHT - Ecole Supérieure de Tourisme",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste de nuit (H/F)",
+   "company": "UTF",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste de jour F/H - Maison Honnel",
+   "company": "Maison Honnel",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste Concierge Nuit à temps partiel 30h H/F - Hôtel Super",
+   "company": "Hôtel Super",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste Concierge Nuit H/F - Hôtel Super",
+   "company": "Hôtel Super",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "1er de Réception F/H - Hôtel Super",
+   "company": "Hôtel Super",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Réceptionniste de nuit",
+   "company": "HOTELS EBER",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Hospitality Officer Multisites (H/F)",
+   "company": "TOUT L ' TEMPS PRESS",
+   "location": "Paris area (Paris, FR101), France",
+   "provider": "EURES",
+   "found": 4442,
+   "role": "yes",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": null,
+ "ours_shown": 0
+}

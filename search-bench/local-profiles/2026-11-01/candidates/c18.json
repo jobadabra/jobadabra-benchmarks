@@ -1,0 +1,280 @@
+{
+ "candidate": {
+  "id": "c18",
+  "family": "mechanic",
+  "title": "Car Mechanic",
+  "city": "Seville",
+  "country": "Spain",
+  "language": "Spanish",
+  "filter": "es6",
+  "prefix": "ES618",
+  "region": "Sevilla"
+ },
+ "result": {
+  "id": "c18",
+  "city": "Seville",
+  "country": "Spain",
+  "role": "Car Mechanic",
+  "family": "mechanic",
+  "language": "Spanish",
+  "x_by_count": 4,
+  "eures_rows_in_region": 11,
+  "searched": true,
+  "n_found": 0,
+  "jobs_shown": 15,
+  "overlap": 0,
+  "x_pooled": 4,
+  "search_seconds": 135,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "MECANICO",
+   "company": "NEWCO BLOWN MOULDING, S.L.",
+   "location": "Seville area (Sevilla, ES618), Spain",
+   "provider": "EURES",
+   "found": 10903,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MECANICO/A",
+   "company": "AGROPEDEL SL",
+   "location": "Seville area (Sevilla, ES618), Spain",
+   "provider": "EURES",
+   "found": 10903,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CARPINTERO METALICO",
+   "company": "PEGASUS REPAIRS & SUPRLIES, S.L.L",
+   "location": "Seville area (Sevilla, ES618), Spain",
+   "provider": "EURES",
+   "found": 10903,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "mecanico vehiculo industriales",
+   "company": "talleres castro bus",
+   "location": "Seville area (Sevilla, ES618), Spain",
+   "provider": "EURES",
+   "found": 10903,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Diesel Gallardo: Mecánico Oficial de 1ª/2ª",
+   "company": "GALLARDO AUTOMOTIVE TECHNOLOGIES SL",
+   "location": "Seville area (Sevilla, ES618), Spain",
+   "provider": "EURES",
+   "found": 10903,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TÉCNICO/A SAT Climatización Industrial",
+   "company": "FIRST HUNTING S.L.",
+   "location": "Seville area (Sevilla, ES618), Spain",
+   "provider": "EURES",
+   "found": 10903,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ELECTROMECÁNICO/A",
+   "company": "Eulen Flexiplan",
+   "location": "Seville area (Sevilla, ES618), Spain",
+   "provider": "EURES",
+   "found": 10903,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MONTADOR DE MOTORES",
+   "company": "rectificados sutil & gallego,s.l.",
+   "location": "Seville area (Sevilla, ES618), Spain",
+   "provider": "EURES",
+   "found": 10903,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Se precisa chófer para asistencia en carretera",
+   "company": "Talleres Mecánicos Domingo S.L",
+   "location": "Seville area (Sevilla, ES618), Spain",
+   "provider": "EURES",
+   "found": 10903,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CARPINTERO MADERA",
+   "company": "PRODUCCIONES AGASA SL",
+   "location": "Seville area (Sevilla, ES618), Spain",
+   "provider": "EURES",
+   "found": 10903,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BAR MANAGER",
+   "company": "SERRAS SEVILLA, SL",
+   "location": "Seville area (Sevilla, ES618), Spain",
+   "provider": "EURES",
+   "found": 10903,
+   "role": "no",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "Service Technician",
+   "company": "BEUMERGroup1",
+   "location": "L'Hospitalet de Llobregat, es",
+   "provider": "BEUMERGroup1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Asesor/a de Servicio con Inglés",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Consultor/a Junior de Posventa (Automoción)",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Consultor/a de Digitalización de Posventa (Automoción)",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Especialista de Recambios",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Formador / a técnico",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Formador/a Técnico y Producto",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Gestor/a de Garantías (Automoción)",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Parts Specialist",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "O&M Coordinator- Madrid",
+   "company": "alcazar-energy",
+   "location": "Madrid",
+   "provider": "alcazar-energy",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Frigorista (Barcelona)",
+   "company": "arceclima",
+   "location": "Barcelona, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Frigorista (Donostia/ San Sebastián)",
+   "company": "arceclima",
+   "location": "Donostia / San Sebastián, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Soldador/a (Madrid)",
+   "company": "arceclima",
+   "location": "Madrid, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Técnico/a de Mantenimiento Multiservicio (Madrid)",
+   "company": "arceclima",
+   "location": "Madrid, Spain",
+   "provider": "arceclima",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Service Technician (Madrid, Barcelona or Bilbao Spain)",
+   "company": "li-thermal-works",
+   "location": "Madrid, Barcelona or Bilbao Spain (On-Site) 75% travel requirement within Spain",
+   "provider": "li-thermal-works",
+   "role": "no",
+   "place": "no"
+  }
+ ],
+ "ours_shown": 15
+}

@@ -1,0 +1,855 @@
+{
+ "candidate": {
+  "id": "c01",
+  "family": "accountant",
+  "title": "Accountant",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "language": "Dutch",
+  "filter": "nl3",
+  "prefix": "NL32B",
+  "region": "Groot-Amsterdam"
+ },
+ "result": {
+  "id": "c01",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "role": "Accountant",
+  "family": "accountant",
+  "language": "Dutch",
+  "x_by_count": 17,
+  "eures_rows_in_region": 37,
+  "searched": true,
+  "n_found": 1,
+  "jobs_shown": 50,
+  "overlap": 0,
+  "x_pooled": 18,
+  "search_seconds": 120,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistant Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Accountant AA",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AA Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant MKB",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Financial Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant, Volendam",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Junior Assistent-accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Financial Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Financial Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Accountant RA",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant, Uithoorn",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant RA",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant Audit, Aalsmeer",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant Audit, Aalsmeer",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "GL Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Financial Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Financieel Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "GL accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "GL Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "GL Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Assistent Accountant",
+   "company": "",
+   "location": "Amsterdam area (Groot-Amsterdam, NL32B), Netherlands",
+   "provider": "EURES",
+   "found": 6423,
+   "role": "yes",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Arnhem/Nijmegen, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Gevorderde Accountant",
+   "company": "Unknown employer",
+   "location": "Twente, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Zuidoost-Noord-Brabant, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Twente, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Gevorderde Accountant",
+   "company": "Unknown employer",
+   "location": "Twente, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Arnhem/Nijmegen, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Alkmaar en omgeving, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Zuidoost-Noord-Brabant, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Gevorderde Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Noord-Overijssel, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Zuidoost-Noord-Brabant, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Assistent Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant AA",
+   "company": "Unknown employer",
+   "location": "Noord-Overijssel, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Zuid-Limburg, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant AA",
+   "company": "Unknown employer",
+   "location": "Noord-Overijssel, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Overig Zeeland, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant Gevorderd",
+   "company": "Unknown employer",
+   "location": "Twente, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Junior Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Zuidwest-Gelderland, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant AA",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Assistent-accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant AA",
+   "company": "Unknown employer",
+   "location": "Twente, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Assistent Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant Gevorderd",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Assistent Accountant",
+   "company": "Unknown employer",
+   "location": "Twente, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant MKB",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant MKB",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Overig Zeeland, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Zuidoost-Noord-Brabant, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Zaanstreek, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Flevoland, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Accountant",
+   "company": "Unknown employer",
+   "location": "Zuidoost-Noord-Brabant, Netherlands",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  }
+ ],
+ "ours_shown": 50
+}

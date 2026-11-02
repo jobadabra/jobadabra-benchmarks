@@ -1,0 +1,98 @@
+{
+ "candidate": {
+  "id": "c13",
+  "family": "pharmacist",
+  "title": "Pharmacist",
+  "city": "Brno",
+  "country": "Czechia",
+  "language": "Czech",
+  "filter": "cz0",
+  "prefix": "CZ064",
+  "region": "Jihomoravský kraj"
+ },
+ "result": {
+  "id": "c13",
+  "city": "Brno",
+  "country": "Czechia",
+  "role": "Pharmacist",
+  "family": "pharmacist",
+  "language": "Czech",
+  "x_by_count": 0,
+  "eures_rows_in_region": 0,
+  "searched": true,
+  "n_found": 0,
+  "jobs_shown": 7,
+  "overlap": 0,
+  "x_pooled": 0,
+  "search_seconds": 115,
+  "verdict": "not measured",
+  "why": "EURES has no rows in the city's NUTS-3 area"
+ },
+ "eures_judged": [],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "LÉKÁRNÍK (M/Ž), Farmaceuti",
+   "company": "Lékárna U Černíků s.r.o.",
+   "location": "Kraj Vysočina, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Farmaceut/lékárník (m/ž), Farmaceuti bez specializace",
+   "company": "Lékárna Zelená hvězda s.r.o.",
+   "location": "Karlovarský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Farmaceuti bez specializace, Farmaceuti bez specializace",
+   "company": "ČESKÁ LÉKÁRNA HOLDING, a.s.",
+   "location": "Hlavní město Praha, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Vedoucí farmaceut, Farmaceuti se specializací pro nemocniční lékárenství",
+   "company": "Nemocnice Prachatice, a.s.",
+   "location": "Jihočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Farmaceutický laborant (m/ž), Farmaceutičtí asistenti",
+   "company": "Lagom Pharmatech s.r.o.",
+   "location": "Plzeňský kraj, Czechia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Regionální farmaceutičtí asistenti, Farmaceutičtí asistenti",
+   "company": "BENU Česká republika s.r.o.",
+   "location": "Hlavní město Praha, Czechia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Farmaceutický analytik (M/Ž), Chemici (kromě chemického inženýrství)",
+   "company": "VEEPRHO PHARMACEUTICALS, s.r.o.",
+   "location": "Hlavní město Praha, Czechia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  }
+ ],
+ "ours_shown": 7
+}

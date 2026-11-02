@@ -1,0 +1,1238 @@
+{
+ "candidate": {
+  "id": "c11",
+  "family": "nurse",
+  "title": "Registered Nurse",
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "language": "Slovak",
+  "filter": "sk0",
+  "prefix": "SK010",
+  "region": "Bratislavský kraj"
+ },
+ "result": {
+  "id": "c11",
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "role": "Registered Nurse",
+  "family": "nurse",
+  "language": "Slovak",
+  "x_by_count": 6,
+  "eures_rows_in_region": 42,
+  "searched": true,
+  "n_found": 4,
+  "jobs_shown": 87,
+  "overlap": 4,
+  "x_pooled": 6,
+  "search_seconds": 113,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "Všeobecní administratívni pracovníci",
+   "company": "Súkromná spojená škola British International School Bratislava, Pekníkova 6, Bratislava",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Nemocnica BORY, a. s.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Nemocnica BORY, a. s.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Univerzitná nemocnica Bratislava",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Bratislavská arcidiecézna charita",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "GPN s.r.o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "OPATRÍME VÁS n.o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "GAUDEAMUS-zariadenie komunitnej rehabilitácie",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "GERION - Karlova Ves",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Senior klub STUDIENKA",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "AGEL Clinic s. r. o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Stredisko sociálnych služieb Petržalka",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "SENIOR ZOHOR n.o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "EVITO",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Senior POHODA n.o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "ALŽBETIN DOM, o.z.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "PRIMULA - Stredisko sociálnych služieb, n. o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Seniorcentrum Staré Mesto",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Domov jesene života",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "DOMUS BENE - DOM DOBRA, o.z.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Združenie GERION",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Domov seniorov Lamač",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Domov seniorov Lamač",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Komunita RAFAEL n.o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "NÁRUČ Senior & Junior",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Mestské centrum sociálnych služieb Modra",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Betánia Bratislava, n.o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "GERIUM",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Domov sociálnych služieb pre deti a dospelých KAMPINO",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Komunita RAFAEL n.o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Senior klub STUDIENKA",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Ambulancia Dúbravka, s.r.o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Nemocnica BORY, a. s.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Univerzitná nemocnica Bratislava",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Národný ústav detských chorôb",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Riadiaci pracovníci (manažéri) v oblasti zdravotnej starostlivosti",
+   "company": "UROCENTRUM-BRATISLAVA, s.r.o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Špecialisti v oblasti reklamy a marketingu",
+   "company": "SlovakiaInvest Outsourcing s. r. o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Záhradníci a pestovatelia sadeníc",
+   "company": "APRO Záhradné centrum s.r.o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pomocníci v domácnostiach",
+   "company": "EU Progres s. r. o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pomocníci v domácnostiach",
+   "company": "EU Progres s. r. o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pomocníci v domácnostiach",
+   "company": "EU Progres s. r. o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pomocníci v domácnostiach",
+   "company": "EU Progres s. r. o.",
+   "location": "Bratislava area (Bratislavský kraj, SK010), Slovakia",
+   "provider": "EURES",
+   "found": 219,
+   "role": "no",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "„V KAŠTIELI“, Zariadenie sociálnych služieb Horné Obdokovce",
+   "location": "Nitriansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Bonitas, n.o.",
+   "location": "Banskobystrický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Nemocnica BORY, a. s.",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Centrum sociálnych služieb - Zemianske Podhradie",
+   "location": "Trenčiansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Zariadenie pre seniorov sv. Klementa",
+   "location": "Košický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Národný ústav tuberkulózy, pľúcnych chorôb a hrudníkovej chirurgie Vyšné Hágy",
+   "location": "Prešovský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Univerzitná nemocnica Bratislava",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Bratislavská arcidiecézna charita",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Nemocnica AGEL Žiar nad Hronom a Banská Štiavnica s.r.o.",
+   "location": "Banskobystrický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Nemocnica s poliklinikou, n.o. Revúca",
+   "location": "Banskobystrický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "GPN s.r.o.",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Psychiatrická nemocnica Hronovce",
+   "location": "Nitriansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Nemocnica s poliklinikou Brezno, n.o.",
+   "location": "Banskobystrický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Špecialisti v ošetrovateľstve",
+   "company": "Zariadenie sociálnych služieb Pod vinicami",
+   "location": "Banskobystrický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "ZOS Krajné, n.o.",
+   "location": "Trenčiansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "BENETRIX, n.o.",
+   "location": "Žilinský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "GreTa n.o.",
+   "location": "Prešovský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Centrum sociálnych služieb - Lednické Rovne",
+   "location": "Trenčiansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "OPATRÍME VÁS n.o.",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Zariadenie sociálnych služieb Senica, n.o.",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Obec Melčice - Lieskové",
+   "location": "Trenčiansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "SENIOR PARK, n.o.",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "ŽIVOT, n. o.",
+   "location": "Prešovský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Centrum sociálnych služieb Giraltovce",
+   "location": "Prešovský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Občianske združenie \"JA SÁM\"",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Zariadenie pre seniorov, Fraňa Kráľa 4, Nové Mesto nad Váhom",
+   "location": "Trenčiansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "GAUDEAMUS-zariadenie komunitnej rehabilitácie",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "„IPEĽ“, Zariadenie sociálnych služieb Leľa",
+   "location": "Nitriansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "FOR REGION, n.o.",
+   "location": "Košický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Pod lesom n.o.",
+   "location": "Prešovský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Zariadenie pre seniorov Harmónia, Prešov - Cemjata",
+   "location": "Prešovský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Royal care, n. o.",
+   "location": "Žilinský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "SENIORPARK Co. n.o.",
+   "location": "Prešovský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "GERION - Karlova Ves",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Senior klub STUDIENKA",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Bonitas, n.o.",
+   "location": "Banskobystrický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Zariadenie sociálnych služieb Senium",
+   "location": "Banskobystrický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Hronov, n.o.",
+   "location": "Banskobystrický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Zariadenie pre seniorov sv. Klementa",
+   "location": "Košický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Domov dôchodcov TEREZA n. o.",
+   "location": "Košický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Atrium n.o.",
+   "location": "Prešovský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Centrum sociálnych služieb Šoporňa - Štrkovec",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "„CLEMENTIA\", Zariadenie sociálnych služieb Kovarce",
+   "location": "Nitriansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Obec Korňa",
+   "location": "Žilinský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "SENIOR - Zariadenie pre seniorov a Dom sociálnych služieb Vrútky",
+   "location": "Žilinský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "„PERLA“, Zariadenie sociálnych služieb Želiezovce",
+   "location": "Nitriansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "AXIS Rehab s. r. o.",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Patria - Domov dôchodcov v Galante",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "AGEL Clinic s. r. o.",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Aise n.o.",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Senior Care Galanta n.o.",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Pokora, n.o.",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Gabriela, n.o.",
+   "location": "Prešovský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Stredisko sociálnych služieb Petržalka",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "SENIOR Nitrianske Rudno, n.o.",
+   "location": "Trenčiansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Centrum sociálnych služieb EDEN",
+   "location": "Žilinský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "SENIOR ZOHOR n.o.",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Centrum sociálnych služieb \"Johanka\", n.o.",
+   "location": "Prešovský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Centrum sociálnych služieb ORAVA",
+   "location": "Žilinský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "JA Home life n. o.",
+   "location": "Banskobystrický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Domov Nálepkovo, n.o.",
+   "location": "Košický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Zariadenie sociálnych služieb Trojlístok",
+   "location": "Banskobystrický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Centrum sociálnych služieb Obce Papradno",
+   "location": "Trenčiansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Centrum sociálnych služieb Letokruhy",
+   "location": "Žilinský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "FLORENC senior park, n.o.",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Domov sociálnych služieb pre dospelých Bojková",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Alzheimercentrum Piešťany, n.o.",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "ZSS Nižná Polianka, n.o.",
+   "location": "Prešovský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "EVITO",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Lienka DD, n.o.",
+   "location": "Nitriansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Senior POHODA n.o.",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Centrum sociálnych služieb Rohov",
+   "location": "Trnavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "ALŽBETIN DOM, o.z.",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Terézia, n. o.",
+   "location": "Žilinský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Centrum sociálnych služieb Brezovec",
+   "location": "Žilinský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Viacúčelové zariadenie pre seniorov",
+   "location": "Žilinský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Sociálny dom ANTIC n. o., Bardejov",
+   "location": "Prešovský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Centrum sociálnych služieb – Riviéra, n. o.",
+   "location": "Trenčiansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Domov dôchodcov v Kližskej Nemej",
+   "location": "Nitriansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Zariadenie pre seniorov - Smaragd",
+   "location": "Nitriansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Domov dôchodcov Šaľa",
+   "location": "Nitriansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "PRIMULA - Stredisko sociálnych služieb, n. o.",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Centrum sociálnych služieb PARK",
+   "location": "Žilinský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "DÔSTOJNOSŤ Horné Štitáre",
+   "location": "Nitriansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Seniorcentrum Staré Mesto",
+   "location": "Bratislavský kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "PASUV Personal s. r. o.",
+   "location": "Trenčiansky kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Opatrovatelia a asistenti v zariadeniach pre staršie osoby a osoby so zdravotným postihnutím",
+   "company": "Lienka Pomáha, n.o.",
+   "location": "Banskobystrický kraj, Slovakia",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  }
+ ],
+ "ours_shown": 87
+}

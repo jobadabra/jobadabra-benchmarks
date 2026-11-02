@@ -1,0 +1,137 @@
+{
+ "candidate": {
+  "id": "c14",
+  "family": "accountant",
+  "title": "Accountant",
+  "city": "Bologna",
+  "country": "Italy",
+  "language": "Italian",
+  "filter": "ith",
+  "prefix": "ITH55",
+  "region": "Bologna"
+ },
+ "result": {
+  "id": "c14",
+  "city": "Bologna",
+  "country": "Italy",
+  "role": "Accountant",
+  "family": "accountant",
+  "language": "Italian",
+  "x_by_count": 2,
+  "eures_rows_in_region": 3,
+  "searched": true,
+  "n_found": 0,
+  "jobs_shown": 8,
+  "overlap": 0,
+  "x_pooled": 2,
+  "search_seconds": 135,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "analista contabile",
+   "company": "GI GROUP S.P.A.",
+   "location": "Bologna area (Bologna, ITH55), Italy",
+   "provider": "EURES",
+   "found": 226,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "addetto buste paga/addetta buste paga",
+   "company": "GI GROUP S.P.A.",
+   "location": "Bologna area (Bologna, ITH55), Italy",
+   "provider": "EURES",
+   "found": 226,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "controllore finanziario",
+   "company": "GI GROUP S.P.A.",
+   "location": "Bologna area (Bologna, ITH55), Italy",
+   "provider": "EURES",
+   "found": 226,
+   "role": "yes",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "Manager, Global Accounting & External Audits",
+   "company": "3e",
+   "location": "Bethesda, Maryland; Remote VA; Remote OH; Remote NC; Remote PA; Remote MA; Remote GA; Remote FL; Charlottesville, VA (Hybrid)",
+   "provider": "3e",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Manager, Commercial FP&A",
+   "company": "3e",
+   "location": "Washington DC Metro Area; Remote VA; Remote OH; Remote NC; Remote PA; Remote MA; Remote GA; Remote FL; Remote TX",
+   "provider": "3e",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Finance Manager, Finance Operations (Financial Control & Accounting)",
+   "company": "Joko",
+   "location": "Paris; Remote; Remote",
+   "provider": "Joko",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support (Payments & Billing)",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Junior Billing Operations Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Specialist (Billing&Payments)",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Internal Auditor",
+   "company": "alan",
+   "location": "Anywhere in France",
+   "provider": "alan",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Actuary",
+   "company": "alan",
+   "location": "Anywhere in Belgium",
+   "provider": "alan",
+   "role": "no",
+   "place": "no"
+  }
+ ],
+ "ours_shown": 8
+}

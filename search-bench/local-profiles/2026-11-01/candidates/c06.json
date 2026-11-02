@@ -1,0 +1,1426 @@
+{
+ "candidate": {
+  "id": "c06",
+  "family": "mechanic",
+  "title": "Car Mechanic",
+  "city": "Prague",
+  "country": "Czechia",
+  "language": "Czech",
+  "filter": "cz0",
+  "prefix": "CZ010",
+  "region": "Praha"
+ },
+ "result": {
+  "id": "c06",
+  "city": "Prague",
+  "country": "Czechia",
+  "role": "Car Mechanic",
+  "family": "mechanic",
+  "language": "Czech",
+  "x_by_count": 10,
+  "eures_rows_in_region": 23,
+  "searched": true,
+  "n_found": 5,
+  "jobs_shown": 129,
+  "overlap": 1,
+  "x_pooled": 14,
+  "search_seconds": 103,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "Praktické sestry / Medical Care Specialist, Praktické sestry",
+   "company": "AlphaLabs s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "L3 Customer Care Specialist, Pracovníci v zákaznických kontaktních centrech",
+   "company": "Contabo Czech s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Care Specialist (M/Ž), Pracovníci v zákaznických kontaktních centrech",
+   "company": "Contabo Czech s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Care Specialist II (M/Ž), Pracovníci v zákaznických kontaktních centrech",
+   "company": "Contabo Czech s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "L3 Customer Care Specialist II (M/Ž), Pracovníci v zákaznických kontaktních centrech",
+   "company": "Contabo Czech s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Recepční/ Customer Care Specialist, Recepční (kromě recepčních v hotelích a dalších ubytovacích zařízeních)",
+   "company": "Svět rovnátek s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Recepční/ Customer Care Specialist, Recepční (kromě recepčních v hotelích a dalších ubytovacích zařízeních)",
+   "company": "AlphaLabs s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Recepční/ Customer Care Specialist, Recepční (kromě recepčních v hotelích a dalších ubytovacích zařízeních)",
+   "company": "AlphaLabs s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Head of Technology Services - Digital Health (Respiratory Care), Ostatní řídící pracovníci v oblasti informačních a komunikačních technologií",
+   "company": "Sonohaler International s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Head of Technology Services - Digital Health (Respiratory Care), Ostatní řídící pracovníci v oblasti informačních a komunikačních technologií",
+   "company": "Sonohaler International s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Specialista leteckého cargo handlingu (M/Ž, Operátoři dopravy a přepravy, vozoví disponenti",
+   "company": "Consolline Air s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanici pneuservisu , Mechanici a opraváři osobních automobilů",
+   "company": "Pneu Vulkán s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Zámečník a montážní pracovník, Mechanici a opraváři průmyslových strojů a zařízení",
+   "company": "A T G s.r.o.(ADVANCED TECHNOLOGY GROUP,spol.s r.o.)",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanici a opraváři autobusů, Mechanici a opraváři autobusů a trolejbusů",
+   "company": "BusPlan Import s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanici a opraváři nákladních automobilů, Mechanici a opraváři nákladních automobilů",
+   "company": "Tonnap Services s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automechanici / mechanici osobních automobilů (M/Ž), Mechanici a opraváři osobních automobilů",
+   "company": "OL Garage 28.10. s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanici a opraváři osobních automobilů, Mechanici a opraváři osobních automobilů",
+   "company": "MPV stavební s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "automechanici, Mechanici a opraváři autobusů a trolejbusů",
+   "company": "Dopravní podnik hl. m. Prahy, akciová společnost",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vyučený automechanik, Mechanici a opraváři osobních automobilů",
+   "company": "Bohumil Dvořák",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Údržba vozidel, Mechanici a opraváři osobních automobilů",
+   "company": "AutoLine SVS s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "pneuservisní technik, Mechanici a opraváři osobních automobilů",
+   "company": "TAJM, s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanici, Mechanici a opraváři kolejových vozidel",
+   "company": "RegioJet a.s.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automechanici, diagnostici nákladních vozidel, Mechanici a opraváři nákladních automobilů",
+   "company": "Daimler Truck Česká republika s.r.o.",
+   "location": "Prague area (Praha, CZ010), Czechia",
+   "provider": "EURES",
+   "found": 18310,
+   "role": "yes",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": [
+  {
+   "tool": "ours",
+   "title": "Automechanik/automechanička, Mechanici a opraváři osobních automobilů",
+   "company": "EXCALIBUR ARMY spol. s r.o.",
+   "location": "Olomoucký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/automechanička, Mechanici a opraváři osobních automobilů",
+   "company": "Milan Koukol",
+   "location": "Pardubický kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/automechanička, Mechanici a opraváři nákladních automobilů",
+   "company": "Scania Czech Republic s.r.o.",
+   "location": "Olomoucký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK/AUTOMECHANIČKA, Mechanici a opraváři nákladních automobilů",
+   "company": "FTL - First Transport Lines, a.s.",
+   "location": "Olomoucký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/automechanička, Mechanici a opraváři osobních automobilů",
+   "company": "PNEUCENTRUM N & N s. r. o.",
+   "location": "Olomoucký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/automechanička, Mechanici a opraváři motorových vozidel",
+   "company": "CORAX spol. s r.o.",
+   "location": "Olomoucký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/automechanička, Mechanici a opraváři osobních automobilů",
+   "company": "Transdev Slezsko a.s.",
+   "location": "Moravskoslezský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik/automechanička, Mechanici a opraváři osobních automobilů",
+   "company": "Krajské ředitelství policie Ústeckého kraje",
+   "location": "Ústecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/Automechanička, Mechanici a opraváři osobních automobilů",
+   "company": "Martin Schindler",
+   "location": "Moravskoslezský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/automechanička, Mechanici a opraváři osobních automobilů",
+   "company": "LAMMEL STAR s.r.o.",
+   "location": "Olomoucký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK/AUTOMECHANIČKA, Mechanici a opraváři osobních automobilů",
+   "company": "LM Trans s.r.o.",
+   "location": "Olomoucký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK / AUTOMECHANIČKA, Mechanici a opraváři motorových vozidel",
+   "company": "Auto-Otto s.r.o.",
+   "location": "Královéhradecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/automechanička, Mechanici a opraváři osobních automobilů",
+   "company": "ČECHÁK holding s.r.o.",
+   "location": "Olomoucký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK / AUTOMECHANIČKA, Mechanici a opraváři motorových vozidel",
+   "company": "AUTO HKZ s.r.o.",
+   "location": "Královéhradecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/automechanička, Mechanici a opraváři osobních automobilů",
+   "company": "AMBULANCE MEDITRANS s.r.o.",
+   "location": "Olomoucký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK / AUTOMECHANIČKA, Mechanici a opraváři motorových vozidel",
+   "company": "MALINA - VRŠE s.r.o.",
+   "location": "Královéhradecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik / automechanička, Mechanici a opraváři autobusů a trolejbusů",
+   "company": "Transdev Slezsko a.s.",
+   "location": "Královéhradecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK / AUTOMECHANIČKA, Mechanici a opraváři autobusů a trolejbusů",
+   "company": "Dopravní podnik města Hradce Králové, a.s.",
+   "location": "Královéhradecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik/automechanička, Mechanici a opraváři ostatních motorových vozidel",
+   "company": "Tomáš Kraupner",
+   "location": "Ústecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Garážmistr - garážmistrová / Automechanik- automechanička, Mechanici a opraváři nákladních automobilů",
+   "company": "SPECIAL TRANSPORT Dušan Suško, spol. s r.o.",
+   "location": "Královéhradecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Montážní dělníci mechanických zařízení",
+   "company": "TEDOM a.s.",
+   "location": "Liberecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik/automechanička (autoelektrikář/ka), Mechanici a opraváři autobusů a trolejbusů",
+   "company": "ZLINER s.r.o.",
+   "location": "Ústecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/automechanička a autoelektrikář/autoelektrikářka, Mechanici a opraváři osobních automobilů",
+   "company": "HOPAX s.r.o.",
+   "location": "Olomoucký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK/ AUTOMECHANIČKA PRO VOZY TOYOTA, Mechanici a opraváři osobních automobilů",
+   "company": "OLFIN Car s.r.o.",
+   "location": "Královéhradecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pracovník/Pracovnice pneuservisu - automechanik/automechanička, Mechanici a opraváři osobních automobilů",
+   "company": "SIMO CAR PLUS s.r.o.",
+   "location": "Moravskoslezský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik, Mechanici a opraváři nákladních automobilů",
+   "company": "JFSPED, s.r.o.",
+   "location": "Plzeňský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři motorových vozidel",
+   "company": "LITRA, s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik, Mechanici a opraváři osobních automobilů",
+   "company": "Jan Halíř",
+   "location": "Liberecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři osobních automobilů",
+   "company": "ESPIMA Czech Republic s.r.o.",
+   "location": "Ústecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři osobních automobilů",
+   "company": "Auto Drásta s.r.o.",
+   "location": "Karlovarský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři motorových vozidel",
+   "company": "Zdravotnická záchranná služba Ústeckého kraje, příspěvková organizace",
+   "location": "Ústecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik, Mechanici a opraváři nákladních automobilů",
+   "company": "synet trade s.r.o.",
+   "location": "Moravskoslezský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik, Mechanici a opraváři osobních automobilů",
+   "company": "LUBKAR s.r.o.",
+   "location": "Moravskoslezský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK, Mechanici a opraváři osobních automobilů",
+   "company": "AUTO FUTURE, s.r.o.",
+   "location": "Jihočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři motorových vozidel",
+   "company": "LUCKY Solutions s.r.o.",
+   "location": "Hlavní město Praha, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik, Mechanici a opraváři nákladních automobilů",
+   "company": "COMETT PLUS, spol. s r.o.",
+   "location": "Jihočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři motorových vozidel",
+   "company": "Pavel Mašek",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři osobních automobilů",
+   "company": "Michael Blaško",
+   "location": "Zlínský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři motorových vozidel",
+   "company": "KOUBA Trans, s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři osobních automobilů",
+   "company": "Igor Valihurskyj",
+   "location": "Jihomoravský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři motorových vozidel",
+   "company": "PNEU Černý - Šafránek s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK, Mechanici a opraváři nákladních automobilů",
+   "company": "OSMANČÍK TRANSPORT s.r.o.",
+   "location": "Moravskoslezský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik , Mechanici a opraváři osobních automobilů",
+   "company": "Auto Moto centrum Chrudim s.r.o.",
+   "location": "Pardubický kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik, Mechanici a opraváři osobních automobilů",
+   "company": "Auto Belda, s.r.o.",
+   "location": "Liberecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři osobních automobilů",
+   "company": "SIGI Aquatec s.r.o.",
+   "location": "Liberecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři motorových vozidel",
+   "company": "Eva Václavíková",
+   "location": "Jihomoravský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik, Mechanici a opraváři osobních automobilů",
+   "company": "MotoKrálov s.r.o.",
+   "location": "Zlínský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik, Mechanici a opraváři motorových vozidel",
+   "company": "AUTOSERVIS autíčka s.r.o.",
+   "location": "Plzeňský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik / automechanička nákladních vozidel a autobusů, Mechanici a opraváři nákladních automobilů",
+   "company": "T.J. servis s.r.o.",
+   "location": "Královéhradecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Řidič/Řidička sk. C, automechanik/automechanička, Řidiči nákladních automobilů (kromě tahačů)",
+   "company": "CUBITrans CZ s.r.o.",
+   "location": "Moravskoslezský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, Mechanici a opraváři autobusů a trolejbusů",
+   "company": "ARRIVA STŘEDNÍ ČECHY s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK / AUTOMECHANIČKA PRO VOZY KIA V TRUTNOVĚ, Mechanici a opraváři osobních automobilů",
+   "company": "OLFIN Car s.r.o.",
+   "location": "Královéhradecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik / automechanička pro vozy Volkswagen v Trutnově, Mechanici a opraváři osobních automobilů",
+   "company": "OLFIN Car s.r.o.",
+   "location": "Královéhradecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/automechanička do servisu nákladních vozidel II., Mechanici a opraváři nákladních automobilů",
+   "company": "J.M.I.T. a.s.",
+   "location": "Olomoucký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/čka, Mechanici a opraváři osobních automobilů",
+   "company": "Věra Havlovičová",
+   "location": "Karlovarský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik - autotronik, Mechanici a opraváři osobních automobilů",
+   "company": "BUS LIGNETA a.s.",
+   "location": "Karlovarský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/čka, Mechanici a opraváři osobních automobilů",
+   "company": "EUROASIST s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK/-ČKA, Mechanici a opraváři motorových vozidel",
+   "company": "synet trade s.r.o.",
+   "location": "Moravskoslezský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik - autokarosář, Mechanici a opraváři osobních automobilů",
+   "company": "Autoeden Zedník s.r.o.",
+   "location": "Zlínský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Vyučený automechanik, Mechanici a opraváři osobních automobilů",
+   "company": "Bohumil Dvořák",
+   "location": "Hlavní město Praha, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/čka, Mechanici a opraváři nákladních automobilů",
+   "company": "F.X. MEILLER Slaný s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/čka, Mechanici a opraváři osobních automobilů",
+   "company": "SMAŽÍK s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/čka, Mechanici a opraváři nákladních automobilů",
+   "company": "Aleš K a s t l, dřevovýroba",
+   "location": "Karlovarský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/Autoelektrikář, Mechanici a opraváři motorových vozidel",
+   "company": "Autoservis Drobil s.r.o.",
+   "location": "Olomoucký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/čka, Mechanici a opraváři osobních automobilů",
+   "company": "Petr Vokrouhlík",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik - autoelektrikář, Mechanici a opraváři motorových vozidel",
+   "company": "AUTWEC s.r.o.",
+   "location": "Plzeňský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/čka, Mechanici a opraváři osobních automobilů",
+   "company": "AUTOKOM, spol. s r.o.",
+   "location": "Zlínský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/čka, Mechanici a opraváři osobních automobilů",
+   "company": "Michal Adamík",
+   "location": "Zlínský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/čka, Mechanici a opraváři motorových vozidel",
+   "company": "Oknarenovace s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik/automechanička s předpoklady pro vedení týmu, Mechanici a opraváři ostatních motorových vozidel",
+   "company": "Technické služby města Litoměřice, příspěvková organizace",
+   "location": "Ústecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK (m/ž), Mechanici a opraváři nákladních automobilů",
+   "company": "PELA s.r.o.",
+   "location": "Liberecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK (M/Ž), Mechanici a opraváři motorových vozidel",
+   "company": "CK Autoservis s.r.o.",
+   "location": "Kraj Vysočina, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (M/Ž), Mechanici a opraváři nákladních automobilů",
+   "company": "B-service s.r.o.",
+   "location": "Kraj Vysočina, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "Dongres s.r.o.",
+   "location": "Ústecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK (m/ž), Mechanici a opraváři motorových vozidel",
+   "company": "Autoservis Švorc s.r.o.",
+   "location": "Královéhradecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "MK-Rent, spol. s r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "Jaroslav Korous",
+   "location": "Ústecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "Vladimír Dejda",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik m/ž, Mechanici a opraváři osobních automobilů",
+   "company": "Vilém Morávek",
+   "location": "Karlovarský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik m/ž, Mechanici a opraváři osobních automobilů",
+   "company": "DŠ - Autoservis s.r.o.",
+   "location": "Karlovarský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik m/ž, Mechanici a opraváři osobních automobilů",
+   "company": "www.carsmedic.cz s.r.o.",
+   "location": "Karlovarský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK (m/ž), Mechanici a opraváři motorových vozidel",
+   "company": "Václav Gehart",
+   "location": "Liberecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "AUTO KALDA s.r.o.",
+   "location": "Ústecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "Boetheia Mechanon s.r.o.",
+   "location": "Jihočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "TIRSERVIS&PARTS s.r.o.",
+   "location": "Jihomoravský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "Autocentrum Telnice s.r.o.",
+   "location": "Jihomoravský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (m+ž), Mechanici a opraváři osobních automobilů",
+   "company": "Patrik Hadrbolec",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (M/Ž), Mechanici a opraváři motorových vozidel",
+   "company": "AUTOPROFIT s.r.o.",
+   "location": "Pardubický kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik m/ž, Mechanici a opraváři nákladních automobilů",
+   "company": "TRUCK TRANS, s.r.o.",
+   "location": "Jihomoravský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "Auto Drásta s.r.o.",
+   "location": "Karlovarský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (m/ž), Mechanici a opraváři motorových vozidel",
+   "company": "SERVIS PLUS a.s.",
+   "location": "Jihomoravský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "J&M Autoservis Kralupy s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (M/Ž), Mechanici a opraváři osobních automobilů",
+   "company": "SUCHOMEL NEW s.r.o.",
+   "location": "Pardubický kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik M/Ž, Mechanici a opraváři nákladních automobilů",
+   "company": "Jaroslav Růžička",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "Regina, a.s.",
+   "location": "Královéhradecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik (m+ž), Mechanici a opraváři motorových vozidel",
+   "company": "K+K Autoservis Czech s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik ( m/ž ), Mechanici a opraváři osobních automobilů",
+   "company": "AUTO EURODIESEL s.r.o.",
+   "location": "Kraj Vysočina, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (M/Ž), Mechanici a opraváři osobních automobilů",
+   "company": "AUTO KÁPL s.r.o.",
+   "location": "Jihočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "Viktor Andrlík",
+   "location": "Jihomoravský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik m/ž, Mechanici a opraváři motorových vozidel",
+   "company": "DW STAVBY BRNO s.r.o.",
+   "location": "Jihomoravský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK (m/ž), Mechanici a opraváři motorových vozidel",
+   "company": "ELTRANS GROUP s.r.o.",
+   "location": "Liberecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (M/Ž), Mechanici a opraváři osobních automobilů",
+   "company": "AUTOSERVIS NA JIHRU s.r.o.",
+   "location": "Jihočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "automechanik M/Ž, Mechanici a opraváři motorových vozidel",
+   "company": "ZV servis s.r.o.",
+   "location": "Jihočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (M/Ž), Mechanici a opraváři osobních automobilů",
+   "company": "Auto Janák s.r.o.",
+   "location": "Pardubický kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK (m/ž), Mechanici a opraváři motorových vozidel",
+   "company": "František Janovský",
+   "location": "Jihočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (M/Ž), Mechanici a opraváři nákladních automobilů",
+   "company": "COMETT PLUS, spol. s r.o.",
+   "location": "Jihočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK NÁKLADNÍCH VOZIDEL, Mechanici a opraváři nákladních automobilů",
+   "company": "Miroslav Štěpánek",
+   "location": "Liberecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK (muži, ženy), Mechanici a opraváři osobních automobilů",
+   "company": "synet trade s.r.o.",
+   "location": "Moravskoslezský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik nákladních automobilů, Mechanici a opraváři nákladních automobilů",
+   "company": "Master Truck s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, autotronik, autoelektrikář, Mechanici a opraváři motorových vozidel",
+   "company": "DOPAZ s.r.o.",
+   "location": "Jihomoravský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/čka, Mechanici a opraváři ostatních motorových vozidel",
+   "company": "AUTOPROFIT s.r.o.",
+   "location": "Pardubický kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK (muži, ženy), Mechanici a opraváři osobních automobilů",
+   "company": "Jakub Mikulok",
+   "location": "Moravskoslezský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Autoelektrikář, automechanik, Elektromechanici elektrických zařízení v dopravních prostředcích",
+   "company": "A B  A U T O B O S S  s.r.o.",
+   "location": "Moravskoslezský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, opravář vozidel, Mechanici a opraváři motorových vozidel",
+   "company": "AB Autoservis s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik nákladních vozidel, Mechanici a opraváři nákladních automobilů",
+   "company": "David Spilka",
+   "location": "Ústecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK + MECHANIK PNEUSERVISU, Mechanici a opraváři osobních automobilů",
+   "company": "mmtuning auto s.r.o.",
+   "location": "Moravskoslezský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik osobních vozidel, Mechanici a opraváři osobních automobilů",
+   "company": "AUTOCENTRUM FICS s.r.o.",
+   "location": "Liberecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik ( autoelektrikář,autotronik), Mechanici a opraváři nákladních automobilů",
+   "company": "KAFKA TRANSPORT a.s.",
+   "location": "Jihočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/automechanička pro vozy Toyota v Pardubicích (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "OLFIN Car s.r.o.",
+   "location": "Pardubický kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik M/Ž, Mechanici a opraváři autobusů a trolejbusů",
+   "company": "Jaroslav Růžička",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik v 7.PT, Mechanici a opraváři osobních automobilů",
+   "company": "Krajské ředitelství policie Ústeckého kraje",
+   "location": "Ústecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik/autokarosář (m/ž), Mechanici a opraváři motorových vozidel",
+   "company": "Petr Hledík",
+   "location": "Jihomoravský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK- AUTOELEKTRIKÁŘ (m/ž), Mechanici a opraváři motorových vozidel",
+   "company": "MG Services s.r.o.",
+   "location": "Liberecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK/-IČKA (M+Ž), Mechanici a opraváři nákladních automobilů",
+   "company": "AUTO HELUS s.r.o.",
+   "location": "Ústecký kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, autotronik (m/ž), Mechanici a opraváři motorových vozidel",
+   "company": "Břetislav Švihálek",
+   "location": "Jihomoravský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik, opravář M/Ž, Mechanici a opraváři nákladních automobilů",
+   "company": "Karel Starosta",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Automechanik (m+ž), Mechanici a opraváři ostatních motorových vozidel",
+   "company": "NERA-Team s.r.o.",
+   "location": "Středočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "AUTOMECHANIK/ AUTOTRONIK (m/ž), Mechanici a opraváři osobních automobilů",
+   "company": "Auto Balkar s.r.o.",
+   "location": "Jihočeský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Autoklempíř, automechanik, přípravář karoserií m/ž, Karosáři a autoklempíři",
+   "company": "Aleš Zahradník",
+   "location": "Jihomoravský kraj, Czechia",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  }
+ ],
+ "ours_shown": 129
+}

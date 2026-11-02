@@ -1,0 +1,164 @@
+{
+ "candidate": {
+  "id": "c15",
+  "family": "teacher",
+  "title": "Secondary School Teacher",
+  "city": "Valencia",
+  "country": "Spain",
+  "language": "Spanish",
+  "filter": "es5",
+  "prefix": "ES523",
+  "region": "València"
+ },
+ "result": {
+  "id": "c15",
+  "city": "Valencia",
+  "country": "Spain",
+  "role": "Secondary School Teacher",
+  "family": "teacher",
+  "language": "Spanish",
+  "x_by_count": 3,
+  "eures_rows_in_region": 13,
+  "searched": true,
+  "n_found": 0,
+  "jobs_shown": 0,
+  "overlap": 0,
+  "x_pooled": 3,
+  "search_seconds": 87,
+  "verdict": "below target"
+ },
+ "eures_judged": [
+  {
+   "tool": "eures",
+   "title": "PROFESORES DE ENSEÑANZA SECUNDARIA, EN GENERAL",
+   "company": "",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PROFESORES DEL ÁREA DE MATEMÁTICAS (ENSEÑANZA SECUNDARIA)",
+   "company": "",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PROFESORES DEL ÁREA DE MATEMÁTICAS (ENSEÑANZA SECUNDARIA)",
+   "company": "",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Personal de Mantenimiento / Jardinería",
+   "company": "British School Alzira-Xàtiva-Gandia",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CUIDADORES-ACOMPAÑANTES DE AUTOBÚS ESCOLAR",
+   "company": "",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PROFESORES DE INSTRUMENTOS MUSICALES, EN GENERAL",
+   "company": "",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PROFESORES DE DANZA MODERNA Y CONTEMPORÁNEA",
+   "company": "",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PROFESORES DE IDIOMAS, EN GENERAL",
+   "company": "",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Experienciales Tandem Técnico de apoyo formativo y laboral para personas con discapacidad.",
+   "company": "INSERTA INNOVACION",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ENTRENADOR/A",
+   "company": "Raw Coffee Project SL",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Persona de Apoyo en atención directa 1/2 jornada",
+   "company": "Mira'm Fundació de la Comunitat Valenciana",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Persona de Apoyo en atención directa",
+   "company": "Mira'm Fundació de la Comunitat Valenciana",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Educador/a Ambiental – Actividades Educativas (Valencia)",
+   "company": "Anthesis",
+   "location": "Valencia area (València, ES523), Spain",
+   "provider": "EURES",
+   "found": 631,
+   "role": "no",
+   "place": "yes"
+  }
+ ],
+ "ours_judged": null,
+ "ours_shown": 0
+}
