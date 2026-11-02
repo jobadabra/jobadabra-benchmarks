@@ -7,8 +7,8 @@
   "country": "Netherlands",
   "language": "Dutch",
   "filter": "nl3",
-  "prefix": "NL32",
-  "region": "Noord-Holland (Amsterdam area)"
+  "prefix": "NL32B",
+  "region": "Groot-Amsterdam"
  },
  {
   "id": "c02",
@@ -18,8 +18,8 @@
   "country": "Austria",
   "language": "German",
   "filter": "at1",
-  "prefix": "AT13",
-  "region": "Vienna"
+  "prefix": "AT130",
+  "region": "Wien"
  },
  {
   "id": "c03",
@@ -29,8 +29,8 @@
   "country": "France",
   "language": "French",
   "filter": "frk",
-  "prefix": "FRK2",
-  "region": "Auvergne-Rhone-Alpes (Lyon area)"
+  "prefix": "FRK26",
+  "region": "Rhône"
  },
  {
   "id": "c04",
@@ -40,8 +40,8 @@
   "country": "Spain",
   "language": "Spanish",
   "filter": "es3",
-  "prefix": "ES30",
-  "region": "Madrid region"
+  "prefix": "ES300",
+  "region": "Madrid"
  },
  {
   "id": "c05",
@@ -51,8 +51,8 @@
   "country": "Italy",
   "language": "Italian",
   "filter": "itc",
-  "prefix": "ITC4",
-  "region": "Lombardy (Milan area)"
+  "prefix": "ITC4C",
+  "region": "Milano"
  },
  {
   "id": "c06",
@@ -62,8 +62,8 @@
   "country": "Czechia",
   "language": "Czech",
   "filter": "cz0",
-  "prefix": "CZ01",
-  "region": "Prague"
+  "prefix": "CZ010",
+  "region": "Praha"
  },
  {
   "id": "c07",
@@ -73,8 +73,8 @@
   "country": "Denmark",
   "language": "Danish",
   "filter": "dk0",
-  "prefix": "DK01",
-  "region": "Capital Region of Denmark"
+  "prefix": "DK011",
+  "region": "Byen København"
  },
  {
   "id": "c08",
@@ -84,7 +84,7 @@
   "country": "Norway",
   "language": "Norwegian",
   "filter": "no0",
-  "prefix": "NO08",
+  "prefix": "NO081",
   "region": "Oslo"
  },
  {
@@ -95,8 +95,8 @@
   "country": "Estonia",
   "language": "Estonian",
   "filter": "ee0",
-  "prefix": "EE00",
-  "region": "Estonia (Tallinn)"
+  "prefix": "EE001",
+  "region": "Põhja-Eesti"
  },
  {
   "id": "c10",
@@ -106,8 +106,8 @@
   "country": "Slovenia",
   "language": "Slovenian",
   "filter": "si0",
-  "prefix": "SI04",
-  "region": "Central Slovenia (Ljubljana)"
+  "prefix": "SI041",
+  "region": "Osrednjeslovenska"
  },
  {
   "id": "c11",
@@ -117,8 +117,8 @@
   "country": "Slovakia",
   "language": "Slovak",
   "filter": "sk0",
-  "prefix": "SK01",
-  "region": "Bratislava region"
+  "prefix": "SK010",
+  "region": "Bratislavský kraj"
  },
  {
   "id": "c12",
@@ -128,8 +128,8 @@
   "country": "Austria",
   "language": "German",
   "filter": "at2",
-  "prefix": "AT22",
-  "region": "Styria (Graz)"
+  "prefix": "AT221",
+  "region": "Graz"
  },
  {
   "id": "c13",
@@ -139,8 +139,8 @@
   "country": "Czechia",
   "language": "Czech",
   "filter": "cz0",
-  "prefix": "CZ06",
-  "region": "South Moravia (Brno)"
+  "prefix": "CZ064",
+  "region": "Jihomoravský kraj"
  },
  {
   "id": "c14",
@@ -150,8 +150,8 @@
   "country": "Italy",
   "language": "Italian",
   "filter": "ith",
-  "prefix": "ITH5",
-  "region": "Emilia-Romagna (Bologna)"
+  "prefix": "ITH55",
+  "region": "Bologna"
  },
  {
   "id": "c15",
@@ -161,8 +161,8 @@
   "country": "Spain",
   "language": "Spanish",
   "filter": "es5",
-  "prefix": "ES52",
-  "region": "Valencia region"
+  "prefix": "ES523",
+  "region": "València"
  },
  {
   "id": "c16",
@@ -172,8 +172,8 @@
   "country": "France",
   "language": "French",
   "filter": "frj",
-  "prefix": "FRJ2",
-  "region": "Occitanie (Toulouse)"
+  "prefix": "FRJ23",
+  "region": "Haute-Garonne"
  },
  {
   "id": "c17",
@@ -183,8 +183,8 @@
   "country": "Netherlands",
   "language": "Dutch",
   "filter": "nl3",
-  "prefix": "NL33",
-  "region": "South Holland (Rotterdam)"
+  "prefix": "NL33B",
+  "region": "Groot-Rijnmond"
  },
  {
   "id": "c18",
@@ -194,8 +194,8 @@
   "country": "Spain",
   "language": "Spanish",
   "filter": "es6",
-  "prefix": "ES61",
-  "region": "Andalusia (Seville)"
+  "prefix": "ES618",
+  "region": "Sevilla"
  },
  {
   "id": "c19",
@@ -205,8 +205,8 @@
   "country": "France",
   "language": "French",
   "filter": "fr1",
-  "prefix": "FR10",
-  "region": "Ile-de-France (Paris)"
+  "prefix": "FR101",
+  "region": "Paris"
  },
  {
   "id": "c20",
@@ -216,7 +216,7 @@
   "country": "Italy",
   "language": "Italian",
   "filter": "itf",
-  "prefix": "ITF3",
-  "region": "Campania (Naples)"
+  "prefix": "ITF33",
+  "region": "Napoli"
  }
 ]

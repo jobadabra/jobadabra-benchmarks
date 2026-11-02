@@ -7,8 +7,8 @@
   "country": "Czechia",
   "language": "Czech",
   "filter": "cz0",
-  "prefix": "CZ06",
-  "region": "South Moravia (Brno)"
+  "prefix": "CZ064",
+  "region": "Jihomoravský kraj"
  },
  "result": {
   "id": "c13",
@@ -17,28 +17,18 @@
   "role": "Pharmacist",
   "family": "pharmacist",
   "language": "Czech",
-  "x_by_count": 1,
-  "eures_rows_in_region": 1,
+  "x_by_count": 0,
+  "eures_rows_in_region": 0,
   "searched": true,
   "n_found": 0,
   "jobs_shown": 7,
   "overlap": 0,
-  "x_pooled": 1,
+  "x_pooled": 0,
   "search_seconds": 115,
-  "verdict": "below target"
+  "verdict": "not measured",
+  "why": "EURES has no rows in the city's NUTS-3 area"
  },
- "eures_judged": [
-  {
-   "tool": "eures",
-   "title": "LÉKÁRNÍK (M/Ž), Farmaceuti",
-   "company": "Lékárna U Černíků s.r.o.",
-   "location": "South Moravia (Brno), Czechia (CZ063)",
-   "provider": "EURES",
-   "found": 7,
-   "role": "yes",
-   "place": "yes"
-  }
- ],
+ "eures_judged": [],
  "ours_judged": [
   {
    "tool": "ours",

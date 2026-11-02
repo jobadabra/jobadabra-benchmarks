@@ -1,4 +1,6 @@
-"""X by script, independent of our engine: EURES's public search (no login, no key), the role as keyword, the city's region as place, the first 100 in-region matches.
+"""X by script, independent of our engine: EURES's public search (no login, no key), the role as keyword, the city's NUTS-3 area as place, the first 100 in-area matches.
+Why (2 Nov 2026, Gitar on #12): `prefix` is the city's own NUTS-3 code (cands.json `region` names it), and each row's `location` is built from ITS OWN codes inside that area, never the
+candidate's region: with a NUTS-2 prefix and the region name as every row's place, Annecy and Grenoble read as Lyon and Portoroz as Ljubljana, which inflated X.
 python3 xcount.py [<candidate id>...]   (no id = every candidate in cands.json)  ->  work/<id>.eures.json"""
 import json,sys,os
 from pathlib import Path
@@ -16,8 +18,9 @@ def eures_rows(c, keep=100):
         jvs=d.get('jvs',[]); scanned+=len(jvs)
         for j in jvs:
             codes=[x for v in (j.get('locationMap') or {}).values() for x in (v or []) if x]
-            if any(x.upper().startswith(c['prefix'].upper()) for x in codes):
-                rows.append({'tool':'eures','title':j.get('title') or '','company':(j.get('employer') or {}).get('name') or '','location':f"{c['region']}, {c['country']} ({', '.join(codes)})",'provider':'EURES','found':d.get('numberRecords')})
+            inside=[x for x in codes if x.upper().startswith(c['prefix'].upper())]   # this row's own codes in the city's area (the row may list others outside it)
+            if inside:
+                rows.append({'tool':'eures','title':j.get('title') or '','company':(j.get('employer') or {}).get('name') or '','location':f"{c['city']} area ({c['region']}, {', '.join(inside)}), {c['country']}",'provider':'EURES','found':d.get('numberRecords')})
         if len(rows)>=keep or len(jvs)<50: break
     return rows[:keep],scanned
 if __name__=='__main__':

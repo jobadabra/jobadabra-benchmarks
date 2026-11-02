@@ -7,8 +7,8 @@
   "country": "Estonia",
   "language": "Estonian",
   "filter": "ee0",
-  "prefix": "EE00",
-  "region": "Estonia (Tallinn)"
+  "prefix": "EE001",
+  "region": "Põhja-Eesti"
  },
  "result": {
   "id": "c09",
@@ -22,13 +22,13 @@
   "searched": false,
   "n_found": null,
   "jobs_shown": null,
-  "overlap": null,
+  "overlap": 0,
   "x_pooled": 0,
   "search_seconds": null,
   "verdict": "not measured",
-  "why": "no EURES rows for this city: no independent count"
+  "why": "EURES has no rows in the city's NUTS-3 area"
  },
- "eures_judged": null,
+ "eures_judged": [],
  "ours_judged": null,
  "ours_shown": 0
 }
