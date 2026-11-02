@@ -68,5 +68,8 @@
    "role": "yes",
    "place": "no"
   }
- ]
+ ],
+ "not_measured": {
+  "eures": "its rows carry only the region code PL21, which does not say which town: the rival is unknown for this city, not zero (benchmarks#14)"
+ }
 }

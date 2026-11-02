@@ -37,6 +37,22 @@ class EuresPlace(unittest.TestCase):
         self.assertNotIn('BG413', rows[0]['location'])
         self.assertTrue(rows[0]['location'].startswith('Sofia area ('))
 
+    def test_region_only_codes_are_not_measured_never_zero(self):
+        # Krakow (2 Nov 2026, coordinator): rows carrying only PL21 do not say which town, so the result is unknown (None), not an empty list.
+        krakow = {'title': 'Chef', 'city': 'Krakow', 'country': 'Poland'}
+        real, rivals.post = rivals.post, lambda url, body: {'numberRecords': 2, 'jvs': [job('Chef', ['PL21']), job('Cook', ['PL21'])]}
+        try:
+            self.assertIsNone(rivals.eures(krakow))
+        finally:
+            rivals.post = real
+
+    def test_a_region_only_job_beside_an_in_area_job_keeps_the_in_area_one(self):
+        rows = self.run_eures([job('Region only', ['BG41']), job('In Sofia', ['BG411'])])
+        self.assertEqual([r['title'] for r in rows], ['In Sofia'])
+
+    def test_no_job_at_all_is_zero_not_unknown(self):
+        self.assertEqual(self.run_eures([job('Elsewhere', ['BG413'])]), [])
+
 
 if __name__ == '__main__':
     unittest.main()

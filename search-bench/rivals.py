@@ -31,7 +31,7 @@ def eures(p):
     """EURES's place filter takes large regions only (NUTS 1, e.g. be1; be10 returns nothing): that region's best matches, page by page
     (at most 10 pages of 50), keeping those whose place code lies in the city's own area (NUTS 3), until 100 are kept. Each row's place is built from its own codes in that area."""
     region, name = REGIONS[p['city']]
-    rows, scanned, place = [], 0, region[:3]
+    rows, scanned, place, coarse = [], 0, region[:3], 0   # coarse = jobs whose only codes are broader than the city's area (no town known)
     for page in range(1, 11):
         body = {'resultsPerPage': 50, 'page': page, 'sortSearch': 'BEST_MATCH', 'keywords': [{'keyword': p['title'], 'specificSearchCode': 'EVERYWHERE'}],
                 'publicationPeriod': None, 'occupationUris': [], 'skillUris': [], 'requiredExperienceCodes': [], 'positionScheduleCodes': [], 'sectorCodes': [],
@@ -44,11 +44,15 @@ def eures(p):
         for j in jvs:
             places = [c for codes in (j.get("locationMap") or {}).values() for c in (codes or []) if c]
             inside = [c for c in places if c.upper().startswith(region.upper())]
+            if not inside and any(region.upper().startswith(c.upper()) for c in places):
+                coarse += 1
             if inside:
                 rows.append({'tool': 'eures', 'title': j.get('title') or '', 'company': (j.get('employer') or {}).get('name') or '',
                              'location': f"{p['city']} area ({name}, {', '.join(inside)}), {p['country']}", 'provider': 'EURES', 'found': data.get('numberRecords'), 'filter': place})
         if len(rows) >= KEEP or len(jvs) < 50:
             break
+    if not rows and coarse:
+        return None   # Why (2 Nov 2026, coordinator on benchmarks#14): jobs that carry only a region code (Krakow: PL21) do not say which town, so "none in the city" is unknown, never 0
     for r in rows:
         r['scanned'] = scanned
     return rows[:KEEP]
@@ -93,6 +97,6 @@ if __name__ == '__main__':
     else:
         rows = {'eures': eures, 'adzuna': adzuna}[kind](p)
     meta = {'rival': kind, 'persona': p, 'kept': None if rows is None else len(rows), 'notServed': rows is None, 'errors': errors}
-    json.dump(rows or [], open(out, 'w'), ensure_ascii=False, indent=1)
+    json.dump(None if (rows is None and kind == 'eures') else rows or [], open(out, 'w'), ensure_ascii=False, indent=1)   # eures null = not measured: pool.mjs lists it as missing, never found-0
     json.dump(meta, open(out.replace('.json', '.meta.json'), 'w'), ensure_ascii=False, indent=1)
     print(kind, p['city'], 'not served' if rows is None else f'{len(rows)} rows', json.dumps(errors)[:300])
