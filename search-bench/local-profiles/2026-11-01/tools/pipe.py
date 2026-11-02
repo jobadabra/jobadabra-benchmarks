@@ -17,7 +17,7 @@ lines=draw.cv(fam,city,'Alex Example')
 (out/'draw'/'cv.pdf').write_bytes(pdf(lines)); (out/'draw'/'cv.md').write_text('\n'.join(lines)+'\n')
 (out/'draw'/'draw.json').write_text(json.dumps({'seed':f'js-{cid}','family':c['family'],'city':c['city'],'country':c['country']}))
 env={k:v for k,v in os.environ.items() if k not in ('ANTHROPIC_API_KEY','LAB_HEAL_ANTHROPIC_KEY','RANDOM_DRAWS_ANTHROPIC_KEY','OPENAI_API_KEY','REPLAYS_PUBLISH_KEY','NET_RECORD_KEY','PR_PROOF_ANTHROPIC_KEY')}
-env['JOB_PILOTTO_NO_DOTENV']='1'
+env['JOBADABRA_NO_DOTENV']='1'
 tag=f'js{cid}'
 print(f'START {cid} {c["title"]} {c["city"]} quick={quick}',flush=True)
 t0=time.time()

@@ -5,7 +5,7 @@ const here = import.meta.dirname, [idArg, toolDir, ...rest] = process.argv.slice
 const id = idArg === '1' ? 'lever' : idArg, src = path.join(here, 'out', id, toolDir), man = (() => { try { return JSON.parse(fs.readFileSync(path.join(src, 'manifest.json'), 'utf8')); } catch { return null; } })();
 if (!man) { console.error(`no manifest in ${src}: run backfill-manifests.mjs first`); process.exit(2); }
 const build = flag('build'), tool = man.tool.replace(/^extension.*/, 'extension'), n = fs.readdirSync(path.join(here, 'out', id)).filter(d => d.startsWith(`${toolDir}-rerun-`)).length + 1, dest = path.join(here, 'out', id, `${toolDir}-rerun-${n}`);
-const env = {...process.env, JOB_PILOTTO_SESSION: 'bake-off', BAKEOFF_FLOW: man.flow ? '1' : '0', ...(man.flags?.readPosts ? {BAKEOFF_READPOSTS: '1'} : {})};
+const env = {...process.env, JOBADABRA_SESSION: 'bake-off', BAKEOFF_FLOW: man.flow ? '1' : '0', ...(man.flags?.readPosts ? {BAKEOFF_READPOSTS: '1'} : {})};
 if (tool === 'extension' && build) env.JP_REPO = ensureWorktree(build).e2e; else if (tool === 'extension' && man.extension?.jpRepo && fs.existsSync(man.extension.jpRepo)) env.JP_REPO = man.extension.jpRepo;
 console.log(`rerun ${id}/${toolDir} -> ${path.relative(here, dest)}${build ? ` on build ${build}` : ''} (${man.url})`);
 process.exit(spawnSync('node', ['run.mjs', tool, man.url, dest], {cwd: here, stdio: 'inherit', env}).status || 0);

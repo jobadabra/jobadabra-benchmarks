@@ -3,14 +3,14 @@
 The benchmark's forms, scorer and safety net double as a **regression test for the extension**. Run any build of the extension on the same forms, compare with a **baseline**, and get a per-form verdict: 🟢 same or better, 🔻 regression, 🆕 no baseline yet.
 
 > [!IMPORTANT]
-> **Never test with the primary checkout** (`~/job-pilotto`, the owner's live app runs from it). QA always makes its own **worktree at one commit** (`~/job-pilotto/.claude/worktrees/bakeoff-at-<sha>`), so "which build" is always an exact commit, and every result records it.
+> **Never test with the primary checkout** (`~/jobadabra`, the owner's live app runs from it). QA always makes its own **worktree at one commit** (`~/jobadabra/.claude/worktrees/bakeoff-at-<sha>`), so "which build" is always an exact commit, and every result records it.
 
 ---
 
 ## ⚡ Quick start (3 commands)
 
 ```bash
-git -C ~/job-pilotto fetch origin                       # 1. get the latest commits (never pull in the primary checkout)
+git -C ~/jobadabra fetch origin                       # 1. get the latest commits (never pull in the primary checkout)
 node qa.mjs run --build origin/main                     # 2. latest main on the QA forms, then the comparison with the baseline
 node qa.mjs fields 4 extension extension-b<sha>         # 3. if a form regressed: which fields changed (use the short sha printed in step 2)
 ```
@@ -31,7 +31,7 @@ Step 2 prints a table and exits **1 if any form regressed**, **0** otherwise:
 | Piece | What it is |
 | --- | --- |
 | **Forms** | `forms.json`, `forms-fresh.json`: public no-login forms, one per host. Default QA set: forms **1, 4, 5, 11, 13** (`--forms` to change). |
-| **Build** | An exact commit of the Job Pilotto repo. `--build` takes a sha, a branch, `origin/main`, or a PR head (`git fetch origin pull/123/head`, then `--build FETCH_HEAD`). |
+| **Build** | An exact commit of the Jobadabra repo. `--build` takes a sha, a branch, `origin/main`, or a PR head (`git fetch origin pull/123/head`, then `--build FETCH_HEAD`). |
 | **Run** | The extension on the form in a fresh headless browser, **fake applicant**, never Submit (every write is aborted by the guard). Uses the plan (`claude -p`): no per-token cost. |
 | **Score** | One field reader + a judge (Sonnet 5.5, ~$0.015 a form) → required fields right / total, wrong values. |
 | **Baseline** | `qa/baseline.json`: the per-form scores of a build we accepted (now: the old build `62dad23`). |
@@ -87,7 +87,7 @@ When a live form regressed, **reproduce the failure shape on a tiny local page**
 
 ```bash
 node fixture/serve.mjs                       # prints the fixture's address; pages: /combo (suggest-only address box), /wizard (5 steps), / (plain form)
-export JP_REPO=~/job-pilotto/.claude/worktrees/<a worktree on recent main>/desktop/e2e   # the harness; only the extension under test varies
+export JP_REPO=~/jobadabra/.claude/worktrees/<a worktree on recent main>/desktop/e2e   # the harness; only the extension under test varies
 node qa.mjs localbisect --good 62dad23 --bad 9a0416d --url http://127.0.0.1:<port>/combo --runs 3   # timing bugs: 3 runs per build
 ```
 
@@ -113,11 +113,11 @@ It reads the run's `manifest.json` (URL, tool + version, flags, instruction, ext
 
 ### 7. An exact repeat, offline (no site visit)
 
-`results/captures/<run>.tar.gz` holds the page snapshots the extension saw. With the Job Pilotto repo's replay tool:
+`results/captures/<run>.tar.gz` holds the page snapshots the extension saw. With the Jobadabra repo's replay tool:
 
 ```bash
 tar -xzf results/captures/form-4__extension-main.tar.gz -C /tmp/hadrian-capture
-cd ~/job-pilotto/.claude/worktrees/<a worktree>/desktop/e2e
+cd ~/jobadabra/.claude/worktrees/<a worktree>/desktop/e2e
 node row.mjs /tmp/hadrian-capture                              # the build in this worktree
 node row.mjs /tmp/hadrian-capture --old <other extension dir>  # another build on the same page
 ```
@@ -153,7 +153,7 @@ A regression that reproduces on a second run is a real finding: send the form, t
 | **Time** | ~2 min a form, one form at a time, headless. |
 | **Site limit** | **3 visits per host per day** (a machine-wide ledger). A QA pass is 1 visit per host; a repeat or a bisect step is another. Never override it. |
 | **Safety** | the guard aborts every write to the form site (so nothing is submitted); fake applicant; no login/captcha; never the owner's browser or data; a privacy scan runs before anything is published. |
-| **Needs** | Keychain `job-pilotto.anthropic.e2e_key` (judge), `~/job-pilotto` repo (to make worktrees), Node + the packages in `package.json`. |
+| **Needs** | Keychain `jobadabra.anthropic.e2e_key` (judge), `~/jobadabra` repo (to make worktrees), Node + the packages in `package.json`. |
 
 ---
 
@@ -216,7 +216,7 @@ Detect live, explain locally. A regression found live is only a finding until a 
 
 **9. Before you trust a verdict:** build field correct · one process only · no INVALID marker · same forms compared · regression repeated once · the guard not the cause.
 
-**10. Timing bugs need repeats, not one run per build.** The Hadrian stall shows only when Claude's answers arrive after the fill has started, and mostly on a busy machine: main passed 2 of 3 runs on the same page. A single-run bisect would have blamed the wrong commit or none. Rules: a build is *bad* if any run loses the answers, *good* only after N clean runs that include the trigger (late answers); `localbisect` does this (`--runs 3`, the default), and `flaky-probe.mjs <url> <runs> <sha>…` counts failures per build. Make the trigger deterministic when you can (the offline replay's late-answer pad: `JOB_PILOTTO_MODEL_MEMO_LATENCY_PAD_MS`).
+**10. Timing bugs need repeats, not one run per build.** The Hadrian stall shows only when Claude's answers arrive after the fill has started, and mostly on a busy machine: main passed 2 of 3 runs on the same page. A single-run bisect would have blamed the wrong commit or none. Rules: a build is *bad* if any run loses the answers, *good* only after N clean runs that include the trigger (late answers); `localbisect` does this (`--runs 3`, the default), and `flaky-probe.mjs <url> <runs> <sha>…` counts failures per build. Make the trigger deterministic when you can (the offline replay's late-answer pad: `JOBADABRA_MODEL_MEMO_LATENCY_PAD_MS`).
 
 **11. Old commits lack today's harness.** An old commit's `desktop/e2e` misses files the runner needs (`applicant-seed.mjs` did not exist at `62dad23`). Keep the harness on a recent worktree (`JP_REPO`) and swap only the extension under test (`JP_EXT_DIR=<worktree at the old commit>/extension`). Worktrees made by `qa.mjs` are named with 8 characters of the sha (`bakeoff-at-62dad235`): use the path the tool prints, never type it.
 

@@ -15,7 +15,7 @@ for (const form of forms) {
   for (const tool of TOOLS) {
     if (allSpent() >= CAP) { console.log(`BUDGET reached before ${tool} on form ${form.id}: $${allSpent().toFixed(2)} of the cap ${CAP}`); break; }
     const out = path.join(here, 'out', String(form.id), tool); fs.mkdirSync(out, {recursive: true});
-    const r = spawnSync('node', ['run.mjs', tool.startsWith('extension') ? 'extension' : tool, form.url, out], {cwd: here, encoding: 'utf8', env: {...process.env, JOB_PILOTTO_SESSION: 'bake-off', BAKEOFF_FLOW: form.flow ? '1' : '0'}, timeout: 15 * 60 * 1000});
+    const r = spawnSync('node', ['run.mjs', tool.startsWith('extension') ? 'extension' : tool, form.url, out], {cwd: here, encoding: 'utf8', env: {...process.env, JOBADABRA_SESSION: 'bake-off', BAKEOFF_FLOW: form.flow ? '1' : '0'}, timeout: 15 * 60 * 1000});
     fs.writeFileSync(path.join(out, 'run.log'), `${r.stdout || ''}\n--- stderr ---\n${r.stderr || ''}`);   // every tool's own lines (the privacy tripwire's reason, errors) stay with its result
     const resFile = path.join(out, 'result.json');
     if (!fs.existsSync(resFile)) { const why = (r.stderr || r.stdout || '').split('\n').filter(l => /Error|refus|limit|SiteLimit/i.test(l)).slice(0, 2).join(' | ').slice(0, 300); console.log(`  ${tool}: NO RESULT ${why}`); fs.writeFileSync(path.join(out, 'no-result.txt'), why); if (tool === TOOLS[0]) break; continue; }

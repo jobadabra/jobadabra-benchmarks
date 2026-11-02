@@ -12,16 +12,16 @@ process.on('unhandledRejection', e => { fatal = String(e?.message || e).slice(0,
 const endOursOnCrash = () => { if (process.argv[2] !== 'extension' || !fatal) return; try { fs.writeFileSync(path.join(process.argv[4], 'result.json'), JSON.stringify({tool: 'extension', url: process.argv[3], error: fatal, crashed: true}, null, 1)); } catch { /* the out dir may not exist yet */ } setTimeout(() => process.exit(1), 3000).unref(); };
 process.on('uncaughtException', endOursOnCrash); process.on('unhandledRejection', endOursOnCrash);
 const watchFatal = () => new Promise((_, reject) => { const t = setInterval(() => { if (fatal) { clearInterval(t); reject(new Error(fatal)); } }, 500); setTimeout(() => { clearInterval(t); reject(new Error('timeout: 8 minutes')); }, 8 * 60 * 1000).unref(); });
-const REPO = process.env.JP_REPO || path.join(process.env.HOME, 'job-pilotto', 'desktop', 'e2e');   // the Job Pilotto checkout: fake applicant, site ledger, the extension harness (use a worktree on main, never the owner's live checkout)
+const REPO = process.env.JP_REPO || path.join(process.env.HOME, 'jobadabra', 'desktop', 'e2e');   // the Jobadabra checkout: fake applicant, site ledger, the extension harness (use a worktree on main, never the owner's live checkout)
 const [tool, url, out] = process.argv.slice(2);
 if (!['stagehand', 'browser-use', 'extension', 'nanobrowser'].includes(tool) || !url || !out) { console.error('usage: run.mjs <stagehand|browser-use|extension> <url> <out dir>'); process.exit(2); }
 fs.mkdirSync(out, {recursive: true});
 const guardLog = path.join(out, 'guard.jsonl'); fs.writeFileSync(guardLog, '');
 const key = anthropicKey;
 const applicant = await buildApplicant(path.dirname(out));   // the same file for every tool of this form
-const started = Date.now(), result = {tool, url, model: tool === 'extension' ? (process.env.BENCH_MODEL && process.env.BENCH_OURS_AS_SHIPPED !== '1' ? `${AGENT_MODEL} (JOB_PILOTTO_MODEL_OVERRIDE, claude -p on the plan)` : 'as shipped: claude-sonnet-5-5 for answers (claude -p on the plan)') : AGENT_MODEL};
+const started = Date.now(), result = {tool, url, model: tool === 'extension' ? (process.env.BENCH_MODEL && process.env.BENCH_OURS_AS_SHIPPED !== '1' ? `${AGENT_MODEL} (JOBADABRA_MODEL_OVERRIDE, claude -p on the plan)` : 'as shipped: claude-sonnet-5-5 for answers (claude -p on the plan)') : AGENT_MODEL};
 // The same model for ours as for the agents (objective round): the app's e2e-only switch puts every AI step on it. BENCH_OURS_AS_SHIPPED=1 keeps the shipped models.
-if (tool === 'extension' && process.env.BENCH_MODEL && process.env.BENCH_OURS_AS_SHIPPED !== '1') process.env.JOB_PILOTTO_MODEL_OVERRIDE = AGENT_MODEL;
+if (tool === 'extension' && process.env.BENCH_MODEL && process.env.BENCH_OURS_AS_SHIPPED !== '1') process.env.JOBADABRA_MODEL_OVERRIDE = AGENT_MODEL;
 const {guardLiveVisit} = await import(path.join(REPO, 'lib/site-ledger.mjs'));
 let guard = null;
 // Where a top-level navigation may go: the form's own site (registrable domain) plus the hiring systems forms are embedded from. Anything else is aborted and logged.
@@ -39,7 +39,7 @@ if (tool === 'extension') {
     if (zoneOf(replayed.record)) process.env.TZ = zoneOf(replayed.record);
     fs.mkdirSync(path.join(out, 'capture'), {recursive: true});
     fs.copyFileSync(path.join(replayDir, 'model-memo.json'), path.join(out, 'capture', 'model-memo.json'));
-    Object.assign(process.env, {JOB_PILOTTO_SITE_LEDGER_DIR: path.join(out, 'ledger'), JOB_PILOTTO_MODEL_MEMO_HITS: path.join(out, 'hits.txt'), JOB_PILOTTO_MODEL_MEMO_LATENCY_CAP_MS: '20000'});
+    Object.assign(process.env, {JOBADABRA_SITE_LEDGER_DIR: path.join(out, 'ledger'), JOBADABRA_MODEL_MEMO_HITS: path.join(out, 'hits.txt'), JOBADABRA_MODEL_MEMO_LATENCY_CAP_MS: '20000'});
     delete process.env.JP_NET_RECORD_DIR;
   } else process.env.JP_NET_RECORD_DIR ||= path.join(out, 'net');
   const browser = async options => {   // the harness's own browser + the guard + the end-state read before it closes

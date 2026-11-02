@@ -1,4 +1,4 @@
-// node publish-site.mjs [--dry] [--run <dir>] [root...]: sends one summary row per scored run to the owner-only page /admin/benchmark-form-filling (PUT /benchmark/data, Bearer = Keychain job-pilotto.site.selfheal_publish_key or $SELFHEAL_PUBLISH_KEY).
+// node publish-site.mjs [--dry] [--run <dir>] [root...]: sends one summary row per scored run to the owner-only page /admin/benchmark-form-filling (PUT /benchmark/data, Bearer = Keychain jobadabra.site.selfheal_publish_key or $SELFHEAL_PUBLISH_KEY).
 // Reads <root>/<form>/<tool>/{judged.json,result.json,manifest.json} (roots: results/runs/form-N and out/<id>; --run <dir> = one tool dir right after a run). Counts are REQUIRED fields only, as in product-score.mjs:
 // right / wrong / empty, not answerable (the facts cannot answer), consent holds (an empty checkbox or consent line, held for the person) and reader duplicates (same question and type twice).
 // Forms go out as "Form N" (no hosts), tools by the names below; the site's code is public and holds none of them. Mode = our extension's repair rung: user = the build has it acting for every user (#873) or the harness had it off; harness = a build before #873 run with it on; a run that did not record it is harness (before 15 Oct 2026 the rung acted in the harness only).
@@ -13,7 +13,7 @@ const FRESH = new Set((() => { try { return JSON.parse(fs.readFileSync(path.join
 const git = (...a) => { try { return execFileSync('git', ['-C', here, ...a], {encoding: 'utf8'}).trim(); } catch { return ''; } };
 const FIXES = [['trail', git('log', '-1', '--format=%aI', '--grep=Trail: a field the final page shows empty is empty')], ['select', git('log', '-1', '--format=%aI', 'f20f9eb')]];
 // Is this build one that has the repair rung acting for every user (the commit "The repair rung acts for every user")? Keyed on the build, not on the harness flag alone.
-const JP = process.env.JP_MAIN_REPO || path.join(process.env.HOME, 'job-pilotto');
+const JP = process.env.JP_MAIN_REPO || path.join(process.env.HOME, 'jobadabra');
 const RUNG_USER = (() => { try { return execFileSync('git', ['-C', JP, 'log', 'origin/main', '-1', '--format=%H', '--grep=The repair rung acts for every user'], {encoding: 'utf8'}).trim(); } catch { return ''; } })();
 const userBuild = build => { if (!RUNG_USER) return false; try { execFileSync('git', ['-C', JP, 'merge-base', '--is-ancestor', RUNG_USER, build], {stdio: 'ignore'}); return true; } catch { return false; } };
 const rj = f => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return null; } };
@@ -38,10 +38,10 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const runs = dirs.map(rowOf).filter(Boolean);
   console.log(`${runs.length} scored runs of ${dirs.length} folders`);
   if (dry) { console.table(runs.map(r => ({run: r.id.slice(0, 30), tool: r.tool, build: r.build, mode: r.mode, required: r.required, right: r.right, wrong: r.wrong, empty: r.empty}))); process.exit(0); }
-  const key = process.env.SELFHEAL_PUBLISH_KEY || (() => { try { return execFileSync('security', ['find-generic-password', '-s', 'job-pilotto.site.selfheal_publish_key', '-w'], {encoding: 'utf8'}).trim(); } catch { return ''; } })();
-  if (!key) { console.log('no publish key (Keychain job-pilotto.site.selfheal_publish_key): nothing sent'); process.exit(0); }
+  const key = process.env.SELFHEAL_PUBLISH_KEY || (() => { try { return execFileSync('security', ['find-generic-password', '-s', 'jobadabra.site.selfheal_publish_key', '-w'], {encoding: 'utf8'}).trim(); } catch { return ''; } })();
+  if (!key) { console.log('no publish key (Keychain jobadabra.site.selfheal_publish_key): nothing sent'); process.exit(0); }
   for (let i = 0; i < runs.length; i += 200) {
-    const res = await fetch(process.env.BENCHMARK_URL || 'https://www.jobpilotto.top/benchmark/data', {method: 'PUT', headers: {Authorization: `Bearer ${key}`}, body: JSON.stringify({runs: runs.slice(i, i + 200)})});
+    const res = await fetch(process.env.BENCHMARK_URL || 'https://www.jobadabra.top/benchmark/data', {method: 'PUT', headers: {Authorization: `Bearer ${key}`}, body: JSON.stringify({runs: runs.slice(i, i + 200)})});
     console.log(res.status, await res.text());
   }
 }

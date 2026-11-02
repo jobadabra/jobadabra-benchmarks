@@ -12,7 +12,7 @@ for i in $(seq $1 $2); do
   mkdir -p $B/$O/p$i
   JP=$JP python3 -I $REPO/search-bench/make-cv.py $REPO/search-bench/personas.json $i $B/$O/p$i >/dev/null || { echo "OURS p$i FAILED cv"; continue; }
   start=$(date +%s)
-  (cd $JP && env -u ANTHROPIC_API_KEY -u OPENAI_API_KEY JOB_PILOTTO_NO_DOTENV=1 \
+  (cd $JP && env -u ANTHROPIC_API_KEY -u OPENAI_API_KEY JOBADABRA_NO_DOTENV=1 \
     bash tools/heavy-lock.sh persona-search node tools/persona-search/run.mjs draw $B/$O/p$i --presses $N --fresh --tag bench$N-$i > $B/$O/p$i.log 2>&1)
   echo "OURS p$i done in $(( $(date +%s) - start )) s: $(grep '^PRESS' $B/$O/p$i.log | cut -c1-110 | tr '\n' ' ')"
   python3 -I $REPO/search-bench/extract.py ours $TMP/jp-persona-draw-bench$N-$i/data/jobs.sqlite $B/$O/p$i.json
