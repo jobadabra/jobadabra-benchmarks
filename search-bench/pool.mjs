@@ -1,7 +1,8 @@
 // Lays out one CI search round for judge.py and publish.mjs (search-round.yml; owner, 27 Oct 2026: "every 3 days"). From the downloaded
 // artifacts (search-ours-p<N>-x1/, search-<rival>-p<N>/) it writes <work>/pool<N>.json (tool, title, company, place, job system: no URL,
 // no posting text) and <work>/ours/p<N>.log (publish.mjs reads our time there). A tool whose list is missing for a persona is named in
-// <work>/missing.json: a failed job must never read as "found 0". Guard: test/search-pool.test.mjs.
+// <work>/missing.json: a failed job must never read as "found 0". A rival that answered "not served here" (null list + its meta says notServed) is named in
+// <work>/notserved.json instead: no data for that place, not a failure. Guard: test/search-pool.test.mjs.
 // Usage: node search-bench/pool.mjs <artifacts dir> <work dir>
 import fs from 'node:fs'; import path from 'node:path'; import {fileURLToPath} from 'node:url';
 
@@ -15,11 +16,11 @@ const keep = row => ({tool: row.tool, title: row.title || '', company: row.compa
 /**
  * @param {string} art the folder actions/download-artifact filled (one sub-folder per artifact)
  * @param {string} work where pool<N>.json, ours/p<N>.log, missing.json and build.txt go
- * @returns {{missing: string[], build: string}} missing = "ours p3"-style labels; build = our short commit, '' if no ours artifact
+ * @returns {{missing: string[], notServed: string[], build: string}} missing = "ours p3"-style labels of jobs that failed; notServed = rivals that said they do not serve that place; build = our short commit, '' if no ours artifact
  */
 export function layOut(art, work, {personas = 10, rivals = RIVALS} = {}) {
   fs.mkdirSync(path.join(work, 'ours'), {recursive: true});
-  const missing = []; let build = '';
+  const missing = [], notServed = []; let build = '';
   for (let n = 1; n <= personas; n++) {
     const pool = [], ours = path.join(art, `search-ours-p${n}-x1`);
     const jobs = rj(path.join(ours, 'out', 'jobs.json'));
@@ -32,18 +33,22 @@ export function layOut(art, work, {personas = 10, rivals = RIVALS} = {}) {
     if (fs.existsSync(log)) fs.copyFileSync(log, path.join(work, 'ours', `p${n}.log`));
     build ||= ((fs.existsSync(path.join(ours, 'build.txt')) ? fs.readFileSync(path.join(ours, 'build.txt'), 'utf8') : '').match(/build: (\w+)/) || [])[1] || '';
     for (const rival of rivals) {
-      const dir = path.join(art, `search-${rival}-p${n}`), list = rj(first([path.join(dir, `${rival}-p${n}.json`), path.join(dir, 'out', `${rival}-p${n}.json`)]) || '-');
-      if (Array.isArray(list)) pool.push(...list.map(row => keep({...row, tool: rival}))); else missing.push(`${rival} p${n}`);
+      const dir = path.join(art, `search-${rival}-p${n}`), file = first([path.join(dir, `${rival}-p${n}.json`), path.join(dir, 'out', `${rival}-p${n}.json`)]), list = rj(file || '-');
+      // Why (2 Nov 2026, Gitar on #14): a null list from a rival that says it does not serve the place is "no data", not a failed job; without that word it stays missing.
+      if (Array.isArray(list)) pool.push(...list.map(row => keep({...row, tool: rival})));
+      else if (list === null && file && rj(file.replace(/\.json$/, '.meta.json'))?.notServed === true) notServed.push(`${rival} p${n}`);
+      else missing.push(`${rival} p${n}`);
     }
     fs.writeFileSync(path.join(work, `pool${n}.json`), JSON.stringify(pool, null, 1));
   }
   fs.writeFileSync(path.join(work, 'missing.json'), JSON.stringify(missing));
+  fs.writeFileSync(path.join(work, 'notserved.json'), JSON.stringify(notServed));
   fs.writeFileSync(path.join(work, 'build.txt'), build);
-  return {missing, build};
+  return {missing, notServed, build};
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const [art, work] = process.argv.slice(2);
-  const {missing, build} = layOut(art, work);
-  console.log(`pool: build ${build || '?'}; missing: ${missing.join(', ') || 'none'}`);
+  const {missing, notServed, build} = layOut(art, work);
+  console.log(`pool: build ${build || '?'}; missing: ${missing.join(', ') || 'none'}; not served: ${notServed.join(', ') || 'none'}`);
 }

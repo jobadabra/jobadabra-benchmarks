@@ -33,6 +33,22 @@ test('a rival that wrote null is missing (unknown); one that wrote an empty list
   assert.deepEqual(layOut(art, work, {personas: 1}).missing, ['eures p1', 'adzuna p1']);
 });
 
+// Why (2 Nov 2026, Gitar on #14): null from a rival whose meta says notServed is "no data for that place", listed apart from the jobs that failed (a null with no such word, or no file, is still a failure).
+test('a rival that says it does not serve the place is listed as not served, never as a failed job', () => {
+  const art = fs.mkdtempSync(path.join(os.tmpdir(), 'pool-art-')), work = fs.mkdtempSync(path.join(os.tmpdir(), 'pool-work-'));
+  put(path.join(art, 'search-ours-p1-x1', 'out', 'jobs.json'), []);
+  put(path.join(art, 'search-ours-all-p1-x1', 'out', 'jobs.json'), []);
+  put(path.join(art, 'search-jobspy-p1', 'jobspy-p1.json'), []);
+  put(path.join(art, 'search-adzuna-p1', 'out', 'adzuna-p1.json'), 'null');
+  put(path.join(art, 'search-adzuna-p1', 'out', 'adzuna-p1.meta.json'), {rival: 'adzuna', kept: null, notServed: true, errors: []});
+  put(path.join(art, 'search-eures-p1', 'out', 'eures-p1.json'), 'null');
+  put(path.join(art, 'search-eures-p1', 'out', 'eures-p1.meta.json'), {rival: 'eures', kept: null, notServed: false, errors: ['http 500']});
+  const {missing, notServed} = layOut(art, work, {personas: 1});
+  assert.deepEqual(notServed, ['adzuna p1']);
+  assert.deepEqual(missing, ['eures p1'], 'a null with errors and no notServed word is a failure');
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(work, 'notserved.json'), 'utf8')), ['adzuna p1']);
+});
+
 test('the rivals are listed once (rivals.json): the rivals workflow, the round and the fair ours arm read the same names', () => {
   const rivals = JSON.parse(fs.readFileSync(path.join(import.meta.dirname, '..', 'search-bench', 'rivals.json'), 'utf8')), flows = path.join(import.meta.dirname, '..', '.github', 'workflows');
   for (const f of ['search-rivals.yml', 'search-round.yml']) assert.ok(fs.readFileSync(path.join(flows, f), 'utf8').includes(JSON.stringify(rivals).replace(/","/g, '","')), `${f} lists ${rivals}`);
