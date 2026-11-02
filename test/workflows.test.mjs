@@ -22,8 +22,16 @@ const SCHEDULED = {'form-weekly.yml': ['schedule', 'workflow_dispatch'], 'search
 // Unit tests are no benchmark: a workflow that holds no secret and runs only a test file may start on a PR or a push (search-bench-tests.yml,
 // 21 Oct 2026: the judge's spend-cap tests, no API call).
 const isUnitTests = text => !/secrets\./.test(text) && /^\s+- run: python3 -I search-bench\/test_\w+\.py$/m.test(text);
+// PR labels are no benchmark either (owner, 2 Nov 2026: "basically on all the repos in the org... the same workflow"): the two label workflows write labels on a PR, hold no secret (the job's
+// own token only) and run jobadabra's scripts from its main; their exact triggers are listed, so any other trigger still fails here.
+const LABELS = {'gitar-label.yml': ['pull_request_target', 'pull_request_review', 'issue_comment'], 'conflict-label.yml': ['push', 'pull_request_target']};
 for (const f of files) {
   const text = fs.readFileSync(path.join(dir, f), 'utf8');
+  if (LABELS[f]) { test(`${f}: PR label workflow, exact triggers, no secret`, () => { assert.deepEqual(triggersOf(text), LABELS[f]); assert.doesNotMatch(text, /secrets\./);
+    // Why (2 Nov 2026, Gitar on web#258 and #307): the scripts come from jobadabra's main as FILE patterns (cone mode reads each entry as a folder and fetches nothing), and a YAML block has no comments.
+    assert.match(text, /sparse-checkout-cone-mode: false/); assert.match(text, /repository: jobadabra\/jobadabra[^\n]*\n\s+ref: main\n/);
+    for (const [, entry] of text.matchAll(/^ +(tools\/\S+)$/gm)) assert.doesNotMatch(entry, /#/);
+  }); continue; }
   if (isUnitTests(text)) { test(`${f}: unit tests only, no secret`, () => assert.ok(triggersOf(text).every(t => ['pull_request', 'push', 'workflow_dispatch'].includes(t)))); continue; }
   test(`${f} starts by hand only${SCHEDULED[f] ? `, or: ${SCHEDULED[f].join(', ')}` : ''}`, () => assert.deepEqual(triggersOf(text), SCHEDULED[f] || ['workflow_dispatch']));
 }

@@ -34,6 +34,7 @@ jobs:
           sparse-checkout: |
             tools/conflict-label.mjs
             tools/gitar-label.mjs
+          sparse-checkout-cone-mode: false
       - name: Label the open PRs that conflict
         env:
           GH_TOKEN: ${{ github.token }}
