@@ -1,7 +1,10 @@
 """Guards the EURES rival's place (Gitar on benchmarks#12, 2 Nov 2026): a job in another town of the same NUTS-2 region must not be kept, and each kept row's place is built from its own codes.
 Run: python3 -m unittest search-bench/test_rivals_eures.py. A fake `post` stands in for the EURES API: no network."""
+import json
 import os
+import subprocess
 import sys
+import tempfile
 import unittest
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -52,6 +55,19 @@ class EuresPlace(unittest.TestCase):
 
     def test_no_job_at_all_is_zero_not_unknown(self):
         self.assertEqual(self.run_eures([job('Elsewhere', ['BG413'])]), [])
+
+
+class NotServed(unittest.TestCase):
+    def test_a_country_adzuna_does_not_serve_is_written_as_null_never_an_empty_list(self):
+        # Why (2 Nov 2026, coordinator on benchmarks#14): [] reads as "found 0"; null is unknown (pool.mjs lists it as missing). No network: Adzuna refuses before any call.
+        here = os.path.dirname(os.path.abspath(__file__))
+        with tempfile.TemporaryDirectory() as folder:
+            personas = os.path.join(folder, 'personas.json')
+            json.dump({'personas': [{'title': 'Nurse', 'city': 'Sofia', 'country': 'Bulgaria'}]}, open(personas, 'w'))
+            out = os.path.join(folder, 'adzuna-p1.json')
+            subprocess.run([sys.executable, '-I', os.path.join(here, 'rivals.py'), 'adzuna', personas, '1', out], check=True, capture_output=True)
+            self.assertIsNone(json.load(open(out)))
+            self.assertTrue(json.load(open(out.replace('.json', '.meta.json')))['notServed'])
 
 
 if __name__ == '__main__':

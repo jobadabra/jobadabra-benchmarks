@@ -97,6 +97,6 @@ if __name__ == '__main__':
     else:
         rows = {'eures': eures, 'adzuna': adzuna}[kind](p)
     meta = {'rival': kind, 'persona': p, 'kept': None if rows is None else len(rows), 'notServed': rows is None, 'errors': errors}
-    json.dump(None if (rows is None and kind == 'eures') else rows or [], open(out, 'w'), ensure_ascii=False, indent=1)   # eures null = not measured: pool.mjs lists it as missing, never found-0
+    json.dump(rows, open(out, 'w'), ensure_ascii=False, indent=1)   # Why (2 Nov 2026, coordinator): null = not served / not measured; pool.mjs lists a non-list as missing (unknown), an empty list is a real 0
     json.dump(meta, open(out.replace('.json', '.meta.json'), 'w'), ensure_ascii=False, indent=1)
     print(kind, p['city'], 'not served' if rows is None else f'{len(rows)} rows', json.dumps(errors)[:300])
