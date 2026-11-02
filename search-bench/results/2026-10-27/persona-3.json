@@ -204,6 +204,105 @@
    "place": "no"
   },
   {
+   "tool": "eures",
+   "title": "Menuisier Ebeniste H/F/X",
+   "company": "STRIMA ENTREPRISE GENERALE DE CONSTRUCTIONS",
+   "location": "Brussels-Capital Region, Belgium (BE100)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Meubelplaatser - regio Brussel",
+   "company": "Camber Stockel",
+   "location": "Brussels-Capital Region, Belgium (BE100)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Menuisier",
+   "company": "ND3",
+   "location": "Brussels-Capital Region, Belgium (BE100)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PLACEUR DE CHÂSSIS H/F/X",
+   "company": "ALL CHASSIS",
+   "location": "Brussels-Capital Region, Belgium (BE100)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Drietalige interieurarchitect regio Brussel NL/FR/ENG",
+   "company": "Camber Stockel",
+   "location": "Brussels-Capital Region, Belgium (BE100)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Monteur Putdeksels",
+   "company": "SELECT HUMAN RESOURCES NV",
+   "location": "Brussels-Capital Region, Belgium (BE100)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Hogedrukreiniger Beton",
+   "company": "Renotec",
+   "location": "Brussels-Capital Region, Belgium (BE100)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Rioolarbeider speciale technieken",
+   "company": "Renotec",
+   "location": "Brussels-Capital Region, Belgium (BE100)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "EMPLOYE COMMERCIAL/ Entreprise de meubles parlant Turc et Français à Bruxelles H/F/X",
+   "company": "UNIVERSAL MEUBEL",
+   "location": "Brussels-Capital Region, Belgium (BE100)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "comptable H/F/X",
+   "company": "FINOFIN",
+   "location": "Brussels-Capital Region, Belgium (BE100)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TECHNICIEN POLYVALENT / BRICOLEUR (H/F/X) H/F/X",
+   "company": "FAC SIMILITER",
+   "location": "Brussels-Capital Region, Belgium (BE100)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
    "tool": "jobspy",
    "title": "Menuisier/Menuisière",
    "company": "Talentus",
@@ -319,105 +418,6 @@
    "provider": "JobSpy/indeed",
    "role": "no",
    "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "Menuisier Ebeniste H/F/X",
-   "company": "STRIMA ENTREPRISE GENERALE DE CONSTRUCTIONS",
-   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Meubelplaatser - regio Brussel",
-   "company": "Camber Stockel",
-   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Menuisier",
-   "company": "ND3",
-   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "PLACEUR DE CHÂSSIS H/F/X",
-   "company": "ALL CHASSIS",
-   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Drietalige interieurarchitect regio Brussel NL/FR/ENG",
-   "company": "Camber Stockel",
-   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Monteur Putdeksels",
-   "company": "SELECT HUMAN RESOURCES NV",
-   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Hogedrukreiniger Beton",
-   "company": "Renotec",
-   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Rioolarbeider speciale technieken",
-   "company": "Renotec",
-   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "EMPLOYE COMMERCIAL/ Entreprise de meubles parlant Turc et Français à Bruxelles H/F/X",
-   "company": "UNIVERSAL MEUBEL",
-   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "comptable H/F/X",
-   "company": "FINOFIN",
-   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "TECHNICIEN POLYVALENT / BRICOLEUR (H/F/X) H/F/X",
-   "company": "FAC SIMILITER",
-   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
   }
  ]
 }
