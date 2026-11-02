@@ -14,7 +14,7 @@ on:
         description: The Jobadabra commit or branch (GarryOne/jobadabra)
         default: main
 permissions:
-  contents: write   # the notes on the weekly-picks branch
+  contents: write   # moves the tag weekly-picks (the notes); Why (2 Nov 2026, owner: "let's use tags not branches for storing things. Otherwise, they keep popping up like that"): the weekly-picks state is the TAG weekly-picks (tools/state-tag.sh: read, and a compare-and-swap write); a pushed branch made GitHub offer "Compare & pull request".
   actions: read
 jobs:
   when:   # Why (27 Oct 2026): cron's */3 restarts each month (31 -> 1); days since 1970 mod 3 keeps exactly 3 days apart. By hand: always.
@@ -89,12 +89,11 @@ jobs:
           BENCH_TELEGRAM_CHAT_ID: ${{ secrets.BENCH_TELEGRAM_CHAT_ID }}
           URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          git fetch -q origin weekly-picks && git worktree add -q picks FETCH_HEAD || git worktree add -q --orphan -b weekly-picks picks
+          tools/state-tag.sh read weekly-picks picks
           mkdir -p picks/notes/search; day=$(date -u +%F)
           node search-bench/note.mjs work --round "$day" --build "$(cat work/build.txt)" --baseline search-bench/results/2026-10-27 \
             --last picks/notes/search --out "picks/notes/search/$day.json" --url "$URL"
-          cd picks && git add notes && git -c user.name=github-actions -c user.email=github-actions@users.noreply.github.com commit -q -m "Search note $day"
-          for i in 1 2 3; do git pull -q --rebase origin weekly-picks 2>/dev/null; git push -q origin HEAD:weekly-picks && break; sleep 10; done
+          tools/state-tag.sh write weekly-picks picks "Search note $day" notes
       - name: The judged round
         if: always()
         uses: actions/upload-artifact@v6

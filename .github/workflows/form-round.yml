@@ -18,7 +18,7 @@ on:
         description: The forms file (pick-forms.mjs output)
         default: forms-objective.json
       forms_from:
-        description: Take the forms file from another branch, branch:path (the weekly draw - weekly-picks:weekly/2026-W45.json); empty - this ref
+        description: Take the forms file from a tag, tag:path (the weekly draw - weekly-picks:weekly/2026-W45.json); empty - this ref
         default: ''
       publish:
         description: Judge, score and publish as round fixed or week-YYYY-Www (empty - only the runs; a side check of an older build stays unpublished)
@@ -28,7 +28,7 @@ on:
         type: boolean
         default: false
       weekly:
-        description: yes - a weekly run (form-weekly.yml) - ends with the Telegram note and keeps it on weekly-picks
+        description: yes - a weekly run (form-weekly.yml) - ends with the Telegram note and keeps it on the tag weekly-picks
         default: ''
       product_ref:
         description: The Jobadabra commit or branch our leg runs (GarryOne/jobadabra)
@@ -114,10 +114,11 @@ jobs:
           (cd jp/desktop && npm ci)
           (cd jp/desktop/e2e && npx playwright-core install --with-deps chromium)
           pip install --quiet -r jp/requirements.txt
-      - name: The forms file from the weekly-picks branch
+      - name: The forms file from the weekly-picks tag
         if: inputs.forms_from != ''
         env: {FROM: '${{ inputs.forms_from }}', FORMS: '${{ inputs.forms }}'}
-        run: git fetch -q --depth 1 origin "${FROM%%:*}" && git show "FETCH_HEAD:${FROM#*:}" > "$FORMS"
+        run: |
+          tag="${FROM%%:*}"; git fetch -q --depth 1 origin "+refs/tags/$tag:refs/tags/$tag" && git show "refs/tags/$tag:${FROM#*:}" > "$FORMS"
       - name: The round's forms, this tool, this run
         run: |
           set -o pipefail
@@ -147,7 +148,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 45
     permissions:
-      contents: write   # the weekly note on branch weekly-picks
+      contents: write   # moves the tag weekly-picks (the weekly note); Why (2 Nov 2026, owner: "let's use tags not branches for storing things. Otherwise, they keep popping up like that"): the weekly-picks state is the TAG weekly-picks (tools/state-tag.sh: read, and a compare-and-swap write); a pushed branch made GitHub offer "Compare & pull request".
     env:
       ROUND: ${{ inputs.publish }}
       JUDGE_ONLY: ${{ inputs.judge_only }}
@@ -168,10 +169,11 @@ jobs:
           fi
           for a in arts/form-round-*; do cp -R "$a"/round-out/. pool/; done
           find pool -name '*.png' -delete; ls pool
-      - name: The forms file from the weekly-picks branch (the judge sees each posting's title and company)
+      - name: The forms file from the weekly-picks tag (the judge sees each posting's title and company)
         if: inputs.forms_from != ''
         env: {FROM: '${{ inputs.forms_from }}', FORMS: '${{ inputs.forms }}'}
-        run: git fetch -q --depth 1 origin "${FROM%%:*}" && git show "FETCH_HEAD:${FROM#*:}" > "$FORMS"
+        run: |
+          tag="${FROM%%:*}"; git fetch -q --depth 1 origin "+refs/tags/$tag:refs/tags/$tag" && git show "refs/tags/$tag:${FROM#*:}" > "$FORMS"
       - name: Blind judge (the Claude plan; earlier verdicts reused)
         env: {CLAUDE_CODE_OAUTH_TOKEN: '${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}', FORMS: '${{ inputs.forms }}'}
         run: |
@@ -186,7 +188,7 @@ jobs:
         if: ${{ !inputs.judge_only }}
         env: {BENCHMARK_PUBLISH_KEY: '${{ secrets.BENCHMARK_PUBLISH_KEY }}'}
         run: node publish-fair.mjs pool --round "$ROUND"
-      - name: The weekly note (Telegram, against the baseline and last week; kept on weekly-picks)
+      - name: The weekly note (Telegram, against the baseline and last week; kept on the tag weekly-picks)
         if: ${{ !inputs.judge_only && inputs.weekly == 'yes' }}
         env:
           BENCH_TELEGRAM_BOT_TOKEN: ${{ secrets.BENCH_TELEGRAM_BOT_TOKEN }}
@@ -194,11 +196,10 @@ jobs:
           URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           kind=week; base=(); name=$(date -u +%G-W%V); [ "$ROUND" = fixed ] && { kind=fixed; base=(--baseline rounds/fixed/baseline.json); name=$(date -u +%F); }   # fixed runs every 3 days: one note per day
-          if git fetch -q origin weekly-picks && git worktree add -q picks FETCH_HEAD; then :; else git worktree add -q --orphan -b weekly-picks picks; fi
+          tools/state-tag.sh read weekly-picks picks
           mkdir -p "picks/notes/$kind"
           node weekly-note.mjs pool --round "$ROUND" "${base[@]}" --last "picks/notes/$kind" --out "picks/notes/$kind/$name.json" --url "$URL"
-          cd picks && git add notes && git -c user.name=github-actions -c user.email=github-actions@users.noreply.github.com commit -q -m "Note $ROUND $name"
-          for _ in 1 2 3; do git pull -q --rebase origin weekly-picks 2>/dev/null; git push -q origin HEAD:weekly-picks && break; sleep 10; done
+          tools/state-tag.sh write weekly-picks picks "Note $ROUND $name" notes
       - name: The judged round
         if: always()
         uses: actions/upload-artifact@v6

@@ -1,4 +1,4 @@
-// A weekly round's last word: one Telegram message (lib/weekly-note.mjs) and its note, kept on the weekly-picks branch for next week.
+// A weekly round's last word: one Telegram message (lib/weekly-note.mjs) and its note, kept on the weekly-picks tag for next week.
 // Usage: node weekly-note.mjs <judged pool> --round fixed|week-YYYY-Www [--build abc1234 (default: our runs' build)] [--baseline rounds/fixed/baseline.json]
 //          [--last <dir of earlier notes of this kind>] [--out note.json] [--url <run url>]
 // Telegram: $BENCH_TELEGRAM_BOT_TOKEN and $BENCH_TELEGRAM_CHAT_ID (the benchmarks bot, owner 27 Oct 2026); unset: printed only.
