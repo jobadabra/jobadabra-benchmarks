@@ -31,7 +31,8 @@ Public page: jobadabra.top/benchmark (site repo `jobadabra-web`); the full runs 
   ours per persona vs the previous run and `search-bench/results/2026-10-27`). A failed job is named in the note, never shown as 0.
   career-ops stays by hand. $0 (plan only).
 - **Otherwise by hand only, rarely** (owner, 27 Oct 2026: "trigger them manually, from time to time. Maybe once in a half a year"): every
-  other workflow starts on `workflow_dispatch` (or is called by one) and nothing else. Guard: `test/workflows.test.mjs`.
+  other workflow starts on `workflow_dispatch` (or is called by one) and nothing else. Guard: `test/workflows.test.mjs`. Exception: the org's PR checks
+  (`pr-checks.yml`, the PR-description check and "All checks passed"; owner, 2 Nov 2026: the same workflow on every repo) start on `pull_request` and hold no secret.
 - **Cost:** a whole round (both benchmarks) costs at most ~$3, or $0 (owner, 27 Oct 2026). Every tool on one model (`BENCH_MODEL`,
   Haiku 5.5 in the objective round); judges on the Claude plan. Measure a one-form trial before a full round.
 - **Fair:** forms drawn by seed (`pick-forms.mjs`) from a list we did not make, minus every company we tested or fixed on; all tools the
