@@ -1,6 +1,6 @@
 // node publish.mjs <work dir> [--round YYYY-MM-DD] [--build <sha>] [--dry]: turns one search-bench round (judgedN.json, ours/pN.log, co/pN/.../seconds.txt in <work dir>) into one summary row per tool and persona,
 // keeps the judged lists (titles, employers, places, job system; no URLs, no posting texts) in search-bench/results/<round>/, and sends the rows to the owner-only page /admin/benchmark-job-search
-// (PUT /benchmark-search/data, Bearer = Keychain job-pilotto.site.selfheal_publish_key or $SELFHEAL_PUBLISH_KEY). --dry prints the rows and sends nothing.
+// (PUT /benchmark-search/data, Bearer = Keychain jobadabra.site.selfheal_publish_key or $SELFHEAL_PUBLISH_KEY). --dry prints the rows and sends nothing.
 import fs from 'node:fs';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
@@ -52,7 +52,7 @@ personas.forEach((persona, at) => {
 });
 
 if (dry || !rows.length) { console.log(JSON.stringify(rows, null, 1)); console.log(`${rows.length} rows${dry ? ' (dry)' : ''}`); process.exit(0); }
-const key = process.env.SELFHEAL_PUBLISH_KEY || execFileSync('security', ['find-generic-password', '-a', 'job-pilotto', '-s', 'job-pilotto.site.selfheal_publish_key', '-w'], {encoding: 'utf8'}).trim();
-const response = await fetch('https://www.jobpilotto.top/benchmark-search/data', {method: 'PUT', headers: {Authorization: `Bearer ${key}`, 'content-type': 'application/json'}, body: JSON.stringify({runs: rows})});
+const key = process.env.SELFHEAL_PUBLISH_KEY || execFileSync('security', ['find-generic-password', '-a', 'jobadabra', '-s', 'jobadabra.site.selfheal_publish_key', '-w'], {encoding: 'utf8'}).trim();
+const response = await fetch('https://www.jobadabra.top/benchmark-search/data', {method: 'PUT', headers: {Authorization: `Bearer ${key}`, 'content-type': 'application/json'}, body: JSON.stringify({runs: rows})});
 const answer = await response.text(); console.log(response.status, answer);
 if (!response.ok || !/"ok":true/.test(answer)) process.exit(1);   // Why (27 Oct 2026): on CI a refused publish must turn the round red

@@ -27,5 +27,5 @@ test('the rivals are listed once (rivals.json): the rivals workflow, the round a
   for (const f of ['search-rivals.yml', 'search-round.yml']) assert.ok(fs.readFileSync(path.join(flows, f), 'utf8').includes(JSON.stringify(rivals).replace(/","/g, '","')), `${f} lists ${rivals}`);
   const ours = fs.readFileSync(path.join(flows, 'search-ours.yml'), 'utf8');
   assert.match(ours, /rivals\.json/, 'the fair arm reads the list');
-  assert.match(ours, /JOB_PILOTTO_DISABLE="\$off"/);
+  assert.match(ours, /JOBADABRA_DISABLE="\$off"/);
 });

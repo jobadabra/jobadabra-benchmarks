@@ -44,7 +44,7 @@ else if (mode === 'run') {
   for (const [k, f] of keyed(ja)) { const g = mb.get(k); if (!g || g.verdict !== f.verdict || g.value !== f.value) console.log(`| ${f.required ? '★ ' : ''}${f.question.slice(0, 70).replace(/\|/g, '/')} | ${f.verdict}: ${String(f.value).slice(0, 30)} | ${g ? g.verdict + ': ' + String(g.value).slice(0, 30) : '(not on the page)'} |`); }
 }
 else if (mode === 'bisect') {
-  const repo = path.join(process.env.HOME, 'job-pilotto'), id = Number(flag('form')), good = flag('good'), bad = flag('bad'), run = sha => { const wt = ensureWorktree(sha), tool = `extension-b${wt.sha}`; if (!measure(id, tool)) for (const file of ['forms.json', 'forms-fresh.json']) spawnSync('node', ['batch.mjs', file, String(id), '1.0'], {cwd: here, stdio: 'inherit', env: {...process.env, JP_REPO: wt.e2e, BAKEOFF_TOOLS: tool, BAKEOFF_CAP: '100'}}); return measure(id, tool); };
+  const repo = path.join(process.env.HOME, 'jobadabra'), id = Number(flag('form')), good = flag('good'), bad = flag('bad'), run = sha => { const wt = ensureWorktree(sha), tool = `extension-b${wt.sha}`; if (!measure(id, tool)) for (const file of ['forms.json', 'forms-fresh.json']) spawnSync('node', ['batch.mjs', file, String(id), '1.0'], {cwd: here, stdio: 'inherit', env: {...process.env, JP_REPO: wt.e2e, BAKEOFF_TOOLS: tool, BAKEOFF_CAP: '100'}}); return measure(id, tool); };
   const list = execFileSync('git', ['-C', repo, 'rev-list', '--reverse', `${good}..${bad}`, '--', 'extension/'], {encoding: 'utf8'}).split('\n').filter(Boolean), base = run(good); if (!base) { console.error('the good build has no valid result on this form (no visit left today?)'); process.exit(3); }
   let lo = 0, hi = list.length - 1; console.log(`${list.length} commits touch extension/ between ${good} and ${bad}; the good build scored ${base.right}/${base.req}, ${base.wrong} wrong`);
   while (lo < hi) { const mid = Math.floor((lo + hi) / 2), m = run(list[mid]); if (!m) { console.log(`stopped: no valid result for ${list[mid].slice(0, 8)} (site visits used today?). Resume tomorrow with the same command: finished steps are kept.`); process.exit(4); }
@@ -52,7 +52,7 @@ else if (mode === 'bisect') {
   console.log(`first regressing commit: ${list[lo]}\n${execFileSync('git', ['-C', repo, 'log', '-1', '--format=%h %s', list[lo]], {encoding: 'utf8'})}`);
 }
 else if (mode === 'localbisect') {
-  const repo = path.join(process.env.HOME, 'job-pilotto'), good = flag('good'), bad = flag('bad'), url = flag('url'), harness = process.env.JP_REPO;   // JP_REPO: a worktree on a recent main: the harness; only the extension under test comes from each commit
+  const repo = path.join(process.env.HOME, 'jobadabra'), good = flag('good'), bad = flag('bad'), url = flag('url'), harness = process.env.JP_REPO;   // JP_REPO: a worktree on a recent main: the harness; only the extension under test comes from each commit
   if (!url || !harness) { console.error('--url <fixture url>, and JP_REPO=<a recent worktree>/desktop/e2e'); process.exit(2); }
   const RUNS = Number(flag('runs', '3'));   // a timing-dependent bug shows only in some runs: good = every run typed the questions, bad = any run lost them (14 Oct 2026: main passed 2 of 3)
   const isGood = sha => { const runs = []; for (let i = 1; i <= RUNS; i++) { const r = isGoodOnce(sha, i); if (!r) return null; runs.push(r); if (!r.good) break; } return {typed: Math.min(...runs.map(r => r.typed)), good: runs.every(r => r.good), runs: runs.length, wt: runs[0].wt}; };

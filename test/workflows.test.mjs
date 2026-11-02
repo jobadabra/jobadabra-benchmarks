@@ -97,9 +97,9 @@ for (const f of files) {
   const text = fs.readFileSync(path.join(dir, f), 'utf8');
   if (!AI_SECRETS.test(text) || JUDGE_ONLY.includes(f)) continue;
   test(`${f}: every contestant on Haiku 5.5`, () => {
-    assert.match(text, /^\s*(BENCH_MODEL|JOB_PILOTTO_MODEL_OVERRIDE): claude-haiku-5-5\b/m, 'the round model is pinned');
+    assert.match(text, /^\s*(BENCH_MODEL|JOBADABRA_MODEL_OVERRIDE): claude-haiku-5-5\b/m, 'the round model is pinned');
     assert.doesNotMatch(text, /extension-shipped|claude-sonnet|claude-opus/, 'no contestant on another model');
-    if (/claude -p/.test(text)) assert.match(text, /claude -p [^\n]*--model "\$(BENCH_MODEL|JOB_PILOTTO_MODEL_OVERRIDE)"/, 'Claude Code is told the model');
+    if (/claude -p/.test(text)) assert.match(text, /claude -p [^\n]*--model "\$(BENCH_MODEL|JOBADABRA_MODEL_OVERRIDE)"/, 'Claude Code is told the model');
   });
 }
 

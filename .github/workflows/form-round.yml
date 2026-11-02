@@ -73,10 +73,10 @@ jobs:
       BENCH_ANTHROPIC_KEY: ${{ secrets.BENCH_ANTHROPIC_KEY }}   # the Benchmarks workspace key ($5/month limit), held by the metering pass-through
       E2E_ANTHROPIC_KEY: ${{ secrets.BENCH_ANTHROPIC_KEY }}     # our leg: the app's API engine on CI reads this name (desktop/e2e/lib/engine.mjs)
       JP_REPO: ${{ github.workspace }}/jp/desktop/e2e
-      JOB_PILOTTO_HEAVY: '0'
-      JOB_PILOTTO_SESSION: form round ${{ github.run_id }} ${{ matrix.tool }} ${{ matrix.run }}
-      JOB_PILOTTO_VISIT_KIND: hand
-      JOB_PILOTTO_SITE_LEDGER_DIR: ${{ github.workspace }}/ledger
+      JOBADABRA_HEAVY: '0'
+      JOBADABRA_SESSION: form round ${{ github.run_id }} ${{ matrix.tool }} ${{ matrix.run }}
+      JOBADABRA_VISIT_KIND: hand
+      JOBADABRA_SITE_LEDGER_DIR: ${{ github.workspace }}/ledger
       LIVE_ELIGIBILITY: 'off'   # ours fills like every tool: the bench asks each to fill the application (owner via 6e, 27 Oct 2026); the page says so
       JP_NO_REPORT: '1'
       ANONYMIZED_TELEMETRY: 'false'

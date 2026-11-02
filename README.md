@@ -270,7 +270,7 @@ Two weeks of work went into the extension that fills job applications from the a
 
 | Tool | What it is | How it works | Model |
 | --- | --- | --- | --- |
-| 🧩 **Our extension** | Job Pilotto's Chrome extension | A ladder of rules plus AI decides each field's meaning, fills, never submits. One press. | its own (`claude -p` on the plan) |
+| 🧩 **Our extension** | Jobadabra's Chrome extension | A ladder of rules plus AI decides each field's meaning, fills, never submits. One press. | its own (`claude -p` on the plan) |
 | 🎭 **Stagehand** 3.7.3 | MIT · TypeScript · ~25k ★ | An agent loop that reads the page and acts step by step | Sonnet 5.5 |
 | 🤖 **Browser Use** 0.13.11 | MIT · Python · ~117k ★, the most popular | The model drives the browser in a loop | Sonnet 5.5 |
 | 🌐 **Nanobrowser** 0.2.0 | Apache-2.0 · a Chrome *extension* agent: the fairest comparison to ours | Planner + navigator agents inside the browser | Sonnet 5.5 |
@@ -374,13 +374,13 @@ node rerun.mjs 4 extension --build 62dad23   # Hadrian again, on the old build (
 node rerun.mjs 13 stagehand                  # the same inputs again
 ```
 
-Reruns hit the live site (which changes and has a 3-a-day limit). For an **exact** repeat, `results/captures/*.tar.gz` holds the page snapshots the extension saw; the Job Pilotto replay tool (`row.mjs <case folder> [--old <extension dir>]`) re-runs any build on them offline, with no site visit.
+Reruns hit the live site (which changes and has a 3-a-day limit). For an **exact** repeat, `results/captures/*.tar.gz` holds the page snapshots the extension saw; the Jobadabra replay tool (`row.mjs <case folder> [--old <extension dir>]`) re-runs any build on them offline, with no site visit.
 
 ## ▶️ Run it
 
 ```bash
 npm i && python3 -m venv venv && ./venv/bin/pip install -r requirements.txt && npx playwright install chromium
-# needs the Job Pilotto checkout (JP_REPO: a WORKTREE on main, never the owner's live checkout) and Keychain jobadabra-benchmarks.anthropic.api_key (the Benchmarks workspace, $5/month limit)
+# needs the Jobadabra checkout (JP_REPO: a WORKTREE on main, never the owner's live checkout) and Keychain jobadabra-benchmarks.anthropic.api_key (the Benchmarks workspace, $5/month limit)
 node run.mjs <extension|stagehand|browser-use|nanobrowser> <form url> out/<id>/<tool>
 node batch.mjs forms.json 2,3,4 3.0                         # forms by id, budget in USD
 BAKEOFF_TOOLS=extension-main,nanobrowser node batch.mjs …   # the main-build extension / a later-day tool

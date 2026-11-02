@@ -1,5 +1,5 @@
 # Our arm of the search round on CI, beside the rivals (owner, 27 Oct 2026: "If using CI, then CI ours and theirs. If using Haiku then haiku
-# ours and theirs"): every AI step on Haiku 5.5 (JOB_PILOTTO_MODEL_OVERRIDE), on the owner's Claude plan through the token ($0, his choice),
+# ours and theirs"): every AI step on Haiku 5.5 (JOBADABRA_MODEL_OVERRIDE), on the owner's Claude plan through the token ($0, his choice),
 # the same model and plan career-ops' docs run uses (search-career-ops-docs.yml). By hand, or called by search-round.yml every 3 days (test/workflows.test.mjs).
 # One fresh install per persona and press count: "first search" (1 press) and "after 3 searches" (3 presses), each press with the product's own
 # 3-minute cap. Writes the jobs found (title, company, place: search-bench/extract.py) and the per-press numbers; never applies.
@@ -29,7 +29,7 @@ permissions:
   contents: read
 env:
   CLAUDE_CODE_VERSION: 2.1.311
-  JOB_PILOTTO_MODEL_OVERRIDE: claude-haiku-5-5
+  JOBADABRA_MODEL_OVERRIDE: claude-haiku-5-5
 jobs:
   build:   # resolves product_ref ONCE: a branch can move or be deleted mid-round (27 Oct 2026, all jobs failed at checkout); test/workflows
     runs-on: ubuntu-24.04
@@ -71,7 +71,7 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
-          cd "$RUNNER_TEMP" && echo "Reply with just: ok" | env -u ANTHROPIC_API_KEY MAX_THINKING_TOKENS=0 claude -p --output-format json --model "$JOB_PILOTTO_MODEL_OVERRIDE" \
+          cd "$RUNNER_TEMP" && echo "Reply with just: ok" | env -u ANTHROPIC_API_KEY MAX_THINKING_TOKENS=0 claude -p --output-format json --model "$JOBADABRA_MODEL_OVERRIDE" \
             --tools '' --permission-mode dontAsk --max-turns 1 > probe.json 2> probe.err; echo "exit $?"
           python3 -c "import json;d=json.load(open('probe.json'));print({k:d.get(k) for k in ('is_error','subtype','result')});exit(0 if d.get('result','').strip()=='ok' else 1)" \
             || { head -c 600 probe.json; echo; tail -5 probe.err; exit 1; }
@@ -86,7 +86,7 @@ jobs:
           # every rival's source (search-bench/rivals.json: jobspy, eures, adzuna); "ours-all" keeps them, as a user has them.
           off=""; [ "${{ inputs.arm }}" = ours-all ] || off=$(node -p 'JSON.parse(require("fs").readFileSync("search-bench/rivals.json","utf8")).join(",")')
           echo "sources off: ${off:-none}" | tee out/sources-off.txt
-          (cd jp && env -u ANTHROPIC_API_KEY JOB_PILOTTO_DISABLE="$off" JOB_PILOTTO_NO_DOTENV=1 node tools/persona-search/run.mjs draw "$GITHUB_WORKSPACE/out" \
+          (cd jp && env -u ANTHROPIC_API_KEY JOBADABRA_DISABLE="$off" JOBADABRA_NO_DOTENV=1 node tools/persona-search/run.mjs draw "$GITHUB_WORKSPACE/out" \
             --presses "${{ matrix.presses }}" --fresh --tag bench) 2>&1 | tee out/run.log
           echo $(( $(date +%s) - start )) > out/seconds.txt
           grep -h 'with claude-' out/draw/run-*.log | grep -v -c 'claude-haiku-5-5' > out/non-haiku-steps.txt || true
