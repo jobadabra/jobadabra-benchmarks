@@ -33,438 +33,6 @@
    "place": "no"
   },
   {
-   "tool": "eures",
-   "title": "ASISTENT MEDICAL GENERALIST",
-   "company": "POLARIS MEDICAL S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "ASISTENT MEDICAL GENERALIST",
-   "company": "ADAMSID S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO114)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "ASISTENT MEDICAL GENERALIST",
-   "company": "FUNDATIA CRESTINA DIAKONIA",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "ASISTENT MEDICAL GENERALIST",
-   "company": "CMI DR CIURDAS MIHAI",
-   "location": "Cluj region (Nord-Vest), Romania (RO114)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "MEDIC VETERINAR",
-   "company": "FLORIS VETPHARM SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "MEDIC VETERINAR",
-   "company": "FLORIS VETPHARM SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "ÎNGRIJITOR LA DOMICILIU",
-   "company": "DASM CLUJ NAPOCA",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "INFIRMIER/INFIRMIERA",
-   "company": "DASM CLUJ NAPOCA",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "TEHNICIAN ELECTRONICA",
-   "company": "S.C. BINAR HOLDING S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO114)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "PROGRAMATOR",
-   "company": "S.C. BINAR HOLDING S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO114)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "SPECIALIST RESURSE UMANE",
-   "company": "INOVA INTERNATIONAL SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "MEDIC SPECIALIST",
-   "company": "SPITALUL CLINIC JUDETEAN DE URGENTA BISTRITA",
-   "location": "Cluj region (Nord-Vest), Romania (RO112)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "OPERATOR INTRODUCERE, VALIDARE SI PRELUCRARE DATE",
-   "company": "PROMPT-SERV OPERATIONS & LOGISTIC S.R.L",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "ASISTENT PERSONAL AL PERSOANEI CU HANDICAP GRAV",
-   "company": "PRIMARIA COMUNEI BOGDAND",
-   "location": "Cluj region (Nord-Vest), Romania (RO115)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "CONTABIL",
-   "company": "PROMPT-SERV OPERATIONS & LOGISTIC S.R.L",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "AGENT DE VÂNZARI",
-   "company": "GUARDIA SECURITY SYSTEM SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "AGENT DE SECURITATE",
-   "company": "MC PROTECT SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "FEMEIE DE SERVICIU",
-   "company": "NGS ADVANCING SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "FEMEIE DE SERVICIU",
-   "company": "OFFIGUR KONCEPT S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO114)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "MUNCITOR NECALIFICAT LA DEMOLAREA CLADIRILOR, CAPTUSELI ZIDARIE, PLACI MOZAIC, FAIANTA, GRESIE, PARCHET",
-   "company": "ZICURATUNGUREAN S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "ASISTENT SOCIAL NIVEL SUPERIOR",
-   "company": "S.C. Plan de Viața S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "INGRIJITOR GRUPA INVATAMANT PRESCOLAR",
-   "company": "LITTLE KIDS EARLY LEARNING CENTER",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "AGENT CURATENIE CLADIRI SI MIJLOACE DE TRANSPORT",
-   "company": "LUNA CLEANING MAGIC",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "GUVERNANTA",
-   "company": "ZUZ TUDOR VASILE",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "ÎNGRIJITOR CLADIRI",
-   "company": "OXIK CLEANER S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "INGRIJITOR GRUPA INVATAMANT PRESCOLAR",
-   "company": "ASOCIATIA CASUTA AVEI",
-   "location": "Cluj region (Nord-Vest), Romania (RO112)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "AGENT DE SECURITATE",
-   "company": "PROTECTIE SI PAZA BISTRITA-NASAUD S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO112)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "ASISTENT PERSONAL AL PERSOANEI CU HANDICAP GRAV",
-   "company": "PRIMARIA COMUNEI UNGURAS",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "SECRETAR INSTITUT, FACULTATE",
-   "company": "UNIVERSITATEA TEHNICA DIN CLUJ",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "OPTOMETRIST (STUDII MEDII)",
-   "company": "MEDICA DORU SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO116)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "AGENT CURATENIE CLADIRI SI MIJLOACE DE TRANSPORT",
-   "company": "SAMARA CLEAN S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "AGENT DE SECURITATE INTERVENȚIE",
-   "company": "GUARDIA SECURITY SYSTEM SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "FEMEIE DE SERVICIU",
-   "company": "MEDPRIME CLINIC SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "PAZNIC",
-   "company": "MC PROTECT SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "FEMEIE DE SERVICIU",
-   "company": "DEZINFER SERVICE SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "FEMEIE DE SERVICIU",
-   "company": "CSC FACILITY WORKS S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO115)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "CONSILIER INSTITUTII PUBLICE",
-   "company": "MUNICIPIUL BAIA MARE",
-   "location": "Cluj region (Nord-Vest), Romania (RO114)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "LUCRATOR COMERCIAL",
-   "company": "ACTIVE SUPPORT TEAM SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "AGENT CURATENIE CLADIRI SI MIJLOACE DE TRANSPORT",
-   "company": "LUNA CLEANING MAGIC",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "TEHNICIAN PENTRU SISTEME DE DETECTIE, SUPRAVEGHERE VIDEO, CONTROL ACCES",
-   "company": "PP PROTECT SECURITY SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "ÎNGRIJITOARE LA UNITATI DE OCROTIRE SOCIALA SI SANITARA",
-   "company": "ADAMSID S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO114)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "MUNCITOR NECALIFICAT LA AMBALAREA PRODUSELOR SUB FORMA DE PRAF SI GRANULE",
-   "company": "DANDAN TUR LOGISTIC SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "KINETOTERAPEUT",
-   "company": "CLINICA IDEALMED S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "EXPERT LOCAL PE PROBLEMELE ROMILOR",
-   "company": "DASM CLUJ NAPOCA",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "AGENT CURATENIE CLADIRI SI MIJLOACE DE TRANSPORT",
-   "company": "FORBEC SERVICES S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "PAZNIC",
-   "company": "FGL SECURITY S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "FEMEIE DE SERVICIU",
-   "company": "CENTRUL HARMONIA S.R.L.",
-   "location": "Cluj region (Nord-Vest), Romania (RO111)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "AGENT CURATENIE CLADIRI SI MIJLOACE DE TRANSPORT",
-   "company": "AB SMART CONSULTING SRL",
-   "location": "Cluj region (Nord-Vest), Romania (RO113)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
    "tool": "jobspy",
    "title": "HR Business Partner",
    "company": "Undelucram.ro",
@@ -686,6 +254,204 @@
    "company": "Iron Mountain",
    "location": "Cluj-Napoca, Cluj, Romania",
    "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ASISTENT MEDICAL GENERALIST",
+   "company": "POLARIS MEDICAL S.R.L.",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ASISTENT MEDICAL GENERALIST",
+   "company": "FUNDATIA CRESTINA DIAKONIA",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ÎNGRIJITOR LA DOMICILIU",
+   "company": "DASM CLUJ NAPOCA",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "INFIRMIER/INFIRMIERA",
+   "company": "DASM CLUJ NAPOCA",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AGENT DE SECURITATE",
+   "company": "MC PROTECT SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "FEMEIE DE SERVICIU",
+   "company": "NGS ADVANCING SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MUNCITOR NECALIFICAT LA DEMOLAREA CLADIRILOR, CAPTUSELI ZIDARIE, PLACI MOZAIC, FAIANTA, GRESIE, PARCHET",
+   "company": "ZICURATUNGUREAN S.R.L.",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "INGRIJITOR GRUPA INVATAMANT PRESCOLAR",
+   "company": "LITTLE KIDS EARLY LEARNING CENTER",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AGENT CURATENIE CLADIRI SI MIJLOACE DE TRANSPORT",
+   "company": "LUNA CLEANING MAGIC",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "GUVERNANTA",
+   "company": "ZUZ TUDOR VASILE",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ASISTENT PERSONAL AL PERSOANEI CU HANDICAP GRAV",
+   "company": "PRIMARIA COMUNEI UNGURAS",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SECRETAR INSTITUT, FACULTATE",
+   "company": "UNIVERSITATEA TEHNICA DIN CLUJ",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "FEMEIE DE SERVICIU",
+   "company": "MEDPRIME CLINIC SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PAZNIC",
+   "company": "MC PROTECT SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "FEMEIE DE SERVICIU",
+   "company": "DEZINFER SERVICE SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AGENT CURATENIE CLADIRI SI MIJLOACE DE TRANSPORT",
+   "company": "LUNA CLEANING MAGIC",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TEHNICIAN PENTRU SISTEME DE DETECTIE, SUPRAVEGHERE VIDEO, CONTROL ACCES",
+   "company": "PP PROTECT SECURITY SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MUNCITOR NECALIFICAT LA AMBALAREA PRODUSELOR SUB FORMA DE PRAF SI GRANULE",
+   "company": "DANDAN TUR LOGISTIC SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "EXPERT LOCAL PE PROBLEMELE ROMILOR",
+   "company": "DASM CLUJ NAPOCA",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AGENT CURATENIE CLADIRI SI MIJLOACE DE TRANSPORT",
+   "company": "FORBEC SERVICES S.R.L.",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PAZNIC",
+   "company": "FGL SECURITY S.R.L.",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AGENT CURATENIE CLADIRI SI MIJLOACE DE TRANSPORT",
+   "company": "AB SMART CONSULTING SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
    "role": "no",
    "place": "yes"
   }

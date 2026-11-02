@@ -366,906 +366,6 @@
    "place": "remote"
   },
   {
-   "tool": "eures",
-   "title": "Software & Cloud Engineer, Aventra",
-   "company": "Biisoni",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Planning Engineer",
-   "company": "Enersense Oyj",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Senior Hardware Engineer",
-   "company": "Creo Center",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "DevOps Engineer, Espoo",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Senior Planning Engineer",
-   "company": "Enersense Oyj",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Software Development Project Manager, Flexmill Oy, Nurmijärvi",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Cloud Engineer K-ryhmään",
-   "company": "K-ryhmä",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "AI Engineer, Zoner, Vantaa",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Planning & Fulfillment Engineer, Helsinki",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Data Engineer (Microsoft Fabric)",
-   "company": "Punainen Risti, keskustoimisto",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Granlund: Senior Full Stack Developer (C#, React)",
-   "company": "aTalent Recruiting Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Staff Engineer",
-   "company": "Nordhealth",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Sales Support Engineer, ABB, Helsinki",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Analytics Engineer, Finavia Oyj, Vantaa",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "VHDL Designer, Helsinki",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Automation Service Engineer",
-   "company": "Lokki Henkilöstöpalvelut Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C5, FI199, FI1DA, FI1D8, FI1C2, FI1D5, FI198, FI1C7, FI1D7, FI19B, FI19A, FI1DC, FI1D9, FI1DB, FI1C6, FI196, FI1C1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Automation Engineer, Espoo",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Automaatioinsinööri (Design Engineer), Vantaa tai Tampere, AFRY",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Automaatioinsinööri (Design Engineer), Vantaa tai Tampere, AFRY",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Test & Equipment Engineer",
-   "company": "Elmery Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Senior Mechanical Engineer",
-   "company": "Creo Center",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Electrical Engineer, Metso",
-   "company": "Biisoni",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Mechanical Engineer, Konecranes",
-   "company": "Biisoni",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Commissioning Engineer, Electrical",
-   "company": "Wärtsilä Corporation",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C1, FI19A)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Lead / Senior System Engineer – Sähköasemien suojaus ja automaatio - Siemens",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Electrical Project Engineer, Helsinki",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Customer Solution Engineer, Hyvinkää",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Project Engineer – Electrical and Automation",
-   "company": "Lokki Henkilöstöpalvelut Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C5, FI199, FI1DA, FI1D8, FI1C2, FI1D5, FI198, FI1C7, FI1D7, FI19B, FI19A, FI1DC, FI1D9, FI1DB, FI1C6, FI196, FI1C1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Data Scientist / Engineer, Espoo",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Testing & Design Engineer, Hyvinkää",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Quality Engineer, Systems & Options",
-   "company": "Bluefors",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Mechanical Engineer, Espoo or Lappeenranta",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Quality Engineer, Measurement Infrastructure",
-   "company": "Bluefors",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Package Engineer, Metso, Espoo",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Power System Engineer, (PSCAD & PSS/E), Ampner Oy, Helsinki / Vaasa",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Commissioning Engineer, Schneider Electric, Espoo, Kirkkonummi or Vihti",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Mechanical Design Engineer, R&D",
-   "company": "Wärtsilä Corporation",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C1, FI19A)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Electrical Solutions Engineer, Data Centers",
-   "company": "Eltel Networks Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Hands-on Data Center Deployment Engineer",
-   "company": "Nordecon Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C2)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Network & Infrastructure Engineer (Data Center)",
-   "company": "Nordecon Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C2)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Junior Mechanical Design Engineer – Kickstart Your Career in Engineering!",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Nuclear Safety Engineer for energy sector, Espoo",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "POSTDOCTORAL RESEARCHER in AI engineering",
-   "company": "Helsingin yliopisto",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "BMS / Building Automation Engineers for Datacenter Projects",
-   "company": "Manpower",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Lead Electrical Engineer - Data Centers, Compute Nordic",
-   "company": "Barona Teollisuus Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1DA, FI1B1, FI1D9, FI1DB, FI19B)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Lead Mechanical Engineer - Data Centers, Compute Nordic",
-   "company": "Barona Teollisuus Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1DA, FI1B1, FI1D9, FI1DB, FI19B)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Mechanical Design Engineer – Custom Solutions & Product Development",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Civil QA/QC Engineer for CAM Plant Project, Kotka",
-   "company": "Barona Teollisuus Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1C7, FI1C5, FI1C6, FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "Project Manager (marine applications)",
-   "company": "ECHO Engineering",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "POSTDOCTORAL RESEARCHER in Quantum Computing Middleware and Applications",
-   "company": "Helsingin yliopisto",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "On-Call Trainee",
-   "company": "Wärtsilä Corporation",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI19A)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "K Trainee, AI",
-   "company": "K-ryhmä",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Back End Lead Developer",
-   "company": "Wellmo Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Junior Developer, Intern, or Thesis Worker — Rust and AI Applications",
-   "company": "Advaun Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Business Development Associate",
-   "company": "Kontorva Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Java Full-stack Developer",
-   "company": "Lokki Henkilöstöpalvelut Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C5, FI199, FI1DA, FI1D8, FI1C2, FI1D5, FI198, FI1C7, FI1D7, FI19B, FI19A, FI1DC, FI1D9, FI1DB, FI1C6, FI196, FI1C1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "R&D Project Manager, Bluefors, Helsinki",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "IT Service Manager to an international energy company, Espoo",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Integration Senior Specialist K-ryhmään",
-   "company": "K-ryhmä",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Full-stack kehittäjä Kespron digitaalisten palveluiden kehitystiimiin K-ryhmään",
-   "company": "K-ryhmä",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Myyjä – Envaire Oy (tuntipalkka + provisio)",
-   "company": "Envaire Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Freelance Cleaner, Helsinki Region (Raikkaus)",
-   "company": "Raikkaus",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "R&D Engineering Manager",
-   "company": "Bluefors",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Mechanical Engineering Manager",
-   "company": "Enersense Oyj",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Automation Specialist",
-   "company": "Enersense Oyj",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "B2B Sales and Digital Marketing Intern",
-   "company": "Advaun Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Administrative Assistant",
-   "company": "Inaya Enterprises Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "HVAC & Fire Engineering Manager, CHEC CAM Project, Kotka",
-   "company": "Barona Teollisuus Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1C7, FI1B1, FI1C5, FI1C6)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "no"
-  },
-  {
-   "tool": "eures",
-   "title": "Senior Frontend Developers - Mobile / Web",
-   "company": "Lokki Henkilöstöpalvelut Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C5, FI199, FI1DA, FI1D8, FI1C2, FI1D5, FI198, FI1C7, FI1D7, FI19B, FI19A, FI1DC, FI1D9, FI1DB, FI1C6, FI196, FI1C1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Sales Executive, Hypergene, Helsinki",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Automaatioasiantuntija",
-   "company": "Enersense Oyj",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Sähkötöidenjohtajia",
-   "company": "Barona Teollisuus Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C7, FI19A, FI198, FI1D9)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Machinist, Bluefors Oy",
-   "company": "Barona Teollisuus Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Sähköverkkosuunnittelija",
-   "company": "Despro Engineering Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI19B, FI1C2, FI1B1, FI1C1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "CNC Turner, Lohja",
-   "company": "Wellpack",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Senior PCBA Test & Validation Specialist, Hyvinkää",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Team Lead / esihenkilö asiantuntijaorganisaatioon",
-   "company": "Despro Engineering Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI19B, FI1D5, FI19A, FI196, FI1B1, FI1C1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Pääsuunnittelija, konetekniikka",
-   "company": "Nipromec Group",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Varavoimavuokrauksen asiantuntija",
-   "company": "kW-set Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Sähkötöiden valvoja, Insinööritoimisto Polartek Oy, Helsinki",
-   "company": "Insinööritoimisto Polartek Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Tekninen ratkaisuasiantuntija, suunnittelijayhteistyö",
-   "company": "Aco Nordic Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Kokoonpanoteknikko (Assembly Technician)",
-   "company": "Beneq",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Rakennustöiden valvoja, Insinööritoimisto Polartek Oy, Helsinki",
-   "company": "Insinööritoimisto Polartek Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Suunnittelija / SeaKing Oy",
-   "company": "Mentek Advisors Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Senior T24 Architect",
-   "company": "Lokki Henkilöstöpalvelut Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C5, FI199, FI1DA, FI1D8, FI1C2, FI1D5, FI198, FI1C7, FI1D7, FI19B, FI19A, FI1DC, FI1D9, FI1DB, FI1C6, FI196, FI1C1)",
-   "provider": "EURES",
-   "role": "yes",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Asentaja",
-   "company": "Vatupassi Törmälä Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Project Planner",
-   "company": "Enersense Oyj",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Ympäristöpuolen projekti-insinööri",
-   "company": "Insinööritoimisto Pohjatekniikka Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "LVI-suunnittelija",
-   "company": "Takoi Yhtiöt Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "LVI-töiden valvoja, Insinööritoimisto Polartek Oy, Helsinki",
-   "company": "Insinööritoimisto Polartek Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Electrical Commissioning Specialist, Granlund Oy, Finland",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Sähkösuunnittelija",
-   "company": "Comatec",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Projektipäällikkö",
-   "company": "Nipromec Group",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Automaatioinsinööri",
-   "company": "HR WorkForce Group Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C1, FI19B)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Erikoistu automaatio- ja ICT-suunnittelijaksi Swecolle (2 viikon koulutus & vakituinen työ automaatiotekniikan tai IT-alan ammattilaiselle)",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Järjestelmäasiantuntija – rakennusautomaatio - Espoo",
-   "company": "Academic Work Finland Oy",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Mekaaninen suunnittelija",
-   "company": "HR WorkForce Oy Helsinki",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "Sourcing Manager",
-   "company": "Beneq",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "HSE Advisor",
-   "company": "Enersense Oyj",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
-   "tool": "eures",
-   "title": "HSE Manager",
-   "company": "Enersense Oyj",
-   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
-   "provider": "EURES",
-   "role": "no",
-   "place": "yes"
-  },
-  {
    "tool": "jobspy",
    "title": "Senior Software Engineer (Backend)",
    "company": "Cloud Protection by WithSecure",
@@ -1831,6 +931,906 @@
    "provider": "icims-api",
    "role": "yes",
    "place": "unknown"
+  },
+  {
+   "tool": "eures",
+   "title": "Software & Cloud Engineer, Aventra",
+   "company": "Biisoni",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Planning Engineer",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Hardware Engineer",
+   "company": "Creo Center",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "DevOps Engineer, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Planning Engineer",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Software Development Project Manager, Flexmill Oy, Nurmijärvi",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Cloud Engineer K-ryhmään",
+   "company": "K-ryhmä",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AI Engineer, Zoner, Vantaa",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Planning & Fulfillment Engineer, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Engineer (Microsoft Fabric)",
+   "company": "Punainen Risti, keskustoimisto",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Granlund: Senior Full Stack Developer (C#, React)",
+   "company": "aTalent Recruiting Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Staff Engineer",
+   "company": "Nordhealth",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Support Engineer, ABB, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Analytics Engineer, Finavia Oyj, Vantaa",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VHDL Designer, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automation Service Engineer",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automation Engineer, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automaatioinsinööri (Design Engineer), Vantaa tai Tampere, AFRY",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automaatioinsinööri (Design Engineer), Vantaa tai Tampere, AFRY",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Test & Equipment Engineer",
+   "company": "Elmery Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Mechanical Engineer",
+   "company": "Creo Center",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Engineer, Metso",
+   "company": "Biisoni",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Engineer, Konecranes",
+   "company": "Biisoni",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commissioning Engineer, Electrical",
+   "company": "Wärtsilä Corporation",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead / Senior System Engineer – Sähköasemien suojaus ja automaatio - Siemens",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Project Engineer, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Solution Engineer, Hyvinkää",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Project Engineer – Electrical and Automation",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Scientist / Engineer, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Testing & Design Engineer, Hyvinkää",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Quality Engineer, Systems & Options",
+   "company": "Bluefors",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Engineer, Espoo or Lappeenranta",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Quality Engineer, Measurement Infrastructure",
+   "company": "Bluefors",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Package Engineer, Metso, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Power System Engineer, (PSCAD & PSS/E), Ampner Oy, Helsinki / Vaasa",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commissioning Engineer, Schneider Electric, Espoo, Kirkkonummi or Vihti",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Design Engineer, R&D",
+   "company": "Wärtsilä Corporation",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Solutions Engineer, Data Centers",
+   "company": "Eltel Networks Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Hands-on Data Center Deployment Engineer",
+   "company": "Nordecon Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Network & Infrastructure Engineer (Data Center)",
+   "company": "Nordecon Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Junior Mechanical Design Engineer – Kickstart Your Career in Engineering!",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Nuclear Safety Engineer for energy sector, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "POSTDOCTORAL RESEARCHER in AI engineering",
+   "company": "Helsingin yliopisto",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BMS / Building Automation Engineers for Datacenter Projects",
+   "company": "Manpower",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Electrical Engineer - Data Centers, Compute Nordic",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Mechanical Engineer - Data Centers, Compute Nordic",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Design Engineer – Custom Solutions & Product Development",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Civil QA/QC Engineer for CAM Plant Project, Kotka",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Project Manager (marine applications)",
+   "company": "ECHO Engineering",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "POSTDOCTORAL RESEARCHER in Quantum Computing Middleware and Applications",
+   "company": "Helsingin yliopisto",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "On-Call Trainee",
+   "company": "Wärtsilä Corporation",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "K Trainee, AI",
+   "company": "K-ryhmä",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Back End Lead Developer",
+   "company": "Wellmo Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Junior Developer, Intern, or Thesis Worker — Rust and AI Applications",
+   "company": "Advaun Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Business Development Associate",
+   "company": "Kontorva Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Java Full-stack Developer",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "R&D Project Manager, Bluefors, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT Service Manager to an international energy company, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Integration Senior Specialist K-ryhmään",
+   "company": "K-ryhmä",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Full-stack kehittäjä Kespron digitaalisten palveluiden kehitystiimiin K-ryhmään",
+   "company": "K-ryhmä",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Myyjä – Envaire Oy (tuntipalkka + provisio)",
+   "company": "Envaire Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Freelance Cleaner, Helsinki Region (Raikkaus)",
+   "company": "Raikkaus",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "R&D Engineering Manager",
+   "company": "Bluefors",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Engineering Manager",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automation Specialist",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "B2B Sales and Digital Marketing Intern",
+   "company": "Advaun Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Administrative Assistant",
+   "company": "Inaya Enterprises Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "HVAC & Fire Engineering Manager, CHEC CAM Project, Kotka",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Frontend Developers - Mobile / Web",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Executive, Hypergene, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automaatioasiantuntija",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sähkötöidenjohtajia",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Machinist, Bluefors Oy",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sähköverkkosuunnittelija",
+   "company": "Despro Engineering Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CNC Turner, Lohja",
+   "company": "Wellpack",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior PCBA Test & Validation Specialist, Hyvinkää",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Team Lead / esihenkilö asiantuntijaorganisaatioon",
+   "company": "Despro Engineering Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pääsuunnittelija, konetekniikka",
+   "company": "Nipromec Group",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Varavoimavuokrauksen asiantuntija",
+   "company": "kW-set Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sähkötöiden valvoja, Insinööritoimisto Polartek Oy, Helsinki",
+   "company": "Insinööritoimisto Polartek Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tekninen ratkaisuasiantuntija, suunnittelijayhteistyö",
+   "company": "Aco Nordic Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kokoonpanoteknikko (Assembly Technician)",
+   "company": "Beneq",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Rakennustöiden valvoja, Insinööritoimisto Polartek Oy, Helsinki",
+   "company": "Insinööritoimisto Polartek Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Suunnittelija / SeaKing Oy",
+   "company": "Mentek Advisors Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior T24 Architect",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Asentaja",
+   "company": "Vatupassi Törmälä Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Project Planner",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Ympäristöpuolen projekti-insinööri",
+   "company": "Insinööritoimisto Pohjatekniikka Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "LVI-suunnittelija",
+   "company": "Takoi Yhtiöt Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "LVI-töiden valvoja, Insinööritoimisto Polartek Oy, Helsinki",
+   "company": "Insinööritoimisto Polartek Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Commissioning Specialist, Granlund Oy, Finland",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sähkösuunnittelija",
+   "company": "Comatec",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Projektipäällikkö",
+   "company": "Nipromec Group",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automaatioinsinööri",
+   "company": "HR WorkForce Group Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Erikoistu automaatio- ja ICT-suunnittelijaksi Swecolle (2 viikon koulutus & vakituinen työ automaatiotekniikan tai IT-alan ammattilaiselle)",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Järjestelmäasiantuntija – rakennusautomaatio - Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mekaaninen suunnittelija",
+   "company": "HR WorkForce Oy Helsinki",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sourcing Manager",
+   "company": "Beneq",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "HSE Advisor",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "HSE Manager",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
   }
  ]
 }
