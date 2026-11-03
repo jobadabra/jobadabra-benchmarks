@@ -1,0 +1,37 @@
+{
+ "at": "2026-11-03T13:51:09.303Z",
+ "round": "fixed",
+ "build": "75be266",
+ "tools": {
+  "browser-use": 85.7,
+  "extension": 96.9,
+  "nanobrowser": 45.6,
+  "stagehand": 43.2
+ },
+ "forms": {
+  "101": {
+   "score": 95.7,
+   "wrong": 1
+  },
+  "102": {
+   "score": 100,
+   "wrong": 0
+  },
+  "103": {
+   "score": 93.3,
+   "wrong": 0
+  },
+  "104": {
+   "score": 100,
+   "wrong": 0
+  },
+  "105": {
+   "score": 100,
+   "wrong": 0
+  },
+  "106": {
+   "score": 90.3,
+   "wrong": 0
+  }
+ }
+}
