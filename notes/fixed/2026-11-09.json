@@ -1,0 +1,11 @@
+{
+ "at": "2026-11-09T15:22:56.778Z",
+ "round": "fixed",
+ "build": "",
+ "tools": {
+  "browser-use": 87.3,
+  "nanobrowser": 46.4,
+  "stagehand": 44
+ },
+ "forms": {}
+}
