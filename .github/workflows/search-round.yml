@@ -13,6 +13,9 @@ on:
       product_ref:
         description: The Jobadabra commit or branch (GarryOne/jobadabra)
         default: main
+      round:
+        description: The round's key on /admin (default today's date); a proof round of another route takes its own key, e.g. 2026-11-12-broker, so it never replaces a published round
+        default: ''
 permissions:
   contents: write   # moves the tag weekly-picks (the notes); Why (2 Nov 2026, owner: "let's use tags not branches for storing things. Otherwise, they keep popping up like that"): the weekly-picks state is the TAG weekly-picks (tools/state-tag.sh: read, and a compare-and-swap write); a pushed branch made GitHub offer "Compare & pull request".
   actions: read
@@ -86,16 +89,18 @@ jobs:
       - name: Publish to /admin/job-search/benchmark
         env:
           SELFHEAL_PUBLISH_KEY: ${{ secrets.BENCHMARK_PUBLISH_KEY }}
-        run: node search-bench/publish.mjs work --round "$(date -u +%F)" --build "$(cat work/build.txt)"
+          ROUND: ${{ inputs.round }}
+        run: node search-bench/publish.mjs work --round "${ROUND:-$(date -u +%F)}" --build "$(cat work/build.txt)"
       - name: Telegram note, against the previous run and the 27 Oct baseline
         if: ${{ !cancelled() }}
         env:
           CI_ALERTS_TELEGRAM_BOT_TOKEN: ${{ secrets.CI_ALERTS_TELEGRAM_BOT_TOKEN }}   # the Engineering bot (owner, 12 Nov 2026); a missing secret fails the step (lib/telegram.mjs)
           CI_ALERTS_TELEGRAM_CHAT_ID: ${{ secrets.CI_ALERTS_TELEGRAM_CHAT_ID }}
           URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ROUND: ${{ inputs.round }}
         run: |
           tools/state-tag.sh read weekly-picks picks
-          mkdir -p picks/notes/search; day=$(date -u +%F)
+          mkdir -p picks/notes/search; day="${ROUND:-$(date -u +%F)}"
           node search-bench/note.mjs work --round "$day" --build "$(cat work/build.txt)" --baseline search-bench/results/2026-10-27 \
             --last picks/notes/search --out "picks/notes/search/$day.json" --url "$URL"
           tools/state-tag.sh write weekly-picks picks "Search note $day" notes
