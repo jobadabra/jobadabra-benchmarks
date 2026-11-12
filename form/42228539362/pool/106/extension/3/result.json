@@ -1,0 +1,6 @@
+{
+ "tool": "extension",
+ "url": "https://apply.workable.com/semios/j/0A6915AC27/apply/",
+ "error": "live row on CI: no GitHub OIDC token for the AI broker (the workflow needs `permissions: id-token: write`); the app has no other way to ask the AI on a runner",
+ "crashed": true
+}

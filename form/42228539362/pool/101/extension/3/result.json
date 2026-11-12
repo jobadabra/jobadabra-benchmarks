@@ -1,0 +1,6 @@
+{
+ "tool": "extension",
+ "url": "https://job-boards.greenhouse.io/humeai/jobs/4775962008",
+ "error": "live row on CI: no GitHub OIDC token for the AI broker (the workflow needs `permissions: id-token: write`); the app has no other way to ask the AI on a runner",
+ "crashed": true
+}
