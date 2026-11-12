@@ -12,9 +12,10 @@ test('ours and the rivals land in one pool; the missing ones are named; the buil
   put(path.join(art, 'search-ours-all-p1-x1', 'out', 'jobs.json'), [{tool: 'ours', title: 'Nurse', company: 'Clinic', location: 'Town'}, {tool: 'ours', title: 'Aide', company: 'EURES Co', location: 'Town', provider: 'EURES'}]);
   put(path.join(art, 'search-jobspy-p1', 'jobspy-p1.json'), [{tool: 'jobspy', title: 'Nurse', company: 'Ward', location: 'Town', job_url: 'https://y.test'}]);
   put(path.join(art, 'search-eures-p1', 'out', 'eures-p1.json'), []);
+  put(path.join(art, 'search-jooble-p1', 'out', 'jooble-p1.json'), []);
   const {missing, build} = layOut(art, work, {personas: 2});
   assert.equal(build, 'abc1234');
-  assert.deepEqual(missing, ['adzuna p1', 'ours p2', 'ours-all p2', 'jobspy p2', 'eures p2', 'adzuna p2']);
+  assert.deepEqual(missing, ['adzuna p1', 'ours p2', 'ours-all p2', 'jobspy p2', 'eures p2', 'adzuna p2', 'jooble p2']);
   const pool = JSON.parse(fs.readFileSync(path.join(work, 'pool1.json'), 'utf8'));
   assert.deepEqual(pool.map(r => r.tool), ['ours', 'ours-all', 'ours-all', 'jobspy']);
   assert.deepEqual(Object.keys(pool[0]), ['tool', 'title', 'company', 'location', 'provider'], 'no URL reaches the judge');
@@ -30,6 +31,7 @@ test('a rival that wrote null is missing (unknown); one that wrote an empty list
   put(path.join(art, 'search-jobspy-p1', 'jobspy-p1.json'), []);
   put(path.join(art, 'search-eures-p1', 'out', 'eures-p1.json'), 'null');
   put(path.join(art, 'search-adzuna-p1', 'out', 'adzuna-p1.json'), 'null');
+  put(path.join(art, 'search-jooble-p1', 'out', 'jooble-p1.json'), []);
   assert.deepEqual(layOut(art, work, {personas: 1}).missing, ['eures p1', 'adzuna p1']);
 });
 
@@ -43,6 +45,7 @@ test('a rival that says it does not serve the place is listed as not served, nev
   put(path.join(art, 'search-adzuna-p1', 'out', 'adzuna-p1.meta.json'), {rival: 'adzuna', kept: null, notServed: true, errors: []});
   put(path.join(art, 'search-eures-p1', 'out', 'eures-p1.json'), 'null');
   put(path.join(art, 'search-eures-p1', 'out', 'eures-p1.meta.json'), {rival: 'eures', kept: null, notServed: false, errors: ['http 500']});
+  put(path.join(art, 'search-jooble-p1', 'out', 'jooble-p1.json'), []);
   const {missing, notServed} = layOut(art, work, {personas: 1});
   assert.deepEqual(notServed, ['adzuna p1']);
   assert.deepEqual(missing, ['eures p1'], 'a null with errors and no notServed word is a failure');
