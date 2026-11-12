@@ -138,7 +138,7 @@ test('search-round.yml: every 3 days, ours + free rivals, judged through the bro
   const judge = text.slice(text.indexOf('- name: Blind judge'), text.indexOf('- name: Publish'));
   assert.match(judge, /BENCH_JUDGE_ENGINE: broker/); assert.match(judge, /search-bench\/judge\.py/);
   assert.doesNotMatch(text, /secrets\.CLAUDE_CODE_OAUTH_TOKEN/, 'the judge asks the broker with the run token: no stored AI secret (12 Nov 2026)');
-  assert.match(text, /SELFHEAL_PUBLISH_KEY: \$\{\{ secrets\.BENCHMARK_PUBLISH_KEY \}\}\n {8}run: node search-bench\/publish\.mjs work --round/);
+  assert.match(text, /SELFHEAL_PUBLISH_KEY: \$\{\{ secrets\.BENCHMARK_PUBLISH_KEY \}\}\n {10}ROUND: \$\{\{ inputs\.round \}\}\n {8}run: node search-bench\/publish\.mjs work --round "\$\{ROUND:-/);
   assert.match(text, /node search-bench\/note\.mjs work [^\n]*--baseline search-bench\/results\/2026-10-27/);
   assert.match(text, /CI_ALERTS_TELEGRAM_BOT_TOKEN: \$\{\{ secrets\.CI_ALERTS_TELEGRAM_BOT_TOKEN \}\}/); assert.match(text, /CI_ALERTS_TELEGRAM_CHAT_ID: \$\{\{ secrets\.CI_ALERTS_TELEGRAM_CHAT_ID \}\}/); assert.doesNotMatch(text, /BENCH_TELEGRAM/, 'the Engineering bot only (owner, 12 Nov 2026): no fall back to the old benchmarks bot');
 });
