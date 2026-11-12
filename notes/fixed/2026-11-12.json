@@ -1,11 +1,43 @@
 {
- "at": "2026-11-12T14:44:43.097Z",
+ "at": "2026-11-12T18:25:30.366Z",
  "round": "fixed",
- "build": "",
+ "build": "8b7921a",
  "tools": {
-  "browser-use": 87.3,
-  "nanobrowser": 46.4,
-  "stagehand": 44
+  "browser-use": 85.7,
+  "extension": 96.8,
+  "nanobrowser": 45.6,
+  "stagehand": 43.2
  },
- "forms": {}
+ "setChanges": [
+  {
+   "from": "106",
+   "to": "107"
+  }
+ ],
+ "forms": {
+  "101": {
+   "score": 100,
+   "wrong": 0
+  },
+  "102": {
+   "score": 100,
+   "wrong": 0
+  },
+  "103": {
+   "score": 87.5,
+   "wrong": 0
+  },
+  "104": {
+   "score": 100,
+   "wrong": 0
+  },
+  "105": {
+   "score": 100,
+   "wrong": 0
+  },
+  "107": {
+   "score": 90,
+   "wrong": 0
+  }
+ }
 }
