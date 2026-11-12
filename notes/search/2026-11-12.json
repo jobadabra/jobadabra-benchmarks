@@ -1,22 +1,22 @@
 {
  "round": "2026-11-12",
- "build": "7ffe604",
+ "build": "8b7921a",
  "tools": {
   "eures": {
-   "relevant": 101,
-   "found": 400
+   "relevant": 88,
+   "found": 396
+  },
+  "ours-all": {
+   "relevant": 135,
+   "found": 192
   },
   "jobspy": {
-   "relevant": 154,
+   "relevant": 148,
    "found": 292
   },
   "ours": {
-   "relevant": 108,
-   "found": 304
-  },
-  "ours-all": {
    "relevant": 120,
-   "found": 247
+   "found": 164
   },
   "adzuna": {
    "relevant": 5,
@@ -36,18 +36,18 @@
   },
   "3": {
    "label": "Carpenter · Brussels",
-   "relevant": 1,
-   "found": 22
+   "relevant": 0,
+   "found": 6
   },
   "4": {
    "label": "Warehouse Operator · Zurich",
-   "relevant": 14,
-   "found": 18
+   "relevant": 10,
+   "found": 11
   },
   "5": {
    "label": "Chef de Partie · Krakow",
-   "relevant": 2,
-   "found": 2
+   "relevant": 22,
+   "found": 28
   },
   "6": {
    "label": "Digital Marketing Manager · Zagreb",
@@ -56,29 +56,29 @@
   },
   "7": {
    "label": "Customer Support Agent · Stockholm",
-   "relevant": 19,
-   "found": 96
+   "relevant": 20,
+   "found": 24
   },
   "8": {
    "label": "Data Analyst · Nuremberg",
-   "relevant": 10,
-   "found": 87
+   "relevant": 0,
+   "found": 6
   },
   "9": {
    "label": "Software Engineer · Helsinki",
-   "relevant": 62,
+   "relevant": 64,
    "found": 76
   },
   "10": {
    "label": "UX Designer · Lisbon",
-   "relevant": 0,
-   "found": 0
+   "relevant": 4,
+   "found": 10
   }
  },
  "rivalsOff": true,
  "beyond": {
-  "jobspy": 120,
-  "eures": 96,
-  "adzuna": 38
+  "jobspy": 135,
+  "eures": 133,
+  "adzuna": 34
  }
 }
