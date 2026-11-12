@@ -7,7 +7,7 @@
 import fs from 'node:fs'; import path from 'node:path'; import {fileURLToPath} from 'node:url';
 import {NAME} from './tools.mjs';
 import {RIVALS} from './pool.mjs';
-import {CHIP, delta, esc, link} from '../lib/telegram.mjs'; import {sendNote} from '../lib/telegram.mjs';
+import {CHIP, adminLink, delta, esc, link} from '../lib/telegram.mjs'; import {sendNote} from '../lib/telegram.mjs';
 
 const rj = f => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return null; } };
 const key = row => [row.title, row.company, row.location].map(part => (part || '').trim().toLowerCase()).join('|');
@@ -65,7 +65,8 @@ export function noteText(note, baseline, last, {missing = [], notServed = [], ur
   if (notServed.length) info.push(`no data from the rivals for: ${esc(notServed.join(', '))} (not a failure, not a 0)`);
   if (info.length) lines.push(`ℹ️ ${info.join('; ')}`);
   if (missing.length) lines.push(`⚠️ <b>Missing</b> (a job failed, not a 0): ${esc(missing.join(', '))}`);
-  if (url) lines.push(link(url));
+  const review = [link(url), adminLink('search', note.round)].filter(Boolean).join(' · ');   // the owner reads the round in Admin first, then publishes it from there
+  if (review) lines.push(review);
   return lines.join('\n');
 }
 

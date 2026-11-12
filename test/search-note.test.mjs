@@ -17,7 +17,7 @@ test('ours against the previous run and the baseline, rivals ranked, a line per 
   assert.match(text, /^📈 ▼ Nurse · Townville −2$/m, 'the biggest moves against the nearest reference');
   assert.match(text, /^ℹ️ no data from the rivals for: adzuna p1, adzuna p2 \(not a failure, not a 0\)$/m, 'Gitar on #14: not-served rivals are named apart from failed jobs');
   assert.match(text, /^⚠️ <b>Missing<\/b> \(a job failed, not a 0\): ours p2$/m);
-  assert.match(text, /<a href="https:\/\/x\/run">Run ↗<\/a>$/);
+  assert.match(text, /<a href="https:\/\/x\/run">Run ↗<\/a> · <a href="https:\/\/www\.jobadabra\.top\/admin\/job-search\/benchmark\?round=2026-10-30">Review in Admin ↗<\/a>$/);   // owner, 12 Nov 2026: read the round in Admin first, publish it from there
   assert.doesNotMatch(text, /Zzyx|Co\b|https:\/\/y/, 'no job title or employer');
 });
 

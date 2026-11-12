@@ -16,7 +16,7 @@ test('the owner\'s shape: verdict vs baseline, all four scores, perfect / missin
     '🏁 Ours 96.8 · Browser Use 85.7 · Nanobrowser 45.6 · Stagehand 43.2',
     '✅ 4 forms perfect · ⚠️ 103: 1 field left empty (none wrong) · 🆕 107: 90% (new form)',
     'ℹ️ Rivals not re-run since 27 Oct; form 106 replaced by 107 today',
-    '<a href="https://x/run">Run ↗</a>']);
+    '<a href="https://x/run">Run ↗</a> · <a href="https://www.jobadabra.top/admin/form-filling/benchmark?round=fixed">Review in Admin ↗</a>']);   // owner, 12 Nov 2026: read the round in Admin first, publish it from there
   assert.doesNotMatch(text, /Ada|example\.test|Zurich|undefined|NaN/);
 });
 test('a drop: yellow, the size against the baseline and, when it moved more than the 2-point noise, against the previous run; wrong answers are counted', () => {
