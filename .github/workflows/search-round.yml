@@ -16,6 +16,9 @@ on:
       round:
         description: The round's key on /admin (default today's date); a proof round of another route takes its own key, e.g. 2026-11-12-broker, so it never replaces a published round
         default: ''
+      personas:
+        description: Persona numbers of OUR arm, JSON (default all 10); the others are reported missing and not published. For a side check of a few people with only_ours
+        default: '[1,2,3,4,5,6,7,8,9,10]'
       only_ours:
         description: Our arm only (rivals-off line; no ours-all line, no rivals). Published under `round` and counted nowhere else; no Telegram note, nothing saved as the previous run
         type: boolean
@@ -41,7 +44,7 @@ jobs:
     uses: ./.github/workflows/search-ours.yml
     with:
       product_ref: ${{ inputs.product_ref || 'main' }}
-      personas: '[1,2,3,4,5,6,7,8,9,10]'
+      personas: ${{ inputs.personas || '[1,2,3,4,5,6,7,8,9,10]' }}   # Why (13 Nov 2026, a side pair on persons 1, 2, 3, 6): the schedule has no inputs, so the default stays all 10
       presses: '[1]'
       arm: ours
     secrets: inherit
