@@ -1,4 +1,4 @@
-# The search round's simple rivals (owner, 27 Oct 2026): JobSpy, EURES and Adzuna, each searched for every persona of search-bench/personas.json
+# The search round's simple rivals (owner, 27 Oct 2026): JobSpy, EURES, Adzuna and Jooble (12 Nov 2026, owner), each searched for every persona of search-bench/personas.json
 # the way a person would (search-bench/rivals.py). By hand, or called by search-round.yml every 3 days (test/workflows.test.mjs). $0: no AI here.
 # JobSpy reads LinkedIn, Indeed, Glassdoor and Google as shipped, low volume (25 a site), no login or cookies; its reads stay in this benchmark.
 name: search rivals (by hand)
@@ -7,10 +7,10 @@ on:
     inputs:
       rivals:
         description: Rivals, JSON
-        default: '["jobspy","eures","adzuna"]'
+        default: '["jobspy","eures","adzuna","jooble"]'
   workflow_call:   # Why (27 Oct 2026, owner: "every 3 days"): search-round.yml runs the free rivals on its schedule
     inputs:
-      rivals: {type: string, default: '["jobspy","eures","adzuna"]'}
+      rivals: {type: string, default: '["jobspy","eures","adzuna","jooble"]'}
 permissions:
   contents: read
 jobs:
@@ -34,6 +34,8 @@ jobs:
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          # Why (12 Nov 2026, owner): Jooble keys are per country, so one JSON secret {"de": key, ...}; only the jooble job gets it
+          JOOBLE_API_KEYS: ${{ matrix.rival == 'jooble' && secrets.JOOBLE_API_KEYS || '' }}
         run: |
           mkdir -p out
           python3 search-bench/rivals.py "${{ matrix.rival }}" search-bench/personas.json "${{ matrix.persona }}" "out/${{ matrix.rival }}-p${{ matrix.persona }}.json"

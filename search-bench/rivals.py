@@ -1,13 +1,16 @@
 """The search round's simple rivals (owner, 27 Oct 2026): what a person gets when they search each one themselves for the persona's role and city.
 Each keeps the FIRST 100 results it shows (about five pages), as judge pool rows: title, company, location, provider. No posting text, no URL.
-Usage (on CI only, by hand: .github/workflows/search-rivals.yml): python3 rivals.py <jobspy|eures|adzuna> <personas.json> <index 1-10> <out.json>
+Usage (on CI only, by hand: .github/workflows/search-rivals.yml): python3 rivals.py <jobspy|eures|adzuna|jooble> <personas.json> <index 1-10> <out.json>
 - jobspy: python-jobspy as shipped (LinkedIn, Indeed, Glassdoor, Google), one call per site, no login or cookies. Its reads stay in this
   benchmark: never copied into Jobadabra's product or index (owner, 27 Oct 2026).
 - eures: the EU job portal's own public search (no key), the role as keyword and the city's own area (NUTS-3) as the place, each row labelled by its own place codes.
-- adzuna: its public API (ADZUNA_APP_ID / ADZUNA_APP_KEY), the role as `what`, the city as `where`; only the countries Adzuna serves."""
+- adzuna: its public API (ADZUNA_APP_ID / ADZUNA_APP_KEY), the role as `what`, the city as `where`; only the countries Adzuna serves.
+- jooble: its REST API (owner, 12 Nov 2026: "test these 2 against us, and against EURES"), the role as `keywords`, the city as `location`. Jooble's keys are per country
+  domain (a jooble.org key reads US jobs only; free plan 100 calls a day per key), so JOOBLE_API_KEYS is one JSON secret {"de": "<key>", ...}."""
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -20,6 +23,10 @@ REGIONS = {'Sofia': ('bg411', 'Sofia (stolitsa)'), 'Cluj-Napoca': ('ro113', 'Clu
            'Stockholm': ('se110', 'Stockholm county'), 'Nuremberg': ('de254', 'Nuremberg (city)'), 'Helsinki': ('fi1b1', 'Helsinki-Uusimaa'),
            'Lisbon': ('pt170', 'Lisbon metropolitan area')}
 ADZUNA = {'Belgium': 'be', 'Switzerland': 'ch', 'Poland': 'pl', 'Germany': 'de', 'Austria': 'at', 'France': 'fr', 'Netherlands': 'nl', 'Spain': 'es', 'Italy': 'it'}
+# Jooble's country domain for each persona country (the key is only valid on its own domain).
+JOOBLE = {'Bulgaria': 'bg', 'Romania': 'ro', 'Belgium': 'be', 'Switzerland': 'ch', 'Poland': 'pl', 'Croatia': 'hr', 'Sweden': 'se', 'Germany': 'de', 'Finland': 'fi', 'Portugal': 'pt'}
+JOOBLE_PAGE = 50   # asked per page; Jooble may return fewer, so the loop stops on a short page
+JOOBLE_MAX_CALLS = 5   # a persona's key has 100 calls a day: never a retry loop
 
 
 def post(url, body):
@@ -73,6 +80,27 @@ def adzuna(p):
     return rows[:KEEP]
 
 
+def jooble(p):
+    cc = JOOBLE.get(p['country'])
+    if not cc:
+        return None   # not served: the page says "not in this country", never 0
+    key = json.loads(os.environ.get('JOOBLE_API_KEYS') or '{}').get(cc)
+    if not key:
+        raise RuntimeError(f'Jooble: no key for {cc} in JOOBLE_API_KEYS')   # a missing key is a named failure, never "not served" or 0
+    rows = []
+    for page in range(1, JOOBLE_MAX_CALLS + 1):
+        try:
+            data = post(f'https://{cc}.jooble.org/api/{key}', {'keywords': p['title'], 'location': p['city'], 'page': str(page), 'ResultOnPage': str(JOOBLE_PAGE)})
+        except urllib.error.HTTPError as error:
+            raise RuntimeError(f'Jooble {cc}: HTTP {error.code}') from None   # urllib's own message is fine, but the URL holds the key: never let it reach a log
+        jobs = data.get('jobs') or []
+        rows += [{'tool': 'jooble', 'title': j.get('title') or '', 'company': j.get('company') or '', 'location': j.get('location') or '',
+                  'provider': 'Jooble', 'found': data.get('totalCount')} for j in jobs]
+        if len(rows) >= KEEP or len(jobs) < JOOBLE_PAGE:
+            break
+    return rows[:KEEP]
+
+
 def jobspy(p):
     from jobspy import scrape_jobs   # python-jobspy, pinned in the workflow
     rows, errors = [], {}
@@ -95,7 +123,7 @@ if __name__ == '__main__':
     if kind == 'jobspy':
         rows, errors = jobspy(p)
     else:
-        rows = {'eures': eures, 'adzuna': adzuna}[kind](p)
+        rows = {'eures': eures, 'adzuna': adzuna, 'jooble': jooble}[kind](p)
     meta = {'rival': kind, 'persona': p, 'kept': None if rows is None else len(rows), 'notServed': rows is None, 'errors': errors}
     json.dump(rows, open(out, 'w'), ensure_ascii=False, indent=1)   # Why (2 Nov 2026, coordinator): null = not served / not measured; pool.mjs lists a non-list as missing (unknown), an empty list is a real 0
     json.dump(meta, open(out.replace('.json', '.meta.json'), 'w'), ensure_ascii=False, indent=1)

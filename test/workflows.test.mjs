@@ -133,7 +133,7 @@ test('search-round.yml: every 3 days, ours + free rivals, judged on the plan, pu
   assert.deepEqual([...text.matchAll(/cron: '([^']+)'/g)].map(m => m[1]), ['0 7 * * *']);
   assert.match(text, every3Days);
   assert.match(text, /uses: \.\/\.github\/workflows\/search-ours\.yml\n    with:\n      product_ref: [^\n]+\n      personas: '\[1,2,3,4,5,6,7,8,9,10\]'\n      presses: '\[1\]'/);
-  assert.match(text, /uses: \.\/\.github\/workflows\/search-rivals\.yml\n    with:\n      rivals: '\["jobspy","eures","adzuna"\]'/);
+  assert.match(text, /uses: \.\/\.github\/workflows\/search-rivals\.yml\n    with:\n      rivals: '\["jobspy","eures","adzuna","jooble"\]'/);
   assert.doesNotMatch(text, /uses: \.\/\.github\/workflows\/search-(bench-)?career-ops/, 'career-ops stays by hand');
   const judge = text.slice(text.indexOf('- name: Blind judge'), text.indexOf('- name: Publish'));
   assert.match(judge, /BENCH_JUDGE_ENGINE: plan/); assert.match(judge, /search-bench\/judge\.py/);

@@ -50,7 +50,7 @@ jobs:
     if: needs.when.outputs.go == 'yes'
     uses: ./.github/workflows/search-rivals.yml
     with:
-      rivals: '["jobspy","eures","adzuna"]'   # the same list as search-bench/rivals.json (test/workflows.test.mjs)
+      rivals: '["jobspy","eures","adzuna","jooble"]'   # the same list as search-bench/rivals.json (test/workflows.test.mjs)
     secrets: inherit
   judge:   # after both arms, even when one persona failed (pool.mjs names what is missing, the note says so)
     needs: [when, ours, ours_all, rivals]
