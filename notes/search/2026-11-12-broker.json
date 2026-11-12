@@ -1,0 +1,12 @@
+{
+ "round": "2026-11-12-broker",
+ "build": "04d2076",
+ "tools": {
+  "ours": {
+   "relevant": 0,
+   "found": 0
+  }
+ },
+ "personas": {},
+ "rivalsOff": true
+}
