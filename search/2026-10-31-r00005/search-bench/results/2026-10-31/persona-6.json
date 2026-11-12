@@ -1,0 +1,378 @@
+{
+ "persona": {
+  "family": "marketing",
+  "title": "Digital Marketing Manager",
+  "kind": "tech",
+  "city": "Zagreb",
+  "country": "Croatia",
+  "language": "Croatian"
+ },
+ "seed": "bench-judge-6",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 21,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Head of Growth",
+   "company": "Fonio",
+   "location": "Vienna; London; Munich; European Union; Barcelona",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Global Field & Event Marketing Lead",
+   "company": "Nash",
+   "location": "Remote HQ",
+   "provider": "Nash",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Head of Corporate Communications",
+   "company": "Nash",
+   "location": "Remote HQ; San Francisco",
+   "provider": "Nash",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Lead",
+   "company": "Nash",
+   "location": "San Francisco; Remote HQ",
+   "provider": "Nash",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "VP, Growth",
+   "company": "Nivoda",
+   "location": "Remote",
+   "provider": "Nivoda",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Creator - Dressly",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Creator - Storyby",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager",
+   "company": "SKELAR",
+   "location": "Global, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Full-stack Marketing Designer",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Krakow; Kyiv; Warsaw; Dnipro",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Head of Marketing",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Analyst",
+   "company": "SKELAR",
+   "location": "Kyiv; Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Lead",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Kyiv",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Communications Lead",
+   "company": "Yubo",
+   "location": "Remote",
+   "provider": "Yubo",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Manager",
+   "company": "Yubo",
+   "location": "Paris - Full Remote",
+   "provider": "Yubo",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Marketing Manager",
+   "company": "Yubo",
+   "location": "Paris - Full Remote",
+   "provider": "Yubo",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Events Program Leads – Special Events and Virtual Programs",
+   "company": "centreforeffectivealtruism",
+   "location": "Remote - Global",
+   "provider": "centreforeffectivealtruism",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Media Specialist",
+   "company": "centreforeffectivealtruism",
+   "location": "Remote - Global",
+   "provider": "centreforeffectivealtruism",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Lead, Marketplace",
+   "company": "circle",
+   "location": "Anywhere",
+   "provider": "circle",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Head of Growth",
+   "company": "Fonio",
+   "location": "Vienna; London; Munich; European Union; Barcelona",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Global Field & Event Marketing Lead",
+   "company": "Nash",
+   "location": "Remote HQ",
+   "provider": "Nash",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Product Marketing Lead",
+   "company": "Nash",
+   "location": "San Francisco; Remote HQ",
+   "provider": "Nash",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "AI Creator - Dressly",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "AI Creator - Storyby",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Full-stack Marketing Designer",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Krakow; Kyiv; Warsaw; Dnipro",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Head of Marketing",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Marketing Analyst",
+   "company": "SKELAR",
+   "location": "Kyiv; Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "User Acquisition Lead",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "User Acquisition Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "User Acquisition Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Kyiv",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Communications Lead",
+   "company": "Yubo",
+   "location": "Remote",
+   "provider": "Yubo",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Growth Manager",
+   "company": "Yubo",
+   "location": "Paris - Full Remote",
+   "provider": "Yubo",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Marketing Manager",
+   "company": "Yubo",
+   "location": "Paris - Full Remote",
+   "provider": "Yubo",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Media Specialist",
+   "company": "centreforeffectivealtruism",
+   "location": "Remote - Global",
+   "provider": "centreforeffectivealtruism",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Growth Lead, Marketplace",
+   "company": "circle",
+   "location": "Anywhere",
+   "provider": "circle",
+   "role": "yes",
+   "place": "remote"
+  }
+ ]
+}

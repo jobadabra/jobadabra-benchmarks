@@ -1,0 +1,1648 @@
+{
+ "persona": {
+  "family": "data-analyst",
+  "title": "Data Analyst",
+  "kind": "tech",
+  "city": "Valencia",
+  "country": "Spain",
+  "language": "Spanish"
+ },
+ "seed": "bench-judge-6",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 180,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Analytics Consultant - AI Trainer - Freelance - 8-20 hrs/week - Remote",
+   "company": "10xteam",
+   "location": "Poland",
+   "provider": "10xteam",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Quantitative Modeler - AI Trainer - Freelance - 8-20 hrs/week - Remote",
+   "company": "10xteam",
+   "location": "Spain",
+   "provider": "10xteam",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Media Intelligence Associate – Europe",
+   "company": "Clipbook",
+   "location": "Europe - Remote",
+   "provider": "Clipbook",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst, User Operations",
+   "company": "Cursor",
+   "location": "Remote",
+   "provider": "Cursor",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Billing & Analytics Software Engineer",
+   "company": "Deepgram",
+   "location": "USA - Remote",
+   "provider": "Deepgram",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Revenue Operations Analyst",
+   "company": "Deepgram",
+   "location": "USA - Remote",
+   "provider": "Deepgram",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Product Analyst (Product-Led Growth)",
+   "company": "Deepgram",
+   "location": "USA - Remote",
+   "provider": "Deepgram",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Science Specialist",
+   "company": "Trigyn Technologies",
+   "location": "Valencia, Spain",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "SAP BUSINESS ONE ANALYST S2",
+   "company": "Grupo",
+   "location": "Valencia, ES",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Global Master Data Analyst M/F",
+   "company": "ZimVie US Corp LLC",
+   "location": "Valencia, V, ES",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer ID89384",
+   "company": "AgileEngine",
+   "location": "Valencia, V, es",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Databricks Data Architect",
+   "company": "SET Europa",
+   "location": "Valencia, Valencian Community, Spain",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst",
+   "company": "Sollers Consulting",
+   "location": "Valencia",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Data & Analytics",
+   "company": "Henneo",
+   "location": "València, Valencia/València",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Functional Analyst Integration",
+   "company": "SD Worx",
+   "location": "Valencia, Valencian Community, Spain",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Analista Funcional / Product Owner",
+   "company": "Baoss",
+   "location": "Asturias, Spain",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst with IBM FileNet",
+   "company": "UST",
+   "location": "Madrid, Spain",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Consultor/a de Negocio - Data Analytics",
+   "company": "Social You",
+   "location": "Barcelona, Spain",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst Salesforce (SFMC)",
+   "company": "CAS TRAINING",
+   "location": "Barcelona, Spain",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer AI",
+   "company": "EXDESIS",
+   "location": "Barcelona, Spain",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Functional Analyst Control-M SQL Server",
+   "company": "UST",
+   "location": "Madrid, Spain",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer",
+   "company": "Matrix Eastern Europe",
+   "location": "Madrid, Spain",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Scientist",
+   "company": "HAYS",
+   "location": "Bizkaia, Spain",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer (Snowflake + DBT)",
+   "company": "Baoss",
+   "location": "Madrid, Spain",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data and IA Engineer (cliente final)",
+   "company": "Michael Page",
+   "location": "Barcelona, Spain",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Tecnología ofertas de empleo en España",
+   "company": "via Michael Page España",
+   "location": "España, Madrid, Barcelona",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst ofertas de empleo en España",
+   "company": "via Michael Page España",
+   "location": "España, Sevilla, Zaragoza",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Digital Ecommerce ofertas de empleo en España",
+   "company": "via Michael Page España",
+   "location": "España, Madrid, Barcelona",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analista De Datos ofertas de empleo en España",
+   "company": "via Michael Page España",
+   "location": "España, Granada, Sevilla",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst",
+   "company": "Joko",
+   "location": "Paris; Barcelona",
+   "provider": "Joko",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (Marketing)",
+   "company": "OBRIO",
+   "location": "Remote – Ukraine; Warsaw (Office); Remote – Poland; Kyiv (Office); Lviv (Office)",
+   "provider": "OBRIO",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst",
+   "company": "OBRIO",
+   "location": "Remote – Ukraine",
+   "provider": "OBRIO",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (Payments)",
+   "company": "OBRIO",
+   "location": "Remote – Ukraine",
+   "provider": "OBRIO",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Portfolio analytics and forecasts actuary",
+   "company": "Alan",
+   "location": "Anywhere in France",
+   "provider": "Alan",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics and Pricing Expert – Insurance 🇧🇪",
+   "company": "Alan",
+   "location": "Anywhere in Belgium",
+   "provider": "Alan",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics and pricing expert - Insurance",
+   "company": "Alan",
+   "location": "Anywhere in France",
+   "provider": "Alan",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst",
+   "company": "airapps",
+   "location": "Madrid",
+   "provider": "airapps",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Analytics AI Research Contributor",
+   "company": "Aptura AI",
+   "location": "Global",
+   "provider": "Aptura AI",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineering Manager",
+   "company": "eneba",
+   "location": "Europe",
+   "provider": "eneba",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (Payments)",
+   "company": "eneba",
+   "location": "Europe; Vilnius, Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst - Customer Support",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "CX Data Analyst",
+   "company": "harvey",
+   "location": "Remote",
+   "provider": "harvey",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Data Analyst",
+   "company": "labhouse",
+   "location": "Barcelona; Spain (Remote)",
+   "provider": "labhouse",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineering Advocate - Europe",
+   "company": "lightdash",
+   "location": "Remote",
+   "provider": "lightdash",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "GTM Analytics Manager",
+   "company": "marqeta-inc",
+   "location": "Remote - Ontario OR British Columbia",
+   "provider": "marqeta-inc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Intelligence Engineer",
+   "company": "oh",
+   "location": "Europe (remote)",
+   "provider": "oh",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Intelligence Engineer II, Fulfillment Optimization",
+   "company": "Amazon / AWS",
+   "location": "Barcelona, Catalonia, ESP",
+   "provider": "Amazon / AWS",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst",
+   "company": "Perk",
+   "location": "Barcelona; Barcelona",
+   "provider": "Perk",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineer",
+   "company": "Pleo",
+   "location": "United Kingdom; Denmark; Portugal; Spain",
+   "provider": "Pleo",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Analytics Engineer",
+   "company": "preply",
+   "location": "Barcelona",
+   "provider": "preply",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analytics Engineer",
+   "company": "ruby-labs",
+   "location": "European Union; Ukraine",
+   "provider": "ruby-labs",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "FinCrime Analytics Engineer",
+   "company": "Satispay",
+   "location": "Barcelona, Spain",
+   "provider": "Satispay",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analytics / Data Science Tutor/Lehrkraft (all genders)",
+   "company": "stackfuel",
+   "location": "Remote - Germany",
+   "provider": "stackfuel",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business IntelligenceTutor/Lehrkraft  (all genders)",
+   "company": "stackfuel",
+   "location": "Remote - Germany",
+   "provider": "stackfuel",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Data Analyst",
+   "company": "zeely",
+   "location": "Remote",
+   "provider": "zeely",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineer II",
+   "company": "affirm",
+   "location": "Remote Poland",
+   "provider": "affirm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineer II",
+   "company": "affirm",
+   "location": "Remote Spain",
+   "provider": "affirm",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
+   "company": "affirm",
+   "location": "Remote Spain",
+   "provider": "affirm",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
+   "company": "affirm",
+   "location": "Remote Poland",
+   "provider": "affirm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Analytics Engineer",
+   "company": "Alpaca",
+   "location": "Remote - EMEA",
+   "provider": "Alpaca",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst",
+   "company": "arcanaanalytics",
+   "location": "Coimbatore/Bangalore/Remote",
+   "provider": "arcanaanalytics",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (Slovak)",
+   "company": "aspenviewtech",
+   "location": "Remote",
+   "provider": "aspenviewtech",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Language Data Analyst (Polish)",
+   "company": "aspenviewtech",
+   "location": "Poland",
+   "provider": "aspenviewtech",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Intelligence Analyst",
+   "company": "carrotfertility",
+   "location": "Remote",
+   "provider": "carrotfertility",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Engineering Manager - MLOps & Analytics",
+   "company": "Canonical",
+   "location": "Home based - Worldwide",
+   "provider": "Canonical",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
+   "company": "Canonical",
+   "location": "Home based - Worldwide",
+   "provider": "Canonical",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst, Stewardship",
+   "company": "drweng",
+   "location": "Chicago, Houston, Remote",
+   "provider": "drweng",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst - Fincrime Reporting",
+   "company": "Ebury",
+   "location": "Málaga",
+   "provider": "Ebury",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst - Fincrime Reporting",
+   "company": "Ebury",
+   "location": "Madrid",
+   "provider": "Ebury",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst II - Regulatory Reporting",
+   "company": "Ebury",
+   "location": "Madrid",
+   "provider": "Ebury",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analyst, GTM Analytics",
+   "company": "fivetran",
+   "location": "CRI - Remote",
+   "provider": "fivetran",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst II",
+   "company": "gomotive",
+   "location": "Hybrid - Lahore; Pakistan - Karachi; Remote - Islamabad",
+   "provider": "gomotive",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "BUSINESS DATA ANALYST III (DAAS API GW)",
+   "company": "horizonindustrieslimited",
+   "location": "Remote",
+   "provider": "horizonindustrieslimited",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Analytics Manager",
+   "company": "impact",
+   "location": "New York; Remote; Columbus, Ohio; Seattle, Washington; Santa Barbara, California",
+   "provider": "impact",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineer - Finance",
+   "company": "mewssystems",
+   "location": "Czechia; France; Spain; United Kingdom",
+   "provider": "mewssystems",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst - Everyday Banking",
+   "company": "N26",
+   "location": "Barcelona",
+   "provider": "N26",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst - Investments",
+   "company": "N26",
+   "location": "Barcelona",
+   "provider": "N26",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Manager",
+   "company": "moniepoint",
+   "location": "Remote, Portugal",
+   "provider": "moniepoint",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Manager",
+   "company": "moniepoint",
+   "location": "Remote, Spain",
+   "provider": "moniepoint",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Manager",
+   "company": "moniepoint",
+   "location": "Remote, Poland",
+   "provider": "moniepoint",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst",
+   "company": "nift",
+   "location": "Remote, Israel",
+   "provider": "nift",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineer",
+   "company": "scopely",
+   "location": "ES - Barcelona, Spain",
+   "provider": "scopely",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (CRM)",
+   "company": "scopely",
+   "location": "ES - Barcelona, Spain",
+   "provider": "scopely",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "People Analytics AI Engineer",
+   "company": "Samsara",
+   "location": "Remote - Seattle",
+   "provider": "Samsara",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Fraud Data Analyst",
+   "company": "sezzle",
+   "location": "Argentina, Remote",
+   "provider": "sezzle",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Fraud Data Analyst",
+   "company": "sezzle",
+   "location": "Chile, Remote",
+   "provider": "sezzle",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Online Data Analyst - Spanish speakers in Spain",
+   "company": "TELUS International AI Inc.",
+   "location": "Madrid , Madrid",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Intelligence ofertas de empleo en España",
+   "company": "via Michael Page España",
+   "location": "España, Madrid, Sevilla",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst",
+   "company": "tripledotstudios",
+   "location": "Barcelona",
+   "provider": "tripledotstudios",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst",
+   "company": "tripledotstudios",
+   "location": "Remote Europe",
+   "provider": "tripledotstudios",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Warehouse & Analytics Architect",
+   "company": "virtru",
+   "location": "Washington, DC - Remote",
+   "provider": "virtru",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "GL Reporting Analyst",
+   "company": "wpp",
+   "location": "Madrid",
+   "provider": "wpp",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Data Analyst (m/f/d)",
+   "company": "chaos",
+   "location": "Remote job",
+   "provider": "chaos",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst",
+   "company": "AlterSolutions",
+   "location": "Madrid, es",
+   "provider": "AlterSolutions",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Digital Analytics Specialist (Contractor) | Philippines",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Digital Analytics Specialist (Contractor) | India",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Digital Analytics Engineer",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "BI & Data Engineer – Microsoft Fabric & Power BI",
+   "company": "Devoteam",
+   "location": "Barcelona, es",
+   "provider": "Devoteam",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst",
+   "company": "MSXInternational",
+   "location": "Madrid, es",
+   "provider": "MSXInternational",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Project Manager – Business Analytics",
+   "company": "Auto1",
+   "location": "Madrid, es",
+   "provider": "Auto1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analytics Engineer (They/She/He)",
+   "company": "Delivery Hero",
+   "location": "Barcelona, es",
+   "provider": "Delivery Hero",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Consultant ,SAP Analytics Data Manageme",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Scientist - Analytics Business Consulting",
+   "company": "veeva",
+   "location": "Spain - Barcelona",
+   "provider": "veeva",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Master Class - Business Consultant - Life Sciences Analytics (Spain)",
+   "company": "veeva",
+   "location": "Spain - Barcelona",
+   "provider": "veeva",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Digital Data Analyst [España] 🔭",
+   "company": "producthackers",
+   "location": "Madrid, Spain",
+   "provider": "producthackers",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Erfarna och affärsdrivna managementkonsulter inom transformation och People Tech & Analytics",
+   "company": "newground",
+   "location": "Remote",
+   "provider": "newground",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Managementkonsulter inom transformation och People Tech & Analytics",
+   "company": "newground",
+   "location": "Remote",
+   "provider": "newground",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Combat Business Planning and Reporting Analyst (Temp Agency)",
+   "company": "Airbus Helicopters",
+   "location": "Getafe Area",
+   "provider": "Airbus Helicopters",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analytics - Assurance Technology",
+   "company": "EY",
+   "location": "Málaga, ES, 29016",
+   "provider": "EY",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer",
+   "company": "AlterSolutions",
+   "location": "Madrid, es",
+   "provider": "AlterSolutions",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Software Engineer - Data Infrastructure",
+   "company": "Canonical",
+   "location": "Home based - EMEA",
+   "provider": "Canonical",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Software Engineer - Data Infrastructure - OpenSearch/ElasticSearch",
+   "company": "Canonical",
+   "location": "Home based - EMEA",
+   "provider": "Canonical",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Architect - EY GDS Spain - Hybrid",
+   "company": "EY",
+   "location": "Malaga, ES, 29590",
+   "provider": "EY",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Scientist",
+   "company": "Experian",
+   "location": "Madrid, es",
+   "provider": "Experian",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Scientist",
+   "company": "Gameloft",
+   "location": "Barcelona, es",
+   "provider": "Gameloft",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Working Student - Business Operations (All Genders)",
+   "company": "Gradle",
+   "location": "Remote",
+   "provider": "Gradle",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer",
+   "company": "IESE Business School",
+   "location": "Barcelona, Spain",
+   "provider": "IESE Business School",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "DBA Oracle modelo híbrido Valencia",
+   "company": "Inetum2",
+   "location": "Valencia, es",
+   "provider": "Inetum2",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer",
+   "company": "Joko",
+   "location": "Paris; Barcelona",
+   "provider": "Joko",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Revenue Operations Analyst (CX)",
+   "company": "Pleo",
+   "location": "Madrid",
+   "provider": "Pleo",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Revenue Operations Analyst",
+   "company": "Second-Front-Systems",
+   "location": "Remote",
+   "provider": "Second-Front-Systems",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Beca Doble Grado ADE + Informatica",
+   "company": "SopraSteria1",
+   "location": "València, es",
+   "provider": "SopraSteria1",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Actuarial Reporting & Automation Specialist",
+   "company": "Zurich Insurance Group",
+   "location": "Barcelona, ES",
+   "provider": "Zurich Insurance Group",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer (Databricks, Python, Spark)",
+   "company": "Zurich Insurance Group",
+   "location": "Barcelona, ES",
+   "provider": "Zurich Insurance Group",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer",
+   "company": "airapps",
+   "location": "Madrid",
+   "provider": "airapps",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer",
+   "company": "bynder",
+   "location": "Barcelona",
+   "provider": "bynder",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Commodities Services Associate/Analyst",
+   "company": "eqtcorporation",
+   "location": "Remote",
+   "provider": "eqtcorporation",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Growth Analyst (Madrid based)",
+   "company": "feverup",
+   "location": "Valencia",
+   "provider": "feverup",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Growth Analyst (Madrid based)",
+   "company": "feverup",
+   "location": "Barcelona",
+   "provider": "feverup",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Operations Manager",
+   "company": "feverup",
+   "location": "Madrid",
+   "provider": "feverup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Scientist",
+   "company": "happyrobot.ai",
+   "location": "Barcelona",
+   "provider": "happyrobot.ai",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Platform Technical Support Engineer (AWS)",
+   "company": "knowmadmood",
+   "location": "Madrid, Spain",
+   "provider": "knowmadmood",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer",
+   "company": "spauldingridge",
+   "location": "Madrid",
+   "provider": "spauldingridge",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst",
+   "company": "techtorch",
+   "location": "Poland; Spain",
+   "provider": "techtorch",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Manager Data Extraction - OpenData EMEA (Remote)",
+   "company": "veeva",
+   "location": "Spain - Barcelona",
+   "provider": "veeva",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Scientist",
+   "company": "wavemm1",
+   "location": "Remote",
+   "provider": "wavemm1",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst",
+   "company": "xebiacee",
+   "location": "Poland",
+   "provider": "xebiacee",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "GCP Analytics Engineer DD8",
+   "company": "xebiacee",
+   "location": "Poland",
+   "provider": "xebiacee",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Software Engineer, Analytics Infrastructure",
+   "company": "Airbnb",
+   "location": "Brazil",
+   "provider": "Airbnb",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Advanced Analytics, Community Blueprint & Quality",
+   "company": "Airbnb",
+   "location": "United States",
+   "provider": "Airbnb",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Advanced Analytics, Product",
+   "company": "Airbnb",
+   "location": "United States",
+   "provider": "Airbnb",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Procurement Data Analyst",
+   "company": "Airbus Helicopters",
+   "location": "2 Locations",
+   "provider": "Airbus Helicopters",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "STAGE 2027 - GESTION DE PROJET DIGITAL ET BUSINESS INTELLIGENCE (All Gender)",
+   "company": "Airbus Helicopters",
+   "location": "2 Locations",
+   "provider": "Airbus Helicopters",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Systems Engineer (Data Intelligence & Analytics Team)",
+   "company": "Cloudflare",
+   "location": "In-Office",
+   "provider": "Cloudflare",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Systems Engineer, Data Intelligence & Analytics Team",
+   "company": "Cloudflare",
+   "location": "In-Office",
+   "provider": "Cloudflare",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineer, HR Analytics",
+   "company": "Elastic",
+   "location": "United States",
+   "provider": "Elastic",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Expert Solution Architect, Clinical Data Analytics & Technology",
+   "company": "Novartis",
+   "location": "2 Locations",
+   "provider": "Novartis",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineer, GTM",
+   "company": "OpenAI",
+   "location": "San Francisco; New York City",
+   "provider": "OpenAI",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Member of Data Staff (Analytics Engineer)",
+   "company": "Perplexity",
+   "location": "San Francisco; New York City",
+   "provider": "Perplexity",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Revenue Operations Analyst",
+   "company": "Perplexity",
+   "location": "San Francisco; New York City",
+   "provider": "Perplexity",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineer",
+   "company": "Reddit",
+   "location": "Remote - United States",
+   "provider": "Reddit",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Scientist",
+   "company": "Roche Holding",
+   "location": "2 Locations",
+   "provider": "Roche Holding",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineer - Campaign Intelligence [Ads]",
+   "company": "VTEX",
+   "location": "Brazil",
+   "provider": "VTEX",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Mid Level Data Analyst",
+   "company": "abinbev",
+   "location": "Remote, Brazil",
+   "provider": "abinbev",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Quantitative Analyst II (Capital Structuring & Analytics)",
+   "company": "affirm",
+   "location": "Remote US",
+   "provider": "affirm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Quantitative Analytics Manager, Affirm Bank Model Governance",
+   "company": "affirm",
+   "location": "Remote US",
+   "provider": "affirm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Engineer Mexico",
+   "company": "artefactlinkedin",
+   "location": "Mexico",
+   "provider": "artefactlinkedin",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Language Data Analyst (Portuguese)",
+   "company": "aspenviewtech",
+   "location": "Brazil",
+   "provider": "aspenviewtech",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Power BI Consultant",
+   "company": "aspenviewtech",
+   "location": "United States",
+   "provider": "aspenviewtech",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analytics Business Partner",
+   "company": "cribl",
+   "location": "Remote - United States",
+   "provider": "cribl",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "GTM Analytics Engineer",
+   "company": "decagon",
+   "location": "San Francisco; New York City",
+   "provider": "decagon",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Operations Manager",
+   "company": "gomotive",
+   "location": "United States - Remote",
+   "provider": "gomotive",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analista de Negócios Pleno - Logística | Vaga Exclusiva para Pessoas Negras",
+   "company": "ifoodcarreiras",
+   "location": "Brazil",
+   "provider": "ifoodcarreiras",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Advanced Analytics Crypto Expert",
+   "company": "incadigitalinc",
+   "location": "United States",
+   "provider": "incadigitalinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst, Regulatory Analytics and Reporting",
+   "company": "kraken.com",
+   "location": "United States",
+   "provider": "kraken.com",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product & Risk Analytics Manager",
+   "company": "rain-technologies",
+   "location": "United States",
+   "provider": "rain-technologies",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "BI Data Analyst (Growth - Origination)",
+   "company": "salmon-group",
+   "location": "Philippines",
+   "provider": "salmon-group",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (RCL)",
+   "company": "salmon-group",
+   "location": "Philippines",
+   "provider": "salmon-group",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer",
+   "company": "stuut-ai",
+   "location": "San Francisco; New York City",
+   "provider": "stuut-ai",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Manager, Competitive Intelligence & Marketing Analytics",
+   "company": "tempo-io",
+   "location": "United States",
+   "provider": "tempo-io",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Sustainability Data Analyst",
+   "company": "worldly",
+   "location": "United States - Remote",
+   "provider": "worldly",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Media Activation Operations - Data analyst",
+   "company": "wpp",
+   "location": "Mexico",
+   "provider": "wpp",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Advanced Analytics Manager, GOC",
+   "company": "wppmedia",
+   "location": "Barranquilla, Colombia; Bogota, Colombia; Medellin, Colombia; Mexico City, Mexico",
+   "provider": "wppmedia",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate, Insights & Analytics, GOC",
+   "company": "wppmedia",
+   "location": "Barranquilla, Colombia; Bogota, Colombia; Medellin, Colombia; Mexico City, Mexico",
+   "provider": "wppmedia",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Management and BI Manager, GOC",
+   "company": "wppmedia",
+   "location": "Barranquilla, Colombia; Bogota, Colombia; Medellin, Colombia; Mexico City, Mexico",
+   "provider": "wppmedia",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Manager, Data Analytics & BI, GOC",
+   "company": "wppmedia",
+   "location": "Barranquilla, Colombia; Bogota, Colombia; Medellin, Colombia; Mexico City, Mexico",
+   "provider": "wppmedia",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Manager, Data Analytics & Business Intelligence (BI), GOC",
+   "company": "wppmedia",
+   "location": "Barranquilla, Colombia; Bogota, Colombia; Medellin, Colombia; Mexico City, Mexico",
+   "provider": "wppmedia",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Manager, Data Analytics & Business Intelligence (BI), GOC",
+   "company": "wppmedia",
+   "location": "Barranquilla, Colombia; Bogota, Colombia; Medellin, Colombia; Mexico City, Mexico",
+   "provider": "wppmedia",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Credit Analyst",
+   "company": "Non-bank business lending & fintech company",
+   "location": "Kraków",
+   "provider": "TechTree",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Founding Engineer (Data Platform)",
+   "company": "Telepatia",
+   "location": "Latin America (remote)",
+   "provider": "TechTree",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "career-ops",
+   "title": "Data Analyst",
+   "company": "Travelperk",
+   "location": "Barcelona · Spain",
+   "provider": "ashby-api",
+   "status": "added",
+   "role": "yes",
+   "place": "no"
+  }
+ ]
+}
