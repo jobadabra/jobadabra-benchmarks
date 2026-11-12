@@ -54,96 +54,63 @@ jobs:
     runs-on: ubuntu-24.04
     outputs:
       sha: ${{ steps.sha.outputs.sha }}
+      ours: ${{ steps.split.outputs.ours }}     # the tools asked, split so only ours' jobs get the broker's token (12 Nov 2026)
+      rivals: ${{ steps.split.outputs.rivals }}
     steps:
       - id: sha   # the commits API takes a branch, tag, short or full commit (actions/checkout refuses a short one: 27 Oct 2026)
         env: {GH_TOKEN: '${{ github.token }}', REF: '${{ inputs.product_ref }}'}
         run: |
           sha=$(gh api "repos/GarryOne/jobadabra/commits/$REF" --jq .sha) && test ${#sha} = 40
           echo "sha=$sha" | tee -a "$GITHUB_OUTPUT"
-  run:
+      - id: split
+        env: {TOOLS: '${{ inputs.tools }}'}
+        run: |
+          echo "ours=$(jq -c '[.[] | select(. == "extension")]' <<<"$TOOLS")" | tee -a "$GITHUB_OUTPUT"
+          echo "rivals=$(jq -c '[.[] | select(. != "extension")]' <<<"$TOOLS")" | tee -a "$GITHUB_OUTPUT"
+          test "$(jq 'length' <<<"$TOOLS")" -gt 0   # Why (12 Nov 2026, Gitar on #20): an empty list used to fail the one matrix visibly; split in two it would skip both and publish nothing
+  run-rivals:   # every rival; one job per (tool, run), all started together, each on a fresh runner; every tool on BENCH_MODEL (owner, 27 Oct 2026: the same AI for all)
     needs: build
-    runs-on: ubuntu-24.04
-    timeout-minutes: 75
+    if: needs.build.outputs.rivals != '[]'
     strategy:
       fail-fast: false
       matrix:
-        tool: ${{ fromJSON(inputs.tools) }}
-        run: ${{ fromJSON(inputs.runs) }}   # every tool on BENCH_MODEL; no extra "as shipped" run (owner, 27 Oct 2026: the same AI for all)
-    env:
-      BENCH_ANTHROPIC_KEY: ${{ secrets.BENCH_ANTHROPIC_KEY }}   # the Benchmarks workspace key ($5/month limit), held by the metering pass-through
-      E2E_ANTHROPIC_KEY: ${{ secrets.BENCH_ANTHROPIC_KEY }}     # our leg: the app's API engine on CI reads this name (desktop/e2e/lib/engine.mjs)
-      JP_REPO: ${{ github.workspace }}/jp/desktop/e2e
-      JOBADABRA_HEAVY: '0'
-      JOBADABRA_SESSION: form round ${{ github.run_id }} ${{ matrix.tool }} ${{ matrix.run }}
-      JOBADABRA_VISIT_KIND: hand
-      JOBADABRA_SITE_LEDGER_DIR: ${{ github.workspace }}/ledger
-      LIVE_ELIGIBILITY: 'off'   # ours fills like every tool: the bench asks each to fill the application (owner via 6e, 27 Oct 2026); the page says so
-      JP_NO_REPORT: '1'
-      ANONYMIZED_TELEMETRY: 'false'
-    steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
-        with: {node-version: '22'}
-      - uses: actions/setup-python@v6
-        with: {python-version: '3.12'}
-      - name: The harness, a browser and a virtual display
-        run: |
-          npm install --no-audit --no-fund
-          npx playwright install --with-deps chromium chromium-headless-shell
-          sudo apt-get install -y -qq xvfb >/dev/null
-      - name: Browser Use (pinned, requirements.txt)
-        if: matrix.tool == 'browser-use'
-        run: python -m venv venv && venv/bin/pip install -q -r requirements.txt
-      - name: Nanobrowser (release v0.2.0)
-        if: matrix.tool == 'nanobrowser'
-        env: {GH_TOKEN: '${{ github.token }}'}
-        run: |
-          gh release download v0.2.0 -R nanobrowser/nanobrowser -p 'nanobrowser-v0.2.0.zip' -D "$RUNNER_TEMP"
-          mkdir -p "$RUNNER_TEMP/nb-0.2.0" && unzip -q "$RUNNER_TEMP/nanobrowser-v0.2.0.zip" -d "$RUNNER_TEMP/nb-0.2.0"
-          echo "NANOBROWSER_DIR=$RUNNER_TEMP/nb-0.2.0" >> "$GITHUB_ENV"
-      - name: Jobadabra (public repo) at the asked commit (every tool reads its fake applicant, CV file and site ledger)
-        uses: actions/checkout@v5
-        with: {repository: GarryOne/jobadabra, ref: '${{ needs.build.outputs.sha }}', path: jp, persist-credentials: false}
-      - name: Jobadabra's test harness
-        run: |
-          (cd jp/desktop/e2e && (npm ci || npm install))
-          echo "our build: $(git -C jp rev-parse --short HEAD)"
-      - name: Jobadabra's app (our leg)
-        if: matrix.tool == 'extension'
-        run: |
-          (cd jp/desktop && npm ci)
-          (cd jp/desktop/e2e && npx playwright-core install --with-deps chromium)
-          pip install --quiet -r jp/requirements.txt
-      - name: The forms file from the weekly-picks tag
-        if: inputs.forms_from != ''
-        env: {FROM: '${{ inputs.forms_from }}', FORMS: '${{ inputs.forms }}'}
-        run: |
-          tag="${FROM%%:*}"; git fetch -q --depth 1 origin "+refs/tags/$tag:refs/tags/$tag" && git show "refs/tags/$tag:${FROM#*:}" > "$FORMS"
-      - name: The round's forms, this tool, this run
-        run: |
-          set -o pipefail
-          case "${{ matrix.tool }}" in extension) cap=0.05;; *) cap="${{ inputs.agent_cap }}";; esac
-          xvfb-run -a --server-args='-screen 0 1440x900x24' node round-job.mjs --tool "${{ matrix.tool }}" --run "${{ matrix.run }}" \
-            --forms "${{ inputs.forms }}" --only "${{ inputs.only }}" --out round-out --cap "$cap" 2>&1 | tee round.log
-      - name: This job's runs (no network records, no captured pages)
-        if: always()
-        uses: actions/upload-artifact@v6
-        with:
-          name: form-round-${{ matrix.tool }}-${{ matrix.run }}
-          retention-days: 30
-          path: |
-            round.log
-            round-out/**/result.json
-            round-out/**/fields.json
-            round-out/**/manifest.json
-            round-out/**/guard.jsonl
-            round-out/**/run.log
-            round-out/**/fill.log
-            round-out/**/start.png
-            round-out/**/end.png
-            round-out/job-*.json
+        tool: ${{ fromJSON(needs.build.outputs.rivals) }}
+        run: ${{ fromJSON(inputs.runs) }}
+    permissions:
+      contents: read   # no id-token: a rival's third-party code runs in this job and must never hold a token the broker accepts (12 Nov 2026, owner via the coordinator)
+    uses: ./.github/workflows/form-round-job.yml
+    with:
+      tool: ${{ matrix.tool }}
+      repeat: ${{ matrix.run }}
+      sha: ${{ needs.build.outputs.sha }}
+      forms: ${{ inputs.forms }}
+      forms_from: ${{ inputs.forms_from }}
+      only: ${{ inputs.only }}
+      agent_cap: ${{ inputs.agent_cap }}
+    secrets:
+      BENCH_ANTHROPIC_KEY: ${{ secrets.BENCH_ANTHROPIC_KEY }}   # the Benchmarks workspace key ($5/month limit), held by the metering pass-through; ours needs no key
+  run-ours:   # ours alone; one job per (tool, run), all started together, each on a fresh runner; every tool on BENCH_MODEL (owner, 27 Oct 2026: the same AI for all)
+    needs: build
+    if: needs.build.outputs.ours != '[]'
+    strategy:
+      fail-fast: false
+      matrix:
+        tool: ${{ fromJSON(needs.build.outputs.ours) }}
+        run: ${{ fromJSON(inputs.runs) }}
+    permissions:
+      contents: read
+      id-token: write   # Why (12 Nov 2026, owner: "Broker, Claude plan, Haiku"): since 5 Nov the app's CI engine (jobadabra #3177) asks the AI only through the broker with this run's OIDC token, and ours scored nothing in the rounds of 6, 9 and 12 Nov ("no GitHub OIDC token for the AI broker"). The broker answers this repo on Claude alone (Haiku 5.5, jobadabra-web workers/ai-broker lib/lanes.mjs claudeOnly), the same model as the rivals. Only this job has the token: no rival's code runs here.
+    uses: ./.github/workflows/form-round-job.yml
+    with:
+      tool: ${{ matrix.tool }}
+      repeat: ${{ matrix.run }}
+      sha: ${{ needs.build.outputs.sha }}
+      forms: ${{ inputs.forms }}
+      forms_from: ${{ inputs.forms_from }}
+      only: ${{ inputs.only }}
+      agent_cap: ${{ inputs.agent_cap }}
   publish:   # every round publishes itself as its last step (owner via 6e, 27 Oct 2026); test/workflows. A fresh runner: no contestant's code runs here
-    needs: run
+    needs: [run-rivals, run-ours]
     if: ${{ !cancelled() && (inputs.judge_only || inputs.publish != '') }}
     runs-on: ubuntu-24.04
     timeout-minutes: 45
@@ -191,8 +158,8 @@ jobs:
       - name: The weekly note (Telegram, against the baseline and last week; kept on the tag weekly-picks)
         if: ${{ !inputs.judge_only && inputs.weekly == 'yes' }}
         env:
-          BENCH_TELEGRAM_BOT_TOKEN: ${{ secrets.BENCH_TELEGRAM_BOT_TOKEN }}
-          BENCH_TELEGRAM_CHAT_ID: ${{ secrets.BENCH_TELEGRAM_CHAT_ID }}
+          CI_ALERTS_TELEGRAM_BOT_TOKEN: ${{ secrets.CI_ALERTS_TELEGRAM_BOT_TOKEN }}   # the Engineering bot (owner, 12 Nov 2026); a missing secret fails the step (lib/telegram.mjs)
+          CI_ALERTS_TELEGRAM_CHAT_ID: ${{ secrets.CI_ALERTS_TELEGRAM_CHAT_ID }}
           URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           kind=week; base=(); name=$(date -u +%G-W%V); [ "$ROUND" = fixed ] && { kind=fixed; base=(--baseline rounds/fixed/baseline.json); name=$(date -u +%F); }   # fixed runs every 3 days: one note per day

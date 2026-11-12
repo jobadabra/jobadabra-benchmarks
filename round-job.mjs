@@ -4,7 +4,7 @@
 // the owner's ~$3 (27 Oct 2026). Ours is priced from its tokens at the round's model (the harness counts Sonnet's price).
 // Usage: node round-job.mjs --tool <browser-use|stagehand|nanobrowser|extension|extension-shipped> --run <n> --forms forms-objective.json --out <dir> --cap 0.30
 import fs from 'node:fs'; import path from 'node:path'; import crypto from 'node:crypto'; import {spawnSync} from 'node:child_process';
-import {AGENT_MODEL, callUsd} from './lib/models.mjs';
+import {AGENT_MODEL, callUsd} from './lib/models.mjs'; import {allFailed} from './lib/round-health.mjs';
 
 const arg = (name, dflt) => { const i = process.argv.indexOf(`--${name}`); return i > 0 ? process.argv[i + 1] : dflt; };
 const label = arg('tool'), run = Number(arg('run', 1)), out = arg('out'), cap = Number(arg('cap', 0.3));
@@ -31,3 +31,4 @@ for (const form of order) {
 }
 fs.writeFileSync(path.join(out, `job-${label}-${run}.json`), JSON.stringify({label, run, model: label === 'extension-shipped' ? 'as shipped' : AGENT_MODEL, cap, spent, rows}, null, 1));
 console.log(`round: JOB DONE ${label} run ${run} spent=$${spent.toFixed(3)}`);
+if (allFailed(rows)) { console.log(`round: FAILED ${label} run ${run}: every form ended in an error (first: ${String(rows.find(row => row.error).error).slice(0, 160)})`); process.exitCode = 1; }   // Why (12 Nov 2026): a job that did nothing is red, not green

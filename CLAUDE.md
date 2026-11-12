@@ -17,7 +17,7 @@ Public page: jobadabra.top/benchmark (site repo `jobadabra-web`); the full runs 
     A full round with rivals on the fixed set stays by hand.
   - **Each weekly round ends with one Telegram note** (owner: "It should send to telegram, as notification the results, and compare with a
     baseline"): ours per form vs `rounds/fixed/baseline.json` (the by-hand round of 27 Oct: ours 97%, Browser Use 87.3%) and the previous note
-    (tag `weekly-picks`, notes/). Scores and counts only, never an answer or a fact. Bot: secrets BENCH_TELEGRAM_BOT_TOKEN / _CHAT_ID.
+    (tag `weekly-picks`, notes/). Scores and counts only, never an answer or a fact. Bot: the Engineering bot, secrets CI_ALERTS_TELEGRAM_BOT_TOKEN / _CHAT_ID (owner, 12 Nov 2026: "let's move to Engineering"); both notes are Telegram HTML (`lib/telegram.mjs`), and a missing secret fails the step, never a fall back to the old BENCH_TELEGRAM_* (those can be deleted).
   - Every round publishes its own scores to /admin as its last step. One score line per run: right / wrong / empty-but-answerable /
     not reached (`score-round.mjs`). A page's leftover copy of a field (an empty file box beside the uploaded CV, an empty box named like a
     filled one) is no miss, for every tool (`markTwins`, lib/holds.mjs). Each run folder of ours keeps `fill.log`: why a box stayed empty,
