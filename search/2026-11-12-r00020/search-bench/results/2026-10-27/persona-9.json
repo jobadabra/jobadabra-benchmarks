@@ -1,0 +1,1836 @@
+{
+ "persona": {
+  "family": "software",
+  "title": "Software Engineer",
+  "kind": "tech",
+  "city": "Helsinki",
+  "country": "Finland",
+  "language": "Finnish"
+ },
+ "seed": "bench-judge-9",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 193,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Principal Engineer, Autonomy",
+   "company": "AeroVect",
+   "location": "South San Francisco - Hybrid; New York City - Remote; Remote; Toronto  - Remote; Seattle",
+   "provider": "AeroVect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Software Engineer, Behavior Planning",
+   "company": "AeroVect",
+   "location": "United Kingdom (Remote); Italy ; Poland; Stockholm; London ; Berlin ; Amsterdam; Paris ; Remote; Frankfurt ; Munich; Dublin",
+   "provider": "AeroVect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Software Engineer, Behavior Planning",
+   "company": "AeroVect",
+   "location": "South San Francisco - Hybrid; New York City - Remote; Seattle; Florida - Remote; Colorado; Boston - Remote; Atlanta - Hybrid",
+   "provider": "AeroVect",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Software Engineer, Behavior Planning",
+   "company": "AeroVect",
+   "location": "Toronto  - Remote; Vancouver - Remote",
+   "provider": "AeroVect",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Software Engineer, Localization (Calibration)",
+   "company": "AeroVect",
+   "location": "Remote; New York City - Hybrid; Poland; London ; Paris ; Toronto  - Remote; Atlanta - Hybrid; South San Francisco - Hybrid",
+   "provider": "AeroVect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Software Engineer, Perception (Radar)",
+   "company": "AeroVect",
+   "location": "Remote; New York City - Hybrid; Toronto  - Remote; San Francisco; Atlanta - Hybrid",
+   "provider": "AeroVect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Software Engineer, Simulation",
+   "company": "AeroVect",
+   "location": "Remote; Atlanta; Italy ; Poland; London ; Toronto  - Remote; United Kingdom (Remote)",
+   "provider": "AeroVect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Software Safety Engineer",
+   "company": "AeroVect",
+   "location": "Remote; South San Francisco - Onsite; Italy ; Poland; Stockholm; London ; Berlin ; New York City - Remote; Amsterdam; Paris ; Toronto  - Remote; Seattle; Florida - Remote; Frankfurt ; United Kingdom (Remote); Colorado; Vancouver - Remote; Boston - Remote; Munich; Atlanta - Hybrid; Texas - Remote; Dublin",
+   "provider": "AeroVect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Software Engineer, Perception",
+   "company": "AeroVect",
+   "location": "Remote; Italy ; Poland; Stockholm; London ; Berlin ; Amsterdam; Paris ; San Francisco; Frankfurt ; United Kingdom (Remote); Munich; Dublin",
+   "provider": "AeroVect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Systems Engineer",
+   "company": "AeroVect",
+   "location": "Remote; New York City - Hybrid; South San Francisco - Onsite; New York City - Remote; Seattle; Florida - Remote; Colorado; Boston - Remote; Atlanta - Hybrid; South San Francisco - Hybrid; Texas - Remote",
+   "provider": "AeroVect",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Software Engineer, Infrastructure (Cloud)",
+   "company": "AeroVect",
+   "location": "Remote; New York City - Hybrid; Italy ; Poland; Stockholm; London ; Berlin ; Amsterdam; Paris ; Toronto  - Remote; Seattle; Florida - Remote; Frankfurt ; United Kingdom (Remote); Colorado; Vancouver - Remote; Boston - Remote; Munich; Atlanta - Hybrid; South San Francisco - Hybrid; Texas - Remote",
+   "provider": "AeroVect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Software Engineer, Localization",
+   "company": "AeroVect",
+   "location": "Remote; New York City - Hybrid; Poland; London ; Paris ; Toronto  - Remote; Atlanta - Hybrid; South San Francisco - Hybrid",
+   "provider": "AeroVect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Software Engineer, Motion Planning",
+   "company": "AeroVect",
+   "location": "Remote; Italy ; Poland; Stockholm; London ; Amsterdam; Paris ; Toronto  - Remote; Frankfurt ; United Kingdom (Remote); Vancouver - Remote; Atlanta - Hybrid",
+   "provider": "AeroVect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Software Engineer, SDK",
+   "company": "Braintrust",
+   "location": "Remote; New York City; Seattle",
+   "provider": "Braintrust",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Sr. Security Engineer",
+   "company": "C1",
+   "location": "San Francisco Office; Remote; New York City; Portland Office",
+   "provider": "C1",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Software Engineer",
+   "company": "Clera",
+   "location": "remote",
+   "provider": "Clera",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Founding Engineer",
+   "company": "Clera",
+   "location": "remote",
+   "provider": "Clera",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Platform Engineer",
+   "company": "Clera",
+   "location": "remote",
+   "provider": "Clera",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Engineer",
+   "company": "Clera",
+   "location": "remote",
+   "provider": "Clera",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Data Engineer",
+   "company": "Clera",
+   "location": "remote",
+   "provider": "Clera",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Data Engineer",
+   "company": "Clera",
+   "location": "remote",
+   "provider": "Clera",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Data Engineer",
+   "company": "Clera",
+   "location": "remote",
+   "provider": "Clera",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Fullstack Engineer",
+   "company": "Clera",
+   "location": "remote",
+   "provider": "Clera",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Integrations Engineer",
+   "company": "Clera",
+   "location": "remote",
+   "provider": "Clera",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Product Engineer/Manager",
+   "company": "Clera",
+   "location": "remote",
+   "provider": "Clera",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Software Engineer, Billing",
+   "company": "Cursor",
+   "location": "Remote",
+   "provider": "Cursor",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Software Engineer, Bugbot",
+   "company": "Cursor",
+   "location": "San Francisco; New York; Remote",
+   "provider": "Cursor",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Software Engineer, Enterprise Platform",
+   "company": "Cursor",
+   "location": "San Francisco; Remote",
+   "provider": "Cursor",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Software Engineer, Security",
+   "company": "Cursor",
+   "location": "San Francisco; New York; Remote",
+   "provider": "Cursor",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Software Engineer, User Operations",
+   "company": "Cursor",
+   "location": "Remote",
+   "provider": "Cursor",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Software Engineer (Platform)",
+   "company": "Cyberhaven",
+   "location": "Bangalore; EU Remote",
+   "provider": "Cyberhaven",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff/Principal Software Engineer (AI Security)",
+   "company": "Cyberhaven",
+   "location": "Bangalore; EU Remote",
+   "provider": "Cyberhaven",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Applied AI Engineer",
+   "company": "Fundamental",
+   "location": "Europe; Israel (remote)",
+   "provider": "Fundamental",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Backend Engineer - Extensions",
+   "company": "Fundamental",
+   "location": "Europe; Israel (remote)",
+   "provider": "Fundamental",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "DevOps Engineer",
+   "company": "Fundamental",
+   "location": "Europe",
+   "provider": "Fundamental",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "MLOps Engineer",
+   "company": "Fundamental",
+   "location": "Europe; Israel (remote)",
+   "provider": "Fundamental",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Software Engineer",
+   "company": "Intellistack",
+   "location": "Remote/Toronto",
+   "provider": "Intellistack",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "DevOps Engineer",
+   "company": "Merge",
+   "location": "Remote; San Francisco, CA",
+   "provider": "Merge",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Member of Technical Staff (Search Core, Indexing & Data Pipeline Stream)",
+   "company": "Perplexity",
+   "location": "Belgrade; London; Remote; Berlin",
+   "provider": "Perplexity",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "eures",
+   "title": "Software & Cloud Engineer, Aventra",
+   "company": "Biisoni",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Planning Engineer",
+   "company": "Enersense Oyj",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Hardware Engineer",
+   "company": "Creo Center",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "DevOps Engineer, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Planning Engineer",
+   "company": "Enersense Oyj",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Software Development Project Manager, Flexmill Oy, Nurmijärvi",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Cloud Engineer K-ryhmään",
+   "company": "K-ryhmä",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AI Engineer, Zoner, Vantaa",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Planning & Fulfillment Engineer, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Engineer (Microsoft Fabric)",
+   "company": "Punainen Risti, keskustoimisto",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Granlund: Senior Full Stack Developer (C#, React)",
+   "company": "aTalent Recruiting Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Staff Engineer",
+   "company": "Nordhealth",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Support Engineer, ABB, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Analytics Engineer, Finavia Oyj, Vantaa",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VHDL Designer, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automation Service Engineer",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C5, FI199, FI1DA, FI1D8, FI1C2, FI1D5, FI198, FI1C7, FI1D7, FI19B, FI19A, FI1DC, FI1D9, FI1DB, FI1C6, FI196, FI1C1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automation Engineer, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automaatioinsinööri (Design Engineer), Vantaa tai Tampere, AFRY",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automaatioinsinööri (Design Engineer), Vantaa tai Tampere, AFRY",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Test & Equipment Engineer",
+   "company": "Elmery Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Mechanical Engineer",
+   "company": "Creo Center",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Engineer, Metso",
+   "company": "Biisoni",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Engineer, Konecranes",
+   "company": "Biisoni",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commissioning Engineer, Electrical",
+   "company": "Wärtsilä Corporation",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C1, FI19A)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead / Senior System Engineer – Sähköasemien suojaus ja automaatio - Siemens",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Project Engineer, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Solution Engineer, Hyvinkää",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Project Engineer – Electrical and Automation",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C5, FI199, FI1DA, FI1D8, FI1C2, FI1D5, FI198, FI1C7, FI1D7, FI19B, FI19A, FI1DC, FI1D9, FI1DB, FI1C6, FI196, FI1C1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Scientist / Engineer, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Testing & Design Engineer, Hyvinkää",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Quality Engineer, Systems & Options",
+   "company": "Bluefors",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Engineer, Espoo or Lappeenranta",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Quality Engineer, Measurement Infrastructure",
+   "company": "Bluefors",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Package Engineer, Metso, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Power System Engineer, (PSCAD & PSS/E), Ampner Oy, Helsinki / Vaasa",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commissioning Engineer, Schneider Electric, Espoo, Kirkkonummi or Vihti",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Design Engineer, R&D",
+   "company": "Wärtsilä Corporation",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C1, FI19A)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Solutions Engineer, Data Centers",
+   "company": "Eltel Networks Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Hands-on Data Center Deployment Engineer",
+   "company": "Nordecon Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C2)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Network & Infrastructure Engineer (Data Center)",
+   "company": "Nordecon Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C2)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Junior Mechanical Design Engineer – Kickstart Your Career in Engineering!",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Nuclear Safety Engineer for energy sector, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "POSTDOCTORAL RESEARCHER in AI engineering",
+   "company": "Helsingin yliopisto",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BMS / Building Automation Engineers for Datacenter Projects",
+   "company": "Manpower",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Electrical Engineer - Data Centers, Compute Nordic",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1DA, FI1B1, FI1D9, FI1DB, FI19B)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Mechanical Engineer - Data Centers, Compute Nordic",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1DA, FI1B1, FI1D9, FI1DB, FI19B)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Design Engineer – Custom Solutions & Product Development",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Civil QA/QC Engineer for CAM Plant Project, Kotka",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1C7, FI1C5, FI1C6, FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Project Manager (marine applications)",
+   "company": "ECHO Engineering",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "POSTDOCTORAL RESEARCHER in Quantum Computing Middleware and Applications",
+   "company": "Helsingin yliopisto",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "On-Call Trainee",
+   "company": "Wärtsilä Corporation",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI19A)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "K Trainee, AI",
+   "company": "K-ryhmä",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Back End Lead Developer",
+   "company": "Wellmo Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Junior Developer, Intern, or Thesis Worker — Rust and AI Applications",
+   "company": "Advaun Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Business Development Associate",
+   "company": "Kontorva Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Java Full-stack Developer",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C5, FI199, FI1DA, FI1D8, FI1C2, FI1D5, FI198, FI1C7, FI1D7, FI19B, FI19A, FI1DC, FI1D9, FI1DB, FI1C6, FI196, FI1C1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "R&D Project Manager, Bluefors, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT Service Manager to an international energy company, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Integration Senior Specialist K-ryhmään",
+   "company": "K-ryhmä",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Full-stack kehittäjä Kespron digitaalisten palveluiden kehitystiimiin K-ryhmään",
+   "company": "K-ryhmä",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Myyjä – Envaire Oy (tuntipalkka + provisio)",
+   "company": "Envaire Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Freelance Cleaner, Helsinki Region (Raikkaus)",
+   "company": "Raikkaus",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "R&D Engineering Manager",
+   "company": "Bluefors",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Engineering Manager",
+   "company": "Enersense Oyj",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automation Specialist",
+   "company": "Enersense Oyj",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "B2B Sales and Digital Marketing Intern",
+   "company": "Advaun Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Administrative Assistant",
+   "company": "Inaya Enterprises Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "HVAC & Fire Engineering Manager, CHEC CAM Project, Kotka",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1C7, FI1B1, FI1C5, FI1C6)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Frontend Developers - Mobile / Web",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C5, FI199, FI1DA, FI1D8, FI1C2, FI1D5, FI198, FI1C7, FI1D7, FI19B, FI19A, FI1DC, FI1D9, FI1DB, FI1C6, FI196, FI1C1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Executive, Hypergene, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automaatioasiantuntija",
+   "company": "Enersense Oyj",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sähkötöidenjohtajia",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C7, FI19A, FI198, FI1D9)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Machinist, Bluefors Oy",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sähköverkkosuunnittelija",
+   "company": "Despro Engineering Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI19B, FI1C2, FI1B1, FI1C1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CNC Turner, Lohja",
+   "company": "Wellpack",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior PCBA Test & Validation Specialist, Hyvinkää",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Team Lead / esihenkilö asiantuntijaorganisaatioon",
+   "company": "Despro Engineering Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI19B, FI1D5, FI19A, FI196, FI1B1, FI1C1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pääsuunnittelija, konetekniikka",
+   "company": "Nipromec Group",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Varavoimavuokrauksen asiantuntija",
+   "company": "kW-set Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sähkötöiden valvoja, Insinööritoimisto Polartek Oy, Helsinki",
+   "company": "Insinööritoimisto Polartek Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tekninen ratkaisuasiantuntija, suunnittelijayhteistyö",
+   "company": "Aco Nordic Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kokoonpanoteknikko (Assembly Technician)",
+   "company": "Beneq",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Rakennustöiden valvoja, Insinööritoimisto Polartek Oy, Helsinki",
+   "company": "Insinööritoimisto Polartek Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Suunnittelija / SeaKing Oy",
+   "company": "Mentek Advisors Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior T24 Architect",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C5, FI199, FI1DA, FI1D8, FI1C2, FI1D5, FI198, FI1C7, FI1D7, FI19B, FI19A, FI1DC, FI1D9, FI1DB, FI1C6, FI196, FI1C1)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Asentaja",
+   "company": "Vatupassi Törmälä Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Project Planner",
+   "company": "Enersense Oyj",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Ympäristöpuolen projekti-insinööri",
+   "company": "Insinööritoimisto Pohjatekniikka Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "LVI-suunnittelija",
+   "company": "Takoi Yhtiöt Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "LVI-töiden valvoja, Insinööritoimisto Polartek Oy, Helsinki",
+   "company": "Insinööritoimisto Polartek Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Commissioning Specialist, Granlund Oy, Finland",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sähkösuunnittelija",
+   "company": "Comatec",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Projektipäällikkö",
+   "company": "Nipromec Group",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automaatioinsinööri",
+   "company": "HR WorkForce Group Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1, FI1C1, FI19B)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Erikoistu automaatio- ja ICT-suunnittelijaksi Swecolle (2 viikon koulutus & vakituinen työ automaatiotekniikan tai IT-alan ammattilaiselle)",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Järjestelmäasiantuntija – rakennusautomaatio - Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mekaaninen suunnittelija",
+   "company": "HR WorkForce Oy Helsinki",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sourcing Manager",
+   "company": "Beneq",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "HSE Advisor",
+   "company": "Enersense Oyj",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "HSE Manager",
+   "company": "Enersense Oyj",
+   "location": "Helsinki-Uusimaa, Finland (FI1B1)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer (Backend)",
+   "company": "Cloud Protection by WithSecure",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Principal Software Engineer - Product Platforms",
+   "company": "AlphaSense",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Fullstack Engineer (Fleet UI)",
+   "company": "ICEYE",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Full-Stack Engineer",
+   "company": "Taiga",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer - Reporting Platform",
+   "company": "Smartly",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer",
+   "company": "Evondos Suomi",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer I",
+   "company": "EnergyHub",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Developer",
+   "company": "Vastuu Group",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Full Stack -kehittäjä (.NET)",
+   "company": "Seure Henkilöstöpalvelut Oy",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Junior Software Engineer - Tieto Tech Consulting (m/f/d)",
+   "company": "Tieto",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer, Supercell ID (Client SDK)",
+   "company": "Supercell",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer",
+   "company": "Elekta",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Full Stack Developer (C#, React)",
+   "company": "Granlund",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer (C++, Qt)",
+   "company": "Talented: a Witted company",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer (Backend) - Global Marts",
+   "company": "Wolt",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Backend Engineer (Node.js/TypeScript, AWS)",
+   "company": "CUJO AI®",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer, Platform Delivery",
+   "company": "Aiven",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Full-Stack Software Engineer (m/f/d)",
+   "company": "HYPE Innovation",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Java Engineer",
+   "company": "Finnplay",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Fullstack Software Engineer, Kafka",
+   "company": "Aiven",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Full Stack Development Engineer",
+   "company": "Lektor Aero",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer, Feature Engineering Platform",
+   "company": "Wolt",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer (Microsoft/Azure)- Tieto Tech Consulting (m/f/d)",
+   "company": "Tieto",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Development Engineer III, Logistics API",
+   "company": "Mapbox",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer - AI Platform",
+   "company": "Smartly",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer, Platform Experience",
+   "company": "Siena AI",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Embedded Software Engineer (Rust/C++) – Automotive",
+   "company": "Unikie",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Python Backend Engineer with C++ Experience",
+   "company": "Unikie",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer (Algorithms)",
+   "company": "Siemens Healthineers",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer",
+   "company": "Aiforia Technologies Plc",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Principal Software Engineer",
+   "company": "Zalando",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer, Data Platform",
+   "company": "NestAI",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Backend Engineer - Scala (all genders)",
+   "company": "Zalando",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Lead Software Architect – AI-Native Development",
+   "company": "Aurora Live",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Smartly Launchpad 2027 (Software Engineer)",
+   "company": "Smartly.io Solutions",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Embedded C/C++ / Functional Safety Engineer",
+   "company": "Unikie",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer",
+   "company": "Vuono Group",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Junior Software QA Engineer",
+   "company": "Visual Components",
+   "location": "Espoo, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "AI Forward Deployed Engineer",
+   "company": "Siili Solutions",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer, Security",
+   "company": "HoxHunt",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Junior Security Engineer, GRC",
+   "company": "HoxHunt",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Support Engineer",
+   "company": "Amdocs",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer, Large-Scale Data Systems",
+   "company": "Smartly.io Solutions",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer, Large-Scale Data Systems",
+   "company": "Smartly",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "AI/ML Engineer",
+   "company": "Air Apps",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer, AI enabled development",
+   "company": "Gofore",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Specialist - Software Engineering",
+   "company": "LTM Limited",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer (React)",
+   "company": "Dream Broker Oy",
+   "location": "Espoo, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer (Enterprise products)",
+   "company": "Dream Broker Oy",
+   "location": "Espoo, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Forward Deployed AI Software Engineer, Internship, Finland - BCG X",
+   "company": "Boston Consulting Group",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "career-ops",
+   "title": "Senior Flutter Software Engineer",
+   "company": "Nortal",
+   "location": "",
+   "provider": "icims-api",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "career-ops",
+   "title": "Senior Software Engineer (Kotlin, AI)",
+   "company": "Nortal",
+   "location": "",
+   "provider": "icims-api",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "career-ops",
+   "title": "Software Engineer",
+   "company": "Nortal",
+   "location": "",
+   "provider": "icims-api",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "career-ops",
+   "title": "Sr AI-Driven Software Engineer",
+   "company": "Nortal",
+   "location": "",
+   "provider": "icims-api",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "career-ops",
+   "title": "AI-Driven Software Engineer",
+   "company": "Nortal",
+   "location": "",
+   "provider": "icims-api",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "career-ops",
+   "title": "Senior / Principal Full Stack Software Engineer",
+   "company": "Nortal",
+   "location": "",
+   "provider": "icims-api",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "career-ops-docs",
+   "title": "Kokenut full-stack -ohjelmistokehittäjä Defence & Security –toimialan projekteihin",
+   "company": "Solita",
+   "location": "Helsinki, Jyväskylä, Kuopio, Lahti, Oulu, Tampere, Turku",
+   "provider": "greenhouse-api",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "career-ops-docs",
+   "title": "Senior Flutter Software Engineer",
+   "company": "Nortal",
+   "location": "",
+   "provider": "icims-api",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "career-ops-docs",
+   "title": "Senior Software Engineer (Kotlin, AI)",
+   "company": "Nortal",
+   "location": "",
+   "provider": "icims-api",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "career-ops-docs",
+   "title": "Software Engineer",
+   "company": "Nortal",
+   "location": "",
+   "provider": "icims-api",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "career-ops-docs",
+   "title": "Sr AI-Driven Software Engineer",
+   "company": "Nortal",
+   "location": "",
+   "provider": "icims-api",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "career-ops-docs",
+   "title": "AI-Driven Software Engineer",
+   "company": "Nortal",
+   "location": "",
+   "provider": "icims-api",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "career-ops-docs",
+   "title": "Senior / Principal Full Stack Software Engineer",
+   "company": "Nortal",
+   "location": "",
+   "provider": "icims-api",
+   "role": "yes",
+   "place": "unknown"
+  }
+ ]
+}

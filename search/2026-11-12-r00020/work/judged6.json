@@ -1,0 +1,135 @@
+{
+ "persona": {
+  "family": "marketing",
+  "title": "Digital Marketing Manager",
+  "kind": "tech",
+  "city": "Zagreb",
+  "country": "Croatia",
+  "language": "Croatian"
+ },
+ "seed": "bench-judge-6",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 11,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Stručnjak za radijsko planiranje (m/ž)",
+   "company": "via posao.hr",
+   "location": "Zagreb",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Resort Commercial Director (m/f)",
+   "company": "via posao.hr",
+   "location": "Zagreb",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Team Leader for the DACH Market (m/f)",
+   "company": "via posao.hr",
+   "location": "Zagreb",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Stručnjak za radijsko planiranje (m/ž)",
+   "company": "via posao.hr",
+   "location": "Zagreb",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Resort Commercial Director (m/f)",
+   "company": "via posao.hr",
+   "location": "Zagreb",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Social Media & Paid Social Manager (m/ž)",
+   "company": "Polleo Sport",
+   "location": "Zagreb",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Mobile User Acquisition Manager",
+   "company": "MWDN",
+   "location": "Zagreb",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Media & Growth Marketing Manager (m/ž)",
+   "company": "Trenkwalder kadrovske usluge d.o.o.",
+   "location": "Zagreb",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior User Acquisition Manager",
+   "company": "Nanobit",
+   "location": "Zagreb",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Ads & Promotion Specialist",
+   "company": "Wolt - English",
+   "location": "Zagreb",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Google Ads Specialist (PPC / Search)",
+   "company": "MWDN",
+   "location": "Zagreb",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "SEO Specialist",
+   "company": "Solflare",
+   "location": "Zagreb",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Associate Marketed Product Safety Director - Sponsor Dedicated",
+   "company": "IQVIA",
+   "location": "Zagreb",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}

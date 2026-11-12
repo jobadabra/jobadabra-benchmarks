@@ -1,0 +1,1125 @@
+{
+ "persona": {
+  "family": "driver",
+  "title": "Truck Driver (Class CE)",
+  "kind": "non-tech",
+  "city": "Sofia",
+  "country": "Bulgaria",
+  "language": "Bulgarian"
+ },
+ "seed": "bench-judge-1",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 121,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "eures",
+   "title": "Портиер",
+   "company": "ДАКС-96 ООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Продавач-консултант",
+   "company": "БАУМАКС БЪЛГАРИЯ ООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Касиер",
+   "company": "БАУМАКС БЪЛГАРИЯ ООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Асистент, човешки ресурси",
+   "company": "БАУМАКС БЪЛГАРИЯ ООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Монтажник, стъкла в сгради",
+   "company": "ДАКС-96 ООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, товарен автомобил (международни превози)",
+   "company": "ДИСКОРДИА АД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Технически сътрудник",
+   "company": "НИКИ ТРАНС-01 ЕООД ЕООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, самосвал",
+   "company": "ГОГО - ГЕОРГИ ХРИСТОВ ЕТ",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, тролейбус",
+   "company": "СТОЛИЧЕН ЕЛЕКТРОТРАНСПОРТ ЕАД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "ПОДЕЛЕНИЕ \"МАЛАШЕВЦИ\" поделение",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Електромонтьор",
+   "company": "ПОДЕЛЕНИЕ \"ЗЕМЛЯНЕ\" поделение",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Чистач/ Хигиенист",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Автомонтьор",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Диспечер, транспортни средства",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "ПОДЕЛЕНИЕ \"ЗЕМЛЯНЕ\" поделение",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, лек автомобил до 9 места",
+   "company": "БГ ТРАНС КЪМПАНИ 78  ЕООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Санитар",
+   "company": "РЕМОТЕРМ ЕООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Болногледач",
+   "company": "РЕМОТЕРМ ЕООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Бояджия, промишлени изделия",
+   "company": "МПМ ГРУП 7 ООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Аргончик",
+   "company": "БОЖ-БОГ ЕООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Машинен оператор, циркуляр",
+   "company": "ЕЛЕРГОН ЕООД ЕООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Autonomous Vehicle Driver (T1 Certified)",
+   "company": "tsmg",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Driver/Data Collector in Pernik, Bulgaria",
+   "company": "tsmg",
+   "location": "гр. Перник",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Driver in Bulgaria, Sofia",
+   "company": "tsmg",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Autonomous Vehicle Driver (Bertha Certified)",
+   "company": "tsmg",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Clinical Research Associate FSP",
+   "company": "IQVIA",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Lead Remote Pilot",
+   "company": "",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "CLM Data & Quality Manager",
+   "company": "The Adecco Group",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Scania Salesperson",
+   "company": "Scania",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Clinical Research Associate FSP",
+   "company": "IQVIA",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior FP&A and Business Partner",
+   "company": "Flix",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "BDR | SMB | French Market (Paris)",
+   "company": "Lexroom",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Шофьор, автобус",
+   "company": "Агенция по заетостта",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Technician apprentice",
+   "company": "Scania",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Presales Architect",
+   "company": "Hewlett Packard Enterprise",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Шофьор, товарен автомобил (международни превози)",
+   "company": "Агенция по заетостта",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Mechanical Design Engineer",
+   "company": "Sensata Technologies",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "R&D Specialist",
+   "company": "Cross Source",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Financial Controller / Business Controller",
+   "company": "София Мед АД",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Sales Excellence Expert",
+   "company": "Cross Source",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Head of R&D",
+   "company": "FICOSOTA",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Supply Planner- София",
+   "company": "Метро Кеш Енд Кери България ЕООД",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Credit Administrator for MAN",
+   "company": "Scania",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Demand Planning Analyst",
+   "company": "Sensata Technologies",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Junior Brand Manager",
+   "company": "Cross Source",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Relationship Manager - Corporate Clients",
+   "company": "BULWORK",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Global Mobility Specialist | Business Delivery Solutions",
+   "company": "",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Microsoft Senior Dynamics 365 Developer",
+   "company": "Sutherland",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "FP&A Senior Analyst",
+   "company": "Coca-Cola HBC",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Regional Specification Sales",
+   "company": "Rockwool",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Brand Retail Supervisor",
+   "company": "Philip Morris International",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Embedded Linux Software Engineer",
+   "company": "Cross Source",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "FP&A Analyst",
+   "company": "Fastmarkets",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Regional Commercial Manager",
+   "company": "Philip Morris International",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Technical Sales Representative (F/M), Bulgaria",
+   "company": "Rothoblaas",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "SCADA Engineer",
+   "company": "Hitachi",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Analyst, Finance Performance",
+   "company": "Delivery Hero (talabat)",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Consultant in International Tax | Business Delivery Solutions",
+   "company": "",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Business Builder",
+   "company": "Philip Morris International",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Supply Chain Operations Associate",
+   "company": "Accenture Bulgaria",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Strategic Account Manager, Bulgaria",
+   "company": "Glovo",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Financial Representative for Traton FS MAN",
+   "company": "Scania",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Experienced Global Mobility Consultant | Business Delivery Solutions",
+   "company": "",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "GA Intercompany Reporting Analyst",
+   "company": "Coca-Cola HBC",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Expert Financial Planning and Reporting",
+   "company": "ПроКредит Банк (България) ЕАД",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Expert Payroll",
+   "company": "СОФ Кънект ЕАД",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Product Owner - Network Security Services",
+   "company": "CoBa Nearshoring Sofia BG",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Customer Experience (CX) Process Lead (m/f/d)",
+   "company": "ПроКредит Банк (България) ЕАД",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Barbers for the Nordics",
+   "company": "EUTALENTS",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "FSP CRA (Level II)",
+   "company": "Thermo Fisher Scientific",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Field Sales Supervisor",
+   "company": "Philip Morris International",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Consultant - Customer Experience Transformation",
+   "company": "Baringa",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Commander upgrade",
+   "company": "Compass Cargo Airlines",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Financial Analyst (Commercial / Supply Chain)- София",
+   "company": "jobs.bulgaria@cchellenic.com",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Software Developer for Network Virtualization",
+   "company": "Cross Source",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Receptionist",
+   "company": "Entain",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Administrative Assistant with Polish",
+   "company": "UpSkill",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Costing Expert Accountant- София",
+   "company": "jobs.bulgaria@cchellenic.com",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Acquisition Expert - Business Clients",
+   "company": "ПроКредит Банк (България) ЕАД",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Modernization Sales Specialist",
+   "company": "Kone",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Clinical Research Associate Level II",
+   "company": "Thermo Fisher Scientific",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Sales Supervisor",
+   "company": "Philip Morris International",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Demand Planner",
+   "company": "Coca-Cola HBC",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Amazon Account Manager",
+   "company": "ScaleJet",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Data Engineer",
+   "company": "Man Group",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Trade Marketing Specialist",
+   "company": "Ferrero",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Marketing Manager",
+   "company": "Cross Source",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Corporate Tax Senior Consultant / Manager",
+   "company": "",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Content Associate",
+   "company": "dentsu",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Data Engineer",
+   "company": "Entain",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "AI & Cloud Engineering Intern",
+   "company": "Bosch Group",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Security Engineer",
+   "company": "Man Group",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Process Manager",
+   "company": "The Adecco Group",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Registration Specialist",
+   "company": "Kenes Group",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Junior Brand Manager GM",
+   "company": "FICOSOTA",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Staff Engineer",
+   "company": "Man Group",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Quant Researcher",
+   "company": "Man Group",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Maintenance Associate",
+   "company": "IQVIA",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Regional Demand Planning Manager EU, SA, and India",
+   "company": "Sensata Technologies",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Clinical Research Associate Level II",
+   "company": "",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Account Manager",
+   "company": "Booking.com",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Key Account Manager (Respiratory -Severe Asthma) - Sofia",
+   "company": "AstraZeneca",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "SEO Executive",
+   "company": "dentsu",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Business Manager",
+   "company": "Man Group",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Proposals Development Associate I - Lab Services",
+   "company": "ICON plc",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Financial Controller - FP&A",
+   "company": "Flix",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Data Engineer",
+   "company": "Flutter SEA",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Rust Engineer",
+   "company": "MWDN",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Technical support Engineer Intern",
+   "company": "Hewlett Packard Enterprise",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Risk & Performance Analyst",
+   "company": "Man Group",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "General Ledger Accountant",
+   "company": "Flix",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Quality Engineer",
+   "company": "SAP Taulia",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Strategic Feasibility Manager II (Europe)",
+   "company": "Allucent",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "CUDA / AI Engineer",
+   "company": "MWDN",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Jr.Accounts Payable Accountant",
+   "company": "Flix",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Operations Analyst, Bulgaria",
+   "company": "Delivery Hero (talabat)",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Clinical Research Associate II/ Senior Clinical Research Associate",
+   "company": "PSI CRO",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Game Artist & Animator",
+   "company": "Playtech",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Python Engineer",
+   "company": "Man Group",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Tail Spend & Expense Analyst",
+   "company": "Каргил България ЕООД",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior C++ Engineer",
+   "company": "Man Group",
+   "location": "гр. София",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}

@@ -1,0 +1,1413 @@
+{
+ "persona": {
+  "family": "support",
+  "title": "Customer Support Agent",
+  "kind": "tech",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "language": "Swedish"
+ },
+ "seed": "bench-judge-7",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 152,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Client Support Specialist (Workplaces - B2B)",
+   "company": "clipboard",
+   "location": "Remote (South Africa)",
+   "provider": "clipboard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Client Support Specialist (Workplaces - B2B)",
+   "company": "clipboard",
+   "location": "Remote (Philippines)",
+   "provider": "clipboard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Client Support Specialist (Workplaces - B2B)",
+   "company": "clipboard",
+   "location": "Remote (Jamaica)",
+   "provider": "clipboard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Experience Specialist",
+   "company": "clipboard",
+   "location": "Remote (Africa, Central & South America, the Caribbean)",
+   "provider": "clipboard",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Experience Specialist",
+   "company": "clipboard",
+   "location": "Remote (Philippines)",
+   "provider": "clipboard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Team Lead",
+   "company": "clipboard",
+   "location": "Remote (Central & South America)",
+   "provider": "clipboard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Team Lead",
+   "company": "clipboard",
+   "location": "Remote (Philippines)",
+   "provider": "clipboard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Associate",
+   "company": "granular-energy.com",
+   "location": "Europe; Netherlands; Mainland UK; Belgium; France; Northern Spain",
+   "provider": "granular-energy.com",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Customer Success Engineer",
+   "company": "mitti",
+   "location": "Remote: UK",
+   "provider": "mitti",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Customer Success Engineer, French Speaking",
+   "company": "mitti",
+   "location": "Remote: UK",
+   "provider": "mitti",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "METTLER TOLEDO -Norwegian Speaking Customer Support Agent Service",
+   "company": "Mettler-Toledo Aktiebolag",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Danish-speaking Customer Support Agent to a Leading Finance & Tech Company ",
+   "company": "Academic Work Sweden AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Service agent till bank!",
+   "company": "Academic Work Sweden AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Support till Responda Group",
+   "company": "AxÖ Consulting AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Success Support till Prenax",
+   "company": "Academic Work Sweden AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Remote Norwegian-speaking Technical Support Agent for Samsung",
+   "company": "Transcom Aktiebolag",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Dansktalande Tech Support Agent till spännande bolag!",
+   "company": "Performiq AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Teknisk Customer Support till Centrala Stockholm!",
+   "company": "Hero AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Danish-speaking customer support for a premium car brand in Stockholm",
+   "company": "Transcom Aktiebolag",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Support på deltid till företag inom hälsa & lifestyle",
+   "company": "Charlie AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Rental Sales Agent",
+   "company": "Sweden Rent A Car AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Founding Customer Success Manager",
+   "company": "Spiich Labs AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Success Manager",
+   "company": "Zynca Sverige AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Speditör",
+   "company": "Posti Logistics Staffing AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer & Sales Coordinator",
+   "company": "Fagerhults Belysning Aktiebolag",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Service - Dansktalande",
+   "company": "Hero AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Advisor (Dansktalande)",
+   "company": "0to9 AB (publ)",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Speditör",
+   "company": "Posti Logistics Staffing AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Founding AI Engineer",
+   "company": "Spiich Labs AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lounge Agent - Aspire Lounge - Arlanda",
+   "company": "Talent Bureau Sweden AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Project Manager",
+   "company": "Schneider Electric Sverige AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "VP of Customer Success",
+   "company": "Kognity AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Success Specialist",
+   "company": "Qred Bank AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Success Manager (Junior)",
+   "company": "Tendium AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AI Ops Engineer (Marketing)",
+   "company": "Lovable Labs Sweden AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Dansktalande Order Agent till Nordic Infucare i Alvik!",
+   "company": "Performiq AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Enterprise Customer Success Manager",
+   "company": "Xensam AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT-support",
+   "company": "Kraftsam Rekrytering & Bemanning AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Project Support",
+   "company": "Coromatic AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Support Lead",
+   "company": "Carla AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Servicemedarbetare till Kapellskär",
+   "company": "FinnLink AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Product Manager - Search & AI Discovery (12 months parental cover)",
+   "company": "H & M Hennes & Mauritz GBC AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior AI Architect  LLM & Agent Systems",
+   "company": "Happy Group AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Junior IT-Support / Servicedesk Support Specialist till Vivicta",
+   "company": "Asta Agency AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Fullstack Engineer",
+   "company": "Spiich Labs AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Experience Specialist Part-Time",
+   "company": "SAVR AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Service Designer",
+   "company": "Volumental AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Associate Forward Deployed AI Scientist",
+   "company": "Nordea Bank Abp, filial i Sverige",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Success Manager Ravelli AB",
+   "company": "Ravelli Sverige AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Success - teknik och affärsutveckling",
+   "company": "2Complete AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Coordinator till spännande Smartoptics",
+   "company": "Framtiden i Sverige AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer & Operations Manager - Alfa Mobility",
+   "company": "Maxkompetens Sverige AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lounge Agent till Aspire Lounge på Stockholm Arlanda Airport",
+   "company": "Adecco Sweden Aktiebolag",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lounge Agent till Aspire Lounge på Stockholm Arlanda Airport",
+   "company": "Adecco Sweden Aktiebolag",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Rental Sales Agent till Sixt Arlanda, Heltid",
+   "company": "S.Bil Stockholm AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Dansktalande First Line Agent till Stockholms innerstad!",
+   "company": "OIO Väst AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "It-support Servicedesk",
+   "company": "Polismyndigheten",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Second line support",
+   "company": "Thalamus it consulting AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "First line support",
+   "company": "Thalamus it consulting AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Technical Support Engineer",
+   "company": "Thalamus it consulting AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Second Line Support",
+   "company": "Camai Consulting AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Teknisk Support & Systemtekniker",
+   "company": "B3 Personal AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Software Engineer",
+   "company": "Sinch Operator Software AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Founding UI/UX & Brand Designer",
+   "company": "Spiich Labs AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Finsktalande Order Agent till Nordic Infucare i Alvik!",
+   "company": "Performiq AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Regulatory Affairs Support Specialist",
+   "company": "RaySearch Laboratories AB (publ)",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Regulatory Affairs Support Specialist",
+   "company": "RaySearch Laboratories AB (publ)",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data & BI Lead - Marketing & Customer Insights",
+   "company": "H & M Hennes & Mauritz GBC AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AI Engineer  Internal Tooling & AI-Powered Products",
+   "company": "Prover Technology AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Service Specialist till Avida Bank",
+   "company": "Bravura Sverige AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Operations Specialist till Kia Sweden ",
+   "company": "SJR in Sweden AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Care & Sales Representative till Forenom",
+   "company": "Bergvik & Partners AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Experience Coordinator till privat psykologföretag",
+   "company": "Svea kbt AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Är du vår nästa Customer Advisor?",
+   "company": "0to9 AB (publ)",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Fullstack Engineer to Verified (CLM/eSign)",
+   "company": "EdZa AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Hemstädare/Home Cleaner Freska - Täby",
+   "company": "Freska Sweden AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT Engineer & Support Specialist",
+   "company": "Carla AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Technology Analyst Telephony support Engineer",
+   "company": "Infosys Technologies (Sweden) AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Unit Head - Incident & Support VSI",
+   "company": "Scania CV Aktiebolag",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Manager till Europeiska Motor i Vällingby",
+   "company": "Starfinder AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AI Engineer",
+   "company": "Umain AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Service Representative på deltid till HoistSpar",
+   "company": "Charlie AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Expert AI Specialist to Service Fulfilment & Operations",
+   "company": "Nordea Bank Abp, filial i Sverige",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Community Support and Administrative Assistant (CLO Assistant)",
+   "company": "Amerikanska Ambassaden",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior AI Specialist to Service Fulfilment & Operations",
+   "company": "Nordea Bank Abp, filial i Sverige",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT Support / Service Desk Specialist",
+   "company": "Thalamus it consulting AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT Support Specialist – start omgående",
+   "company": "Mero Rekrytering AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Backend Engineer",
+   "company": "Epiminds AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior AI Engineer",
+   "company": "Workday Sweden Aktiebolag",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Team leader, Technical Support Nordic",
+   "company": "Randstad AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Application Support Specialist till Heras",
+   "company": "Bravura Sverige AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Teknisk support till globalt bolag",
+   "company": "Workz Sweden AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "NOC-Support med Linux-kompetens!  ",
+   "company": "Academic Work Sweden AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Teknisk support till etablerat vitvaruföretag",
+   "company": "Academic Work Sweden AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tekniker inom 2nd line support",
+   "company": "Eccera Professionals AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Problemlösare till 1st line support",
+   "company": "Eccera Professionals AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Software Engineer to our Retail Finance domain",
+   "company": "Resurs Bank Aktiebolag",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Chief Technology & AI Officer",
+   "company": "Insat Consulting AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Fullstack Engineer to Verified (AML)",
+   "company": "EdZa AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Service sökes omgående till Demant i Sundbyberg!",
+   "company": "StudentConsulting Sweden AB (publ)",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AI Enablement Engineer",
+   "company": "Xensam AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Team Manager Customer Service till växande nordisk bank",
+   "company": "Bravura Sverige AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Specialist Customer Service till växande nordisk bank",
+   "company": "Bravura Sverige AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Service Specialist till ledande internationellt MedTech-bolag",
+   "company": "OIO Väst AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Principal Account Manager",
+   "company": "Amazon Data Services Sweden AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OTC Agent inom kundreskontra och kredit till ledande bolag inom logistik",
+   "company": "Bravura Sverige AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Territory Sales Engineer to Timken, the Nordics",
+   "company": "Level Recruitment AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Area Lead",
+   "company": "Lovable Labs Sweden AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Process Excellence Support in Logistics for BSH Northern Europe",
+   "company": "BSH Home Appliances AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Städare hos Premium kunder – Hemfrid Stockholm",
+   "company": "Hemfrid i Sverige AB",
+   "location": "Stockholm region, Sweden (SE110)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Service Specialist till Uppsala",
+   "company": "Camai",
+   "location": "Uppsala, Uppsala County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Support Associate, German Speaking",
+   "company": "Sellpy",
+   "location": "Greater Stockholm Metropolitan Area",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Service Agent German Speaking",
+   "company": "Open Infra",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Norwegian Speaking Customer Support Agent – Service",
+   "company": "Mettler-Toledo International, Inc",
+   "location": "Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Vi söker kundtjänstmedarbetare till vårt kundserviceteam på Electrolux!",
+   "company": "Concentrix",
+   "location": "Solna, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Representative",
+   "company": "Qred",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kundservicemedarbetare – Telge Återvinning",
+   "company": "Telge Återvinning",
+   "location": "Södertälje kommun, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Service Representative (f/m/d) - Sweden",
+   "company": "PAIR Finance",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kundservicemedarbetare inom pension, sparande och försäkring",
+   "company": "Futur",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Service Representative",
+   "company": "Transcom",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kundservicemedarbetare",
+   "company": "Svea Solar",
+   "location": "Bromma, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Uppsala: Kundtjänstmedarbetare Tysktalande till e-handelsbolag",
+   "company": "JOBBAKUTEN VÄST AB",
+   "location": "Uppsala, Uppsala County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kundtjänstmedarbetare - med känsla för service och problemlösning",
+   "company": "MOVS®",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kundservicemedarbetare till 1KOMMA5° i Stockholm!",
+   "company": "1KOMMA5° Sverige",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Service Representative",
+   "company": "Transcom",
+   "location": "Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Support Representative - Norwegian Speaker (full-time)",
+   "company": "Qliro",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Support Representative - Swedish Speaker (full-time)",
+   "company": "Qliro",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Är du vår nästa Customer Support Agent?",
+   "company": "Aimo",
+   "location": "Uppsala, Uppsala County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Tysktalande Kundtjänstmedarbetare",
+   "company": "Consort Nordic AB",
+   "location": "Solna, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Tysktalande Kundtjänstmedarbetare",
+   "company": "Consort Nordic AB",
+   "location": "Råsunda, Stockholm County, Sweden",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Full Time Customer Experience Agent (interim until July 2027)",
+   "company": "Estrid",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Service Agent - Swedish Speaking",
+   "company": "Anyfin",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Support på deltid till företag inom hälsa & lifestyle",
+   "company": "charlie",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Training, Quality & Recruitment Manager",
+   "company": "Dib Travel",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Operations Agent Fixed-Term Position",
+   "company": "Yabie",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Support till Responda Group",
+   "company": "AxÖ Consulting",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Enterprise Account Executive – Retail - Sweden",
+   "company": "Salesforce",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Associate Account Manager (Hotels) 18-Month Fixed-Term Contract - Swedish Markets",
+   "company": "Expedia Group",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Travel Support Agent – Swedish and Finnish Language",
+   "company": "Dib Travel",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Travel Support Agent – Swedish and Norwegian Language",
+   "company": "Dib Travel",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "AI Outcome Customer Engineer, Google Cloud",
+   "company": "Google",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Engagement Manager - Sana (Stockholm)",
+   "company": "Workday",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Mid-Market Account Executive - Stockholm",
+   "company": "Salesforce",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Accenture Spring Internship 2027",
+   "company": "Accenture",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Sales Executive – Salesforce Sweden",
+   "company": "Sofigate",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Service Agent - Sweden",
+   "company": "EssilorLuxottica",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Är du vår nästa Customer Support Agent?",
+   "company": "Aimo Park",
+   "location": "Uppsala, C, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "OPS Support Agent Hourly",
+   "company": "FedEx",
+   "location": "Upplands Väsby, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Customer Support Agent - Dutch/English Speaking",
+   "company": "Teamtailor",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Rental Service Agent",
+   "company": "Indie Campers",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Principal GenAI GTM Specialist, WWSO",
+   "company": "Amazon Web Services",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Swedish speaking Customer Support Agent for iGaming Company in Malta",
+   "company": "Next Job Abroad",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "ServiceNow Solution Consultant - Stockholm",
+   "company": "Sofigate",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "AI Tech Consultant - Stockholm | BCG Platinion",
+   "company": "Boston Consulting Group",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Front Desk Agent (m/f/d)",
+   "company": "Goodtime International Entertainment",
+   "location": "Stockholm, AB, Sweden",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}

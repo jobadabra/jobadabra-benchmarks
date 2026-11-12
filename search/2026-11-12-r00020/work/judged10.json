@@ -1,0 +1,1530 @@
+{
+ "persona": {
+  "family": "designer",
+  "title": "UX Designer",
+  "kind": "tech",
+  "city": "Lisbon",
+  "country": "Portugal",
+  "language": "Portuguese"
+ },
+ "seed": "bench-judge-10",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 167,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Product Manager, New Verticals",
+   "company": "Bounce",
+   "location": "Lisbon",
+   "provider": "Bounce",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager - Paper.io 2",
+   "company": "voodoo",
+   "location": "Paris; Madrid; Warsaw; Lviv; Tallinn; Karkiv; Malta; Helsinki; Stockholm; Istanbul; Lisboa; Berlin; Tbilisi; Amsterdam; Milan; Krakow; Bucharest; London; Kiev; Barcelona",
+   "provider": "voodoo",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager, Demand Growth",
+   "company": "Bounce",
+   "location": "Lisbon",
+   "provider": "Bounce",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Designer",
+   "company": "Bounce",
+   "location": "Lisbon",
+   "provider": "Bounce",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer",
+   "company": "Bounce",
+   "location": "Lisbon",
+   "provider": "Bounce",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "UX Designer",
+   "company": "via Design Project",
+   "location": "Lisbon",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Web Designer, Shopify",
+   "company": "via Design Project",
+   "location": "Lisbon",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Web Designer: DTC Ecommerce",
+   "company": "via Design Project",
+   "location": "Lisbon",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Freelance Web Designer: DTC Shopify",
+   "company": "via Design Project",
+   "location": "Lisbon",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Shopify Brand & Web Designer",
+   "company": "via Design Project",
+   "location": "Lisbon",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Creative Designer",
+   "company": "via Design Project",
+   "location": "Lisbon",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Lead (Senior) Product Designer",
+   "company": "via Design Project",
+   "location": "Lisbon",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Designer & Video Editor (AI-Native)",
+   "company": "via Interaction Design Foundation Jobs (Lisbon)",
+   "location": "Lisbon",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "UX Designer",
+   "company": "confidential",
+   "location": "Lisbon, Portugal",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "AI UX Designer",
+   "company": "confidential",
+   "location": "Lisbon, Portugal",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "UI/UX Designer",
+   "company": "confidential",
+   "location": "Brazil; Lisbon, Portugal; Spain; New York, United States",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "UI/UX Product Designer",
+   "company": "confidential",
+   "location": "Lisbon, Portugal",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Product Manager - Paper.io 2",
+   "company": "voodoo",
+   "location": "Paris; Madrid; Warsaw; Lviv; Tallinn; Karkiv; Malta; Helsinki; Stockholm; Istanbul; Lisboa; Berlin; Tbilisi; Amsterdam; Milan; Krakow; Bucharest; London; Kiev; Barcelona",
+   "provider": "voodoo",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Product Designer",
+   "company": "Bounce",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Manager | Digital Channels",
+   "company": "Santander Portugal",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Designer",
+   "company": "Air Apps",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "E-commerce Platform & CRO Lead",
+   "company": "Enovis",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Engineer (Full Stack)",
+   "company": "Reach AI",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Designer & Video Editor (AI-Native)",
+   "company": "Reach AI",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX Researcher",
+   "company": "Renesas Electronics",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Web Experience Manager (Technical Implementation & CRO) - Contractor",
+   "company": "team.blue",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Digital Learning & AI Specialist",
+   "company": "Amgen",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Frontend Developer",
+   "company": "Volkswagen Group Digital Solutions [Portugal]",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Web Designer and Multimedia",
+   "company": "Inetum",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Staff Product Designer (AI Track)",
+   "company": "MEDvidi",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UI Engineer",
+   "company": "Finsolutia",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Frontend Developer / UI Engineer em .NET/React",
+   "company": "Finsolutia",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Conversational Experience Designer",
+   "company": "Inetum",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Product Designer, BNPL Merchant Experience",
+   "company": "Tabby | تابي",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Product Designer, Customer Lifecycle",
+   "company": "Tabby | تابي",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX Design Specialist",
+   "company": "Amadeus",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Dev Web Mobile",
+   "company": "Adentis Portugal",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Design System Designer (Mid/Sen)",
+   "company": "Innovation Makers",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Creative Design Team Lead (AI & Performance Marketing)",
+   "company": "CapsLock",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Designer",
+   "company": "Bounce",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "999 - Candidatura Espontânea",
+   "company": "PPM Coachers",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Churn  Specialist (US) | DTC E-commerce",
+   "company": "Foxelli Group",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX/UI - Team Lead",
+   "company": "Innovation Makers",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Backend Engineering Team Leader",
+   "company": "Innovation Makers",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Application Operations Engineer - Banking Platforms (M/F)",
+   "company": "Innovation Makers",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "IT Support (Mid Level)",
+   "company": "Innovation Makers",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "GESTOR APLICACIONAL/ARQUITETO DE SOLUÇÕES (HÍBRIDO)",
+   "company": "iTRTech Group",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX Designer",
+   "company": "Catawiki",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Creative Director",
+   "company": "Xilica",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "IT Delivery Lead (m/f/d)",
+   "company": "Siemens",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Marketing Manager| 100% Remote EU",
+   "company": "Foxelli Group",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Service Designer",
+   "company": "hyphen",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Fullstack Developer",
+   "company": "Volkswagen Group Services Portugal",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX/UI Optimization Specialist",
+   "company": "Nestlé USA",
+   "location": "Linda-a-Velha, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Engineer Internship (m/f/x)",
+   "company": "Procter & Gamble",
+   "location": "Oeiras, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX Designer",
+   "company": "hyphen",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Functional Analyst – Digital Channels Workforce",
+   "company": "Accenture",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX/UI Designer - IEFP Internship",
+   "company": "hyphen",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Designer",
+   "company": "Bounce",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "IT Business Analyst (m/f/d)",
+   "company": "Siemens",
+   "location": "Amadora, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "AI Transformation Consultant (m/f/d)",
+   "company": "Siemens",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior AI Transformation Consultant (m/f/d)",
+   "company": "Siemens",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Graduate Programme 2027: Product Owner (UX)",
+   "company": "Revolut",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Internship Programme 2027: Product Owner (UX)",
+   "company": "Revolut",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Frontend Developer",
+   "company": "Finsolutia",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Quality Assurance Tester",
+   "company": "Priberam",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX/UI Designer",
+   "company": "Xpand IT",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Web Designer Criativo",
+   "company": "SOFTWAY",
+   "location": "Cascais, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "UX Designer",
+   "company": "Catawiki",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "UX Designer",
+   "company": "Integer Consulting",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "AI UX Designer",
+   "company": "Amadeus",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "UX Design Specialist",
+   "company": "Amadeus",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "UX Designer",
+   "company": "Hyphen",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "UX/UI Designer",
+   "company": "Landskill",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "UX Designer - Remote (M/F/D)",
+   "company": "Hays",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "UI/UX Product Designer | Lisboa - Híbrido",
+   "company": "Equus Software",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Designer, UX Research and Prototyping",
+   "company": "QIMA",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "UI/UX Designer (Focus on UI, with UX experience)",
+   "company": "Happy Mammoth",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Web Application Engineer, UX/UI",
+   "company": "Synopsys Inc",
+   "location": "Porto Salvo",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Design Director",
+   "company": "Accenture Global",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Service Designer",
+   "company": "Hyphen",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "UX/UI",
+   "company": "Nimber",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Drupal Web Designer",
+   "company": "Inetum",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Conversational Experience Designer",
+   "company": "Inetum",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "UX/UI Designer: Criar um Novo Produto Digital",
+   "company": "",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Project Manager / Service Designer",
+   "company": "ELEVUS",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "UX/UI - Team Lead",
+   "company": "Innovation Makers",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Shopify Web Designer",
+   "company": "KittySpout",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Design Lead",
+   "company": "Accenture Global",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Service Designer",
+   "company": "Nimber",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Motion Design (Digital)",
+   "company": "Publicis Groupe",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "ELECTRICAL DESIGN ENGINEER",
+   "company": "Michael Page Portugal",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "DESIGNER DE PRODUTO",
+   "company": "Adecco Recruitment",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Design System Designer (Mid/Sen)",
+   "company": "Innovation Makers",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Graphic Design Intern",
+   "company": "The Walt Disney Company",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Mechanical CAD Designer",
+   "company": "Subsea 7",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Designer gráfico Trainee",
+   "company": "Young Network Group",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Designer Multimedia Trainee",
+   "company": "Young Network Group",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Product Exp Design Lead",
+   "company": "Cross Border Talents",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Motion Designer",
+   "company": "OutSystems",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "MECHANIC DESIGN ENGINEER",
+   "company": "Michael Page Portugal",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Service Designer / Project Manager",
+   "company": "LUZA Group",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "IT Solutions Design Lead",
+   "company": "Hitachi",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "HR Digital - Instructional Designer",
+   "company": "AstraZeneca",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Analog Design, Staff Engineer",
+   "company": "Synopsys Inc",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Mechanical Design Implementation",
+   "company": "Amadeus",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Marketing Designer",
+   "company": "Trade Nation",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Web Designer and Multimedia",
+   "company": "Inetum",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Designer 3D - Eventos | Sintra",
+   "company": "Europalco",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Brand Designer",
+   "company": "Circle Internet Financial",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Product Designer/Industrial Designer",
+   "company": "ScaleJet",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Architect and Interior Designer",
+   "company": "Amorim Luxury Group",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Team Lead - Production Design",
+   "company": "websummit",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Service Designer - Experienced Consultant",
+   "company": "Ernst & Young",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Principal Brand Designer",
+   "company": "OLX",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "ASIC Digital Design, Staff Engineer",
+   "company": "Synopsys Inc",
+   "location": "Porto Salvo",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Primary Design Engineer/HV Electrical Engineer",
+   "company": "CTS Group",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Graphic Designer I French Speaker",
+   "company": "JLL",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "ARQUITETO(A) / DESIGNER DE INTERIORES - SEGMENTO DE LUXO",
+   "company": "Michael Page Portugal",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Financial Designer- Assistant Vice President",
+   "company": "iCapital",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "System & Product QA Engineer - Platform & UX",
+   "company": "Velenosi&Meredith",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "INSTRUCTIONAL DESIGNER [155-004387-1]",
+   "company": "Adecco",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "SENIOR MECHANIC DESIGN ENGINEER",
+   "company": "Michael Page Portugal",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kundenbetreuung für Premium Photo & Design Tools",
+   "company": "Job Traveler",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "3D Graphic Designer I French Speaker",
+   "company": "JLL",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Graphic Designer",
+   "company": "Upstairs",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Redwood Finance Automation Solution Designer, Portugal",
+   "company": "Yadimen Consulting Limited",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Mechanical Design Engineer - Robotics",
+   "company": "Motion Robotics",
+   "location": "Sintra",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Analog Design Engineer",
+   "company": "Synopsys Inc",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Founding Product Engineer: AI UX & Platform",
+   "company": "",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Remoto - Project Design Manager - Data Centres",
+   "company": "Spanish Engineers",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Business Analyst - Process Improvement & Solution Design",
+   "company": "ITDS Portugal",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Network Designer - Consultancy",
+   "company": "",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Designer, Gráfico Ou de Comunicação e Multimédia (M/F)",
+   "company": "Iefponline",
+   "location": "Odivelas",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Marketing Designer | Lisboa - Híbrido",
+   "company": "Trade Nation",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Ad Creative Graphic Designer",
+   "company": "Digital Growth Studio",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Robotics System QA Engineer - Automation & UX",
+   "company": "",
+   "location": "Oeiras",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Product Designer - 100% Remote - EMEA",
+   "company": "Hostaway",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Creative Design Team Lead (AI & Performance Marketing)",
+   "company": "CapsLock",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Estágio Académico ou Curricular de Design",
+   "company": "Inovcorp",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Design Engineer - Safety & Security (M/F) Lisboa",
+   "company": "",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Design Manager (m/f) (Data Center)_Lisboa",
+   "company": "",
+   "location": "Oeiras",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Product Designer (Consumer AI, Mobile-First)",
+   "company": "Cross Border Talents",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Design Engineer - Instalações Mecânicas | AVAC (M/F) Lisboa",
+   "company": "",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Marketplace Creative Strategist/Amazon Graphic Designer",
+   "company": "ScaleJet",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Design Engineer - Building Management Systems (BMS) (M/F) Lisboa",
+   "company": "",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "iOS Developer",
+   "company": "INSCALE",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "React Developer",
+   "company": "Neotalent Conclusion",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Frontend Developer",
+   "company": "Axians | Digital Solutions - Tech Talent",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Content Marketing Manager",
+   "company": "Rydoo",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Angular Developer",
+   "company": "Neotalent Conclusion",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Full Stack Engineer",
+   "company": "Thought Machine",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Frontend Developer (Frech Developer)",
+   "company": "Dellent",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Lead Automation Engineer",
+   "company": "Capital on Tap",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Mobile Developer - React Native",
+   "company": "YellowIpe",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "SCCM/MECM, Intune",
+   "company": "Inetum",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Backend Engineering Team Leader",
+   "company": "Innovation Makers",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Front-End Developer",
+   "company": "IT House - Global Business Solutions",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Engineering Manager - CS Tech",
+   "company": "Catawiki",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Loyalty Campaign Specialist (m/f/d)",
+   "company": "SIXT Portugal",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "IT Delivery Lead (m/f/d)",
+   "company": "",
+   "location": "Alfragide",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Data Engineer Internship (m/f/x)",
+   "company": "Procter & Gamble",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Software Development | Angular Developer",
+   "company": "Devoteam",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Gestor Aplicacional & Arquiteto de Soluções",
+   "company": "Capgemini",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Product Manager ID98798",
+   "company": "AgileEngine",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Mobile Engineer (Bokio)",
+   "company": "Visma",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Product Owner (DAM)",
+   "company": "dentsu",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "IT Support (Mid Level)",
+   "company": "Innovation Makers",
+   "location": "Lisboa",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}

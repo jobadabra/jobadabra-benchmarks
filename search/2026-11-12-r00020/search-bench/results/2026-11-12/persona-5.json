@@ -1,0 +1,1107 @@
+{
+ "persona": {
+  "family": "chef",
+  "title": "Chef de Partie",
+  "kind": "non-tech",
+  "city": "Krakow",
+  "country": "Poland",
+  "language": "Polish"
+ },
+ "seed": "bench-judge-5",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 111,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Food & Beverage Supervisor (K/M)",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Food & Beverage Supervisor (K/M)",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kelner - barman / Kelnerka - barmanka",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kelner - barman / Kelnerka - barmanka",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / Kucharka Radisson RED Kraków",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / Kucharka",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Food & Beverage Supervisor (K/M)",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Food & Beverage Supervisor (K/M)",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka Radisson RED Kraków",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharka / Kucharz",
+   "company": "Praca.pl",
+   "location": "Zawoja, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "PIZZERMAN",
+   "company": "Schiever Polska Sp. z o.o.",
+   "location": "Czeladź, Śląskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "PIZZERMAN/PIZZERWOMAN",
+   "company": "Schiever Polska Sp. z o.o.",
+   "location": "Bielsko-Biała, Śląskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharz / Kucharka",
+   "company": "Praca.pl",
+   "location": "Zawoja, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharz / Kucharka Radisson RED Kraków",
+   "company": "Radisson Hotel Group",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharz / Kucharka",
+   "company": "Radisson Hotel Group",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine (Peruvian Restaurant)",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "KUCHARZ K/M",
+   "company": "Łódzki Klaster ICT",
+   "location": "Jędrzejów, Świętokrzyskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "adzuna",
+   "title": "Chef de Partie - Commis de Cuisine",
+   "company": "Ismira",
+   "location": "Kraków, małopolskie",
+   "provider": "Adzuna",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Chef de Partie - Commis de Cuisine",
+   "company": "Ismira",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Chef de Cuisine (Peruvian Restaurant)",
+   "company": "Marriott",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Sous Chef Kuchni Produkcyjnej",
+   "company": "PEBE GROUP SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Sous Chef / Zastępca Szefa Kuchni",
+   "company": "",
+   "location": "Prądnik Czerwony, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Sous Chef / Zastępca Szefa Kuchni",
+   "company": "",
+   "location": "Łagiewniki-Borek Fałęcki, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Sales Configurator Product Modeler / Developer",
+   "company": "ABB Business Services",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Night Shift Crew Member",
+   "company": "McDonald's",
+   "location": "Czyżyny, Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior II Software Development Engineer in Test",
+   "company": "Akamai Technologies",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Szef / Szefowa kuchni",
+   "company": "MICHAŁ KOŃCZAKOWSKI K-GROUP",
+   "location": "Zelków, gm. Zabierzów, Małopolskie",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "SDET (Software Development Engineer in Test) - JS/TypeScript/Playwright",
+   "company": "EPAM Systems (Poland) sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kierownik Zmiany Kuchni (k/m)",
+   "company": "Halicka | PURO Hotels",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Sous Chef kuchni słodkiej (k/m)",
+   "company": "PEBE GROUP SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Mainframe Batch Management Specialist",
+   "company": "ITDS Polska Sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Solution Engineer [One Trust] Digital Commerce",
+   "company": "HEINEKEN Business Services Poland",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Manager / Managerka Restauracji",
+   "company": "McDonald's Polska",
+   "location": "Aleksandrowice, gm. Zabierzów, Małopolskie",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Szef Zmiany w Gastronomii (K/M) - Novotel i ibis Kraków Centrum",
+   "company": "Novotel",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "To nie zwykła praca. Poprowadź biznes z nami | kawiarnia COSTA COFFEE",
+   "company": "Lagardere Travel Retail",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Head Chef / Szef Kuchni",
+   "company": "",
+   "location": "Stare Miasto, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kierownik Restauracji Burger King (K/M)",
+   "company": "Rex Concepts BK Poland S.A.",
+   "location": "Wadowice, Małopolskie",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jooble",
+   "title": "Szef kuchni/ Head Chef",
+   "company": "",
+   "location": "Stare Miasto, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Pracownik / Pracowniczka kebabu",
+   "company": "JASSER EL-HOSSEIN \"DALIA\"",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Team Lead Process Management Purchase-to-Pay (P2P)",
+   "company": "MERCEDES-BENZ GROUP SERVICES POLAND SPÓŁKA Z OGRANICZONĄ ODP...",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Product Manager - Delivery Optimisation Engine",
+   "company": "Allegro",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Project Manager",
+   "company": "Mindbox Sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "kucharz - zastępca szefa kuchni",
+   "company": "",
+   "location": "Grzegórzki, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kierownik Zmiany Śniadaniowej Kuchni w Halicka (PURO Kazimierz)",
+   "company": "",
+   "location": "Stare Miasto, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Customer Service Representative (Part Time)",
+   "company": "usasurveyjob",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Automation Tester / Quality Engineer",
+   "company": "Mindbox Sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kucharz / Kucharka",
+   "company": "Restauracja Malowanka s.c.",
+   "location": "Dobczyce, Małopolskie",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kucharz / Kucharka",
+   "company": "FLARIO JUSZCZYK sp.j.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kucharz / Kucharka",
+   "company": "FIRMA HANDLOWO USŁUGOWA SOKRATES sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kucharz / Kucharka",
+   "company": "Hotel Zator Adam KOSOWSKI - P.H.U. \"ADAMEX\"",
+   "location": "Zator, Małopolskie",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kucharz śniadaniowy (k/m)",
+   "company": "PEBE GROUP SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "New Senior Frontend AEM Developer (f/m/x)",
+   "company": "Sii Sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Crew Member",
+   "company": "McDonald's",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Crew Member",
+   "company": "McDonald's",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kucharz Kuchni Słodkiej (k/m)",
+   "company": "PEBE GROUP SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Zatrudnię kucharza z możliwością awansu na szefa do restauracji z kuchnią włoską",
+   "company": "",
+   "location": "Stare Miasto, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Junior Specialist Customer Service with French (part time)",
+   "company": "Getinge",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Test Automation Engineer - banking sector (f/m/x)",
+   "company": "Sii Sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Automation Tester in Python",
+   "company": "EPAM Systems (Poland) sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior Test Automation Engineer (K/M)",
+   "company": "ALIOR BANK",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Agent sprzedaży k/m/n - praca w Hiszpanii",
+   "company": "SRJ Innovations",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jooble",
+   "title": "Team Lead in Localization and Multimedia Services",
+   "company": "Acolad Group",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kurier/Kurierka",
+   "company": "Hecker Poland",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Szef kuchni - Kraków",
+   "company": "",
+   "location": "Stare Miasto, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "SZEF KUCHNI K/M",
+   "company": "SPECJALNY OŚRODEK SZKOLNO-WYCHOWAWCZY NR 4",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Zatrudnię szefa kuchni",
+   "company": "",
+   "location": "Stare Miasto, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Pizzerman - Kucharz / Kucharka",
+   "company": "Pizzeria Con Calore Mikołaj Gumula",
+   "location": "Skała, Małopolskie",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Senior/Lead Automation Tester in Python",
+   "company": "EPAM Systems (Poland) sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Outbound Sales Representative with Italian",
+   "company": "TTEC",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Digital Sales Representative with Czech/Slovak-English",
+   "company": "TTEC",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Outbound Sales and Partner Specialist",
+   "company": "TTEC",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "European Graduate Programme - Poland (m/f/d)",
+   "company": "Linde Gaz",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Digital Sales Representative with German-English",
+   "company": "TTEC",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Pracownik / Pracownica Restauracji",
+   "company": "McDonald's Polska",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kontroler Jakości (K/M)",
+   "company": "MARO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Olewin, gm. Olkusz, Małopolskie",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kucharz, pomoc kuchenna do Fable cafe",
+   "company": "",
+   "location": "Stare Miasto, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kucharz i osoba na zmywak .",
+   "company": "",
+   "location": "Stare Miasto, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "SZUKAMY BURGERMASTERA! Dołącz do ekipy Kreuzberg Kebab & Burger",
+   "company": "",
+   "location": "Bieżanów-Prokocim, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kucharz śniadaniowy/pomoc kuchenna La Baguette Zabłocie",
+   "company": "",
+   "location": "Podgórze, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "KUCHARZ/POMOC KUCHENNA K/M OFPR/26/0618",
+   "company": "SPECTRUM Piotr Czepiel",
+   "location": "Dobczyce, Małopolskie",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "POMOC KUCHENNA K/M",
+   "company": "SAMORZĄDOWE PRZEDSZKOLE NR 120 W KRAKOWIE",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kucharz / Pomoc kuchenna - kuchnia polska",
+   "company": "",
+   "location": "Bieńczyce, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Solution Architect",
+   "company": "Mindbox Sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Solution Architect",
+   "company": "Mindbox Sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Praca od zaraz w hotelu w Austrii - Kucharz i Pomoc Kuchenna",
+   "company": "",
+   "location": "Bieżanów-Prokocim, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jooble",
+   "title": "Pracownik Restauracji Burger King (K/M)",
+   "company": "Rex Concepts BK Poland S.A.",
+   "location": "Wadowice, Małopolskie",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jooble",
+   "title": "Technical Product Manager - ETF",
+   "company": "Brown Brothers Harriman",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Zatrudnię Szefa Kuchni. Kuchnia polska, Kazimierz",
+   "company": "",
+   "location": "Stare Miasto, Kraków",
+   "provider": "Jooble",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kurier Glovo (k/m)",
+   "company": "Eternis",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kurier | Uber Eats | Glovo | Wolt | Pyszne.pl | Bolt Food (k/m)",
+   "company": "Eternis",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kurier / Kurierka",
+   "company": "DPD Polska",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Obsługa - punk gastronomiczny",
+   "company": "BICASILIO sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Project Manager P1",
+   "company": "Valeo",
+   "location": "Skawina, Małopolskie",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Quality Controller",
+   "company": "Stryker",
+   "location": "Skawina, Małopolskie",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Geotechnical Designer (for projects in Sweden)",
+   "company": "AFRY",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "praca w barze z kuchnią polską w centrum Krakowa",
+   "company": "",
+   "location": "Stare Miasto, Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Nami Beef & Reef poszukuje osoby z miłością do obsługi Gości",
+   "company": "",
+   "location": "Stare Miasto, Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Manager Operacyjny sieci kawiarni speciality",
+   "company": "",
+   "location": "Stare Miasto, Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Advanced Project Manager",
+   "company": "Westinghouse Electric Company",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Pomocnik Kucharza Niemcy",
+   "company": "Injobs",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jooble",
+   "title": "Industry X - Digital Manufacturing Manager (GN)",
+   "company": "Accenture Global",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Doradczyni/Doradca ds. Energii i Gazu (k/m/d)",
+   "company": "Energy Power Group",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Kierownik Zmiany Burger King (K/M)",
+   "company": "",
+   "location": "Wadowice, Małopolskie",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jooble",
+   "title": "Team Leader / Team Leaderka Produkcji - Cleanroom",
+   "company": "Stryker",
+   "location": "Skawina, Małopolskie",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Koordynator kanału partnerskiego k/m/n",
+   "company": "Aurelis",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Python Test Automation Engineer with AWS (f/m/x)",
+   "company": "Sii Sp. z o.o.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Systems Development Lead",
+   "company": "BorgWarner Inc.",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Poprowadź swój biznes | kawiarnia Costa Coffee",
+   "company": "Lagardere Travel Retail SP. z o.o.",
+   "location": "Podgórze Duchackie, Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Lider / Liderka Gościnności",
+   "company": "McDonald's Polska",
+   "location": "Aleksandrowice, gm. Zabierzów, Małopolskie",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Specjalista serwisu pojazdów elektrycznych (k/m)",
+   "company": "Wanicki",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Osoba ds. sprzedaży OZE",
+   "company": "Pure Eco Energy ŻANETA ZWIERZCHOWSKA",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "IS Solution Architect",
+   "company": "ABB Business Services",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "POMOC KUCHENNA K/M",
+   "company": "ZESPÓŁ SZKÓŁ ARCHITEKTONICZNO-BUDOWLANYCH W KRAKOWIE",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Pomoc kuchenna (k/m)",
+   "company": "Renka Pierogarnia Monika Drożdż",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Mistrz ds. blacharni (k/m)",
+   "company": "Wanicki",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "POMOC KUCHENNA (K/M)",
+   "company": "Renka Pierogarnia Monika Drożdż",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "Group Product Manager (Remote)",
+   "company": "MonetizeMore",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jooble",
+   "title": "POMOC KUCHENNA K/M",
+   "company": "Centralna Baza Ofert Pracy",
+   "location": "Kraków",
+   "provider": "Jooble",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}
