@@ -1,0 +1,810 @@
+{
+ "persona": {
+  "family": "chef",
+  "title": "Chef de Partie",
+  "kind": "non-tech",
+  "city": "Krakow",
+  "country": "Poland",
+  "language": "Polish"
+ },
+ "seed": "bench-judge-5",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 55,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Szef Kuchni (K/M)",
+   "company": "BOCIANÓWKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Pomoc kuchenna/kucharz/kucharka",
+   "company": "Zakład Gastronomiczno Usługowy PIANO Bogusław Basiaga, Rafał Basiaga, Dominika Świerad spółka cywilna",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / Pizzer K/M (możliwość przyuczenia)",
+   "company": "Tomasz Balcer \" BRAVIDA \"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz K/M",
+   "company": "Miejski Ośrodek Sportu i Rekreacji",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz K/M",
+   "company": "Samorządowe Przedszkole nr 61 \"Pod Wawelem\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz K/M",
+   "company": "TOMASZ MORYS WYPIEKANE.PL",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz K/M",
+   "company": "DOROTA LIPA \"Przystań U Lipy\" ; RESTAURACJA MANHATTAN",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz K/M",
+   "company": "EDYTA GALAS \"ETON\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/kucharka",
+   "company": "LITWIŃSKI TRANSPORT - SPRZĘT - BUDOWNICTWO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/Kucharka (O)",
+   "company": "\"OMEGA PILZNO\" INTERNATIONAL TRANSPORT & SPEDITION GODAWSKI & GODAWSKI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (K/M) - oferta pracy po stażu",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/kucharka OfPr/26/0600 (S)",
+   "company": "KAROL GACAL \"CAR- LOGISTIK\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Szef Kuchni K/M",
+   "company": "SPECJALNY OŚRODEK SZKOLNO-WYCHOWAWCZY NR 4",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/ Kucharka",
+   "company": "Angel Stradom Hotel sp. z o.o.",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/ kucharka",
+   "company": "ALEKSANDER WINCENTY",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / kucharka",
+   "company": "BABIOGÓRSKIE CENTRUM REHABILITACJI I HIPOTERAPII \"KLAUDIA\" BOŻENA MOSUR",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / kucharka",
+   "company": "OLD TOWN TOMASZ MARZECKI",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (K/M)",
+   "company": "Firma Handlowo- Usługowa -Rafał Deć",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (K/M)",
+   "company": "\"ELEKTROSPRZĘT\" HURT I DETAL PRZYBYLSCY - SPÓŁKA JAWNA",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (K/M)",
+   "company": "GRZEGORZ FILIPOWSKI RESTAURACJA \"SMAKI ŚWIATA'', IN.TRADE IMPORT EXPORT",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (k/m)",
+   "company": "Samorządowe Przedszkole nr 5",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (K/M)",
+   "company": "SAMORZĄDOWE PRZEDSZKOLE NR 120 W KRAKOWIE",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (K/M)",
+   "company": "NEW FLAVORS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz",
+   "company": "STOWARZYSZENIE AUTORÓW \"ZAIKS\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "PRACOWNIK RESTAURACJI K/M",
+   "company": "DARIUSZ LINERT \"DARO\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Pomoc kuchenna",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Pomoc kuchenna K/M",
+   "company": "DOROTA LIPA \"Przystań U Lipy\" ; RESTAURACJA MANHATTAN",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Pomoc kuchenna K/M",
+   "company": "EDYTA GALAS \"ETON\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Pomoc kuchenna K/M",
+   "company": "KRAKOWSKA SPÓŁDZIELNIA GASTRONOMICZNA",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Pomoc kuchenna K/M",
+   "company": "TOMASZ MORYS WYPIEKANE.PL",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Pomoc kuchenna K/M",
+   "company": "Restauracja \"APOLLO\" Ślazyk Małgorzata",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Pomoc kuchenna (K/M)",
+   "company": "GRZEGORZ FILIPOWSKI RESTAURACJA \"SMAKI ŚWIATA'', IN.TRADE IMPORT EXPORT",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Pomoc kuchenna (K/M)",
+   "company": "BONA - MED SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Pomoc kuchenna (k/m)",
+   "company": "Renka Pierogarnia Monika Drożdż",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Pracownik produkcji w gastronomii. (k/m)",
+   "company": "NELLO s.c. Leszek Bochenek Jan Popiel Hanna Leskiewicz Łazarska",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Osoba do pomocy w kuchni",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Dekorator/dekoratorka tortów",
+   "company": "P.P.U.H. DELO DAMIAN DELOWSKI",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator/ka linii produkcyjnej (maszyny do makaronu) - 316",
+   "company": "\"MAGYAR\" ADAM GAŁĄZKA SPÓŁKA JAWNA",
+   "location": "Dolnośląskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / Kucharka",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / Kucharka",
+   "company": "RHG",
+   "location": "Wrocław, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / Kucharka Radisson RED Kraków",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz",
+   "company": "RHG",
+   "location": "Zakopane, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kierownik / Kierowniczka zmiany Nowy Świat",
+   "company": "coffeedesk",
+   "location": "Warszawa, Poland",
+   "provider": "coffeedesk",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Osoba do obsługi śniadań w hotelu (m/k/d)",
+   "company": "RHG",
+   "location": "Wrocław, pl",
+   "provider": "RHG",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Osoba do obsługi śniadań w hotelu (m/k/d)",
+   "company": "RHG",
+   "location": "Wrocław, pl",
+   "provider": "RHG",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz",
+   "company": "STOWARZYSZENIE AUTORÓW \"ZAIKS\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz/kucharka OfPr/26/0600 (S)",
+   "company": "KAROL GACAL \"CAR- LOGISTIK\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz/kucharka",
+   "company": "LITWIŃSKI TRANSPORT - SPRZĘT - BUDOWNICTWO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna/kucharz/kucharka",
+   "company": "Zakład Gastronomiczno Usługowy PIANO Bogusław Basiaga, Rafał Basiaga, Dominika Świerad spółka cywilna",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz (K/M)",
+   "company": "Firma Handlowo- Usługowa -Rafał Deć",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz (K/M)",
+   "company": "\"ELEKTROSPRZĘT\" HURT I DETAL PRZYBYLSCY - SPÓŁKA JAWNA",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz (K/M)",
+   "company": "GRZEGORZ FILIPOWSKI RESTAURACJA \"SMAKI ŚWIATA'', IN.TRADE IMPORT EXPORT",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz (k/m)",
+   "company": "Samorządowe Przedszkole nr 5",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz (K/M)",
+   "company": "SAMORZĄDOWE PRZEDSZKOLE NR 120 W KRAKOWIE",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz (K/M)",
+   "company": "NEW FLAVORS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz (K/M) - oferta pracy po stażu",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz/Kucharka (O)",
+   "company": "\"OMEGA PILZNO\" INTERNATIONAL TRANSPORT & SPEDITION GODAWSKI & GODAWSKI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Pizzer K/M (możliwość przyuczenia)",
+   "company": "Tomasz Balcer \" BRAVIDA \"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz K/M",
+   "company": "Miejski Ośrodek Sportu i Rekreacji",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz K/M",
+   "company": "Samorządowe Przedszkole nr 61 \"Pod Wawelem\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz K/M",
+   "company": "TOMASZ MORYS WYPIEKANE.PL",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz K/M",
+   "company": "DOROTA LIPA \"Przystań U Lipy\" ; RESTAURACJA MANHATTAN",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz K/M",
+   "company": "EDYTA GALAS \"ETON\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz/ Kucharka",
+   "company": "Angel Stradom Hotel sp. z o.o.",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz/ kucharka",
+   "company": "ALEKSANDER WINCENTY",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / kucharka",
+   "company": "BABIOGÓRSKIE CENTRUM REHABILITACJI I HIPOTERAPII \"KLAUDIA\" BOŻENA MOSUR",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / kucharka",
+   "company": "OLD TOWN TOMASZ MARZECKI",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "PRACOWNIK RESTAURACJI K/M",
+   "company": "DARIUSZ LINERT \"DARO\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Osoba do pomocy w kuchni",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Dekorator/dekoratorka tortów",
+   "company": "P.P.U.H. DELO DAMIAN DELOWSKI",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pracownik produkcji w gastronomii. (k/m)",
+   "company": "NELLO s.c. Leszek Bochenek Jan Popiel Hanna Leskiewicz Łazarska",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Operator/ka linii produkcyjnej (maszyny do makaronu) - 316",
+   "company": "\"MAGYAR\" ADAM GAŁĄZKA SPÓŁKA JAWNA",
+   "location": "Dolnośląskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz",
+   "company": "RHG",
+   "location": "Zakopane, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka Radisson RED Kraków",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka",
+   "company": "RHG",
+   "location": "Wrocław, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Barista/stka - Kawiarnie Coffeedesk",
+   "company": "coffeedesk",
+   "location": "Warszawa, Poland",
+   "provider": "coffeedesk",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharka / Kucharz",
+   "company": "Praca.pl",
+   "location": "Zawoja, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "PIZZERMAN",
+   "company": "Schiever Polska Sp. z o.o.",
+   "location": "Czeladź, Śląskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "PIZZERMAN/PIZZERWOMAN",
+   "company": "Schiever Polska Sp. z o.o.",
+   "location": "Bielsko-Biała, Śląskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharz / Kucharka",
+   "company": "Praca.pl",
+   "location": "Zawoja, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharz / Kucharka Radisson RED Kraków",
+   "company": "Radisson Hotel Group",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharz / Kucharka",
+   "company": "Radisson Hotel Group",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine (Peruvian Restaurant)",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "KUCHARZ K/M",
+   "company": "Łódzki Klaster ICT",
+   "location": "Jędrzejów, Świętokrzyskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "adzuna",
+   "title": "Chef de Partie - Commis de Cuisine",
+   "company": "Ismira",
+   "location": "Kraków, małopolskie",
+   "provider": "Adzuna",
+   "role": "yes",
+   "place": "yes"
+  }
+ ]
+}

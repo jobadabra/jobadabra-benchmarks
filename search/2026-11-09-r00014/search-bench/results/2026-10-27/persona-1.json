@@ -1,0 +1,873 @@
+{
+ "persona": {
+  "family": "driver",
+  "title": "Truck Driver (Class CE)",
+  "kind": "non-tech",
+  "city": "Sofia",
+  "country": "Bulgaria",
+  "language": "Bulgarian"
+ },
+ "seed": "bench-judge-1",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 87,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "eures",
+   "title": "Лозар",
+   "company": "Органик  ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Продавач-консултант",
+   "company": "МАННА - ИФ ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG414)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Общ работник",
+   "company": "ЕТ \"Жак-13-Анита Цветкова\" ЕТ",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG412)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Продавач-консултант",
+   "company": "ЕТ \"Жак-13-Анита Цветкова\" ЕТ",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG412)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Общ работник",
+   "company": "СИРАКОВ 66 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Чистач/ Хигиенист",
+   "company": "СИРАКОВ 66 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Портиер",
+   "company": "ДАКС-96 ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Продавач-консултант",
+   "company": "БАУМАКС БЪЛГАРИЯ ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, товарен автомобил",
+   "company": "МАРТИНЕЛИ ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG414)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Касиер",
+   "company": "БАУМАКС БЪЛГАРИЯ ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Общ работник",
+   "company": "МАРТИНЕЛИ ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG414)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Склададжия",
+   "company": "ЕВРОБИЛД ООД ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Касиер",
+   "company": "ЕВРОБИЛД ООД ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Носач-товарач, стоки",
+   "company": "ЕТ БОРИСЛАВ КОЛЕВ-Б ЕТ",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Асистент, човешки ресурси",
+   "company": "БАУМАКС БЪЛГАРИЯ ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Монтажник, стъкла в сгради",
+   "company": "ДАКС-96 ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Опаковач",
+   "company": "МЕЖДУНАРОДЕН КОМПОЗИТ БГ АД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Касиер",
+   "company": "ЗЕМЕДЕЛСКА КООПЕРАЦИЯ ЕДИНСТВО Кооперация",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG412)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Тракторист",
+   "company": "АГРОТЕРАТЕРМ ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG412)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, товарен автомобил (международни превози)",
+   "company": "ДИСКОРДИА АД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Технически сътрудник",
+   "company": "НИКИ ТРАНС-01 ЕООД ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, товарен автомобил",
+   "company": "БЕТИ ТРАНС 58 ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG412)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Обслужващ работник, промишлено производство",
+   "company": "ГМ Трейд 2019 ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Машинист, пътно-строителни машини",
+   "company": "М-ТРАНС ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG412)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, самосвал",
+   "company": "ГОГО - ГЕОРГИ ХРИСТОВ ЕТ",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Диспечер, транспортни средства",
+   "company": "Самак ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Отчетник, счетоводство",
+   "company": "\"Емар Транс\" ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, товарен автомобил (международни превози)",
+   "company": "Сашо шпед ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, товарен автомобил (международни превози)",
+   "company": "ГЛОРИЪР ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, товарен автомобил (международни превози)",
+   "company": "МЕЦО ТРАНС ЕООД ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, товарен автомобил (международни превози)",
+   "company": "Б и П Груп  ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Снабдител, доставчик",
+   "company": "Кастрев груп 2022 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Секретар",
+   "company": "Кастрев груп 2022 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Снабдител, доставчик",
+   "company": "Кастрев груп 2022 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, товарен автомобил (международни превози)",
+   "company": "СТЕФАНЕЛ 2017 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, товарен автомобил (международни превози)",
+   "company": "СТЕФАНЕЛ 2017 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Машинен оператор, дървообработване",
+   "company": "МЕТКО ТРАНС-89 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, тежкотоварен автомобил",
+   "company": "МЕТКО ТРАНС-89 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Чистач/ Хигиенист",
+   "company": "МЕТКО ТРАНС-89 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Товарач, трупи и друг дървен материал",
+   "company": "МЕТКО ТРАНС-89 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Работник, товаро-разтоварна дейност",
+   "company": "ГРИЙН ЛАЙТ - 1  ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Икономист, управление на персонала",
+   "company": "ТРИАДА ТРАНСПОРТ ЛОГИСТИК  ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Техник, качествени измервания",
+   "company": "ТРИАДА ТРАНСПОРТ ЛОГИСТИК  ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, товарен автомобил",
+   "company": "РЕМУС ТРАНС-74 ЕООД ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Счетоводител, оперативен",
+   "company": "Мегаинвест-холд ЕООД ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Строителен техник, проектно-технически отдел",
+   "company": "Мегаинвест-холд ЕООД ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Общ работник",
+   "company": "ХИДРО ХОЛД КОНСТРАКШЪН ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Работник, строителството",
+   "company": "БКС ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Строителен техник, проектно-технически отдел",
+   "company": "Мегаинвест-холд ЕООД ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, тежкотоварен самосвал - 12 и повече тона",
+   "company": "АГРОБИЛД ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "АГРОБИЛД ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, тежкотоварен самосвал - 12 и повече тона",
+   "company": "АГРОБИЛД ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "АГРОБИЛД ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, тролейбус",
+   "company": "СТОЛИЧЕН ЕЛЕКТРОТРАНСПОРТ ЕАД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "ПОДЕЛЕНИЕ \"МАЛАШЕВЦИ\" поделение",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Електромонтьор",
+   "company": "ПОДЕЛЕНИЕ \"ЗЕМЛЯНЕ\" поделение",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Чистач/ Хигиенист",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Кондуктор",
+   "company": "Градски транспорт - Перник ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG414)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Мияч, превозни средства (ръчно)",
+   "company": "БАЛКАНТРАНС-2009 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Автомонтьор",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Диспечер, транспортни средства",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "ПОДЕЛЕНИЕ \"ЗЕМЛЯНЕ\" поделение",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "БИСТРИЦА-96 ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Касиер",
+   "company": "БАЛКАНТРАНС-2009 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "БАЛКАНТРАНС-2009 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Мияч, превозни средства (ръчно)",
+   "company": "БАЛКАНТРАНС-2009 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Чистач/ Хигиенист",
+   "company": "\"БЕЯ-2\" ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Общ работник",
+   "company": "\"БЕЯ-2\" ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Мияч, превозни средства (ръчно)",
+   "company": "БАЛКАНТРАНС-2009 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, платформа",
+   "company": "БАЛКАНТРАНС-2009 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, лек автомобил до 9 места",
+   "company": "БГ ТРАНС КЪМПАНИ 78  ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Фризьор",
+   "company": "МЕРЕН 20 ЕООД ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Машинен оператор, пивоварство/спиртни напитки",
+   "company": "КАРЛСБЕРГ БЪЛГАРИЯ АД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Склададжия",
+   "company": "КАРЛСБЕРГ БЪЛГАРИЯ АД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Електротехник, промишлено предприятие",
+   "company": "КАРЛСБЕРГ БЪЛГАРИЯ АД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Учител, практическо обучение",
+   "company": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ \"ПЕТКО РАЧОВ СЛАВЕЙКОВ\" Училище",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Санитар",
+   "company": "РЕМОТЕРМ ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Болногледач",
+   "company": "РЕМОТЕРМ ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Бояджия, промишлени изделия",
+   "company": "МПМ ГРУП 7 ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Аргончик",
+   "company": "БОЖ-БОГ ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Машинен оператор, циркуляр",
+   "company": "ЕЛЕРГОН ЕООД ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG411)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Работник, товаро-разтоварна дейност",
+   "company": "СИРИУС-66  ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Пекар",
+   "company": "ЧАУШЕВА 74 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Месач",
+   "company": "ЧАУШЕВА 74 ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Общ работник",
+   "company": "МУСАЛА-2000  АД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG412)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Пакетировач",
+   "company": "АРКАДИЯ ХЕРБА ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG412)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Оператор, производствена линия",
+   "company": "СЕЛЕЛ ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG412)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Комплектовач",
+   "company": "ПЛЮС ХИРИС ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG414)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, тежкотоварен автомобил - 12 и повече тона",
+   "company": "ПЛЮС ХИРИС ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG414)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Машинен оператор, изделия от дърво",
+   "company": "АЙ КЮ ЛОГИСТИК ООД ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG415)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Общ работник",
+   "company": "СИРИУС-66  ЕООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Продавач-консултант",
+   "company": "ММ Фууд вкус Друг вид субект",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG413)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Зареждач, материали и полуфабрикати",
+   "company": "БАНИЦА ДАНИ ООД",
+   "location": "Sofia region (Yugozapaden), Bulgaria (BG412)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}

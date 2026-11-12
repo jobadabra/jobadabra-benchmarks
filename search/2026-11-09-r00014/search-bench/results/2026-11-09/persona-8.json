@@ -1,0 +1,3843 @@
+{
+ "persona": {
+  "family": "data-analyst",
+  "title": "Data Analyst",
+  "kind": "tech",
+  "city": "Nuremberg",
+  "country": "Germany",
+  "language": "German"
+ },
+ "seed": "bench-judge-8",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 316,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Data Architect - AI Trainer - Freelance - 8-20hrs/week - Remote",
+   "company": "10xteam",
+   "location": "Germany",
+   "provider": "10xteam",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Market Analyst - AI Trainer - Freelance - 8-20 hrs/week - Remote",
+   "company": "10xteam",
+   "location": "Germany",
+   "provider": "10xteam",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Media Intelligence Associate – Europe",
+   "company": "Clipbook",
+   "location": "Europe - Remote",
+   "provider": "Clipbook",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (m/w/d) Schwerpunkt BI (Information-Architect)",
+   "company": "BORA Lüftungstechnik GmbH",
+   "location": "Rosenheim, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Expert Data Analyst (m/w/d), Ismaning (Data-Warehouse-Analyst/in)",
+   "company": "HSE",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst / Datenanalyst (m/w/d) Kraftstoffmarktdaten für tankstellenpreise.de (Data-Analyst/in)",
+   "company": "Ideenkraftwerk GmbH",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "(Junior) Business Intelligence Analyst (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "medermis clinics GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenanalyst (m/w/d) - Reporting & Business Intelligence (Business-Analyst/in)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Kiel, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "(Junior) Controller / Financial Data Analyst (m/w/d) (Finanzwirt/in)",
+   "company": "Michael Page GmbH",
+   "location": "Bayern, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Data Analyst/ Data Engineer (m/w/d) (Data Engineer)",
+   "company": "LM IT Services AG",
+   "location": "Osnabrück, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Expert Customer Data Analyst (m/w/d), Ismaning (Data-Warehouse-Analyst/in)",
+   "company": "HSE",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Data Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "FERCHAU GmbH Vertriebsstützpunkt Greifswald",
+   "location": "Vorpommern-Greifswald, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Data Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "YER",
+   "location": "Rostock, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Business Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "BI & Analytics Tech Lead (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "TEMPTON Next Level Experts GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Haema GmbH: Data Analyst / Data Engineer (m/w/d) (Data Engineer)",
+   "company": "Haema GmbH",
+   "location": "Leipzig, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Data Analyst / Analy­tics Engi­neer (m/w/d) (Data-Analyst/in)",
+   "company": "RST Rostock System Technik GmbH",
+   "location": "Rostock, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Scientist People Analytics (m/w/d) (Data Scientist)",
+   "company": "LZ Informatik",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "(Senior) Entwickler (m/w/d) Business Intelligence (Business-Intelligence-Consultant)",
+   "company": "MID GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Data & AI Analyst (m/w/d) (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Reporting Analyst (m/w/d) bei M-net (Business-Analyst/in)",
+   "company": "M-net Telekommunikations GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Data Analyst (m/w/d) - Hybrid (Data Scientist)",
+   "company": "Vereinigte Hagelversicherung VVaG",
+   "location": "Gießen, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenmanager/Datenanalyst (m/w/d) (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Sparkasse Aurich-Norden in Ostfriesland - Ostfriesische Sparkasse",
+   "location": "Aurich, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Controller / Data Analyst (m/w/d) im Lebensmittelhandel (Controller/in)",
+   "company": "dennree GmbH",
+   "location": "Hof, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Datenanalyst / Datenmanager (w/m/d) (Informationsmanager/in)",
+   "company": "BAUAKADEMIE Unternehmensgruppe GmbH",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (m/w/d) - Erneuerbare Energien Windkraft, DE - Sengenthal (Lkr. Neumarkt i.d.OPf.) (Data-Analyst/in)",
+   "company": "Max Bögl Bauservice GmbH und Co. KG",
+   "location": "Neumarkt i. d. OPf., Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "(Senior) Consultant (m/w/d) Data Warehouse Design | Senior Data Analyst (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "MID GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (m/w/d) für Process & Data Mining in Celonis (Data-Analyst/in)",
+   "company": "BayWa AG HR Services",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "(Senior) Consultant (m/w/d) Business Intelligence (Business-Intelligence-Consultant)",
+   "company": "MID GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Consultant BI, DWH & Reporting (w|m|d) (Business-Intelligence-Consultant)",
+   "company": "BridgingIT GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Data Analyst (gn) - remote (Data-Analyst/in)",
+   "company": "aquitas GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Intelligence Spezialist/ Datenanalyst (m/w/d) (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "DEKRA Arbeit GmbH",
+   "location": "Kiel, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analysten / Data Analystinnen (m/w/d) (Informatiker/in)",
+   "company": "Bayerisches Landesamt für Statistik",
+   "location": "Schweinfurt, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (m/w/d) (Projektingenieur/in)",
+   "company": "Guldberg GmbH",
+   "location": "Kleve, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Data Analyst (Data-Analyst/in)",
+   "company": "ASML Berlin AG",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst - Energiemanagement (w/m/div.) (Data-Analyst/in)",
+   "company": "Robert Bosch GmbH",
+   "location": "Dresden, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Intelligence & Data Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "ARMON Arbeitnehmerüberlassungs- und Montage GmbH",
+   "location": "Rhein-Hunsrück-Kreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (d/f/m) for AIRBUS (Data-Analyst/in)",
+   "company": "Orizon GmbH, Unit Aviation",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenanalyst (w/m/d) in Teil- oder Vollzeit (Fachinformatiker/in - Systemintegration)",
+   "company": "Metallwarenfabrik Gemmingen GmbH",
+   "location": "Heilbronn, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenanalyst Stammdatenmanagement (m/w/d) in Kassel (Datenerfasser/in)",
+   "company": "MCA Engineering GmbH",
+   "location": "Kassel, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analyst Aufsichtsrechtliches Meldewesen / Data Analyst Banking (w/m/d) (Data-Analyst/in)",
+   "company": "TAS ToolBox GmbH",
+   "location": "Düsseldorf, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "(Junior) Data Analyst mit Schwerpunkt militärische Luftfahrzeuge (m/w/d) (Data-Analyst/in)",
+   "company": "IABG Industrieanlagen Betriebs-GmbH",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst Marktlogistik (w/m/d) (Data-Analyst/in)",
+   "company": "dm-drogerie markt GmbH + Co.KG",
+   "location": "Karlsruhe, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (m/w/d) (Data-Warehouse-Analyst/in)",
+   "company": "PSD Bank RheinNeckarSaar eG",
+   "location": "Freiburg im Breisgau, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analysten / Data Analystinnen (m/w/d) (Statistiker/in)",
+   "company": "Bayer. Landesamt für Statistik Dienststelle Fürth",
+   "location": "Fürth, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (m/w/d), BellandVision GmbH (Data-Warehouse-Analyst/in)",
+   "company": "BellandVision GmbH",
+   "location": "Bayreuth, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst Einkauf (m/w/d) (Data-Analyst/in)",
+   "company": "Vermaat Deutschland Services GmbH",
+   "location": "Ahrweiler, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst Digital Health (m/w/d) (Data-Analyst/in)",
+   "company": "MEDIAN Unternehmensgruppe B.V. & Co. KG",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (m/w/d) Controlling (Business-Analyst/in)",
+   "company": "Dr. Güldener Gruppe",
+   "location": "Stuttgart, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "(Senior) Data Analyst/in (m/w/d) SAS (IT-Berater/in)",
+   "company": "empiricus GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenanalyst (m/w/d) in Wiesbaden (Data-Analyst/in)",
+   "company": "Betriebskrankenkasse Linde",
+   "location": "Wiesbaden, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenanalyst (Bachelor Professional - IT (Datenanalyse))",
+   "company": "rocket Engineering GmbH",
+   "location": "Kassel, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (m/w/d), Weeze (Data-Warehouse-Analyst/in)",
+   "company": "CHEFS CULINAR West GmbH & Co. KG",
+   "location": "Kleve, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "fabplus GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "CHEFS CULINAR West GmbH & Co. KG",
+   "location": "Kleve, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenanalyst Massendaten (m/w/d) (Datenbankadministrator/in)",
+   "company": "Finanz Informatik Solutions Plus GmbH",
+   "location": "Bayern, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (f/m/d) (Data-Warehouse-Analyst/in)",
+   "company": "Rhenus SE & CO. KG",
+   "location": "Unna, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenanalyst Einkauf (d/f/m) AIRBUS (Data-Analyst/in)",
+   "company": "AERO HighProfessionals GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst / IT-Systemexperte (m/w/d) (Data-Analyst/in)",
+   "company": "Brunel GmbH NL Mannheim",
+   "location": "Baden-Württemberg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (m/w/d) im Omnikanalen Kunden und Produktmanagement (Data-Analyst/in)",
+   "company": "Volksbank eG - Die Gestalterbank",
+   "location": "Baden-Württemberg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (all genders) (Data Scientist)",
+   "company": "Nect GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Data Platform Engineer (m/w/d) | Snowflake, München (Data-Warehouse-Analyst/in)",
+   "company": "JobRad® Loop",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (m/w/d) (Data Scientist)",
+   "company": "FERCHAU GmbH Niederlassung Rostock",
+   "location": "Rostock, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Azure Data Factory & Spark Data Engineer (w|m|d) (Data Engineer)",
+   "company": "BridgingIT GmbH",
+   "location": "Mannheim, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer – Data & Analytics Northern Europe (w/m/d) (Data Engineer)",
+   "company": "Redion",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineers, Analysts & Scientists (w|m|d) (Data Engineer)",
+   "company": "BridgingIT GmbH",
+   "location": "Mannheim, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "\"Prozessmanager / Datenanalyst\" (m/w/d) (Fachinformatiker/in - Daten- und Prozessanalyse)",
+   "company": "DHL AG Zentrale",
+   "location": "Bonn, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Intelligence - Data Engineer (w/m/d) (Mathematiker/in)",
+   "company": "HUK-COBURG VVaG",
+   "location": "Coburg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "682/B - Datenanalyst (m/w/d) (Data-Analyst/in)",
+   "company": "Finanz Informatik GmbH & Co. KG",
+   "location": "Münster, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "PowerBI Experte zur Visualisierung von Telematikdaten (Data-Analyst/in)",
+   "company": "emagine GmbH",
+   "location": "Neu-Ulm, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Expert Data Science (m/w/d), Ismaning (Data-Warehouse-Analyst/in)",
+   "company": "HSE",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenanalyst (d/m/w) AIRBUS (Bachelor Professional - IT (Datenanalyse))",
+   "company": "AERO HighProfessionals GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer – Production Support & Data Integration (m/w/d) (Data Engineer)",
+   "company": "Hays Professional Solutions GmbH Standort Nürnberg",
+   "location": "Bayern, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst & AI Expert (d/m/w) für AIRBUS (Informatiker/in)",
+   "company": "SimpleXX GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "DC Data Manager (m/f/d) (Data-Analyst/in)",
+   "company": "Hays Professional Solutions GmbH Standort Dortmund",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst (d/m/w) für AIRBUS (Wirtschaftsingenieur/in)",
+   "company": "SimpleXX GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenanalyst (m/w/d) (Datenbankentwickler/in)",
+   "company": "Finanz Informatik GmbH & Co. KG",
+   "location": "Region Hannover, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Scientist, Chrome (Data Engineer)",
+   "company": "Google Germany GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Intelligence Spezialist/in oder Datenanalyst/in (w/m/d) (Data-Analyst/in)",
+   "company": "Brunel GmbH NL Kiel",
+   "location": "Schleswig-Holstein, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Junior Controller / Financial (Data) Analyst (m/w/d) (Controller/in)",
+   "company": "Pates Aktiengesellschaft",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenanalyst – Schwerpunkt Wasser, Wärme und Photovoltaik (m/w/d) (Data-Analyst/in)",
+   "company": "Stadtwerke Nienburg GmbH",
+   "location": "Nienburg (Weser), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Data Engineer (m/w/d) - Snowflake, München (Data-Warehouse-Analyst/in)",
+   "company": "JobRad® Loop",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenanalyst für Produkt- und Marktforschung (w/m/d) (Data Engineer)",
+   "company": "persona service AG & Co. KG Niederlassung Annaberg- Buchholz",
+   "location": "Erzgebirgskreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ERP Expert Data Analytics & Reporting - SAP S/4HANA (m/w/d) (Data-Analyst/in)",
+   "company": "Peri-Werk A. Schwörer GmbH & Co. KG",
+   "location": "Neu-Ulm, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Data Engineer (m/w/d) SAP und Snowflake (Data-Analyst/in)",
+   "company": "Schmitt GmbH",
+   "location": "Erlangen, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenanalyst (m/w/d) (Business-Analyst/in)",
+   "company": "Finanz Informatik",
+   "location": "Frankfurt am Main, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Technical Data & AI Consultant* (Data-Consultant)",
+   "company": "inovex GmbH",
+   "location": "Karlsruhe, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Finance Analyst & Data Performance (m/w/d) (Fachwirt/in - Versicherungen und Finanzen)",
+   "company": "Edenred Deutschland GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Lead Data Steward (w/m/d) Substations (Data-Consultant)",
+   "company": "Siemens Energy Global GmbH & Co. KG",
+   "location": "Erlangen, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Operations Manager Analyst (w/m/d) (Data Scientist)",
+   "company": "HUK-COBURG VVaG",
+   "location": "Coburg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "mgm technology partners GmbH: Senior Consultant Change Management Schwerpunkt Datenanalyse (m/w/d) (Berufsspezialist/in - IT-Beratung)",
+   "company": "mgm consulting partners Gmbh",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "EF Reference Data Manager (d/m/w) (Techniker/in - Produktionstechnik und Datenmanagement/Bachelor Professional in Technik)",
+   "company": "Airbus Defence and Space GmbH",
+   "location": "Pfaffenhofen a. d. Ilm, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Professional ESG-Controlling & Business Analytics (m/w/d) (Controller/in)",
+   "company": "Martin Bauer GmbH & Co. KG",
+   "location": "Erlangen-Höchstadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "A400M Maintenance Data Manager (m/w/d) für AIRBUS Defence and Space (Informatiker/in)",
+   "company": "SimpleXX GmbH",
+   "location": "Pfaffenhofen a. d. Ilm, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Consultant AI & Data Engineering Forensics (w/m/d) (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "EY GmbH & Co. KG WPG",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Cloud & Data Platform Architect (gn) (Data-Consultant)",
+   "company": "Experis GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Scientist / Data Engineer (m/w/d) (Data Scientist)",
+   "company": "FEGA & Schmitt Elektrogroßhandel GmbH",
+   "location": "Ansbach, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Snowflake Data Engineer (m/w/d), München (Data-Warehouse-Analyst/in)",
+   "company": "JobRad® Loop",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "I3.3-04 SAP Analytics Cloud Analyst / Consultant (m/w/d) (IT-Kundenbetreuer/in)",
+   "company": "Landeskirchenamt der Evangelisch-Lutherischen Kirche in Bayern",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Mitarbeiter (m/w/d) Datenmanagement & Kalkulation (Controller/in)",
+   "company": "Gerhard Mann GmbH & Co. KG",
+   "location": "Landshut, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Data Engineer (m/w/d) (Data-Analyst/in)",
+   "company": "plusYou GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Commercial Analyst (m/w/d), Ismaning (Data-Warehouse-Analyst/in)",
+   "company": "HSE",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Component Quality Lead (m/w/d) (Berufsspezialist/in - Datenanalyse)",
+   "company": "Guldberg GmbH",
+   "location": "Ebersberg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst in IT- und Agentic AI-Projekten (w|m|d) (Business-Analyst/in)",
+   "company": "BridgingIT GmbH",
+   "location": "Mannheim, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Junior Marketing Analyst (w/m/d) - Befristet für 18 Monate (Berufsspezialist/in - Datenanalyse)",
+   "company": "1 & 1 Mail & Media Applications SE",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Consultant IT Business Analyse Future Energy & Utilities (w|m|d) (Business-Analyst/in)",
+   "company": "BridgingIT GmbH",
+   "location": "Mannheim, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "A400M Maintenance Data Manager (m/w/d) (Data-Analyst/in)",
+   "company": "fabplus GmbH",
+   "location": "Pfaffenhofen a. d. Ilm, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Master Data Quality Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "Liebherr-International Deutschland GmbH",
+   "location": "Biberach, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "I3.3-02 SAP Analytics Cloud Analyst / Consultant (m/w/d) (IT-Kundenbetreuer/in)",
+   "company": "Landeskirchenamt der Evangelisch-Lutherischen Kirche in Bayern",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "(Junior) BI Analyst (m/w/d) SAP Reporting (Business-Analyst/in)",
+   "company": "LEONHARD KURZ Stiftung & Co. KG",
+   "location": "Fürth, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Data & Process Specialist Homologation (w/m/d) München (Data-Analyst/in)",
+   "company": "experts I.K. Hofmann GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kaufmännischer Mitarbeiter (m/w/d) – Kalkulation & Datenanalyse (Controller/in)",
+   "company": "Autohaus Straußberger Stefan Straußberger",
+   "location": "Fürth, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst (f/m/d) (Business-Analyst/in)",
+   "company": "Allianz Global Investors GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Analytics Consultant (f/m/d) - fixed term of 18 months (Berufsspezialist/in - Datenanalyse)",
+   "company": "1 & 1 Mail & Media Applications SE",
+   "location": "Karlsruhe, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Engineer (m/w/d) - Big Data Platform,Hirschau,München (Data-Warehouse-Analyst/in)",
+   "company": "Conrad Electronic SE",
+   "location": "Amberg-Sulzbach, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AIRBUS - Business Performance Analyst & Improver (m/w/d) (Business-Analyst/in)",
+   "company": "DEKRA Arbeit GmbH",
+   "location": "Donau-Ries, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenassistent (m/w/d) (Data-Analyst/in)",
+   "company": "persona service AG & Co.KG Niederlassung Chemnitz-Nord",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst (m/w/d) - ID: 151 (Business-Analyst/in)",
+   "company": "SINTEC Informatik GmbH",
+   "location": "Fürth, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Anforderungsmanager / Business Analyst Energiewirtschaft (m/w/d) (Business-Analyst/in)",
+   "company": "YER",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "(Junior) Business Analyst (m/w/d) | Business Applications (Business-Analyst/in)",
+   "company": "CADENAS GmbH",
+   "location": "Augsburg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "IT-Consultant Business Analyse Versicherung (m/w/d) (Business-Analyst/in)",
+   "company": "PTA GmbH",
+   "location": "Mannheim, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Intelligence Testspezialist (w/m/d) (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "HUK-COBURG VVaG",
+   "location": "Coburg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst Customer & Asset Services (m/w/d) (Business-Analyst/in)",
+   "company": "Baader Bank AG",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst (m/w/d) - ID: 151, Fürth (Business-Analyst/in)",
+   "company": "SINTEC Informatik GmbH",
+   "location": "Fürth, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "(Senior) Referent:in Anwendersysteme (Vegetation) (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "Deutsche Bahn AG",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Business Analyst (m/w/d) ERP, Prozesse & Digitalisierung (Business-Analyst/in)",
+   "company": "bestengineers Inhaber Simon Virgil",
+   "location": "Bayern, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Consultant (m/f/d) – Business Process S ... (Business-Intelligence-Consultant)",
+   "company": "retarus GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Prozessmanager / Business Analyst Genesys CX (w/m/d) (Business-Analyst/in)",
+   "company": "Redion",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst Prozessmodellierung & Prozessorchestrierung (m/w/d) (Business-Analyst/in)",
+   "company": "Allianz Deutschland AG",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Teamlead Business Analyse (m/w/d) (Business-Analyst/in)",
+   "company": "CPB Software (Germany) GmbH",
+   "location": "Freising, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst Backoffice (m/w/d) (Business-Analyst/in)",
+   "company": "Baader Bank AG",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "(Junior) IT Business Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "tech11 GmbH",
+   "location": "Bayern, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst Logistics (m/w/d), Vorbach (Business-Analyst/in)",
+   "company": "Novem Car Interior Design GmbH",
+   "location": "Neustadt a. d. Waldnaab, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business / IT Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "IABG Industrieanlagen Betriebs-GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Junior Product Consultant (m/f/d) – Business Process S ... (Business-Intelligence-Consultant)",
+   "company": "retarus GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Consultant (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "Euro-Schulen-Organisation GmbH",
+   "location": "Aschaffenburg, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "(Senior) Referent:in Anwendersysteme (Winterdienst) (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "Deutsche Bahn AG",
+   "location": "Karlsruhe, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Tech Analyst - Broker Signup Flows (Data-Analyst/in)",
+   "company": "DKB Service GmbH",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "SAP BW/4HANA Consultant / Solution Architect (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "IBsolution GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Information Analyst (Data-Analyst/in)",
+   "company": "Boehringer Ingelheim Pharma GmbH & Co. KG",
+   "location": "Biberach, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Category Insights Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "Kaufland Dienstleistung GmbH & Co. KG",
+   "location": "Heilbronn, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Datenbankanalyst (m/w/d) (Data-Analyst/in)",
+   "company": "FERCHAU GmbH Niederlassung Karlsruhe City",
+   "location": "Karlsruhe, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Produktionsanalyst (w/m/d) (Data-Analyst/in)",
+   "company": "Freudenberg & Co. KG",
+   "location": "Main-Tauber-Kreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data-Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "Dipl.-Ing. Gennadi Rouditser D.I.R.A. Arbeitsvermittlung & Unternehmensberatung",
+   "location": "Potsdam, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data-Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "Dipl.-Ing. Gennadi Rouditser D.I.R.A. Arbeitsvermittlung & Unternehmensberatung",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst (m/w/d) (Ingenieur/in - Gebäudetechnik)",
+   "company": "ROSA Experts AG & Co KG",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst (m/w/d) (Organisator/in)",
+   "company": "Netto Marken-Discount Stiftung & Co. KG",
+   "location": "Schwandorf, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Referent (m/w/d) für Datenanalyse und strategisches Daten... (Berufsspezialist/in - Datenanalyse)",
+   "company": "Kassenärztliche Vereinigung Westfalen-Lippe (KVWL)",
+   "location": "Dortmund, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Innovation Program / Project Lead (w/m/d) (Business-Intelligence-Consultant)",
+   "company": "TÜV SÜD AG",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Analyst (m/w/d) (Requirement-Manager/in)",
+   "company": "Allgeier IT GmbH Düsseldorf",
+   "location": "Bayern, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Experte Business Analytics und Produktentwicklung (m/w/d) (Business-Analyst/in)",
+   "company": "Bayernwerk AG Ressort Finanzen",
+   "location": "Regensburg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "GTM Engineer",
+   "company": "Clera",
+   "location": "Berlin",
+   "provider": "Clera",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Backend Engineer, Real-time Data",
+   "company": "Clera",
+   "location": "Munich",
+   "provider": "Clera",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Scientist - Extensions",
+   "company": "Fundamental",
+   "location": "Europe; Israel (remote)",
+   "provider": "Fundamental",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Expert Customer Data Analyst (m/w/d), Ismaning (Data-Warehouse-Analyst/in)",
+   "company": "HSE",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data & AI Analyst (m/w/d) (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Datenanalyst (m/w/d) - Reporting & Business Intelligence (Business-Analyst/in)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Kiel, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (f/m/d) (Data-Warehouse-Analyst/in)",
+   "company": "Rhenus SE & CO. KG",
+   "location": "Unna, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Controller / Data Analyst (m/w/d) im Lebensmittelhandel (Controller/in)",
+   "company": "dennree GmbH",
+   "location": "Hof, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Data Analyst / Analy­tics Engi­neer (m/w/d) (Data-Analyst/in)",
+   "company": "RST Rostock System Technik GmbH",
+   "location": "Rostock, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Junior) Business Intelligence Analyst (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "medermis clinics GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Senior) Entwickler (m/w/d) Business Intelligence (Business-Intelligence-Consultant)",
+   "company": "MID GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Senior) Consultant (m/w/d) Business Intelligence (Business-Intelligence-Consultant)",
+   "company": "MID GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Data Analyst (m/w/d) - Hybrid (Data Scientist)",
+   "company": "Vereinigte Hagelversicherung VVaG",
+   "location": "Gießen, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Data Analyst/ Data Engineer (m/w/d) (Data Engineer)",
+   "company": "LM IT Services AG",
+   "location": "Osnabrück, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "BI & Analytics Tech Lead (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "TEMPTON Next Level Experts GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (m/w/d) (Projektingenieur/in)",
+   "company": "Guldberg GmbH",
+   "location": "Kleve, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Data Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "FERCHAU GmbH Vertriebsstützpunkt Greifswald",
+   "location": "Vorpommern-Greifswald, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Data Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "YER",
+   "location": "Rostock, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Consultant BI, DWH & Reporting (w|m|d) (Business-Intelligence-Consultant)",
+   "company": "BridgingIT GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Senior) Consultant (m/w/d) Data Warehouse Design | Senior Data Analyst (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "MID GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (m/w/d) - Erneuerbare Energien Windkraft, DE - Sengenthal (Lkr. Neumarkt i.d.OPf.) (Data-Analyst/in)",
+   "company": "Max Bögl Bauservice GmbH und Co. KG",
+   "location": "Neumarkt i. d. OPf., Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "HR Data Analyst (gn) - remote (Data-Analyst/in)",
+   "company": "aquitas GmbH",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst - Energiemanagement (w/m/div.) (Data-Analyst/in)",
+   "company": "Robert Bosch GmbH",
+   "location": "Dresden, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Expert Data Analyst (m/w/d), Ismaning (Data-Warehouse-Analyst/in)",
+   "company": "HSE",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Reporting Analyst (m/w/d) bei M-net (Business-Analyst/in)",
+   "company": "M-net Telekommunikations GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (m/w/d) (Data-Warehouse-Analyst/in)",
+   "company": "PSD Bank RheinNeckarSaar eG",
+   "location": "Freiburg im Breisgau, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (m/w/d) Schwerpunkt BI (Information-Architect)",
+   "company": "BORA Lüftungstechnik GmbH",
+   "location": "Rosenheim, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence Analyst (m/w/d), Trier (IT-Berater/in)",
+   "company": "moccamedia GmbH",
+   "location": "Trier, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Business Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nürnberg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Haema GmbH: Data Analyst / Data Engineer (m/w/d) (Data Engineer)",
+   "company": "Haema GmbH",
+   "location": "Leipzig, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Junior) Controller / Financial Data Analyst (m/w/d) (Finanzwirt/in)",
+   "company": "Michael Page GmbH",
+   "location": "Bayern, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Business Intelligence Analyst Sales (m/w/d) (Handelsassistent/in)",
+   "company": "DPD Deutschland GmbH",
+   "location": "Aschaffenburg, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst / IT-Systemexperte (m/w/d) (Data-Analyst/in)",
+   "company": "Brunel GmbH NL Mannheim",
+   "location": "Baden-Württemberg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Azure Data Factory & Spark Data Engineer (w|m|d) (Data Engineer)",
+   "company": "BridgingIT GmbH",
+   "location": "Mannheim, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (m/w/d) für Process & Data Mining in Celonis (Data-Analyst/in)",
+   "company": "BayWa AG HR Services",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Data Platform Engineer (m/w/d) | Snowflake, München (Data-Warehouse-Analyst/in)",
+   "company": "JobRad® Loop",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence & Data Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "ARMON Arbeitnehmerüberlassungs- und Montage GmbH",
+   "location": "Rhein-Hunsrück-Kreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (d/f/m) for AIRBUS (Data-Analyst/in)",
+   "company": "Orizon GmbH, Unit Aviation",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Risk Data & Exposure Reporting Analyst (w/m/d) (Betriebswirt/in (Hochschule))",
+   "company": "TARGOBANK AG",
+   "location": "Mainz, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analysten / Data Analystinnen (m/w/d) (Informatiker/in)",
+   "company": "Bayerisches Landesamt für Statistik",
+   "location": "Schweinfurt, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst / Datenanalyst (m/w/d) Kraftstoffmarktdaten für tankstellenpreise.de (Data-Analyst/in)",
+   "company": "Ideenkraftwerk GmbH",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (m/w/d) Controlling (Business-Analyst/in)",
+   "company": "Dr. Güldener Gruppe",
+   "location": "Stuttgart, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (m/w/d), BellandVision GmbH (Data-Warehouse-Analyst/in)",
+   "company": "BellandVision GmbH",
+   "location": "Bayreuth, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Junior) Data Analyst mit Schwerpunkt militärische Luftfahrzeuge (m/w/d) (Data-Analyst/in)",
+   "company": "IABG Industrieanlagen Betriebs-GmbH",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "fabplus GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "CHEFS CULINAR West GmbH & Co. KG",
+   "location": "Kleve, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst Digital Health (m/w/d) (Data-Analyst/in)",
+   "company": "MEDIAN Unternehmensgruppe B.V. & Co. KG",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (m/w/d), Weeze (Data-Warehouse-Analyst/in)",
+   "company": "CHEFS CULINAR West GmbH & Co. KG",
+   "location": "Kleve, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst Einkauf (m/w/d) (Data-Analyst/in)",
+   "company": "Vermaat Deutschland Services GmbH",
+   "location": "Ahrweiler, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Senior) Data Analyst/in (m/w/d) SAS (IT-Berater/in)",
+   "company": "empiricus GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data & Reporting Analyst Rückversicherung P&C (m/w/d) (Controller/in)",
+   "company": "AXA Konzern AG",
+   "location": "Köln, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Analyst Aufsichtsrechtliches Meldewesen / Data Analyst Banking (w/m/d) (Data-Analyst/in)",
+   "company": "TAS ToolBox GmbH",
+   "location": "Düsseldorf, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (m/w/d) (Data Scientist)",
+   "company": "FERCHAU GmbH Niederlassung Rostock",
+   "location": "Rostock, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (all genders) (Data Scientist)",
+   "company": "Nect GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analysten / Data Analystinnen (m/w/d) (Statistiker/in)",
+   "company": "Bayer. Landesamt für Statistik Dienststelle Fürth",
+   "location": "Fürth, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Data Engineer (m/w/d) - Snowflake, München (Data-Warehouse-Analyst/in)",
+   "company": "JobRad® Loop",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "HR Data Analyst (Data-Analyst/in)",
+   "company": "ASML Berlin AG",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst (m/w/d) im Omnikanalen Kunden und Produktmanagement (Data-Analyst/in)",
+   "company": "Volksbank eG - Die Gestalterbank",
+   "location": "Baden-Württemberg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence Spezialist/in oder Datenanalyst/in (w/m/d) (Data-Analyst/in)",
+   "company": "Brunel GmbH NL Kiel",
+   "location": "Schleswig-Holstein, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Junior Controller / Financial (Data) Analyst (m/w/d) (Controller/in)",
+   "company": "Pates Aktiengesellschaft",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst Marktlogistik (w/m/d) (Data-Analyst/in)",
+   "company": "dm-drogerie markt GmbH + Co.KG",
+   "location": "Karlsruhe, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst Sales Controlling (Data-Analyst/in)",
+   "company": "Lantenhammer Consulting",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Scientist, Chrome (Data Engineer)",
+   "company": "Google Germany GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Engineer – Production Support & Data Integration (m/w/d) (Data Engineer)",
+   "company": "Hays Professional Solutions GmbH Standort Nürnberg",
+   "location": "Bayern, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior BI Analyst - Finance & Controlling (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "ARWA Personaldienstleistungen GmbH",
+   "location": "Waldeck-Frankenberg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence (BI) Consultant (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "wolfcraft GmbH",
+   "location": "Ahrweiler, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence Experte (m/w/d) in FESTANSTELLUNG (m/w/d) (Business-Analyst/in)",
+   "company": "It-excelsus GmbH",
+   "location": "Frankfurt am Main, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Spezialist (m/w/d) Data & Reporting in Operations Steuerung (Data-Warehouse-Analyst/in)",
+   "company": "AXA Konzern AG",
+   "location": "Köln, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "AIRBUS - Business Performance Analyst & Improver (m/w/d) (Business-Analyst/in)",
+   "company": "DEKRA Arbeit GmbH",
+   "location": "Donau-Ries, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Consultant IT Business Analyse Future Energy & Utilities (w|m|d) (Business-Analyst/in)",
+   "company": "BridgingIT GmbH",
+   "location": "Mannheim, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence - Data Engineer (w/m/d) (Mathematiker/in)",
+   "company": "HUK-COBURG VVaG",
+   "location": "Coburg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Expert Data Science (m/w/d), Ismaning (Data-Warehouse-Analyst/in)",
+   "company": "HSE",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst in IT- und Agentic AI-Projekten (w|m|d) (Business-Analyst/in)",
+   "company": "BridgingIT GmbH",
+   "location": "Mannheim, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "PowerBI Experte zur Visualisierung von Telematikdaten (Data-Analyst/in)",
+   "company": "emagine GmbH",
+   "location": "Neu-Ulm, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Engineers, Analysts & Scientists (w|m|d) (Data Engineer)",
+   "company": "BridgingIT GmbH",
+   "location": "Mannheim, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "ERP Expert Data Analytics & Reporting - SAP S/4HANA (m/w/d) (Data-Analyst/in)",
+   "company": "Peri-Werk A. Schwörer GmbH & Co. KG",
+   "location": "Neu-Ulm, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (f/m/d) (Business-Analyst/in)",
+   "company": "Allianz Global Investors GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Data Engineer (m/w/d) (Data-Analyst/in)",
+   "company": "plusYou GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Controller (m/w/d) – Business Intelligence & Unternehmenssteuerung (Controller/in)",
+   "company": "TQ-Systems GmbH Gut Delling",
+   "location": "Starnberg, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Data Engineer (m/w/d) SAP und Snowflake (Data-Analyst/in)",
+   "company": "Schmitt GmbH",
+   "location": "Erlangen, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence- / Data Warehouse-Analyst / Entwickler (m/w/x), Langenhagen (expert ... (Data-Warehouse-Analyst/in)",
+   "company": "expert Zentrale",
+   "location": "Region Hannover, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Engineer – Data & Analytics Northern Europe (w/m/d) (Data Engineer)",
+   "company": "Redion",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Junior Business Intelligence- / Data Warehouse-Analyst / Entwickler (m/..., Langenhagen (expert ... (Data-Warehouse-Analyst/in)",
+   "company": "expert Zentrale",
+   "location": "Region Hannover, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst Prozessmodellierung & Prozessorchestrierung (m/w/d) (Business-Analyst/in)",
+   "company": "Allianz Deutschland AG",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "A400M Maintenance Data Manager (m/w/d) (Data-Analyst/in)",
+   "company": "fabplus GmbH",
+   "location": "Pfaffenhofen a. d. Ilm, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Commercial Analyst (m/w/d), Ismaning (Data-Warehouse-Analyst/in)",
+   "company": "HSE",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Finance Analyst & Data Performance (m/w/d) (Fachwirt/in - Versicherungen und Finanzen)",
+   "company": "Edenred Deutschland GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Senior) IT Business Analyst* Regulatory Reporting (m/w/d) (Business-Analyst/in)",
+   "company": "Berenberg",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence Engineer (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "FALKE KGaA",
+   "location": "Düsseldorf, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data & Process Specialist Homologation (w/m/d) München (Data-Analyst/in)",
+   "company": "experts I.K. Hofmann GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business / IT Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "IABG Industrieanlagen Betriebs-GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Snowflake Data Engineer (m/w/d), München (Data-Warehouse-Analyst/in)",
+   "company": "JobRad® Loop",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst Logistics (m/w/d), Vorbach (Business-Analyst/in)",
+   "company": "Novem Car Interior Design GmbH",
+   "location": "Neustadt a. d. Waldnaab, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Consultant (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "Euro-Schulen-Organisation GmbH",
+   "location": "Aschaffenburg, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Junior) IT Business Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "tech11 GmbH",
+   "location": "Bayern, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Analyst (f/m/d) Sales Intelligence & AI (Data-Warehouse-Analyst/in)",
+   "company": "Siemens Energy Global GmbH & Co. KG",
+   "location": "Erlangen, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Lead Data Steward (w/m/d) Substations (Data-Consultant)",
+   "company": "Siemens Energy Global GmbH & Co. KG",
+   "location": "Erlangen, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Scientist / Data Engineer (m/w/d) (Data Scientist)",
+   "company": "FEGA & Schmitt Elektrogroßhandel GmbH",
+   "location": "Ansbach, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data & AI Architect (m/w/d) (Data-Analyst/in)",
+   "company": "RENK GmbH",
+   "location": "Augsburg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Technical Data & AI Consultant* (Data-Consultant)",
+   "company": "inovex GmbH",
+   "location": "Karlsruhe, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Analyst Vertriebsperformance & BI Reporting (m/w/d) (Kaufmännische Fachkraft)",
+   "company": "DFH Haus GmbH",
+   "location": "Rhein-Hunsrück-Kreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst Backoffice (m/w/d) (Business-Analyst/in)",
+   "company": "Baader Bank AG",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence Experts (w/m/d) (Business-Intelligence-Consultant)",
+   "company": "Kaiser Personalberatung GmbH",
+   "location": "Hamburg, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence Specialist * - Schwerpunkt Data Platform Engineering, CTC (Data-Warehouse-Analyst/in)",
+   "company": "Weidmüller Interface GmbH & Co. KG",
+   "location": "Lippe, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Junior) Business Analyst (m/w/d) | Business Applications (Business-Analyst/in)",
+   "company": "CADENAS GmbH",
+   "location": "Augsburg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Teamlead Business Analyse (m/w/d) (Business-Analyst/in)",
+   "company": "CPB Software (Germany) GmbH",
+   "location": "Freising, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Engineer (m/w/d) - Big Data Platform,Hirschau,München (Data-Warehouse-Analyst/in)",
+   "company": "Conrad Electronic SE",
+   "location": "Amberg-Sulzbach, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Prozessmanager / Business Analyst Genesys CX (w/m/d) (Business-Analyst/in)",
+   "company": "Redion",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Junior Product Consultant (m/f/d) – Business Process S ... (Business-Intelligence-Consultant)",
+   "company": "retarus GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Steering & Storage (m/w/d/x) (Business-Analyst/in)",
+   "company": "Deutsche Telekom AG",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "SAP BW/4HANA Consultant / Solution Architect (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "IBsolution GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (m/w/d) (Organisator/in)",
+   "company": "Netto Marken-Discount Stiftung & Co. KG",
+   "location": "Schwandorf, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "IT-Consultant Business Analyse Versicherung (m/w/d) (Business-Analyst/in)",
+   "company": "PTA GmbH",
+   "location": "Mannheim, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Gruppenleiter Reporting und Analyse (m/w/d) (Betriebswirt/in - allgemeine Betriebswirtschaft)",
+   "company": "Simon Hegele Gesellschaft für Logistik und Service mbH",
+   "location": "Forchheim, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence Testspezialist (w/m/d) (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "HUK-COBURG VVaG",
+   "location": "Coburg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Anforderungsmanager / Business Analyst Energiewirtschaft (m/w/d) (Business-Analyst/in)",
+   "company": "YER",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (m/w/d) (Requirement-Manager/in)",
+   "company": "Allgeier IT GmbH Düsseldorf",
+   "location": "Bayern, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Junior) BI Analyst (m/w/d) SAP Reporting (Business-Analyst/in)",
+   "company": "LEONHARD KURZ Stiftung & Co. KG",
+   "location": "Fürth, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (m/w/d) - ID: 151 (Business-Analyst/in)",
+   "company": "SINTEC Informatik GmbH",
+   "location": "Fürth, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (m/w/d) - ID: 151, Fürth (Business-Analyst/in)",
+   "company": "SINTEC Informatik GmbH",
+   "location": "Fürth, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst Customer & Asset Services (m/w/d) (Business-Analyst/in)",
+   "company": "Baader Bank AG",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Business Analyst (m/w/d) ERP, Prozesse & Digitalisierung (Business-Analyst/in)",
+   "company": "bestengineers Inhaber Simon Virgil",
+   "location": "Bayern, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (m/w/d) (Ingenieur/in - Gebäudetechnik)",
+   "company": "ROSA Experts AG & Co KG",
+   "location": "München, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Product Consultant (m/f/d) – Business Process S ... (Business-Intelligence-Consultant)",
+   "company": "retarus GmbH",
+   "location": "München, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Experte Business Analytics und Produktentwicklung (m/w/d) (Business-Analyst/in)",
+   "company": "Bayernwerk AG Ressort Finanzen",
+   "location": "Regensburg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Junior) Business Intelligence & AI Manager (m/w/d) Mobilfunk (Business-Analyst/in)",
+   "company": "CHECK24 Services Personal GmbH",
+   "location": "Köln, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Investment Reporting und Datamanagement Experte (w/m/d) (Informatiker/in)",
+   "company": "HUK-COBURG VVaG",
+   "location": "Coburg, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence Experte (w/m/d) (Business-Intelligence-Consultant)",
+   "company": "Oldenburgisch-Ostfriesischer Wasserverband",
+   "location": "Wesermarsch, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data-Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "Dipl.-Ing. Gennadi Rouditser D.I.R.A. Arbeitsvermittlung & Unternehmensberatung",
+   "location": "Potsdam, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data-Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "Dipl.-Ing. Gennadi Rouditser D.I.R.A. Arbeitsvermittlung & Unternehmensberatung",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data & Business Intelligence Engineer (m/w/d) (Data-Warehouse-Analyst/in)",
+   "company": "Uhlmann Pac-Systeme GmbH & Co. KG",
+   "location": "Biberach, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business-Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "HeRa Consulting GmbH",
+   "location": "Frankfurt am Main, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence & Analytics Specialist (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "GALDERMA LABORATORIUM GMBH",
+   "location": "Düsseldorf, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Datenbankanalyst (m/w/d) (Data-Analyst/in)",
+   "company": "FERCHAU GmbH Niederlassung Karlsruhe City",
+   "location": "Karlsruhe, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Master Data Quality Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "Liebherr-International Deutschland GmbH",
+   "location": "Biberach, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst Data Intelligence Platforms (m/w/d) (Business-Analyst/in)",
+   "company": "emagine GmbH",
+   "location": "Stuttgart, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Information Analyst (Data-Analyst/in)",
+   "company": "Boehringer Ingelheim Pharma GmbH & Co. KG",
+   "location": "Biberach, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data & Business Intelligence Engineer (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "Uhlmann Pac-Systeme GmbH & Co. KG",
+   "location": "Biberach, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst Kreditrisikomanagement (Business-Analyst/in)",
+   "company": "DKB Service GmbH",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Produktionsanalyst (w/m/d) (Data-Analyst/in)",
+   "company": "Freudenberg & Co. KG",
+   "location": "Main-Tauber-Kreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Intelligence Manager (all genders) (Business-Intelligence-Consultant)",
+   "company": "ORLEN Deutschland GmbH",
+   "location": "Pinneberg, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Category Insights Analyst (m/w/d) (Data-Analyst/in)",
+   "company": "Kaufland Dienstleistung GmbH & Co. KG",
+   "location": "Heilbronn, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data-Analyst - Retail & Sales Analytics (all genders) (Data-Analyst/in)",
+   "company": "Inovisco Mobile Media GmbH",
+   "location": "Köln, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "Hays Professional Solutions GmbH",
+   "location": "Nordrhein-Westfalen, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "Hays Professional Solutions GmbH",
+   "location": "Niedersachsen, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "Verti Versicherung AG",
+   "location": "Potsdam-Mittelmark, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "Schweizer Electronic AG",
+   "location": "Rottweil, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "mbi GmbH",
+   "location": "Lahn-Dill-Kreis, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (w/m/d) (Business-Analyst/in)",
+   "company": "Brunel GmbH NL Braunschweig",
+   "location": "Niedersachsen, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Business Intelligence & Data Warehouse Expert (w/m/d) (Business-Intelligence-Consultant)",
+   "company": "VHV a.G.",
+   "location": "Region Hannover, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Tech Analyst - Broker Signup Flows (Data-Analyst/in)",
+   "company": "DKB Service GmbH",
+   "location": "Berlin, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (m/w/d) Meldewesen Common Reporting (Business-Analyst/in)",
+   "company": "Finanz Informatik GmbH & Co. KG",
+   "location": "Münster, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "HR Analyst / Mitarbeiter (m/w/d) HR Reporting (Controller/in)",
+   "company": "KiK Textilien und Non-Food GmbH",
+   "location": "Unna, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst Kreditlösungen für Individualkunden ( ... (Business-Analyst/in)",
+   "company": "Finanz Informatik GmbH & Co. KG",
+   "location": "Münster, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "IT Business Analyst Reporting (w/m/d) (Digital-Analyst/in)",
+   "company": "Bechtle AG",
+   "location": "Heilbronn, Landkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst (w/m/d) im Regulatorischen Reporting (Controller/in)",
+   "company": "Frankfurter Sparkasse",
+   "location": "Frankfurt am Main, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Analyst OSPlus_neo Verbundpartnerintegration (m ... (Business-Analyst/in)",
+   "company": "Finanz Informatik GmbH & Co. KG",
+   "location": "Münster, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "IT Business Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "ISG Personalmanagement GmbH",
+   "location": "Schleswig-Holstein, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analytics & Reporting Coordinator (m/w/d) – Controlling (Data-Analyst/in)",
+   "company": "STÖBER Antriebstechnik GmbH & Co. KG",
+   "location": "Pforzheim, Stadtkreis, Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Business Analyst / Fachberater Förderbankprozess ... (Business-Analyst/in)",
+   "company": "Finanz Informatik Solutions Plus GmbH",
+   "location": "Frankfurt am Main, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Expert Reporting Systems (m/w/d) im Group Financial Reporting (Betriebswirt/in (Hochschule))",
+   "company": "REWE Group",
+   "location": "Köln, Kreisfreie Stadt, Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Analyst",
+   "company": "GCS",
+   "location": "Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Analyst -  Advanced Analytics Finance (m/f/d)",
+   "company": "adidas",
+   "location": "Herzogenaurach, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Senior) Consultant Data & Analytics - People Advisory Services (f/m/d)",
+   "company": "EY",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Junior Specialist Measurement Science (m/w/d)",
+   "company": "Circana",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Analysten / Data Analystinnen (m/w/d)",
+   "company": "Bayer. Landesamt für Statistik Dienststelle Fürth",
+   "location": "Fürth, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Pricing & Data Analyst (m/w/d/pixelhead) für unsere Tochterfirma RE-IN",
+   "company": "Conrad Electronic Group",
+   "location": "Hirschau, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Junior) BI Analyst (m/w/d) SAP Reporting",
+   "company": "KURZ",
+   "location": "Fürth, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Junior) Analyst Data & Customer Insights (m/w/d)",
+   "company": "Netto Marken-Discount",
+   "location": "Maxhütte-Haidhof, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Pricing & Data Analyst (m/w/d/pixelhead) für unsere Tochterfirma RE-IN",
+   "company": "Conrad Electronic Group",
+   "location": "Greater Nuremberg Metropolitan Area",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Umsetzungsexperte (m/w/d) strategische Werkzeuge Fokus Business Intelligence & KI",
+   "company": "Firmengruppe Max Bögl",
+   "location": "Sengenthal, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Controller / Data Analyst (m/w/d) – Power BI & Business Partnering (m/w/d)",
+   "company": "11teamsports Group",
+   "location": "Satteldorf, Baden-Württemberg, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Consultant Data / Cloud Analytics / Regulatory (m/w/d) in Nürnberg",
+   "company": "Deloitte",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Inhouse Consultant Reporting & Business Intelligence",
+   "company": "NovaSearch GmbH",
+   "location": "Roth, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Business & Pricing Analyst (m/w/d)",
+   "company": "REHAU Window Solutions",
+   "location": "Erlangen, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Seniorberater:in / Manager:in / Projektmanager:in (m/w/d) SAP BI/SAC",
+   "company": "Instaffo",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Data Quality Consultant* (m/w/d)",
+   "company": "curexus GmbH",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Senior) Consultant in SAP Data Analytics (all genders)",
+   "company": "MHP – A Porsche Company",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Specialist People Analytics (m/w/d)",
+   "company": "Diehl Metering",
+   "location": "Ansbach, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Analyst (m/w/d) - Erneuerbare Energien Windkraft",
+   "company": "Firmengruppe Max Bögl",
+   "location": "Sengenthal, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Mathematiker/Mathematikerin / Physiker/Physikerin für die Unternehmensberatung (w/m/d)",
+   "company": "KPMG Deutschland",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "AI & Data Consultant (m/w/d)",
+   "company": "KUMAVISION AG",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Senior) Data Analytics & BI Consultant / Banking (all genders)",
+   "company": "msg for banking ag",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Senior) Consultant Data Analytics (all genders)",
+   "company": "msg",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Junior) Analyst Daten & Prozesse (m/w/d)",
+   "company": "Netto Marken-Discount",
+   "location": "Maxhütte-Haidhof, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Senior) Consultant (m/w/d) Data Warehouse Design | Senior Data Analyst",
+   "company": "MID GmbH",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Supply Chain Network Design Analyst EMEA (m/f/d)",
+   "company": "KNAUF",
+   "location": "Kitzingen, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Analyst - Advanced Analytics Finance (m/f/d)",
+   "company": "adidas",
+   "location": "Herzogenaurach, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Working Student (f/m/d) in Testing Support/Automation",
+   "company": "Siemens Healthineers",
+   "location": "Erlangen, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Treasury Manager Liquidity & Subsidiary Financing (f/m/d)",
+   "company": "Siemens Healthineers",
+   "location": "Erlangen, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Consultant Data / Cloud Analytics / Regulatory (m/w/d)",
+   "company": "Deloitte",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Deine Chance: Datenmanagement Upskilling - SQL, Microsoft Azure & Power BI für den schnellen Wiedereinstieg",
+   "company": "Smart Future Campus GmbH",
+   "location": "Ingolstadt, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Engineer (m/w/d)",
+   "company": "CONRAD ELECTRONIC",
+   "location": "Hirschau, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Analyst",
+   "company": "Paessler GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Junior) BI Analyst (m/w/d) SAP Reporting",
+   "company": "LEONHARD KURZ Stiftung & Co. KG",
+   "location": "Fürth, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "IT Security Analyst (m/f/d)",
+   "company": "BizLink Industry Germany",
+   "location": "Roth, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Director of GTM Operations",
+   "company": "Paessler GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Analyst (m/w/d)",
+   "company": "BellandVision GmbH",
+   "location": "Pegnitz, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Army TAP",
+   "company": "CALIBRE Systems",
+   "location": "Grafenwöhr, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Data Engineer (m/w/d)",
+   "company": "Bertrandt",
+   "location": "Erlangen, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Business Analyst (m/w/d)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Network Administrator II",
+   "company": "V2X",
+   "location": "Hohenfels, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Cloud Architect (w/m/d)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Product Researcher (m/w/d)",
+   "company": "CONRAD ELECTRONIC",
+   "location": "Hirschau, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Pricing & Data Analyst (m/w/d/pixelhead)",
+   "company": "CONRAD ELECTRONIC",
+   "location": "Hirschau, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software-Architect (m/w/d)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Senior) Consultant (m/w/d) Data Warehouse Design | Senior Data Analyst",
+   "company": "MID GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Insights Analyst",
+   "company": "TechBiz Global GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Fullstack-Entwickler (m/w/d)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "GenAI Solutions Architect (w|m|d)",
+   "company": "BridgingIT GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Engineers, Analysts & Scientists (w|m|d)",
+   "company": "BridgingIT GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "HR Data Analyst (gn) - remote (Data-Analyst/in)",
+   "company": "aquitas GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant (m/w/d) Data Warehouse Design | Senior Data Analyst (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "MID GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Engineers, Analysts & Scientists (w|m|d) (Data Engineer)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data & AI Analyst (m/w/d) (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Azure Data Factory & Spark Data Engineer (w|m|d) (Data Engineer)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Data & Platform Architect (w|m|d) (Data-Consultant)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Strategy & Data Governance Consultant (w|m|d) (Data Scientist)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Principal Data Engineer (m/w/d) (Data Engineer)",
+   "company": "Alexander Thamm GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Engineer (m/w/d) (Data Engineer)",
+   "company": "Alexander Thamm GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Engineer (w/m/d) - Beratung zu skalierbaren und innovativen Datenplattformen (Data Wareh (Data Engineer)",
+   "company": "Passion for People GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Scientist People Analytics (m/w/d) (Data Scientist)",
+   "company": "LZ Informatik",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Consultant Data & AI Solutions (w|m|d) (Data Scientist)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Architect (m/w/d) mit Schwerpunkt Data Mesh und Semantic Technologies (Data Engineer)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Scientist (m/w/d) – Fokus Business Analytics (Data Scientist)",
+   "company": "Alexander Thamm GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant (w/m/d) Data & AI (Data-Consultant)",
+   "company": "Dataciders SE",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Professional Data-Engineer (m/w/d) (Data Scientist)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant (m/w/d) Data Science / Künstliche Intelligenz / AI (Data-Consultant)",
+   "company": "MID GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT Solution Engineer - Data Center Networking (m/w/d),Nürnberg,Regensburg,Hauzenberg (IT-Lösungsentwickler/in)",
+   "company": "ACP IT Solutions AG (Hauzenberg/Regensburg/Nürnberg)",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Dokumenten- und Datenmanager (m/w/d) Hochbau,Hamburg,Frankfurt am ... (Data Engineer)",
+   "company": "Max Bögl Bauservice GmbH und Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Semantic Governance Architect (m/w/d) (Data Scientist)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Business Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT Security Analyst (all genders) / Cyber Defense Analyst (all genders) (Cyber-Security-Consultant)",
+   "company": "DATAGROUP Operations GmbH Geschäftsstelle Bremen",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Business Analyst in IT- und Agentic AI-Projekten (w|m|d) (Business-Analyst/in)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant Data Science - AI and Data (w/m/d) (Informatiker/in)",
+   "company": "EY Consulting GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Engineer - Data Warehouse & Lakehouse (m/w/d) (IT-Lösungsentwickler/in)",
+   "company": "ORDIX AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "KYC Analyst (m/w/d) (Geldwäschebeauftragte/r)",
+   "company": "univativ GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "E-Commerce Data & Application Manager (m/w/d) für die Kita-Branche (E-Commerce-Manager/in)",
+   "company": "Business by Nature GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT-Projektmanager / Business Analysten (m/w/d) (IT-Organisator/in)",
+   "company": "LGA Landesgewerbeanstalt Bayern KdöR",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Analyst, Indoor (m/w/d) (Vertriebscontroller/in)",
+   "company": "DSV - Global Transport and Logistics",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Analyst, Indoor (m/w/d) (Vertriebscontroller/in)",
+   "company": "DSV Contract Logistics Krefeld GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BI & Analytics Tech Lead (m/w/d) (Business-Analyst/in)",
+   "company": "Tempton Next Level Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BI & Analytics Tech Lead (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "TEMPTON Next Level Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant (m/w/d) Data Vault (Informatiker/in)",
+   "company": "MID GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data & AI Consultant (m/w/d) (IT-Systemadministrator/in)",
+   "company": "PRODATO",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AI & Data Consultant (m/w/d) (ERP-Systembetreuer/in)",
+   "company": "KUMAVISION AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Architecture Consultant (m/w/d) (IT-Berater/in)",
+   "company": "BWI GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Platform Architect (m/w/d) (IT-Lösungsentwickler/in)",
+   "company": "ORDIX AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Architect (w/m/d) (IT-Entwickler/in (Weiterbildung/Ausbildung))",
+   "company": "Bechtle AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant Data & AI Governance (w|m|d) (Unternehmensberater/in)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Platform Engineer (m/w/d) (Entwickler/in Digitale Medien)",
+   "company": "ORDIX AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Consultant Sovereign Data Platforms (m/w/d) (IT-Berater/in)",
+   "company": "ORDIX AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Consultant Data Management & Machine Learning (m/w/d) (IT-Berater/in)",
+   "company": "BWI GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant Data Engineering & AI (w/m/d) (IT-Berater/in)",
+   "company": "Bechtle AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant Data & Analytics - People Advisory Services (f/m/d) (Informatiker/in)",
+   "company": "EY Tax GmbH Steuerberatungsgesellschaft",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Professur für Data Science in Politik und Gesellschaft (W2) (Professor/in - Fachhochschulen)",
+   "company": "Technische Hochschule Nürnberg Georg Simon Ohm Land Bayern",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Teamleiter (all genders) Network Datacenter (Gruppen-, Teamleiter/in)",
+   "company": "DATAGROUP Operations GmbH Geschäftsstelle Bremen",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Duales Studium - Wirtschaftsinformatik Data Science & KI (w/m/d) (Start 2027) (Bachelor Professional - IT)",
+   "company": "Bechtle AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT Solution Engineer - Data Center Networking (m/w/d) - Gestalte mit uns IT-Landschaften (IT-Administrator/in)",
+   "company": "ACP IT Solutions AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Knowledge-Engineer (m/w/d) (Informatiker/in)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Scrum Master (m/w/d) (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Projektmanager (m/w/d) im Bereich IT/PMO (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Application Specialist (m/w/d) Microsoft Dynamics (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Security Consultant (m/w/d) DevSecOps / Application Security (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Application Manager (m/w/d) (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Consultant (m/w/d) BI & Analytics (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Spezialist Systeme und Prozesse im Lesermarkt (m/w/d) (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Verlag Nürnberger Presse Druckhaus Nürnberg GmbH & Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Executive IT‐Architect Analytics & Künstlicher Intelligenz (KI) (m/w/d) (Informatiker/in)",
+   "company": "BWI GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "HR Data Analyst (gn) - remote",
+   "company": "aquitas GmbH",
+   "location": "Nürnberg, Bayern",
+   "provider": "Adzuna",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "HR Data Analyst (gn) - remote",
+   "company": "aquitas GmbH",
+   "location": "Rennweg, Nürnberg",
+   "provider": "Adzuna",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "Clinical Data Analyst (m/w/d) – Klinische Studien Digital Health",
+   "company": "viatolea",
+   "location": "Schoppershof, Nürnberg",
+   "provider": "Adzuna",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "(Senior) Consultant (m/w/d) Data Warehouse Design | Senior Data Analyst",
+   "company": "MID",
+   "location": "Gleißbühl, Nürnberg",
+   "provider": "Adzuna",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "Senior Microsoft AI & Copilot Engineer (m/w/d)",
+   "company": "think about IT GmbH",
+   "location": "Gibitzenhof, Nürnberg",
+   "provider": "Adzuna",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "Snowflake Data Engineer (all genders)",
+   "company": "adesso SE",
+   "location": "Nürnberg, Bayern",
+   "provider": "Adzuna",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}

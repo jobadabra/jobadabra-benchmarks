@@ -1,0 +1,162 @@
+{
+ "persona": {
+  "family": "marketing",
+  "title": "Digital Marketing Manager",
+  "kind": "tech",
+  "city": "Zagreb",
+  "country": "Croatia",
+  "language": "Croatian"
+ },
+ "seed": "bench-judge-6",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 15,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Head of Growth",
+   "company": "Fonio",
+   "location": "Vienna; London; Munich; European Union; Barcelona",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "VP, Growth",
+   "company": "Nivoda",
+   "location": "Remote",
+   "provider": "Nivoda",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Creative Marketing Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Creative Marketing Manager - Liven",
+   "company": "SKELAR",
+   "location": "Global, Remote; Any of our Offices (Kyiv / Lviv / Warsaw)",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Head of Marketing",
+   "company": "SKELAR",
+   "location": "Kyiv; Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Analyst",
+   "company": "SKELAR",
+   "location": "Kyiv; Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Designer switch to Creative Marketing Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "SMM switch to Creative Marketing Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Lead",
+   "company": "SKELAR",
+   "location": "Kyiv; Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Marketing Manager",
+   "company": "Yubo",
+   "location": "Paris - Full Remote",
+   "provider": "Yubo",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Google Ads Specialist",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior/Lead Lifecycle Marketing Manager (Full Remote - Europe)",
+   "company": "everai",
+   "location": "Europe",
+   "provider": "everai",
+   "role": "yes",
+   "place": "remote"
+  }
+ ]
+}

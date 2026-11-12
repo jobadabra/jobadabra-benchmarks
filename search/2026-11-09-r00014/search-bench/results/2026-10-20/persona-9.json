@@ -1,0 +1,2907 @@
+{
+ "persona": {
+  "family": "support",
+  "title": "Customer Support Agent",
+  "kind": "tech",
+  "city": "Sofia",
+  "country": "Bulgaria",
+  "language": "Bulgarian"
+ },
+ "seed": "bench-judge-9",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 312,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "3e",
+   "location": "Canton, OH; Remote VA; Remote OH; Remote NC; Remote PA; Remote MA; Remote GA; Remote FL; Washington DC Metro Area; Bethesda, Maryland; Charlottesville, VA (Hybrid)",
+   "provider": "3e",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Team Manager, Customer Implementations",
+   "company": "3e",
+   "location": "Canton, OH; Remote VA; Remote OH; Remote NC; Remote PA; Remote MA; Remote GA; Remote FL; Washington DC Metro Area",
+   "provider": "3e",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Deployment Manager, Scale",
+   "company": "Cursor",
+   "location": "Remote",
+   "provider": "Cursor",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst, User Operations",
+   "company": "Cursor",
+   "location": "Remote",
+   "provider": "Cursor",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Engineer",
+   "company": "Cursor",
+   "location": "Remote; New York; San Francisco",
+   "provider": "Cursor",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Engineer, Healthcare",
+   "company": "Cursor",
+   "location": "Remote",
+   "provider": "Cursor",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Engineer, Life Sciences",
+   "company": "Cursor",
+   "location": "Remote",
+   "provider": "Cursor",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Engineer, Public Sector",
+   "company": "Cursor",
+   "location": "Remote; Washington, D.C.",
+   "provider": "Cursor",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Education Engineer",
+   "company": "Cursor",
+   "location": "New York; San Francisco; EMEA",
+   "provider": "Cursor",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "Enode",
+   "location": "Remote - Europe",
+   "provider": "Enode",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Enterprise Customer Support Specialist",
+   "company": "Perplexity",
+   "location": "Belgrade; London; Remote; Berlin; Ireland",
+   "provider": "Perplexity",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Specialist (Billing&Payments)",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support (Payments & Billing)",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Agent - Dressly",
+   "company": "SKELAR",
+   "location": "Global, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Specialist",
+   "company": "SKELAR",
+   "location": "Global, Remote; Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "🌐 Security & Legal Specialist - Customer Care",
+   "company": "Alan",
+   "location": "Anywhere in France",
+   "provider": "Alan",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Client Support Specialist (Workplaces - B2B)",
+   "company": "Clipboard",
+   "location": "Remote (South Africa)",
+   "provider": "Clipboard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Client Support Specialist (Workplaces - B2B)",
+   "company": "Clipboard",
+   "location": "Remote (Philippines)",
+   "provider": "Clipboard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Client Support Specialist (Workplaces - B2B)",
+   "company": "Clipboard",
+   "location": "Remote (Jamaica)",
+   "provider": "Clipboard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Customer Support Engineer - EMEA",
+   "company": "ClickHouse",
+   "location": "EMEA; United Kingdom; The Netherlands",
+   "provider": "ClickHouse",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Customer Support Engineer, AI Infrastructure & Observability - EMEA",
+   "company": "ClickHouse",
+   "location": "EMEA",
+   "provider": "ClickHouse",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer - L1",
+   "company": "ddn",
+   "location": "Wheat Ridge Office; Remote - Colorado",
+   "provider": "ddn",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst - Customer Support",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Specialist",
+   "company": "ElevenLabs",
+   "location": "Remote; Sofia; Poland; Spanish LATAM; Philippines; Canada",
+   "provider": "ElevenLabs",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer",
+   "company": "NetBird",
+   "location": "+/-1 Central European Time/Remote; Eastern Standard Time/Remote",
+   "provider": "NetBird",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Analyst",
+   "company": "rain",
+   "location": "New York, NY; Europe | Spain",
+   "provider": "rain",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Analyst",
+   "company": "rain",
+   "location": "Europe",
+   "provider": "rain",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Specialist, Creative Enterprise Tier 3",
+   "company": "Runway",
+   "location": "Remote",
+   "provider": "Runway",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Specialist, US Tier 2",
+   "company": "Runway",
+   "location": "Remote; Seattle, WA; New York, NY; San Francisco, CA",
+   "provider": "Runway",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Specialist, APAC Tier 1",
+   "company": "Runway",
+   "location": "Remote",
+   "provider": "Runway",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Support Specialist (German-speaking)",
+   "company": "secfix",
+   "location": "Remote - Germany, Austria, Poland, the UK or Turkey",
+   "provider": "secfix",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Support Specialist",
+   "company": "secfix",
+   "location": "Remote - Germany, Austria, Poland, the UK or Turkey",
+   "provider": "secfix",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Scientific Support Specialist",
+   "company": "Uncountable",
+   "location": "Remote",
+   "provider": "Uncountable",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "IT Help Desk Technician",
+   "company": "Acronis",
+   "location": "Sofia, BGR",
+   "provider": "Acronis",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Specialist",
+   "company": "aircallioinc",
+   "location": "Remote NA",
+   "provider": "aircallioinc",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer, Triage & Discovery",
+   "company": "alloy",
+   "location": "Remote",
+   "provider": "alloy",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Service & Technical Support Engineer",
+   "company": "Aixtron SE",
+   "location": "Unspecified",
+   "provider": "Aixtron SE",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support",
+   "company": "Hetzner",
+   "location": "Sofia",
+   "provider": "Hetzner",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support",
+   "company": "Hetzner",
+   "location": "Sofia",
+   "provider": "Hetzner",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Quereinsteiger",
+   "company": "Hetzner",
+   "location": "Sofia",
+   "provider": "Hetzner",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Specialist- Domains, DNS & SSL (m/w/d)",
+   "company": "Hetzner",
+   "location": "Sofia",
+   "provider": "Hetzner",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Software Support Specialist II (Security)",
+   "company": "connectwise",
+   "location": "PHL Remote",
+   "provider": "connectwise",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Specialist II (Backup / Restore, Networking)",
+   "company": "connectwise",
+   "location": "PHL Remote",
+   "provider": "connectwise",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer (L1/Frontline Support)",
+   "company": "databento",
+   "location": "Remote / Boston / Salt Lake City / San Francisco / New York",
+   "provider": "databento",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer (L1/Frontline Support), APAC",
+   "company": "databento",
+   "location": "Remote / Hong Kong / Shanghai / Singapore / Beijing / Seoul / Tokyo / Kuala Lumpur",
+   "provider": "databento",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer (L1/Frontline Support), EU",
+   "company": "databento",
+   "location": "Remote / London",
+   "provider": "databento",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Manager, Technical Support Engineering",
+   "company": "gomotive",
+   "location": "Pakistan - Remote",
+   "provider": "gomotive",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer II",
+   "company": "liveperson",
+   "location": "Sofia, Bulgaria",
+   "provider": "liveperson",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Specialist I",
+   "company": "muckrack",
+   "location": "Remote (Bulgaria)",
+   "provider": "muckrack",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Service Representative",
+   "company": "neweratech",
+   "location": "Remote",
+   "provider": "neweratech",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Technical Support Manager, Enterprise",
+   "company": "Mozilla",
+   "location": "Remote Germany",
+   "provider": "Mozilla",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Technical Support Manager, Enterprise",
+   "company": "Mozilla",
+   "location": "Remote",
+   "provider": "Mozilla",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Specialist",
+   "company": "nmi",
+   "location": "Remote, UK",
+   "provider": "nmi",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operational Services Support Specialist",
+   "company": "ocadogroup",
+   "location": "Sofia, Bulgaria",
+   "provider": "ocadogroup",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "L3 Technical Support Engineer",
+   "company": "opswat",
+   "location": "AMER - Remote",
+   "provider": "opswat",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Engineer",
+   "company": "planetscale",
+   "location": "EMEA or NA",
+   "provider": "planetscale",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Help Desk Manager",
+   "company": "raft",
+   "location": "Remote; Colorado Springs, CO",
+   "provider": "raft",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Service Agent",
+   "company": "sezzle",
+   "location": "Colombia, Remote",
+   "provider": "sezzle",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer - Platform Support",
+   "company": "talkdesk2",
+   "location": "Remote",
+   "provider": "talkdesk2",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer - Porting Team",
+   "company": "talkdesk2",
+   "location": "Remote",
+   "provider": "talkdesk2",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Engineer (Tier 1)",
+   "company": "Tailscale",
+   "location": "Remote (United Kingdom)",
+   "provider": "Tailscale",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer I",
+   "company": "Tines",
+   "location": "Ireland (Remote)",
+   "provider": "Tines",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Analyst with French (Collections)",
+   "company": "tide",
+   "location": "Bulgaria",
+   "provider": "tide",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Executive with German (Onboarding)",
+   "company": "tide",
+   "location": "Bulgaria",
+   "provider": "tide",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Engineer (CSE)",
+   "company": "ujet",
+   "location": "Remote, Philippines",
+   "provider": "ujet",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer",
+   "company": "Twilio",
+   "location": "Remote - Ireland",
+   "provider": "Twilio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer",
+   "company": "Twilio",
+   "location": "Remote - Estonia",
+   "provider": "Twilio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer 2",
+   "company": "Twilio",
+   "location": "Remote - Ireland",
+   "provider": "Twilio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer 2",
+   "company": "Twilio",
+   "location": "Remote - Ireland",
+   "provider": "Twilio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer 2",
+   "company": "Twilio",
+   "location": "Remote - Ireland",
+   "provider": "Twilio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer 2",
+   "company": "Twilio",
+   "location": "Remote - Ireland",
+   "provider": "Twilio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Expert 2",
+   "company": "Twilio",
+   "location": "Remote - Colombia",
+   "provider": "Twilio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Expert 2",
+   "company": "Twilio",
+   "location": "Remote - Colombia",
+   "provider": "Twilio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Auckland, New Zealand",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Austin, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Barcelona, Spain",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Belfast, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Birmingham, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Boston, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Brighton, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Bristol, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Cambridge, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Canterbury, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Charlotte, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Colchester, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Columbus, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Coventry, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Dallas, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Denver, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Edinburgh, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - El Paso, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Fort Worth, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Glasgow, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Indianapolis, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Jacksonville, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Las Vegas, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Leeds, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Liverpool, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - London, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Madrid, Spain",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Manchester, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Mexico city, Mexico",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Nashville, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Newcastle upon Tyne, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Nottingham, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Oklahoma City, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Oxford, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Portland, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - San Diego, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - San Francisco, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - San Jose, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Seattle, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Sheffield, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Valencia, Spain",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Reps - AI Training - Washington DC, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Research Participants - Customer Service (Fully Remote)",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer-PACS",
+   "company": "deephealth",
+   "location": "Remote job",
+   "provider": "deephealth",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer",
+   "company": "deephealth",
+   "location": "Remote job",
+   "provider": "deephealth",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer-RIS- US",
+   "company": "deephealth",
+   "location": "Remote job",
+   "provider": "deephealth",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Specialist",
+   "company": "Devexperts",
+   "location": "Sofia, bg",
+   "provider": "Devexperts",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Сътрудник Обслужване на клиенти – 8 часов работен ден (по заместване)",
+   "company": "IKEA",
+   "location": "Varna, bg",
+   "provider": "IKEA",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Сътрудник обслужване на клиенти – Замени и Връщания, 8-часов работен ден, магазин ИКЕА София",
+   "company": "IKEA",
+   "location": "Sofia, bg",
+   "provider": "IKEA",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Сътрудник обслужване на клиенти - Паркинг 6-часов работен ден",
+   "company": "IKEA",
+   "location": "Sofia, bg",
+   "provider": "IKEA",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Сътрудник обслужване на клиенти - Паркинг 6-часов работен ден",
+   "company": "IKEA",
+   "location": "Sofia, bg",
+   "provider": "IKEA",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Сътрудник обслужване на клиенти - Паркинг 6-часов работен ден",
+   "company": "IKEA",
+   "location": "Sofia, bg",
+   "provider": "IKEA",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Service Associate 24/7",
+   "company": "Playtech",
+   "location": "Sofia, bg",
+   "provider": "Playtech",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Global IT Support Specialist",
+   "company": "Playtech",
+   "location": "Sofia, bg",
+   "provider": "Playtech",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Service Associate",
+   "company": "Playtech",
+   "location": "Sofia, bg",
+   "provider": "Playtech",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Service Associate with Dutch",
+   "company": "Playtech",
+   "location": "Sofia, bg",
+   "provider": "Playtech",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Specialist with Swedish and English",
+   "company": "Sutherland",
+   "location": "Sofia, bg",
+   "provider": "Sutherland",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer chat support agent with Portuguese and English - on site in Varna, Bulgaria",
+   "company": "Sutherland",
+   "location": "Varna, Varna, Bulgaria, bg",
+   "provider": "Sutherland",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Associate with Danish & English – Sofia",
+   "company": "Sutherland",
+   "location": "Sofia, bg",
+   "provider": "Sutherland",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Chat support Specialist with German and English - Varna, Bulgaria",
+   "company": "Sutherland",
+   "location": "Varna, Varna, Bulgaria, bg",
+   "provider": "Sutherland",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Chat Support Specialist with Romanian and English - Varna, Bulgaria",
+   "company": "Sutherland",
+   "location": "Varna, Varna, Bulgaria, bg",
+   "provider": "Sutherland",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Associate with Norwegian & English – Sofia",
+   "company": "Sutherland",
+   "location": "Sofia, Sofia City Province, Bulgaria, bg",
+   "provider": "Sutherland",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Associate – Polish & English | Telecom Project",
+   "company": "Sutherland",
+   "location": "Sofia, Sofia City Province, Bulgaria, bg",
+   "provider": "Sutherland",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Associate with Swedish & English – Sofia",
+   "company": "Sutherland",
+   "location": "Sofia, Sofia City Province, Bulgaria, bg",
+   "provider": "Sutherland",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Advisor (Polish)",
+   "company": "davidkennedyrecruitment",
+   "location": "Sofia, Bulgaria; Plovdiv, Bulgaria; Varna, Bulgaria; Burgas, Bulgaria; Ruse, Bulgaria; Pleven, Bulgaria; Stara Zagora, Bulgaria; Shumen, Bulgaria",
+   "provider": "davidkennedyrecruitment",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Service Advisor (German)",
+   "company": "davidkennedyrecruitment",
+   "location": "Sofia, Bulgaria; Plovdiv, Bulgaria; Varna, Bulgaria; Burgas, Bulgaria; Ruse, Bulgaria; Pleven, Bulgaria; Stara Zagora, Bulgaria; Shumen, Bulgaria",
+   "provider": "davidkennedyrecruitment",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "IT Field Operations Support Specialist",
+   "company": "Dormakaba",
+   "location": "Sofia, BG",
+   "provider": "Dormakaba",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Care Agent (German)",
+   "company": "Dormakaba",
+   "location": "Sofia, BG",
+   "provider": "Dormakaba",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Care Agent - English + Another language",
+   "company": "Dormakaba",
+   "location": "Sofia, BG",
+   "provider": "Dormakaba",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Part-time Customer Care Agent with German (4-hours)",
+   "company": "Dormakaba",
+   "location": "Sofia, BG",
+   "provider": "Dormakaba",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Commercial Account Support Specialist for Belgium",
+   "company": "Dormakaba",
+   "location": "Sofia, BG",
+   "provider": "Dormakaba",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Commercial Account Support Specialist with English",
+   "company": "Dormakaba",
+   "location": "Sofia, BG",
+   "provider": "Dormakaba",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Specialist (Night Shift)",
+   "company": "Nextiva",
+   "location": "Remote (Ukraine)",
+   "provider": "Jobicy",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Експерт Функционална поддръжка Картови системи, София",
+   "company": "Банка ДСК АД",
+   "location": "София",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Консултант Индивидуално банкиране, Финансов център Разград",
+   "company": "Банка ДСК АД",
+   "location": "Разград",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Application Support Engineer (Support Level 1)",
+   "company": "Devexperts",
+   "location": "София",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Service Engineer (all genders)",
+   "company": "Aixtron SE",
+   "location": "Sofia",
+   "provider": "Aixtron SE",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Experience Guide",
+   "company": "Bunq",
+   "location": "Sofia, Sofia (stolitsa), Bulgaria",
+   "provider": "Bunq",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Security IT Support Engineer",
+   "company": "Crypto AG",
+   "location": "Sofia",
+   "provider": "Crypto AG",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "ITSM Quality and Escalation Manager",
+   "company": "Dormakaba",
+   "location": "Sofia, BG",
+   "provider": "Dormakaba",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Client Delivery Associate",
+   "company": "Experian",
+   "location": "Sofia, bg",
+   "provider": "Experian",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Zendesk Admin, Operations Consultant (m/f/d)",
+   "company": "Flix",
+   "location": "Sofia",
+   "provider": "Flix",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Zendesk Manager / Developer of Solutions for Migrations into Zendesk (m/f/d)",
+   "company": "Flix",
+   "location": "Sofia",
+   "provider": "Flix",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Оператор контактен център /изходящи обаждания и имейли/ 8 часов работен ден",
+   "company": "IKEA",
+   "location": "Sofia, bg",
+   "provider": "IKEA",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Оператор контактен център /изходящи обаждания и имейли/, 4 - часов работен ден",
+   "company": "IKEA",
+   "location": "Sofia, bg",
+   "provider": "IKEA",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Оператор контактен център /изходящи обаждания и имейли/, 4 и 6-часов работен ден",
+   "company": "IKEA",
+   "location": "Sofia, bg",
+   "provider": "IKEA",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Оператор контактен център /изходящи обаждания и имейли/, 4 и 6-часов работен ден",
+   "company": "IKEA",
+   "location": "Sofia, bg",
+   "provider": "IKEA",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Касиери на пълно работно време, ж.к. Горубляне",
+   "company": "Kaufland",
+   "location": "София, BG, 1540",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Обслужващ магазин/ Служител филиал",
+   "company": "Kaufland",
+   "location": "София, BG",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители в отдели за нощни смени за хипермаркет Kaufland, район Кремиковци XOPark",
+   "company": "Kaufland",
+   "location": "София, BG, 1540",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители в отдели за нощни смени на непълно раб. време за хипермаркет Kaufland, ж.к. Слатина",
+   "company": "Kaufland",
+   "location": "София, BG, 1540",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители в отдели за нощни смени на непълно раб. време за хипермаркет Kaufland, ж.к. Хаджи Димитър",
+   "company": "Kaufland",
+   "location": "София, BG",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители в отдели и касиери на пълно работно време, ж.к. Хаджи Димитър",
+   "company": "Kaufland",
+   "location": "София, BG",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители в отдели и касиери на пълно работно време, ж.к.Банишора",
+   "company": "Kaufland",
+   "location": "София, BG, 1540",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители в отдели и касиери, ж.к. Крива река",
+   "company": "Kaufland",
+   "location": "София, BG, 1540",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители в отдели на пълно работно време за хипермаркет Kaufland, ж.к. Слатина",
+   "company": "Kaufland",
+   "location": "София, BG, 1540",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители в отдели на пълно работно време, Театрална, район Оборище",
+   "company": "Kaufland",
+   "location": "София, BG, 1540",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители в отдели на пълно работно време, Централни хали",
+   "company": "Kaufland",
+   "location": "София, BG, 1220",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители в отдели на пълно работно време, ж.к. Овча купел",
+   "company": "Kaufland",
+   "location": "София, BG, 1540",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители в отдели на пълно работно време, район Кремиковци XOPark",
+   "company": "Kaufland",
+   "location": "София, BG, 1540",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители на витрина с обслужване на пълно работно време, ж.к. Бъкстон",
+   "company": "Kaufland",
+   "location": "София, BG, 1540",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители на витрина с обслужване на пълно работно време, ж.к. Люлин 3",
+   "company": "Kaufland",
+   "location": "София, BG, 1220",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Служители на витрина с обслужване, ж.к. Дружба",
+   "company": "Kaufland",
+   "location": "София, BG",
+   "provider": "Kaufland",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Operations Client Partner",
+   "company": "NielsenIQ",
+   "location": "Sofia, bg",
+   "provider": "NielsenIQ",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Voice Recognition Executive with French",
+   "company": "NielsenIQ",
+   "location": "Sofia, bg",
+   "provider": "NielsenIQ",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Voice Recognition Executive with Italian",
+   "company": "NielsenIQ",
+   "location": "Sofia, bg",
+   "provider": "NielsenIQ",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Sportsbook Executive",
+   "company": "Playtech",
+   "location": "Sofia, bg",
+   "provider": "Playtech",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Engineer",
+   "company": "Playtech",
+   "location": "Sofia, bg",
+   "provider": "Playtech",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Desktop Support Technician",
+   "company": "ReviewTrackers",
+   "location": "Sofia, BGR",
+   "provider": "ReviewTrackers",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "KYC EDD Operations Agent (German)",
+   "company": "SumUp",
+   "location": "Sofia, Bulgaria",
+   "provider": "SumUp",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "KYC Operations Agent with Dutch",
+   "company": "SumUp",
+   "location": "Sofia, Bulgaria",
+   "provider": "SumUp",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "KYC Operations Agent with German",
+   "company": "SumUp",
+   "location": "Sofia, Bulgaria",
+   "provider": "SumUp",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Consultant with German and English – Hybrid",
+   "company": "Sutherland",
+   "location": "Sofia, Sofia City Province, Bulgaria, bg",
+   "provider": "Sutherland",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Spotify Non-Voice Support with French and English (Remote within Bulgaria) - Fixed Term Contract",
+   "company": "Sutherland",
+   "location": "Sofia, bg",
+   "provider": "Sutherland",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "UiPath",
+   "location": "Remote-Jakarta",
+   "provider": "UiPath",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Associate",
+   "company": "Wolt",
+   "location": "Sofia, Bulgaria",
+   "provider": "Wolt",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Engineer",
+   "company": "abinbev",
+   "location": "Remote",
+   "provider": "abinbev",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Representative | Betty CA",
+   "company": "bettyjobboard",
+   "location": "Sofia, Bulgaria",
+   "provider": "bettyjobboard",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Operations Specialist - Betty Shop",
+   "company": "bettyjobboard",
+   "location": "Sofia, Bulgaria",
+   "provider": "bettyjobboard",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Personal Service Assistant | Betty CA",
+   "company": "bettyjobboard",
+   "location": "Sofia, Bulgaria",
+   "provider": "bettyjobboard",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "clarasight",
+   "location": "Remote",
+   "provider": "clarasight",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "conga",
+   "location": "Remote United Kingdom",
+   "provider": "conga",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "conga",
+   "location": "Remote France",
+   "provider": "conga",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "dexory",
+   "location": "UK Remote & Travel",
+   "provider": "dexory",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Operations Specialist (12 Month FTC)",
+   "company": "edited",
+   "location": "Sofia Office",
+   "provider": "edited",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success -Travel Operations Specialist",
+   "company": "hopper",
+   "location": "Philippines - Remote; Manila - Remote",
+   "provider": "hopper",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Service Engineer - Solar Energy Solutions",
+   "company": "huaweidusseldorf-1719303222",
+   "location": "Sofia, Bulgaria",
+   "provider": "huaweidusseldorf-1719303222",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager | Bulgarian Market (Sofia)",
+   "company": "lexroom",
+   "location": "Sofia",
+   "provider": "lexroom",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Range Service Specialist",
+   "company": "ocadogroup",
+   "location": "Sofia, Bulgaria",
+   "provider": "ocadogroup",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "pingidentity",
+   "location": "UK - Remote",
+   "provider": "pingidentity",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Transfers Customer Experience Specialist",
+   "company": "trading212",
+   "location": "Sofia",
+   "provider": "trading212",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "wrike",
+   "location": "Estonia - Remote",
+   "provider": "wrike",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Project Manager (m/f/d) | German Required",
+   "company": "yoummday",
+   "location": "Sofia",
+   "provider": "yoummday",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Specialist, Premium",
+   "company": "Airbnb",
+   "location": "Canada",
+   "provider": "Airbnb",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Specialist, Premium",
+   "company": "Airbnb",
+   "location": "Canada",
+   "provider": "Airbnb",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Specialist, Safety",
+   "company": "Airbnb",
+   "location": "Canada",
+   "provider": "Airbnb",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Specialist, Safety",
+   "company": "Airbnb",
+   "location": "Korea",
+   "provider": "Airbnb",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Care Expert - Belgium 🇧🇪",
+   "company": "Alan",
+   "location": "Anywhere in Belgium; Anywhere in France",
+   "provider": "Alan",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Support Specialist - Australia",
+   "company": "Ashby",
+   "location": "Australia",
+   "provider": "Ashby",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Enterprise Customer Success Manager",
+   "company": "Canonical",
+   "location": "Home based - Worldwide",
+   "provider": "Canonical",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Sustaining Operations Engineer",
+   "company": "Canonical",
+   "location": "Home based - Worldwide",
+   "provider": "Canonical",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Experience Specialist",
+   "company": "Clipboard",
+   "location": "Remote (Africa, Central & South America, the Caribbean)",
+   "provider": "Clipboard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Experience Specialist",
+   "company": "Clipboard",
+   "location": "Remote (Philippines)",
+   "provider": "Clipboard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Onboarding Expert",
+   "company": "Clipboard",
+   "location": "Remote (Central & South America)",
+   "provider": "Clipboard",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer, Application Security",
+   "company": "Cloudflare",
+   "location": "In-Office",
+   "provider": "Cloudflare",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer, Zero Trust",
+   "company": "Cloudflare",
+   "location": "In-Office",
+   "provider": "Cloudflare",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "IT Support Specialist",
+   "company": "Cohere",
+   "location": "Korea",
+   "provider": "Cohere",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Supervisor, Customer Success Team",
+   "company": "Coinbase",
+   "location": "Remote - Cyprus",
+   "provider": "Coinbase",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Adoption Strategist - ANZ",
+   "company": "ElevenLabs",
+   "location": "Australia",
+   "provider": "ElevenLabs",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Adoption Strategist - North America",
+   "company": "ElevenLabs",
+   "location": "Remote",
+   "provider": "ElevenLabs",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Deployment Strategist - Mexico",
+   "company": "ElevenLabs",
+   "location": "Mexico",
+   "provider": "ElevenLabs",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Deployment Strategist - South Korea",
+   "company": "ElevenLabs",
+   "location": "Korea",
+   "provider": "ElevenLabs",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "IT Engineer",
+   "company": "ElevenLabs",
+   "location": "United States",
+   "provider": "ElevenLabs",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Support Specialist, Pacific/Mountain Time",
+   "company": "Linear",
+   "location": "North America",
+   "provider": "Linear",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "IT Engineer",
+   "company": "LiveKit",
+   "location": "North America",
+   "provider": "LiveKit",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "LiveKit",
+   "location": "United States (Remote)",
+   "provider": "LiveKit",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Specialist , UK",
+   "company": "Nash",
+   "location": "United Kingdom",
+   "provider": "Nash",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Specialist , US",
+   "company": "Nash",
+   "location": "Remote, US",
+   "provider": "Nash",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Specialist, AU",
+   "company": "Nash",
+   "location": "Australia",
+   "provider": "Nash",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Support Engineer - Toronto",
+   "company": "OpenAI",
+   "location": "Ontario - Remote",
+   "provider": "OpenAI",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Support Engineer - Toronto (Weekend Shift)",
+   "company": "OpenAI",
+   "location": "Ontario - Remote",
+   "provider": "OpenAI",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technischer Serviceberater Elektrik/Elektronik (w/m/d)",
+   "company": "Palfinger",
+   "location": "Bulgaria, Sofia",
+   "provider": "Palfinger",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "Payoneer",
+   "location": "Remote, US",
+   "provider": "Payoneer",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Enterprise Customer Success Manager",
+   "company": "Samsara",
+   "location": "Remote - Germany",
+   "provider": "Samsara",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Engineer",
+   "company": "SingleStore",
+   "location": "United States",
+   "provider": "SingleStore",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Engineer",
+   "company": "SingleStore",
+   "location": "India",
+   "provider": "SingleStore",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Social Media, Customer Support Associate (Includes Weekend Rotations)",
+   "company": "Stripe",
+   "location": "Mexico",
+   "provider": "Stripe",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Database Support Engineer (AMER)",
+   "company": "Supabase",
+   "location": "Remote, AMER",
+   "provider": "Supabase",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Database Support Engineer (EMEA)",
+   "company": "Supabase",
+   "location": "Remote, EMEA",
+   "provider": "Supabase",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager II - West",
+   "company": "Tines",
+   "location": "United States (Remote)",
+   "provider": "Tines",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Professional Services Engineer II",
+   "company": "Tines",
+   "location": "Ireland (Remote)",
+   "provider": "Tines",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer II - Federal",
+   "company": "Tines",
+   "location": "United States (Remote)",
+   "provider": "Tines",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff, Escalations Manager",
+   "company": "Twilio",
+   "location": "Remote - Spain",
+   "provider": "Twilio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "UiPath",
+   "location": "Remote-Sao Paulo",
+   "provider": "UiPath",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "UiPath",
+   "location": "Remote-Riyadh",
+   "provider": "UiPath",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "Veeam",
+   "location": "Remote, France",
+   "provider": "Veeam",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "Veeam",
+   "location": "Remote, United Kingdom",
+   "provider": "Veeam",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Support Specialist I (Merchant Care)",
+   "company": "affirm",
+   "location": "Remote Canada",
+   "provider": "affirm",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "arcanaanalytics",
+   "location": "India",
+   "provider": "arcanaanalytics",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Specialist",
+   "company": "attio",
+   "location": "Australia",
+   "provider": "attio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "axon",
+   "location": "Germany-Remote",
+   "provider": "axon",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "axon",
+   "location": "Canada",
+   "provider": "axon",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Representative",
+   "company": "axon",
+   "location": "Australia",
+   "provider": "axon",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "axonius",
+   "location": "Remote UK",
+   "provider": "axonius",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Experience Specialist",
+   "company": "beaconbiosignals",
+   "location": "Cleveland, OH - Boston, MA - Remote",
+   "provider": "beaconbiosignals",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer",
+   "company": "beyondtrust",
+   "location": "Remote Canada",
+   "provider": "beyondtrust",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "IT Support Specialist",
+   "company": "bjakcareer",
+   "location": "Malaysia",
+   "provider": "bjakcareer",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Care Companion I  (Part-Time, German Speaking)",
+   "company": "carrotfertility",
+   "location": "United Kingdom",
+   "provider": "carrotfertility",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Care Companion I (Overnight, Part-Time, Urdu Speaking)",
+   "company": "carrotfertility",
+   "location": "India",
+   "provider": "carrotfertility",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Coach - NORAM",
+   "company": "cloudbeds",
+   "location": "North America",
+   "provider": "cloudbeds",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "B2B Customer Experience Manager",
+   "company": "comfrt",
+   "location": "United States",
+   "provider": "comfrt",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "CX Social Representative",
+   "company": "comfrt",
+   "location": "United States",
+   "provider": "comfrt",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Associate (Req #1421)",
+   "company": "eplusinc",
+   "location": "Durham, North Carolina; Herndon, Virginia; Remote - Virginia",
+   "provider": "eplusinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "MSC Technical Account Manager (Req #1462)",
+   "company": "eplusinc",
+   "location": "Remote, US",
+   "provider": "eplusinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Midstream Natural Gas Scheduler (Transportation Services Representative I)",
+   "company": "eqtcorporation",
+   "location": "Remote",
+   "provider": "eqtcorporation",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Experience & Community Relations",
+   "company": "featherlessai",
+   "location": "Australia",
+   "provider": "featherlessai",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "glia",
+   "location": "Mexico",
+   "provider": "glia",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager - Enterprise",
+   "company": "gomotive",
+   "location": "Pakistan - Remote",
+   "provider": "gomotive",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Service Expert (Remote within APAC region, Contract)",
+   "company": "infuse",
+   "location": "Malaysia",
+   "provider": "infuse",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Service Expert (Remote within APAC region, Contract)",
+   "company": "infuse",
+   "location": "Thailand",
+   "provider": "infuse",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Associate - VE",
+   "company": "instructure",
+   "location": "Manila, Philippines (remote)",
+   "provider": "instructure",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "ispeedtolead",
+   "location": "Ukraine; Romania; Pakistan; Georgia; Bulgaria; Canada; Egypt; Serbia; Azerbaijan; India; Indonesia; Germany; Kazakhstan; United States; Spain; Netherlands; Armenia; Hungary; United Kingdom; Portugal; Moldova; Philippines; Poland",
+   "provider": "ispeedtolead",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "B2B Customer Support Representative",
+   "company": "keepersecurity",
+   "location": "Remote, US",
+   "provider": "keepersecurity",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Consumer Support Specialist (Weekend Shift, Sunday - Thursday)",
+   "company": "keepersecurity",
+   "location": "Remote, US",
+   "provider": "keepersecurity",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "keepersecurity",
+   "location": "Remote, US",
+   "provider": "keepersecurity",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "IT Support Specialist, Tier 2",
+   "company": "keepersecurity",
+   "location": "Remote, US",
+   "provider": "keepersecurity",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Enterprise Customer Success Manager",
+   "company": "mariadbplc",
+   "location": "Remote - Malaysia",
+   "provider": "mariadbplc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Software Support Analyst I",
+   "company": "mark43",
+   "location": "Remote",
+   "provider": "mark43",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "menlosecurity",
+   "location": "Mexico",
+   "provider": "menlosecurity",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Offline Customer Support Officer (Borno)",
+   "company": "moniepoint",
+   "location": "Delta, Nigeria",
+   "provider": "moniepoint",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Offline Customer Support Officer (Delta)",
+   "company": "moniepoint",
+   "location": "Delta, Nigeria",
+   "provider": "moniepoint",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager",
+   "company": "nozominetworks",
+   "location": "Australia",
+   "provider": "nozominetworks",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer",
+   "company": "nozominetworks",
+   "location": "India",
+   "provider": "nozominetworks",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer",
+   "company": "nozominetworks",
+   "location": "Canada",
+   "provider": "nozominetworks",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Service Representative (Asia Remote - Thai Speaker)",
+   "company": "nuitee",
+   "location": "Thailand",
+   "provider": "nuitee",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "orkes",
+   "location": "Australia",
+   "provider": "orkes",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "PostgreSQL Database Support Engineer - EMEA (Remote)",
+   "company": "percona",
+   "location": "EMEA; Bucharest; Dublin; UK; Warsaw; Lisbon; Frankfurt; Paris",
+   "provider": "percona",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "pingidentity",
+   "location": "UK - Remote",
+   "provider": "pingidentity",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Engineer",
+   "company": "planetscale",
+   "location": "US",
+   "provider": "planetscale",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Specialist *remote* (m/f/d)",
+   "company": "pliant",
+   "location": "United States (Remote)",
+   "provider": "pliant",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Support Engineer *EU/ Germany remote* (m/f/d)",
+   "company": "pliant",
+   "location": "Germany (Remote)",
+   "provider": "pliant",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "rithumliboard",
+   "location": "United Kingdom - Remote",
+   "provider": "rithumliboard",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager, Mid-Market (German-speaking)",
+   "company": "secfix",
+   "location": "Remote - Germany, Austria, Poland, the UK or Turkey",
+   "provider": "secfix",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Technical Support Engineer - Multiplatform & Cloud Security",
+   "company": "sentinellabs",
+   "location": "Czech Republic",
+   "provider": "sentinellabs",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer - Multiplatform & Cloud Security",
+   "company": "sentinellabs",
+   "location": "Czech Republic",
+   "provider": "sentinellabs",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer",
+   "company": "socket",
+   "location": "United States",
+   "provider": "socket",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer, APAC",
+   "company": "socket",
+   "location": "Australia",
+   "provider": "socket",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Manager",
+   "company": "tem",
+   "location": "United Kingdom",
+   "provider": "tem",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer - Future Opportunities - Columbia MD/Hybrid",
+   "company": "tenableinc",
+   "location": "US",
+   "provider": "tenableinc",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "CX Specialist (French & English Speaker)",
+   "company": "toogoodtogo",
+   "location": "Scotland (Remote)",
+   "provider": "toogoodtogo",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "CX Specialist (Italian & English Speaker)",
+   "company": "toogoodtogo",
+   "location": "Scotland (Remote)",
+   "provider": "toogoodtogo",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Travel Consultant (Berlin or Remote) (Geschäftsreiseexperte)",
+   "company": "tripactions",
+   "location": "Remote (Germany)",
+   "provider": "tripactions",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Travel Consultant (English Speaking) - Out of Hours",
+   "company": "tripactions",
+   "location": "Remote (Portugal)",
+   "provider": "tripactions",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Travel Consultant (Germany-Remote)",
+   "company": "tripactions",
+   "location": "Remote (Germany)",
+   "provider": "tripactions",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Travel Consultant - English - Remote Portugal",
+   "company": "tripactions",
+   "location": "Remote (Portugal)",
+   "provider": "tripactions",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Travel Consultant - French - Remote",
+   "company": "tripactions",
+   "location": "Remote (Portugal)",
+   "provider": "tripactions",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Travel Consultant - German - Remote",
+   "company": "tripactions",
+   "location": "Remote (Portugal)",
+   "provider": "tripactions",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Travel Consultant - Hebrew - Portugal",
+   "company": "tripactions",
+   "location": "Remote (Portugal)",
+   "provider": "tripactions",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "tulip",
+   "location": "Budapest, Hungary; EMEA - Remote; Munich, Germany",
+   "provider": "tulip",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Success Manager (International)",
+   "company": "uniti",
+   "location": "Remote - London",
+   "provider": "uniti",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Manager Americas - Mexico Remote",
+   "company": "wetravel",
+   "location": "Mexico",
+   "provider": "wetravel",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Support Manager Americas - US Remote",
+   "company": "wetravel",
+   "location": "United States",
+   "provider": "wetravel",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Account Manager",
+   "company": "wizinc",
+   "location": "Remote - Japan",
+   "provider": "wizinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Customer Support Specialist (Independent Contractor)",
+   "company": "AI Audio Platform",
+   "location": "Philippines (remote)",
+   "provider": "TechTree",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Customer Support Specialist (Independent Contractor)",
+   "company": "AI Audio Platform",
+   "location": "South Korea (remote)",
+   "provider": "TechTree",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Customer Support Specialist (Independent Contractor)",
+   "company": "AI Audio Platform",
+   "location": "China (remote)",
+   "provider": "TechTree",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Customer Support Specialist (Independent Contractor)",
+   "company": "AI Audio Platform",
+   "location": "Hong Kong (remote)",
+   "provider": "TechTree",
+   "role": "yes",
+   "place": "no"
+  }
+ ]
+}

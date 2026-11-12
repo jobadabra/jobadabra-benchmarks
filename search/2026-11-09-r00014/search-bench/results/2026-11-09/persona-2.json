@@ -1,0 +1,540 @@
+{
+ "persona": {
+  "family": "hr",
+  "title": "HR Generalist",
+  "kind": "non-tech",
+  "city": "Cluj-Napoca",
+  "country": "Romania",
+  "language": "Romanian"
+ },
+ "seed": "bench-judge-2",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 46,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "HR Manager",
+   "company": "3e",
+   "location": "Lancaster, UK",
+   "provider": "3e",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "People — Employment and Labor Law (France)",
+   "company": "alan",
+   "location": "Anywhere in France",
+   "provider": "alan",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Talent Partner",
+   "company": "WunderGraph",
+   "location": "EMEA",
+   "provider": "WunderGraph",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Associate",
+   "company": "SKELAR",
+   "location": "Global, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Associate - Brighterly",
+   "company": "SKELAR",
+   "location": "Kyiv or Lviv Office; Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Insurance graduate program - Belgian Market",
+   "company": "alan",
+   "location": "Anywhere in Belgium",
+   "provider": "alan",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operations Expert - Belgian Market",
+   "company": "alan",
+   "location": "Anywhere in Belgium",
+   "provider": "alan",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Business Partner / HR Manager",
+   "company": "PRIMARK MAGAZINE S.R.L.",
+   "location": "Cluj-Napoca, Romania",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Payroll & Admin",
+   "company": "MULTI-COLOR CORPORATION CLUJ NAPOCA S.R.L.",
+   "location": "Cluj-Napoca, Romania",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "People — Employment and Labor Law (France)",
+   "company": "alan",
+   "location": "Anywhere in France",
+   "provider": "alan",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Associate",
+   "company": "SKELAR",
+   "location": "Global, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Business Associate - Brighterly",
+   "company": "SKELAR",
+   "location": "Kyiv or Lviv Office; Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Talent Partner",
+   "company": "WunderGraph",
+   "location": "EMEA",
+   "provider": "WunderGraph",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "SPECIALIST RESURSE UMANE",
+   "company": "ICME ECAB SA",
+   "location": "Bucureşti, Romania",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "SPECIALIST RESURSE UMANE",
+   "company": "HP INC ROMANIA S.R.L",
+   "location": "Bucureşti, Romania",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "SPECIALIST RESURSE UMANE",
+   "company": "HARTING ROMÂNIA SCS",
+   "location": "Sibiu, Romania",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "SPECIALIST RESURSE UMANE",
+   "company": "TIMKEN ROMANIA SA",
+   "location": "Prahova, Romania",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "SPECIALIST RESURSE UMANE",
+   "company": "CONTAMAR FINANCE CONSULTING",
+   "location": "Prahova, Romania",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "FORMATOR",
+   "company": "ASOCIATIA DE CONSULTANTA SI CONSILIERE ECONOMICO-SOCIALA OLTENIA",
+   "location": "Dolj, Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "SPECIALIST ÎN RECRUTARE",
+   "company": "FREUDENBERG BUSINESS SERVICES SRL",
+   "location": "Braşov, Romania",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "HR Business Partner / HR Manager",
+   "company": "PRIMARK MAGAZINE S.R.L.",
+   "location": "Cluj-Napoca, Romania",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "HR Payroll & Admin",
+   "company": "MULTI-COLOR CORPORATION CLUJ NAPOCA S.R.L.",
+   "location": "Cluj-Napoca, Romania",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "HR Business Partner / HR Manager",
+   "company": "Primark",
+   "location": "Cluj, Romania",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Regional HR Manager",
+   "company": "PENNY | REWE Romania",
+   "location": "Cluj, Romania",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "HR Business Partner",
+   "company": "Undelucram.ro",
+   "location": "Targu Mures Metropolitan Area",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Payroll & HR Administration Specialist – EMEA",
+   "company": "Vertiv",
+   "location": "Cluj-Napoca, Cluj, Romania",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Global HR Services Specialist (f/m/d)",
+   "company": "Axpo Group",
+   "location": "Cluj-Napoca, Cluj, Romania",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Team Lead HR Services Global (f/m/d)",
+   "company": "Axpo Group",
+   "location": "Cluj-Napoca, Cluj, Romania",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Operations Site Manager (office management) - 2 years",
+   "company": "Orange Services",
+   "location": "Cluj-Napoca, Cluj, Romania",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Human Resources Business Partner",
+   "company": "Adecco",
+   "location": "Târgu Mureş, Mureş, Romania",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "HR Administration Senior Analyst with French",
+   "company": "Alstom",
+   "location": "Cluj-Napoca, Cluj, Romania",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "HR Admin Senior Analyst with German",
+   "company": "Alstom",
+   "location": "Cluj-Napoca, Cluj, Romania",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ASISTENT MEDICAL GENERALIST",
+   "company": "D.G.A.S.P.C. CLUJ",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ASISTENT MEDICAL GENERALIST",
+   "company": "D.G.A.S.P.C. CLUJ",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ASISTENT MEDICAL GENERALIST",
+   "company": "SPITALUL MUNICIPAL DR. CORNEL IGNA CAMPIA TURZII",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ASISTENT MEDICAL GENERALIST",
+   "company": "SPITALUL MUNICIPAL DR. CORNEL IGNA CAMPIA TURZII",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ASISTENT MEDICAL GENERALIST",
+   "company": "D.G.A.S.P.C. CLUJ",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ASISTENT MEDICAL GENERALIST",
+   "company": "SPITALUL MUNICIPAL DR. CORNEL IGNA CAMPIA TURZII",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ASISTENT MEDICAL GENERALIST",
+   "company": "D.G.A.S.P.C. CLUJ",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ASISTENT MEDICAL GENERALIST",
+   "company": "D.G.A.S.P.C. CLUJ",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "ASISTENT PERSONAL AL PERSOANEI CU HANDICAP GRAV",
+   "company": "PRIMARIA COMUNEI UNGURAS",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AJUTOR BUCATAR",
+   "company": "BOGATA COMEXIM SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "OSPATAR (CHELNER)",
+   "company": "CSA BRAVIA SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "LUCRATOR BUCATARIE (SPALATOR VASE MARI)",
+   "company": "CSA BRAVIA SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AJUTOR OSPATAR",
+   "company": "NAPOLI FRANCHISE S.R.L.",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BARMAN",
+   "company": "NAPOLI FRANCHISE S.R.L.",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PIZZAR",
+   "company": "S.C. NAPOLI INTERNATIONAL S.R.L.",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AJUTOR OSPATAR",
+   "company": "S.C. NAPOLI INTERNATIONAL S.R.L.",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PIZZAR",
+   "company": "NAPOLI FRANCHISE S.R.L.",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AJUTOR BUCATAR",
+   "company": "BEEFY BOYS SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AJUTOR BUCATAR",
+   "company": "PERFECT FRESH FOOD SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AJUTOR BUCATAR",
+   "company": "S.C. NAPOLI INTERNATIONAL S.R.L.",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AJUTOR BUCATAR",
+   "company": "SC BUCATARIE RASCRUCI",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AJUTOR BUCATAR",
+   "company": "CSA BRAVIA SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AJUTOR BUCATAR",
+   "company": "NAPOLI FRANCHISE S.R.L.",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "LUCRATOR COMERCIAL",
+   "company": "ELIEZER LOGISTIC S.R.L.",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AGENT DE VÂNZARI",
+   "company": "ELGEKA FERFELIS ROMANIA SA",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MUNCITOR NECALIFICAT LA ÎNTRETINEREA DE DRUMURI, SOSELE, PODURI, BARAJE",
+   "company": "PRODFER CONSTRUCT SRL",
+   "location": "Cluj-Napoca area (Cluj, RO113), Romania",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}
