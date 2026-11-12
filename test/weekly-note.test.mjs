@@ -55,7 +55,8 @@ test('readFailures: the reason ours has no scored run, from its result.json, wit
   const dir = path.join(pool, '105', 'extension', '1'); fs.mkdirSync(dir, {recursive: true}); fs.writeFileSync(path.join(dir, 'result.json'), '{}'); fs.writeFileSync(path.join(dir, 'judged.json'), '[]');   // a scored run is no failure
   const failed = readFailures(pool, 'extension');
   assert.equal(failed.runs, 3); assert.match(failed.reason, /^live row on CI: no GitHub OIDC token/); assert.doesNotMatch(failed.reason, /https?:/);
-  assert.deepEqual(readFailures(pool, 'stagehand'), {runs: 0, reason: ''});
+  assert.deepEqual(failed.byForm, {103: 'live row on CI: no GitHub OIDC token (see', 104: 'live row on CI: no GitHub OIDC token (see'}, 'the first error of each failed form');
+  assert.deepEqual(readFailures(pool, 'stagehand'), {runs: 0, reason: '', byForm: {}});
 });
 
 
@@ -77,4 +78,13 @@ test('rivalsSince: the day of the rivals\' newest run when older than today; loo
   assert.equal(rivalsSince(pool, '2026-11-12'), '2026-10-27');
   assert.equal(rivalsSince(pool, '2026-10-27'), '', 'rivals ran today: nothing to say');
   assert.equal(rivalsSince(path.join(pool, 'nope'), '2026-11-12'), '');
+});
+
+// 12 Nov 2026, fair round 43285373286: ours' form 104 crashed on a bot-check block page; the note read as if all 6 forms ran.
+test('a form of ours that did not run is said with its reason, whatever else scored', () => {
+  const rows = [row('101', 'extension', 10, 0)], tools = {extension: {score: 100}, 'browser-use': {score: 80}};
+  const reason = 'site-ledger: jobs.ashbyhq.com is not visited: it showed a block page at 19:02 today (bot check), so it rests until tomorrow. Counted from the machine-wide ledger (/home/runner/x)';
+  const text = noteText(noteOf({tools, rows}, {round: 'fixed', missingForms: {104: reason, 101: 'ignored: it ran'}}), null, null);
+  assert.match(text, /^✅ 1 form perfect · 🚫 104: did not run \(site-ledger: jobs\.ashbyhq\.com is not visited: it showed a block page at 19:02 today \(bot check\)\)$/m);
+  assert.doesNotMatch(text, /🚫 101|Counted from|\/home\/runner/);
 });
