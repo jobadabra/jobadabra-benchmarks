@@ -43,6 +43,8 @@ export function readRound(dir) {
  * the searches that found nothing and the biggest moves, and what to know (failed jobs, rivals without data); the per-search table and the build lines are gone.
  */
 export function noteText(note, baseline, last, {missing = [], notServed = [], url = ''} = {}) {
+  // Why (12 Nov 2026, owner's Telegram screenshot: "ours 0 relevant of 0 shown, ▼108 vs the previous run 108" after the judge failed on all 10 people): no verdicts is not a 0. Say the judge failed, nothing else.
+  if (!Object.keys(note.personas).length && missing.some(m => m.startsWith('judge '))) return [`${CHIP.bad} <b>Job search round not judged</b>: the judge failed, so this round has no numbers`, `⚠️ <b>Missing</b> (a job failed, not a 0): ${esc(missing.join(', '))}`, ...(url ? [link(url)] : [])].join('\n');
   const ours = note.tools.ours, searches = Object.keys(note.personas).length, empty = Object.entries(note.personas).filter(([, p]) => p.relevant === 0);
   // Why (27 Oct 2026, gitar-bot, #9): "ours" now runs with the rivals' sources off; the baseline and the notes saved before ran with everything on. Each line is
   // compared only with a reference that ran the same way: ours with a note that has rivalsOff, ours-all with a note's ours-all, or (an old note) its ours, which had every source on.
@@ -80,7 +82,9 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const last = lastFile ? rj(path.join(lastDir, lastFile)) : null;
   const unjudged = personas.map((_, i) => i + 1).filter(n => !fs.existsSync(path.join(work, `judged${n}.json`))).map(n => `judge p${n}`);
   const text = noteText(note, baseline, last, {missing: [...missingNow, ...unjudged], notServed: notServedNow, url: arg('url')});
-  if (arg('out')) { fs.mkdirSync(path.dirname(arg('out')), {recursive: true}); fs.writeFileSync(arg('out'), JSON.stringify(note, null, 1) + '\n'); }
+  // Why (12 Nov 2026): a round the judge did not finish is never the "previous run" of the next one; run 43297527466 saved an all-zero note that the next real round would have been compared with.
+  if (arg('out') && unjudged.length) console.log(`note not saved: ${unjudged.length} persona(s) have no verdicts`);
+  else if (arg('out')) { fs.mkdirSync(path.dirname(arg('out')), {recursive: true}); fs.writeFileSync(arg('out'), JSON.stringify(note, null, 1) + '\n'); }
   console.log(text);
   await sendNote(text);
 }

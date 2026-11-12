@@ -19,8 +19,13 @@ class BrokerError(Exception):
     """The broker did not answer; the message names why (no run token, HTTP status, the broker's reason)."""
 
 
+# Why (12 Nov 2026, run 43297527466: the judge got "HTTP 403" on all 10 people): the broker sits behind Cloudflare, which refuses Python's default User-Agent with error 1010 before the
+# broker's own auth runs (measured: urllib's default -> 403 "error code: 1010", the same call with another UA -> the broker's 401). Every request names this client.
+USER_AGENT = 'jobadabra-benchmarks-search-judge'
+
+
 def _get(url, headers, timeout=60):
-    return urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=timeout)
+    return urllib.request.urlopen(urllib.request.Request(url, headers={'user-agent': USER_AGENT, **headers}), timeout=timeout)
 
 
 def run_token(env=None, opener=_get, sleep=time.sleep):
@@ -42,7 +47,7 @@ def run_token(env=None, opener=_get, sleep=time.sleep):
 
 
 def _post(url, headers, body, timeout=300):
-    return urllib.request.urlopen(urllib.request.Request(url, json.dumps(body).encode(), {**headers, 'content-type': 'application/json'}), timeout=timeout)
+    return urllib.request.urlopen(urllib.request.Request(url, json.dumps(body).encode(), {'user-agent': USER_AGENT, **headers, 'content-type': 'application/json'}), timeout=timeout)
 
 
 def ask(prompt, tier='mid', env=None, poster=_post, opener=_get, sleep=time.sleep):
@@ -60,11 +65,12 @@ def ask(prompt, tier='mid', env=None, poster=_post, opener=_get, sleep=time.slee
             break
         except urllib.error.HTTPError as error:
             why = ''
+            raw = error.read().decode('utf8', 'replace')
             try:
-                said = json.loads(error.read().decode('utf8', 'replace'))
+                said = json.loads(raw)
                 why = str(said.get('why') or said.get('error') or '')
-            except ValueError:
-                pass
+            except (ValueError, AttributeError):
+                why = raw.strip()[:80]   # a refusal that is not the broker's JSON (Cloudflare's "error code: 1010") says what it says
             if error.code >= 500 and not why and attempt == 0:
                 sleep(RETRY_BROKER_S)
                 continue

@@ -93,6 +93,28 @@ class Broker(unittest.TestCase):
             self.assertNotIn('req-secret', str(error))
 
 
+class Cloudflare(unittest.TestCase):
+    def test_every_request_names_the_client_and_a_non_json_refusal_is_said(self):
+        # Why (12 Nov 2026, run 43297527466): urllib's default User-Agent got Cloudflare's 403 "error code: 1010"; the judge then failed with a bare "HTTP 403".
+        import unittest.mock as mock
+        seen = []
+
+        def fake_urlopen(request, timeout=0):
+            seen.append(request.get_header('User-agent'))
+            raise http_error(403, None)
+
+        with mock.patch.object(broker.urllib.request, 'urlopen', fake_urlopen):
+            with self.assertRaises(urllib.error.HTTPError):
+                broker._get('https://x', {})
+            with self.assertRaises(urllib.error.HTTPError):
+                broker._post('https://x', {}, {})
+        self.assertEqual(seen, [broker.USER_AGENT, broker.USER_AGENT])
+        self.assertNotIn('python-urllib', broker.USER_AGENT.lower())
+        refused = urllib.error.HTTPError('https://x', 403, 'x', {}, io.BytesIO(b'error code: 1010\n'))
+        with self.assertRaisesRegex(broker.BrokerError, 'HTTP 403 error code: 1010'):
+            broker.ask('p', env=ENV, poster=Poster(refused), opener=Opener('j'), sleep=lambda s: None)
+
+
 class JudgeOnTheBroker(unittest.TestCase):
     def test_verdicts_come_out_of_the_reply_and_the_rules_lead_the_prompt(self):
         seen = {}
