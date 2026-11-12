@@ -46,8 +46,8 @@ jobs:
       arm: ours
     secrets: inherit
   ours_all:   # the second line: as a user has it, EURES and the rest on (owner, 27 Oct 2026)
-    needs: [when, ours]   # one after the other: the owner's plan runs two sessions at a time
-    if: ${{ !cancelled() && needs.when.outputs.go == 'yes' && !inputs.only_ours }}
+    needs: when   # Why (13 Nov 2026, owner: "more parallelization", broker slots 16): at the same time as `ours`, 8 jobs each; was one after the other (the old plan limit of 2 sessions), ~21 min per arm
+    if: ${{ needs.when.outputs.go == 'yes' && !inputs.only_ours }}
     permissions:
       contents: read
       id-token: write   # the broker's run token for the called job that runs OUR arm (a called job cannot hold more than its caller); test/broker-token.test.mjs
@@ -86,10 +86,18 @@ jobs:
         env:
           BENCH_JUDGE_ENGINE: broker
         run: |
-          set -o pipefail
+          # Why (13 Nov 2026, owner: "more parallelization"): the 10 people judge at once (the arms are done, the broker has 16 slots); one after the other took ~6 min. A person's failure fails the step, after every log is printed.
+          mkdir -p judge-logs; pids=()
           for n in 1 2 3 4 5 6 7 8 9 10; do
-            env -u ANTHROPIC_API_KEY python3 -I search-bench/judge.py search-bench/personas.json $n work/pool$n.json work/judged$n.json 2>&1 | tee -a judge.log
+            (env -u ANTHROPIC_API_KEY python3 -I search-bench/judge.py search-bench/personas.json $n work/pool$n.json work/judged$n.json > judge-logs/$n.log 2>&1) &
+            pids[$n]=$!
           done
+          failed=0
+          for n in 1 2 3 4 5 6 7 8 9 10; do
+            wait "${pids[$n]}" || { echo "judge failed for person $n"; failed=1; }
+            cat judge-logs/$n.log | tee -a judge.log
+          done
+          exit $failed
       - name: Publish to /admin/job-search/benchmark
         env:
           SELFHEAL_PUBLISH_KEY: ${{ secrets.BENCHMARK_PUBLISH_KEY }}

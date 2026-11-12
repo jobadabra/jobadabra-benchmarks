@@ -30,6 +30,7 @@ Public page: jobadabra.top/benchmark (site repo `jobadabra-web`); the full runs 
   (JobSpy, EURES, Adzuna), judges on the plan (`judge.py`), publishes (`publish.mjs`) and sends one Telegram note (`search-bench/note.mjs`:
   ours per persona vs the previous run and `search-bench/results/2026-10-27`). A failed job is named in the note, never shown as 0.
   career-ops stays by hand. $0 (plan only).
+  Parallel (owner, 13 Nov 2026: "more parallelization", the broker has 16 slots): ours and ours-all run at once, 8 jobs each, and the judge runs the 10 people at once (~12-15 min instead of ~50).
 - **Otherwise by hand only, rarely** (owner, 27 Oct 2026: "trigger them manually, from time to time. Maybe once in a half a year"): every
   other workflow starts on `workflow_dispatch` (or is called by one) and nothing else. Guard: `test/workflows.test.mjs`. Exception: the org's PR checks
   (`pr-checks.yml`, the PR-description check and "All checks passed"; owner, 2 Nov 2026: the same workflow on every repo) start on `pull_request` and hold no secret.
