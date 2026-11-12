@@ -1,0 +1,1197 @@
+{
+ "persona": {
+  "family": "pharmacist",
+  "title": "Pharmacist",
+  "kind": "non-tech",
+  "city": "Tallinn",
+  "country": "Estonia",
+  "language": "Estonian"
+ },
+ "seed": "bench-judge-1",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 130,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Clinical Support Expert",
+   "company": "Dandy",
+   "location": "Germany - Remote",
+   "provider": "Dandy",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacy Partnerships Specialist | Healthcare Partnerships",
+   "company": "lumimeds",
+   "location": "Remote",
+   "provider": "lumimeds",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Albuquerque, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Atlanta, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Austin, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Baltimore, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Belfast, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Birmingham, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Boston, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Bristol, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Charlotte, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Chicago, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Colorado Springs, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Columbus, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Cork, Ireland",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Dallas, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Denver, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Dublin, Ireland",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Edinburgh, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - El Paso, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Fort Worth, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Fresno, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Galway, Ireland",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Glasgow, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Houston, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Indianapolis, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Jacksonville, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Kansas City, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Las Vegas, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Leeds, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Limerick, Ireland",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - London, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Long Beach, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Los Angeles, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Louisville, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Manchester, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Memphis, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Mesa, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Milwaukee, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Nashville, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - New York, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - New York, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Oklahoma City, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Omaha, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Philadelphia, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Phoenix, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Portland, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Raleigh, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Sacramento, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - San Antonio, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - San Diego, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - San Francisco, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - San Jose, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Seattle, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Tucson, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - AI Training - Virginia Beach, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - Fluent Speakers - AI Training - Brighton, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - Fluent Speakers - AI Training - Cambridge, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - Fluent Speakers - AI Training - Canterbury, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - Fluent Speakers - AI Training - Colchester, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - Fluent Speakers - AI Training - Coventry, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - Fluent Speakers - AI Training - Liverpool, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - Fluent Speakers - AI Training - Newcastle upon Tyne, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - Fluent Speakers - AI Training - Nottingham, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - Fluent Speakers - AI Training - Oxford, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacists - Fluent Speakers - AI Training - Sheffield, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pharmacy Partnership Specialist",
+   "company": "lumimeds",
+   "location": "Remote - LATAM",
+   "provider": "lumimeds",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Psychiatric Nurse Practitioner (PMHNP) - Remote",
+   "company": "bravehealth",
+   "location": "Florida (Remote)",
+   "provider": "bravehealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Supervising Psychiatrist (1099, Remote)",
+   "company": "bravehealth",
+   "location": "Florida (Remote)",
+   "provider": "bravehealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Freelance Medical Writer",
+   "company": "iterativehealth",
+   "location": "Remote",
+   "provider": "iterativehealth",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | New Jersey",
+   "company": "legionhealth",
+   "location": "Remote; Paterson, New Jersey; Jersey City, New Jersey; Trenton, New Jersey; Passaic, New Jersey; Bayonne, New Jersey; Clifton, New Jersey; Camden, New Jersey; Newark, New Jersey; East Orange, New Jersey; Elizabeth, New Jersey",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | New York",
+   "company": "legionhealth",
+   "location": "Remote; Buffalo, New York; Mount Vernon, New York; Yonkers, New York; Albany, New York; New York, New York; Rochester, New York; Utica, New York; New Rochelle, New York; Schenectady, New York; Syracuse, New York",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | North Carolina",
+   "company": "legionhealth",
+   "location": "Remote; Cary, North Carolina; Charlotte, North Carolina; Raleigh, North Carolina; Winston-Salem, North Carolina; Wilmington, North Carolina; Durham, North Carolina; Greensboro, North Carolina; High Point, North Carolina; Fayetteville, North Carolina; Concord, North Carolina",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | North Dakota",
+   "company": "legionhealth",
+   "location": "Remote; Wahpeton, North Dakota; Mandan, North Dakota; Williston, North Dakota; Bismarck, North Dakota; Fargo, North Dakota; Grand Forks, North Dakota; Minot, North Dakota; West Fargo, North Dakota; Jamestown, North Dakota; Dickinson, North Dakota",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | Ohio",
+   "company": "legionhealth",
+   "location": "Remote; Cleveland, Ohio; Lorain, Ohio; Parma, Ohio; Dayton, Ohio; Toledo, Ohio; Akron, Ohio; Cincinnati, Ohio; Canton, Ohio; Columbus, Ohio; Hamilton, Ohio",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | Oklahoma",
+   "company": "legionhealth",
+   "location": "Remote; Norman, Oklahoma; Tulsa, Oklahoma; Moore, Oklahoma; Edmond, Oklahoma; Stillwater, Oklahoma; Lawton, Oklahoma; Midwest City, Oklahoma; Broken Arrow, Oklahoma; Enid, Oklahoma; Oklahoma City, Oklahoma",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | Oregon",
+   "company": "legionhealth",
+   "location": "Remote; Corvallis, Oregon; Gresham, Oregon; Springfield, Oregon; Portland, Oregon; Hillsboro, Oregon; Eugene, Oregon; Bend, Oregon; Medford, Oregon; Salem, Oregon; Beaverton, Oregon",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | Pennsylvania",
+   "company": "legionhealth",
+   "location": "Remote; Reading, Pennsylvania; Harrisburg, Pennsylvania; Philadelphia, Pennsylvania; Pittsburgh, Pennsylvania; Scranton, Pennsylvania; York, Pennsylvania; Lancaster, Pennsylvania; Bethlehem, Pennsylvania; Erie, Pennsylvania; Allentown, Pennsylvania",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | Rhode Island",
+   "company": "legionhealth",
+   "location": "Remote; Woonsocket, Rhode Island; North Providence, Rhode Island; Cranston, Rhode Island; Coventry, Rhode Island; Cumberland, Rhode Island; Pawtucket, Rhode Island; South Kingstown, Rhode Island; East Providence, Rhode Island; Warwick, Rhode Island; Providence, Rhode Island",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | South Carolina",
+   "company": "legionhealth",
+   "location": "Remote; Goose Creek, South Carolina; Greer, South Carolina; Summerville, South Carolina; Rock Hill, South Carolina; Columbia, South Carolina; Charleston, South Carolina; Greenville, South Carolina; North Charleston, South Carolina; Sumter, South Carolina; Mount Pleasant, South Carolina",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | South Dakota",
+   "company": "legionhealth",
+   "location": "Remote; Rapid City, South Dakota; Spearfish, South Dakota; Yankton, South Dakota; Watertown, South Dakota; Box Elder, South Dakota; Mitchell, South Dakota; Sioux Falls, South Dakota; Huron, South Dakota; Aberdeen, South Dakota; Brookings, South Dakota",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | Tennessee",
+   "company": "legionhealth",
+   "location": "Remote; Clarksville, Tennessee; Chattanooga, Tennessee; Jackson, Tennessee; Franklin, Tennessee; Knoxville, Tennessee; Hendersonville, Tennessee; Nashville, Tennessee; Murfreesboro, Tennessee; Memphis, Tennessee; Johnson City, Tennessee",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | Texas",
+   "company": "legionhealth",
+   "location": "Remote; Dallas, Texas; Austin, Texas; El Paso, Texas; Houston, Texas; Corpus Christi, Texas; Lubbock, Texas; Plano, Texas; Fort Worth, Texas; San Antonio, Texas; Arlington, Texas",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | Utah",
+   "company": "legionhealth",
+   "location": "Remote; West Jordan, Utah; West Valley City, Utah; Orem, Utah; Lehi, Utah; Provo, Utah; Sandy, Utah; Salt Lake City, Utah; St. George, Utah; Ogden, Utah; South Jordan, Utah",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | Vermont",
+   "company": "legionhealth",
+   "location": "Remote; St. Albans, Vermont; South Burlington, Vermont; Barre, Vermont; Essex Junction, Vermont; Bellows Falls, Vermont; Montpelier, Vermont; Burlington, Vermont; Winooski, Vermont; Rutland, Vermont; Newport, Vermont",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | Washington",
+   "company": "legionhealth",
+   "location": "Remote; Federal Way, Washington; Everett, Washington; Vancouver, Washington; Spokane, Washington; Tacoma, Washington; Seattle, Washington; Kent, Washington; Spokane Valley, Washington; Renton, Washington; Bellevue, Washington",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | West Virginia",
+   "company": "legionhealth",
+   "location": "Remote; Clarksburg, West Virginia; Charleston, West Virginia; Huntington, West Virginia; Beckley, West Virginia; Wheeling, West Virginia; Morgantown, West Virginia; Martinsburg, West Virginia; Weirton, West Virginia; Fairmont, West Virginia; Parkersburg, West Virginia",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Psychiatric Mental Health Nurse Practitioner (PMHNP) — Remote | Telehealth | Full-Time or Part-Time | Wisconsin",
+   "company": "legionhealth",
+   "location": "Remote; Eau Claire, Wisconsin; Janesville, Wisconsin; Racine, Wisconsin; Oshkosh, Wisconsin; Milwaukee, Wisconsin; Madison, Wisconsin; Green Bay, Wisconsin; Kenosha, Wisconsin; Appleton, Wisconsin; Waukesha, Wisconsin",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Copy of Subject Matter Expert – Healthcare & Social Assistance (Vietnamese) – Remote",
+   "company": "lilt-production",
+   "location": "Vietnam (Remote); Vietnam (Remote)",
+   "provider": "lilt-production",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Subject Matter Expert – Healthcare & Social Assistance (French) – Remote",
+   "company": "lilt-production",
+   "location": "France (Remote)",
+   "provider": "lilt-production",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Subject Matter Expert – Healthcare & Social Assistance (German) – Remote",
+   "company": "lilt-production",
+   "location": "Germany (Remote)",
+   "provider": "lilt-production",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Subject Matter Expert – Healthcare & Social Assistance (Indonesian) – Remote",
+   "company": "lilt-production",
+   "location": "Indonesia (Remote)",
+   "provider": "lilt-production",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Subject Matter Expert – Healthcare & Social Assistance (Italian) – Remote",
+   "company": "lilt-production",
+   "location": "Italy (Remote)",
+   "provider": "lilt-production",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Subject Matter Expert – Healthcare & Social Assistance (Japanese) – Remote",
+   "company": "lilt-production",
+   "location": "Japan (Remote)",
+   "provider": "lilt-production",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Subject Matter Expert – Healthcare & Social Assistance (Korean) – Remote",
+   "company": "lilt-production",
+   "location": "Korea (Remote)",
+   "provider": "lilt-production",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Subject Matter Expert – Healthcare & Social Assistance (Mandarin) – Remote",
+   "company": "lilt-production",
+   "location": "China (Remote)",
+   "provider": "lilt-production",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Patient Support Coordinator",
+   "company": "montu-uk",
+   "location": "Remote",
+   "provider": "montu-uk",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Global Patient Services Coordinator",
+   "company": "oviva",
+   "location": "Remote Poland",
+   "provider": "oviva",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Research Associate I/ Clinical Research Associate II",
+   "company": "pfm",
+   "location": "Remote, France",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Trial Manager",
+   "company": "pfm",
+   "location": "Remote, Poland",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Trial Manager",
+   "company": "pfm",
+   "location": "Remote, Serbia",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Trial Manager",
+   "company": "pfm",
+   "location": "Remote, China",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Trial Manager",
+   "company": "pfm",
+   "location": "Remote, Romania",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Trial Manager",
+   "company": "pfm",
+   "location": "Remote, Slovakia",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Trial Manager",
+   "company": "pfm",
+   "location": "Remote, Hungary",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "pfm",
+   "location": "Remote, United Kingdom",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "pfm",
+   "location": "Remote, Slovakia",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "pfm",
+   "location": "Remote, Romania",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "pfm",
+   "location": "Remote, Hungary",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "pfm",
+   "location": "Remote, Serbia",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "pfm",
+   "location": "Remote, Poland",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "pfm",
+   "location": "Remote, Spain",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Site Contract Manager",
+   "company": "pfm",
+   "location": "Remote, Singapore; Remote, Taiwan",
+   "provider": "pfm",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Research Associate I/ Clinical Research Associate II",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, France",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Trial Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, Romania",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Trial Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, Serbia",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Trial Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, Slovakia",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Trial Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, China",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Trial Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, Poland",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Trial Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, Hungary",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, United Kingdom",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, Spain",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, Poland",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, Hungary",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, Romania",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, Slovakia",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Feasibility Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, Serbia",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Site Contract Manager",
+   "company": "precisionmedicinegroup",
+   "location": "Remote, Singapore; Remote, Taiwan",
+   "provider": "precisionmedicinegroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Chemistry - Graduates - AI Training - USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Chemistry - Graduates - AI Training - Virginia Beach, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Chemistry - Graduates - AI Training - Washington DC, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  }
+ ]
+}

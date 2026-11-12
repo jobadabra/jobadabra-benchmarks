@@ -1,0 +1,873 @@
+{
+ "persona": {
+  "family": "warehouse",
+  "title": "Warehouse Operator",
+  "kind": "non-tech",
+  "city": "Krakow",
+  "country": "Poland",
+  "language": "Polish"
+ },
+ "seed": "bench-judge-3",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 92,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Fulfilio: Magazynier – Operator z UDT (k/m)",
+   "company": "Grupa OEX",
+   "location": "Łubna",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier UDT – magazyn wysokiego składu (k/m)",
+   "company": "Nagel Polska Sp. z o.o.",
+   "location": "Kopytów, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier-Pakowacz",
+   "company": "confidential",
+   "location": "Strumień, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Stanowisko: Magazynier/Pracownik magazynu / / Pakowacz paczek",
+   "company": "confidential",
+   "location": "Wadowice, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pakowanie paczek/ Magazynier – w sklepie detailingowy",
+   "company": "confidential",
+   "location": "Lublin, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier / Asystent Sprzedaży",
+   "company": "confidential",
+   "location": "Szczecin, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier – z możliwością przyuczenia do sprzedaży części samochodowych",
+   "company": "confidential",
+   "location": "Krotoszyn, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HEBE| Magazynier| Sprzedawca (K/M)| Zielona Góra",
+   "company": "Jeronimo Martins Drogerie i Farmacja",
+   "location": "Zielona Góra, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier lub Magazynierka",
+   "company": "Diagnostyka S.A.",
+   "location": "Kraków, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "HEBE| Magazynier| Sprzedawca (K/M)| Szczecin| Molo",
+   "company": "Jeronimo Martins Drogerie i Farmacja Sp.zo.o.",
+   "location": "Szczecin, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pomoc magazyniera / magazynier ul. Sułowska (okolice Marino)",
+   "company": "confidential",
+   "location": "Wrocław, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier – Kraków – umowa o pracę",
+   "company": "confidential",
+   "location": "Kraków, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier / pomocnik serwisanta / pracownik fizyczny — serwis opon HARP Kraków",
+   "company": "confidential",
+   "location": "Kraków, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier - operator wózka widłowego (k/m)",
+   "company": "confidential",
+   "location": "Rekowo Górne, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "MAGAZYNIER w Centrum Dystrybucyjnym",
+   "company": "PROLEX Opole",
+   "location": "Opole, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pracownik magazynu / magazynier / kompletowanie i pakowanie zamówień / przygotowywanie paczek / Gniezno",
+   "company": "confidential",
+   "location": "Gniezno",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "St. Magazynier / Magazynierka DHL Olsztyn, umowa o pracę, 100% etat",
+   "company": "DHL eCommerce (Poland) Sp. z o.o.",
+   "location": "Polska, Lublin, Szczecin",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier/magazynierka",
+   "company": "confidential",
+   "location": "Bielsko-Biała, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier/ka - Pakowanie zamówień / Przyjmowanie dostaw",
+   "company": "via OLX Praca",
+   "location": "Warszawa, Włochy",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator produkcji (k/m) | bezpłatny transport",
+   "company": "Gi Group S.A.",
+   "location": "Henryków, Polska",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator produkcji (k/m) | bezpłatny transport",
+   "company": "Gi Group S.A.",
+   "location": "Niemcza, Polska",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator produkcji (k/m) | bezpłatny transport",
+   "company": "Gi Group S.A.",
+   "location": "Pieszyce, Polska",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator produkcji (k/m) | bezpłatny transport",
+   "company": "Gi Group S.A.",
+   "location": "Żórawina, Polska",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator produkcji (k/m) | bezpłatny transport",
+   "company": "Gi Group S.A.",
+   "location": "Kobierzyce, Polska",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator produkcji (k/m) | bezpłatny transport",
+   "company": "Gi Group S.A.",
+   "location": "Ziębice, Polska",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator produkcji (k/m) | bezpłatny transport",
+   "company": "Gi Group S.A.",
+   "location": "Dzierżoniów, Polska",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator produkcji (k/m) | bezpłatny transport",
+   "company": "Gi Group S.A.",
+   "location": "Strzelin, Polska",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier Placu Drewna",
+   "company": "Kronospan",
+   "location": "Mielec, pl",
+   "provider": "Kronospan",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator Wózka Widłowego",
+   "company": "Kronospan",
+   "location": "Strzelce Opolskie, pl",
+   "provider": "Kronospan",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator Wózka Widłowego",
+   "company": "Kronospan",
+   "location": "Poznań, pl",
+   "provider": "Kronospan",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator wózka widłowego (K/M)",
+   "company": "Kronospan",
+   "location": "Mielec, pl",
+   "provider": "Kronospan",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator wózka widłowego (K/M)",
+   "company": "Kronospan",
+   "location": "Mielec, pl",
+   "provider": "Kronospan",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "MAGAZYNIER _OPERATOR WÓZKA WIDŁOWŁOWEGO (m/k/n)",
+   "company": "TessenderloGroup",
+   "location": "Jelcz-Laskowice, pl",
+   "provider": "TessenderloGroup",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier (k/m/n)",
+   "company": "Knorr-Bremse",
+   "location": "Rzeszów, PL, 35-502",
+   "provider": "Knorr-Bremse",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier (k/m/n)",
+   "company": "Knorr-Bremse",
+   "location": "Rzeszów, PL, 35-502",
+   "provider": "Knorr-Bremse",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier/Magazynierka",
+   "company": "Fresenius Medical Care",
+   "location": "Poznań, Poland",
+   "provider": "Fresenius Medical Care",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pracownik magazynu/ Operator wózka widłowego",
+   "company": "Willenbrock Fördertechnik Holding",
+   "location": "Kołbaskowo, Poland",
+   "provider": "Willenbrock Fördertechnik Holding",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pracownik magazynu centralnego [K/M/N]",
+   "company": "TE Connectivity",
+   "location": "BYDGOSZCZ, KP, PL, 85-059",
+   "provider": "TE Connectivity",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier / premie / dofinansowanie do posiłków",
+   "company": "Euroser Dairy Group",
+   "location": "Pass, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier / Magazynierka praca od 8-16 lub 9-17 jedna zmiana - kompletacja zamówień SZAŁSZA",
+   "company": "confidential",
+   "location": "Szałsza, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier / Magazynierka - hurtownia farmaceutyczna",
+   "company": "confidential",
+   "location": "Gliwice, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynierka/magazynier",
+   "company": "via OLX Praca",
+   "location": "Kraków, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier/Magazynierka - produkty dla zwierząt",
+   "company": "via OLX Praca",
+   "location": "Warszawa, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier/magazynierka | Umowa o pracę | Darmowy transport do pracy",
+   "company": "via OLX Praca",
+   "location": "Łódź, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier,Sprzedawca 7500 netto",
+   "company": "via OLX Praca",
+   "location": "Gdańsk, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier | 33 zł/h + 20% premia | Darmowy transport_praca od zaraz",
+   "company": "via OLX Praca",
+   "location": "Nowy Dwór Mazowiecki, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier lub Magazynierka - umowa zlecenie",
+   "company": "via OLX Praca",
+   "location": "Luboń, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pracownik sklepu internetowego / Magazynier",
+   "company": "via OLX Praca",
+   "location": "Niwki, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Praca Zabrze Magazynier/ka stabilne zatrudnienie i atrakcyjne warunki",
+   "company": "via OLX Praca",
+   "location": "Zabrze, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier (UOP) (k/m) Zielona Góra",
+   "company": "via OLX Praca",
+   "location": "Zielona Góra, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier – kompletowanie i pakowanie zamówień | Rybnik",
+   "company": "via OLX Praca",
+   "location": "Rybnik, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pracownik Magazynu / Magazynier (e-commerce)",
+   "company": "via OLX Praca",
+   "location": "Piła, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Oferuję pracę do pakowania paczek pakowacz magazynier",
+   "company": "via OLX Praca",
+   "location": "Poznań, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier Gniezno",
+   "company": "via OLX Praca",
+   "location": "Gniezno, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Coffeedesk - Magazynier/Magazynierka (super praca w Kołobrzegu!)",
+   "company": "via OLX Praca",
+   "location": "Grzybowo, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kasjer/Kasjerka-Sprzedawca/Sprzedawczyni-Magazynier/Magazynierka",
+   "company": "via OLX Praca",
+   "location": "Łowicz, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier – wolne weekendy – nowy zakład!",
+   "company": "via OLX Praca",
+   "location": "Wałbrzych, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier/dostawca/pracownik magazynu Mikołów",
+   "company": "via OLX Praca",
+   "location": "Mikołów, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator wózka widłowego",
+   "company": "Randstad",
+   "location": "Łódź, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier / Magazynierka",
+   "company": "Randstad",
+   "location": "Sokołów, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "magazynier z UDT (k/m/n)",
+   "company": "Randstad",
+   "location": "Warszawa, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "magazynier z UDT (k/m/n)",
+   "company": "Randstad",
+   "location": "Czachorowo, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "magazynier z UDT (k/m/n)",
+   "company": "Randstad",
+   "location": "Zielona Góra, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator / Operatorka wózka widłowego",
+   "company": "Randstad",
+   "location": "Gorzów Wielkopolski, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "magazynier / magazynierka",
+   "company": "Randstad",
+   "location": "Gorzów Wielkopolski, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Warehouse Operator (Full & Part-Time) High-Tech Allegro Logistics Center (Adamów)",
+   "company": "Randstad",
+   "location": "Adamów, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "magazynier / magazynierka",
+   "company": "Randstad",
+   "location": "Warszawa, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "operator wózka widłowego k/m",
+   "company": "Randstad",
+   "location": "Warszawa, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "magazynier / magazynierka",
+   "company": "Randstad",
+   "location": "Świebodzin, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "magazynier k/m",
+   "company": "Randstad",
+   "location": "Łozienica, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier z UDT (m/k)",
+   "company": "Randstad",
+   "location": "Zabrze, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "magazynier z UDT (k/m/n)",
+   "company": "Randstad",
+   "location": "Szczecin, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator Drukarki Cyfrowej – Magazynier (m/k/n)",
+   "company": "Randstad",
+   "location": "Morawica, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "operator wózka widłowego (k/m/n)",
+   "company": "Randstad",
+   "location": "Łódź, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "magazynier z UDT / magazynierka z UDT",
+   "company": "Randstad",
+   "location": "Wrocław, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Magazynier z UDT (Suwnice) (m/k/n)",
+   "company": "Randstad",
+   "location": "Zabrze, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "magazynier z UDT (k/m)",
+   "company": "Randstad",
+   "location": "Aleksandrów Łódzki, Poland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Operator linii pakowania ręcznego (k/m)",
+   "company": "Randstad",
+   "location": "Swadzim, Poland",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pracownik Działu Dostaw (K/M)",
+   "company": "METROMAKRO",
+   "location": "Zielona Góra, pl",
+   "provider": "METROMAKRO",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pracownik Działu Dostaw (K/M)",
+   "company": "METROMAKRO",
+   "location": "Wrocław, pl",
+   "provider": "METROMAKRO",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pracownik Działu Dostaw (K/M)",
+   "company": "METROMAKRO",
+   "location": "Kraków, pl",
+   "provider": "METROMAKRO",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Pracownik Działu Dostaw (K/M)",
+   "company": "METROMAKRO",
+   "location": "Bydgoszcz, pl",
+   "provider": "METROMAKRO",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Pracownik Działu Dostaw (k/m)",
+   "company": "METROMAKRO",
+   "location": "Opole, pl",
+   "provider": "METROMAKRO",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Starszy Koordynator Działu Dostaw (K/M)",
+   "company": "METROMAKRO",
+   "location": "Kraków, pl",
+   "provider": "METROMAKRO",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Warehouse Operator",
+   "company": "Willenbrock Fördertechnik Holding",
+   "location": "2 Locations",
+   "provider": "Willenbrock Fördertechnik Holding",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Warehouse Operator",
+   "company": "Willenbrock Fördertechnik Holding",
+   "location": "2 Locations",
+   "provider": "Willenbrock Fördertechnik Holding",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Disponent (all genders) – Logistik | Remote (Berlin bevorzugt)",
+   "company": "glow25",
+   "location": "Remote - Germany Only",
+   "provider": "glow25",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Warehouse / Logistics Operator",
+   "company": "iceye",
+   "location": "Warsaw",
+   "provider": "iceye",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "General Application",
+   "company": "Amazon",
+   "location": "Remote",
+   "provider": "Amazon",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "General Application",
+   "company": "clearviewhealthcarepartners",
+   "location": "Worldwide",
+   "provider": "clearviewhealthcarepartners",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Project Coordinator EMEA, Production",
+   "company": "lilt-production",
+   "location": "Remote",
+   "provider": "lilt-production",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Subject Matter Expert – Wholesale Trade & Logistics - English/Mandarin – Remote",
+   "company": "lilt-production",
+   "location": "China (Remote)",
+   "provider": "lilt-production",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "General Application",
+   "company": "mast",
+   "location": "Mastcave HQ; UK (Remote)",
+   "provider": "mast",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Join Our Talent Network",
+   "company": "p2p.org",
+   "location": "Worldwide",
+   "provider": "p2p.org",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Production Leader",
+   "company": "polaroid",
+   "location": "Bydgoszcz",
+   "provider": "polaroid",
+   "role": "no",
+   "place": "no"
+  }
+ ]
+}

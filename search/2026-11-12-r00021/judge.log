@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/search-bench/judge.py", line 143, in <module>
+    main()
+  File "/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/search-bench/judge.py", line 134, in main
+    rows, count, tokens, cost = judge(p, index, json.load(open(pool_path)), ledger, ask, limit=limit, plan=plan, key=os.environ.get('BENCH_JUDGE_KEY', ''))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/search-bench/judge.py", line 113, in judge
+    verdicts, usage = ask_fn(key, profile, chunk)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/search-bench/judge.py", line 55, in ask
+    return ask_broker(profile, jobs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/search-bench/judge.py", line 48, in ask_broker
+    answer = broker.ask(prompt, tier='mid')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/search-bench/broker.py", line 71, in ask
+    raise BrokerError(f'broker: HTTP {error.code} {" ".join(why.split())[:200]}'.strip()) from None
+broker.BrokerError: broker: HTTP 403
