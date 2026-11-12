@@ -49,8 +49,8 @@ jobs:
       arm: ours
     secrets: inherit
   ours_all:   # the second line: as a user has it, EURES and the rest on (owner, 27 Oct 2026)
-    needs: when   # Why (13 Nov 2026, owner: "more parallelization", broker slots 16): at the same time as `ours`, 8 jobs each; was one after the other (the old plan limit of 2 sessions), ~21 min per arm
-    if: ${{ needs.when.outputs.go == 'yes' && !inputs.only_ours }}
+    needs: [when, ours]   # Why (13 Nov 2026): one after the other again; both arms at once (16 jobs, run 43328684962) starved the broker's 16 slots and ours scored 59 instead of ~150
+    if: ${{ !cancelled() && needs.when.outputs.go == 'yes' && !inputs.only_ours }}
     permissions:
       contents: read
       id-token: write   # the broker's run token for the called job that runs OUR arm (a called job cannot hold more than its caller); test/broker-token.test.mjs

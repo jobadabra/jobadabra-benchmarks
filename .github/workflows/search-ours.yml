@@ -51,7 +51,7 @@ jobs:
       id-token: write   # Why (12 Nov 2026, owner: "Broker, Claude plan, Haiku"): the broker's run token, held by the job that runs OUR arm only (test/broker-token.test.mjs); no rival's code runs here
     strategy:
       fail-fast: false
-      max-parallel: 8   # Why (13 Nov 2026, owner: "we increased the AI broker slots to 16 ... otherwise it's very slow"): 8 per arm, the round runs both arms at once = the broker's 16 slots; was 2 (the old plan-token limit), 10 people took 5 waves of ~4.5 min
+      max-parallel: 4   # Why (13 Nov 2026, owner: "more parallelization", broker slots 16): 16 jobs at once (run 43328684962) starved the broker: calls waited 94-114 s (solo 10 s), 503s, ours 59 instead of ~150, because each job has several calls in flight; 4 is measured, not guessed (was 2, the plan-token limit)
       matrix:
         persona: ${{ fromJSON(inputs.personas) }}
         presses: ${{ fromJSON(inputs.presses) }}
