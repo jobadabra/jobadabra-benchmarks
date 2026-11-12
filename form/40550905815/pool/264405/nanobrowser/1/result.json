@@ -1,0 +1,50 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://jobs.lever.co/yuno/c59fa4ff-62f0-4ea1-96c6-a0828dc017f7/apply",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 9,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":6,\"maxSteps\":40,\"details\":\"The Lever application for Yuno (Technical Account Manager) is partly filled. It has NOT been submitted.\\n\\nFilled from your facts:\\n- Full name: Ada Tester\\n- Email: as provided in your facts\\n- Phone: +41 79 555 01 23\\n- Location: Zurich, Switzerland (a \\\"No location found\\\" note appeared, so please verify this field)\\n- LinkedIn: https://ww",
+ "completed": true,
+ "tokens": {
+  "in": 103981,
+  "out": 9343,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 9
+ },
+ "usd": 0.015069599999999999,
+ "longCalls": 0,
+ "maxCallIn": 14609,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 75.4,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.lever.co/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.8209452589991082:1793 (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 89
+}

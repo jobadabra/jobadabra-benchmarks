@@ -1,0 +1,59 @@
+{
+ "tool": "stagehand",
+ "url": "https://jobs.ashbyhq.com/resend/729ad3fa-10a2-4a07-ba9c-13b6eec6adb1/application",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 44,
+ "final": "Filled the Resend application at jobs.ashbyhq.com with the provided facts: name, email, LinkedIn URL, Americas time zone answer (No), and country (Switzerland). Uploaded cv.pdf to the Resume field, which shows the file attached. Left GitHub, the two free-text questions, \"How did you hear about us?\", Twitter/X, and Other empty because the facts don't answer them. Never clicked Submit. Issues: an ea",
+ "completed": false,
+ "tokens": {
+  "in": 237359,
+  "out": 6682,
+  "cacheRead": 155880,
+  "cacheWrite": 7794,
+  "calls": 23
+ },
+ "usd": 0.029609950000000003,
+ "longCalls": 0,
+ "maxCallIn": 22947,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 55.4,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST browser-intake-datadoghq.com/api/v2/rum (non-GET to another host)",
+   "POST browser-intake-datadoghq.com/api/v2/rum (non-GET to another host)",
+   "POST browser-intake-datadoghq.com/api/v2/replay (non-GET to another host)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST browser-intake-datadoghq.com/api/v2/rum (non-GET to another host)",
+   "POST browser-intake-datadoghq.com/api/v2/replay (non-GET to another host)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST browser-intake-datadoghq.com/api/v2/replay (non-GET to another host)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST browser-intake-datadoghq.com/api/v2/replay (non-GET to another host)",
+   "POST browser-intake-datadoghq.com/api/v2/rum (non-GET to another host)",
+   "POST browser-intake-datadoghq.com/api/v2/replay (non-GET to another host)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST browser-intake-datadoghq.com/api/v2/replay (non-GET to another host)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST browser-intake-datadoghq.com/api/v2/replay (non-GET to another host)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST browser-intake-datadoghq.com/api/v2/replay (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 59
+}

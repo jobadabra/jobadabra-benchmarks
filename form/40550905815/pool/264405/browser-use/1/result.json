@@ -1,0 +1,41 @@
+{
+ "tool": "browser-use",
+ "url": "https://jobs.lever.co/yuno/c59fa4ff-62f0-4ea1-96c6-a0828dc017f7/apply",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 20,
+ "final": "Partially completed the Lever application for Yuno (Technical Account Manager). I did NOT submit or press any Submit/Apply button, and I did not open any external links.\n\nFilled:\n- Full name: Ada Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23\n- Resume/CV: uploaded /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf (shows cv.pdf as selected)\n- LinkedIn URL: https://www.linkedin.com/in/ada-tester\n- Compensation: CHF 140,000–160,000 gross per year (annual)\n\nNot filled:\n- Current location (required): 'Zurich, Switzerland' (and variants 'Zu",
+ "completed": true,
+ "tokens": {
+  "in": 147801,
+  "out": 22757,
+  "cacheRead": 275006,
+  "cacheWrite": 15107,
+  "calls": 21
+ },
+ "usd": 0.030797035000000007,
+ "longCalls": 0,
+ "maxCallIn": 23467,
+ "usdReportedByTool": 0.022890994999999997,
+ "seconds": 151.6,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.lever.co/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.8209452589991082:1793 (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST jobs.lever.co/parseResume (non-GET to the form site)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 157
+}

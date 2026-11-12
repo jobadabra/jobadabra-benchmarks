@@ -1,0 +1,30 @@
+{
+ "tool": "stagehand",
+ "url": "https://job-boards.greenhouse.io/ebanx/jobs/7566225003",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 3,
+ "final": "I read the job page at the given Greenhouse URL, but I did not fill in the application. The posting is for Product Manager | South Cone, based in Buenos Aires, Argentina (Remote). It asks about work eligibility in Argentina, and the applicant's facts limit them to Switzerland or remote work within Europe. The role is also product management, not one of the SRE, Platform, or DevOps roles the applic",
+ "completed": false,
+ "tokens": {
+  "in": 27883,
+  "out": 1088,
+  "cacheRead": 7753,
+  "cacheWrite": 7753,
+  "calls": 3
+ },
+ "usd": 0.004378955,
+ "longCalls": 0,
+ "maxCallIn": 19601,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 7.4,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 12
+}

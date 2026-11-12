@@ -1,0 +1,32 @@
+{
+ "tool": "browser-use",
+ "url": "https://job-boards.greenhouse.io/ebanx/jobs/7566225003",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 16,
+ "final": "The application form on https://job-boards.greenhouse.io/ebanx/jobs/7566225003 is filled with the provided facts. I did not press Submit, Apply, or Send, and I did not open any external links.\n\nFilled:\n- First Name: Ada\n- Last Name: Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23 (country code +41)\n- Country: Switzerland\n- Location (City): Zurich, Switzerland\n- Resume/CV: cv.pdf uploaded from /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf\n- LinkedIn Profile: https://www.linkedin.com/in/ada-tester\n- Level of English: Advanced (can re",
+ "completed": true,
+ "tokens": {
+  "in": 144825,
+  "out": 19645,
+  "cacheRead": 232217,
+  "cacheWrite": 0,
+  "calls": 17
+ },
+ "usd": 0.02662717,
+ "longCalls": 0,
+ "maxCallIn": 23656,
+ "usdReportedByTool": 0.02475923,
+ "seconds": 121,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST grnhse-prod-jben-us-east-1.s3.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 125
+}

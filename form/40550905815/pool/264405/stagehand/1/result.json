@@ -1,0 +1,41 @@
+{
+ "tool": "stagehand",
+ "url": "https://jobs.lever.co/yuno/c59fa4ff-62f0-4ea1-96c6-a0828dc017f7/apply",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 55,
+ "final": "Filled the Lever application at jobs.lever.co/yuno/... with facts: CV uploaded (form shows \"Couldn't auto-read resume\" but file is attached), full name, email, phone, current location (Zürich, CHE selected from dropdown), current company (Acme Cloud from CV), LinkedIn URL, and compensation expectation \"CHF 140,000-160,000 gross, annual\". Left empty: payments-industry experience Yes/No (facts don't",
+ "completed": true,
+ "tokens": {
+  "in": 279923,
+  "out": 10748,
+  "cacheRead": 179170,
+  "cacheWrite": 7790,
+  "calls": 25
+ },
+ "usd": 0.036131750000000004,
+ "longCalls": 0,
+ "maxCallIn": 23933,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 144.9,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.lever.co/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.8209452589991082:1793 (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST jobs.lever.co/parseResume (non-GET to the form site)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 149
+}

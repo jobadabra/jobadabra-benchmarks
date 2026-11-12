@@ -1,0 +1,44 @@
+{
+ "tool": "stagehand",
+ "url": "https://jobs.ashbyhq.com/perplexity/32a36cae-ad73-4198-9354-a72b141ff055/application",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 28,
+ "final": "Filled Name, Email, Phone Number and Location (Zürich, Zurich, Switzerland) from the facts. Attempted CV upload to the Resume field; the field shows cv.pdf but a persistent \"cv.pdf failed to upload\" error toast appeared, so the upload may not have succeeded. Answered the office-four-days question Yes, then reverted it to unanswered because the role is listed as San Francisco/USD and the facts only",
+ "completed": false,
+ "tokens": {
+  "in": 158123,
+  "out": 6010,
+  "cacheRead": 93432,
+  "cacheWrite": 7786,
+  "calls": 15
+ },
+ "usd": 0.02072487,
+ "longCalls": 0,
+ "maxCallIn": 22461,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 48.3,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 52
+}

@@ -1,0 +1,62 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://job-boards.greenhouse.io/ebanx/jobs/7566225003",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 31,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":22,\"maxSteps\":40,\"details\":\"The application is only partly filled, and nothing has been submitted.\\n\\nFilled and confirmed:\\n- First Name: Ada\\n- Last Name: Tester\\n\\nNot filled:\\n- Country (phone): Switzerland +41. The dropdown did not keep the selection.\\n- Phone: 79 555 01 23. It did not keep the value.\\n- Location (City): Zurich. It did not keep the value.\\n- Email",
+ "completed": true,
+ "tokens": {
+  "in": 604762,
+  "out": 30188,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 31
+ },
+ "usd": 0.0755702,
+ "longCalls": 0,
+ "maxCallIn": 29497,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 264,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 269
+}

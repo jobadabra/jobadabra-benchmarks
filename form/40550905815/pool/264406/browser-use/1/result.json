@@ -1,0 +1,32 @@
+{
+ "tool": "browser-use",
+ "url": "https://apply.workable.com/platzi/j/680E47041B/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 12,
+ "final": "Filled the Workable application for Platzi (Senior Software Engineer, Growth Marketing) with the applicant facts and stopped before submitting. I did not click Submit.\n\nFilled:\n- First name: Ada\n- Last name: Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23 (country set to Switzerland +41; the field shows 79 555 01 23 with the +41 flag)\n- Address: Musterstrasse 12\n- City: Zurich\n- Postcode: 8001\n- Country: Switzerland\n- Resume: /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf uploaded (cv.pdf shown as attached)\n- LinkedIn: https://www.l",
+ "completed": true,
+ "tokens": {
+  "in": 102647,
+  "out": 14334,
+  "cacheRead": 174321,
+  "cacheWrite": 0,
+  "calls": 13
+ },
+ "usd": 0.01917491,
+ "longCalls": 0,
+ "maxCallIn": 23667,
+ "usdReportedByTool": 0.017650069999999997,
+ "seconds": 86.7,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.8209452589991082:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST workable-application-form.s3.us-east-1.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 91
+}

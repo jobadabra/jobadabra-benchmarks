@@ -1,0 +1,42 @@
+{
+ "tool": "browser-use",
+ "url": "https://jobs.ashbyhq.com/perplexity/32a36cae-ad73-4198-9354-a72b141ff055/application",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 10,
+ "final": "Filled the Perplexity 'Member of Technical Staff (Secure Intelligence Institute)' application form with the applicant facts and did NOT submit it.\n\nFilled:\n- Name: Ada Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23\n- Location: Zurich, Switzerland (selected from the autocomplete suggestions)\n- Resume: /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf uploaded; cv.pdf is shown as attached. An 'upload failed' toast appeared at one point, but the file is listed as attached afterwards.\n\nLeft empty because the facts do not answer them:\n- 'W",
+ "completed": true,
+ "tokens": {
+  "in": 89308,
+  "out": 14472,
+  "cacheRead": 145373,
+  "cacheWrite": 0,
+  "calls": 11
+ },
+ "usd": 0.01762053,
+ "longCalls": 0,
+ "maxCallIn": 24122,
+ "usdReportedByTool": 0.01762053,
+ "seconds": 85.9,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 90
+}

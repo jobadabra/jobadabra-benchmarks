@@ -1,0 +1,43 @@
+{
+ "tool": "browser-use",
+ "url": "https://jobs.ashbyhq.com/resend/729ad3fa-10a2-4a07-ba9c-13b6eec6adb1/application",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 14,
+ "final": "Filled the Resend application form (Software Engineer, Trust & Safety) at the given address. I did not press Submit Application and did not open any external links.\n\nFilled from the facts:\n- Name: Ada Tester (typed into the name field earlier in the run)\n- Email: ada.tester@example.test\n- Resume: cv.pdf uploaded from /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf. The resume box shows cv.pdf in the latest screenshot. An upload-failed toast appeared earlier in the run, but it is not visible in the latest screenshot.\n- Time zone question 'Are you in an",
+ "completed": true,
+ "tokens": {
+  "in": 111544,
+  "out": 17508,
+  "cacheRead": 203269,
+  "cacheWrite": 0,
+  "calls": 15
+ },
+ "usd": 0.021941090000000007,
+ "longCalls": 0,
+ "maxCallIn": 26521,
+ "usdReportedByTool": 0.01932831,
+ "seconds": 109.1,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 113
+}

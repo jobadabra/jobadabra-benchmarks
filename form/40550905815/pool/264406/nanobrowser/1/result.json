@@ -1,0 +1,56 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://apply.workable.com/platzi/j/680E47041B/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 25,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":18,\"maxSteps\":40,\"details\":\"The application is partly filled and has NOT been submitted.\\n\\nFilled:\\n- First name: Ada\\n- Last name: Tester\\n- Address: Musterstrasse 12, 8001 Zurich, Switzerland (replaced a wrong prefilled value, \\\"Dulles Town Cen...\\\")\\n- LinkedIn: https://www.linkedin.com/in/ada-tester\\n\\nLeft empty on purpose:\\n- Email: the facts only contain the pl",
+ "completed": true,
+ "tokens": {
+  "in": 401575,
+  "out": 23173,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 25
+ },
+ "usd": 0.051744000000000005,
+ "longCalls": 0,
+ "maxCallIn": 23179,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 183.9,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.8209452589991082:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 189
+}

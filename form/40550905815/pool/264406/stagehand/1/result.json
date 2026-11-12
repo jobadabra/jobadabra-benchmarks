@@ -1,0 +1,30 @@
+{
+ "tool": "stagehand",
+ "url": "https://apply.workable.com/platzi/j/680E47041B/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": null,
+ "final": "Error: timeout: 8 minutes",
+ "completed": false,
+ "tokens": {
+  "in": 513910,
+  "out": 14350,
+  "cacheRead": 247904,
+  "cacheWrite": 7747,
+  "calls": 35
+ },
+ "usd": 0.062013415,
+ "longCalls": 0,
+ "maxCallIn": 29640,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 480.5,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.8209452589991082:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 485
+}

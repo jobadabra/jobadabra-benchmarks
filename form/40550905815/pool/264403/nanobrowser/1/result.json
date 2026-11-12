@@ -1,0 +1,50 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://jobs.ashbyhq.com/perplexity/32a36cae-ad73-4198-9354-a72b141ff055/application",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 12,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":8,\"maxSteps\":40,\"details\":\"The application is only partly filled, and I have not submitted it.\\n\\nFilled:\\n- Name: Ada Tester\\n- Phone: +41 79 555 01 23\\n\\nNot filled:\\n- Resume: the upload failed. The Upload file button did not open a usable file picker. The file is /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf.\\n- Email: t",
+ "completed": true,
+ "tokens": {
+  "in": 144490,
+  "out": 12461,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 12
+ },
+ "usd": 0.020679499999999996,
+ "longCalls": 0,
+ "maxCallIn": 15988,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 82.9,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 88
+}
