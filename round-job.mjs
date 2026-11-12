@@ -4,13 +4,13 @@
 // the owner's ~$3 (27 Oct 2026). Ours is priced from its tokens at the round's model (the harness counts Sonnet's price).
 // Usage: node round-job.mjs --tool <browser-use|stagehand|nanobrowser|extension|extension-shipped> --run <n> --forms forms-objective.json --out <dir> --cap 0.30
 import fs from 'node:fs'; import path from 'node:path'; import crypto from 'node:crypto'; import {spawnSync} from 'node:child_process';
-import {AGENT_MODEL, callUsd} from './lib/models.mjs'; import {allFailed} from './lib/round-health.mjs';
+import {AGENT_MODEL, callUsd} from './lib/models.mjs'; import {allFailed} from './lib/round-health.mjs'; import {activeForms} from './lib/forms.mjs';
 
 const arg = (name, dflt) => { const i = process.argv.indexOf(`--${name}`); return i > 0 ? process.argv[i + 1] : dflt; };
 const label = arg('tool'), run = Number(arg('run', 1)), out = arg('out'), cap = Number(arg('cap', 0.3));
 const tool = label.startsWith('extension') ? 'extension' : label;
 const file = JSON.parse(fs.readFileSync(arg('forms', 'forms-objective.json'), 'utf8')), only = String(arg('only', '') || '').split(',').filter(Boolean).map(Number);
-const forms = (file.picks || file).filter(f => !only.length || only.includes(f.id));   // a pick-forms.mjs file or a plain forms list
+const forms = activeForms(file).filter(f => !only.length || only.includes(f.id));   // a pick-forms.mjs file or a plain forms list, retired forms left out (lib/forms.mjs)
 const order = [...forms].sort((a, b) => crypto.createHash('sha256').update(`${label}|${run}|${a.id}`).digest('hex').localeCompare(crypto.createHash('sha256').update(`${label}|${run}|${b.id}`).digest('hex')));
 const env = {...process.env, ...(label === 'extension-shipped' ? {BENCH_OURS_AS_SHIPPED: '1'} : {})};
 

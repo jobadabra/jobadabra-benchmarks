@@ -61,7 +61,21 @@
    "host": "apply.workable.com",
    "title": "Product Delivery Lead",
    "location": "Minneapolis, United States",
-   "url": "https://apply.workable.com/semios/j/0A6915AC27/apply/"
+   "url": "https://apply.workable.com/semios/j/0A6915AC27/apply/",
+   "retired": "2026-11-12",
+   "why": "the posting was taken down: apply.workable.com/semios/j/0A6915AC27 redirects to ?not_found=true and is not among semios' 36 open jobs (fixed round 43270689648: 0 fields in all 3 runs). The rivals' frozen rows of 106 (rounds/fixed/106) stay; ours runs 107 instead"
+  },
+  {
+   "id": 107,
+   "platform": "workable",
+   "company": "semios",
+   "host": "apply.workable.com",
+   "title": "Corporate Development & Market Strategy Lead",
+   "location": "Minneapolis, United States",
+   "url": "https://apply.workable.com/semios/j/4708134E21/apply/",
+   "replaces": 106,
+   "addedAt": "2026-11-12",
+   "how": "seeded draw (seed fixed-106-2026-11-12, pick-forms' shuffle) among semios' open postings: the career-ops list holds no other Workable company we have not tested (toggl, huggingface, platzi, semios are excluded, doist has no open postings)"
   }
  ],
  "skipped": [
