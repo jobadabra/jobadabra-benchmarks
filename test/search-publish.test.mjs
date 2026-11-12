@@ -7,6 +7,8 @@ test('ours first, then the rivals present, in a fixed order; unknown tools last'
   assert.deepEqual(toolsOf(rows), ['ours', 'jobspy', 'eures', 'adzuna', 'career-ops', 'career-ops-docs', 'new-tool']);
   assert.deepEqual(toolsOf([]), ['ours']);   // ours always gets its row, even with nothing found
   assert.equal(NAME['career-ops-docs'], 'career-ops (set up per its docs)');
+  assert.equal(NAME.ours, 'Jobadabra Search Engine');   // owner, 12 Nov 2026: Jobadabra is the end-to-end product, not a search engine
+  assert.equal(NAME['ours-all'], 'Jobadabra Search Engine (with every source)');
 });
 
 
