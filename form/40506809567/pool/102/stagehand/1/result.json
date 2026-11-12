@@ -1,0 +1,43 @@
+{
+ "tool": "stagehand",
+ "url": "https://job-boards.greenhouse.io/safariai/jobs/5233682007",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 144,
+ "final": "I opened the Safari AI Greenhouse application and began filling it, but the work is incomplete and the form is currently in a bad state. Typing into the fields repeatedly produced scrambled or misplaced text (stray characters landed in the wrong field, and some keystrokes were dropped or delayed). After a page reload and several rounds of clearing and retyping, the most recent screenshot shows Fir",
+ "completed": false,
+ "tokens": {
+  "in": 835592,
+  "out": 15961,
+  "cacheRead": 302289,
+  "cacheWrite": 7751,
+  "calls": 43
+ },
+ "usd": 0.09553146499999995,
+ "longCalls": 0,
+ "maxCallIn": 38275,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 328.4,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST csp.withgoogle.com/csp/apiserving (non-GET to another host)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 332,
+ "score": {
+  "fields": 15,
+  "right": 1,
+  "wrong": 1,
+  "emptyShouldFill": 11,
+  "emptyOk": 2,
+  "emptyRequired": 6,
+  "requiredTotal": 8
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

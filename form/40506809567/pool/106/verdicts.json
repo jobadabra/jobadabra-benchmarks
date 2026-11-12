@@ -1,0 +1,314 @@
+[
+ {
+  "k": "512bf419e69ff97e",
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "value": "CHF 140,000-160,000 gross per year (estimate)",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target range"
+ },
+ {
+  "k": "6e8b10db8e2a47e4",
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "value": "Musterstrasse 12",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Street matches"
+ },
+ {
+  "k": "497ac2311b90123b",
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "value": "Musterstrasse 12, 8001 Zurich, Switzerland",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Full address correct"
+ },
+ {
+  "k": "70e4fd99b65442a3",
+  "question": "Summary",
+  "type": "textarea",
+  "required": false,
+  "value": "Senior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale, strong in observability and incident response.",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches summary"
+ },
+ {
+  "k": "2d979fdc5abfb3e6",
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "value": "SVGs not supported by this browser.+1",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Garbage text, not phone number"
+ },
+ {
+  "k": "2e7630c476cc8a91",
+  "question": "Last name",
+  "type": "text",
+  "required": true,
+  "value": "Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Last name correct"
+ },
+ {
+  "k": "904d91acf573b5a2",
+  "question": "Describe a time you improved backlog cleanliness and Jira structure across multiple teams without adding unnecessary process overhead.",
+  "type": "textarea",
+  "required": true,
+  "value": "The closest I can point to for improving backlog cleanliness and Jira structure across multiple teams is building the Terraform platform used by 120 engineers at Acme Cloud.",
+  "verdict": "right",
+  "answerable": false,
+  "note": "Hedged closest experience, stated fact, no extra claims",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "d5ca50ef30ac19b6",
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "value": "Musterstrasse 12, 8001 Zurich, SwitzerlandMusterstrasse 12, 8001 Zurich, Switzerland",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Address duplicated"
+ },
+ {
+  "k": "f624dfc475b7d90e",
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "value": "CHF 140,000–160,000 a year, gross (estimate)",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target range"
+ },
+ {
+  "k": "d679f649b8379c62",
+  "question": "Summary",
+  "type": "textarea",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Summary available"
+ },
+ {
+  "k": "905f856a4281dc23",
+  "question": "Describe a time you improved backlog cleanliness and Jira structure across multiple teams without adding unnecessary process overhead.",
+  "type": "textarea",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No Jira backlog facts"
+ },
+ {
+  "k": "88909159d31c1a72",
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "value": "San Jose, United States of",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "San Jose US contradicts Zurich"
+ },
+ {
+  "k": "7fb7868276855f9a",
+  "question": "Summary",
+  "type": "textarea",
+  "required": false,
+  "value": "enior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale, strong in observability and incident responseSC",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Truncated start, junk at end"
+ },
+ {
+  "k": "d375bfa2d41d7fa4",
+  "question": "Have you been referred to this position by a Semios employee? If so, please let us know their full name.",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No referral info"
+ },
+ {
+  "k": "d3e1b945073888fa",
+  "question": "First name",
+  "type": "text",
+  "required": true,
+  "value": "daAda",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Garbled first name"
+ },
+ {
+  "k": "969abbded77c8eb0",
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Salary known"
+ },
+ {
+  "k": "ef0b1facbd88a361",
+  "question": "Resume Choose file",
+  "type": "file",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available"
+ },
+ {
+  "k": "4efb56034c3c8601",
+  "question": "Cover letter",
+  "type": "textarea",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Cover letter style given; optional"
+ },
+ {
+  "k": "40c7688628b792fa",
+  "question": "First name",
+  "type": "text",
+  "required": true,
+  "value": "Ada",
+  "verdict": "right",
+  "answerable": true,
+  "note": "First name correct"
+ },
+ {
+  "k": "a2baa451234a53cb",
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Address known"
+ },
+ {
+  "k": "d1995f74c895b657",
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "value": "79 55",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Truncated phone"
+ },
+ {
+  "k": "8c36f727f98368b1",
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "value": "Musterstrasse 12, Zurich, Switzerland",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Address consistent, lacks postal code"
+ },
+ {
+  "k": "df1b0dcb90cb6838",
+  "question": "Resume Replace file",
+  "type": "file",
+  "required": false,
+  "value": "cv.pdf",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV filename provided"
+ },
+ {
+  "k": "5e0a559897d3cb4e",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "ada.tester@example.test",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Email correct"
+ },
+ {
+  "k": "1afa0c830caab862",
+  "question": "Describe a time you improved backlog cleanliness and Jira structure across multiple teams without adding unnecessary process overhead.",
+  "type": "textarea",
+  "required": true,
+  "value": "The closest I can point to for improving backlog cleanliness and Jira structure across multiple teams is the Terraform platform I built at Acme Cloud, used by 120 engineers.",
+  "verdict": "right",
+  "answerable": false,
+  "note": "Hedged closest experience, stated fact, no extra claims",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "170b84ac35c2510d",
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "value": "CHF 140,000–160,000 gross per year (estimate)",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target range"
+ },
+ {
+  "k": "0f3bbc1ab3edbf5a",
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "value": "79 555 01 23",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Phone without country code, plausible"
+ },
+ {
+  "k": "313a0b5f2c3fe6bb",
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "value": "CHF 140,000–160,000 a year, gross",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches stated target range"
+ },
+ {
+  "k": "5f5e4ec07598e1ac",
+  "question": "Last name",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Last name known"
+ },
+ {
+  "k": "f0dc30486b7f6352",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email known"
+ },
+ {
+  "k": "2c008d4d3a770ddb",
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "value": "CHF 140,000–160,000 gross per year",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target range"
+ }
+]

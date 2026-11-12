@@ -1,0 +1,42 @@
+{
+ "tool": "browser-use",
+ "url": "https://job-boards.greenhouse.io/safariai/jobs/5233682007",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 12,
+ "final": "Partially filled the Safari AI Greenhouse application (https://job-boards.greenhouse.io/safariai/jobs/5233682007). I did NOT press Submit application.\n\nFilled from the facts:\n- First Name: Ada\n- Last Name: Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23 (country code +41 selected)\n- Resume/CV: cv.pdf uploaded from /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf\n- Education start year: 2014\n- Education end year: 2018\n- LinkedIn Profile: https://www.linkedin.com/in/ada-tester\n\nLeft EMPTY:\n- School: the facts give 'Example University', ",
+ "completed": true,
+ "tokens": {
+  "in": 99362,
+  "out": 12606,
+  "cacheRead": 174321,
+  "cacheWrite": 0,
+  "calls": 13
+ },
+ "usd": 0.01798241,
+ "longCalls": 0,
+ "maxCallIn": 23034,
+ "usdReportedByTool": 0.017982409999999997,
+ "seconds": 85.7,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST grnhse-prod-jben-us-east-1.s3.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 90,
+ "score": {
+  "fields": 15,
+  "right": 8,
+  "wrong": 0,
+  "emptyShouldFill": 5,
+  "emptyOk": 2,
+  "emptyRequired": 3,
+  "requiredTotal": 8
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

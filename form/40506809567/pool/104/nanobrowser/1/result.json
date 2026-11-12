@@ -1,0 +1,68 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://jobs.ashbyhq.com/semgrep/b75ac9b5-1c27-4f5c-94d7-0eceba74de83/application",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 17,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":12,\"maxSteps\":40,\"details\":\"The application is partly filled and has NOT been submitted.\\n\\nFilled from the applicant facts:\\n- Name: Ada Tester\\n- Email: the applicant email\\n- Phone: +41 79 555 01 23\\n- LinkedIn: https://www.linkedin.com/in/ada-tester (please verify, as it was not re-checked after the form shifted)\\n\\nNot done:\\n- CV upload: I could not attach /home/",
+ "completed": true,
+ "tokens": {
+  "in": 234559,
+  "out": 16085,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 17
+ },
+ "usd": 0.0314984,
+ "longCalls": 0,
+ "maxCallIn": 18574,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 116,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST rs.fullstory.com/rec/page (non-GET to another host)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 121,
+ "score": {
+  "fields": 33,
+  "right": 3,
+  "wrong": 1,
+  "emptyShouldFill": 2,
+  "emptyOk": 27,
+  "emptyRequired": 1,
+  "requiredTotal": 4
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

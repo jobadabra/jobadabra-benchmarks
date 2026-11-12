@@ -1,0 +1,488 @@
+[
+ {
+  "k": "fd7a769f06a431b4",
+  "question": "GitHub URL",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No GitHub in facts"
+ },
+ {
+  "k": "c4a819b6ecabfd03",
+  "question": "Current location ✱Zürich, CHEZurich, NLDZurich, CA, USANo location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "value": "Zürich",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zürich matches location forms"
+ },
+ {
+  "k": "471a8de44da84d45",
+  "question": "Full name ✱",
+  "type": "text",
+  "required": true,
+  "value": "Ada Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches full name"
+ },
+ {
+  "k": "8aaf37a8bfdf975f",
+  "question": "Email ✱",
+  "type": "email",
+  "required": true,
+  "value": "ada.tester@example.test",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches email"
+ },
+ {
+  "k": "008a4ebcf6d5a4ea",
+  "question": "Current company",
+  "type": "text",
+  "required": false,
+  "value": "Acme Cloud",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Acme Cloud from CV"
+ },
+ {
+  "k": "53415909c51c135a",
+  "question": "Current location ✱Zürich, CHENo location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "value": "Zurich, Switzerland",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zurich, Switzerland correct"
+ },
+ {
+  "k": "0fa3f39c5465cfc1",
+  "question": "Race",
+  "type": "select-one",
+  "required": false,
+  "value": "Decline to self-identify",
+  "options": [
+   "Select ...",
+   "Hispanic or Latino",
+   "White (Not Hispanic or Latino)",
+   "Black or African American (Not Hispanic or Latino)",
+   "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)",
+   "Asian (Not Hispanic or Latino)",
+   "American Indian or Alaska Native (Not Hispanic or Latino)",
+   "Two or More Races (Not Hispanic or Latino)",
+   "Decline to self-identify"
+  ],
+  "verdict": "right",
+  "answerable": false,
+  "note": "Decline is a sensible fixed choice",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "af9435feae592a65",
+  "question": "Gender",
+  "type": "select-one",
+  "required": false,
+  "value": "Decline to self-identify",
+  "options": [
+   "Select ...",
+   "Male",
+   "Female",
+   "Decline to self-identify"
+  ],
+  "verdict": "right",
+  "answerable": false,
+  "note": "Decline is a sensible fixed choice",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "e172ccecdd70ca2b",
+  "question": "LinkedIn URL✱",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "LinkedIn is in facts"
+ },
+ {
+  "k": "1f83eeee651c84d9",
+  "question": "LinkedIn URL ✱",
+  "type": "text",
+  "required": true,
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches LinkedIn"
+ },
+ {
+  "k": "9f42979d83767b92",
+  "question": "Twitter URL",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No Twitter in facts"
+ },
+ {
+  "k": "6f4e9d1733958b76",
+  "question": "Tell us about yourself!",
+  "type": "textarea",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Summary available for this field"
+ },
+ {
+  "k": "0d5fa51f6a4ed5eb",
+  "question": "Current location ✱No location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "value": "Z",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Just 'Z', incomplete location"
+ },
+ {
+  "k": "37f339764bcd5d31",
+  "question": "Portfolio URL",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No portfolio in facts"
+ },
+ {
+  "k": "77d954291defbd99",
+  "question": "Current location ✱Zaragoza, Aragón, ESPZaragoza, O Valadouro, Lugo, Galicia, ESPZuid, NLDNo location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "value": "Z",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Just 'Z', incomplete location"
+ },
+ {
+  "k": "7f2cefc26a31c96e",
+  "question": "Resume/CV ✱cv.pdfATTACH RESUME/CVCouldn't auto-read resume.Analyzing resume...Success!",
+  "type": "file",
+  "required": false,
+  "value": "cv.pdf",
+  "verdict": "right",
+  "answerable": true,
+  "note": "cv.pdf attached"
+ },
+ {
+  "k": "11416e59d589f1d4",
+  "question": "Email✱",
+  "type": "email",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email is in facts"
+ },
+ {
+  "k": "cd49b7562019ac16",
+  "question": "Veteran statusSelect ...I am a veteranI am not a veteranDecline to self-identify",
+  "type": "select-one",
+  "required": false,
+  "value": "",
+  "options": [
+   "Select ...",
+   "I am a veteran",
+   "I am not a veteran",
+   "Decline to self-identify"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Veteran status not in facts"
+ },
+ {
+  "k": "70fe4bfc6a9dd766",
+  "question": "Tell us about yourself!",
+  "type": "textarea",
+  "required": false,
+  "value": "I am a Senior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale. At Acme Cloud I run 400 microservices on Kubernetes (AWS EKS). I cut incident time by 40 percent with Datadog and OpenTelemetry, and I built the Terraform platform used by 120 engineers. I also led an on-call rotation of 8 people. Before that, at Beta Systems in Berlin, I migrated 60 services to Kubernetes and introduced SLOs and error budgets.",
+  "verdict": "right",
+  "answerable": true,
+  "note": "All claims from stated facts"
+ },
+ {
+  "k": "c1cee27df6327bd4",
+  "question": "Resume/CV ✱",
+  "type": "file",
+  "required": false,
+  "value": "cv.pdf",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV file provided"
+ },
+ {
+  "k": "81205bb812fe7c32",
+  "question": "Which location are you applying for?",
+  "type": "select-one",
+  "required": false,
+  "value": "",
+  "options": [
+   "Select...",
+   "Spain",
+   "Madrid",
+   "Barcelona",
+   "New York City, NY"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No matching location option for Zurich"
+ },
+ {
+  "k": "5a5ce0c574ef5dbe",
+  "question": "Current location ✱",
+  "type": "text",
+  "required": true,
+  "value": "Zürich, CHE",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zurich, Switzerland matches"
+ },
+ {
+  "k": "1a337061084bcde5",
+  "question": "Phone",
+  "type": "text",
+  "required": false,
+  "value": "+41 79 555 01 23",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Phone matches"
+ },
+ {
+  "k": "9a85d89887f3e368",
+  "question": "GenderSelect ...MaleFemaleDecline to self-identify",
+  "type": "select-one",
+  "required": false,
+  "value": "",
+  "options": [
+   "Select ...",
+   "Male",
+   "Female",
+   "Decline to self-identify"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Gender not in facts"
+ },
+ {
+  "k": "2d6f8772b72edc8d",
+  "question": "Current location ✱No location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "value": "Zürich",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zürich correct"
+ },
+ {
+  "k": "91c62f4418a5f295",
+  "question": "Tell us about yourself!",
+  "type": "textarea",
+  "required": false,
+  "value": "I am a Senior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale. At Acme Cloud in Zurich I run about 400 microservices on Kubernetes (AWS EKS), and I cut incident time by 40 percent with Datadog and OpenTelemetry. I built the Terraform platform used by 120 engineers and led an on-call rotation of 8 people. Before that, at Beta Systems in Berlin, I migrated 60 services to Kubernetes and introduced SLOs and error budgets.",
+  "verdict": "right",
+  "answerable": true,
+  "note": "All claims from stated facts"
+ },
+ {
+  "k": "369702ff9f491eb1",
+  "question": "Current location ✱Zürich, CHENo location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "value": "Zürich, CHE",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zürich, CHE is Switzerland"
+ },
+ {
+  "k": "5a02d7de97ea9bad",
+  "question": "Current location ✱Zürich, CHEZurich, NLDZurich, CA, USANo location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "value": "Zurich",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zurich correct"
+ },
+ {
+  "k": "32d1b02939715539",
+  "question": "RaceSelect ...Hispanic or LatinoWhite (Not Hispanic or Latino)Black or African American (Not Hispanic or Latino)Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)Asian (Not Hispanic or Latino)American Indian or Alaska Native (Not Hispanic or Latino)Two or More Races (Not Hispanic or Latino)Decline to self-identifyHispanic or LatinoA person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race.White (Not Hispanic or Latino)A person having origins in any of the original peoples of Europe, the Middle East, or North Africa.Black or African American (Not Hispanic or Latino)A person having origins in any of the black racial groups of Africa.Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands.Asian (Not Hispanic or Latino)A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.American Indian or Alaska Native (Not Hispanic or Latino)A person having origins in any of the original peoples of North and South America (including Central America), and who maintain tribal affiliation or community attachment.Two or More Races (Not Hispanic or Latino)All persons who identify with more than one of the above five races.",
+  "type": "select-one",
+  "required": false,
+  "value": "",
+  "options": [
+   "Select ...",
+   "Hispanic or Latino",
+   "White (Not Hispanic or Latino)",
+   "Black or African American (Not Hispanic or Latino)",
+   "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)",
+   "Asian (Not Hispanic or Latino)",
+   "American Indian or Alaska Native (Not Hispanic or Latino)",
+   "Two or More Races (Not Hispanic or Latino)",
+   "Decline to self-identify"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Race not in facts"
+ },
+ {
+  "k": "d19de3f2fbf8bb50",
+  "question": "Current location ✱No location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "value": "Zürich, CHE",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zürich, CHE correct"
+ },
+ {
+  "k": "fdf305eded5e5537",
+  "question": "Email✱",
+  "type": "email",
+  "required": true,
+  "value": "ada.tester@example.test",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Email matches"
+ },
+ {
+  "k": "26fefad4abbaa1f6",
+  "question": "Current location ✱Zürich, CHENo location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "value": "Zürich",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zürich correct"
+ },
+ {
+  "k": "5730b97f34ca41ef",
+  "question": "Current location ✱Zürich, CHEZuri, Kano, NGANo location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "value": "Zuri",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "'Zuri' incomplete, matches Nigeria"
+ },
+ {
+  "k": "35df7521bd43856d",
+  "question": "Current company",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Acme Cloud in CV"
+ },
+ {
+  "k": "8b3f4e7d51ee4856",
+  "question": "Veteran status",
+  "type": "select-one",
+  "required": false,
+  "value": "Decline to self-identify",
+  "options": [
+   "Select ...",
+   "I am a veteran",
+   "I am not a veteran",
+   "Decline to self-identify"
+  ],
+  "verdict": "right",
+  "answerable": false,
+  "note": "Decline is a sensible fixed choice",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "4b8aef0de2ad6dc9",
+  "question": "Current location ✱No location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "value": "Zurich, NLD",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "NLD is Netherlands, not Switzerland"
+ },
+ {
+  "k": "7be872b3943d4194",
+  "question": "Resume/CV ✱ATTACH RESUME/CVCouldn't auto-read resume.Analyzing resume...Success!",
+  "type": "file",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file should be uploaded"
+ },
+ {
+  "k": "b2cdeda12b74ce31",
+  "question": "Tell us about yourself!",
+  "type": "textarea",
+  "required": false,
+  "value": "I am a Senior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale. At Acme Cloud I run 400 microservices on Kubernetes (AWS EKS), cut incident time by 40 percent with Datadog and OpenTelemetry, and built the Terraform platform used by 120 engineers. Before that, at Beta Systems in Berlin, I migrated 60 services to Kubernetes and introduced SLOs and error budgets. I am based in Zurich, I am an EU citizen, and I need no sponsorship to work in Spain or the EU.",
+  "verdict": "right",
+  "answerable": true,
+  "note": "EU citizen covers Spain; facts match"
+ },
+ {
+  "k": "4d15b3b34c2fa8a3",
+  "question": "Full name✱",
+  "type": "text",
+  "required": true,
+  "value": "Ada Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Full name matches"
+ },
+ {
+  "k": "3ac7ea94ecb7ddf3",
+  "question": "Current location ✱Urich, MO, USANo location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "value": "urich",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "'urich' truncated, matches Missouri"
+ },
+ {
+  "k": "0f4fe79a40515c79",
+  "question": "Tinybird",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Unclear question, not in facts"
+ },
+ {
+  "k": "a4285e8ab3ca2a95",
+  "question": "Tell us about yourself!",
+  "type": "textarea",
+  "required": false,
+  "value": "Senior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale, strong in observability and incident response.",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches CV summary"
+ },
+ {
+  "k": "11c8d29e47136841",
+  "question": "LinkedIn URL✱",
+  "type": "text",
+  "required": true,
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "LinkedIn matches"
+ }
+]

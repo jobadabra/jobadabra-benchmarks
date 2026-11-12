@@ -1,0 +1,42 @@
+{
+ "tool": "stagehand",
+ "url": "https://job-boards.greenhouse.io/humeai/jobs/4775962008",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 28,
+ "final": "Uploaded cv.pdf and attempted to fill contact fields on the Hume AI Greenhouse application. Coordinate-based typing was unreliable: First Name shows only \"da\", Last Name is empty, Location contains garbled text that could not be cleared, and Email/Phone were not verified. Some text may have landed in wrong fields. Country, Why Hume?, and the US work-authorization and prior-application dropdowns we",
+ "completed": false,
+ "tokens": {
+  "in": 161215,
+  "out": 6867,
+  "cacheRead": 93012,
+  "cacheWrite": 7751,
+  "calls": 16
+ },
+ "usd": 0.021453995,
+ "longCalls": 0,
+ "maxCallIn": 21449,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 52,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST grnhse-prod-jben-us-west-2.s3.us-west-2.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 56,
+ "score": {
+  "fields": 10,
+  "right": 0,
+  "wrong": 2,
+  "emptyShouldFill": 5,
+  "emptyOk": 3,
+  "emptyRequired": 4,
+  "requiredTotal": 5
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

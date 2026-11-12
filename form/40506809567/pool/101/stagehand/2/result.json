@@ -1,0 +1,42 @@
+{
+ "tool": "stagehand",
+ "url": "https://job-boards.greenhouse.io/humeai/jobs/4775962008",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 66,
+ "final": "I opened the Hume AI AI Researcher application form and uploaded cv.pdf successfully. However, text entry into the form repeatedly landed in the wrong fields and got scrambled. Repeated clear-and-retype attempts did not fix it. The last accessibility-tree read showed First Name empty, Last Name \"ATester\", Email garbled, Phone empty, and Location garbled, so the required personal fields are not cor",
+ "completed": false,
+ "tokens": {
+  "in": 299087,
+  "out": 11651,
+  "cacheRead": 147269,
+  "cacheWrite": 7751,
+  "calls": 21
+ },
+ "usd": 0.03817576500000001,
+ "longCalls": 0,
+ "maxCallIn": 28709,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 112,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST grnhse-prod-jben-us-east-1.s3.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 116,
+ "score": {
+  "fields": 10,
+  "right": 0,
+  "wrong": 2,
+  "emptyShouldFill": 5,
+  "emptyOk": 3,
+  "emptyRequired": 4,
+  "requiredTotal": 5
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

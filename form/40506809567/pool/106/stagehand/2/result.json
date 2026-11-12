@@ -1,0 +1,41 @@
+{
+ "tool": "stagehand",
+ "url": "https://apply.workable.com/semios/j/0A6915AC27/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 93,
+ "final": "Task was to fill the Workable application with the applicant's facts, never submit, and leave unanswerable fields empty. I did not submit anything. Despite several attempts, the Personal information section is not correctly filled: First name reads \"daAda\", Last name, Email, Phone and Address are empty, and the phone country still defaults to +1 (US). A Clear button click wiped earlier entries, an",
+ "completed": false,
+ "tokens": {
+  "in": 509140,
+  "out": 16109,
+  "cacheRead": 201474,
+  "cacheWrite": 7749,
+  "calls": 30
+ },
+ "usd": 0.061951865,
+ "longCalls": 0,
+ "maxCallIn": 32528,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 173.5,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.5156909079705179:1793 (non-GET to another host)",
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.5156909079705179:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 178,
+ "score": {
+  "fields": 12,
+  "right": 0,
+  "wrong": 2,
+  "emptyShouldFill": 8,
+  "emptyOk": 2,
+  "emptyRequired": 8,
+  "requiredTotal": 10
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}
