@@ -55,7 +55,7 @@ export function noteText(note, baseline, last, {missing = [], notServed = [], ur
   const rivals = Object.entries(note.tools).filter(([t]) => t !== 'ours' && t !== 'ours-all').sort((a, b) => b[1].relevant - a[1].relevant);
   lines.push(`🏁 ${[`Ours ${ours.relevant}`, ...rivals.map(([t, s]) => `${esc(NAME[t] || t)} ${s.relevant}`)].join(' · ')}`);
   if (note.beyond) lines.push(`➕ We add beyond ${Object.entries(note.beyond).map(([r, k]) => `${esc(NAME[r] || r)} ${k}`).join(' · ')}`);
-  const moves = Object.entries(note.personas).map(([n, p]) => [p, p.relevant - (same(last || baseline, 'ours') ? (last || baseline)?.personas?.[n]?.relevant ?? p.relevant : p.relevant)]).filter(([, d]) => d)
+  const moves = Object.entries(note.personas).map(([n, p]) => [p, ref?.personas?.[n]?.relevant == null ? 0 : p.relevant - ref.personas[n].relevant]).filter(([, d]) => d)   // the verdict line's reference (Gitar on #24)
     .sort((a, b) => Math.abs(b[1]) - Math.abs(a[1])).slice(0, 3).map(([p, d]) => `${d > 0 ? '▲' : '▼'} ${esc(p.label)} ${d > 0 ? '+' : '−'}${Math.abs(d)}`);
   lines.push(empty.length ? `⚠️ ${empty.length} of ${searches} searches found nothing: ${empty.slice(0, 4).map(([, p]) => esc(p.label)).join('; ')}${empty.length > 4 ? ' …' : ''}` : `✅ ${searches === 1 ? 'the search' : `all ${searches} searches`} found something`);
   if (moves.length) lines.push(`📈 ${moves.join('; ')}`);

@@ -40,3 +40,13 @@ test('the first run has no previous note: its baseline had every source on, so o
   assert.match(text, /^ℹ️ no earlier run with the rivals' sources off yet$/m);
   assert.match(text.split('\n')[0], /^🟢 <b>Job search: ours 1 relevant of 1 shown<\/b>$/, 'no arrow: the old baseline had every source on');
 });
+
+// Gitar on #24 (12 Nov 2026): the verdict and the 📈 moves must use the same reference: the previous note when it ran with the rivals' sources off, else the baseline when that did.
+test('the moves line uses the same reference as the verdict line', () => {
+  const note = noteOf({1: [job('ours', 'yes', 'yes')]}, {round: 'r', labels: {1: 'Nurse · Townville'}, rivalsOff: true});
+  const oldLast = {tools: {ours: {relevant: 9}}, personas: {1: {relevant: 9}}};   // an old note: every source on
+  const offBaseline = {rivalsOff: true, tools: {ours: {relevant: 4}}, personas: {1: {relevant: 4}}};
+  const text = noteText(note, offBaseline, oldLast);
+  assert.match(text.split('\n')[0], /▼3 vs baseline 4$/); assert.match(text, /^📈 ▼ Nurse · Townville −3$/m);
+  assert.doesNotMatch(noteText(note, oldLast, oldLast), /📈/, 'no reference that ran the same way: no verdict delta, no moves');
+});
