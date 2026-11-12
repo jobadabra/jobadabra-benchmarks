@@ -1,0 +1,123 @@
+[
+ {
+  "question": "First name",
+  "type": "text",
+  "required": true,
+  "name": "firstname",
+  "value": "Ada",
+  "k": "40c7688628b792fa",
+  "verdict": "right",
+  "answerable": true,
+  "note": "First name correct"
+ },
+ {
+  "question": "Last name",
+  "type": "text",
+  "required": true,
+  "name": "lastname",
+  "value": "Tester",
+  "k": "2e7630c476cc8a91",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Last name correct"
+ },
+ {
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "name": "email",
+  "value": "ada.tester@example.test",
+  "k": "5e0a559897d3cb4e",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Email correct"
+ },
+ {
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "name": "phone",
+  "value": "79 55",
+  "k": "d1995f74c895b657",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Truncated phone"
+ },
+ {
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "name": "address",
+  "value": "San Jose, United States of",
+  "k": "88909159d31c1a72",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "San Jose US contradicts Zurich"
+ },
+ {
+  "question": "Summary",
+  "type": "textarea",
+  "required": false,
+  "name": "summary",
+  "value": "",
+  "k": "d679f649b8379c62",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Summary available"
+ },
+ {
+  "question": "Resume Choose file",
+  "type": "file",
+  "required": true,
+  "name": "input_files_input_KwRbVIvAVCMD8lhF",
+  "value": "",
+  "k": "ef0b1facbd88a361",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available"
+ },
+ {
+  "question": "Cover letter",
+  "type": "textarea",
+  "required": false,
+  "name": "cover_letter",
+  "value": "",
+  "k": "4efb56034c3c8601",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Cover letter style given; optional"
+ },
+ {
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "name": "CA_9741",
+  "value": "",
+  "k": "969abbded77c8eb0",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Salary known"
+ },
+ {
+  "question": "Describe a time you improved backlog cleanliness and Jira structure across multiple teams without adding unnecessary process overhead.",
+  "type": "textarea",
+  "required": true,
+  "name": "QA_12543006",
+  "value": "",
+  "k": "905f856a4281dc23",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No Jira backlog facts"
+ },
+ {
+  "question": "Have you been referred to this position by a Semios employee? If so, please let us know their full name.",
+  "type": "text",
+  "required": true,
+  "name": "QA_12542843",
+  "value": "",
+  "k": "d375bfa2d41d7fa4",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No referral info"
+ }
+]

@@ -1,0 +1,6 @@
+{
+ "tool": "extension",
+ "url": "https://jobs.ashbyhq.com/semgrep/b75ac9b5-1c27-4f5c-94d7-0eceba74de83/application",
+ "error": "live row on CI: no GitHub OIDC token for the AI broker (the workflow needs `permissions: id-token: write`); the app has no other way to ask the AI on a runner",
+ "crashed": true
+}

@@ -1,0 +1,272 @@
+[
+ {
+  "k": "76bcf4d50dd390e2",
+  "question": "Email*",
+  "type": "text",
+  "required": true,
+  "value": "ada.tester@example.test",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches email"
+ },
+ {
+  "k": "b8e95bf69a3dc24c",
+  "question": "Last Name*",
+  "type": "text",
+  "required": true,
+  "value": "Teste",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Truncated last name 'Teste'"
+ },
+ {
+  "k": "86c9a0b3bc87b864",
+  "question": "Email*",
+  "type": "text",
+  "required": true,
+  "value": "Tda.tester@example.tesT",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Corrupted email with extra characters"
+ },
+ {
+  "k": "4a186f31d3656263",
+  "question": "Phone",
+  "type": "tel",
+  "required": false,
+  "value": "+41 79 555 01 23",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches phone"
+ },
+ {
+  "k": "94b12b7f9c2e0821",
+  "question": "Start date year*",
+  "type": "number",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Education start 2014 available"
+ },
+ {
+  "k": "a8bfdaec2cd948e1",
+  "question": "LinkedIn Profile",
+  "type": "text",
+  "required": false,
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches LinkedIn"
+ },
+ {
+  "k": "d57877cf062e6ba8",
+  "question": "Discipline*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Computer Science available"
+ },
+ {
+  "k": "27c393df4830bba5",
+  "question": "School*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Example University in CV"
+ },
+ {
+  "k": "bd6fa00cb0c64b17",
+  "question": "LinkedIn Profile",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "LinkedIn available"
+ },
+ {
+  "k": "f522b61487f304bd",
+  "question": "Phone",
+  "type": "tel",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Phone available"
+ },
+ {
+  "k": "3582c1099a1398b7",
+  "question": "End date year*",
+  "type": "number",
+  "required": true,
+  "value": "2018",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Education end 2018"
+ },
+ {
+  "k": "045a730209daf5fb",
+  "question": "Last Name*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Last name available"
+ },
+ {
+  "k": "9253db124ece0c9e",
+  "question": "Country",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Switzerland available"
+ },
+ {
+  "k": "a08497b52de9396d",
+  "question": "Discipline*",
+  "type": "text",
+  "required": true,
+  "value": "Computer Science",
+  "verdict": "right",
+  "answerable": true,
+  "note": "BSc Computer Science"
+ },
+ {
+  "k": "cabcac7c4314257f",
+  "question": "Last Name*",
+  "type": "text",
+  "required": true,
+  "value": "Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches last name"
+ },
+ {
+  "k": "1f1f94fd47e07243",
+  "question": "End date year*",
+  "type": "number",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "End year 2018 available"
+ },
+ {
+  "k": "11fe03957f2e6eff",
+  "question": "Email*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email available"
+ },
+ {
+  "k": "3f435b294051cb97",
+  "question": "Any other links you'd like us to review & consider?",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No other links given"
+ },
+ {
+  "k": "c402889abebd5851",
+  "question": "Attach",
+  "type": "file",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available to attach"
+ },
+ {
+  "k": "7b35218b09336fb1",
+  "question": "Degree*",
+  "type": "text",
+  "required": true,
+  "value": "Bachelor's Degree",
+  "verdict": "right",
+  "answerable": true,
+  "note": "BSc is a bachelor's"
+ },
+ {
+  "k": "123744fec7986a96",
+  "question": "Phone",
+  "type": "tel",
+  "required": false,
+  "value": "795550123",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Phone digits without country code"
+ },
+ {
+  "k": "79f00b5ff313b8f3",
+  "question": "First Name*",
+  "type": "text",
+  "required": true,
+  "value": "Ada",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches first name"
+ },
+ {
+  "k": "1fed186bab0717ea",
+  "question": "Start date year*",
+  "type": "number",
+  "required": true,
+  "value": "2014",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Education start 2014"
+ },
+ {
+  "k": "f584903929f1b0c5",
+  "question": "Degree*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Bachelor's degree available"
+ },
+ {
+  "k": "40f7fad808aa6308",
+  "question": "Github Link",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No GitHub in facts"
+ },
+ {
+  "k": "3f468e639ba5e153",
+  "question": "LinkedIn Profile",
+  "type": "text",
+  "required": false,
+  "value": "https://www.linkedin.com/in/ada-testerA",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "LinkedIn URL has extra 'A'"
+ },
+ {
+  "k": "90366aedbc5109bb",
+  "question": "Country",
+  "type": "text",
+  "required": false,
+  "value": "+41",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Swiss dial code +41"
+ }
+]

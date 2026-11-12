@@ -1,0 +1,56 @@
+{
+ "tool": "browser-use",
+ "url": "https://jobs.ashbyhq.com/sierra/9dc1651d-43e9-4970-a757-a5223cef1c4d/application",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 7,
+ "final": "Stopped without submitting. The form is for 'Product Manager, Agent Development' (London, on-site, £150K–£315K), not the SRE role the applicant facts target.\n\nFilled from the facts:\n- Legal First Name: Ada\n- Legal Last Name: Tester\n- Preferred First & Last Name: Ada Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23\n- LinkedIn: https://www.linkedin.com/in/ada-tester\n- 'Are you able to work from London?': 'Yes, and while I do not currently live in the London area, I am open to relocation.' (inferred: facts say home base Zurich, open to relocating within Europe, on-site/hybrid OK)",
+ "completed": true,
+ "tokens": {
+  "in": 59399,
+  "out": 12629,
+  "cacheRead": 101318,
+  "cacheWrite": 633,
+  "calls": 8
+ },
+ "usd": 0.013346705,
+ "longCalls": 0,
+ "maxCallIn": 21683,
+ "usdReportedByTool": 0.011789965,
+ "seconds": 72.1,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 76,
+ "score": {
+  "fields": 36,
+  "right": 8,
+  "wrong": 0,
+  "emptyShouldFill": 1,
+  "emptyOk": 27,
+  "emptyRequired": 0,
+  "requiredTotal": 6
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

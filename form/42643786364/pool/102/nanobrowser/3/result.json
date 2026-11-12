@@ -1,0 +1,64 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://job-boards.greenhouse.io/safariai/jobs/5233682007",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 23,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":16,\"maxSteps\":40,\"details\":\"The application is only partly filled, and it was NOT submitted.\\n\\nFilled:\\n- First Name: Ada\\n- Last Name: Tester\\n- Phone number: 79 555 01 23 was typed, but I could not confirm it saved.\\n\\nNot completed:\\n- Email: left empty. The applicant facts only contain the placeholder \\\"[EMAIL]\\\", and the field is required. Please provide a real e",
+ "completed": true,
+ "tokens": {
+  "in": 385519,
+  "out": 20918,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 23
+ },
+ "usd": 0.04901090000000001,
+ "longCalls": 0,
+ "maxCallIn": 23973,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 177.8,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 182,
+ "score": {
+  "fields": 15,
+  "right": 4,
+  "wrong": 0,
+  "emptyShouldFill": 9,
+  "emptyOk": 2,
+  "emptyRequired": 6,
+  "requiredTotal": 8
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}
