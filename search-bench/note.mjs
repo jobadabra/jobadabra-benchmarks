@@ -83,5 +83,5 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const text = noteText(note, baseline, last, {missing: [...missingNow, ...unjudged], notServed: notServedNow, url: arg('url')});
   if (arg('out')) { fs.mkdirSync(path.dirname(arg('out')), {recursive: true}); fs.writeFileSync(arg('out'), JSON.stringify(note, null, 1) + '\n'); }
   console.log(text);
-  await sendNote(text);
+  await sendNote(text, process.env, fetch, 'search-benchmark-note');
 }
