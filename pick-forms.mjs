@@ -6,6 +6,7 @@
 // --first-id: a weekly set numbers its forms from its own range (YYWW × 100 + 1, e.g. 264501 for 2026-W45), so a form id names one form across all rounds.
 import fs from 'node:fs';
 import crypto from 'node:crypto';
+import {draw} from './lib/draw.mjs';
 
 const [portalsFile, excludedFile, outFile] = process.argv.slice(2);
 const arg = (name, dflt) => { const i = process.argv.indexOf(`--${name}`); return i > 0 ? process.argv[i + 1] : dflt; };
@@ -43,20 +44,7 @@ const FEEDS = {
 };
 async function j(url) { const r = await fetch(url, {headers: {accept: 'application/json'}}); if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }
 
-const picks = [], skipped = [];
-for (const [ats, n] of Object.entries(PER)) {
-  let got = 0;
-  for (const c of shuffled(companies.filter(c => c.ats === ats))) {
-    if (got >= n) break;
-    if (excluded.includes(c.slug)) { skipped.push({...c, why: 'tested or fixed on before'}); continue; }
-    let posts;
-    try { posts = await FEEDS[ats](c.slug); } catch (e) { skipped.push({...c, why: `feed: ${e.message}`}); continue; }
-    if (!posts.length) { skipped.push({...c, why: 'no open postings'}); continue; }
-    const post = shuffled(posts.map(p => ({...p, key: p.url})))[0];
-    picks.push({id: FIRST + picks.length, platform: ats, company: c.slug, host: new URL(post.url).host, title: post.title, location: post.location, url: post.url});
-    got++;
-  }
-}
+const {picks, skipped} = await draw({companies, excluded, per: PER, feeds: FEEDS, shuffled, first: FIRST});
 const out = {seed: SEED, source: 'career-ops templates/portals.example.yml (career-ops-v1.38.0)', pickedAt: new Date().toISOString(), per: PER, picks, skipped: skipped.map(({key, ...s}) => s)};
 fs.writeFileSync(outFile, JSON.stringify(out, null, 1) + '\n');
 console.log(JSON.stringify(picks.map(p => `${p.platform} ${p.company}: ${p.title} (${p.location})`), null, 1), `\nskipped ${skipped.length}`);
