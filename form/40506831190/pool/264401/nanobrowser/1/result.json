@@ -1,0 +1,47 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://job-boards.greenhouse.io/ebanx/jobs/7566225003",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 6,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":4,\"maxSteps\":40,\"details\":\"Task failed: \\n\\nMax failures reached\"}",
+ "completed": false,
+ "tokens": {
+  "in": 70929,
+  "out": 5931,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 6
+ },
+ "usd": 0.010058400000000002,
+ "longCalls": 0,
+ "maxCallIn": 15366,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 52.8,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 58,
+ "score": {
+  "fields": 21,
+  "right": 0,
+  "wrong": 0,
+  "emptyShouldFill": 12,
+  "emptyOk": 9,
+  "emptyRequired": 19,
+  "requiredTotal": 19
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

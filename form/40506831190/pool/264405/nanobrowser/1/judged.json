@@ -1,0 +1,120 @@
+[
+ {
+  "question": "Resume/CV ✱",
+  "type": "file",
+  "required": false,
+  "name": "resume",
+  "value": "",
+  "k": "0e453481f5a27381",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file not provided"
+ },
+ {
+  "question": "Full name ✱",
+  "type": "text",
+  "required": true,
+  "name": "name",
+  "value": "Ada Tester",
+  "k": "471a8de44da84d45",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches full name"
+ },
+ {
+  "question": "Email ✱",
+  "type": "email",
+  "required": true,
+  "name": "email",
+  "value": "[EMAIL]",
+  "k": "e95202a2f447b497",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Placeholder, not an email"
+ },
+ {
+  "question": "Phone ✱",
+  "type": "text",
+  "required": true,
+  "name": "phone",
+  "value": "+41 79 555 01 23",
+  "k": "daefc3848f457cf3",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches phone"
+ },
+ {
+  "question": "Current location ✱",
+  "type": "text",
+  "required": true,
+  "name": "location",
+  "value": "",
+  "k": "f27005791de43354",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Location known: Zurich"
+ },
+ {
+  "question": "Current company",
+  "type": "text",
+  "required": false,
+  "name": "org",
+  "value": "",
+  "k": "35df7521bd43856d",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Current company known: Acme Cloud"
+ },
+ {
+  "question": "LinkedIn URL ✱",
+  "type": "text",
+  "required": true,
+  "name": "urls[LinkedIn]",
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "k": "1f83eeee651c84d9",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches LinkedIn"
+ },
+ {
+  "question": "What is your compensation expectation (please provide the currency, gross amount, and whether it is monthly or annual)?✱",
+  "type": "textarea",
+  "required": true,
+  "name": "cards[986091b1-579b-4acd-86d7-2fd68cd4f0cd][field0]",
+  "value": "CHF 140,000–160,000 gross per year (estimate)",
+  "k": "c43a55b8c02b22a1",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target compensation"
+ },
+ {
+  "question": "Do you have previous experience in the payments industry?",
+  "type": "radio",
+  "required": false,
+  "name": "cards[4fe29a35-9090-4b15-bfaf-3f0a82bc7b52][field0]",
+  "value": "",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "k": "b99d319d36b6434b",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No payments experience stated",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "By applying for this position, your data will be processed as per Yuno's Privacy Policy.",
+  "type": "checkbox",
+  "required": true,
+  "name": "consent[store]",
+  "value": "",
+  "options": [
+   "By applying for this position, your data will be processed as per Yuno's Privacy Policy."
+  ],
+  "k": "d5587eb6782c0f4c",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Consent left unchecked"
+ }
+]

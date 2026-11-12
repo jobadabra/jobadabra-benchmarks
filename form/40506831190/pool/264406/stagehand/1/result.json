@@ -1,0 +1,40 @@
+{
+ "tool": "stagehand",
+ "url": "https://apply.workable.com/platzi/j/680E47041B/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 52,
+ "final": "Opened the Workable application form and attempted to fill it with the applicant facts. Only First name (\"Ada\") was reliably entered. Last name, Email, and Phone did not register. The Address field contains a corrupted value (\"usterstrasse 12, 8001 Zurich, Switzerland\", missing the leading \"M\"). The LinkedIn field contains scrambled text that I could not clear. The phone country code is still the ",
+ "completed": false,
+ "tokens": {
+  "in": 300117,
+  "out": 10840,
+  "cacheRead": 162687,
+  "cacheWrite": 7747,
+  "calls": 26
+ },
+ "usd": 0.038026945,
+ "longCalls": 0,
+ "maxCallIn": 24074,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 120.5,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.8877095407240732:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 124,
+ "score": {
+  "fields": 11,
+  "right": 1,
+  "wrong": 3,
+  "emptyShouldFill": 3,
+  "emptyOk": 4,
+  "emptyRequired": 6,
+  "requiredTotal": 9
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

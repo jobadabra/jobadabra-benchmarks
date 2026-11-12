@@ -1,0 +1,72 @@
+[
+ {
+  "question": "Email*",
+  "type": "email",
+  "required": true,
+  "name": "email",
+  "value": "",
+  "k": "974eab38468b330e",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email is known"
+ },
+ {
+  "question": "Which of our products or services are you interested in?*",
+  "type": "select-one",
+  "required": true,
+  "name": "which_of_our_products_or_services_are_you_interested_in_",
+  "value": "",
+  "options": [
+   "Please Select",
+   "Enterprise solutions",
+   "Gaming",
+   "Image generation & editing",
+   "Audio generation & editing",
+   "3D/4D models",
+   "Video models",
+   "Dream Studio",
+   "Partnership opportunities"
+  ],
+  "k": "e3783334c5e4f0ef",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Facts state no product interest",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Search",
+  "type": "text",
+  "required": false,
+  "name": "keyword-filter",
+  "value": "",
+  "k": "8148465ff6a389a8",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Search box, not a question",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Department",
+  "type": "text",
+  "required": false,
+  "name": "department-filter",
+  "value": "",
+  "k": "05264bb4be88a97c",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No department stated",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Office",
+  "type": "text",
+  "required": false,
+  "name": "office-filter",
+  "value": "",
+  "k": "dd4ab2d1d3cbe9b4",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No office preference stated",
+  "rule": "honest-draft-2026-10-27.3"
+ }
+]

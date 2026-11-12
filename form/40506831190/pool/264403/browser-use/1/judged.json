@@ -1,0 +1,119 @@
+[
+ {
+  "question": "Autofill from resume",
+  "type": "file",
+  "required": false,
+  "name": "",
+  "value": "",
+  "k": "1a1e3d8570765017",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "CV file available to upload; twin of the uploaded CV box",
+  "twin": true
+ },
+ {
+  "question": "Name",
+  "type": "text",
+  "required": true,
+  "name": "_systemfield_name",
+  "value": "Ada Tester",
+  "k": "07612c2013d37795",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches full name"
+ },
+ {
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "name": "_systemfield_email",
+  "value": "ada.tester@example.test",
+  "k": "5e0a559897d3cb4e",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches email"
+ },
+ {
+  "question": "Phone Number",
+  "type": "tel",
+  "required": true,
+  "name": "b111a02e-d4b7-4d5c-8d05-d3b8d776ff43",
+  "value": "+41 79 555 01 23",
+  "k": "8f9eb30a385392bb",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches phone fact"
+ },
+ {
+  "question": "Resume",
+  "type": "file",
+  "required": true,
+  "name": "_systemfield_resume",
+  "value": "cv.pdf",
+  "k": "f91ef32398f6914c",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV file name provided"
+ },
+ {
+  "question": "Location",
+  "type": "text",
+  "required": false,
+  "name": "",
+  "value": "Zurich, Switzerland",
+  "k": "096e506856d48d83",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches location"
+ },
+ {
+  "question": "What are the most interesting aspects of Perplexity that you're excited to work on?",
+  "type": "textarea",
+  "required": false,
+  "name": "c0f6b2ec-03ef-41f3-9cb4-9914239b3e83",
+  "value": "",
+  "k": "71614ca9d714e7c8",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Facts don't cover interest in Perplexity",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "How do you use AI in your day-to-day work? What are some of the underappreciated benefits and/or pain points of your favorite AI tools?",
+  "type": "textarea",
+  "required": false,
+  "name": "68742b6a-40ee-40e6-9c3a-a127c472b499",
+  "value": "",
+  "k": "ee025e17df8af2b2",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Facts say nothing about AI usage",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Exercise Submission (Shared URL)",
+  "type": "url",
+  "required": true,
+  "name": "8eec994f-43f0-41ee-9a7e-f57d27baefb8",
+  "value": "",
+  "k": "b96096c3672ee1a7",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No exercise URL in facts; empty correct",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "I agree",
+  "type": "checkbox",
+  "required": false,
+  "name": "I agree",
+  "value": "",
+  "options": [
+   "I agree"
+  ],
+  "k": "596b2eb5d9c6c117",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Consent left unchecked; a miss"
+ }
+]

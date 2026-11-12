@@ -1,0 +1,161 @@
+[
+ {
+  "k": "b96096c3672ee1a7",
+  "question": "Exercise Submission (Shared URL)",
+  "type": "url",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No exercise URL in facts; empty correct",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "8f9eb30a385392bb",
+  "question": "Phone Number",
+  "type": "tel",
+  "required": true,
+  "value": "+41 79 555 01 23",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches phone fact"
+ },
+ {
+  "k": "fac5a8c6714c10de",
+  "question": "I agree",
+  "type": "checkbox",
+  "required": false,
+  "value": "I agree",
+  "options": [
+   "I agree"
+  ],
+  "verdict": "right",
+  "answerable": true,
+  "note": "Consent checked"
+ },
+ {
+  "k": "1a1e3d8570765017",
+  "question": "Autofill from resume",
+  "type": "file",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available to upload"
+ },
+ {
+  "k": "596b2eb5d9c6c117",
+  "question": "I agree",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "I agree"
+  ],
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Consent left unchecked; a miss"
+ },
+ {
+  "k": "b50f137293ab62d7",
+  "question": "Resume",
+  "type": "file",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV available but not uploaded"
+ },
+ {
+  "k": "096e506856d48d83",
+  "question": "Location",
+  "type": "text",
+  "required": false,
+  "value": "Zurich, Switzerland",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches location"
+ },
+ {
+  "k": "ee025e17df8af2b2",
+  "question": "How do you use AI in your day-to-day work? What are some of the underappreciated benefits and/or pain points of your favorite AI tools?",
+  "type": "textarea",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Facts say nothing about AI usage",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "f91ef32398f6914c",
+  "question": "Resume",
+  "type": "file",
+  "required": true,
+  "value": "cv.pdf",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV file name provided"
+ },
+ {
+  "k": "3e3bb244dabd1d2b",
+  "question": "Location",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Location known, left empty"
+ },
+ {
+  "k": "5e0a559897d3cb4e",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "ada.tester@example.test",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches email"
+ },
+ {
+  "k": "71614ca9d714e7c8",
+  "question": "What are the most interesting aspects of Perplexity that you're excited to work on?",
+  "type": "textarea",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Facts don't cover interest in Perplexity",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "353a7efc7570924d",
+  "question": "Location",
+  "type": "text",
+  "required": false,
+  "value": "Zürich, Zurich, Switzerland",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zurich, Switzerland variant is correct"
+ },
+ {
+  "k": "f0dc30486b7f6352",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email known, left empty"
+ },
+ {
+  "k": "07612c2013d37795",
+  "question": "Name",
+  "type": "text",
+  "required": true,
+  "value": "Ada Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches full name"
+ }
+]

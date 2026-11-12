@@ -1,0 +1,193 @@
+[
+ {
+  "k": "471a8de44da84d45",
+  "question": "Full name ✱",
+  "type": "text",
+  "required": true,
+  "value": "Ada Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches full name"
+ },
+ {
+  "k": "8aaf37a8bfdf975f",
+  "question": "Email ✱",
+  "type": "email",
+  "required": true,
+  "value": "ada.tester@example.test",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches email"
+ },
+ {
+  "k": "008a4ebcf6d5a4ea",
+  "question": "Current company",
+  "type": "text",
+  "required": false,
+  "value": "Acme Cloud",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Current employer per CV"
+ },
+ {
+  "k": "c43a55b8c02b22a1",
+  "question": "What is your compensation expectation (please provide the currency, gross amount, and whether it is monthly or annual)?✱",
+  "type": "textarea",
+  "required": true,
+  "value": "CHF 140,000–160,000 gross per year (estimate)",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target compensation"
+ },
+ {
+  "k": "1f83eeee651c84d9",
+  "question": "LinkedIn URL ✱",
+  "type": "text",
+  "required": true,
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches LinkedIn"
+ },
+ {
+  "k": "70622d3f0ce486ea",
+  "question": "By applying for this position, your data will be processed as per Yuno's Privacy Policy.",
+  "type": "checkbox",
+  "required": true,
+  "value": "By applying for this position, your data will be processed as per Yuno's Privacy Policy.",
+  "options": [
+   "By applying for this position, your data will be processed as per Yuno's Privacy Policy."
+  ],
+  "verdict": "right",
+  "answerable": true,
+  "note": "Consent checkbox checked"
+ },
+ {
+  "k": "d5587eb6782c0f4c",
+  "question": "By applying for this position, your data will be processed as per Yuno's Privacy Policy.",
+  "type": "checkbox",
+  "required": true,
+  "value": "",
+  "options": [
+   "By applying for this position, your data will be processed as per Yuno's Privacy Policy."
+  ],
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Consent left unchecked"
+ },
+ {
+  "k": "e95202a2f447b497",
+  "question": "Email ✱",
+  "type": "email",
+  "required": true,
+  "value": "[EMAIL]",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Placeholder, not an email"
+ },
+ {
+  "k": "daefc3848f457cf3",
+  "question": "Phone ✱",
+  "type": "text",
+  "required": true,
+  "value": "+41 79 555 01 23",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches phone"
+ },
+ {
+  "k": "c1cee27df6327bd4",
+  "question": "Resume/CV ✱",
+  "type": "file",
+  "required": false,
+  "value": "cv.pdf",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV file name given"
+ },
+ {
+  "k": "2b634cb89b2f05d8",
+  "question": "What is your compensation expectation (please provide the currency, gross amount, and whether it is monthly or annual)?✱",
+  "type": "textarea",
+  "required": true,
+  "value": "CHF 140,000–160,000 gross, annual",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target compensation"
+ },
+ {
+  "k": "5a5ce0c574ef5dbe",
+  "question": "Current location ✱",
+  "type": "text",
+  "required": true,
+  "value": "Zürich, CHE",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zurich, Switzerland location"
+ },
+ {
+  "k": "b318d3c6c3647b9a",
+  "question": "What is your compensation expectation (please provide the currency, gross amount, and whether it is monthly or annual)?✱",
+  "type": "textarea",
+  "required": true,
+  "value": "CHF 140,000-160,000 gross per year (estimate)",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target compensation"
+ },
+ {
+  "k": "0e453481f5a27381",
+  "question": "Resume/CV ✱",
+  "type": "file",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file not provided"
+ },
+ {
+  "k": "35df7521bd43856d",
+  "question": "Current company",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Current company known: Acme Cloud"
+ },
+ {
+  "k": "5bfca5260d91e213",
+  "question": "What is your compensation expectation (please provide the currency, gross amount, and whether it is monthly or annual)?✱",
+  "type": "textarea",
+  "required": true,
+  "value": "CHF 140,000–160,000 a year, gross",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target compensation"
+ },
+ {
+  "k": "f27005791de43354",
+  "question": "Current location ✱",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Location known: Zurich"
+ },
+ {
+  "k": "b99d319d36b6434b",
+  "question": "Do you have previous experience in the payments industry?",
+  "type": "radio",
+  "required": false,
+  "value": "",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No payments experience stated",
+  "rule": "honest-draft-2026-10-27.3"
+ }
+]

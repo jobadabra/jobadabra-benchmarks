@@ -1,0 +1,139 @@
+[
+ {
+  "question": "First name",
+  "type": "text",
+  "required": true,
+  "name": "firstname",
+  "value": "Ada",
+  "k": "40c7688628b792fa",
+  "verdict": "right",
+  "answerable": true,
+  "note": "First name correct"
+ },
+ {
+  "question": "Last name",
+  "type": "text",
+  "required": true,
+  "name": "lastname",
+  "value": "Tester",
+  "k": "2e7630c476cc8a91",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Last name correct"
+ },
+ {
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "name": "email",
+  "value": "ada.tester@example.test",
+  "k": "5e0a559897d3cb4e",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Email matches"
+ },
+ {
+  "question": "Phone",
+  "type": "tel",
+  "required": false,
+  "name": "phone",
+  "value": "79 555 01 23",
+  "k": "0f3bbc1ab3edbf5a",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Phone number matches without country code"
+ },
+ {
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "name": "address",
+  "value": "Musterstrasse 12, Zurich, Switzerland",
+  "k": "8c36f727f98368b1",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Street and city match"
+ },
+ {
+  "question": "Resume Choose file",
+  "type": "file",
+  "required": false,
+  "name": "input_files_input_afMBvAlR7xFtPMkS",
+  "value": "",
+  "k": "ef0b1facbd88a361",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "CV file available, not uploaded; twin of the uploaded CV box",
+  "twin": true
+ },
+ {
+  "question": "Share your LinkedIn Profile",
+  "type": "text",
+  "required": true,
+  "name": "QA_12429873",
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "k": "1190c652dea4e675",
+  "verdict": "right",
+  "answerable": true,
+  "note": "LinkedIn URL matches"
+ },
+ {
+  "question": "GitHub Profile",
+  "type": "textarea",
+  "required": true,
+  "name": "QA_12429874",
+  "value": "",
+  "k": "cb9cf634fd1733fe",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No GitHub in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Share your Platzi username with us",
+  "type": "textarea",
+  "required": true,
+  "name": "QA_12429875",
+  "value": "",
+  "k": "3fe3a25c4f23a84f",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Platzi username not in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Salary expectations (COP or MXN gross monthly)",
+  "type": "textarea",
+  "required": true,
+  "name": "QA_12429876",
+  "value": "",
+  "k": "bc624dfb27cf8e59",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Only CHF yearly given, not COP/MXN",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Please go to https://platzi.com/evaluation/test-ingles/ and take the English test. Once you have completed it, upload the document that certifies your current English level Choose file",
+  "type": "file",
+  "required": true,
+  "name": "input_files_input_YvJHGeFsRnDP0EWE",
+  "value": "",
+  "k": "003e80febb0b0b52",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No English certificate in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Resume Replace file",
+  "type": "file",
+  "required": false,
+  "name": "input_files_input_afMBvAlR7xFtPMkS",
+  "value": "cv.pdf",
+  "k": "df1b0dcb90cb6838",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV file name provided"
+ }
+]

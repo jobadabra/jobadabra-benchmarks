@@ -1,0 +1,199 @@
+[
+ {
+  "k": "5cc8f646e4b68a41",
+  "question": "LinkedIn",
+  "type": "text",
+  "required": true,
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "matches LinkedIn fact"
+ },
+ {
+  "k": "f2dbfed7dd9be5bd",
+  "question": "GitHub",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "no GitHub in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "1a1e3d8570765017",
+  "question": "Autofill from resume",
+  "type": "file",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available to upload"
+ },
+ {
+  "k": "b50f137293ab62d7",
+  "question": "Resume",
+  "type": "file",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available"
+ },
+ {
+  "k": "6c49593212eaa09d",
+  "question": "How did you hear about us?",
+  "type": "textarea",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "source not in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "f91ef32398f6914c",
+  "question": "Resume",
+  "type": "file",
+  "required": true,
+  "value": "cv.pdf",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV file name given"
+ },
+ {
+  "k": "79fcff5b7edbecef",
+  "question": "What country are you based in?",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Switzerland is stated"
+ },
+ {
+  "k": "5e0a559897d3cb4e",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "ada.tester@example.test",
+  "verdict": "right",
+  "answerable": true,
+  "note": "correct email"
+ },
+ {
+  "k": "e75626ea3ea1a7d4",
+  "question": "Autofill from resume",
+  "type": "file",
+  "required": false,
+  "value": "cv.pdf",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV file provided"
+ },
+ {
+  "k": "79da8dc09e7fbd56",
+  "question": "How did you hear about us?",
+  "type": "textarea",
+  "required": true,
+  "value": "-",
+  "verdict": "wrong",
+  "answerable": false,
+  "note": "placeholder dash, not an answer",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "fc855d054e719e85",
+  "question": "Twitter/X",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "no Twitter in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "997fe7b9a1785a9a",
+  "question": "Why do you want to join us?",
+  "type": "textarea",
+  "required": true,
+  "value": "I have run Kubernetes on AWS for 8 years, including 400 microservices on EKS at Acme Cloud, and I want to bring that reliability work to a platform where trust and safety decisions have to be right.",
+  "verdict": "right",
+  "answerable": true,
+  "note": "claims all from facts"
+ },
+ {
+  "k": "006e13002d109862",
+  "question": "What country are you based in?",
+  "type": "text",
+  "required": false,
+  "value": "Switzerland",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Switzerland correct"
+ },
+ {
+  "k": "a3e7d077c7e7786c",
+  "question": "Why do you want to join us?",
+  "type": "textarea",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "answerable from job and CV"
+ },
+ {
+  "k": "4efecfce037432a0",
+  "question": "Tell us about a system you built that had to automatically decide something, like flagging, blocking, ranking, or routing. How did you know it was making the right calls?",
+  "type": "textarea",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "no automated decision system stated",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "3f2c646caa84c95e",
+  "question": "Other",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "vague field, no fact",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "2a357583b2ce7a47",
+  "question": "Tell us about a system you built that had to automatically decide something, like flagging, blocking, ranking, or routing. How did you know it was making the right calls?",
+  "type": "textarea",
+  "required": true,
+  "value": "The closest I can point to for a system that automatically decides something is the Terraform platform I built that was used by 120 engineers at Acme Cloud.",
+  "verdict": "right",
+  "answerable": false,
+  "note": "hedged closest, stated fact",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "f0dc30486b7f6352",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "email is known"
+ },
+ {
+  "k": "07612c2013d37795",
+  "question": "Name",
+  "type": "text",
+  "required": true,
+  "value": "Ada Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "full name correct"
+ }
+]

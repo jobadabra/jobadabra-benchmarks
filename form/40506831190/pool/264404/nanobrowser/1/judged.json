@@ -1,0 +1,139 @@
+[
+ {
+  "question": "Autofill from resume",
+  "type": "file",
+  "required": false,
+  "name": "",
+  "value": "",
+  "k": "1a1e3d8570765017",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available to upload"
+ },
+ {
+  "question": "Name",
+  "type": "text",
+  "required": true,
+  "name": "_systemfield_name",
+  "value": "Ada Tester",
+  "k": "07612c2013d37795",
+  "verdict": "right",
+  "answerable": true,
+  "note": "full name correct"
+ },
+ {
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "name": "_systemfield_email",
+  "value": "",
+  "k": "f0dc30486b7f6352",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "email is known"
+ },
+ {
+  "question": "Resume",
+  "type": "file",
+  "required": true,
+  "name": "_systemfield_resume",
+  "value": "",
+  "k": "b50f137293ab62d7",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available"
+ },
+ {
+  "question": "Why do you want to join us?",
+  "type": "textarea",
+  "required": true,
+  "name": "d007fea3-5df9-4cd5-a6b4-0bcb65f5cc13",
+  "value": "",
+  "k": "a3e7d077c7e7786c",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "answerable from job and CV"
+ },
+ {
+  "question": "Tell us about a system you built that had to automatically decide something, like flagging, blocking, ranking, or routing. How did you know it was making the right calls?",
+  "type": "textarea",
+  "required": true,
+  "name": "9154c71d-ee8c-4941-86c2-3b6417ac84bb",
+  "value": "",
+  "k": "4efecfce037432a0",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "no automated decision system stated",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "What country are you based in?",
+  "type": "text",
+  "required": false,
+  "name": "",
+  "value": "Switzerland",
+  "k": "006e13002d109862",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Switzerland correct"
+ },
+ {
+  "question": "GitHub",
+  "type": "text",
+  "required": true,
+  "name": "856b5574-305e-4999-a2e7-440406a4515f",
+  "value": "",
+  "k": "f2dbfed7dd9be5bd",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "no GitHub in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "LinkedIn",
+  "type": "text",
+  "required": true,
+  "name": "f004a100-fbcf-44cc-8ca1-7f4b3a4bae70",
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "k": "5cc8f646e4b68a41",
+  "verdict": "right",
+  "answerable": true,
+  "note": "matches LinkedIn fact"
+ },
+ {
+  "question": "Twitter/X",
+  "type": "text",
+  "required": false,
+  "name": "72d46e8e-c5b6-4708-ba40-93234d15c6b1",
+  "value": "",
+  "k": "fc855d054e719e85",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "no Twitter in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Other",
+  "type": "text",
+  "required": false,
+  "name": "b14f139c-78a4-4fe2-b32c-e498df5d284f",
+  "value": "",
+  "k": "3f2c646caa84c95e",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "vague field, no fact",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "How did you hear about us?",
+  "type": "textarea",
+  "required": true,
+  "name": "caee63c7-3eb0-4542-a833-4955708a9eb7",
+  "value": "",
+  "k": "6c49593212eaa09d",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "source not in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ }
+]

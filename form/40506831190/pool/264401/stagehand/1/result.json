@@ -1,0 +1,46 @@
+{
+ "tool": "stagehand",
+ "url": "https://job-boards.greenhouse.io/ebanx/jobs/7566225003",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 102,
+ "final": "I opened the Greenhouse application (https://job-boards.greenhouse.io/ebanx/jobs/7566225003), which is a Product Manager | South Cone role based in Buenos Aires, not one of the SRE/Platform/DevOps roles the applicant targets. I did not submit, did not press Apply, and did not open any external links. Form filling went badly: clicks often missed their target fields, keystrokes landed in the wrong f",
+ "completed": false,
+ "tokens": {
+  "in": 879373,
+  "out": 21309,
+  "cacheRead": 286861,
+  "cacheWrite": 7753,
+  "calls": 44
+ },
+ "usd": 0.102429535,
+ "longCalls": 0,
+ "maxCallIn": 37683,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 311.2,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST csp.withgoogle.com/csp/apiserving (non-GET to another host)",
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST csp.withgoogle.com/csp/apiserving (non-GET to another host)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 317,
+ "score": {
+  "fields": 21,
+  "right": 1,
+  "wrong": 1,
+  "emptyShouldFill": 10,
+  "emptyOk": 9,
+  "emptyRequired": 17,
+  "requiredTotal": 19
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

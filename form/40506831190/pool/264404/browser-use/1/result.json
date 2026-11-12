@@ -1,0 +1,53 @@
+{
+ "tool": "browser-use",
+ "url": "https://jobs.ashbyhq.com/resend/729ad3fa-10a2-4a07-ba9c-13b6eec6adb1/application",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 10,
+ "final": "The application form at https://jobs.ashbyhq.com/resend/729ad3fa-10a2-4a07-ba9c-13b6eec6adb1/application is filled as far as the facts allow. I did not press Submit/Apply/Send and did not open any external links.\n\nFilled (verified in the browser state):\n- Name: Ada Tester\n- Email: ada.tester@example.test\n- Resume: cv.pdf is attached (an earlier upload error toast appeared, but it was dismissed and the file now shows with a delete button)\n- Are you in an Americas time zone?: No (facts give Zurich, Switzerland)\n- Country: Switzerland (selected from the suggestions)\n- LinkedIn: https://www.linked",
+ "completed": true,
+ "tokens": {
+  "in": 79829,
+  "out": 13398,
+  "cacheRead": 145373,
+  "cacheWrite": 0,
+  "calls": 11
+ },
+ "usd": 0.01613563,
+ "longCalls": 0,
+ "maxCallIn": 23530,
+ "usdReportedByTool": 0.01087517,
+ "seconds": 80.8,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 85,
+ "score": {
+  "fields": 12,
+  "right": 5,
+  "wrong": 0,
+  "emptyShouldFill": 1,
+  "emptyOk": 6,
+  "emptyRequired": 4,
+  "requiredTotal": 8
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

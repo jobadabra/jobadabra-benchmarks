@@ -1,0 +1,281 @@
+[
+ {
+  "k": "6692220422355e33",
+  "question": "Phone*",
+  "type": "tel",
+  "required": true,
+  "value": "+41 79 555 01 23",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches stated phone"
+ },
+ {
+  "k": "76bcf4d50dd390e2",
+  "question": "Email*",
+  "type": "text",
+  "required": true,
+  "value": "ada.tester@example.test",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches stated email"
+ },
+ {
+  "k": "05264bb4be88a97c",
+  "question": "Department",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No department stated",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "a6f759136ca578dd",
+  "question": "Country*",
+  "type": "text",
+  "required": true,
+  "value": "+41",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Swiss dial code fits phone"
+ },
+ {
+  "k": "e984407b17cc86df",
+  "question": "Website",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No website in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "7492e933a732cf05",
+  "question": "Phone*",
+  "type": "tel",
+  "required": true,
+  "value": "795550123",
+  "verdict": "right",
+  "answerable": true,
+  "note": "National number without country code"
+ },
+ {
+  "k": "a8bfdaec2cd948e1",
+  "question": "LinkedIn Profile",
+  "type": "text",
+  "required": false,
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches stated LinkedIn"
+ },
+ {
+  "k": "27c393df4830bba5",
+  "question": "School*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Example University is in CV"
+ },
+ {
+  "k": "bd6fa00cb0c64b17",
+  "question": "LinkedIn Profile",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "LinkedIn URL is known"
+ },
+ {
+  "k": "535012ffba29b5e7",
+  "question": "Resume/CV*",
+  "type": "file",
+  "required": true,
+  "value": "cv.pdf",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV file provided"
+ },
+ {
+  "k": "e3783334c5e4f0ef",
+  "question": "Which of our products or services are you interested in?*",
+  "type": "select-one",
+  "required": true,
+  "value": "",
+  "options": [
+   "Please Select",
+   "Enterprise solutions",
+   "Gaming",
+   "Image generation & editing",
+   "Audio generation & editing",
+   "3D/4D models",
+   "Video models",
+   "Dream Studio",
+   "Partnership opportunities"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Facts state no product interest",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "8148465ff6a389a8",
+  "question": "Search",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Search box, not a question",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "cabcac7c4314257f",
+  "question": "Last Name*",
+  "type": "text",
+  "required": true,
+  "value": "Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches last name"
+ },
+ {
+  "k": "974eab38468b330e",
+  "question": "Email*",
+  "type": "email",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email is known"
+ },
+ {
+  "k": "11fe03957f2e6eff",
+  "question": "Email*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email is known"
+ },
+ {
+  "k": "af7cac9a769bae6e",
+  "question": "Location (City)*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Zurich is known"
+ },
+ {
+  "k": "dd4ab2d1d3cbe9b4",
+  "question": "Office",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No office preference stated",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "6493a1d018277a7b",
+  "question": "Location (City)*",
+  "type": "text",
+  "required": true,
+  "value": "Zurich, Switzerland",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zurich, Switzerland matches"
+ },
+ {
+  "k": "e5de994c29d91eca",
+  "question": "Preferred First Name",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No preferred name stated",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "ea4ac584f76ef3c5",
+  "question": "Country*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Switzerland is known"
+ },
+ {
+  "k": "7b35218b09336fb1",
+  "question": "Degree*",
+  "type": "text",
+  "required": true,
+  "value": "Bachelor's Degree",
+  "verdict": "right",
+  "answerable": true,
+  "note": "BSc matches Bachelor's"
+ },
+ {
+  "k": "10b9cdae763edf1e",
+  "question": "Resume/CV*",
+  "type": "file",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available"
+ },
+ {
+  "k": "79f00b5ff313b8f3",
+  "question": "First Name*",
+  "type": "text",
+  "required": true,
+  "value": "Ada",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches first name"
+ },
+ {
+  "k": "f584903929f1b0c5",
+  "question": "Degree*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "BSc Computer Science known"
+ },
+ {
+  "k": "11681f6f37854e8f",
+  "question": "Please share your portfolio (required). Then tell us about one product you personally designed and built. Include your role, the technologies and design tools you used, and the most challenging problem you solved. (250 words max)*",
+  "type": "textarea",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No portfolio or designed product",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "639640f30f7d3c5e",
+  "question": "Cover Letter",
+  "type": "file",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No cover letter file provided",
+  "rule": "honest-draft-2026-10-27.3"
+ }
+]

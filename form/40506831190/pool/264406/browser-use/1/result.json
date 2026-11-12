@@ -1,0 +1,42 @@
+{
+ "tool": "browser-use",
+ "url": "https://apply.workable.com/platzi/j/680E47041B/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 7,
+ "final": "The application form at https://apply.workable.com/platzi/j/680E47041B/apply/ is filled with the provided facts and has NOT been submitted.\n\nFilled:\n- First name: Ada\n- Last name: Tester\n- Email: ada.tester@example.test\n- Phone: 79 555 01 23 (country code +41 Switzerland selected in the phone widget; the field displays the number without the +41 prefix)\n- Address: Musterstrasse 12, Zurich, Switzerland\n- City: Zurich\n- Postcode: 8001\n- Country: Switzerland\n- Resume: cv.pdf uploaded from /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf (shown as attached",
+ "completed": true,
+ "tokens": {
+  "in": 53737,
+  "out": 9371,
+  "cacheRead": 101951,
+  "cacheWrite": 0,
+  "calls": 8
+ },
+ "usd": 0.01107871,
+ "longCalls": 0,
+ "maxCallIn": 20998,
+ "usdReportedByTool": 0.01014897,
+ "seconds": 62.1,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.8877095407240732:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST workable-application-form.s3.us-east-1.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 66,
+ "score": {
+  "fields": 12,
+  "right": 7,
+  "wrong": 0,
+  "emptyShouldFill": 0,
+  "emptyOk": 5,
+  "emptyRequired": 4,
+  "requiredTotal": 9
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

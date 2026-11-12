@@ -1,0 +1,51 @@
+{
+ "tool": "browser-use",
+ "url": "https://jobs.lever.co/yuno/c59fa4ff-62f0-4ea1-96c6-a0828dc017f7/apply",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 18,
+ "final": "Filled the Lever application for Yuno (Technical Account Manager) at the given URL. I did not press Submit.\n\nFilled:\n- CV upload: /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf (shows as cv.pdf attached; the page said it could not auto-read the resume)\n- Full name: Ada Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23\n- Current location: Zürich, CHE (selected from the location suggestion dropdown; the typed 'Zurich, Switzerland' did not persist)\n- Current company: Acme Cloud (taken from the CV facts, not the applicant contact facts)\n-",
+ "completed": true,
+ "tokens": {
+  "in": 136877,
+  "out": 19197,
+  "cacheRead": 246058,
+  "cacheWrite": 15107,
+  "calls": 19
+ },
+ "usd": 0.027635155,
+ "longCalls": 0,
+ "maxCallIn": 22042,
+ "usdReportedByTool": 0.021375255,
+ "seconds": 129,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.lever.co/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.8877095407240732:1793 (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST jobs.lever.co/parseResume (non-GET to the form site)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 133,
+ "score": {
+  "fields": 10,
+  "right": 8,
+  "wrong": 0,
+  "emptyShouldFill": 1,
+  "emptyOk": 1,
+  "emptyRequired": 1,
+  "requiredTotal": 7
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

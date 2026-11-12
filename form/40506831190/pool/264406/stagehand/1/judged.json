@@ -1,0 +1,127 @@
+[
+ {
+  "question": "First name",
+  "type": "text",
+  "required": true,
+  "name": "firstname",
+  "value": "Ada",
+  "k": "40c7688628b792fa",
+  "verdict": "right",
+  "answerable": true,
+  "note": "First name correct"
+ },
+ {
+  "question": "Last name",
+  "type": "text",
+  "required": true,
+  "name": "lastname",
+  "value": "",
+  "k": "5f5e4ec07598e1ac",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Last name known, left empty"
+ },
+ {
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "name": "email",
+  "value": "",
+  "k": "f0dc30486b7f6352",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email known, left empty"
+ },
+ {
+  "question": "Phone",
+  "type": "tel",
+  "required": false,
+  "name": "phone",
+  "value": "SVGs not supported by this browser.+1",
+  "k": "2d979fdc5abfb3e6",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Garbage text, wrong country code +1"
+ },
+ {
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "name": "address",
+  "value": "usterstrasse 12, 8001 Zurich, Switzerland",
+  "k": "94a6318eb6a5adf2",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Street truncated 'usterstrasse'"
+ },
+ {
+  "question": "Resume Choose file",
+  "type": "file",
+  "required": false,
+  "name": "input_files_input_sjVCCL5Ud4TQz9KU",
+  "value": "",
+  "k": "ef0b1facbd88a361",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available, not uploaded"
+ },
+ {
+  "question": "Share your LinkedIn Profile",
+  "type": "text",
+  "required": true,
+  "name": "QA_12429873",
+  "value": "Tu/riinc/ha,d aS-wtietszteerrlan",
+  "k": "e04f4be5c9817038",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Garbled LinkedIn value"
+ },
+ {
+  "question": "GitHub Profile",
+  "type": "textarea",
+  "required": true,
+  "name": "QA_12429874",
+  "value": "",
+  "k": "cb9cf634fd1733fe",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No GitHub in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Share your Platzi username with us",
+  "type": "textarea",
+  "required": true,
+  "name": "QA_12429875",
+  "value": "",
+  "k": "3fe3a25c4f23a84f",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Platzi username not in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Salary expectations (COP or MXN gross monthly)",
+  "type": "textarea",
+  "required": true,
+  "name": "QA_12429876",
+  "value": "",
+  "k": "bc624dfb27cf8e59",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Only CHF yearly given, not COP/MXN",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Please go to https://platzi.com/evaluation/test-ingles/ and take the English test. Once you have completed it, upload the document that certifies your current English level Choose file",
+  "type": "file",
+  "required": true,
+  "name": "input_files_input_AjHR1wJUGXePFmc2",
+  "value": "",
+  "k": "003e80febb0b0b52",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No English certificate in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ }
+]
