@@ -1,0 +1,486 @@
+{
+ "persona": {
+  "family": "marketing",
+  "title": "Digital Marketing Manager",
+  "kind": "tech",
+  "city": "Zagreb",
+  "country": "Croatia",
+  "language": "Croatian"
+ },
+ "seed": "bench-judge-6",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 29,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Sr Growth Marketer (f/m/x)",
+   "company": "doinstruct",
+   "location": "Germany (Remote)",
+   "provider": "doinstruct",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Kyiv",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Head of Marketing",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Affiliate Marketing Team Lead",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Off-page SEO Specialist",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Performance Marketer (Full Remote - Worldwide)",
+   "company": "everai",
+   "location": "Worldwide",
+   "provider": "everai",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Lead",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Engineer",
+   "company": "Fonio",
+   "location": "Vienna; Remote",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Google Ads Specialist",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Creative Marketing Manager (DanceBit)",
+   "company": "gismart",
+   "location": "Remote",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Head of Growth",
+   "company": "Fonio",
+   "location": "Vienna; London; Munich; European Union; Barcelona",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Manager (AI RnD)",
+   "company": "gismart",
+   "location": "Kyiv; Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Lead Growth Manager (Testora)",
+   "company": "gismart",
+   "location": "Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Manager (Spilio)",
+   "company": "gismart",
+   "location": "Kyiv; Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Communications Manager",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Analyst (FitMe)",
+   "company": "gismart",
+   "location": "Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Off-page SEO Team Lead",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "ASO Specialist, Android",
+   "company": "eneba",
+   "location": "Lithuania; Kaunas, Remote; Vilnius, Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Head of Influencer Marketing, Affiliate & Partnerships",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Influencer Performance Creative",
+   "company": "eneba",
+   "location": "Remote; Europe",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Communications Lead",
+   "company": "Yubo",
+   "location": "Remote",
+   "provider": "Yubo",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Off-page SEO Specialist",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Creative Marketing Manager (DanceBit)",
+   "company": "gismart",
+   "location": "Remote",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Off-page SEO Team Lead",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Google Ads Specialist",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Growth Communications Manager",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Affiliate Marketing Team Lead",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "SEO Automation",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Head of Influencer Marketing, Affiliate & Partnerships",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "User Acquisition Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "User Acquisition Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Kyiv",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "ASO Specialist, Android",
+   "company": "eneba",
+   "location": "Lithuania; Kaunas, Remote; Vilnius, Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Sr Growth Marketer (f/m/x)",
+   "company": "doinstruct",
+   "location": "Germany (Remote)",
+   "provider": "doinstruct",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Growth Manager",
+   "company": "Yubo",
+   "location": "Paris - Full Remote",
+   "provider": "Yubo",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Performance Marketer (Full Remote - Worldwide)",
+   "company": "everai",
+   "location": "Worldwide",
+   "provider": "everai",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "User Acquisition Manager (AI RnD)",
+   "company": "gismart",
+   "location": "Kyiv; Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Lead Growth Manager (Testora)",
+   "company": "gismart",
+   "location": "Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Affiliate Manager (Full Remote - Europe)",
+   "company": "everai",
+   "location": "Europe",
+   "provider": "everai",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Marketing Analyst (FitMe)",
+   "company": "gismart",
+   "location": "Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Junior Performance Marketer (Full Remote - Europe)",
+   "company": "everai",
+   "location": "Europe",
+   "provider": "everai",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "User Acquisition Manager (Spilio)",
+   "company": "gismart",
+   "location": "Kyiv; Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Marketing Engineer",
+   "company": "Fonio",
+   "location": "Vienna; Remote",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Head of Marketing",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "User Acquisition Lead",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Head of Growth",
+   "company": "Fonio",
+   "location": "Vienna; London; Munich; European Union; Barcelona",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Marketing Manager",
+   "company": "Yubo",
+   "location": "Paris - Full Remote",
+   "provider": "Yubo",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior/Lead Lifecycle Marketing Manager (Full Remote - Europe)",
+   "company": "everai",
+   "location": "Europe",
+   "provider": "everai",
+   "role": "yes",
+   "place": "remote"
+  }
+ ]
+}

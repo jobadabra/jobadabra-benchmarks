@@ -1,0 +1,720 @@
+{
+ "persona": {
+  "family": "driver",
+  "title": "Truck Driver (Class CE)",
+  "kind": "non-tech",
+  "city": "Sofia",
+  "country": "Bulgaria",
+  "language": "Bulgarian"
+ },
+ "seed": "bench-judge-1",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 74,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Шофьор, товарен автомобил",
+   "company": "ВС-ОЙЛ 94 ООД",
+   "location": "Sofia, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Шофьор, тежкотоварен автомобил - 12 и повече тона",
+   "company": "ЛЕССЪР ЕООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Шофьор, тежкотоварен автомобил - 12 и повече тона",
+   "company": "БЛАГОУСТРОЯВАНЕ И ОЗЕЛЕНЯВАНЕ ОП",
+   "location": "Haskovo, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "ЛИСЕЦ ЕООД гр.Омуртаг ЕООД",
+   "location": "Targovishte, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, цистерна",
+   "company": "ЛУМАКС ТРАНС ЕООД",
+   "location": "Ruse, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, самосвал",
+   "company": "ГОГО - ГЕОРГИ ХРИСТОВ ЕТ",
+   "location": "Sofia (stolitsa), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, самосвал",
+   "company": "Елит -Строй -ТМ ЕООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, куриер",
+   "company": "ПИГЕОН ЕКСПРЕС - ПС ООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, куриер",
+   "company": "ХМ ЕЛЕКТРИК ООД",
+   "location": "Sofia (stolitsa), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, тежкотоварен автомобил - 12 и повече тона",
+   "company": "АЛАРА 2000 ООД",
+   "location": "Sofia (stolitsa), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, тежкотоварен автомобил - 12 и повече тона",
+   "company": "БЛАГОУСТРОЯВАНЕ И ОЗЕЛЕНЯВАНЕ ОП",
+   "location": "Haskovo, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "ТОСКО ООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "АНИМА ГРУП ЕООД",
+   "location": "Sofia (stolitsa), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "КРИС Л ООД",
+   "location": "Pernik, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "МАРТА-СКМ - СТОЙНЕ МАНОВ ЕТ",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "СТРОЙРЕНТ ЕООД",
+   "location": "Sofia (stolitsa), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "ДИМЕКС ООД",
+   "location": "Kyustendil, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "ТИМ ТРЕЙД 8 ООД",
+   "location": "Kyustendil, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "СОУ за ученици с нарушено зрение \"Луи Брайл\"-София Училище",
+   "location": "Sofia (stolitsa), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "СЕЛМАКС ГРУП ООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "ЛЪЧИРОС ЕООД",
+   "location": "Kyustendil, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "РАВИК Д ООД",
+   "location": "Sofia, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "Хлебопекарна Арбол ЕООД",
+   "location": "Sofia, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "ПИРИМПЕКС АД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "МИГ-87 ЕООД ЕООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "КИМАКС ТРЕЙД ЕООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "Дейли фудс АД АД",
+   "location": "Kyustendil, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "ЛЕКИНИ СТИЛ ЕООД ЕООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лекотоварен автомобил",
+   "company": "ЛИСЕЦ ЕООД гр.Омуртаг ЕООД",
+   "location": "Targovishte, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, тежкотоварен автомобил",
+   "company": "ГОЛДЕН ИНВЕСТМЪНТ ГРУП ООД",
+   "location": "Sofia (stolitsa), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, тежкотоварен автомобил",
+   "company": "ФАКТОРИ 83 ООД ООД",
+   "location": "Sofia, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, товарен автомобил",
+   "company": "МАРТИНЕЛИ ООД",
+   "location": "Pernik, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, товарен автомобил",
+   "company": "БЕТИ ТРАНС 58 ООД",
+   "location": "Sofia, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, товарен автомобил",
+   "company": "ВС-ОЙЛ 94 ООД",
+   "location": "Sofia, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, товарен автомобил",
+   "company": "МАТ-СТАР ООД",
+   "location": "Sofia (stolitsa), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, товарен автомобил",
+   "company": "ЕНВИРОНМАН-ТЕО-БЪЛГАРИЯ ООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, товарен автомобил",
+   "company": "ММИГ - 2006 ООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, товарен автомобил",
+   "company": "ОБЩИНСКО ДРУЖЕСТВО ЧЕЛОПЕЧ ЕООД",
+   "location": "Sofia, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, товарен автомобил",
+   "company": "СТРОИТЕЛНА КЪЩА - БЕЛА-ИЦА ЕООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Общ работник",
+   "company": "Детска градина \"РАДОСТ\" - СИМИТЛИ Детска градина",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Общ работник",
+   "company": "СРЕДНО УЧИЛИЩЕ \"СВ. СВ. КИРИЛ И МЕТОДИЙ\" Училище",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Общ работник",
+   "company": "АЛИХАТ - ХАТИДЖЕ МУСА ЕТ",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Общ работник",
+   "company": "ОБЩИНА БЛАГОЕВГРАД община",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Общ работник",
+   "company": "ДЕТСКА ГРАДИНА Детска градина",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Общ работник",
+   "company": "ОБЩИНА ЕТРОПОЛЕ община",
+   "location": "Sofia, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Общ работник",
+   "company": "ВИНПРОМ РУСЕ ТРЕЙД ЕООД",
+   "location": "Ruse, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Общ работник",
+   "company": "ЛИСЕЦ ЕООД гр.Омуртаг ЕООД",
+   "location": "Targovishte, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Общ работник",
+   "company": "ВИКИНГ - СТРОЙ ЕООД",
+   "location": "Pazardzhik, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Общ работник",
+   "company": "БЛАГОУСТРОЯВАНЕ И ОЗЕЛЕНЯВАНЕ ОП",
+   "location": "Haskovo, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Общ работник",
+   "company": "ФРАТЕРРА ООД",
+   "location": "Dobrich, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Общ работник",
+   "company": "Д КОНСЕЙ ООД",
+   "location": "Ruse, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, автокран",
+   "company": "Балканстрой КК ООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, товарен автомобил (международни превози)",
+   "company": "МЕЦО ТРАНС ЕООД ЕООД",
+   "location": "Kyustendil, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, лек автомобил до 9 места",
+   "company": "КИРИЦ ЕООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Шофьор, платформа",
+   "company": "БАЛКАНТРАНС-2009 ЕООД",
+   "location": "Blagoevgrad, Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Портиер",
+   "company": "ДАКС-96 ООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Продавач-консултант",
+   "company": "БАУМАКС БЪЛГАРИЯ ООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Касиер",
+   "company": "БАУМАКС БЪЛГАРИЯ ООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Асистент, човешки ресурси",
+   "company": "БАУМАКС БЪЛГАРИЯ ООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Монтажник, стъкла в сгради",
+   "company": "ДАКС-96 ООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, товарен автомобил (международни превози)",
+   "company": "ДИСКОРДИА АД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Технически сътрудник",
+   "company": "НИКИ ТРАНС-01 ЕООД ЕООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, самосвал",
+   "company": "ГОГО - ГЕОРГИ ХРИСТОВ ЕТ",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, тролейбус",
+   "company": "СТОЛИЧЕН ЕЛЕКТРОТРАНСПОРТ ЕАД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "ПОДЕЛЕНИЕ \"МАЛАШЕВЦИ\" поделение",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Електромонтьор",
+   "company": "ПОДЕЛЕНИЕ \"ЗЕМЛЯНЕ\" поделение",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Чистач/ Хигиенист",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Автомонтьор",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Диспечер, транспортни средства",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "ПОДЕЛЕНИЕ \"ЗЕМЛЯНЕ\" поделение",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, автобус",
+   "company": "СТОЛИЧЕН АВТОТРАНСПОРТ ЕАД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Шофьор, лек автомобил до 9 места",
+   "company": "БГ ТРАНС КЪМПАНИ 78  ЕООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Санитар",
+   "company": "РЕМОТЕРМ ЕООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Болногледач",
+   "company": "РЕМОТЕРМ ЕООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Бояджия, промишлени изделия",
+   "company": "МПМ ГРУП 7 ООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Аргончик",
+   "company": "БОЖ-БОГ ЕООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Машинен оператор, циркуляр",
+   "company": "ЕЛЕРГОН ЕООД ЕООД",
+   "location": "Sofia area (Sofia (stolitsa), BG411), Bulgaria",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}
