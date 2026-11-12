@@ -3,10 +3,11 @@
 // previous run and the 27 Oct baseline round. Only counts, tool names and the made-up personas' title and city: no job, no URL.
 // Usage: node search-bench/note.mjs <work dir> --round YYYY-MM-DD [--build abc1234] [--baseline search-bench/results/2026-10-27]
 //          [--last <dir of earlier notes>] [--out note.json] [--url <run url>]
-// Telegram: $BENCH_TELEGRAM_BOT_TOKEN and $BENCH_TELEGRAM_CHAT_ID (the benchmarks bot); unset: printed only. Guard: test/search-note.test.mjs.
+// Telegram: $CI_ALERTS_TELEGRAM_BOT_TOKEN and $CI_ALERTS_TELEGRAM_CHAT_ID (the Engineering bot, owner 12 Nov 2026); unset: printed only, and a failure in GitHub Actions. Guard: test/search-note.test.mjs.
 import fs from 'node:fs'; import path from 'node:path'; import {fileURLToPath} from 'node:url';
 import {NAME} from './tools.mjs';
 import {RIVALS} from './pool.mjs';
+import {CHIP, delta, esc, link} from '../lib/telegram.mjs'; import {sendNote} from '../lib/telegram.mjs';
 
 const rj = f => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return null; } };
 const key = row => [row.title, row.company, row.location].map(part => (part || '').trim().toLowerCase()).join('|');
@@ -36,29 +37,32 @@ export function readRound(dir) {
   return out;
 }
 
-const diff = (now, then) => (then == null ? '' : now > then ? ` ▲${now - then}` : now < then ? ` ▼${then - now}` : ' =');
-
-/** note, baseline and last (notes or null), {missing: ["ours p3"], url} -> the message text */
+/** note, baseline and last (notes or null), {missing: ["ours p3"], notServed, url} -> the message, Telegram HTML (12 Nov 2026, owner: "improve the visual aspect of the message"): bold verdict first, our numbers against the previous run and the baseline, rivals on one line, one aligned row per persona, notes last. */
 export function noteText(note, baseline, last, {missing = [], notServed = [], url = ''} = {}) {
   const ours = note.tools.ours, none = Object.values(note.personas).filter(p => p.relevant === 0).length;
   // Why (27 Oct 2026, gitar-bot, #9): "ours" now runs with the rivals' sources off; the baseline and the notes saved before ran with everything on. Each line is
   // compared only with a reference that ran the same way: ours with a note that has rivalsOff, ours-all with a note's ours-all, or (an old note) its ours, which had every source on.
   const same = (ref, tool) => (tool === 'ours' ? (ref?.rivalsOff ? ref.tools.ours : undefined) : ref?.tools['ours-all'] || (ref && !ref.rivalsOff ? ref.tools.ours : undefined));
-  const vs = (ref, label, tool = 'ours') => { const r = same(ref, tool)?.relevant; return r === undefined ? '' : ` (${diff(note.tools[tool].relevant, r).trim()} vs ${label} ${r})`; };
-  const lines = [`🔎 Search round · ${note.round}${note.build ? ` · build ${note.build}` : ''}`,
-    `Ours (rivals' sources off) ${ours.relevant} relevant of ${ours.found} shown${vs(last, 'the previous run')}${vs(baseline, 'baseline')}${last || baseline ? (same(last, 'ours') || same(baseline, 'ours') ? '' : ' (no earlier run with the rivals off yet)') : ''}`];
+  const vs = (ref, label, tool = 'ours') => { const r = same(ref, tool)?.relevant; return r === undefined ? '' : `${delta(note.tools[tool].relevant, r, 0)} vs ${label} ${r}`; };
+  const ref = same(last, 'ours') ? last : same(baseline, 'ours') ? baseline : null, down = ref && ours.relevant < ref.tools.ours.relevant;   // 🟡: down against the nearest reference that ran the same way
+  const chip = missing.length || ours.relevant === 0 ? CHIP.bad : down ? CHIP.warn : CHIP.good;
+  const meta = [note.round && `round ${note.round}`, note.build && `build ${note.build}`].filter(Boolean).map(esc).join(' · ');
+  const versus = [vs(last, 'the previous run'), vs(baseline, 'baseline')].filter(Boolean).join(' · ');
+  const lines = [`${chip} <b>Ours ${ours.relevant} relevant of ${ours.found} shown</b> · search round`, ...(meta ? [meta] : []), versus ? `${versus} <i>(rivals' sources off)</i>` : `<i>no earlier run with the rivals' sources off yet</i>`];
   const all = note.tools['ours-all'];
-  if (all) lines.push(`Ours with every source ${all.relevant} relevant of ${all.found} shown${vs(last, 'the previous run', 'ours-all')}${vs(baseline, 'baseline', 'ours-all')}${note.beyond ? `; we add beyond ${Object.entries(note.beyond).map(([r, k]) => `${NAME[r] || r} ${k}`).join(' · ')}` : ''}`);
+  if (all) lines.push(`With every source: ${all.relevant} of ${all.found}${[vs(last, 'the previous run', 'ours-all'), vs(baseline, 'baseline', 'ours-all')].filter(Boolean).map(v => ` · ${v}`).join('')}`);
+  if (note.beyond) lines.push(`We add beyond ${Object.entries(note.beyond).map(([r, k]) => `${esc(NAME[r] || r)} ${k}`).join(' · ')}`);
   const rivals = Object.entries(note.tools).filter(([t]) => t !== 'ours' && t !== 'ours-all').sort((a, b) => b[1].relevant - a[1].relevant);
-  if (rivals.length) lines.push(rivals.map(([t, s]) => `${NAME[t] || t} ${s.relevant}${diff(s.relevant, (last || baseline)?.tools[t]?.relevant)}`).join(' · '));
+  if (rivals.length) lines.push(rivals.map(([t, s]) => `${esc(NAME[t] || t)} ${s.relevant}${(d => (d ? ` ${d}` : ''))(delta(s.relevant, (last || baseline)?.tools[t]?.relevant, 0))}`).join(' · '));
   lines.push(`Searches with none: ${none} of ${Object.keys(note.personas).length}`);
-  for (const [n, p] of Object.entries(note.personas).sort((a, b) => a[0] - b[0])) {
-    const ref = same(last || baseline, 'ours') ? (last || baseline)?.personas?.[n] : undefined;   // the same way of running, or no arrow
-    lines.push(`${p.label}: ${p.relevant} of ${p.found} shown${diff(p.relevant, ref?.relevant)}`);
-  }
-  if (missing.length) lines.push(`⚠ Missing (a job failed, not a 0): ${missing.join(', ')}`);
-  if (notServed.length) lines.push(`ℹ Not served (the rival has no data for that place; not a failure, not a 0): ${notServed.join(', ')}`);
-  if (url) lines.push(url);
+  const rows = Object.entries(note.personas).sort((a, b) => a[0] - b[0]).map(([n, p]) => {
+    const prior = same(last || baseline, 'ours') ? (last || baseline)?.personas?.[n] : undefined;   // the same way of running, or no arrow
+    return [String(p.relevant).padStart(3), '/', String(p.found).padEnd(3), delta(p.relevant, prior?.relevant, 0).padEnd(4), p.label];
+  });
+  if (rows.length) lines.push('', '<b>By search</b> (relevant/shown)', `<pre>${rows.map(r => esc(r.join(' ').replace(' / ', '/').trimEnd())).join('\n')}</pre>`);
+  if (missing.length) lines.push(`⚠ <b>Missing</b> (a job failed, not a 0): ${esc(missing.join(', '))}`);
+  if (notServed.length) lines.push(`<i>ℹ Not served (the rival has no data for that place; not a failure, not a 0): ${esc(notServed.join(', '))}</i>`);
+  if (url) lines.push(link(url));
   return lines.join('\n');
 }
 
@@ -75,10 +79,5 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const text = noteText(note, baseline, last, {missing: [...missingNow, ...unjudged], notServed: notServedNow, url: arg('url')});
   if (arg('out')) { fs.mkdirSync(path.dirname(arg('out')), {recursive: true}); fs.writeFileSync(arg('out'), JSON.stringify(note, null, 1) + '\n'); }
   console.log(text);
-  const {BENCH_TELEGRAM_BOT_TOKEN: token, BENCH_TELEGRAM_CHAT_ID: chat} = process.env;
-  if (!token || !chat) console.log('telegram: BENCH_TELEGRAM_BOT_TOKEN / BENCH_TELEGRAM_CHAT_ID not set, printed only');
-  else {
-    const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({chat_id: chat, text, disable_web_page_preview: true})});
-    console.log(`telegram: ${res.status}`); if (!res.ok) process.exit(1);
-  }
+  await sendNote(text);
 }

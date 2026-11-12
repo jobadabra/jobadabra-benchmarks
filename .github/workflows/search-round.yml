@@ -85,8 +85,8 @@ jobs:
       - name: Telegram note, against the previous run and the 27 Oct baseline
         if: ${{ !cancelled() }}
         env:
-          BENCH_TELEGRAM_BOT_TOKEN: ${{ secrets.BENCH_TELEGRAM_BOT_TOKEN }}
-          BENCH_TELEGRAM_CHAT_ID: ${{ secrets.BENCH_TELEGRAM_CHAT_ID }}
+          CI_ALERTS_TELEGRAM_BOT_TOKEN: ${{ secrets.CI_ALERTS_TELEGRAM_BOT_TOKEN }}   # the Engineering bot (owner, 12 Nov 2026); a missing secret fails the step (lib/telegram.mjs)
+          CI_ALERTS_TELEGRAM_CHAT_ID: ${{ secrets.CI_ALERTS_TELEGRAM_CHAT_ID }}
           URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           tools/state-tag.sh read weekly-picks picks

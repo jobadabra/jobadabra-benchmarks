@@ -24,7 +24,7 @@ const SCHEDULED = {'form-weekly.yml': ['schedule', 'workflow_dispatch'], 'search
 const isUnitTests = text => !/secrets\./.test(text) && /^\s+- run: python3 -I search-bench\/test_\w+\.py$/m.test(text);
 // PR labels are no benchmark either (owner, 2 Nov 2026: "basically on all the repos in the org... the same workflow"): the label workflow writes labels on a PR, holds no secret (the job's
 // own token only) and runs jobadabra's scripts from its main; its exact triggers are listed, so any other trigger still fails here.
-const LABELS = {'pr-labels.yml': ['push', 'pull_request_target', 'pull_request_review', 'issue_comment']};
+const LABELS = {'pr-labels.yml': ['push', 'pull_request_target', 'pull_request_review', 'issue_comment', 'check_run']};   // check_run added by #19 (5 Nov 2026, jobadabra#3176); the guard was not updated and main's test was red
 for (const f of files) {
   const text = fs.readFileSync(path.join(dir, f), 'utf8');
   // Why (2 Nov 2026, Gitar on benchmarks#16): the org's PR checks (jobadabra templates/org-repo/pr-checks.yml) start on pull_request only and hold no secret: the PR-description check and "All checks passed".
@@ -58,7 +58,7 @@ test('form-round.yml: a weekly run ends with one Telegram note against the basel
   assert.match(text, /if: \$\{\{ !inputs\.judge_only && inputs\.weekly == 'yes' \}\}/);
   assert.match(text, /node weekly-note\.mjs pool --round "\$ROUND" "\$\{base\[@\]\}" --last "picks\/notes\/\$kind"/);
   assert.match(text, /base=\(--baseline rounds\/fixed\/baseline\.json\)/);
-  assert.match(text, /BENCH_TELEGRAM_BOT_TOKEN: \$\{\{ secrets\.BENCH_TELEGRAM_BOT_TOKEN \}\}/);
+  assert.match(text, /CI_ALERTS_TELEGRAM_BOT_TOKEN: \$\{\{ secrets\.CI_ALERTS_TELEGRAM_BOT_TOKEN \}\}/); assert.match(text, /CI_ALERTS_TELEGRAM_CHAT_ID: \$\{\{ secrets\.CI_ALERTS_TELEGRAM_CHAT_ID \}\}/); assert.doesNotMatch(text, /BENCH_TELEGRAM/, 'the Engineering bot only (owner, 12 Nov 2026): no fall back to the old benchmarks bot');
 });
 
 // Every round publishes itself as its last step (owner via 6e, 27 Oct 2026): a form round takes `publish` and its last job judges, scores
@@ -139,7 +139,7 @@ test('search-round.yml: every 3 days, ours + free rivals, judged on the plan, pu
   assert.equal(text.split('secrets.CLAUDE_CODE_OAUTH_TOKEN').length - 1, 1, 'the token appears once'); assert.ok(judge.includes('secrets.CLAUDE_CODE_OAUTH_TOKEN'), 'in the judge step');
   assert.match(text, /SELFHEAL_PUBLISH_KEY: \$\{\{ secrets\.BENCHMARK_PUBLISH_KEY \}\}\n {8}run: node search-bench\/publish\.mjs work --round/);
   assert.match(text, /node search-bench\/note\.mjs work [^\n]*--baseline search-bench\/results\/2026-10-27/);
-  assert.match(text, /BENCH_TELEGRAM_BOT_TOKEN: \$\{\{ secrets\.BENCH_TELEGRAM_BOT_TOKEN \}\}/);
+  assert.match(text, /CI_ALERTS_TELEGRAM_BOT_TOKEN: \$\{\{ secrets\.CI_ALERTS_TELEGRAM_BOT_TOKEN \}\}/); assert.match(text, /CI_ALERTS_TELEGRAM_CHAT_ID: \$\{\{ secrets\.CI_ALERTS_TELEGRAM_CHAT_ID \}\}/); assert.doesNotMatch(text, /BENCH_TELEGRAM/, 'the Engineering bot only (owner, 12 Nov 2026): no fall back to the old benchmarks bot');
 });
 
 
