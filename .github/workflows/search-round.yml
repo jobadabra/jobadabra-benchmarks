@@ -16,6 +16,10 @@ on:
       round:
         description: The round's key on /admin (default today's date); a proof round of another route takes its own key, e.g. 2026-11-12-broker, so it never replaces a published round
         default: ''
+      only_ours:
+        description: Our arm only (rivals-off line; no ours-all line, no rivals). Published under `round` and counted nowhere else; no Telegram note, nothing saved as the previous run
+        type: boolean
+        default: false
 permissions:
   contents: write   # moves the tag weekly-picks (the notes); Why (2 Nov 2026, owner: "let's use tags not branches for storing things. Otherwise, they keep popping up like that"): the weekly-picks state is the TAG weekly-picks (tools/state-tag.sh: read, and a compare-and-swap write); a pushed branch made GitHub offer "Compare & pull request".
   actions: read
@@ -43,7 +47,7 @@ jobs:
     secrets: inherit
   ours_all:   # the second line: as a user has it, EURES and the rest on (owner, 27 Oct 2026)
     needs: [when, ours]   # one after the other: the owner's plan runs two sessions at a time
-    if: ${{ !cancelled() && needs.when.outputs.go == 'yes' }}
+    if: ${{ !cancelled() && needs.when.outputs.go == 'yes' && !inputs.only_ours }}
     permissions:
       contents: read
       id-token: write   # the broker's run token for the called job that runs OUR arm (a called job cannot hold more than its caller); test/broker-token.test.mjs
@@ -56,7 +60,7 @@ jobs:
     secrets: inherit
   rivals:
     needs: when
-    if: needs.when.outputs.go == 'yes'
+    if: ${{ needs.when.outputs.go == 'yes' && !inputs.only_ours }}
     uses: ./.github/workflows/search-rivals.yml
     with:
       rivals: '["jobspy","eures","adzuna","jooble"]'   # the same list as search-bench/rivals.json (test/workflows.test.mjs)
@@ -92,7 +96,8 @@ jobs:
           ROUND: ${{ inputs.round }}
         run: node search-bench/publish.mjs work --round "${ROUND:-$(date -u +%F)}" --build "$(cat work/build.txt)"
       - name: Telegram note, against the previous run and the 27 Oct baseline
-        if: ${{ !cancelled() }}
+        # Why (12 Nov 2026, owner: "rerun the job search benchmarks, but only our result"): an ours-only round has no rivals, so it is no "previous run" for the next full round
+        if: ${{ !cancelled() && !inputs.only_ours }}
         env:
           CI_ALERTS_TELEGRAM_BOT_TOKEN: ${{ secrets.CI_ALERTS_TELEGRAM_BOT_TOKEN }}   # the Engineering bot (owner, 12 Nov 2026); a missing secret fails the step (lib/telegram.mjs)
           CI_ALERTS_TELEGRAM_CHAT_ID: ${{ secrets.CI_ALERTS_TELEGRAM_CHAT_ID }}
