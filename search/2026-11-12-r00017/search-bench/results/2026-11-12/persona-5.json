@@ -1,0 +1,405 @@
+{
+ "persona": {
+  "family": "chef",
+  "title": "Chef de Partie",
+  "kind": "non-tech",
+  "city": "Krakow",
+  "country": "Poland",
+  "language": "Polish"
+ },
+ "seed": "bench-judge-5",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 39,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Kucharz / Kucharka Radisson RED Kraków",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / Kucharka",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Food & Beverage Supervisor (K/M)",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Food & Beverage Supervisor (K/M)",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka Radisson RED Kraków",
+   "company": "RHG",
+   "location": "Kraków, pl",
+   "provider": "RHG",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz Kuchni Słodkiej (k/m)",
+   "company": "PEBE GROUP SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka",
+   "company": "PURO Hotel Kraków Stare Miasto",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz śniadaniowy / Kucharka śniadaniowa",
+   "company": "Halicka | PURO Hotels",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz śniadaniowy / Kucharka śniadaniowa",
+   "company": "FLARIO JUSZCZYK sp.j.",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Szef / Szefowa kuchni",
+   "company": "HUT-PUS S.A.",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka",
+   "company": "FLARIO JUSZCZYK sp.j.",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka",
+   "company": "ZALIPIANKI EWA WACHOWICZ I WSPÓLNICY sp.k.",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna (M/K)",
+   "company": "Żłobek Baby Yoda",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz Śniadaniowy (k/m)",
+   "company": "FOCUS HOTELS S.A.",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz a’la carte (K/M)",
+   "company": "FOCUS HOTELS S.A.",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka a’la carte",
+   "company": "PI MANAGEMENT SPÓŁKA Z O.O.",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka",
+   "company": "Honō steakhouse",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna (k/m)",
+   "company": "Restauracja Cechowa",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pracownik Produkcji Kuchennej / Kucharz Produkcyjny (k/m)",
+   "company": "PEBE GROUP SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz Kuchni Ciepłej – catering dzienny (bez nocek) (k/m)",
+   "company": "PEBE GROUP SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz Śniadaniowy / Kucharka Śniadaniowa",
+   "company": "BACHLEDA LUXURY KRAKÓW SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz śniadaniowy (k/m)",
+   "company": "PEBE GROUP SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka",
+   "company": "STANISŁAWA WĄSOWICZ KUCHNIA STAROPOLSKA \"U BABCI MALINY\"",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Szef / Szefowa kuchni",
+   "company": "MICHAŁ KOŃCZAKOWSKI K-GROUP",
+   "location": "Zelków (pow. krakowski), Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Szef kuchni (k/m)",
+   "company": "Arche Hotel Kraków",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Szef / Szefowa kuchni",
+   "company": "CAMELOT MAGIC sp. z o.o.",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Młodszy kucharz / Młodsza kucharka - Kuchnia Zimna / Kantyna",
+   "company": "HOTELS GLOBAL INVESTMENT GROUP sp. z o.o.",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomocnik / Pomocniczka kucharza",
+   "company": "MPQL sp. z o.o.",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka",
+   "company": "SPÓŁDZIELNIA PRODUKCJI PIEKARSKIEJ I CIASTKARSKIEJ W KRAKOWIE",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pracownik / Pracowniczka kuchni",
+   "company": "PIEROGARNIA PIEKORZKI sp. z o.o.",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / Kucharka",
+   "company": "FIRMA HANDLOWO USŁUGOWA SOKRATES sp. z o.o.",
+   "location": "Kraków, Polska",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharka / Kucharz",
+   "company": "Praca.pl",
+   "location": "Zawoja, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "PIZZERMAN",
+   "company": "Schiever Polska Sp. z o.o.",
+   "location": "Czeladź, Śląskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "PIZZERMAN/PIZZERWOMAN",
+   "company": "Schiever Polska Sp. z o.o.",
+   "location": "Bielsko-Biała, Śląskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharz / Kucharka",
+   "company": "Praca.pl",
+   "location": "Zawoja, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharz / Kucharka Radisson RED Kraków",
+   "company": "Radisson Hotel Group",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharz / Kucharka",
+   "company": "Radisson Hotel Group",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine (Peruvian Restaurant)",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "KUCHARZ K/M",
+   "company": "Łódzki Klaster ICT",
+   "location": "Jędrzejów, Świętokrzyskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "adzuna",
+   "title": "Chef de Partie - Commis de Cuisine",
+   "company": "Ismira",
+   "location": "Kraków, małopolskie",
+   "provider": "Adzuna",
+   "role": "yes",
+   "place": "yes"
+  }
+ ]
+}

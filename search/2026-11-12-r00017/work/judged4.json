@@ -1,0 +1,1440 @@
+{
+ "persona": {
+  "family": "warehouse",
+  "title": "Warehouse Operator",
+  "kind": "non-tech",
+  "city": "Zurich",
+  "country": "Switzerland",
+  "language": "German"
+ },
+ "seed": "bench-judge-4",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 129,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Mitarbeiter Gefahrgut (w/m/d) 80 - 100%",
+   "company": "Cargologic AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Mitarbeiter*in Tiefkühlabteilung (Nachtschicht), 100%, (w/m/d) - Nachteule gesucht!",
+   "company": "Marinello & Co. AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Aushilfe (w/m/d) Valoren 60-80% im Stundenlohn",
+   "company": "Cargologic AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Fachkräfte - Ausschreibung",
+   "company": "globegarden gmbh",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Produktionsmitarbeiter / Staplerfahrer min. CHF 31.06 / Temporär",
+   "company": "Employ Me AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Logistiker - Reinraumlogistik / Produktionslogistik am Standort Zürich (m/w/x)",
+   "company": "Carl Zeiss AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Logistiker*in / Chauffeur*in",
+   "company": "Schutz & Rettung Zürich",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Lernende Logistik / Lernender Logistik - Fachrichtung Lager",
+   "company": "Schweizerische Rettungsflugwacht (Rega)",
+   "location": "Zürich-Flughafen, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Logistiker/in EFZ oder EBA 100%",
+   "company": "Asanti AG",
+   "location": "Zürich / Aargau, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Fachmitarbeiter*in Warenlogistik Belad EG, Tag",
+   "company": "Migros Zürich",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "MaterialplanerIn",
+   "company": "RUAG AG",
+   "location": "Bern, Zürich Seebach, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Logistiker/in mit abwechslungsreichem Einsatz",
+   "company": "Fachkraft.ch GmbH",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "LAGERBEWIRTSCHAFTER S-PLUS (W/M)",
+   "company": "ELCOTHERM AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Lernende/-r Logistiker/-in EFZ (a) 100%",
+   "company": "Klinik im Park",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Lagermitarbeiter",
+   "company": "Randstad",
+   "location": "Zürich, Switzerland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Sprechstundenassistentin/Sprechstundenassistent (w/m/d) 100 %",
+   "company": "Universitätsklinik Balgrist",
+   "location": "Zürich, Switzerland",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Lagerist 100% (m/w/d)",
+   "company": "Randstad (Schweiz) AG",
+   "location": "Zürich, Switzerland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "?Kommissionierer 100 % (m/w/d)",
+   "company": "Stellenwerk AG",
+   "location": "Zürich, Switzerland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Mitarbeiter Gefahrgut (w/m/d) 80 - 100%",
+   "company": "Cargologic AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Mitarbeiter*in Tiefkühlabteilung (Nachtschicht), 100%, (w/m/d) - Nachteule gesucht!",
+   "company": "Marinello & Co. AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Aushilfe (w/m/d) Valoren 60-80% im Stundenlohn",
+   "company": "Cargologic AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Fachkräfte - Ausschreibung",
+   "company": "globegarden gmbh",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Produktionsmitarbeiter / Staplerfahrer min. CHF 31.06 / Temporär",
+   "company": "Employ Me AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Senior) Logistics Process Engineer",
+   "company": "Migros Online",
+   "location": "Zurich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Lehrstelle Logistiker (w/m/d) EFZ - Start Sommer 2027",
+   "company": "Cargologic AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Logistiker / Supervisor (W/M/D) 80-100%",
+   "company": "Cargologic AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Production Controller 80 - 100% (f/m/d) - 2-year contract",
+   "company": "Hitachi Energy AG",
+   "location": "Zurich, Zurich, Switzerland, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Lernende Logistik / Lernender Logistik - Fachrichtung Lager",
+   "company": "Schweizerische Rettungsflugwacht (Rega)",
+   "location": "Zürich-Flughafen, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Leitung AVOR/Lager/Logistik 100% (m/w/d)",
+   "company": "Tasted Food AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Chauffeur mit Allgemeinen Arbeiten im Lager 100% (m/w)",
+   "company": "Candrian Hospitality",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Leiter/in Logistik (100 %) Mitglied der Geschäftsleitung",
+   "company": "Otto Fischer AG",
+   "location": "Zürich-West, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Logistiker/in EFZ oder EBA 100%",
+   "company": "Asanti AG",
+   "location": "Zürich / Aargau, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "OP Logistikerin/Logistiker (m/w/d) 100 %",
+   "company": "Universitätsklinik Balgrist",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Logistiker*in / Chauffeur*in",
+   "company": "Schutz & Rettung Zürich",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Mitarbeiter Spedition & Produktion",
+   "company": "Dörrer AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Mandatsleiter/in Treuhand 80-100% (m/w/d) / Fest",
+   "company": "Evergreen Human Resources AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Instandhaltungstechniker (w/m/d) 80 - 100%",
+   "company": "Cargologic AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "FINANZBUCHHALTER*IN 80%-100%",
+   "company": "Solar21 AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Techniker:in Klinik/Gebäude",
+   "company": "Universität Zürich",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "LAGERBEWIRTSCHAFTER S-PLUS (W/M)",
+   "company": "ELCOTHERM AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Fachleiter*in Velowerkstatt 80-100%",
+   "company": "AOZ",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Techniker Allrounder",
+   "company": "City Pop AG",
+   "location": "Zürich, Switzerland",
+   "provider": "jobs.ch",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Lehrstelle 2027 Logistikerin / Logistiker EFZ Lager, 100 %",
+   "company": "Stadt Zürich",
+   "location": "CH-8048 Zürich",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Logistiker*in / Chauffeur*in, 80 %",
+   "company": "Stadt Zürich",
+   "location": "CH-8048 Zürich",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Lagermitarbeiter:in",
+   "company": "Import Parfumerie",
+   "location": "Zurich, Zurich, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Logistiker:in EFZ",
+   "company": "glaus personal gmbh",
+   "location": "Tuggen, Schwyz, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Lagermitarbeiter (m/w/d) für unsere Niederlassung in Koblenz",
+   "company": "EUROPART Group",
+   "location": "Koblenz, Aargau, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Mitarbeiter Logistik Bereich Warenausgang (m/w/d) 100%",
+   "company": "Avosano AG",
+   "location": "Niederbipp, Berne, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Mitarbeiter Wareneingang",
+   "company": "Antalis",
+   "location": "Lupfig, Aargau, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Logistics Operator Switzerland (all)",
+   "company": "Oetiker Group",
+   "location": "Horgen, Zurich, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Logistiker Produktionslogistik 100%",
+   "company": "Fresh Food & Beverage Group",
+   "location": "Bischofszell District, Thurgau, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Logistiker (m/w/d), 100% Spätschicht",
+   "company": "Sonepar Suisse AG",
+   "location": "Rothenburg, Lucerne, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Lagerlogistiker Neuendorf (m/w/d)",
+   "company": "jobcourier.ch",
+   "location": "Neuendorf, Solothurn, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Lagerist:in",
+   "company": "LIVIQUE",
+   "location": "Zurich, Zurich, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Mitarbeiter*in Logistik 100% (m/w/d)",
+   "company": "Manor AG",
+   "location": "Hochdorf, Lucerne, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Mitarbeiter*in Logistik 100%",
+   "company": "Manor AG",
+   "location": "Hochdorf, Lucerne, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Material Handler/Lagermitarbeiter",
+   "company": "Thermo Fisher Scientific",
+   "location": "Allschwil, Basel-Country, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Mitarbeiter:in Lager / Logistiker:in",
+   "company": "Zweifel Chips & Snacks AG",
+   "location": "Volketswil, Zurich, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Warehouse Collaborator",
+   "company": "Covetrus",
+   "location": "Lyssach, Berne, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Logistiker (m/w) 100%",
+   "company": "Diethelm Aufzüge AG",
+   "location": "Lachen, Schwyz, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Logistiker / in",
+   "company": "EMIL EGGER AG",
+   "location": "Härkingen, Solothurn, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Logistics Operator (100%)",
+   "company": "KLK OLEO Surfactants",
+   "location": "Hedingen, Zurich, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Mitarbeiter:in Logistik",
+   "company": "Nestlé",
+   "location": "Basel, Basel, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Logistiker:in EFZ",
+   "company": "Megasol Energie AG",
+   "location": "Deitingen, Solothurn, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Mitarbeiter Logistik (m/w/d)",
+   "company": "futronic GmbH",
+   "location": "Marbach, St Gallen, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Lagerist Umschlagbetrieb/ Logistiker 100% (m/w/d)",
+   "company": "Streck Transport AG",
+   "location": "Pfungen, Zurich, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Logistiker EFZ (m/w/d)",
+   "company": "BWT Schweiz",
+   "location": "Aesch, Basel-Country, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Mitarbeiter Warenein-/ausgang (m/w/d)",
+   "company": "jobcourier.ch",
+   "location": "Mägenwil, Aargau, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Mitarbeiter/in Logistik",
+   "company": "Werkheim Uster",
+   "location": "Uster, Zurich, Switzerland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "BESS Application and Project Delivery Manager",
+   "company": "EnerSys",
+   "location": "Glattbrugg, ZH, Switzerland",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Lead - D365 Functional Consultant",
+   "company": "On Ag",
+   "location": "Zürich, ZH, Switzerland",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Account Executive (Process Manufacturing)",
+   "company": "Cognite - AI for Industry",
+   "location": "Zürich, ZH, Switzerland",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Anlagen Operator",
+   "company": "Intelligent Job AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Ad Operator *",
+   "company": "Ringier AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SMT-Operator Spätschicht",
+   "company": "SMTEC AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Operator*in/Anlagenführer*in (m/w/d) 100%",
+   "company": "leteam ressources humaines",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Logistics Process Engineer",
+   "company": "Migros Online",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Logistics Process Engineer",
+   "company": "Migros Online",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Logistics Process Engineer",
+   "company": "Migros Online",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "SMT-Programmierung & Linienverantwortung Spätschicht",
+   "company": "SMTEC AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Logistiker EFZ / Kommissionierer 100 %",
+   "company": "Employ Me AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Supervisor Customer Service Team for Japan",
+   "company": "Kuoni Global Travel Services (Schweiz) AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Training Manager",
+   "company": "Kanadevia Inova AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lehrstelle Logistiker  EFZ - Start Sommer 2027",
+   "company": "Cargologic AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Maschinenführer:in Operator:in",
+   "company": "KELLER Pressure",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Maschinenführer:in Operator:in",
+   "company": "KELLER Pressure",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "MASCHINISTEN / BAUARBEITER SPEZIALTIEFBAU 100% (CH-Kt. Deutsch-Schweiz/Zentralschweiz) – per sofort/ (Baumaschinenführer/in)",
+   "company": "MPV Maurer Personalvermittlung (priv.)",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BAUMASCHINENFÜHRER 100% (CH-Kt. Deutsch-Schweiz) – per sofort/laufend (Baumaschinenführer/in)",
+   "company": "MPV Maurer Personalvermittlung (priv.)",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Maschinenführer:in Operator:in",
+   "company": "KELLER Pressure",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Maschinenführer:in Operator:in",
+   "company": "KELLER Pressure",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lehrstelle Logistiker  EFZ - Start Sommer 2027",
+   "company": "Cargologic AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Maschinenführer:in Operator:in 100%",
+   "company": "KELLER Pressure",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Training Manager",
+   "company": "Kanadevia Inova AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AI-Plattformengineer",
+   "company": "Migros Bank AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Servicetechniker mit Reisebereitschaft",
+   "company": "Flexsis AG, Filiale Aarau",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AI-Plattformengineer",
+   "company": "Migros Bank AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Strassenbauer (m/w/d) (Straßenbauer/in)",
+   "company": "Job24 AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "TIEF- UND STRASSENBAUER 100% (CH-Regionen Deutsch-Schweiz) - per sofort/laufend (Straßenbauer/in)",
+   "company": "MPV Maurer Personalvermittlung (priv.)",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Servicetechniker mit Reisebereitschaft",
+   "company": "Flexsis AG, Filiale Aarau",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BAUARBEITER/VORARBEITER/MASCHINISTEN (HOCH/TIEF) 100% (CH) – per sofort/laufend (Tiefbaufacharbeiter/in (ohne Angabe des Schwerpunkts))",
+   "company": "MPV Maurer Personalvermittlung (priv.)",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Associate Luftfahrtrecht",
+   "company": "Blum & Grob Rechtsanwälte AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Associate Luftfahrtrecht",
+   "company": "Blum & Grob Rechtsanwälte AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Test Automation Specialist – Data Testing 100%",
+   "company": "AARK Tech Solutions GmbH",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Electrical Engineer",
+   "company": "Kanadevia Inova AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Electrical Engineer",
+   "company": "Kanadevia Inova AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Operateur/-In Mikrosysteme (80-100%)",
+   "company": "indie Technologies Switzerland AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Operateur/-In Mikrosysteme",
+   "company": "indie Technologies Switzerland AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Technical Specialist - Process Validation",
+   "company": "Abbott AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Spezialist/in Türsysteme Schienenfahrzeuge 100%",
+   "company": "Express Personal AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechaniker/Mechanikerin 100%",
+   "company": "Express Personal AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CNC-Maschinisten/in Schreiner/in 100%",
+   "company": "Robert Fehr AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CNC-Graveur",
+   "company": "Speckert Klein Beschriftungen AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "CNC-Anwender, Gravuren",
+   "company": "Speckert Klein Beschriftungen AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Abkanter",
+   "company": "Borschberg & Käser AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Technical Specialist - Process Validation",
+   "company": "Abbott AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kanal-TV Operateur*in",
+   "company": "Franz Pfister AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kanal-TV Operateur*in",
+   "company": "Franz Pfister AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Teleskopstaplerfahrer Baustellenlogistik (m/w/d) – 100%",
+   "company": "Helva Personal Job GmbH",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Textilpflege & Schneiderei 50%",
+   "company": "Jasmin Textilpflege & Schneiderei Duvan",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Operation Engineer Storage & Virtualisation",
+   "company": "skybris gmbh",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kunststofftechnologe*in EFZ im 2-Schichbetrieb (w/m/d)",
+   "company": "Feller AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kunststofftechnologe*in EFZ im 2-Schichbetrieb",
+   "company": "Feller AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Grundbauer 100%",
+   "company": "workplaceX ag",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Maschinist Baumaschinen (m/w/d) – 100 %",
+   "company": "workplaceX ag",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Monteur Wasserhaltung / Grundbauer 80 – 100%",
+   "company": "workplaceX ag",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vorarbeiter Strassenbau (m/w/d) – 100",
+   "company": "workplaceX ag",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Quereinsteiger Saugtechnik Kat. C (w/m/d) - Eberhard Bau AG",
+   "company": "Eberhard Bau AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Stellv. Platzchef / Baumaschinenführer (w/m/d) - Eberhard Recycling AG",
+   "company": "Eberhard Bau AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer (m/w) Temporär",
+   "company": "Bellini Personal AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Strassenbauer (m/w/d) 100%",
+   "company": "Provia Personal AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer / Allrounder",
+   "company": "HASTAG (Zürich) AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer / Allrounder",
+   "company": "HASTAG (Zürich) AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer/in für Pneu-Bagger mit Charakter",
+   "company": "Esslinger AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "STRASSENBAUER/IN – TIEFBAU",
+   "company": "Esslinger AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer/in für Pneu-Bagger mit Charakter",
+   "company": "Esslinger AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Grundbauer/in 80 - 100% Region Winterthur (m/w/d)",
+   "company": "leteam ressources humaines",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "STRASSENBAUER/IN – TIEFBAU",
+   "company": "Esslinger AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Gleisbauer (m/w) Temporär",
+   "company": "Bellini Personal AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Grundbauer EFZ 100%",
+   "company": "workplaceX ag",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Monteur Wasserhaltung / Grundbauer 80 – 100%",
+   "company": "workplaceX ag",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "GUNITTEUR / SPRITZBETONARBEITER IM SPEZIALTIEFBAU 100% (M/W/D)",
+   "company": "workplaceX ag",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer/in 80 - 100% Region Frauenfeld (m/w/d)",
+   "company": "leteam ressources humaines",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer",
+   "company": "MM PERSONAL AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Grundbauer 100%",
+   "company": "workplaceX ag",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Strassenbauer / Tiefbauer oder gleichwertige Qualifikation (m/w/d) – 100%",
+   "company": "Helva Personal Job GmbH",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer oder gleichwertige Qualifikation (m/w/d) – 100%",
+   "company": "Helva Personal Job GmbH",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tunnelbauer (m/w) Temporär",
+   "company": "Bellini Personal AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Bauarbeiter / Bohrarbeiter / Erdsonden (m/w) 100%",
+   "company": "workplaceX ag",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Strassenbauer/in EFZ 80–100% – Region Winterthur (m/w/d)",
+   "company": "leteam ressources humaines",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer Bulldozer (w/m/d) - Weiacher Kies AG",
+   "company": "Eberhard Bau AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer / Maschinist Werkbetrieb (m/w/d)",
+   "company": "Agir AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer / Maschinist Werkbetrieb",
+   "company": "Agir AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vorarbeiter Strassenbau (m/w/d) – 100",
+   "company": "workplaceX ag",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Maschinist Baumaschinen (m/w/d) – 100 %",
+   "company": "workplaceX ag",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer",
+   "company": "Anker Swiss Zug AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer (m/w) Temporär",
+   "company": "Bellini Personal AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "DREHBOHRGERÄTEFAHRER",
+   "company": "Marti AG, Bauunternehmung",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Baumaschinenführer Bulldozer  - Weiacher Kies AG",
+   "company": "Eberhard Bau AG",
+   "location": "Zurich area (Zurich, CH040), Switzerland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}

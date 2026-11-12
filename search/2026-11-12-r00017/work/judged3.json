@@ -1,0 +1,639 @@
+{
+ "persona": {
+  "family": "carpenter",
+  "title": "Carpenter",
+  "kind": "non-tech",
+  "city": "Brussels",
+  "country": "Belgium",
+  "language": "French"
+ },
+ "seed": "bench-judge-3",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 53,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Aankoper - Civiele werken",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Aankoper - Civiele werken",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Buyer - Constructions",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Site Supervisor (Piping & Mechanical Engineer)",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Site Supervisor (Piping & Mechanical Engineer)",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Site Supervisor (Piping & Mechanical Engineer)",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Landmeter - Regio Brussel - Civiele werken",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Landmeter - Regio Brussel - Civiele werken",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Landmeter - Regio Brussel - Civiele werken",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Werkvoorbereider Civiele werken Brussel",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Werkvoorbereider Civiele werken Brussel",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Werkvoorbereider Civiele werken Brussel",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Project Manager/Chef de Projets- Belgique - Génie Civil et Batiments",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Internship Technical Office Engineer / Site Superintendent (Belgium)",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Internship Technical Office Engineer / Site Superintendent (Belgium)",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Internship Technical Office Engineer / Site Superintendent (Belgium)",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Projectleider - België - Civiele werken en Gebouwen",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Projectleider - België - Civiele werken en Gebouwen",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Deviseur Techniques Spéciales",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Klantenadviseur - Keukens, Badkamers & Living - Flamant Brussel",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Conseiller client - Cuisines chez Flamant",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Menuisier atelier (H/F/X)",
+   "company": "Accent",
+   "location": "Bruxelles, Belgium",
+   "provider": "Le Forem",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Werkvoorbereider Civiele werken Brussel",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Werkvoorbereider Civiele werken Brussel",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Werkvoorbereider Civiele werken Brussel",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Site Supervisor (Piping & Mechanical Engineer)",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Site Supervisor (Piping & Mechanical Engineer)",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Site Supervisor (Piping & Mechanical Engineer)",
+   "company": "BESIX",
+   "location": "Brussels, be",
+   "provider": "BESIX",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Werfleider Schrijnwerkerij",
+   "company": "Group Monument",
+   "location": "Flemish Brabant, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Menuisier spécialisé en portes résistantes au feu (h/f/x)",
+   "company": "Clinic Saint-Jean Brussels",
+   "location": "Auderghem, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef d'équipe / Installateur Menuiseries Extérieures",
+   "company": "Belisol",
+   "location": "Oudergem, Brussels Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Menuisier - Brabant wallon",
+   "company": "Camber Belgium",
+   "location": "Overijse, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Tischlergeselle:in (m/w/d)",
+   "company": "Diakoniewerk Duisburg GmbH",
+   "location": "Duisburg, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Houtbewerking & Erfgoed",
+   "company": "ATTIC BV",
+   "location": "Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Houtbewerker binnendienst",
+   "company": "WIMAG",
+   "location": "Aalter, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Bekijk hier onze vacature voor timmerman/vrouw",
+   "company": "Aannemersbedrijf Kleinbouw Twente Enschede",
+   "location": "Onze-Lieve-Vrouw-Waver, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Technicien.ne Menuisier",
+   "company": "Clinique saint pierre",
+   "location": "Ottignies, Walloon Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Buitenschrijnwerker",
+   "company": "Cralux",
+   "location": "Kontich, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Plaatser Interieur",
+   "company": "Ooms Woonrealisaties",
+   "location": "Rijkevorsel, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "POLYVALENT MEDEWERKER SCHRIJNWERKERIJ",
+   "company": "Stadsbader Group",
+   "location": "Houthalen, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Plaatser stalen schrijnwerk",
+   "company": "Lootens",
+   "location": "Turnhout, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "FACHPERSON SERVICE &amp; GEBÄUDEUNTERHALT HOLZBAU 100%",
+   "company": "HÜBSCHER HOLZBAU",
+   "location": "Beringen, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Ploegbaas schrijnwerkrestauratie",
+   "company": "Artes Group",
+   "location": "Mechelen, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Meubelplaatser - regio Antwerpen",
+   "company": "Camber Belgium",
+   "location": "Overijse, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "SENIOR PANEELBOUWER",
+   "company": "Werkina Werkendam",
+   "location": "Heusden, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Plaatser stalen schrijnwerk",
+   "company": "Lootens",
+   "location": "Deinze, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Schrijnwerker atelier: monteur",
+   "company": "Ooms Woonrealisaties",
+   "location": "Rijkevorsel, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Ausbildung Tischler/Holzmechaniker (m/w/d)",
+   "company": "Becker Brakel",
+   "location": "Brakel, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "SCHRIJNWERKER",
+   "company": "Tifre",
+   "location": "Temse, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Schrijnwerker meubelmaker werf",
+   "company": "Belgie Vacature",
+   "location": "Vichte, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Afwerker houtbewerking",
+   "company": "Belgie Vacature",
+   "location": "Waregem, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Lasser binnenwerk",
+   "company": "VAN LOO PROJECTS",
+   "location": "Hulshout, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Schrijnwerker productie",
+   "company": "Eribel",
+   "location": "Rijkevorsel, Flemish Region, Belgium",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Interior Carpenter (WORKSHOP).",
+   "company": "Tailormate - Interieur- & standenbouw",
+   "location": "Mechelen, VLG, Belgium",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Interior Carpenter (Installer).",
+   "company": "Tailormate - Interieur- & standenbouw",
+   "location": "Mechelen, VLG, Belgium",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Oliver Wyman - (Senior) Manager - Brussels",
+   "company": "Marsh Agency",
+   "location": "Brussels, BRU, Belgium",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Constructeurs / soudeurs TIG",
+   "company": "Timmerman EHS",
+   "location": "Eeklo, VLG, Belgium",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "eures",
+   "title": "Menuisier Ebeniste H/F/X",
+   "company": "STRIMA ENTREPRISE GENERALE DE CONSTRUCTIONS",
+   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Meubelplaatser - regio Brussel",
+   "company": "Camber Stockel",
+   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Menuisier",
+   "company": "ND3",
+   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PLACEUR H/F/X",
+   "company": "SQUARE HUB",
+   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "PLACEUR DE CHÂSSIS H/F/X",
+   "company": "ALL CHASSIS",
+   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Technisch Databeheerder | SAP",
+   "company": "Lagom Engineering Oost-Vlaanderen",
+   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Drietalige interieurarchitect regio Brussel NL/FR/ENG",
+   "company": "Camber Stockel",
+   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Chargé d'études techniques du bâtiment H/F/X",
+   "company": "CRN VENTURES",
+   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Coffreur-ferrailleur H/F/X",
+   "company": "CRN VENTURES",
+   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Hogedrukreiniger Beton",
+   "company": "Renotec",
+   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Rioolarbeider speciale technieken",
+   "company": "Renotec",
+   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Contrôleur technique de la construction H/F/X",
+   "company": "CRN VENTURES",
+   "location": "Brussels area (Brussels-Capital Region, BE100), Belgium",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}
