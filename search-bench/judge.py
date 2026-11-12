@@ -28,6 +28,20 @@ def real_claude():
     raise SystemExit('no claude install found')
 
 
+def parse_jobs(text):
+    """The judge's verdict object: the first complete JSON object in the reply that has a "jobs" list, whatever the model wrote around it.
+    Why (12 Nov 2026, run 43314316021, person 10 on the broker: "JSONDecodeError: Extra data"): `\\{.*\\}` took everything from the first brace to the LAST one, so any text or second object after the verdict broke the parse; the plan and API paths had the same line."""
+    decoder = json.JSONDecoder()
+    for m in re.finditer(r'\{', text):
+        try:
+            obj, _ = decoder.raw_decode(text, m.start())
+        except ValueError:
+            continue
+        if isinstance(obj, dict) and isinstance(obj.get('jobs'), list):
+            return obj
+    raise ValueError(f'no JSON object with a "jobs" list in the judge reply ({len(text)} chars, ends {text[-120:]!r})')
+
+
 def ask_plan(profile, jobs):
     """The same question on the Claude plan ($0 API): no API key in the environment, no settings, no tools, an empty folder."""
     import subprocess, tempfile
@@ -36,7 +50,7 @@ def ask_plan(profile, jobs):
     out = subprocess.run([real_claude(), '-p', '--model', 'sonnet', '--system-prompt', SYSTEM, '--tools', '', '--setting-sources', '', '--disable-slash-commands', '--strict-mcp-config', '--no-session-persistence',
                           '--output-format', 'json'], input=prompt, capture_output=True, text=True, timeout=900, cwd=tempfile.mkdtemp(), env=env)
     reply = json.loads(out.stdout)
-    data = json.loads(re.search(r'\{.*\}', reply['result'], re.S).group(0))
+    data = parse_jobs(reply['result'])
     return {r['n']: r for r in data['jobs']}, {'input_tokens': 0, 'output_tokens': 0}
 
 
@@ -46,7 +60,7 @@ def ask_broker(profile, jobs):
     import broker
     prompt = SYSTEM + '\n\n' + profile + '\n\nJOBS\n' + '\n'.join(f'{j["n"]}. {j["title"]} | {j["company"] or "?"} | {j["location"] or "(no place)"}' for j in jobs)
     answer = broker.ask(prompt, tier='mid')
-    data = json.loads(re.search(r'\{.*\}', answer['reply'], re.S).group(0))
+    data = parse_jobs(answer['reply'])
     return {r['n']: r for r in data['jobs']}, {'input_tokens': 0, 'output_tokens': 0}
 
 
@@ -60,7 +74,7 @@ def ask(key, profile, jobs):
     req = urllib.request.Request('https://api.anthropic.com/v1/messages', json.dumps(body).encode(), {'x-api-key': key, 'anthropic-version': '2023-06-01', 'content-type': 'application/json'})
     reply = json.load(urllib.request.urlopen(req, timeout=300))
     text = ''.join(b.get('text', '') for b in reply['content'])
-    data = json.loads(re.search(r'\{.*\}', text, re.S).group(0))
+    data = parse_jobs(text)
     return {r['n']: r for r in data['jobs']}, reply['usage']
 
 
