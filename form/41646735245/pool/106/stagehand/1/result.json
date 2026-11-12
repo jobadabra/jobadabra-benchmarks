@@ -1,0 +1,40 @@
+{
+ "tool": "stagehand",
+ "url": "https://apply.workable.com/semios/j/0A6915AC27/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 109,
+ "final": "Partially filled the Workable application for Product Delivery Lead (Semios). Correctly entered first name (Ada), last name (Tester), and email (ada.tester@example.test). Phone field is wrong: it reads \"79 555 01 25\" instead of \"79 555 01 23\" because of repeated input lag, and I earlier typed an invented number (791234567) into it. Address still shows the prefilled \"San Jose, United States of\" rat",
+ "completed": false,
+ "tokens": {
+  "in": 645486,
+  "out": 21879,
+  "cacheRead": 255717,
+  "cacheWrite": 7749,
+  "calls": 38
+ },
+ "usd": 0.07901389499999999,
+ "longCalls": 0,
+ "maxCallIn": 34289,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 250.8,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.5156909079705179:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 255,
+ "score": {
+  "fields": 11,
+  "right": 3,
+  "wrong": 2,
+  "emptyShouldFill": 4,
+  "emptyOk": 2,
+  "emptyRequired": 4,
+  "requiredTotal": 9
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

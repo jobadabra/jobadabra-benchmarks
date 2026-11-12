@@ -1,0 +1,112 @@
+[
+ {
+  "question": "First Name*",
+  "type": "text",
+  "required": true,
+  "name": "first_name",
+  "value": "Ada",
+  "k": "79f00b5ff313b8f3",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches first name"
+ },
+ {
+  "question": "Last Name*",
+  "type": "text",
+  "required": true,
+  "name": "last_name",
+  "value": "Tester",
+  "k": "cabcac7c4314257f",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches last name"
+ },
+ {
+  "question": "Email*",
+  "type": "text",
+  "required": true,
+  "name": "email",
+  "value": "",
+  "k": "11fe03957f2e6eff",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email available but missing"
+ },
+ {
+  "question": "Country",
+  "type": "text",
+  "required": false,
+  "name": "country",
+  "value": "+41",
+  "k": "90366aedbc5109bb",
+  "verdict": "right",
+  "answerable": true,
+  "note": "+41 matches Switzerland"
+ },
+ {
+  "question": "Phone",
+  "type": "tel",
+  "required": false,
+  "name": "phone",
+  "value": "+41 79 555 01 23",
+  "k": "4a186f31d3656263",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches phone"
+ },
+ {
+  "question": "Attach",
+  "type": "file",
+  "required": false,
+  "name": "resume",
+  "value": "",
+  "k": "c402889abebd5851",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file not attached"
+ },
+ {
+  "question": "Location",
+  "type": "text",
+  "required": false,
+  "name": "question_11483394008",
+  "value": "Zurich, Switzerland",
+  "k": "096e506856d48d83",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches location"
+ },
+ {
+  "question": "Why Hume?",
+  "type": "textarea",
+  "required": false,
+  "name": "question_11483395008",
+  "value": "",
+  "k": "2c94bbfed01b6028",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Facts don't state motivation for Hume"
+ },
+ {
+  "question": "Are you legally authorized to work in the United States without sponsorship?*",
+  "type": "text",
+  "required": true,
+  "name": "question_11483396008",
+  "value": "",
+  "k": "8d5757d1678ab27a",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "US authorization not in facts"
+ },
+ {
+  "question": "Have you applied to any positions at Hume in the past 6 months?*",
+  "type": "text",
+  "required": true,
+  "name": "question_11483397008",
+  "value": "",
+  "k": "4b1a7f99fd5fb573",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Facts don't cover prior applications"
+ }
+]
