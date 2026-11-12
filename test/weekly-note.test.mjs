@@ -1,7 +1,7 @@
 // lib/weekly-note.mjs: the weekly Telegram message (Telegram HTML, Engineering bot, 12 Nov 2026) says our score against the baseline and the previous run,
 // an up/down per form, and never an answer or a fact (only scores, counts, form ids). When ours has no score it says so and why.
 import test from 'node:test'; import assert from 'node:assert/strict'; import fs from 'node:fs'; import os from 'node:os'; import path from 'node:path';
-import {noteOf, noteText, readFailures} from '../lib/weekly-note.mjs';
+import {noteOf, noteText, readFailures} from '../lib/weekly-note.mjs'; import {setChanges} from '../lib/forms.mjs';
 const row = (form, tool, right, wrong, emptyAnswerable = 0) => ({form, tool, run: '1', right, wrong, emptyAnswerable, notReached: 0, unanswerable: 0});
 const baseline = {tools: {extension: 97, 'browser-use': 87.3}, forms: {101: {score: 100, wrong: 0}, 102: {score: 100, wrong: 0}}, label: 'by-hand round'};
 
@@ -54,4 +54,13 @@ test('readFailures: the reason ours has no scored run, from its result.json, wit
   const failed = readFailures(pool, 'extension');
   assert.equal(failed.runs, 3); assert.match(failed.reason, /^live row on CI: no GitHub OIDC token/); assert.doesNotMatch(failed.reason, /https?:/);
   assert.deepEqual(readFailures(pool, 'stagehand'), {runs: 0, reason: ''});
+});
+
+// Gitar on #21 (12 Nov 2026): ours ran form 107 where the rivals' frozen rows and the baseline are on 106; the note says so instead of presenting the numbers as like for like.
+test('a replaced form: the note says ours ran the new form and the rivals the old one; no such line without a replacement', () => {
+  const tools = {extension: {score: 90}, 'browser-use': {score: 85}}, rows = [row('107', 'extension', 9, 1)];
+  const text = noteText(noteOf({tools, rows}, {round: 'fixed', setChanges: setChanges({picks: [{id: '106', retired: '2026-11-12'}, {id: '107', replaces: '106'}]})}), baseline, null);
+  assert.match(text, /ℹ️ Form set changed: ours ran 107, the rivals and the baseline are on 106 \(not re-run\)/);
+  assert.doesNotMatch(noteText(noteOf({tools, rows}, {round: 'fixed'}), baseline, null), /Form set changed/);
+  assert.deepEqual(setChanges([{id: '101'}, {id: '106', retired: 'x'}]), []);
 });
