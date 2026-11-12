@@ -1,0 +1,42 @@
+{
+ "tool": "stagehand",
+ "url": "https://apply.workable.com/semios/j/0A6915AC27/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 131,
+ "final": "Partially filled the Workable application at apply.workable.com/semios/j/0A6915AC27/apply/ without submitting. Verified correct: first name Ada, last name Tester, email, phone (+41 79 555 01 23), address (Musterstrasse 12, 8001 Zurich, Switzerland), and cv.pdf uploaded. Problems: the Summary field is garbled (\"enior Site Reliability Engineer ... responseSC\") after repeated failed clear/retype atte",
+ "completed": false,
+ "tokens": {
+  "in": 807663,
+  "out": 27756,
+  "cacheRead": 302211,
+  "cacheWrite": 7749,
+  "calls": 42
+ },
+ "usd": 0.09863503500000002,
+ "longCalls": 0,
+ "maxCallIn": 36791,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 336,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.5156909079705179:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST workable-application-form.s3.us-east-1.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 340,
+ "score": {
+  "fields": 12,
+  "right": 6,
+  "wrong": 1,
+  "emptyShouldFill": 2,
+  "emptyOk": 3,
+  "emptyRequired": 4,
+  "requiredTotal": 9
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

@@ -1,0 +1,40 @@
+{
+ "tool": "stagehand",
+ "url": "https://job-boards.greenhouse.io/safariai/jobs/5233682007",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 130,
+ "final": "Partially filled the Greenhouse application at the required URL and did not submit. Verified via accessibility tree: First Name \"Ada\" and Phone \"+41 79 555 01 23\" are correct. Last Name is wrong (reads \"T\" / empty, should be \"Tester\"). Email is wrong (\"Tda.tester@example.tesT\", should be \"ada.tester@example.test\"). LinkedIn is wrong (ends in a stray \"A\"). The CV was never uploaded, and the cover l",
+ "completed": false,
+ "tokens": {
+  "in": 799292,
+  "out": 18816,
+  "cacheRead": 302289,
+  "cacheWrite": 7751,
+  "calls": 47
+ },
+ "usd": 0.09332896500000003,
+ "longCalls": 0,
+ "maxCallIn": 37524,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 214.2,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 218,
+ "score": {
+  "fields": 15,
+  "right": 3,
+  "wrong": 2,
+  "emptyShouldFill": 8,
+  "emptyOk": 2,
+  "emptyRequired": 6,
+  "requiredTotal": 8
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

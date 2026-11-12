@@ -1,0 +1,63 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://job-boards.greenhouse.io/humeai/jobs/4775962008",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 22,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":15,\"maxSteps\":40,\"details\":\"The Hume AI application is partly filled. Nothing has been submitted.\\n\\nFilled:\\n- First name: Ada\\n- Last name: Tester\\n- Location: Zurich, Switzerland (typed; check that it selected correctly)\\n- Phone: 79 555 01 23 was typed, but the country code kept resetting, so please check that it shows +41 Switzerland.\\n\\nStill needs your input:\\n-",
+ "completed": true,
+ "tokens": {
+  "in": 377388,
+  "out": 22845,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 22
+ },
+ "usd": 0.049161300000000005,
+ "longCalls": 0,
+ "maxCallIn": 24126,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 174.8,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 179,
+ "score": {
+  "fields": 10,
+  "right": 5,
+  "wrong": 0,
+  "emptyShouldFill": 2,
+  "emptyOk": 3,
+  "emptyRequired": 3,
+  "requiredTotal": 5
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

@@ -1,0 +1,262 @@
+[
+ {
+  "k": "76bcf4d50dd390e2",
+  "question": "Email*",
+  "type": "text",
+  "required": true,
+  "value": "ada.tester@example.test",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches email"
+ },
+ {
+  "k": "4b1a7f99fd5fb573",
+  "question": "Have you applied to any positions at Hume in the past 6 months?*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Facts don't cover prior applications"
+ },
+ {
+  "k": "8d5757d1678ab27a",
+  "question": "Are you legally authorized to work in the United States without sponsorship?*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "US authorization not in facts"
+ },
+ {
+  "k": "a8c90c7d2cecf3ec",
+  "question": "First Name*",
+  "type": "text",
+  "required": true,
+  "value": "da",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "'da' truncated, should be Ada"
+ },
+ {
+  "k": "4a186f31d3656263",
+  "question": "Phone",
+  "type": "tel",
+  "required": false,
+  "value": "+41 79 555 01 23",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches phone"
+ },
+ {
+  "k": "6a0dbf1b01faad72",
+  "question": "Why Hume?",
+  "type": "textarea",
+  "required": false,
+  "value": "Over 8 years I have run Kubernetes on AWS at scale. At Acme Cloud I run 400 microservices on EKS, and I cut incident time by 40 percent with Datadog and OpenTelemetry. At Beta Systems I migrated 60 services to Kubernetes and introduced SLOs and error budgets. • Add: what draws you to Hume's speech-language models and RLHE research specifically, and any audio, speech or evaluation work you have done.",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Contains leftover '• Add:' placeholder notes"
+ },
+ {
+  "k": "f522b61487f304bd",
+  "question": "Phone",
+  "type": "tel",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Phone available but missing"
+ },
+ {
+  "k": "045a730209daf5fb",
+  "question": "Last Name*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Last name Tester missing"
+ },
+ {
+  "k": "9253db124ece0c9e",
+  "question": "Country",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Country Switzerland missing"
+ },
+ {
+  "k": "ee08bca67ed58b57",
+  "question": "Email*",
+  "type": "text",
+  "required": true,
+  "value": "[EMAIL]",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Literal [EMAIL] placeholder"
+ },
+ {
+  "k": "9af18aaa5e4ff11f",
+  "question": "Location",
+  "type": "text",
+  "required": false,
+  "value": "a+Zd4ua1r. it7ce9hs ,t5 e5Sr5w@ ie0tx1za em2rp3llaen.Z",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Garbled interleaved characters"
+ },
+ {
+  "k": "cabcac7c4314257f",
+  "question": "Last Name*",
+  "type": "text",
+  "required": true,
+  "value": "Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches last name"
+ },
+ {
+  "k": "096e506856d48d83",
+  "question": "Location",
+  "type": "text",
+  "required": false,
+  "value": "Zurich, Switzerland",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches location"
+ },
+ {
+  "k": "2c94bbfed01b6028",
+  "question": "Why Hume?",
+  "type": "textarea",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Facts don't state motivation for Hume"
+ },
+ {
+  "k": "34144125453d6280",
+  "question": "Location",
+  "type": "text",
+  "required": false,
+  "value": "a+Zd4ua1r. it7ce9hs ,t5 e5Sr5w@ ie0txZurich, 1za em2rp3llaen.",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Garbled text with Zurich inserted"
+ },
+ {
+  "k": "11fe03957f2e6eff",
+  "question": "Email*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email available but missing"
+ },
+ {
+  "k": "3e3bb244dabd1d2b",
+  "question": "Location",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Location available but missing"
+ },
+ {
+  "k": "c402889abebd5851",
+  "question": "Attach",
+  "type": "file",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file not attached"
+ },
+ {
+  "k": "b3cb794db7928ccb",
+  "question": "First Name*",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "First name missing"
+ },
+ {
+  "k": "123744fec7986a96",
+  "question": "Phone",
+  "type": "tel",
+  "required": false,
+  "value": "795550123",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Local number, country code separate"
+ },
+ {
+  "k": "140cb2945c80a4c3",
+  "question": "Enter manually",
+  "type": "textarea",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Optional manual entry, nothing needed"
+ },
+ {
+  "k": "79f00b5ff313b8f3",
+  "question": "First Name*",
+  "type": "text",
+  "required": true,
+  "value": "Ada",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches first name"
+ },
+ {
+  "k": "bb91b091e2ec8df2",
+  "question": "Why Hume?",
+  "type": "textarea",
+  "required": false,
+  "value": "I run production infrastructure at scale: 400 microservices on Kubernetes (AWS EKS) at Acme Cloud. I cut incident time by 40 percent with Datadog and OpenTelemetry, and I built the Terraform platform used by 120 engineers. • Add: why Hume's speech-language models and RLHE research interest you. • Add: any ML training or inference infrastructure experience you have.",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Leftover '• Add:' placeholder notes"
+ },
+ {
+  "k": "928e8f0cdb71a453",
+  "question": "Why Hume?",
+  "type": "textarea",
+  "required": false,
+  "value": "I have run Kubernetes on AWS at scale for 8 years: 400 microservices on EKS at Acme Cloud, where I cut incident time by 40 percent with Datadog and OpenTelemetry. I built the Terraform platform used by 120 engineers and led an on-call rotation of 8 people. Before that, at Beta Systems, I migrated 60 services to Kubernetes and introduced SLOs and error budgets. What draws me to Hume is the infrastructure side of model work: distributed training, inference and benchmarking at industry scale, where reliability decides how fast research can move. I want to build that foundation for speech-language models. • Add: any model training, fine-tuning or evaluation work you have done with PyTorch or similar, with the data scale. • Add: publications or open-source contributions to language, audio or video models, if you have any.",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Placeholder notes; invented training/benchmarking claims"
+ },
+ {
+  "k": "ffeb32ba2a966c18",
+  "question": "Email*",
+  "type": "text",
+  "required": true,
+  "value": "urich, SwitzerlandAada.tester@example.test",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Garbled email with stray text"
+ },
+ {
+  "k": "90366aedbc5109bb",
+  "question": "Country",
+  "type": "text",
+  "required": false,
+  "value": "+41",
+  "verdict": "right",
+  "answerable": true,
+  "note": "+41 matches Switzerland"
+ }
+]

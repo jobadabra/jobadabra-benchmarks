@@ -1,0 +1,50 @@
+{
+ "tool": "browser-use",
+ "url": "https://jobs.ashbyhq.com/semgrep/b75ac9b5-1c27-4f5c-94d7-0eceba74de83/application",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 14,
+ "final": "Filled the Semgrep application (Sales Solutions Engineer - Digital Native) with the facts and did not submit.\n\nFilled:\n- Name: Ada Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23 (the field is labelled 'Phone')\n- LinkedIn Profile: https://www.linkedin.com/in/ada-tester\n- Resume: /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf. The page shows cv.pdf attached. An error toast saying the upload failed appeared earlier, but the form data shows the resume present (files:1) and the current screenshot shows cv.pdf.\n\nLeft empty because the fa",
+ "completed": true,
+ "tokens": {
+  "in": 183082,
+  "out": 19255,
+  "cacheRead": 203269,
+  "cacheWrite": 0,
+  "calls": 15
+ },
+ "usd": 0.029968389999999998,
+ "longCalls": 0,
+ "maxCallIn": 38840,
+ "usdReportedByTool": 0.029968389999999998,
+ "seconds": 114,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 118,
+ "score": {
+  "fields": 33,
+  "right": 5,
+  "wrong": 0,
+  "emptyShouldFill": 0,
+  "emptyOk": 28,
+  "emptyRequired": 0,
+  "requiredTotal": 4
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

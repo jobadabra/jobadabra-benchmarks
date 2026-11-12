@@ -1,0 +1,67 @@
+{
+ "tool": "stagehand",
+ "url": "https://jobs.ashbyhq.com/sierra/9dc1651d-43e9-4970-a757-a5223cef1c4d/application",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 75,
+ "final": "Opened the Sierra application form (Product Manager, Agent Development, London). Only partially filled. Legal First Name \"Ada\" is correct. Email field contains scrambled text (\"TAaeddsaat .eTtreesstteerr@example.\") and my attempts to clear it failed. Legal Last Name, Preferred Name, Phone and LinkedIn were reported empty in the accessibility tree despite multiple typing attempts; keystrokes repeat",
+ "completed": false,
+ "tokens": {
+  "in": 488525,
+  "out": 17321,
+  "cacheRead": 210330,
+  "cacheWrite": 7790,
+  "calls": 32
+ },
+ "usd": 0.060590050000000006,
+ "longCalls": 0,
+ "maxCallIn": 35802,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 132,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 136,
+ "score": {
+  "fields": 44,
+  "right": 1,
+  "wrong": 1,
+  "emptyShouldFill": 9,
+  "emptyOk": 33,
+  "emptyRequired": 4,
+  "requiredTotal": 6
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}
