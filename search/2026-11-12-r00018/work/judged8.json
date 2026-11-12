@@ -1,0 +1,1512 @@
+{
+ "persona": {
+  "family": "data-analyst",
+  "title": "Data Analyst",
+  "kind": "tech",
+  "city": "Nuremberg",
+  "country": "Germany",
+  "language": "German"
+ },
+ "seed": "bench-judge-8",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 149,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Care Expert – Medizincontrolling & Pflegedokumentation Krankenhaus (m/w/d)",
+   "company": "voize",
+   "location": "Berlin; Rosenheim; Dortmund; Frankfurt; Göttingen; Fulda; Hannover; Karlsruhe; Munich; Cologne; Hamburg; Nuremberg",
+   "provider": "voize",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Care Expert – EHR-Beratung Vivendi & MediFox DAN (m/w/d)",
+   "company": "voize",
+   "location": "Berlin; Dortmund; Frankfurt; Göttingen; Hannover; Karlsruhe; Munich; Cologne; Hamburg; Nuremberg",
+   "provider": "voize",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Care Expert – QM- & EHR-Beratung ambulante Pflege (Vivendi & MediFox DAN) (m/w/d)",
+   "company": "voize",
+   "location": "Berlin; Dortmund; Frankfurt; Göttingen; Hannover; Karlsruhe; Munich; Cologne; Hamburg; Nuremberg",
+   "provider": "voize",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Anwendungsberater (m/w/d) Kundenservice Finanzwesen",
+   "company": "AKDB",
+   "location": "München, Germany; Nürnberg, Germany; Augsburg, Germany; Landshut, Germany; Würzburg, Germany; Bayreuth, Germany; Regensburg, Germany",
+   "provider": "AKDB",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Ausbildung Fachinformatiker für Daten- und Prozessanalyse (m/w/d), ab 09/2027",
+   "company": "DATEV",
+   "location": "Nuremberg",
+   "provider": "DATEV",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Berater / Consultant Personalsoftware Region München/Nürnberg (m/w/d)",
+   "company": "DATEV",
+   "location": "Nuremberg",
+   "provider": "DATEV",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Lead Expert Technology Research & Business Model Development (m/w/d)",
+   "company": "DATEV",
+   "location": "Nuremberg",
+   "provider": "DATEV",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "(Lead) Expert Treasury Administration & Reporting (m/w/d)",
+   "company": "LEONI1",
+   "location": "Nuremberg, de",
+   "provider": "LEONI1",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Expert Product & Methodology, Media Performance (m/w/d) - German speaker",
+   "company": "NielsenIQ",
+   "location": "Nuremberg, de",
+   "provider": "NielsenIQ",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Expert Product & Methodology, Media Performance (m/w/d) - German speaker",
+   "company": "NielsenIQ",
+   "location": "Nuremberg, de",
+   "provider": "NielsenIQ",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "BI & Analytics Tech Lead (m/w/d)",
+   "company": "via jobware.de",
+   "location": "Nürnberg",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "(Senior) Consultant (m/w/d) Data Warehouse Design | Senior Data Analyst",
+   "company": "MID GmbH",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Scientist für People Analytics (m/w/d) Ref:.Nr. S0260706",
+   "company": "set - software engineering gmbh",
+   "location": "Nürnberg, Germany; Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Analyst",
+   "company": "Paessler GmbH",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Clinical Data Analyst (m/w/d) – Klinische Studien Digital Health",
+   "company": "viatolea",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Data Analyst (gn) - remote",
+   "company": "aquitas GmbH",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Analyst / Quereinsteiger (m/w/d)",
+   "company": "Talentspring Academy",
+   "location": "Bielefeld, Germany; Bochum, Germany; Bonn, Germany; Bremen, Germany; Dresden, Germany; Duisburg, Germany; Hannover, Germany; Mannheim, Germany; Nürnberg, Germany; Wuppertal, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Quereinsteiger zum Marketing Analyst mit Google Analytics (m/w/d)",
+   "company": "Talentspring Academy",
+   "location": "Bielefeld, Germany; Bochum, Germany; Bonn, Germany; Bremen, Germany; Dresden, Germany; Duisburg, Germany; Hannover, Germany; Mannheim, Germany; Nürnberg, Germany; Wuppertal, Germany",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Quereinsteiger zum Marketing Analyst (m/w/d)",
+   "company": "Talentspring Academy",
+   "location": "Bielefeld, Germany; Bochum, Germany; Bonn, Germany; Bremen, Germany; Dresden, Germany; Duisburg, Germany; Hannover, Germany; Mannheim, Germany; Nürnberg, Germany; Wuppertal, Germany",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Consultant (m/w/d) BI & Analytics",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "BI & Analytics Tech Lead (m/w/d)",
+   "company": "TEMPTON Next Level Experts GmbH",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Seniorberater:in / Manager:in / Projektmanager:in (m/w/d) SAP BI/SAC",
+   "company": "Instaffo GmbH",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Graduate Operations Supervisor (m/w/d)",
+   "company": "teampicnic",
+   "location": "Nürnberg, Bavaria, Germany",
+   "provider": "teampicnic",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Care Expert – Medizincontrolling & Pflegedokumentation Krankenhaus (m/w/d)",
+   "company": "voize",
+   "location": "Berlin; Rosenheim; Dortmund; Frankfurt; Göttingen; Fulda; Hannover; Karlsruhe; Munich; Cologne; Hamburg; Nuremberg",
+   "provider": "voize",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Big Data Analyst",
+   "company": "via jobware.de",
+   "location": "Nürnberg",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Specialist Requirements Engineering (m/w/d)",
+   "company": "via jobware.de",
+   "location": "Nürnberg",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "BI & Analytics Tech Lead (m/w/d)",
+   "company": "via jobware.de",
+   "location": "Nürnberg",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Scientist People Analytics (m/w/d)",
+   "company": "via jobware.de",
+   "location": "Nürnberg",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "SAP Berater:in BW/4HANA",
+   "company": "via jobware.de",
+   "location": "Nürnberg",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Analyst",
+   "company": "Paessler GmbH",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Clinical Data Analyst (m/w/d) – Klinische Studien Digital Health",
+   "company": "viatolea",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Umschulung zum Marketing Analyst (m/w/d)",
+   "company": "Talentspring Academy",
+   "location": "Bielefeld, Germany; Bochum, Germany; Bonn, Germany; Bremen, Germany; Dresden, Germany; Duisburg, Germany; Hannover, Germany; Mannheim, Germany; Nürnberg, Germany; Wuppertal, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "HR Data Analyst (gn) - remote",
+   "company": "aquitas GmbH",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Marketing Analyst / Quereinsteiger (m/w/d)",
+   "company": "Talentspring Academy",
+   "location": "Bielefeld, Germany; Bochum, Germany; Bonn, Germany; Bremen, Germany; Dresden, Germany; Duisburg, Germany; Hannover, Germany; Mannheim, Germany; Nürnberg, Germany; Wuppertal, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Quereinsteiger zum Marketing Analyst mit Google Analytics (m/w/d)",
+   "company": "Talentspring Academy",
+   "location": "Bielefeld, Germany; Bochum, Germany; Bonn, Germany; Bremen, Germany; Dresden, Germany; Duisburg, Germany; Hannover, Germany; Mannheim, Germany; Nürnberg, Germany; Wuppertal, Germany",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Quereinsteiger zum Marketing Analyst (m/w/d)",
+   "company": "Talentspring Academy",
+   "location": "Bielefeld, Germany; Bochum, Germany; Bonn, Germany; Bremen, Germany; Dresden, Germany; Duisburg, Germany; Hannover, Germany; Mannheim, Germany; Nürnberg, Germany; Wuppertal, Germany",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Consultant (m/w/d) BI & Analytics",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "BI & Analytics Tech Lead (m/w/d)",
+   "company": "TEMPTON Next Level Experts GmbH",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Seniorberater:in / Manager:in / Projektmanager:in (m/w/d) SAP BI/SAC",
+   "company": "Instaffo GmbH",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Senior) Consultant (m/w/d) Data Warehouse Design | Senior Data Analyst",
+   "company": "MID GmbH",
+   "location": "Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Data Scientist für People Analytics (m/w/d) Ref:.Nr. S0260706",
+   "company": "set - software engineering gmbh",
+   "location": "Nürnberg, Germany; Nürnberg, Germany",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Dezentrale Kodierassistenz (m/w/d) Medizincontrolling",
+   "company": "Klinikum Nürnberg",
+   "location": "Nürnberg, Germany",
+   "provider": "Klinikum Nürnberg",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Mitarbeiter/in (m/w/d) Medizincontrolling – Schwerpunkt PEPP Medizincontrolling",
+   "company": "Klinikum Nürnberg",
+   "location": "Nürnberg, Germany",
+   "provider": "Klinikum Nürnberg",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Mitarbeiter/in Medizincontrolling – Schwerpunkt Somatik | Klinikum Nürnberg Campus Nord",
+   "company": "Klinikum Nürnberg",
+   "location": "Nürnberg, Germany",
+   "provider": "Klinikum Nürnberg",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "(Lead) Expert Treasury Administration & Reporting (m/w/d)",
+   "company": "LEONI1",
+   "location": "Nuremberg, de",
+   "provider": "LEONI1",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Expert Product & Methodology, Media Performance (m/w/d) - German speaker",
+   "company": "NielsenIQ",
+   "location": "Nuremberg, de",
+   "provider": "NielsenIQ",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Expert Product & Methodology, Media Performance (m/w/d) - German speaker",
+   "company": "NielsenIQ",
+   "location": "Nuremberg, de",
+   "provider": "NielsenIQ",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Product Manager, Media Performance (m/w/d) – German speaker",
+   "company": "NielsenIQ",
+   "location": "Nuremberg, de",
+   "provider": "NielsenIQ",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Consultant SAP MDM (all genders)",
+   "company": "adesso insurance solutions Schweiz GmbH",
+   "location": "Nürnberg, BY, DE, 90482",
+   "provider": "adesso insurance solutions Schweiz GmbH",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Consultant SAP MDM Fokus Geschäftspartner (all genders)",
+   "company": "adesso insurance solutions Schweiz GmbH",
+   "location": "Nürnberg, BY, DE, 90482",
+   "provider": "adesso insurance solutions Schweiz GmbH",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Consultant Supply Chain Digitalisierung für die Prozessindustrie (all genders)",
+   "company": "adesso insurance solutions Schweiz GmbH",
+   "location": "Nürnberg, BY, DE, 90482",
+   "provider": "adesso insurance solutions Schweiz GmbH",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Business & Pricing Analyst (m/w/d)",
+   "company": "REHAU Window Solutions",
+   "location": "Erlangen, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Seniorberater:in / Manager:in / Projektmanager:in (m/w/d) SAP BI/SAC",
+   "company": "Instaffo",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Consultant (m/w/d) BI & Analytics",
+   "company": "Akkodis",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Business Intelligence & AI Specialist (m/w/d)",
+   "company": "uvex group",
+   "location": "Fürth, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Analyst",
+   "company": "GCS",
+   "location": "Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Senior) Consultant Data & Analytics - People Advisory Services (f/m/d)",
+   "company": "EY",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Junior Specialist Measurement Science (m/w/d)",
+   "company": "Circana",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Analysten / Data Analystinnen (m/w/d)",
+   "company": "Bayer. Landesamt für Statistik Dienststelle Fürth",
+   "location": "Fürth, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Pricing & Data Analyst (m/w/d/pixelhead) für unsere Tochterfirma RE-IN",
+   "company": "Conrad Electronic Group",
+   "location": "Hirschau, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Junior) BI Analyst (m/w/d) SAP Reporting",
+   "company": "KURZ",
+   "location": "Fürth, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Junior) Analyst Data & Customer Insights (m/w/d)",
+   "company": "Netto Marken-Discount",
+   "location": "Maxhütte-Haidhof, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Pricing & Data Analyst (m/w/d/pixelhead) für unsere Tochterfirma RE-IN",
+   "company": "Conrad Electronic Group",
+   "location": "Greater Nuremberg Metropolitan Area",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Umsetzungsexperte (m/w/d) strategische Werkzeuge Fokus Business Intelligence & KI",
+   "company": "Firmengruppe Max Bögl",
+   "location": "Sengenthal, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Controller / Data Analyst (m/w/d) – Power BI & Business Partnering (m/w/d)",
+   "company": "11teamsports Group",
+   "location": "Satteldorf, Baden-Württemberg, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Consultant Data / Cloud Analytics / Regulatory (m/w/d) in Nürnberg",
+   "company": "Deloitte",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Inhouse Consultant Reporting & Business Intelligence",
+   "company": "NovaSearch GmbH",
+   "location": "Roth, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Data Quality Consultant* (m/w/d)",
+   "company": "curexus GmbH",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Senior) Consultant in SAP Data Analytics (all genders)",
+   "company": "MHP – A Porsche Company",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Specialist People Analytics (m/w/d)",
+   "company": "Diehl Metering",
+   "location": "Ansbach, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Junior Performance Manager (m/w/d)",
+   "company": "WITRON Group",
+   "location": "Parkstein, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Analyst (m/w/d) - Erneuerbare Energien Windkraft",
+   "company": "Firmengruppe Max Bögl",
+   "location": "Sengenthal, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "AI & Data Consultant (m/w/d)",
+   "company": "KUMAVISION AG",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Senior) Consultant Data Analytics (all genders)",
+   "company": "msg",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Junior) Analyst Daten & Prozesse (m/w/d)",
+   "company": "Netto Marken-Discount",
+   "location": "Maxhütte-Haidhof, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Senior) Consultant (m/w/d) Data Warehouse Design | Senior Data Analyst",
+   "company": "MID GmbH",
+   "location": "Nuremberg, Bavaria, Germany",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Microsoft AI & Copilot Engineer (m/w/d)",
+   "company": "think about IT GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Finance Data Analyst (m/w/d)",
+   "company": "Novem Car Interior Design GmbH",
+   "location": "Vorbach, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Deine Chance: Datenmanagement Upskilling - SQL, Microsoft Azure & Power BI für den schnellen Wiedereinstieg",
+   "company": "Smart Future Campus GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Supply Chain Network Design Analyst EMEA (m/f/d)",
+   "company": "KNAUF",
+   "location": "Kitzingen, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Treasury Manager Liquidity & Subsidiary Financing (f/m/d)",
+   "company": "Siemens Healthineers",
+   "location": "Erlangen, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Consultant Data / Cloud Analytics / Regulatory (m/w/d)",
+   "company": "Deloitte",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Engineer (m/w/d)",
+   "company": "CONRAD ELECTRONIC",
+   "location": "Hirschau, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Analyst",
+   "company": "Paessler GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Junior) BI Analyst (m/w/d) SAP Reporting",
+   "company": "LEONHARD KURZ Stiftung & Co. KG",
+   "location": "Fürth, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "IT Security Analyst (m/f/d)",
+   "company": "BizLink Industry Germany",
+   "location": "Roth, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Director of GTM Operations",
+   "company": "Paessler GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Data Engineer Snowflake / SAP MM (all gender)",
+   "company": "ALTEN",
+   "location": "Erlangen, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Analyst (m/w/d)",
+   "company": "BellandVision GmbH",
+   "location": "Pegnitz, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Army TAP",
+   "company": "CALIBRE Systems",
+   "location": "Grafenwöhr, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Data Engineer (m/w/d)",
+   "company": "Bertrandt",
+   "location": "Erlangen, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Business Analyst (m/w/d)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Network Administrator II",
+   "company": "V2X",
+   "location": "Hohenfels, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Pricing & Data Analyst (m/w/d/pixelhead)",
+   "company": "CONRAD ELECTRONIC",
+   "location": "Hirschau, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Business Analyst Financial Services (all genders)",
+   "company": "Wavestone",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "(Senior) Consultant (m/w/d) Data Warehouse Design | Senior Data Analyst",
+   "company": "MID GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Insights Analyst",
+   "company": "TechBiz Global GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Bilingual Business Analyst",
+   "company": "TechBiz Global GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Engineers, Analysts & Scientists (w|m|d)",
+   "company": "BridgingIT GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Fullstack-Entwickler (m/w/d)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "GenAI Solutions Architect (w|m|d)",
+   "company": "BridgingIT GmbH",
+   "location": "Nürnberg, BY, Germany",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "HR Data Analyst (gn) - remote (Data-Analyst/in)",
+   "company": "aquitas GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant (m/w/d) Data Warehouse Design | Senior Data Analyst (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "MID GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Engineers, Analysts & Scientists (w|m|d) (Data Engineer)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data & AI Analyst (m/w/d) (Wirtschaftsinformatiker/in (Hochschule))",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Azure Data Factory & Spark Data Engineer (w|m|d) (Data Engineer)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Data & Platform Architect (w|m|d) (Data-Consultant)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Strategy & Data Governance Consultant (w|m|d) (Data Scientist)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Principal Data Engineer (m/w/d) (Data Engineer)",
+   "company": "Alexander Thamm GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Engineer (m/w/d) (Data Engineer)",
+   "company": "Alexander Thamm GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Engineer (w/m/d) - Beratung zu skalierbaren und innovativen Datenplattformen (Data Wareh (Data Engineer)",
+   "company": "Passion for People GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": " Data Scientist (m/w/d) People Analytics (Data Engineer)",
+   "company": "berg-it projektdienstleistungen GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Scientist People Analytics (m/w/d) (Data Scientist)",
+   "company": "LZ Informatik",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Migration Lead (f/m/d) - SAP (Data Scientist)",
+   "company": "Siemens Energy Global GmbH & Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Consultant Data & AI Solutions (w|m|d) (Data Scientist)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Architect (m/w/d) mit Schwerpunkt Data Mesh und Semantic Technologies (Data Engineer)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Scientist (m/w/d) – Fokus Business Analytics (Data Scientist)",
+   "company": "Alexander Thamm GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant (w/m/d) Data & AI (Data-Consultant)",
+   "company": "Dataciders SE",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Professional Data-Engineer (m/w/d) (Data Scientist)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant (m/w/d) Data Science / Künstliche Intelligenz / AI (Data-Consultant)",
+   "company": "MID GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT Solution Engineer - Data Center Networking (m/w/d),Nürnberg,Regensburg,Hauzenberg (IT-Lösungsentwickler/in)",
+   "company": "ACP IT Solutions AG (Hauzenberg/Regensburg/Nürnberg)",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Dokumenten- und Datenmanager (m/w/d) Hochbau,Hamburg,Frankfurt am ... (Data Engineer)",
+   "company": "Max Bögl Bauservice GmbH und Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Business Analyst (m/w/d) (Business-Analyst/in)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Business Analyst (m/w/d) - ID: 151,Fürth,Nürnberg (Business-Analyst/in)",
+   "company": "SINTEC Informatik GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT Security Analyst (all genders) / Cyber Defense Analyst (all genders) (Cyber-Security-Consultant)",
+   "company": "DATAGROUP Operations GmbH Geschäftsstelle Bremen",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Business Analyst in IT- und Agentic AI-Projekten (w|m|d) (Business-Analyst/in)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant Data Science - AI and Data (w/m/d) (Informatiker/in)",
+   "company": "EY Consulting GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Engineer - Data Warehouse & Lakehouse (m/w/d) (IT-Lösungsentwickler/in)",
+   "company": "ORDIX AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "KYC Analyst (m/w/d) (Geldwäschebeauftragte/r)",
+   "company": "univativ GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "E-Commerce Data & Application Manager (m/w/d) für die Kita-Branche (E-Commerce-Manager/in)",
+   "company": "Business by Nature GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Analyst, Indoor (m/w/d) (Vertriebscontroller/in)",
+   "company": "DSV - Global Transport and Logistics",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Analyst, Indoor (m/w/d) (Vertriebscontroller/in)",
+   "company": "DSV Contract Logistics Krefeld GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT-Projektmanager / Business Analysten (m/w/d) (IT-Organisator/in)",
+   "company": "LGA Landesgewerbeanstalt Bayern KdöR",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BI & Analytics Tech Lead (m/w/d) (Business-Analyst/in)",
+   "company": "Tempton Next Level Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BI & Analytics Tech Lead (m/w/d) (Business-Intelligence-Consultant)",
+   "company": "TEMPTON Next Level Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant (m/w/d) Data Vault (Informatiker/in)",
+   "company": "MID GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data & AI Consultant (m/w/d) (IT-Systemadministrator/in)",
+   "company": "PRODATO",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AI & Data Consultant (m/w/d) (ERP-Systembetreuer/in)",
+   "company": "KUMAVISION AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Architecture Consultant (m/w/d) (IT-Berater/in)",
+   "company": "BWI GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Platform Architect (m/w/d) (IT-Lösungsentwickler/in)",
+   "company": "ORDIX AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Architect (w/m/d) (IT-Entwickler/in (Weiterbildung/Ausbildung))",
+   "company": "Bechtle AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant Data & AI Governance (w|m|d) (Unternehmensberater/in)",
+   "company": "BridgingIT GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Platform Engineer (m/w/d) (Entwickler/in Digitale Medien)",
+   "company": "ORDIX AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Consultant Sovereign Data Platforms (m/w/d) (IT-Berater/in)",
+   "company": "ORDIX AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Consultant Data Management & Machine Learning (m/w/d) (IT-Berater/in)",
+   "company": "BWI GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant Data Engineering & AI (w/m/d) (IT-Berater/in)",
+   "company": "Bechtle AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "(Senior) Consultant Data & Analytics - People Advisory Services (f/m/d) (Informatiker/in)",
+   "company": "EY Tax GmbH Steuerberatungsgesellschaft",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Teamleiter (all genders) Network Datacenter (Gruppen-, Teamleiter/in)",
+   "company": "DATAGROUP Operations GmbH Geschäftsstelle Bremen",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Duales Studium - Wirtschaftsinformatik Data Science & KI (w/m/d) (Start 2027) (Bachelor Professional - IT)",
+   "company": "Bechtle AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT Solution Engineer - Data Center Networking (m/w/d) - Gestalte mit uns IT-Landschaften (IT-Administrator/in)",
+   "company": "ACP IT Solutions AG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "IT-Systemadministratoren (m/w/d) (Operator/in (EDV))",
+   "company": "LGA Landesgewerbeanstalt Bayern KdöR",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Knowledge-Engineer (m/w/d) (Informatiker/in)",
+   "company": "adorsys GmbH & Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Scrum Master (m/w/d) (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Projektmanager (m/w/d) im Bereich IT/PMO (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Application Specialist (m/w/d) Microsoft Dynamics (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Security Consultant (m/w/d) DevSecOps / Application Security (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Application Manager (m/w/d) (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Consultant (m/w/d) BI & Analytics (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Spezialist Systeme und Prozesse im Lesermarkt (m/w/d) (Wirtschaftsinformatiker/in (Fachschule)/Bachelor Professional in Wirtschaft)",
+   "company": "Verlag Nürnberger Presse Druckhaus Nürnberg GmbH & Co. KG",
+   "location": "Nuremberg area (Nuremberg (city), DE254), Germany",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "HR Data Analyst (gn) - remote",
+   "company": "aquitas GmbH",
+   "location": "Nürnberg, Bayern",
+   "provider": "Adzuna",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "HR Data Analyst (gn) - remote",
+   "company": "aquitas GmbH",
+   "location": "Rennweg, Nürnberg",
+   "provider": "Adzuna",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "Clinical Data Analyst (m/w/d) – Klinische Studien Digital Health",
+   "company": "viatolea",
+   "location": "Schoppershof, Nürnberg",
+   "provider": "Adzuna",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "(Senior) Consultant (m/w/d) Data Warehouse Design | Senior Data Analyst",
+   "company": "MID",
+   "location": "Gleißbühl, Nürnberg",
+   "provider": "Adzuna",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "Deine Chance: Datenmanagement Upskilling - SQL, Microsoft Azure & Power BI für den schnellen Wiedereinstieg",
+   "company": "Smart Future Campus GmbH",
+   "location": "Nürnberg, Bayern",
+   "provider": "Adzuna",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "Senior Microsoft AI & Copilot Engineer (m/w/d)",
+   "company": "think about IT GmbH",
+   "location": "Gibitzenhof, Nürnberg",
+   "provider": "Adzuna",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "adzuna",
+   "title": "Snowflake Data Engineer (all genders)",
+   "company": "adesso SE",
+   "location": "Nürnberg, Bayern",
+   "provider": "Adzuna",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}

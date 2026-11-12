@@ -1,0 +1,1449 @@
+{
+ "persona": {
+  "family": "designer",
+  "title": "UX Designer",
+  "kind": "tech",
+  "city": "Brno",
+  "country": "Czechia",
+  "language": "Czech"
+ },
+ "seed": "bench-judge-8",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 159,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Product Designer (Injective Labs)",
+   "company": "Injective",
+   "location": "US Remote",
+   "provider": "Injective",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Designer",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Designer (UI/UX)",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "UI/UX Designer",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "UX Designer",
+   "company": "Thales DIS Czech Republic s.r.o.",
+   "location": "Praha-Michle",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "UX/UI Designer",
+   "company": "mBank",
+   "location": "Praha-Karlín",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "CX analytik digitálních front end aplikací",
+   "company": "ČSOB Pojišťovna, a. s., člen holdingu ČSOB",
+   "location": "Pardubice-Zelené Předměstí",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Specialistka / Specialista digitálních služeb innosvět",
+   "company": "innogy Česká republika a.s.",
+   "location": "Praha-Strašnice",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "UX DESIGNER/KA",
+   "company": "J&T BANKA",
+   "location": "Praha-Karlín",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer EMEA",
+   "company": "WunderGraph",
+   "location": "EMEA",
+   "provider": "WunderGraph",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Lead Product Designer",
+   "company": "circle",
+   "location": "Anywhere",
+   "provider": "circle",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer (Full Remote - Europe)",
+   "company": "everai",
+   "location": "Europe",
+   "provider": "everai",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Product Designer | JetBrains",
+   "company": "hirehire",
+   "location": "Remote; Poland; Spain; Germany; Serbia; the Netherlands; Armenia; Czech Republic; Cyprus",
+   "provider": "hirehire",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Product Designer - AI | Deel",
+   "company": "hirehire",
+   "location": "Remote",
+   "provider": "hirehire",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Designer | SimpleStudy",
+   "company": "hirehire",
+   "location": "Remote",
+   "provider": "hirehire",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Product Designer - Growth | Deel",
+   "company": "hirehire",
+   "location": "Remote",
+   "provider": "hirehire",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer - Growth/Website | Deel",
+   "company": "hirehire",
+   "location": "Remote",
+   "provider": "hirehire",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Designer (new product)",
+   "company": "p2p.org",
+   "location": "Kazakhstan; Poland; Remote - Europe; Serbia; Montenegro",
+   "provider": "p2p.org",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Designer",
+   "company": "pod-network",
+   "location": "Mid-East, EU, UK or North America UTC +5 - UTC -5 (remote)",
+   "provider": "pod-network",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer - Remote Europe",
+   "company": "reedsy",
+   "location": "United Kingdom; Poland; Remote; Belgium; Spain; Germany; Italy; Netherlands; Ireland; Portugal; France",
+   "provider": "reedsy",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer",
+   "company": "ruby-labs",
+   "location": "Ukraine; Turkey; European Union; Serbia; Georgia",
+   "provider": "ruby-labs",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "UX Researcher",
+   "company": "ruby-labs",
+   "location": "European Union; Latvia; Slovakia; Croatia; Czech Republic; Romania; Bulgaria; Kazakhstan; Poland; Hungary; Montenegro; Estonia; Lithuania; Greece; Serbia; Georgia",
+   "provider": "ruby-labs",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Service Product Designer/ka (Lending, CX)",
+   "company": "Česká spořitelna, a.s.",
+   "location": "Praha-Michle",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Komunikační Product Designer/ka (UX a copy writing, firemní klienti)",
+   "company": "Česká spořitelna, a.s.",
+   "location": "Praha-Michle",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "UX Writer/překladatel AJ/CZ",
+   "company": "MONETA Money Bank, a.s.",
+   "location": "Praha-Michle",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product designer - Personal AI",
+   "company": "Česká spořitelna, a.s.",
+   "location": "Praha-Michle",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "UX designer digitálních služeb Komerčního bankovnictví (m/ž)",
+   "company": "ČSOB Československá obchodní banka, a. s.",
+   "location": "Hlavní město Praha",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Owner - Customer Experience",
+   "company": "Rohlik",
+   "location": "Prague, Czech Republic; Group career pages",
+   "provider": "Rohlik",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Manager, Enterprise (Senior/Staff-level)",
+   "company": "Synthesia",
+   "location": "London; Europe",
+   "provider": "Synthesia",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Brand Designer, Experiential",
+   "company": "Synthesia",
+   "location": "UK Remote",
+   "provider": "Synthesia",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Brand Designer, Experiential",
+   "company": "Synthesia",
+   "location": "Europe",
+   "provider": "Synthesia",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Developer Experience Writer",
+   "company": "ably30",
+   "location": "London, UK (Remote)",
+   "provider": "ably30",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer",
+   "company": "dwelly",
+   "location": "United Kingdom",
+   "provider": "dwelly",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer (Full Remote - France)",
+   "company": "everai",
+   "location": "France",
+   "provider": "everai",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer (Full Remote - Germany)",
+   "company": "everai",
+   "location": "Germany",
+   "provider": "everai",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer (Full Remote - Italy)",
+   "company": "everai",
+   "location": "Italy",
+   "provider": "everai",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer (Full Remote - Netherlands)",
+   "company": "everai",
+   "location": "Netherlands",
+   "provider": "everai",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer (Full Remote - UK)",
+   "company": "everai",
+   "location": "United Kingdom",
+   "provider": "everai",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager",
+   "company": "formhealth",
+   "location": "Remote",
+   "provider": "formhealth",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Program Manager, Product",
+   "company": "formhealth",
+   "location": "Remote",
+   "provider": "formhealth",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Czechia",
+   "provider": "infuse",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager",
+   "company": "openhomefoundation",
+   "location": "Europe - Anywhere; Portugal; Netherlands; Spain; United Kingdom",
+   "provider": "openhomefoundation",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Albuquerque, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Atlanta, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Austin, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Baltimore, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Belfast, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Birmingham, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Boston, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Brighton, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Bristol, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Cambridge, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Canterbury, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Charlotte, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Chicago, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Colchester, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Colorado Springs, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Columbus, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Cork, Ireland",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Coventry, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Dallas, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Denver, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Dublin, Ireland",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Edinburgh, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - El Paso, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Fort Worth, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Fresno, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Galway, Ireland",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Glasgow, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Houston, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Indianapolis, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Jacksonville, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Kansas City, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Las Vegas, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Leeds, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Limerick, Ireland",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Liverpool, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - London, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Long Beach, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Los Angeles, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Louisville, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Manchester, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Memphis, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Mesa, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Milwaukee, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Nashville, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - New York, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Newcastle upon Tyne, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Nottingham, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Oklahoma City, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Omaha, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Oxford, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Philadelphia, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Phoenix, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Portland, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Raleigh, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Sacramento, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - San Antonio, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - San Diego, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - San Francisco, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - San Jose, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Seattle, USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Sheffield, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Tucson, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Virginia Beach, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product/UX Professionals - AI Training - Washington DC USA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Growth Product Manager",
+   "company": "ruby-labs",
+   "location": "European Union; Moldova; Albania; Malta; Croatia; Czech Republic; Slovenia; Spain; Hungary; Montenegro; Estonia; Cyprus; Greece; Bosnia; Georgia",
+   "provider": "ruby-labs",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer",
+   "company": "sweatpals",
+   "location": "USA",
+   "provider": "sweatpals",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer (UI/UX)",
+   "company": "uniti",
+   "location": "Uniti HQ",
+   "provider": "uniti",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "(UX) User Experience Designer, Snr.",
+   "company": "wongdoody",
+   "location": "Australia",
+   "provider": "wongdoody",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Designer",
+   "company": "KNPLabs",
+   "location": "Most",
+   "provider": "KNPLabs",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Designer",
+   "company": "Andela",
+   "location": "North America",
+   "provider": "Andela",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager",
+   "company": "Andela",
+   "location": "North America",
+   "provider": "Andela",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Don't see the role you're looking for? Join our Talent Community!",
+   "company": "Checkly",
+   "location": "Remote",
+   "provider": "Checkly",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Technical Product Manager (Biometric Authentication)",
+   "company": "Veriff",
+   "location": "USA (Remote), UK (Remote), Spain (Remote), Tallinn (Hybrid)",
+   "provider": "Veriff",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Creative Director",
+   "company": "circle",
+   "location": "Anywhere",
+   "provider": "circle",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Designer, Toys",
+   "company": "comfrt",
+   "location": "United States",
+   "provider": "comfrt",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Motion Designer (Spilio)",
+   "company": "gismart",
+   "location": "Kyiv; Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Motion Designer (DanceBit)",
+   "company": "gismart",
+   "location": "Kyiv; Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Bulgaria",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Croatia",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Greece",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Hungary",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Montenegro",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "North Macedonia",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Poland",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Portugal",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Serbia",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Slovakia",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Slovenia",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Tajikistan",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Turkmenistan",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Uzbekistan",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Albania",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Bosnia and Herzegovina",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Lithuania",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Moldova",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Kazakhstan",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Ukraine",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Kyrgyzstan",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Armenia",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Azerbaijan",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Estonia",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Georgia",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager (Remote, Contract)",
+   "company": "infuse",
+   "location": "Latvia",
+   "provider": "infuse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Principal Designer",
+   "company": "mewssystems",
+   "location": "Czechia; Ireland; Spain; United Kingdom; United States",
+   "provider": "mewssystems",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Builder",
+   "company": "mewssystems",
+   "location": "Czechia; Ireland; Spain; United Kingdom; United States",
+   "provider": "mewssystems",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Builder - Fintech",
+   "company": "mewssystems",
+   "location": "Czechia; Ireland; Netherlands; Sweden; United Kingdom",
+   "provider": "mewssystems",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Builder - Fintech (m/f/d)",
+   "company": "mewssystems",
+   "location": "Germany",
+   "provider": "mewssystems",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer",
+   "company": "mondoo",
+   "location": "United States (Remote)",
+   "provider": "mondoo",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Designer",
+   "company": "monks",
+   "location": "Colombia",
+   "provider": "monks",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Creative Designer (Contractor position)",
+   "company": "monks",
+   "location": "Colombia",
+   "provider": "monks",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager",
+   "company": "monks",
+   "location": "United States",
+   "provider": "monks",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager",
+   "company": "monks",
+   "location": "NAMER",
+   "provider": "monks",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Performance Creative Designer",
+   "company": "recraft",
+   "location": "Remote",
+   "provider": "recraft",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Spontaneous Applications",
+   "company": "shotgun",
+   "location": "Remote",
+   "provider": "shotgun",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Product Manager, Data Platform - PDEGO",
+   "company": "sonymusicentertainment",
+   "location": "UK & Ireland, United Kingdom, London",
+   "provider": "sonymusicentertainment",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Design Engineer",
+   "company": "triggerdev",
+   "location": "Remote or Hybrid UK",
+   "provider": "triggerdev",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "UX/UI Designer — Pre-Trip Customer Experience",
+   "company": "world4822stri986des",
+   "location": "United States",
+   "provider": "world4822stri986des",
+   "role": "yes",
+   "place": "no"
+  }
+ ]
+}

@@ -1,0 +1,1359 @@
+{
+ "persona": {
+  "family": "hr",
+  "title": "HR Generalist",
+  "kind": "non-tech",
+  "city": "Dublin",
+  "country": "Ireland",
+  "language": "English"
+ },
+ "seed": "bench-judge-4",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 149,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Payroll Operations Manager - SKELAR Platform",
+   "company": "SKELAR",
+   "location": "Kyiv; Lviv; Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Спеціаліст з кадрового обліку - Platform",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Kyiv or Lviv Office",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR System Coordinator",
+   "company": "Cpl",
+   "location": "Dublin, Ireland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Recruiter - 6 Month Contract",
+   "company": "Salesforce.Com EMEA (Dublin)",
+   "location": "Dublin, Ireland",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Jobs in Ireland",
+   "company": "via Morgan McKinley Ireland",
+   "location": "Ireland, Dublin, Cork",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Partner",
+   "company": "Nicholas Howard",
+   "location": "Dublin, Ireland",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Talent Acquisition Executive",
+   "company": "The Portfolio Group",
+   "location": "Dublin, Ireland",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "GTM Recruiter — Dublin (FTC, 12 months)",
+   "company": "greenlight-workforce-solutions",
+   "location": "Dublin",
+   "provider": "greenlight-workforce-solutions",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Recruiter",
+   "company": "10alabs",
+   "location": "Remote",
+   "provider": "10alabs",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "GTM Recruiter",
+   "company": "assemblyai",
+   "location": "Remote",
+   "provider": "assemblyai",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Project Delivery Manager",
+   "company": "globalizationpartners",
+   "location": "Malaysia (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Project Delivery Manager",
+   "company": "globalizationpartners",
+   "location": "Colombia (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Project Delivery Manager",
+   "company": "globalizationpartners",
+   "location": "Singapore (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Project Delivery Manager",
+   "company": "globalizationpartners",
+   "location": "Ireland (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Specialist",
+   "company": "globalizationpartners",
+   "location": "Czech Republic (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Specialist",
+   "company": "globalizationpartners",
+   "location": "Italy (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Specialist - 1 Year fixed term (French Speaker)",
+   "company": "globalizationpartners",
+   "location": "Italy (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Specialist with German",
+   "company": "globalizationpartners",
+   "location": "Romania (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Talent Acquisition Partner (Temporary 6 month Contract)",
+   "company": "globalizationpartners",
+   "location": "United Kingdom (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Talent Acquisition Partner (Temporary 6 month Contract)",
+   "company": "globalizationpartners",
+   "location": "Ireland (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Talent Acquisition Partner,( Temporary 6 month Contract)",
+   "company": "globalizationpartners",
+   "location": "Northern Ireland (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "TUPE HR Specialist",
+   "company": "globalizationpartners",
+   "location": "Ireland (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "TUPE HR Specialist",
+   "company": "globalizationpartners",
+   "location": "United Kingdom (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Data Migration and Integration Consultant (HR/Payroll Systems)",
+   "company": "harborglobal",
+   "location": "UK - Remote",
+   "provider": "harborglobal",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Employee Support Specialist (HR, Payroll & Global Employment) – EMEA",
+   "company": "remotepeople",
+   "location": "Remote - EMEA",
+   "provider": "remotepeople",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "HR & People Operations - Decision Makers - ITSM/ESM Research - Canada",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR & People Operations - Decision Makers - ITSM/ESM Research - UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR & People Operations - Decision Makers - ITSM/ESM Research - US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Austin, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Belfast, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Boston, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Brighton, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Cambridge, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Canterbury, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Charlotte, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Colchester, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Columbus, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Coventry, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Dallas, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Denver, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - El Paso, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Fort Worth, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Glasgow, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Indianapolis, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Jacksonville, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Las Vegas, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Leeds, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Liverpool, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - London, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Nashville, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Newcastle upon Tyne, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Nottingham, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Oklahoma City, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Oxford, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Portland, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - San Diego, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - San Francisco, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - San Jose, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Seattle, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Sheffield, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR/Talent Professionals - AI Training - Washington DC, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting)",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - Aus",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - BZ",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - CA",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - CH",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - Ger",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - GR",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - HK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - HY",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - IR",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - IT",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - JP",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - MX",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - Nether",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - NZ",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - PL",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - Port",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - SP",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - SW",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - Swi",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - TN",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - UAE",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Professional (HR / Finance / Accounting) - UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Specialist, HR Operations (On-Boarding)",
+   "company": "Novus Partners",
+   "location": "IRL - Dublin",
+   "provider": "Novus Partners",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Talent Acquisition Partner - 12 Months FTC",
+   "company": "Novus Partners",
+   "location": "IRL - Dublin",
+   "provider": "Novus Partners",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Business Partner (Strategic Talent Partner) - Fixed Term Contract",
+   "company": "EY",
+   "location": "Dublin 2, IE",
+   "provider": "EY",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "UKI People Consulting - HR Technology and Transformation (HRT&T), Manager",
+   "company": "EY",
+   "location": "Dublin 2, IE",
+   "provider": "EY",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Advisor (International)",
+   "company": "irissoftwaregroup",
+   "location": "IRIS United Kingom",
+   "provider": "irissoftwaregroup",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Advisor (International)",
+   "company": "irissoftwaregroup",
+   "location": "IRIS Romania",
+   "provider": "irissoftwaregroup",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Talent Acquisition & Operations Specialist",
+   "company": "mento",
+   "location": "Remote - US",
+   "provider": "mento",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR & EOR Operations Manager",
+   "company": "onhires",
+   "location": "Switherland; USA",
+   "provider": "onhires",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "SMB HR Professionals: Interview on Payroll Systems",
+   "company": "terac",
+   "location": "United States",
+   "provider": "terac",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate, Talent Acquisition",
+   "company": "united-talent-agency",
+   "location": "Foothill Office",
+   "provider": "united-talent-agency",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Remote Recruiter-Process Server Network",
+   "company": "abclegalservices",
+   "location": "US, Remote",
+   "provider": "abclegalservices",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Talent Acquisition Partner",
+   "company": "bgbx",
+   "location": "United States",
+   "provider": "bgbx",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Project Delivery Manager",
+   "company": "globalizationpartners",
+   "location": "Mexico (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Specialist",
+   "company": "globalizationpartners",
+   "location": "Australia (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Specialist - 1 year Fixed Term Contract",
+   "company": "globalizationpartners",
+   "location": "Canada - Ontario (Remote- First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Business Partner",
+   "company": "harborglobal",
+   "location": "Remote, Canada; Remote, United States",
+   "provider": "harborglobal",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Global Mobility and Rewards Administrator",
+   "company": "harborglobal",
+   "location": "UK - Hybrid",
+   "provider": "harborglobal",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Workday Transformation Consultant",
+   "company": "harborglobal",
+   "location": "Remote, United States",
+   "provider": "harborglobal",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Join our Talent Acquisition Talent Community",
+   "company": "sustainabletalent",
+   "location": "US",
+   "provider": "sustainabletalent",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "HR & Payroll Specialist - US/Canada",
+   "company": "wavemm1",
+   "location": "United States",
+   "provider": "wavemm1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "People Partner",
+   "company": "wavemm1",
+   "location": "OpCo",
+   "provider": "wavemm1",
+   "role": "yes",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "HR Business Partner",
+   "company": "vincienergiesuk",
+   "location": "Scotland, United Kingdom",
+   "provider": "vincienergiesuk",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "People Operations AI Research Contributor",
+   "company": "Aptura AI",
+   "location": "Global",
+   "provider": "Aptura AI",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Don't see the role you're looking for? Join our Talent Community!",
+   "company": "Checkly",
+   "location": "Remote",
+   "provider": "Checkly",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Specialist",
+   "company": "arketa",
+   "location": "United States",
+   "provider": "arketa",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Employee Relationship Consultant",
+   "company": "atlasxhm",
+   "location": "Ireland; United Kingdom",
+   "provider": "atlasxhm",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Employee Relationship Consultant",
+   "company": "atlasxhm",
+   "location": "Hungary; Ireland; Poland; Portugal; United Kingdom",
+   "provider": "atlasxhm",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Future Talent Pool",
+   "company": "atlasxhm",
+   "location": "Global / Multiple Locations",
+   "provider": "atlasxhm",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Regional Payroll Specialist - EMEA",
+   "company": "atlasxhm",
+   "location": "Hungary; Ireland; Poland; Portugal; United Kingdom",
+   "provider": "atlasxhm",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Talent Acquisition Partner",
+   "company": "bgbx",
+   "location": "Ontario, Canada",
+   "provider": "bgbx",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Onboarding Project Manager",
+   "company": "cloudbeds",
+   "location": "Europe",
+   "provider": "cloudbeds",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "General Talent Community - Taiwan (Disability Inclusion Initiative)",
+   "company": "globalizationpartners",
+   "location": "Taiwan (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Global Mobility Associate - 1 year fixed term contract",
+   "company": "globalizationpartners",
+   "location": "Philippines (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll & Billing Specialist",
+   "company": "globalizationpartners",
+   "location": "Mexico (Remote-First)",
+   "provider": "globalizationpartners",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Implementation Support Specialist (Contract)",
+   "company": "greenlight-workforce-solutions",
+   "location": "United States",
+   "provider": "greenlight-workforce-solutions",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Specialist",
+   "company": "growe",
+   "location": "Anywhere",
+   "provider": "growe",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Expert (part-time) | hirehire",
+   "company": "hirehire",
+   "location": "Remote",
+   "provider": "hirehire",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Lohnbuchhalter:in / Payroll Specialist (all genders) bis zu 100% Remote",
+   "company": "integral-de",
+   "location": "Berlin; Düsseldorf; München; Remote",
+   "provider": "integral-de",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Implementation Consultant (Payroll)",
+   "company": "irissoftwaregroup",
+   "location": "IRIS Remote, UK",
+   "provider": "irissoftwaregroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Consultant",
+   "company": "irissoftwaregroup",
+   "location": "IRIS Remote, UK",
+   "provider": "irissoftwaregroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Executive (Education Managed Services)",
+   "company": "irissoftwaregroup",
+   "location": "IRIS Remote, UK",
+   "provider": "irissoftwaregroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Implementation Consultant",
+   "company": "irissoftwaregroup",
+   "location": "IRIS Remote, UK",
+   "provider": "irissoftwaregroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Onboarding Consultant",
+   "company": "irissoftwaregroup",
+   "location": "IRIS Remote, UK",
+   "provider": "irissoftwaregroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Onboarding Specialist",
+   "company": "irissoftwaregroup",
+   "location": "IRIS Remote, UK",
+   "provider": "irissoftwaregroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Software Consultant",
+   "company": "irissoftwaregroup",
+   "location": "IRIS Remote, UK",
+   "provider": "irissoftwaregroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Systems Consultant",
+   "company": "irissoftwaregroup",
+   "location": "IRIS Remote, UK",
+   "provider": "irissoftwaregroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Remote Provider Operations Virtual Assistant — Recruiting, Onboarding, and Payroll (backed by Y Combinator, $5M+ ARR, $23M+ raised)",
+   "company": "legionhealth",
+   "location": "Remote",
+   "provider": "legionhealth",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Payroll Specialist, EMEA",
+   "company": "remotepeople",
+   "location": "Remote - Philippines",
+   "provider": "remotepeople",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate, Talent Acquisition",
+   "company": "secretariatadvisorsllc",
+   "location": "International",
+   "provider": "secretariatadvisorsllc",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Recruiters: Interview on Full-Cycle Hiring Workflows",
+   "company": "terac",
+   "location": "Brazil",
+   "provider": "terac",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Business Administrator",
+   "company": "vincienergiesuk",
+   "location": "Scotland, United Kingdom",
+   "provider": "vincienergiesuk",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Employee Relations Manager",
+   "company": "EY",
+   "location": "Dublin 2, IE",
+   "provider": "EY",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "FS People Consulting - Manager - Dublin",
+   "company": "EY",
+   "location": "Dublin 2, IE",
+   "provider": "EY",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "UKI People Consulting - Organisation Design, Manager",
+   "company": "EY",
+   "location": "Dublin 2, IE",
+   "provider": "EY",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Recruitment Coordinator - Contractor/FTC",
+   "company": "Open Education Applications / Neon",
+   "location": "Head Office - Dublin; Remote",
+   "provider": "Open Education Applications / Neon",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "GTM Recruitment Sourcer — Dublin (FTC, 12 months)",
+   "company": "greenlight-workforce-solutions",
+   "location": "Dublin",
+   "provider": "greenlight-workforce-solutions",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Global Payroll Manager",
+   "company": "harborglobal",
+   "location": "Remote, United States",
+   "provider": "harborglobal",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Compensation Business Partner, International",
+   "company": "harvey",
+   "location": "Dublin",
+   "provider": "harvey",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Global CX Workforce Manager",
+   "company": "harvey",
+   "location": "Remote; London; San Francisco; New York; Dublin",
+   "provider": "harvey",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Global Workplace Specialist (12-Month Maternity Cover)",
+   "company": "sitecore",
+   "location": "Dublin",
+   "provider": "sitecore",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Sourcer",
+   "company": "sustainabletalent",
+   "location": "Dublin, Ireland",
+   "provider": "sustainabletalent",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Health & Safety Advisor",
+   "company": "wallsconstruction",
+   "location": "Dublin, Ireland",
+   "provider": "wallsconstruction",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Health & Safety Advisor",
+   "company": "wallsconstruction",
+   "location": "Dublin, IE",
+   "provider": "wallsconstruction",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}

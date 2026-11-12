@@ -1,0 +1,567 @@
+{
+ "persona": {
+  "family": "designer",
+  "title": "UX Designer",
+  "kind": "tech",
+  "city": "Lisbon",
+  "country": "Portugal",
+  "language": "Portuguese"
+ },
+ "seed": "bench-judge-10",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 61,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Senior Product Designer",
+   "company": "Playlab",
+   "location": "Remote",
+   "provider": "Playlab",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Creative Motion Designer - Duomo",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Warsaw",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Creative Motion Designer - RiseGuide",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Designer",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Middle Creative Designer",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Krakow; Kyiv; Warsaw; Dnipro",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Motion Designer - Dressly",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Designer (UI/UX)",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "UI/UX Designer",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Designer, Social & Brand",
+   "company": "darkroom",
+   "location": "Brazil; Portugal; Spain",
+   "provider": "darkroom",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Director, Design",
+   "company": "darkroom",
+   "location": "Portugal; Spain; Brazil",
+   "provider": "darkroom",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "UI/UX Designer",
+   "company": "darkroom",
+   "location": "Brazil; Portugal; Spain",
+   "provider": "darkroom",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Product Designer, BNPL Merchant Experience",
+   "company": "Tabby | تابي",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Product Designer, Customer Lifecycle",
+   "company": "Tabby | تابي",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX Design Specialist",
+   "company": "Amadeus",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Product Designer",
+   "company": "Iterable",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX/UI designer",
+   "company": "Bending Spoons",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UI Engineer",
+   "company": "Finsolutia",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Frontend Developer / UI Engineer em .NET/React",
+   "company": "Finsolutia",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Engineer",
+   "company": "Bounce",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Staff Product Designer (AI Track)",
+   "company": "MEDvidi",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX Researcher",
+   "company": "Renesas Electronics",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Digital Learning & AI Specialist",
+   "company": "Amgen",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Designer",
+   "company": "Air Apps",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Web Experience Manager (Technical Implementation & CRO) - Contractor",
+   "company": "team.blue",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "AI UX Designer",
+   "company": "Amadeus",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Design System Designer (Mid/Sen)",
+   "company": "Innovation Makers",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Conversational AI Designer",
+   "company": "Capgemini Engineering",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Web Designer and Multimedia",
+   "company": "Inetum",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Conversational Experience Designer",
+   "company": "Inetum",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "E-Commerce Product Experience Specialist Global (m/f/d)",
+   "company": "ZF Group",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Content Designer | Lisbon",
+   "company": "TransPerfect",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Designer",
+   "company": "Bounce",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "999 - Candidatura Espontânea",
+   "company": "PPM Coachers",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Analista Sénior em Experiência do Utilizador",
+   "company": "Capgemini",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Homeware Product Designer",
+   "company": "Amorim Luxury Group",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX/UI - Team Lead",
+   "company": "Innovation Makers",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "AI UX Designer",
+   "company": "Amadeus",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "AI 3D Designer",
+   "company": "Amadeus",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX Designer",
+   "company": "hyphen",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Website Content Editor Junior Specialist",
+   "company": "Nestlé USA",
+   "location": "Linda-a-Velha, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Functional Analyst – Digital Channels Workforce",
+   "company": "Accenture",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX/UI Designer - IEFP Internship",
+   "company": "hyphen",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UI/UX Product Designer",
+   "company": "EQUUS Software",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX Design Specialist",
+   "company": "Amadeus",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX Researcher",
+   "company": "Altium",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Game UI/UX Artist — Unity",
+   "company": "riseon",
+   "location": "Cascais, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Designer",
+   "company": "Bounce",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "AI Transformation Consultant (m/f/d)",
+   "company": "Siemens",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior AI Transformation Consultant (m/f/d)",
+   "company": "Siemens",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Full Stack Developer (Junior)",
+   "company": "MVST",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Designer (Platform)",
+   "company": "Revolut",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Internship Programme 2027: Product Owner (UX)",
+   "company": "Revolut",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Graduate Programme 2027: Product Owner (UX)",
+   "company": "Revolut",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Email Designer",
+   "company": "Social Scout",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Product Designer - AI & Automation",
+   "company": "hyphen",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "IT Technical Expert - Output Management (m/f/d)",
+   "company": "Allianz",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Product Designer (Game Hub)",
+   "company": "Aghanim",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Quality Assurance Tester",
+   "company": "Priberam",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX/UI Designer",
+   "company": "Xpand IT",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Web Designer Criativo",
+   "company": "SOFTWAY",
+   "location": "Cascais, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Web developer Front End, UI/UX",
+   "company": "SOFTWAY",
+   "location": "Cascais, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}

@@ -1,0 +1,1782 @@
+{
+ "persona": {
+  "family": "marketing",
+  "title": "Digital Marketing Manager",
+  "kind": "tech",
+  "city": "Graz",
+  "country": "Austria",
+  "language": "German"
+ },
+ "seed": "bench-judge-7",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 190,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Freelance CRO & Shopify Specialist",
+   "company": "10xteam",
+   "location": "The Netherlands",
+   "provider": "10xteam",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Marketeer - AI Trainer - Freelance - 8-20 hrs/week - Remote",
+   "company": "10xteam",
+   "location": "The Netherlands",
+   "provider": "10xteam",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Marketing Manager - AI Trainer - Freelance - 8-20 hrs/week - Remote",
+   "company": "10xteam",
+   "location": "Romania",
+   "provider": "10xteam",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Automation Specialist - AI Trainer - Freelance - 8-20 hrs/week - Remote",
+   "company": "10xteam",
+   "location": "The Netherlands",
+   "provider": "10xteam",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager - AI Trainer - Freelance - 8-20 hrs/week - Remote",
+   "company": "10xteam",
+   "location": "The Netherlands",
+   "provider": "10xteam",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "GTM Enablement and Operations Manager",
+   "company": "3e",
+   "location": "Bethesda, Maryland; Remote VA; Remote OH; Remote NC; Remote PA; Remote MA; Remote GA; Remote FL; Washington DC Metro Area; Charlottesville, VA (Hybrid)",
+   "provider": "3e",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Events Manager - EMEA",
+   "company": "Dandy",
+   "location": "United Kingdom - Remote; EU - Remote",
+   "provider": "Dandy",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Manager",
+   "company": "Dandy",
+   "location": "Germany - Remote",
+   "provider": "Dandy",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Experience Manager",
+   "company": "Fonio",
+   "location": "Vienna",
+   "provider": "Fonio",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "UGC Marketing Manager",
+   "company": "Fonio",
+   "location": "Vienna",
+   "provider": "Fonio",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Alle verfügbaren Jobs:",
+   "company": "via Xing Jobs",
+   "location": "Österreich, Wien, Villach",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Manager (all genders)",
+   "company": "XAL",
+   "location": "Graz, Austria",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Berufe, Orte und Unternehmen mit dem Buchstaben A",
+   "company": "via Xing Jobs",
+   "location": "Amstetten",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Experiential Marketing Manager",
+   "company": "Second-Front-Systems",
+   "location": "Remote",
+   "provider": "Second-Front-Systems",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Product Marketing Manager",
+   "company": "Second-Front-Systems",
+   "location": "Remote",
+   "provider": "Second-Front-Systems",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager B2C",
+   "company": "Alan",
+   "location": "Anywhere in France",
+   "provider": "Alan",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Motion Designer (Performance Marketing)",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Creative Marketing Manager (DanceBit)",
+   "company": "gismart",
+   "location": "Remote",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Marketing Manager",
+   "company": "labhouse",
+   "location": "Spain (Remote); Spain (Remote)",
+   "provider": "labhouse",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Social Media Manager",
+   "company": "oh",
+   "location": "Europe (remote)",
+   "provider": "oh",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager (B2C Mobile Subscription SaaS)",
+   "company": "onhires",
+   "location": "Europe (remote)",
+   "provider": "onhires",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Email Marketing Growth Manager",
+   "company": "ruby-labs",
+   "location": "European Union; Latvia; Slovakia; Croatia; Czech Republic; Slovenia; Romania; Spain; Bulgaria; Kazakhstan; Poland; Hungary; Montenegro; Estonia; Ukraine; Lithuania; Bosnia; Georgia",
+   "provider": "ruby-labs",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager - GTM & Enablement",
+   "company": "splitmetrics",
+   "location": "Remote - Europe Time Zones; Portugal; Spain",
+   "provider": "splitmetrics",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Marketing Manager",
+   "company": "uniti",
+   "location": "Remote",
+   "provider": "uniti",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Creative Marketing Manager",
+   "company": "universe",
+   "location": "Remote; Kyiv or Warsaw",
+   "provider": "universe",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Manager",
+   "company": "B12",
+   "location": "Remote",
+   "provider": "B12",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Campaign & Field Marketing Manager",
+   "company": "bitmovin",
+   "location": "Vienna; London; New York; Remote",
+   "provider": "bitmovin",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager, Exposure Management",
+   "company": "censys",
+   "location": "Remote",
+   "provider": "censys",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Marketing Manager, ASIA",
+   "company": "Chainguard",
+   "location": "Singapore - Remote",
+   "provider": "Chainguard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "CRM & Email Marketing Manager",
+   "company": "dwelly",
+   "location": "Remote",
+   "provider": "dwelly",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "B2B Customer Lifecycle Marketing Manager",
+   "company": "pubnub",
+   "location": "Poland - Remote",
+   "provider": "pubnub",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "B2B Customer Lifecycle Marketing Manager",
+   "company": "pubnub",
+   "location": "UK - Remote",
+   "provider": "pubnub",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "B2B Solutions Marketing Manager",
+   "company": "pubnub",
+   "location": "Poland - Remote",
+   "provider": "pubnub",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "B2B Solutions Marketing Manager",
+   "company": "pubnub",
+   "location": "UK - Remote",
+   "provider": "pubnub",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Developer Marketing Manager, Blocks Network",
+   "company": "pubnub",
+   "location": "Poland - Remote",
+   "provider": "pubnub",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Developer Marketing Manager, Blocks Network",
+   "company": "pubnub",
+   "location": "UK - Remote",
+   "provider": "pubnub",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Paid Media Supervisor, (Healthcare)",
+   "company": "powerdigitalmarketing",
+   "location": "Remote - Colombia",
+   "provider": "powerdigitalmarketing",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Project Manager, Digital Marketing",
+   "company": "powerdigitalmarketing",
+   "location": "Remote - Nicaragua",
+   "provider": "powerdigitalmarketing",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Project Manager, Digital Marketing",
+   "company": "powerdigitalmarketing",
+   "location": "Remote - Argentina",
+   "provider": "powerdigitalmarketing",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Project Manager, Digital Marketing",
+   "company": "powerdigitalmarketing",
+   "location": "Remote - Colombia",
+   "provider": "powerdigitalmarketing",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Channel & Partner Marketing Manager",
+   "company": "rapidfortinc",
+   "location": "Remote",
+   "provider": "rapidfortinc",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Digital Marketing Manager",
+   "company": "rapidfortinc",
+   "location": "Remote",
+   "provider": "rapidfortinc",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Public Sector Marketing Manager",
+   "company": "rapidfortinc",
+   "location": "Remote",
+   "provider": "rapidfortinc",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager",
+   "company": "Stripe",
+   "location": "San Francisco, New York, Seattle, Chicago, Remote, Toronto",
+   "provider": "Stripe",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager, Radar",
+   "company": "Stripe",
+   "location": "SF, NYC, Seattle, Remote",
+   "provider": "Stripe",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Manager (Fixed-term Employment)",
+   "company": "Wolt",
+   "location": "Wien, Austria",
+   "provider": "Wolt",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Channel Marketing Manager (m/f/d) - Fixed Term (Maternity Cover)",
+   "company": "chaos",
+   "location": "Remote job",
+   "provider": "chaos",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Manager - Germany",
+   "company": "vicentra",
+   "location": "Remote job",
+   "provider": "vicentra",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Paid Media Manager",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Marketing Manager - 12-month maternity FTC",
+   "company": "TheAdaptavistGroup",
+   "location": "Remote, ca",
+   "provider": "TheAdaptavistGroup",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing CRM Manager",
+   "company": "TheAdaptavistGroup",
+   "location": "Remote, gb",
+   "provider": "TheAdaptavistGroup",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Brand & Commercial Marketing Manager (12-month Fixed-term contract - Maternity cover)",
+   "company": "TheAdaptavistGroup",
+   "location": "Remote, gb",
+   "provider": "TheAdaptavistGroup",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Social Media & Digital Marketing Specialist (AU & NZ Experience)",
+   "company": "D2B",
+   "location": "Remote (Philippines)",
+   "provider": "Himalayas",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Email Marketing & eNewsletter Operations Specialist",
+   "company": "MicroSourcing",
+   "location": "Remote (Philippines)",
+   "provider": "Himalayas",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Performance Marketing Manager (m/w/d) – SEA",
+   "company": "Juskys Gruppe GmbH",
+   "location": "Grasdorf, Austria",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Social Media Manager:in | 30-35 h (m/w/d)",
+   "company": "KPTN",
+   "location": "Graz, Austria",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Manager (m/w/d) Schwerpunkt Newsletter",
+   "company": "Grüne Erde GmbH",
+   "location": "Scharnstein, Austria",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketeer - AI Trainer - Freelance - 8-20 hrs/week - Remote",
+   "company": "10xteam",
+   "location": "France",
+   "provider": "10xteam",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Product Marketing Manager",
+   "company": "Chainguard",
+   "location": "United States - Remote",
+   "provider": "Chainguard",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager",
+   "company": "Dataiku",
+   "location": "United States, Remote",
+   "provider": "Dataiku",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Paid Media Manager",
+   "company": "ElevenLabs",
+   "location": "United Kingdom",
+   "provider": "ElevenLabs",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Freelance Campaign Manager, Beauty (UK/ Europe)",
+   "company": "Kyra Health",
+   "location": "Europe; Spain; Germany; London; Italy",
+   "provider": "Kyra Health",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Freelance Campaign Manager, Tech, AI (UK / Europe)",
+   "company": "Kyra Health",
+   "location": "Europe; Portugal; Spain; London; France; Italy",
+   "provider": "Kyra Health",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager",
+   "company": "Linear",
+   "location": "North America",
+   "provider": "Linear",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Enablement and Conversion Manager, Revenue Operations",
+   "company": "Nivoda",
+   "location": "Remote - European timezone",
+   "provider": "Nivoda",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Engineer",
+   "company": "Oscilar.com",
+   "location": "Remote",
+   "provider": "Oscilar.com",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Associate",
+   "company": "Primer.io",
+   "location": "United Kingdom; Hungary; Poland; South Africa; Ireland; Romania",
+   "provider": "Primer.io",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager",
+   "company": "Primer.io",
+   "location": "United Kingdom; Hungary; Poland; South Africa; Ireland; Romania",
+   "provider": "Primer.io",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Creator - Storyby",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager",
+   "company": "SKELAR",
+   "location": "Global, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Full-stack Marketing Designer",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Krakow; Kyiv; Warsaw; Dnipro",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Designer",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Analyst",
+   "company": "SKELAR",
+   "location": "Kyiv; Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "PPC Specialist",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Manager",
+   "company": "SKELAR",
+   "location": "Ukraine, Remote; Lviv; Kyiv; Warsaw",
+   "provider": "SKELAR",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Manager Revenue Operations",
+   "company": "Second-Front-Systems",
+   "location": "Remote",
+   "provider": "Second-Front-Systems",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Revenue Operations Analyst",
+   "company": "Second-Front-Systems",
+   "location": "Remote",
+   "provider": "Second-Front-Systems",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "AEO and GEO Marketing Manager",
+   "company": "Stripe",
+   "location": "Remote in the US",
+   "provider": "Stripe",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Marketing Manager, SMB and Mid-Market - EMEA",
+   "company": "Stripe",
+   "location": "France",
+   "provider": "Stripe",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "GTM Product Marketing Manager, Commerce Experiences",
+   "company": "Stripe",
+   "location": "United States",
+   "provider": "Stripe",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Lifecycle Marketing Manager, Capital",
+   "company": "Stripe",
+   "location": "Remote, US",
+   "provider": "Stripe",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Technology Program Manager",
+   "company": "Stripe",
+   "location": "US Remote",
+   "provider": "Stripe",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager, Portfolio Pricing",
+   "company": "Stripe",
+   "location": "United States",
+   "provider": "Stripe",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager, Revenue suite",
+   "company": "Stripe",
+   "location": "United States",
+   "provider": "Stripe",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Analyst, New Business and M&A",
+   "company": "Toptal",
+   "location": "Europe, South America, Central America",
+   "provider": "Toptal",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager",
+   "company": "Wolt",
+   "location": "Krakow, Poland; Remote",
+   "provider": "Wolt",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "GTM Engineer",
+   "company": "ably30",
+   "location": "London, UK (Remote)",
+   "provider": "ably30",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Revenue Marketing Manager - TOLA",
+   "company": "abnormalsecurity",
+   "location": "Remote - USA",
+   "provider": "abnormalsecurity",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Advocacy Marketing Manager",
+   "company": "alphasense",
+   "location": "Remote - United States",
+   "provider": "alphasense",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager - Expert Call Services",
+   "company": "alphasense",
+   "location": "Remote - United States",
+   "provider": "alphasense",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Marketing Specialist - Brazil",
+   "company": "amboss",
+   "location": "Brazil",
+   "provider": "amboss",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Content Manager/Writer (Sportsbooks & Prediction Markets)",
+   "company": "bettercollective",
+   "location": "Remote job",
+   "provider": "bettercollective",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager",
+   "company": "cloudbeds",
+   "location": "Europe",
+   "provider": "cloudbeds",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Editor/Designer (Performance Marketing)",
+   "company": "comfrt",
+   "location": "United States",
+   "provider": "comfrt",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Graphic Designer (Performance Marketing)",
+   "company": "comfrt",
+   "location": "United States",
+   "provider": "comfrt",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Social Media Manager",
+   "company": "connectwise",
+   "location": "USA Remote - FL",
+   "provider": "connectwise",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Performance Marketing Manager",
+   "company": "coram-ai",
+   "location": "US Remote",
+   "provider": "coram-ai",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Founder Associate / Growth Associate",
+   "company": "dash0",
+   "location": "EMEA - Remote",
+   "provider": "dash0",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Google Ads Specialist",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Off-page SEO Specialist",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "On-Page SEO Specialist",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "SEO Automation",
+   "company": "eneba",
+   "location": "Remote",
+   "provider": "eneba",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Demand Generation Marketing Manager",
+   "company": "gomotive",
+   "location": "United States - Remote",
+   "provider": "gomotive",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Data Engineer (m/w/d)",
+   "company": "heroldat",
+   "location": "Wien, Austria",
+   "provider": "heroldat",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Account-Based Marketing Manager",
+   "company": "ideals",
+   "location": "United States",
+   "provider": "ideals",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Marketing Manager, Foundry",
+   "company": "instructure",
+   "location": "United States",
+   "provider": "instructure",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager",
+   "company": "keepersecurity",
+   "location": "Remote, US",
+   "provider": "keepersecurity",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager",
+   "company": "keepersecurity",
+   "location": "Remote, US",
+   "provider": "keepersecurity",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Web Developer, Technical SEO",
+   "company": "keepersecurity",
+   "location": "Remote, US",
+   "provider": "keepersecurity",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Copy of Performance Marketing Manager (Growth & Lifecycle) - Remote",
+   "company": "lumimeds",
+   "location": "LATAM",
+   "provider": "lumimeds",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Manager",
+   "company": "lumimeds",
+   "location": "United States",
+   "provider": "lumimeds",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Performance Marketing Manager (Growth & Lifecycle) - Remote",
+   "company": "lumimeds",
+   "location": "United States",
+   "provider": "lumimeds",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Marketing Specialist",
+   "company": "muckrack",
+   "location": "Remote (Canada, United States)",
+   "provider": "muckrack",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Social Media Manager",
+   "company": "muckrack",
+   "location": "Remote (Canada, United States)",
+   "provider": "muckrack",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager - SASE",
+   "company": "netskope",
+   "location": "United Kingdom",
+   "provider": "netskope",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Integrated Marketing Manager - Gateway & Verticals",
+   "company": "nmi",
+   "location": "Remote, US",
+   "provider": "nmi",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Partner Success Manager — Growth & Performance Marketing",
+   "company": "onhires",
+   "location": "Texas; Canada; United States",
+   "provider": "onhires",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager",
+   "company": "opentable",
+   "location": "Vienna, Austria",
+   "provider": "opentable",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Working Student Marketing (a)",
+   "company": "oviva",
+   "location": "Remote Germany",
+   "provider": "oviva",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Demand Generation Associate Manager",
+   "company": "pacvue",
+   "location": "US Remote",
+   "provider": "pacvue",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Paid Media Strategist, Fashion",
+   "company": "powerdigitalmarketing",
+   "location": "Remote - United States",
+   "provider": "powerdigitalmarketing",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Revenue Operations Manager",
+   "company": "pqshield",
+   "location": "Remote (within our current locations); UK, France, Netherlands, Belgium, Germany, Austria, Spain, Finland, USA. Some travel to our offices will be required from time-to-time",
+   "provider": "pqshield",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Marketing Manager (US)",
+   "company": "qdrant.tech",
+   "location": "Remote - United States",
+   "provider": "qdrant.tech",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Future Opportunities - Real Chemistry Media",
+   "company": "realchemistry",
+   "location": "United States",
+   "provider": "realchemistry",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Marketing Manager (Studio) - Remote",
+   "company": "reedsy",
+   "location": "United Kingdom; Remote; United States; Canada; Netherlands; France",
+   "provider": "reedsy",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Social Media Manager - Remote",
+   "company": "reedsy",
+   "location": "United Kingdom; Remote; United States; Canada",
+   "provider": "reedsy",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Marketing Manager (Remote - Central/Eastern Time Zone)",
+   "company": "tanium",
+   "location": "Remote, US",
+   "provider": "tanium",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Marketing Manager (Remote - Pacific/Mountain Time Zone)",
+   "company": "tanium",
+   "location": "Remote, US",
+   "provider": "tanium",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Lifecycle & Retention Marketing Manager",
+   "company": "the-global-talent-co",
+   "location": "Latin America | Remote; Chile; Brazil; Colombia; Argentina",
+   "provider": "the-global-talent-co",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Paid Media Specialist",
+   "company": "the-global-talent-co",
+   "location": "Colombia; Mexico; Brazil; Argentina",
+   "provider": "the-global-talent-co",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "GTM Engineer, Web",
+   "company": "toast",
+   "location": "Remote",
+   "provider": "toast",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Copywriter",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Copywriter",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Digital Analytics Specialist (Contractor) | India",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Digital Analytics Specialist (Contractor) | Philippines",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "SEO Specialist",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "SEO Specialist",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "SEO Specialist",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "SEO Specialist",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Search Engine Marketing Specialist",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Search Marketing Specialist",
+   "company": "transperfect",
+   "location": "Remote job",
+   "provider": "transperfect",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Performance Marketer | Dating",
+   "company": "unicornpro",
+   "location": "Ukraine; Europe",
+   "provider": "unicornpro",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Partner Marketing Manager",
+   "company": "wizinc",
+   "location": "Remote - USA",
+   "provider": "wizinc",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager",
+   "company": "wizinc",
+   "location": "Remote - USA",
+   "provider": "wizinc",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Manager, Europe",
+   "company": "Andela",
+   "location": "United Kingdom",
+   "provider": "Andela",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager",
+   "company": "Andela",
+   "location": "North America",
+   "provider": "Andela",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Field Marketing Manager",
+   "company": "deepjudge",
+   "location": "Remote - USA",
+   "provider": "deepjudge",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Marketing Specialist",
+   "company": "banyansoftware",
+   "location": "United States",
+   "provider": "banyansoftware",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Acquisition & Lifecycle Marketing Manager",
+   "company": "classpass",
+   "location": "Brazil",
+   "provider": "classpass",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AEO / GEO Marketing Manager",
+   "company": "classpass",
+   "location": "United Kingdom",
+   "provider": "classpass",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Lifecycle Marketing Manager",
+   "company": "classpass",
+   "location": "Brazil",
+   "provider": "classpass",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Lifecycle Marketing Manager (Leads & Reactivation)",
+   "company": "classpass",
+   "location": "United Kingdom",
+   "provider": "classpass",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Lifecycle Marketing Manager, (Partner Acquisition)",
+   "company": "classpass",
+   "location": "United Kingdom",
+   "provider": "classpass",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Partner Solutions Marketing Manager",
+   "company": "commvault",
+   "location": "United States",
+   "provider": "commvault",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager - US",
+   "company": "scaleops",
+   "location": "United States - Remote",
+   "provider": "scaleops",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Manager, Performance Marketing",
+   "company": "viralnation",
+   "location": "United States",
+   "provider": "viralnation",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Partner Marketing Manager",
+   "company": "woolpert",
+   "location": "Remote - United States",
+   "provider": "woolpert",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager",
+   "company": "TheNielsenCompany",
+   "location": "Remote, us",
+   "provider": "TheNielsenCompany",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Marketing Manager",
+   "company": "TheNielsenCompany",
+   "location": "Remote, us",
+   "provider": "TheNielsenCompany",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Customer Marketer",
+   "company": "Alan",
+   "location": "Anywhere in France",
+   "provider": "Alan",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Marketer",
+   "company": "Alan",
+   "location": "Anywhere in France",
+   "provider": "Alan",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Social Media & Content Specialist",
+   "company": "Alan",
+   "location": "Anywhere in France",
+   "provider": "Alan",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Revenue Operations Specialist",
+   "company": "Andela",
+   "location": "North America",
+   "provider": "Andela",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Social Media Specialist",
+   "company": "Andela",
+   "location": "North America",
+   "provider": "Andela",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Analyst Relations",
+   "company": "ElevenLabs",
+   "location": "United States",
+   "provider": "ElevenLabs",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "GTM Enablement - Product",
+   "company": "ElevenLabs",
+   "location": "Remote",
+   "provider": "ElevenLabs",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth PM",
+   "company": "ElevenLabs",
+   "location": "United Kingdom",
+   "provider": "ElevenLabs",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Partner Manager - Public Sector Partnerships",
+   "company": "ElevenLabs",
+   "location": "Remote",
+   "provider": "ElevenLabs",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "System Architect Lifecycle Marketing",
+   "company": "ElevenLabs",
+   "location": "United Kingdom",
+   "provider": "ElevenLabs",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Value Strategist",
+   "company": "ElevenLabs",
+   "location": "Remote; San Francisco",
+   "provider": "ElevenLabs",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Developer Relations",
+   "company": "Factory",
+   "location": "United States",
+   "provider": "Factory",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager",
+   "company": "HUMAN",
+   "location": "United States",
+   "provider": "HUMAN",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Spontaneous Application (Tech, Product & GTM)",
+   "company": "JUPUS",
+   "location": "Europe",
+   "provider": "JUPUS",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours",
+   "title": "Developer Relations",
+   "company": "Linear",
+   "location": "Europe",
+   "provider": "Linear",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "GTM Engineer, Marketing",
+   "company": "Tremendous",
+   "location": "United States",
+   "provider": "Tremendous",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Manager",
+   "company": "Yubo",
+   "location": "Paris - Full Remote",
+   "provider": "Yubo",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Analytics Manager",
+   "company": "classpass",
+   "location": "United Kingdom",
+   "provider": "classpass",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "GTM Systems Developer",
+   "company": "companycam",
+   "location": "Remote; Headquarters",
+   "provider": "companycam",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Creator Manager, TikTok Shop",
+   "company": "darkroom",
+   "location": "Brazil",
+   "provider": "darkroom",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager",
+   "company": "datarails",
+   "location": "United States",
+   "provider": "datarails",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Brand Designer",
+   "company": "dualentry",
+   "location": "Remote (EU)",
+   "provider": "dualentry",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Brand Designer",
+   "company": "duna",
+   "location": "Remote (Europe)",
+   "provider": "duna",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Analyst (FitMe)",
+   "company": "gismart",
+   "location": "Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Manager (AI RnD)",
+   "company": "gismart",
+   "location": "Kyiv; Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "User Acquisition Manager (Spilio)",
+   "company": "gismart",
+   "location": "Kyiv; Remote (Ukraine)",
+   "provider": "gismart",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Global Events Manager (East Coast)",
+   "company": "hawk",
+   "location": "United States",
+   "provider": "hawk",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Graphic Designer  - MarketingTeam",
+   "company": "labhouse",
+   "location": "Barcelona; Spain (Remote)",
+   "provider": "labhouse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Video Editor",
+   "company": "labhouse",
+   "location": "Barcelona; Spain (Remote)",
+   "provider": "labhouse",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Digital Adoption & Lifecycle Manager",
+   "company": "mixpanel",
+   "location": "Remote, US",
+   "provider": "mixpanel",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Brand Designer",
+   "company": "planetscale",
+   "location": "Remote - USA",
+   "provider": "planetscale",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Revenue Operations Manager",
+   "company": "rain-technologies",
+   "location": "United States",
+   "provider": "rain-technologies",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Manager, Competitive Intelligence & Marketing Analytics",
+   "company": "tempo-io",
+   "location": "United States",
+   "provider": "tempo-io",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager",
+   "company": "tide",
+   "location": "United Kingdom",
+   "provider": "tide",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Growth Manager",
+   "company": "universe",
+   "location": "Remote; Lviv; Kyiv; Warsaw",
+   "provider": "universe",
+   "role": "yes",
+   "place": "remote"
+  }
+ ]
+}
