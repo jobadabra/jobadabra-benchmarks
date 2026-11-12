@@ -1,0 +1,43 @@
+{
+ "at": "2026-11-12T22:09:09.278Z",
+ "round": "week-2026-W46",
+ "build": "b7b5624",
+ "tools": {
+  "browser-use": 79.5,
+  "extension": 82,
+  "nanobrowser": 26.7,
+  "stagehand": 54.5
+ },
+ "forms": {
+  "264601": {
+   "score": 91.7,
+   "wrong": 0,
+   "empty": 1
+  },
+  "264602": {
+   "score": null,
+   "wrong": 0,
+   "empty": 0
+  },
+  "264603": {
+   "score": 83.3,
+   "wrong": 0,
+   "empty": 1
+  },
+  "264604": {
+   "score": 80,
+   "wrong": 0,
+   "empty": 2
+  },
+  "264605": {
+   "score": 61.5,
+   "wrong": 0,
+   "empty": 5
+  },
+  "264606": {
+   "score": 100,
+   "wrong": 0,
+   "empty": 0
+  }
+ }
+}
