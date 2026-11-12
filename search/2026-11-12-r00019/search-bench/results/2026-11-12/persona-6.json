@@ -1,0 +1,63 @@
+{
+ "persona": {
+  "family": "marketing",
+  "title": "Digital Marketing Manager",
+  "kind": "tech",
+  "city": "Zagreb",
+  "country": "Croatia",
+  "language": "Croatian"
+ },
+ "seed": "bench-judge-6",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 3,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Stručnjak za radijsko planiranje (m/ž)",
+   "company": "via posao.hr",
+   "location": "Zagreb",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Resort Commercial Director (m/f)",
+   "company": "via posao.hr",
+   "location": "Zagreb",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Team Leader for the DACH Market (m/f)",
+   "company": "via posao.hr",
+   "location": "Zagreb",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Stručnjak za radijsko planiranje (m/ž)",
+   "company": "via Posao.hr",
+   "location": "Zagreb",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Resort Commercial Director (m/f)",
+   "company": "via Posao.hr",
+   "location": "Zagreb",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}
