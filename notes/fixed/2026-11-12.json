@@ -1,43 +1,56 @@
 {
- "at": "2026-11-12T18:25:30.366Z",
+ "at": "2026-11-12T22:04:36.627Z",
  "round": "fixed",
- "build": "8b7921a",
+ "build": "b7b5624",
  "tools": {
   "browser-use": 85.7,
-  "extension": 96.8,
+  "extension": 94,
   "nanobrowser": 45.6,
   "stagehand": 43.2
  },
  "setChanges": [
   {
    "from": "106",
-   "to": "107"
+   "to": "107",
+   "at": "2026-11-12"
   }
  ],
+ "rivalsSince": "2026-10-27",
+ "missingForms": {
+  "101": "site-ledger: job-boards.greenhouse.io is not visited: it showed a block page at 21:56 today (bot check), so it rests until tomorrow. Counted from the machine-wide ledger (/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/ledger); the owner can allow it with JOBADABRA_SITE_LIMIT_OVERRIDE=jo",
+  "103": "site-ledger: jobs.ashbyhq.com is not visited: it showed a block page at 21:55 today (bot check), so it rests until tomorrow. Counted from the machine-wide ledger (/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/ledger); the owner can allow it with JOBADABRA_SITE_LIMIT_OVERRIDE=jobs.ashby",
+  "104": "site-ledger: jobs.ashbyhq.com is not visited: it showed a block page at 21:54 today (bot check), so it rests until tomorrow. Counted from the machine-wide ledger (/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/ledger); the owner can allow it with JOBADABRA_SITE_LIMIT_OVERRIDE=jobs.ashby"
+ },
  "forms": {
   "101": {
    "score": 100,
-   "wrong": 0
+   "wrong": 0,
+   "empty": 0
   },
   "102": {
-   "score": 100,
-   "wrong": 0
+   "score": 91.7,
+   "wrong": 0,
+   "empty": 3
   },
   "103": {
-   "score": 87.5,
-   "wrong": 0
+   "score": 80.6,
+   "wrong": 2,
+   "empty": 4
   },
   "104": {
    "score": 100,
-   "wrong": 0
+   "wrong": 0,
+   "empty": 0
   },
   "105": {
-   "score": 100,
-   "wrong": 0
+   "score": 97,
+   "wrong": 0,
+   "empty": 1
   },
   "107": {
-   "score": 90,
-   "wrong": 0
+   "score": 100,
+   "wrong": 0,
+   "empty": 0
   }
  }
 }
