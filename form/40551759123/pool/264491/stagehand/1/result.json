@@ -1,0 +1,55 @@
+{
+ "tool": "stagehand",
+ "url": "http://www.bishopfox.com/jobs?gh_jid=7902114",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 73,
+ "final": "Opened the Bishop Fox job form (Penetration Tester - Contract, U.S. Remote), dismissed the cookie banner, and filled the fields the facts answer: first/last name, email, phone (+41 auto-set), location (Zurich, Switzerland), CV upload (cv.pdf), LinkedIn URL, degree (Bachelor's Degree) and discipline (Computer Science). Left empty: School (the \"Example University\" option does not exist in the dropdo",
+ "completed": false,
+ "tokens": {
+  "in": 632763,
+  "out": 13237,
+  "cacheRead": 232350,
+  "cacheWrite": 7745,
+  "calls": 34
+ },
+ "usd": 0.073186425,
+ "longCalls": 0,
+ "maxCallIn": 33338,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 118.5,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST global.ketchcdn.com/web/v2/log (non-GET to another host)",
+   "POST global.ketchcdn.com/web/v3/consent/bishop_fox/get (non-GET to another host)",
+   "POST global.ketchcdn.com/web/v3/consent/bishop_fox/update (non-GET to another host)",
+   "POST alb.reddit.com/rp (non-GET to another host)",
+   "POST px.ads.linkedin.com/wa/ (non-GET to another host)",
+   "POST px.ads.linkedin.com/wa/ (non-GET to another host)",
+   "POST analytics.google.com/g/collect (non-GET to another host)",
+   "POST stats.g.doubleclick.net/g/collect (non-GET to another host)",
+   "POST www.google.com/g/collect (non-GET to another host)",
+   "POST 136-utj-516.mktoresp.com/webevents/visitWebPage (non-GET to another host)",
+   "POST project-hummingbird-hummingbird-websocket-nodejs-de-112831.cloud.adobe.io/activation (non-GET to another host)",
+   "POST analytics.google.com/g/collect (non-GET to another host)",
+   "POST www.google.com/g/collect (non-GET to another host)",
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST bzr.openai.com/v1/sdk/events (non-GET to another host)",
+   "POST analytics.google.com/g/collect (non-GET to another host)",
+   "POST www.google.com/g/collect (non-GET to another host)",
+   "POST bzr.openai.com/v1/sdk/events (non-GET to another host)",
+   "POST global.ketchcdn.com/web/v3/consent/bishop_fox/update (non-GET to another host)",
+   "POST px.ads.linkedin.com/wa/ (non-GET to another host)",
+   "POST px.ads.linkedin.com/wa/ (non-GET to another host)",
+   "POST bzr.openai.com/v1/sdk/events (non-GET to another host)",
+   "POST bzr.openai.com/v1/sdk/events (non-GET to another host)",
+   "POST bzr.openai.com/v1/sdk/events (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST grnhse-prod-jben-us-east-1.s3.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 123
+}

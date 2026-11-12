@@ -1,0 +1,32 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://apply.workable.com/huggingface/j/F88446C814/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 1,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":0,\"maxSteps\":40,\"details\":\"Task failed: \\n\\nYou have reached your specified workspace API usage limits. You will regain access on 2026-11-01 at 00:00 UTC.\"}",
+ "completed": false,
+ "tokens": {
+  "in": 0,
+  "out": 0,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 1
+ },
+ "usd": 0,
+ "longCalls": 0,
+ "maxCallIn": 0,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 1.7,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.8209452589991082:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 7
+}

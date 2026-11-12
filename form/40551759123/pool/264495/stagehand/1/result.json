@@ -1,0 +1,45 @@
+{
+ "tool": "stagehand",
+ "url": "https://jobs.lever.co/coalfire/913b4d02-79ce-4036-8b04-e8cd3f21f175/apply",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 101,
+ "final": "I opened the Coalfire application (Account Executive - Google SecOps and Wiz Sales, US-based sales role), uploaded cv.pdf, and attempted to fill the contact fields. Keystroke input was unreliable: the screenshots and ARIA tree showed garbled values in Phone and LinkedIn URL, Current location is empty, and Full name was not verified after later edits. Email and Current company (Acme Cloud) are corr",
+ "completed": false,
+ "tokens": {
+  "in": 686966,
+  "out": 25204,
+  "cacheRead": 210222,
+  "cacheWrite": 7786,
+  "calls": 30
+ },
+ "usd": 0.08437407000000001,
+ "longCalls": 0,
+ "maxCallIn": 39287,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 219.6,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.lever.co/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.8209452589991082:1793 (non-GET to another host)",
+   "POST www.google-analytics.com/g/collect (non-GET to another host)",
+   "POST www.google.com/g/collect (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST jobs.lever.co/parseResume (non-GET to the form site)",
+   "POST www.google-analytics.com/g/collect (non-GET to another host)",
+   "POST www.google.com/g/collect (non-GET to another host)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 225
+}

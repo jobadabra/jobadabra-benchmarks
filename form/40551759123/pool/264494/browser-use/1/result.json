@@ -1,0 +1,40 @@
+{
+ "tool": "browser-use",
+ "url": "https://jobs.ashbyhq.com/supabase/d6af503b-acc4-40c9-83d8-d4fe0dcc2dd5/application",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 4,
+ "final": "Filled the application form at https://jobs.ashbyhq.com/supabase/d6af503b-acc4-40c9-83d8-d4fe0dcc2dd5/application without submitting.\n\nFilled from the facts:\n- Name: Ada Tester\n- Email: ada.tester@example.test\n- Country of Residence: Switzerland\n- LinkedIn: https://www.linkedin.com/in/ada-tester\n- Resume: uploaded /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf. The page now lists 'cv.pdf' with a delete button and no error message is visible in the last screenshot.\n\nLeft empty because the facts do not answer them:\n- Passport Country (required)\n- Are y",
+ "completed": true,
+ "tokens": {
+  "in": 32475,
+  "out": 7282,
+  "cacheRead": 58529,
+  "cacheWrite": 0,
+  "calls": 5
+ },
+ "usd": 0.00747379,
+ "longCalls": 0,
+ "maxCallIn": 20358,
+ "usdReportedByTool": 0.007473789999999999,
+ "seconds": 43,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 47
+}

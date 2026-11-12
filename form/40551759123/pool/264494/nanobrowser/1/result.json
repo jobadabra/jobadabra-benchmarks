@@ -1,0 +1,33 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://jobs.ashbyhq.com/supabase/d6af503b-acc4-40c9-83d8-d4fe0dcc2dd5/application",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 1,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":0,\"maxSteps\":40,\"details\":\"Task failed: \\n\\nYou have reached your specified workspace API usage limits. You will regain access on 2026-11-01 at 00:00 UTC.\"}",
+ "completed": false,
+ "tokens": {
+  "in": 0,
+  "out": 0,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 1
+ },
+ "usd": 0,
+ "longCalls": 0,
+ "maxCallIn": 0,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 1.7,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 6
+}

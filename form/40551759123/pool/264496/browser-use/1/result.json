@@ -1,0 +1,32 @@
+{
+ "tool": "browser-use",
+ "url": "https://apply.workable.com/huggingface/j/F88446C814/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 6,
+ "final": "The application form at https://apply.workable.com/huggingface/j/F88446C814/apply/ is filled with the provided facts. I did not press Submit.\n\nFilled:\n- First name: Ada\n- Last name: Tester\n- Email: ada.tester@example.test\n- Summary: 'Senior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale, strong in observability and incident response.'\n- LinkedIn: https://www.linkedin.com/in/ada-tester\n- Resume: cv.pdf uploaded (shown in the form as cv.pdf)\n- Expected salary: 'CHF 140,000-160,000 gross per year'\n- Eligible to work in the country applying: YES (EU citizen, no sponsorsh",
+ "completed": true,
+ "tokens": {
+  "in": 47627,
+  "out": 10132,
+  "cacheRead": 87477,
+  "cacheWrite": 0,
+  "calls": 7
+ },
+ "usd": 0.01070347,
+ "longCalls": 0,
+ "maxCallIn": 21119,
+ "usdReportedByTool": 0.00947193,
+ "seconds": 60.1,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.8209452589991082:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST workable-application-form.s3.us-east-1.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 64
+}

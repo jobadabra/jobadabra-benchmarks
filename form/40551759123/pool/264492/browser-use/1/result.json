@@ -1,0 +1,32 @@
+{
+ "tool": "browser-use",
+ "url": "https://job-boards.greenhouse.io/hootsuite/jobs/8221711",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 10,
+ "final": "Task not completed. The agent was terminated after repeated output-format failures (5 consecutive).\n\nWhat the screenshot and browser state confirm on the Greenhouse form (job 8221711):\n- First Name: Ada\n- Last Name: Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23\n- Country phone code: +41 with Swiss flag (selected from the Switzerland option)\n\nPartially done / unverified:\n- Location (City): 'Zurich' is typed, and the suggestion dropdown is open with 'Zurich, Switzerland' listed as the first option, but it has NOT been selected yet.\n- CV upload: history says the file /home/run",
+ "completed": true,
+ "tokens": {
+  "in": 77805,
+  "out": 11117,
+  "cacheRead": 130899,
+  "cacheWrite": 9017,
+  "calls": 11
+ },
+ "usd": 0.015775115,
+ "longCalls": 0,
+ "maxCallIn": 20741,
+ "usdReportedByTool": 0.007669975,
+ "seconds": 66.7,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST grnhse-prod-jben-us-east-1.s3.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 70
+}

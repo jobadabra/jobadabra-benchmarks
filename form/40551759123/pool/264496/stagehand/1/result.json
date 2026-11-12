@@ -1,0 +1,32 @@
+{
+ "tool": "stagehand",
+ "url": "https://apply.workable.com/huggingface/j/F88446C814/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 51,
+ "final": "Filled the Hugging Face Workable application with facts: first name, last name, email, CV upload (cv.pdf), Summary, LinkedIn URL, and expected salary (CHF 140,000–160,000 gross). Left empty the fields the facts don't answer: work eligibility YES/NO (role is US Remote; facts cover only Switzerland/EU), notice period, Github profile (required), open-source contributions questions and links (required",
+ "completed": false,
+ "tokens": {
+  "in": 328852,
+  "out": 12779,
+  "cacheRead": 170478,
+  "cacheWrite": 7749,
+  "calls": 26
+ },
+ "usd": 0.041948105,
+ "longCalls": 0,
+ "maxCallIn": 27642,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 126.6,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.8209452589991082:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST workable-application-form.s3.us-east-1.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 131
+}

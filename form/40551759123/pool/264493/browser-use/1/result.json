@@ -1,0 +1,47 @@
+{
+ "tool": "browser-use",
+ "url": "https://jobs.ashbyhq.com/deepgram/e8b2cd20-bd98-4977-b9a9-cfa6868cc122/application",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 15,
+ "final": "I filled the Deepgram 'Director, GTM Engineering' application (USA - Remote) and did not submit it. The page is still on the application form.\n\nFilled from the facts:\n- Full Legal Name: Ada Tester\n- Preferred First Name: Ada; Preferred Last Name: Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23\n- Resume: cv.pdf uploaded (shown as attached in the Resume area)\n- LinkedIn: https://www.linkedin.com/in/ada-tester\n- Home Location: Zürich, Zurich, Switzerland (selected from the suggestions)\n\nLeft empty because the facts don't answer them for this US role:\n- 'Are you legally authorize",
+ "completed": true,
+ "tokens": {
+  "in": 132921,
+  "out": 18766,
+  "cacheRead": 217743,
+  "cacheWrite": 0,
+  "calls": 16
+ },
+ "usd": 0.02485253,
+ "longCalls": 0,
+ "maxCallIn": 25442,
+ "usdReportedByTool": 0.02347649,
+ "seconds": 118.5,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 123
+}

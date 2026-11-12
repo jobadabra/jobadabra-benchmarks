@@ -1,0 +1,32 @@
+{
+ "tool": "stagehand",
+ "url": "https://job-boards.greenhouse.io/hootsuite/jobs/8221711",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 55,
+ "final": "Filled the Greenhouse application at job-boards.greenhouse.io/hootsuite/jobs/8221711 with the supplied facts: first/last name, email, phone (+41 country code), location (Zurich, Switzerland), CV upload (cv.pdf), LinkedIn URL, and eligibility to work (Yes, EU citizen). Left blank the questions the facts don't answer: Hootsuite product usage, Portuguese fluency, B2B/SaaS sales experience, quota, out",
+ "completed": false,
+ "tokens": {
+  "in": 334954,
+  "out": 11230,
+  "cacheRead": 162813,
+  "cacheWrite": 7753,
+  "calls": 24
+ },
+ "usd": 0.041707654999999996,
+ "longCalls": 0,
+ "maxCallIn": 28170,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 102.3,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST grnhse-prod-jben-us-east-1.s3.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 106
+}
