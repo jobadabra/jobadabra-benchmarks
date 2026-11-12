@@ -1,0 +1,846 @@
+{
+ "persona": {
+  "family": "chef",
+  "title": "Chef de Partie",
+  "kind": "non-tech",
+  "city": "Krakow",
+  "country": "Poland",
+  "language": "Polish"
+ },
+ "seed": "bench-judge-5",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 89,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Dekorator/dekoratorka tortów",
+   "company": "P.P.U.H. DELO DAMIAN DELOWSKI",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Szef/szefowa kuchni",
+   "company": "MULTI PAWEŁ KACZMARCZYK",
+   "location": "Świętokrzyskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Szef kuchni (k/m)",
+   "company": "Puławskie Stowarzyszenie Ochrony Zdrowia Psychicznego",
+   "location": "Lubelskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Zastępca szefa kuchni (K/M)",
+   "company": "MONIKA KOZIEŁ Przedsiębiorstwo Usługowo-Handlowe",
+   "location": "Świętokrzyskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Szef/szefowa kuchni",
+   "company": "DORADZTWO ROLNE I GASTRONOMIA Ludwik Jarzmik",
+   "location": "Dolnośląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz K/M",
+   "company": "VIOLINOWA CHATA MAGDALENA SOBOKA",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Szef kuchni/kucharz K/M",
+   "company": "KORONA SANATORIUM UZDROWISKOWE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Szef kuchni /kucharka",
+   "company": "Zespół Szkół Specjalnych w Ozorkowie",
+   "location": "Łódzkie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "szef/szefowa kuchni",
+   "company": "KONTENTA Sp. z o.o.",
+   "location": "Kujawsko-pomorskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "SZEF KUCHNI (K/M)",
+   "company": "STRZELECKA SPÓŁDZIELNIA SOCJALNA",
+   "location": "Opolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Szef/Szefowa kuchni",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Lider/Liderka Kantyny Pracowniczej",
+   "company": "BUSINESSBAR.PL ZACHÓD SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Opolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "z-ca szefa kuchcni (K/M)",
+   "company": "Przedsiębiorstwo Wielobranżowe \"ALICJA\" Alicja Kulesza Gulczyńska",
+   "location": "Warmińsko-mazurskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/Szef kuchni (k/m)",
+   "company": "Paweł Madej \"Dwór Ordynata\"",
+   "location": "Podkarpackie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "REF- Kucharz ( M/K)",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Opolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (K/M)",
+   "company": "HOTEL \"SŁOWIK\" RESTAURACJA WALDEMAR SŁOWIK",
+   "location": "Lubelskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz K/M",
+   "company": "Pałac Wiechlice Sp. o. o.",
+   "location": "Lubuskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/Kucharka",
+   "company": "Centrum Rehabilitacji im. Prof. Mieczysława Walczaka w Osiecznej",
+   "location": "Wielkopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/Kucharka (O)",
+   "company": "\"OMEGA PILZNO\" INTERNATIONAL TRANSPORT & SPEDITION GODAWSKI & GODAWSKI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz  (K/M)",
+   "company": "HOTEL DUET SPÓŁKA CYWILNA ALICJA BRZOZOWSKA, BARTOSZ TUSZEWSKI",
+   "location": "Lubelskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz K/M",
+   "company": "Samorządowe Przedszkole nr 61 \"Pod Wawelem\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/Kucharka",
+   "company": "Publiczna Szkoła Podstawowa Stowarzyszenia Przyjaciół Szkół Katolickich w Torzeńcu",
+   "location": "Wielkopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz K/M",
+   "company": "PAK KARBOWSCY SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Kujawsko-pomorskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz K/M",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Kujawsko-pomorskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/kucharka",
+   "company": "AP SAD SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Kujawsko-pomorskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/Kucharka",
+   "company": "MANOR HOUSE - SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Makroregion województwo mazowieckie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / Kucharka",
+   "company": "Nemo-Wodny Świat Dąbrowa Górnicza sp. z o.o.",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (kobieta/mężczyzna)",
+   "company": "Qubus Hotel Management Sp. z o.o.",
+   "location": "Lubuskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / kucharka",
+   "company": "OLD TOWN TOMASZ MARZECKI",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (k/m)",
+   "company": "Samorządowe Przedszkole nr 5",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (K/M)",
+   "company": "EL PASSO BOŻENA ŚLĘZAK",
+   "location": "Dolnośląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (K/M)",
+   "company": "Firma Handlowo- Usługowa -Rafał Deć",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/ Kucharka",
+   "company": "HENRYK ROSZKIEWICZ - FIRMA ROSZKIEWICZ",
+   "location": "Wielkopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz   K/M",
+   "company": "DOROTA LIPA \"Przystań U Lipy\" ; RESTAURACJA MANHATTAN",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / kucharka",
+   "company": "BABIOGÓRSKIE CENTRUM REHABILITACJI I HIPOTERAPII \"KLAUDIA\" BOŻENA MOSUR",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (K,M)",
+   "company": "PHU Restauracja Kamieniec Anna Jaskuła",
+   "location": "Opolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/kucharka OfPr/26/0600 (S)",
+   "company": "KAROL GACAL \"CAR- LOGISTIK\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/Kucharka",
+   "company": "BUSINESSBAR.PL ZACHÓD SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Opolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/kucharka",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Kujawsko-pomorskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/ pomocnik kucharza",
+   "company": "DIETY OD BROKUŁA TORŁOP SP.K.",
+   "location": "Pomorskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz K/M",
+   "company": "Garmażerka i Pierogarnia za płotem Mariola Sopoćko Usługi Transportowe \"Mariola\"",
+   "location": "Lubelskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz",
+   "company": "Sanatorium Uzdrowiskowe CHEMIK sp. z o.o.",
+   "location": "Dolnośląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / kucharka",
+   "company": "PAŁAC W RYBNEJ",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Starszy kucharz K/M",
+   "company": "PRZEDSZKOLE NR 9",
+   "location": "Makroregion województwo mazowieckie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Makroregion województwo mazowieckie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz (K/M)",
+   "company": "Dom Pomocy Społecznej \"WRZOS\"",
+   "location": "Makroregion województwo mazowieckie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz/pomoc kucharza (k/m)",
+   "company": "Wojewódzki Ośrodek Terapii Uzależnień w Gdańsku",
+   "location": "Pomorskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz(ka)",
+   "company": "Bartosz Segień Restauracja YAKIBAR",
+   "location": "Kujawsko-pomorskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Kucharz / kucharka",
+   "company": "SASTO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Dekorator/dekoratorka tortów",
+   "company": "P.P.U.H. DELO DAMIAN DELOWSKI",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Kucharz / kucharka",
+   "company": "SASTO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pracownik/Pracownica Restauracji",
+   "company": "M&D QUALION Maciej Maćkowiak",
+   "location": "Łódzkie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pracownik pomocniczy gastronomii (K/M)",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Podkarpackie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "PRACOWNIK RESTAURACJI",
+   "company": "MCDONALD'S POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Wielkopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pracownik gastronomii (K/M)",
+   "company": "BLUEBERRYOIL SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA (Autoport Opatówek - Stacja paliw BlueBerry)",
+   "location": "Wielkopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pracownik/ca pomocniczy/a gastronomii",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Zachodniopomorskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "pomocnik kucharza/kucharki",
+   "company": "F.H.U. SMAK KRZYSZTOF BĄKOWSKI",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "pracownik pomocniczy gastronomii",
+   "company": "Ochotnicze Hufce Pracy",
+   "location": "Podlaskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna (1/2 etatu)",
+   "company": "STOWARZYSZENIE ROZWOJU USŁUG HOTELOWYCH",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna (K/M)",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Wielkopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna K/M",
+   "company": "DOM POMOCY SPOŁECZNEJ \"SYRENA\"",
+   "location": "Makroregion województwo mazowieckie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna K/M",
+   "company": "Centrum Usług Logistycznych",
+   "location": "Makroregion województwo mazowieckie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kucharza K/M",
+   "company": "Przedszkole nr 66",
+   "location": "Makroregion województwo mazowieckie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna K/M",
+   "company": "EDYTA GALAS \"ETON\"",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna K/M",
+   "company": "KRAKOWSKA SPÓŁDZIELNIA GASTRONOMICZNA",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomocnik kucharza (k/m)",
+   "company": "POD TELEGRAFEM SPÓŁKA AKCYJNA",
+   "location": "Świętokrzyskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna (K/M)",
+   "company": "HOTEL \"SŁOWIK\" RESTAURACJA WALDEMAR SŁOWIK",
+   "location": "Lubelskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna (K/M)",
+   "company": "Kawiarnia \"Przy Jakubie\" MAŁGORZATA ZUBRZYCKA",
+   "location": "Dolnośląskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna K/M",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Kujawsko-pomorskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna (K/M)",
+   "company": "MINI-MARKET S.C Robert Świerk, Adrian Zygmunt",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "POMOC KUCHENNA (K/M)",
+   "company": "PRZEDSIĘBIORSTWO PRZEMYSŁU MIĘSNEGO TAURUS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚĆIĄ",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna K/M",
+   "company": "DOROTA LIPA \"Przystań U Lipy\" ; RESTAURACJA MANHATTAN",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna (m/k/x)",
+   "company": "Odejewski-Odan Sp. z o.o.",
+   "location": "Pomorskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Praca na kuchni",
+   "company": "Elżbieta Polińska, CHINA BAR KUCHNIA AZJATYCKA",
+   "location": "Wielkopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna (K/M)",
+   "company": "ADAM WĄSIK RESTAURACJA EXCLUSIVE",
+   "location": "Łódzkie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna - pracownik weekendowy (k/m)",
+   "company": "BAR RESTAURACYJNY \"URBANOWICZANKA\" JANUSZ SENCZEK",
+   "location": "Śląskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kucharza K/M",
+   "company": "TANGO JW SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Makroregion województwo mazowieckie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna",
+   "company": "Szkoła Podstawowa nr 46 im. Ludzi Morza w Gdańsku",
+   "location": "Pomorskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna (K/M)",
+   "company": "GRZEGORZ FILIPOWSKI RESTAURACJA \"SMAKI ŚWIATA'', IN.TRADE IMPORT EXPORT",
+   "location": "Małopolskie, Poland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Pomoc kuchenna",
+   "company": "RESTAURACJA - HOTEL \"U BOSMANA\" S.C. MIROSŁAWA I KAZIMIERZ SKIBA",
+   "location": "Kujawsko-pomorskie, Poland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharka / Kucharz",
+   "company": "Praca.pl",
+   "location": "Zawoja, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "PIZZERMAN",
+   "company": "Schiever Polska Sp. z o.o.",
+   "location": "Czeladź, Śląskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "PIZZERMAN/PIZZERWOMAN",
+   "company": "Schiever Polska Sp. z o.o.",
+   "location": "Bielsko-Biała, Śląskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharz / Kucharka",
+   "company": "Praca.pl",
+   "location": "Zawoja, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharz / Kucharka Radisson RED Kraków",
+   "company": "Radisson Hotel Group",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Kucharz / Kucharka",
+   "company": "Radisson Hotel Group",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Osoba do pracy w kuchni restauracyjnej",
+   "company": "Praca.pl",
+   "location": "Dąbrowa Górnicza, Śląskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine (Peruvian Restaurant)",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "KUCHARZ K/M",
+   "company": "Łódzki Klaster ICT",
+   "location": "Jędrzejów, Świętokrzyskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "adzuna",
+   "title": "Chef de Partie - Commis de Cuisine",
+   "company": "Ismira",
+   "location": "Kraków, małopolskie",
+   "provider": "Adzuna",
+   "role": "yes",
+   "place": "yes"
+  }
+ ]
+}

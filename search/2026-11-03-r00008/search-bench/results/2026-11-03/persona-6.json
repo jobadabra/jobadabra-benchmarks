@@ -1,0 +1,108 @@
+{
+ "persona": {
+  "family": "marketing",
+  "title": "Digital Marketing Manager",
+  "kind": "tech",
+  "city": "Zagreb",
+  "country": "Croatia",
+  "language": "Croatian"
+ },
+ "seed": "bench-judge-6",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 7,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Media Strategist (d/f/m)",
+   "company": "Jung von Matt",
+   "location": "Stuttgart; Remote",
+   "provider": "Jung von Matt",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Strategist (d/f/m)",
+   "company": "Jung von Matt",
+   "location": "Stuttgart; Remote",
+   "provider": "Jung von Matt",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Unsolicited application (d/f/m)",
+   "company": "Jung von Matt",
+   "location": "Stuttgart; Remote",
+   "provider": "Jung von Matt",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Join RGG's Talent Community!",
+   "company": "ruelala",
+   "location": "Global",
+   "provider": "ruelala",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Account Manager für Kaleido - Region Frankfurt, Mainz, Gießen, Aschaffenburg",
+   "company": "vicentra",
+   "location": "Remote job",
+   "provider": "vicentra",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Director Marketing",
+   "company": "vicentra",
+   "location": "Remote job",
+   "provider": "vicentra",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Marketing Manager - Germany",
+   "company": "vicentra",
+   "location": "Remote job",
+   "provider": "vicentra",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Join RGG's Talent Community!",
+   "company": "ruelala",
+   "location": "Global",
+   "provider": "ruelala",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Director Marketing",
+   "company": "vicentra",
+   "location": "Remote job",
+   "provider": "vicentra",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Marketing Manager - Germany",
+   "company": "vicentra",
+   "location": "Remote job",
+   "provider": "vicentra",
+   "role": "yes",
+   "place": "no"
+  }
+ ]
+}

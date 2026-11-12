@@ -1,0 +1,576 @@
+{
+ "persona": {
+  "family": "designer",
+  "title": "UX Designer",
+  "kind": "tech",
+  "city": "Lisbon",
+  "country": "Portugal",
+  "language": "Portuguese"
+ },
+ "seed": "bench-judge-10",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 58,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "UI & Visual Designer",
+   "company": "CRAE GROUP",
+   "location": "Remote",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Ecommerce Designer",
+   "company": "Naked Nutrition",
+   "location": "Remote",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Web & Digital Designer",
+   "company": "AllFeams",
+   "location": "Remote",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Design Builder",
+   "company": "Contrast UX",
+   "location": "remote",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Entrepreneurial Industrial Designer – Potential Path to Ownership",
+   "company": "Confidential",
+   "location": "Unspecified",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "unknown"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Strategist (d/f/m)",
+   "company": "Jung von Matt",
+   "location": "Stuttgart; Remote",
+   "provider": "Jung von Matt",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Unsolicited application (d/f/m)",
+   "company": "Jung von Matt",
+   "location": "Stuttgart; Remote",
+   "provider": "Jung von Matt",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Join RGG's Talent Community!",
+   "company": "ruelala",
+   "location": "Global",
+   "provider": "ruelala",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "UI & Visual Designer",
+   "company": "CRAE GROUP",
+   "location": "Remote",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Ecommerce Designer",
+   "company": "Naked Nutrition",
+   "location": "Remote",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Web & Digital Designer",
+   "company": "AllFeams",
+   "location": "Remote",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Product Design Builder",
+   "company": "Contrast UX",
+   "location": "remote",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Web Designer and Multimedia",
+   "company": "Inetum",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Staff Product Designer (AI Track)",
+   "company": "MEDvidi",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Digital Learning & AI Specialist",
+   "company": "Amgen",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UI Engineer",
+   "company": "Finsolutia",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Frontend Developer / UI Engineer em .NET/React",
+   "company": "Finsolutia",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Conversational Experience Designer",
+   "company": "Inetum",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Product Designer, BNPL Merchant Experience",
+   "company": "Tabby | تابي",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Product Designer, Customer Lifecycle",
+   "company": "Tabby | تابي",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX Design Specialist",
+   "company": "Amadeus",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Engineer",
+   "company": "Bounce",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "E-commerce Platform & CRO Lead",
+   "company": "Enovis",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Dev Web Mobile",
+   "company": "Adentis Portugal",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Frontend & Python Developer",
+   "company": "Axians Portugal",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX Researcher",
+   "company": "Renesas Electronics",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Designer",
+   "company": "Air Apps",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Web Experience Manager (Technical Implementation & CRO) - Contractor",
+   "company": "team.blue",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Design System Designer (Mid/Sen)",
+   "company": "Innovation Makers",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Conversational AI Designer",
+   "company": "Capgemini Engineering",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Creative Design Team Lead (AI & Performance Marketing)",
+   "company": "CapsLock",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Product Designer",
+   "company": "Bounce",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "999 - Candidatura Espontânea",
+   "company": "PPM Coachers",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Analista Sénior em Experiência do Utilizador",
+   "company": "Capgemini",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Churn  Specialist (US) | DTC E-commerce",
+   "company": "Foxelli Group",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Content Designer | Lisbon",
+   "company": "TransPerfect",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX/UI - Team Lead",
+   "company": "Innovation Makers",
+   "location": "Lisboa, Lisbon, Portugal",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Fullstack Developer",
+   "company": "Volkswagen Group Services Portugal",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Full Stack Engineer",
+   "company": "Surf Eye",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX/UI Optimization Specialist",
+   "company": "Nestlé USA",
+   "location": "Linda-a-Velha, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Content Marketing Manager",
+   "company": "Rydoo",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Outsystems Mobile Developer",
+   "company": "Welvaart",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "ESPECIALISTA DE MARKETING",
+   "company": "Life is Nice",
+   "location": "Oeiras, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Technical Manager - Platform Services Mobile Foundations",
+   "company": "Wellhub",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "IT Business Analyst – Salesforce & Digital User Experience (m/f/d)",
+   "company": "Siemens",
+   "location": "Amadora, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Associate Principal - COAA Scientific AI Lead - UK and EU (home-based or hybrid)",
+   "company": "IQVIA",
+   "location": "Oeiras, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Frontend Developer",
+   "company": "Vodafone",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Product Owner - Research and Ontology",
+   "company": "askblue",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Frontend Developer",
+   "company": "Axians | Digital Solutions - Tech Talent",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior AWS Cloud Engineer (m/f/d)",
+   "company": "Siemens",
+   "location": "Amadora, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Appian Developer - Low-Code Platforms",
+   "company": "Accenture",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Data Engineer Internship (m/f/x)",
+   "company": "Procter & Gamble",
+   "location": "Oeiras, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Mobile Engineer - React Native (100% Remote) - Worldwide",
+   "company": "Tether Operations Limited",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Design System Designer (Mid/Sen)",
+   "company": "Innovation Makers",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Staff Software Engineer, Frontend",
+   "company": "Block Labs",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Conversational AI Designer",
+   "company": "Capgemini Engineering",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Instructional Designer",
+   "company": "Feedzai",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "UX Designer",
+   "company": "hyphen",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Functional Analyst – Digital Channels Workforce",
+   "company": "Accenture",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Full Stack Software Developer",
+   "company": "Create IT",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Conversational Experience Designer 157",
+   "company": "MILESTONE II TECHNOLOGY, S.A.",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Conversational Experience Designer",
+   "company": "Inetum",
+   "location": "Lisboa, P11, Portugal",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  }
+ ]
+}

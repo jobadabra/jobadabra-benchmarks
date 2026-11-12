@@ -1,0 +1,4149 @@
+{
+ "persona": {
+  "family": "software",
+  "title": "Software Engineer",
+  "kind": "tech",
+  "city": "Helsinki",
+  "country": "Finland",
+  "language": "Finnish"
+ },
+ "seed": "bench-judge-9",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 272,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Principal/Senior  Software Engineer - Mobile App Monetization (Ad Server)",
+   "company": "PubMatic",
+   "location": "Bangalore, IN ; Pune, IN; Remote",
+   "provider": "PubMatic",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Performance Advertising Engineer",
+   "company": "PubMatic",
+   "location": "Pune, IN; Remote",
+   "provider": "PubMatic",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Consulting Solutions Engineer",
+   "company": "TheAdaptavistGroup",
+   "location": "Remote, it",
+   "provider": "TheAdaptavistGroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Technical Consultant",
+   "company": "TheAdaptavistGroup",
+   "location": "Remote, it",
+   "provider": "TheAdaptavistGroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Technical Consultant (Atlassian) Night shift",
+   "company": "TheAdaptavistGroup",
+   "location": "Remote, my",
+   "provider": "TheAdaptavistGroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Consultant - Atlassian (f/m/d) (German speaker)",
+   "company": "TheAdaptavistGroup",
+   "location": "Remote, de",
+   "provider": "TheAdaptavistGroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Agent  Platform Engineer",
+   "company": "nagarro1",
+   "location": "Remote, ro",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Agent Platform Engineer",
+   "company": "nagarro1",
+   "location": "Remote, pl",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Principal Engineer, ServiceNow (GRC and Legal)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Principal Engineer, ServiceNow (HAM)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Principal Engineer, ServiceNow(CMDB,ITOM,ITSM)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, ph",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, ca",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer (Adobe Campaign Adobe Real-Time CDP)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, .Net Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, ERP",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Hybris",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Hybris",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Java",
+   "company": "nagarro1",
+   "location": "Remote, ca",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Java",
+   "company": "nagarro1",
+   "location": "Remote, ph",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Javascript Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Mainframe",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, Mainframe",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, PHP Drupal",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, PHP Magento",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, PHP Magento",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Associate Staff Engineer, QA Automation",
+   "company": "nagarro1",
+   "location": "Remote, jp",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Enterprise Architect – Life Sciences industry",
+   "company": "nagarro1",
+   "location": "Remote, ro",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Enterprise Architect – Life Sciences industry",
+   "company": "nagarro1",
+   "location": "Remote, pl",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Principal Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Principal Engineer, PHP Drupal",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Principal Engineer, Sitecore Architect (Optimizely)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "SAP S/4 Principal Developer (m/f/d)",
+   "company": "nagarro1",
+   "location": "Remote, de",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior .NET Developer (AWS & Sitecore)",
+   "company": "nagarro1",
+   "location": "Remote, ro",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Dotnet Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Engineer, .Net Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Engineer, DevOps",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Engineer, Hybris",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Engineer, PHP Drupal",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Engineer, PHP Drupal",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior SAP Cloud Developer/Architect (m/f/d)",
+   "company": "nagarro1",
+   "location": "Remote, de",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, ph",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, ph",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, ca",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, fr",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, gb",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer (Senior Mendix Developer)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer ,Fastapp developer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, Delivery",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, DevOps",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, DevOps",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, DevOps",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, DevOps",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, ETL",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, Java",
+   "company": "nagarro1",
+   "location": "Remote, jp",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, Mobile Android",
+   "company": "nagarro1",
+   "location": "Remote, ae",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, PHP Magento",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, PHP Magento",
+   "company": "nagarro1",
+   "location": "Remote, ca",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, QA Automation",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Staff Engineer, ServiceNow (HAM)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer (Adobe Campaign Adobe Real-Time CDP)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer - QA Automation",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, .Net Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, .Net Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, .Net Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, ca",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, Big Data",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, CRM Salesforce (Einstein Analytics)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, ERP",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, ERP",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, ERP",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, ERP",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, ERP Dynamics",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, Java",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, Machine Learning",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, PHP",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, PHP Drupal",
+   "company": "nagarro1",
+   "location": "Remote, ph",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, PHP Drupal",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, PHP Lavavel",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, PHP- DRUPAL",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, QA Automation",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, QA Automation",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, QA Automation",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, ServiceNow (AI Ops & Event Management)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, ServiceNow (CMDB & ATF)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, ServiceNow (CMDB & Service Mapping)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, ServiceNow (HAM)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Staff Engineer, Sharepoint",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Sr. Forward Deployed AI Engineer (Remote Eligible in the UK)",
+   "company": "smartsheet",
+   "location": "-REMOTE, UK-",
+   "provider": "smartsheet",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Solution Architect",
+   "company": "talkdesk2",
+   "location": "Remote",
+   "provider": "talkdesk2",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Solutions Engineer - Healthcare & Life Sciences (Central & East)",
+   "company": "talkdesk2",
+   "location": "Remote - United Staes",
+   "provider": "talkdesk2",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior Technical Support Engineer - Telephony",
+   "company": "talkdesk2",
+   "location": "Remote",
+   "provider": "talkdesk2",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Support Engineer - Porting Team",
+   "company": "talkdesk2",
+   "location": "Remote",
+   "provider": "talkdesk2",
+   "role": "no",
+   "place": "remote"
+  },
+  {
+   "tool": "ours",
+   "title": "C++ Developer",
+   "company": "think-cell",
+   "location": "Germany (Remote)",
+   "provider": "think-cell",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Product Support Engineer",
+   "company": "tulip",
+   "location": "Japan - Remote",
+   "provider": "tulip",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Senior DevOps Engineer",
+   "company": "tulip",
+   "location": "Japan - Remote",
+   "provider": "tulip",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Security Engineer - Product",
+   "company": "wizinc",
+   "location": "Remote - Ireland",
+   "provider": "wizinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Security Engineer - Product",
+   "company": "wizinc",
+   "location": "Amsterdam, Netherlands; Remote - Netherlands",
+   "provider": "wizinc",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Security Engineer - Product",
+   "company": "wizinc",
+   "location": "London, UK; Remote - United Kingdom",
+   "provider": "wizinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Security Engineer - Product",
+   "company": "wizinc",
+   "location": "Madrid, Spain; Remote - Spain",
+   "provider": "wizinc",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Security Engineer - Product",
+   "company": "wizinc",
+   "location": "Paris, France; Remote - France",
+   "provider": "wizinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Solutions Engineer",
+   "company": "wizinc",
+   "location": "Remote - Japan",
+   "provider": "wizinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Solutions Engineer - Taiwan & Hong Kong",
+   "company": "wizinc",
+   "location": "Remote - Singapore",
+   "provider": "wizinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Sr. Partner Solutions Architect - CSP, APJ",
+   "company": "wizinc",
+   "location": "Remote - Singapore",
+   "provider": "wizinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Principal/Senior  Software Engineer - Mobile App Monetization (Ad Server)",
+   "company": "PubMatic",
+   "location": "Bangalore, IN ; Pune, IN; Remote",
+   "provider": "PubMatic",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Performance Advertising Engineer",
+   "company": "PubMatic",
+   "location": "Pune, IN; Remote",
+   "provider": "PubMatic",
+   "role": "yes",
+   "place": "remote"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Consulting Solutions Engineer",
+   "company": "TheAdaptavistGroup",
+   "location": "Remote, it",
+   "provider": "TheAdaptavistGroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Technical Consultant - Atlassian (f/m/d) (German speaker)",
+   "company": "TheAdaptavistGroup",
+   "location": "Remote, de",
+   "provider": "TheAdaptavistGroup",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "AI Agent  Platform Engineer",
+   "company": "nagarro1",
+   "location": "Remote, ro",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "AI Agent Platform Engineer",
+   "company": "nagarro1",
+   "location": "Remote, pl",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer, Big Data",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer, Big Data",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer, PHP",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer, Performance and Site Reliability",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer, ServiceNow (GRC and Legal)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer, ServiceNow (HAM)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Principal Engineer, ServiceNow(CMDB,ITOM,ITSM)",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Staff Engineer, .Net Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Staff Engineer, Hybris",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Staff Engineer, Hybris",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Staff Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Staff Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Staff Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Staff Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Staff Engineer, Javascript Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Staff Engineer, Mainframe",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Staff Engineer, Mainframe",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Staff Engineer, PHP Magento",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Associate Staff Engineer, PHP Magento",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Principal Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Principal Engineer, PHP Drupal",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior .NET Developer (AWS & Sitecore)",
+   "company": "nagarro1",
+   "location": "Remote, ro",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Dotnet Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Engineer",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Engineer",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Engineer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Engineer, .Net Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Engineer, DevOps",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Engineer, Hybris",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Engineer, PHP Drupal",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Engineer, PHP Drupal",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior SAP Cloud Developer/Architect (m/f/d)",
+   "company": "nagarro1",
+   "location": "Remote, de",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Staff Engineer ,Fastapp developer",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Staff Engineer, Cloud",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Staff Engineer, DevOps",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Staff Engineer, DevOps",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Staff Engineer, DevOps",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Staff Engineer, DevOps",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Staff Engineer, ETL",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Staff Engineer, PHP Magento",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Staff Engineer, PHP Magento",
+   "company": "nagarro1",
+   "location": "Remote, ca",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior Systems Engineer - Medical Industry",
+   "company": "nagarro1",
+   "location": "Remote, ro",
+   "provider": "nagarro1",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, .Net Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, .Net Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, .Net Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, ca",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, Java",
+   "company": "nagarro1",
+   "location": "Remote, lk",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, Java Fullstack",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, Machine Learning",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, PHP",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, PHP Drupal",
+   "company": "nagarro1",
+   "location": "Remote, ph",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, PHP Drupal",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, QA Automation",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, QA Automation",
+   "company": "nagarro1",
+   "location": "Remote, co",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, QA Automation",
+   "company": "nagarro1",
+   "location": "Remote, mx",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Staff Engineer, Sharepoint",
+   "company": "nagarro1",
+   "location": "Remote, in",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Z--Principal Engineer",
+   "company": "nagarro1",
+   "location": "Remote, fr",
+   "provider": "nagarro1",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Sr. Forward Deployed AI Engineer (Remote Eligible in the UK)",
+   "company": "smartsheet",
+   "location": "-REMOTE, UK-",
+   "provider": "smartsheet",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "C++ Developer",
+   "company": "think-cell",
+   "location": "Germany (Remote)",
+   "provider": "think-cell",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Senior DevOps Engineer",
+   "company": "tulip",
+   "location": "Japan - Remote",
+   "provider": "tulip",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Security Engineer - Product",
+   "company": "wizinc",
+   "location": "Remote - Ireland",
+   "provider": "wizinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Security Engineer - Product",
+   "company": "wizinc",
+   "location": "Amsterdam, Netherlands; Remote - Netherlands",
+   "provider": "wizinc",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Security Engineer - Product",
+   "company": "wizinc",
+   "location": "London, UK; Remote - United Kingdom",
+   "provider": "wizinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Security Engineer - Product",
+   "company": "wizinc",
+   "location": "Madrid, Spain; Remote - Spain",
+   "provider": "wizinc",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Security Engineer - Product",
+   "company": "wizinc",
+   "location": "Paris, France; Remote - France",
+   "provider": "wizinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Solutions Engineer",
+   "company": "wizinc",
+   "location": "Remote - Japan",
+   "provider": "wizinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours-all",
+   "title": "Solutions Engineer - Taiwan & Hong Kong",
+   "company": "wizinc",
+   "location": "Remote - Singapore",
+   "provider": "wizinc",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer | Technology & Data Solutions",
+   "company": "Tenth Revolution Group",
+   "location": "Helsinki Metropolitan Area",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer, Feature Engineering Platform",
+   "company": "Wolt",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Full Stack Software Engineer",
+   "company": "Siemens Healthineers",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Backend Developer – Alma Mobility Marketplaces",
+   "company": "Alma Media",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer (Microsoft/Azure)- Tieto Tech Consulting (m/f/d)",
+   "company": "Tieto",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Development Engineer III, Logistics API",
+   "company": "Mapbox",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer, Platform Delivery",
+   "company": "Aiven",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Fullstack Software Engineer, Kafka",
+   "company": "Aiven",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": ".NET Developer",
+   "company": "HiQ Finland",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer - AI Platform",
+   "company": "Smartly",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer",
+   "company": "Vaisala",
+   "location": "Vantaa, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Full-Stack Engineer",
+   "company": "Taiga",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer - Reporting Platform",
+   "company": "Smartly",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer I",
+   "company": "EnergyHub",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Developer",
+   "company": "Vastuu Group",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Full Stack -kehittäjä (.NET)",
+   "company": "Seure Henkilöstöpalvelut Oy",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Junior Software Engineer - Tieto Tech Consulting (m/f/d)",
+   "company": "Tieto",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer, Supercell ID (Client SDK)",
+   "company": "Supercell",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer",
+   "company": "Elekta",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer (C++, Qt)",
+   "company": "Talented: a Witted company",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer (Backend) - Global Marts",
+   "company": "Wolt",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Backend Engineer (Node.js/TypeScript, AWS)",
+   "company": "CUJO AI®",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Full-Stack Software Engineer (m/f/d)",
+   "company": "HYPE Innovation",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Java Engineer",
+   "company": "Finnplay",
+   "location": "Espoo, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Fullstack Engineer",
+   "company": "Siena AI",
+   "location": "Helsinki, Uusimaa, Finland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer (Editor)",
+   "company": "Smartly.io Solutions",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Full Stack Software Engineer",
+   "company": "Siemens Healthineers",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer, Data Platform",
+   "company": "NestAI",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer",
+   "company": "Vaisala",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Junior Software Engineer - Tieto Tech Consulting (m/f/d)",
+   "company": "Tieto",
+   "location": "Espoo, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer - Tieto Tech Consulting (m/f/d)",
+   "company": "Tieto",
+   "location": "Espoo, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Full Stack Developer",
+   "company": "AFRY",
+   "location": "Vantaa, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer (Autopsy)",
+   "company": "Smartly",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer, Platform Experience",
+   "company": "Siena AI",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Embedded Software Engineer (Rust/C++) – Automotive",
+   "company": "Unikie",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "AI-Driven Software & DevOps Engineer",
+   "company": "Nortal",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer",
+   "company": "Silicon Labs",
+   "location": "Espoo, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Control Software Engineer",
+   "company": "Softability",
+   "location": "Vantaa, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer",
+   "company": "GE HealthCare",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer",
+   "company": "Aiforia Technologies Plc",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Principal Software Engineer",
+   "company": "Zalando",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer",
+   "company": "Vuono Group",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Flight Software Deployment Engineer",
+   "company": "ICEYE",
+   "location": "Espoo, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Support Engineer",
+   "company": "Amdocs",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer (Developer Enablement)",
+   "company": "ICEYE",
+   "location": "Espoo, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Software Engineer, iOS & Android — eMSP & Driver Services",
+   "company": "Virta",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer, Large-Scale Data Systems",
+   "company": "Smartly",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Software Engineer, AI enabled development",
+   "company": "Gofore",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Senior Embedded Software Engineer",
+   "company": "Softability",
+   "location": "Vantaa, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Forward Deployed AI Software Engineer, Internship, Finland - BCG X",
+   "company": "Boston Consulting Group",
+   "location": "Helsinki, F19, Finland",
+   "provider": "JobSpy/indeed",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Software & Cloud Engineer, Aventra",
+   "company": "Biisoni",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Software Developer, SCADA",
+   "company": "Helen Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Software Developer - AWS & IoT",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Planning Engineer",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Data Engineer",
+   "company": "Barona IT Talent Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Hardware Engineer",
+   "company": "Creo Center",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "DevOps Engineer, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Planning Engineer",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Test Engineer (Senior / Specialist)",
+   "company": "Barona IT Talent Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Engineer, Insta Advance",
+   "company": "Biisoni",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Planning & Fulfillment Engineer, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "AI Engineer, Zoner, Vantaa",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Engineer (Microsoft Fabric)",
+   "company": "Punainen Risti, keskustoimisto",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vaski Group Oy / Pivatic: Lead Electrical Engineer (Hyvinkää)",
+   "company": "aTalent Recruiting Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Support Engineer, ABB, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Analytics Engineer, Finavia Oyj, Vantaa",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Granlund: Senior Full Stack Developer (C#, React)",
+   "company": "aTalent Recruiting Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Junior Software Developer - AI & Monitoring Systems",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Software Development Project Manager, Flexmill Oy, Nurmijärvi",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Engineer",
+   "company": "Beneq",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automaatioinsinööri (Design Engineer), Vantaa tai Tampere, AFRY",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automaatioinsinööri (Design Engineer), Vantaa tai Tampere, AFRY",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Staff Engineer",
+   "company": "Nordhealth",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Component Engineer",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Instrumentation Engineer",
+   "company": "Biisoni",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Power System Engineer, (PSCAD & PSS/E), Ampner Oy, Helsinki / Vaasa",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automation Service Engineer",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Trainee, Test Systems & Data",
+   "company": "Bluefors",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Design Engineer",
+   "company": "Bluefors",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automation Engineer, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Platform Engineer",
+   "company": "Forward Forever Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Supplier Development Engineer",
+   "company": "Wärtsilä Corporation",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Verification Engineer",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Package Engineer, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Test & Equipment Engineer",
+   "company": "Elmery Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commissioning Engineer, Electrical",
+   "company": "Wärtsilä Corporation",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kokenut Lead Cloud Platform Engineer: Azure-alustat ja AI ratkaisut",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Project Engineer, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Customer Solution Engineer, Hyvinkää",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Jr. Electronic engineer, Hyvinkää",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Electrical Design Engineer",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Supplier Quality & Development Engineer",
+   "company": "Bluefors",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Data Scientist / Engineer, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Testing & Design Engineer, Hyvinkää",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Engineer, Espoo or Lappeenranta",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Quality Engineer, Measurement Infrastructure",
+   "company": "Bluefors",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commissioning Engineer, Schneider Electric, Espoo, Kirkkonummi or Vihti",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Vehicle engineer and electric vehicle installer",
+   "company": "Rekkanova Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Documentation Engineer, Evac Oy, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Production Quality & Development Engineer",
+   "company": "Bluefors",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Electrical Solutions Engineer, Data Centers",
+   "company": "Eltel Networks Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Hands-on Data Center Deployment Engineer",
+   "company": "Nordecon Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Network & Infrastructure Engineer (Data Center)",
+   "company": "Nordecon Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BMS / Building Automation Engineers for Datacenter Projects",
+   "company": "Manpower",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "BMS / Building Automation Engineers for Datacenter Projects",
+   "company": "Manpower",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Engineer, Eaton Electric Oy, Vantaa",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Engineer, Eaton Electric Oy, Vantaa",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Nuclear Safety Engineer for energy sector, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Junior Mechanical Design Engineer – Kickstart Your Career in Engineering!",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Trainee for Cryogenic and Quantum Modelling (Fixed-Term)",
+   "company": "Bluefors",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Electrical Engineer - Data Centers, Compute Nordic",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Lead Mechanical Engineer - Data Centers, Compute Nordic",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Design Engineer – Custom Solutions & Product Development",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "NIMS-asiantuntija",
+   "company": "Worker Akatemia Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Civil QA/QC Engineer for CAM Plant Project, Kotka",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "POSTDOCTORAL RESEARCHER in Quantum Computing Middleware and Applications",
+   "company": "Helsingin yliopisto",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "On-Call Trainee",
+   "company": "Wärtsilä Corporation",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Sales Manager – Industrial Product Solutions",
+   "company": "Etteplan",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Junior Developer, Intern, or Thesis Worker — Rust and AI Applications",
+   "company": "Advaun Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Power Platform Advisor - AI & Solution Architecture",
+   "company": "Forward Forever Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Sales Manager – Industrial Digitalization Solutions",
+   "company": "Etteplan",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Fullstack Developer / Uusimaa",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Java Full-stack Developer",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Power BI & Fabric Developer",
+   "company": "Forward Forever Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automation Specialist",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Mechanical Engineering Manager",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Verification Lead",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "R&D Project Manager, Bluefors, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Harjoittelija, data engineering -tehtävät, Kanta-palvelut",
+   "company": "Kela",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "R&D Engineering Manager",
+   "company": "Bluefors",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "B2B Sales and Digital Marketing Intern",
+   "company": "Advaun Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Project Management and Construction Experts for International Industrial Projects",
+   "company": "Sweco Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Karaoke Host",
+   "company": "Skylance Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Administrative Assistant",
+   "company": "Inaya Enterprises Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Commissioning (Cx) Specialist, Data Centers",
+   "company": "Eltel Networks Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Automaatioasiantuntija",
+   "company": "Enersense Oyj",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sähkötöidenjohtajia",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Technical Implementation Manager",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Delivery Project Manager, Bluefors, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Team Lead / esihenkilö asiantuntijaorganisaatioon",
+   "company": "Despro Engineering Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Frontend Developers - Mobile / Web",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Frontend Developers - Mobile / Web",
+   "company": "Lokki Henkilöstöpalvelut Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sales Executive, Hypergene, Helsinki",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Datainsinööri Tietohallinto",
+   "company": "HUS Helsingin yliopistollinen sairaala",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior PCBA Test & Validation Specialist, Hyvinkää",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "QA Specialist for energy sector, Espoo",
+   "company": "Academic Work Finland Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Machinist, Bluefors Oy",
+   "company": "Barona Teollisuus Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Sähköinsinööri, tostek oy, harjoittelija sähköjakeluverkon suunnitteluun, Espoo",
+   "company": "tostek oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Projekti-insinööri",
+   "company": "ECHO Engineering",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pattern Master",
+   "company": "Reima Europe Oy",
+   "location": "Helsinki area (Helsinki-Uusimaa, FI1B1), Finland",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  }
+ ]
+}

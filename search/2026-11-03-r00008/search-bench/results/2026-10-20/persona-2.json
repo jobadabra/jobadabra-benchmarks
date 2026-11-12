@@ -1,0 +1,459 @@
+{
+ "persona": {
+  "family": "electrician",
+  "title": "Electrician",
+  "kind": "non-tech",
+  "city": "Cluj-Napoca",
+  "country": "Romania",
+  "language": "Romanian"
+ },
+ "seed": "bench-judge-2",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 48,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "ours",
+   "title": "Frigotehnist/Instalator in Iasi",
+   "company": "Dala HR",
+   "location": "Iași (Iași), RO; Podu Iloaiei, RO; Cucuteni (Lețcani), RO; Lețcani, RO; Erbiceni, RO",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Tehnician Sunet (Sunetist)",
+   "company": "Aleph News",
+   "location": "BUCURESTI ,",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Electrician MTJT - Slobozia",
+   "company": "Retele Electrice Romania",
+   "location": "Slobozia",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Angajam ELECTRICIAN instalare tablouri automatizare-legaturi electrice",
+   "company": "confidential",
+   "location": "Bucuresti, Sectorul 3",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ACORDO ICSM angajeaza Tehnician Electrician, Baia Mare",
+   "company": "ACORDO ICSM",
+   "location": "Baia Mare",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Angajam electrician si lacatus mecanic",
+   "company": "confidential",
+   "location": "Sancraiu de Mures",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Electrician MTJT - Ineu",
+   "company": "Retele Electrice Romania",
+   "location": "Ineu",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Electrician Mentenanță Zona Sud-Vest",
+   "company": "Retele Electrice Romania",
+   "location": "Bucuresti, Sectorul 6",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Tehnician sisteme de securitate / Electrician curenti slabi",
+   "company": "confidential",
+   "location": "Bucuresti, Sectorul 2",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Tehnician electrician mentenanță",
+   "company": "CTP GROUP",
+   "location": "Ploiesti",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Angajam Electrician in Constructii si Lacatus Mecanic",
+   "company": "confidential",
+   "location": "Ploiesti",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Angajăm electrician in constructii",
+   "company": "confidential",
+   "location": "Constanta",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "ELECTRICIAN – inalta, medie si joasa tensiune - Slatina",
+   "company": "ALRO SA",
+   "location": "Slatina",
+   "provider": "Job boards found",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Electrician montator de instalații electrice - Bucuresti",
+   "company": "Trigo",
+   "location": "Bucharest, ro",
+   "provider": "Trigo",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Electrician montator de instalații electrice - Bucuresti",
+   "company": "Trigo",
+   "location": "Bucharest, ro",
+   "provider": "Trigo",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Instalator",
+   "company": "via Hipo.ro",
+   "location": "Iasi, Iași, Timișoara",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "PV Field Technicians",
+   "company": "Alerion Service RO",
+   "location": "BUCURESTI , Ilfov ,",
+   "provider": "Job boards found",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Electrician",
+   "company": "Kronospan",
+   "location": "Sebeş, ro",
+   "provider": "Kronospan",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "Technical Services Controls Technician",
+   "company": "li-thermal-works",
+   "location": "Remote - Spain",
+   "provider": "li-thermal-works",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer - Fluent Nepali Speakers - Atlanta, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer - Fluent Nepali Speakers - Austin, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer - Fluent Nepali Speakers - Baltimore, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer - Fluent Nepali Speakers - Birmingham, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer - Fluent Nepali Speakers - Boston, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer - Fluent Nepali Speakers - Edinburgh, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer - Fluent Nepali Speakers - Folkestone, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer - Fluent Nepali Speakers - Houston, US",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer - Fluent Nepali Speakers - India",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer - Fluent Nepali Speakers - Liverpool, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer - Fluent Nepali Speakers - Manchester, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Brampton, Canada",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Dubai, UAE",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Kolhapur, India",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Leicester, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - London, UK",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Melbourne, Australia",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Mississauga, Canada",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Mumbai, India",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Nagpur, India",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Nashik, India",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Navi Mumbai, India",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Perth, Australia",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Pune, India",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Singapore",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Solapur, India",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Sydney, Australia",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Thane, India",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Toronto, Canada",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  },
+  {
+   "tool": "ours",
+   "title": "AI Trainer – Fluent Marathi Speaker - Vancouver, Canada",
+   "company": "prolificacademicltd",
+   "location": "Remote",
+   "provider": "prolificacademicltd",
+   "role": "no",
+   "place": "no"
+  }
+ ]
+}
