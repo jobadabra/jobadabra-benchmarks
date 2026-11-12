@@ -1,0 +1,211 @@
+[
+ {
+  "question": "Which location are you applying for?",
+  "type": "select-one",
+  "required": false,
+  "name": "opportunityLocationId",
+  "value": "",
+  "options": [
+   "Select...",
+   "Spain",
+   "Madrid",
+   "Barcelona",
+   "New York City, NY"
+  ],
+  "k": "81205bb812fe7c32",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No matching location option for Zurich"
+ },
+ {
+  "question": "Resume/CV ✱",
+  "type": "file",
+  "required": false,
+  "name": "resume",
+  "value": "cv.pdf",
+  "k": "c1cee27df6327bd4",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV file name given"
+ },
+ {
+  "question": "Full name ✱",
+  "type": "text",
+  "required": true,
+  "name": "name",
+  "value": "Ada Tester",
+  "k": "471a8de44da84d45",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches full name"
+ },
+ {
+  "question": "Email ✱",
+  "type": "email",
+  "required": true,
+  "name": "email",
+  "value": "ada.tester@example.test",
+  "k": "8aaf37a8bfdf975f",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches email"
+ },
+ {
+  "question": "Phone",
+  "type": "text",
+  "required": false,
+  "name": "phone",
+  "value": "+41 79 555 01 23",
+  "k": "1a337061084bcde5",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Phone matches"
+ },
+ {
+  "question": "Current location ✱",
+  "type": "text",
+  "required": true,
+  "name": "location",
+  "value": "Zürich, CHE",
+  "k": "5a5ce0c574ef5dbe",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zurich, Switzerland correct"
+ },
+ {
+  "question": "Current company",
+  "type": "text",
+  "required": false,
+  "name": "org",
+  "value": "Acme Cloud",
+  "k": "008a4ebcf6d5a4ea",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Acme Cloud from CV"
+ },
+ {
+  "question": "LinkedIn URL ✱",
+  "type": "text",
+  "required": true,
+  "name": "urls[LinkedIn]",
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "k": "1f83eeee651c84d9",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches LinkedIn"
+ },
+ {
+  "question": "Twitter URL",
+  "type": "text",
+  "required": false,
+  "name": "urls[Twitter]",
+  "value": "",
+  "k": "9f42979d83767b92",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No Twitter in facts"
+ },
+ {
+  "question": "GitHub URL",
+  "type": "text",
+  "required": false,
+  "name": "urls[GitHub]",
+  "value": "",
+  "k": "fd7a769f06a431b4",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No GitHub in facts"
+ },
+ {
+  "question": "Portfolio URL",
+  "type": "text",
+  "required": false,
+  "name": "urls[Portfolio]",
+  "value": "",
+  "k": "37f339764bcd5d31",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No portfolio in facts"
+ },
+ {
+  "question": "Tinybird",
+  "type": "text",
+  "required": false,
+  "name": "urls[Other]",
+  "value": "",
+  "k": "0f4fe79a40515c79",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Unclear question, not in facts"
+ },
+ {
+  "question": "Tell us about yourself!",
+  "type": "textarea",
+  "required": false,
+  "name": "cards[b38d4943-c7d2-4936-b707-0e4d8403fbb2][field0]",
+  "value": "I am a Senior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale. I am currently at Acme Cloud in Zurich. At Acme Cloud I run 400 microservices on Kubernetes (AWS EKS) and cut incident time by 40 percent with Datadog and OpenTelemetry. I built the Terraform platform used by 120 engineers and led an on-call rotation of 8 people. Before that, at Beta Systems in Berlin, I migrated 60 services to Kubernetes and introduced SLOs and error budgets.",
+  "k": "05cb8efab1afbcf5",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Consistent with CV and summary"
+ },
+ {
+  "question": "Gender",
+  "type": "select-one",
+  "required": false,
+  "name": "eeo[gender]",
+  "value": "Decline to self-identify",
+  "options": [
+   "Select ...",
+   "Male",
+   "Female",
+   "Decline to self-identify"
+  ],
+  "k": "af9435feae592a65",
+  "verdict": "right",
+  "answerable": false,
+  "note": "Decline is sensible fixed choice",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Race",
+  "type": "select-one",
+  "required": false,
+  "name": "eeo[race]",
+  "value": "Decline to self-identify",
+  "options": [
+   "Select ...",
+   "Hispanic or Latino",
+   "White (Not Hispanic or Latino)",
+   "Black or African American (Not Hispanic or Latino)",
+   "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)",
+   "Asian (Not Hispanic or Latino)",
+   "American Indian or Alaska Native (Not Hispanic or Latino)",
+   "Two or More Races (Not Hispanic or Latino)",
+   "Decline to self-identify"
+  ],
+  "k": "0fa3f39c5465cfc1",
+  "verdict": "right",
+  "answerable": false,
+  "note": "Decline is sensible fixed choice",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Veteran status",
+  "type": "select-one",
+  "required": false,
+  "name": "eeo[veteran]",
+  "value": "Decline to self-identify",
+  "options": [
+   "Select ...",
+   "I am a veteran",
+   "I am not a veteran",
+   "Decline to self-identify"
+  ],
+  "k": "8b3f4e7d51ee4856",
+  "verdict": "right",
+  "answerable": false,
+  "note": "Decline is sensible fixed choice",
+  "rule": "honest-draft-2026-10-27.3"
+ }
+]

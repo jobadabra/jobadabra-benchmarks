@@ -1,0 +1,465 @@
+[
+ {
+  "question": "Autofill from resume",
+  "type": "file",
+  "required": false,
+  "name": "",
+  "value": "",
+  "k": "1a1e3d8570765017",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV available, not uploaded"
+ },
+ {
+  "question": "Name",
+  "type": "text",
+  "required": true,
+  "name": "_systemfield_name",
+  "value": "Ada Tester",
+  "k": "07612c2013d37795",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Name matches"
+ },
+ {
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "name": "_systemfield_email",
+  "value": "",
+  "k": "f0dc30486b7f6352",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email known but not filled"
+ },
+ {
+  "question": "Resume",
+  "type": "file",
+  "required": true,
+  "name": "_systemfield_resume",
+  "value": "",
+  "k": "b50f137293ab62d7",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Resume required, not uploaded"
+ },
+ {
+  "question": "Phone",
+  "type": "text",
+  "required": true,
+  "name": "phone",
+  "value": "+41 79 555 01 23",
+  "k": "1a337061084bcde5",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Phone matches"
+ },
+ {
+  "question": "Cover Letter",
+  "type": "file",
+  "required": false,
+  "name": "cover_letter",
+  "value": "",
+  "k": "639640f30f7d3c5e",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No cover letter file given"
+ },
+ {
+  "question": "LinkedIn Profile",
+  "type": "text",
+  "required": false,
+  "name": "question_10555855007",
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "k": "a8bfdaec2cd948e1",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches LinkedIn URL"
+ },
+ {
+  "question": "Website",
+  "type": "text",
+  "required": false,
+  "name": "question_10555856007",
+  "value": "",
+  "k": "e984407b17cc86df",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No website in facts"
+ },
+ {
+  "question": "What is your current age?",
+  "type": "radio",
+  "required": false,
+  "name": "577c31bb-17a1-4e1c-a252-4ffa6818379f_cf0f1bc7-7ce6-4eb3-aebc-b6562141cb68",
+  "value": "",
+  "options": [
+   "Under 30",
+   "30-39",
+   "40-49",
+   "50-59",
+   "60 or older",
+   "I prefer not to answer"
+  ],
+  "k": "3ca483359d768974",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Age not in facts"
+ },
+ {
+  "question": "What is your gender identity?",
+  "type": "radio",
+  "required": false,
+  "name": "577c31bb-17a1-4e1c-a252-4ffa6818379f_8d7dcc65-3a0b-476a-b679-574b869780bb",
+  "value": "",
+  "options": [
+   "Man",
+   "Woman",
+   "Non-Binary",
+   "Another Gender Identity",
+   "I prefer not to answer"
+  ],
+  "k": "891a97f8e20d9c45",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Gender not in facts"
+ },
+ {
+  "question": "Do you identify as transgender?",
+  "type": "radio",
+  "required": false,
+  "name": "577c31bb-17a1-4e1c-a252-4ffa6818379f_0a90dc7e-908c-449f-9151-95612d844b10",
+  "value": "",
+  "options": [
+   "Yes",
+   "No",
+   "I prefer not to answer"
+  ],
+  "k": "c0ddf7e75a61972e",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Not in facts"
+ },
+ {
+  "question": "Bisexual",
+  "type": "checkbox",
+  "required": false,
+  "name": "Bisexual",
+  "value": "",
+  "options": [
+   "Bisexual"
+  ],
+  "k": "0026dcf701de1b91",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Orientation not in facts"
+ },
+ {
+  "question": "Lesbian",
+  "type": "checkbox",
+  "required": false,
+  "name": "Lesbian",
+  "value": "",
+  "options": [
+   "Lesbian"
+  ],
+  "k": "32867a53e365e679",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Orientation not in facts"
+ },
+ {
+  "question": "Gay",
+  "type": "checkbox",
+  "required": false,
+  "name": "Gay",
+  "value": "",
+  "options": [
+   "Gay"
+  ],
+  "k": "206dbfb7e6595136",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Orientation not in facts"
+ },
+ {
+  "question": "Queer",
+  "type": "checkbox",
+  "required": false,
+  "name": "Queer",
+  "value": "",
+  "options": [
+   "Queer"
+  ],
+  "k": "ec817ac543eec0a0",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Not in facts"
+ },
+ {
+  "question": "Heterosexual / straight",
+  "type": "checkbox",
+  "required": false,
+  "name": "Heterosexual / straight",
+  "value": "",
+  "options": [
+   "Heterosexual / straight"
+  ],
+  "k": "edc42d85301029a7",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Orientation not in facts"
+ },
+ {
+  "question": "Diversity SurveyThis optional survey helps us evaluate our diversity and inclusion efforts. Participation is voluntary and refusal to submit the survey will not affect your job application. The answers to these questions are not seen on an individualized basis and your submission will only be used t",
+  "type": "checkbox",
+  "required": false,
+  "name": "Other",
+  "value": "",
+  "options": [
+   "Other",
+   "Other"
+  ],
+  "k": "1642d10be94e5b65",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Not in facts"
+ },
+ {
+  "question": "Diversity SurveyThis optional survey helps us evaluate our diversity and inclusion efforts. Participation is voluntary and refusal to submit the survey will not affect your job application. The answers to these questions are not seen on an individualized basis and your submission will only be used t",
+  "type": "checkbox",
+  "required": false,
+  "name": "I prefer not to answer",
+  "value": "",
+  "options": [
+   "I prefer not to answer",
+   "I prefer not to answer",
+   "I prefer not to answer"
+  ],
+  "k": "4f38cdfc3118ff73",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Optional survey, not in facts"
+ },
+ {
+  "question": "Asian or Asian American",
+  "type": "checkbox",
+  "required": false,
+  "name": "Asian or Asian American",
+  "value": "",
+  "options": [
+   "Asian or Asian American"
+  ],
+  "k": "5166ff370d8661a1",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Race not in facts"
+ },
+ {
+  "question": "Black or African American",
+  "type": "checkbox",
+  "required": false,
+  "name": "Black or African American",
+  "value": "",
+  "options": [
+   "Black or African American"
+  ],
+  "k": "3b2db155868b213e",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Race not in facts"
+ },
+ {
+  "question": "Hispanic or Latine",
+  "type": "checkbox",
+  "required": false,
+  "name": "Hispanic or Latine",
+  "value": "",
+  "options": [
+   "Hispanic or Latine"
+  ],
+  "k": "90514c733a42a7e2",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Ethnicity not in facts"
+ },
+ {
+  "question": "Indigenous or Native American",
+  "type": "checkbox",
+  "required": false,
+  "name": "Indigenous or Native American",
+  "value": "",
+  "options": [
+   "Indigenous or Native American"
+  ],
+  "k": "f683f5320f03a921",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Not in facts"
+ },
+ {
+  "question": "Native Hawaiian or Other Pacific Islander",
+  "type": "checkbox",
+  "required": false,
+  "name": "Native Hawaiian or Other Pacific Islander",
+  "value": "",
+  "options": [
+   "Native Hawaiian or Other Pacific Islander"
+  ],
+  "k": "034941367e3d9638",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Not in facts"
+ },
+ {
+  "question": "White",
+  "type": "checkbox",
+  "required": false,
+  "name": "White",
+  "value": "",
+  "options": [
+   "White"
+  ],
+  "k": "64930a4e77abbbd0",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Race not in facts"
+ },
+ {
+  "question": "Person with disability",
+  "type": "checkbox",
+  "required": false,
+  "name": "Person with disability",
+  "value": "",
+  "options": [
+   "Person with disability"
+  ],
+  "k": "7e80ae44d0948395",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Not in facts"
+ },
+ {
+  "question": "Neurodiverse",
+  "type": "checkbox",
+  "required": false,
+  "name": "Neurodiverse",
+  "value": "",
+  "options": [
+   "Neurodiverse"
+  ],
+  "k": "6bbf9be858024664",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Not in facts"
+ },
+ {
+  "question": "Veteran",
+  "type": "checkbox",
+  "required": false,
+  "name": "Veteran",
+  "value": "",
+  "options": [
+   "Veteran"
+  ],
+  "k": "d747a30483edb92e",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Veteran status not in facts"
+ },
+ {
+  "question": "Parent",
+  "type": "checkbox",
+  "required": false,
+  "name": "Parent",
+  "value": "",
+  "options": [
+   "Parent"
+  ],
+  "k": "5653d5551dc96a12",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Parent status not in facts"
+ },
+ {
+  "question": "Refugee or immigrant",
+  "type": "checkbox",
+  "required": false,
+  "name": "Refugee or immigrant",
+  "value": "",
+  "options": [
+   "Refugee or immigrant"
+  ],
+  "k": "b869e4fb7a9f897b",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Not in facts"
+ },
+ {
+  "question": "None of the above",
+  "type": "checkbox",
+  "required": false,
+  "name": "None of the above",
+  "value": "",
+  "options": [
+   "None of the above"
+  ],
+  "k": "2a5d483c6605758c",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Not in facts"
+ },
+ {
+  "question": "GenderInput gender",
+  "type": "radio",
+  "required": false,
+  "name": "84cca410-342e-4edc-8ca3-5df95d7bc780__systemfield_eeoc_gender",
+  "value": "",
+  "options": [
+   "Male",
+   "Female",
+   "Decline to self-identify"
+  ],
+  "k": "891d8447c5a8763c",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Gender not in facts"
+ },
+ {
+  "question": "Race - A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race. - A person having origins in any of the original peoples of Europe, the Middle East, or North Africa. - A person having origins in any of the Black racial groups of Afri",
+  "type": "radio",
+  "required": false,
+  "name": "84cca410-342e-4edc-8ca3-5df95d7bc780__systemfield_eeoc_race",
+  "value": "",
+  "options": [
+   "Hispanic or Latino",
+   "White (Not Hispanic or Latino)",
+   "Black or African American (Not Hispanic or Latino)",
+   "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)",
+   "Asian (Not Hispanic or Latino)",
+   "American Indian or Alaska Native (Not Hispanic or Latino)",
+   "Two or More Races (Not Hispanic or Latino)",
+   "Decline to self-identify"
+  ],
+  "k": "8eb8b8d4b87ccc79",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Race not in facts"
+ },
+ {
+  "question": "Veteran Status",
+  "type": "radio",
+  "required": false,
+  "name": "84cca410-342e-4edc-8ca3-5df95d7bc780__systemfield_eeoc_veteran_status",
+  "value": "",
+  "options": [
+   "I identify as one or more of the classifications of protected veteran listed above",
+   "I am not a protected veteran",
+   "I decline to self-identify for protected veteran status"
+  ],
+  "k": "d63a4fcdd891bd8b",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Veteran status not in facts"
+ }
+]

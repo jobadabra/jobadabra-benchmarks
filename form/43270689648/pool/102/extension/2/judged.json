@@ -1,0 +1,180 @@
+[
+ {
+  "question": "First Name*",
+  "type": "text",
+  "required": true,
+  "name": "first_name",
+  "value": "Ada",
+  "k": "79f00b5ff313b8f3",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches first name"
+ },
+ {
+  "question": "Last Name*",
+  "type": "text",
+  "required": true,
+  "name": "last_name",
+  "value": "Tester",
+  "k": "cabcac7c4314257f",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches last name"
+ },
+ {
+  "question": "Email*",
+  "type": "text",
+  "required": true,
+  "name": "email",
+  "value": "ada.tester@example.test",
+  "k": "76bcf4d50dd390e2",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches email"
+ },
+ {
+  "question": "Country",
+  "type": "text",
+  "required": false,
+  "name": "country",
+  "value": "+41",
+  "k": "90366aedbc5109bb",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Swiss dial code +41"
+ },
+ {
+  "question": "Phone",
+  "type": "tel",
+  "required": false,
+  "name": "phone",
+  "value": "795550123",
+  "k": "123744fec7986a96",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Phone digits without country code"
+ },
+ {
+  "question": "Resume/CV*",
+  "type": "file",
+  "required": true,
+  "name": "resume",
+  "value": "",
+  "k": "10b9cdae763edf1e",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "CV upload left empty; a CV exists; twin of the uploaded CV box",
+  "twin": true
+ },
+ {
+  "question": "Cover Letter",
+  "type": "file",
+  "required": false,
+  "name": "cover_letter",
+  "value": "",
+  "k": "639640f30f7d3c5e",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Optional cover letter; no file given in facts",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "School*",
+  "type": "text",
+  "required": true,
+  "name": "school--0",
+  "value": "Other",
+  "k": "d21a8dc5d7959097",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Education is Example University; 'Other' is a sensible dropdown choice"
+ },
+ {
+  "question": "Degree*",
+  "type": "text",
+  "required": true,
+  "name": "degree--0",
+  "value": "Bachelor's Degree",
+  "k": "7b35218b09336fb1",
+  "verdict": "right",
+  "answerable": true,
+  "note": "BSc is a bachelor's"
+ },
+ {
+  "question": "Discipline*",
+  "type": "text",
+  "required": true,
+  "name": "discipline--0",
+  "value": "Computer Science",
+  "k": "a08497b52de9396d",
+  "verdict": "right",
+  "answerable": true,
+  "note": "BSc Computer Science"
+ },
+ {
+  "question": "Start date year*",
+  "type": "number",
+  "required": true,
+  "name": "start-year--0",
+  "value": "2014",
+  "k": "1fed186bab0717ea",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Education start 2014"
+ },
+ {
+  "question": "End date year*",
+  "type": "number",
+  "required": true,
+  "name": "end-year--0",
+  "value": "2018",
+  "k": "3582c1099a1398b7",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Education end 2018"
+ },
+ {
+  "question": "LinkedIn Profile",
+  "type": "text",
+  "required": false,
+  "name": "question_12859325007",
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "k": "a8bfdaec2cd948e1",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches LinkedIn"
+ },
+ {
+  "question": "Github Link",
+  "type": "text",
+  "required": false,
+  "name": "question_12859560007",
+  "value": "",
+  "k": "40f7fad808aa6308",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No GitHub in facts"
+ },
+ {
+  "question": "Any other links you'd like us to review & consider?",
+  "type": "text",
+  "required": false,
+  "name": "question_12859326007",
+  "value": "",
+  "k": "3f435b294051cb97",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No other links given"
+ },
+ {
+  "question": "Resume/CV*",
+  "type": "file",
+  "required": true,
+  "name": "",
+  "value": "cv.pdf",
+  "k": "535012ffba29b5e7",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV file name counts as value"
+ }
+]

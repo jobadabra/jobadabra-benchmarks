@@ -1,0 +1,42 @@
+{
+ "tool": "browser-use",
+ "url": "https://job-boards.greenhouse.io/humeai/jobs/4775962008",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 5,
+ "final": "Filled the Greenhouse application at https://job-boards.greenhouse.io/humeai/jobs/4775962008 without submitting.\n\nFilled from the facts:\n- First Name: Ada\n- Last Name: Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23 (country code shows Switzerland +41)\n- Resume/CV: uploaded /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf (shows cv.pdf)\n- Location: Zurich, Switzerland\n\nLeft empty because the facts don't answer them:\n- Why Hume? (free-text essay)\n- Are you legally authorized to work in the United States without sponsorship? (facts only",
+ "completed": true,
+ "tokens": {
+  "in": 38720,
+  "out": 6251,
+  "cacheRead": 73003,
+  "cacheWrite": 0,
+  "calls": 6
+ },
+ "usd": 0.007727530000000001,
+ "longCalls": 0,
+ "maxCallIn": 19986,
+ "usdReportedByTool": 0.007727529999999999,
+ "seconds": 37,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST grnhse-prod-jben-us-east-1.s3.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 41,
+ "score": {
+  "fields": 10,
+  "right": 6,
+  "wrong": 0,
+  "emptyShouldFill": 1,
+  "emptyOk": 3,
+  "emptyRequired": 2,
+  "requiredTotal": 5
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

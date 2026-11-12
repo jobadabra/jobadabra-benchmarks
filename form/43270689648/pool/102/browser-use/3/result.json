@@ -1,0 +1,42 @@
+{
+ "tool": "browser-use",
+ "url": "https://job-boards.greenhouse.io/safariai/jobs/5233682007",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 10,
+ "final": "The application at https://job-boards.greenhouse.io/safariai/jobs/5233682007 is filled but NOT submitted. Submit application was never pressed.\n\nFilled:\n- First Name: Ada\n- Last Name: Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23\n- Country: Switzerland (+41)\n- Resume/CV: cv.pdf uploaded from /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf\n- LinkedIn Profile: https://www.linkedin.com/in/ada-tester\n\nLeft empty (not answered by the applicant facts, or flagged):\n- Education: School, Degree, Discipline, Start date year, End date year. T",
+ "completed": true,
+ "tokens": {
+  "in": 82022,
+  "out": 14750,
+  "cacheRead": 145373,
+  "cacheWrite": 0,
+  "calls": 11
+ },
+ "usd": 0.01703093,
+ "longCalls": 0,
+ "maxCallIn": 21523,
+ "usdReportedByTool": 0.01703093,
+ "seconds": 89.2,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST grnhse-prod-jben-us-west-2.s3.us-west-2.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 93,
+ "score": {
+  "fields": 15,
+  "right": 6,
+  "wrong": 0,
+  "emptyShouldFill": 7,
+  "emptyOk": 2,
+  "emptyRequired": 5,
+  "requiredTotal": 8
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

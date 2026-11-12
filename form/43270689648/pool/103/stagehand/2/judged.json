@@ -1,0 +1,632 @@
+[
+ {
+  "question": "Autofill from resume",
+  "type": "file",
+  "required": false,
+  "name": "",
+  "value": "",
+  "k": "1a1e3d8570765017",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV not uploaded"
+ },
+ {
+  "question": "Legal First Name",
+  "type": "text",
+  "required": true,
+  "name": "dd856c04-2a92-4fc5-8bd9-cc273166f71d",
+  "value": "Ada",
+  "k": "1f4ef564f6fe96ed",
+  "verdict": "right",
+  "answerable": true,
+  "note": "first name correct"
+ },
+ {
+  "question": "Legal Last Name",
+  "type": "text",
+  "required": true,
+  "name": "e84542a7-10ca-4bbe-b0b2-683455e5aafa",
+  "value": "",
+  "k": "40fcc7e120410cc4",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "last name missed"
+ },
+ {
+  "question": "Preferred First & Last Name",
+  "type": "text",
+  "required": true,
+  "name": "_systemfield_name",
+  "value": "",
+  "k": "3e12d88f162304fd",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "name missed"
+ },
+ {
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "name": "_systemfield_email",
+  "value": "TAaeddsaat .eTtreesstteerr@example.",
+  "k": "e7440f62a1cb3134",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "garbled email"
+ },
+ {
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "name": "493acef8-1825-4df3-9758-170fb4db5153",
+  "value": "",
+  "k": "f522b61487f304bd",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "phone missed"
+ },
+ {
+  "question": "LinkedIn",
+  "type": "text",
+  "required": true,
+  "name": "e154a801-3592-44fb-bb52-bcd2d1f97539",
+  "value": "",
+  "k": "06f587c3399272c5",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "LinkedIn missed"
+ },
+ {
+  "question": "Resume",
+  "type": "file",
+  "required": false,
+  "name": "_systemfield_resume",
+  "value": "",
+  "k": "b50f137293ab62d7",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV not uploaded"
+ },
+ {
+  "question": "What's your favorite junk food?",
+  "type": "text",
+  "required": false,
+  "name": "e663a1df-f766-4dc4-bdbf-fc7a706cd869",
+  "value": "",
+  "k": "fd37f0e5139d5b2e",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Are you legally authorized to work in the United Kingdom?",
+  "type": "radio",
+  "required": false,
+  "name": "d11f6675-7fa5-47cf-a325-42cd4dfe00b5_382c29fd-9cb2-4c67-850f-2972437b4d88",
+  "value": "",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "k": "3a249515b888c206",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "UK authorization not stated"
+ },
+ {
+  "question": "Will you now or in the future require visa sponsorship to work in the United Kingdom?",
+  "type": "radio",
+  "required": false,
+  "name": "d11f6675-7fa5-47cf-a325-42cd4dfe00b5_8b7d545e-21e1-42b5-8b05-b936be20afdd",
+  "value": "",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "k": "4d88dd8a90e41c8f",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "UK sponsorship not stated"
+ },
+ {
+  "question": "Are you able to work from London?Sierra believes working alongside one another as a team is an important part of building great products and a great culture. We are primarily an in-person company. Does that work for you?",
+  "type": "radio",
+  "required": false,
+  "name": "d11f6675-7fa5-47cf-a325-42cd4dfe00b5_923d33ee-238d-4b7a-95f3-c99cd426cb2b",
+  "value": "",
+  "options": [
+   "Yes, and I currently live in the London area.",
+   "Yes, and while I do not currently live in the London area, I am open to relocation.",
+   "No or Other. Please add more details in the \"Anything else\" section below."
+  ],
+  "k": "d202f2ce5476c051",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "open to relocation; missed"
+ },
+ {
+  "question": "We use Metaview, an AI notetaking tool, to streamline interviews by recording and summarizing discussions, enabling interviewers to be fully present without manual notetaking. With your approval, it silently records notes during interviews. Can Metaview transcribe all your interviews?",
+  "type": "radio",
+  "required": false,
+  "name": "d11f6675-7fa5-47cf-a325-42cd4dfe00b5_a81a45d4-4813-4d85-a54d-2564ef19a179",
+  "value": "",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "k": "22e79c6e51366ad9",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "How did you hear about this opportunity?",
+  "type": "radio",
+  "required": false,
+  "name": "d11f6675-7fa5-47cf-a325-42cd4dfe00b5_c1cdd30e-64d9-4c70-b28e-16fa7a96821c",
+  "value": "",
+  "options": [
+   "Blog or news article",
+   "Company website",
+   "Current employee",
+   "Event",
+   "LinkedIn",
+   "Other",
+   "Podcast",
+   "Search engine"
+  ],
+  "k": "d990a96f51145f93",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "facts don't say"
+ },
+ {
+  "question": "Anything else? (Optional)",
+  "type": "textarea",
+  "required": false,
+  "name": "feaa92b1-1afa-4393-8bdb-608b5483eb5a",
+  "value": "",
+  "k": "033b29dd8f0ee68f",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "optional free text"
+ },
+ {
+  "question": "By submitting, I acknowledge my personal data will be processed in accordance with Sierra’s Privacy Policy.",
+  "type": "checkbox",
+  "required": false,
+  "name": "",
+  "value": "",
+  "options": [
+   "on"
+  ],
+  "k": "8477ab3eace68f08",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "consent not ticked"
+ },
+ {
+  "question": "What is your current age?",
+  "type": "radio",
+  "required": false,
+  "name": "dbee663c-4554-408a-9ea4-ee95d92f3328_cf0f1bc7-7ce6-4eb3-aebc-b6562141cb68",
+  "value": "",
+  "options": [
+   "Under 30",
+   "30-39",
+   "40-49",
+   "50-59",
+   "60 or older",
+   "I prefer not to answer"
+  ],
+  "k": "3ca483359d768974",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "age not in facts"
+ },
+ {
+  "question": "What is your gender identity?",
+  "type": "radio",
+  "required": false,
+  "name": "dbee663c-4554-408a-9ea4-ee95d92f3328_8d7dcc65-3a0b-476a-b679-574b869780bb",
+  "value": "",
+  "options": [
+   "Man",
+   "Woman",
+   "I prefer not to answer"
+  ],
+  "k": "4e75ffb0228cafdb",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Do you identify as transgender?",
+  "type": "radio",
+  "required": false,
+  "name": "dbee663c-4554-408a-9ea4-ee95d92f3328_0a90dc7e-908c-449f-9151-95612d844b10",
+  "value": "",
+  "options": [
+   "Yes",
+   "No",
+   "I prefer not to answer"
+  ],
+  "k": "c0ddf7e75a61972e",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Bisexual",
+  "type": "checkbox",
+  "required": false,
+  "name": "Bisexual",
+  "value": "",
+  "options": [
+   "Bisexual"
+  ],
+  "k": "0026dcf701de1b91",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Lesbian",
+  "type": "checkbox",
+  "required": false,
+  "name": "Lesbian",
+  "value": "",
+  "options": [
+   "Lesbian"
+  ],
+  "k": "32867a53e365e679",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Gay",
+  "type": "checkbox",
+  "required": false,
+  "name": "Gay",
+  "value": "",
+  "options": [
+   "Gay"
+  ],
+  "k": "206dbfb7e6595136",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Queer",
+  "type": "checkbox",
+  "required": false,
+  "name": "Queer",
+  "value": "",
+  "options": [
+   "Queer"
+  ],
+  "k": "ec817ac543eec0a0",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Heterosexual / straight",
+  "type": "checkbox",
+  "required": false,
+  "name": "Heterosexual / straight",
+  "value": "",
+  "options": [
+   "Heterosexual / straight"
+  ],
+  "k": "edc42d85301029a7",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Other",
+  "type": "checkbox",
+  "required": false,
+  "name": "Other",
+  "value": "",
+  "options": [
+   "Other"
+  ],
+  "k": "7140494d64549b59",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Diversity SurveyThis optional survey is collected by Sierra Technologies, Inc. to help us evaluate our diversity and inclusion efforts. Participation is voluntary and refusal to submit the survey will not affect your job application. If you submit the survey, your responses will not be used to asses",
+  "type": "checkbox",
+  "required": false,
+  "name": "I prefer not to answer",
+  "value": "",
+  "options": [
+   "I prefer not to answer",
+   "I prefer not to answer",
+   "I prefer not to answer"
+  ],
+  "k": "bdb266d6c208ce62",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "optional survey"
+ },
+ {
+  "question": "Asian or Asian British",
+  "type": "checkbox",
+  "required": false,
+  "name": "Asian or Asian British",
+  "value": "",
+  "options": [
+   "Asian or Asian British"
+  ],
+  "k": "ccf8e1d2cce4f6fd",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Black or Black British",
+  "type": "checkbox",
+  "required": false,
+  "name": "Black or Black British",
+  "value": "",
+  "options": [
+   "Black or Black British"
+  ],
+  "k": "6fc598e2f290da2f",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Mixed or Multiple Ethnic Groups",
+  "type": "checkbox",
+  "required": false,
+  "name": "Mixed or Multiple Ethnic Groups",
+  "value": "",
+  "options": [
+   "Mixed or Multiple Ethnic Groups"
+  ],
+  "k": "3c9cbd140f51a4d6",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "White",
+  "type": "checkbox",
+  "required": false,
+  "name": "White",
+  "value": "",
+  "options": [
+   "White"
+  ],
+  "k": "64930a4e77abbbd0",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Person with disability",
+  "type": "checkbox",
+  "required": false,
+  "name": "Person with disability",
+  "value": "",
+  "options": [
+   "Person with disability"
+  ],
+  "k": "7e80ae44d0948395",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Neurodiverse",
+  "type": "checkbox",
+  "required": false,
+  "name": "Neurodiverse",
+  "value": "",
+  "options": [
+   "Neurodiverse"
+  ],
+  "k": "6bbf9be858024664",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Veteran",
+  "type": "checkbox",
+  "required": false,
+  "name": "Veteran",
+  "value": "",
+  "options": [
+   "Veteran"
+  ],
+  "k": "d747a30483edb92e",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Parent",
+  "type": "checkbox",
+  "required": false,
+  "name": "Parent",
+  "value": "",
+  "options": [
+   "Parent"
+  ],
+  "k": "5653d5551dc96a12",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Refugee or immigrant",
+  "type": "checkbox",
+  "required": false,
+  "name": "Refugee or immigrant",
+  "value": "",
+  "options": [
+   "Refugee or immigrant"
+  ],
+  "k": "b869e4fb7a9f897b",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "None of the above",
+  "type": "checkbox",
+  "required": false,
+  "name": "None of the above",
+  "value": "",
+  "options": [
+   "None of the above"
+  ],
+  "k": "2a5d483c6605758c",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Are you legally authorized to work in the United Kingdom?",
+  "type": "radio",
+  "required": false,
+  "name": "5140bbff-90e5-4dc4-ac77-c079c6ca4e7f_382c29fd-9cb2-4c67-850f-2972437b4d88",
+  "value": "",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "k": "3a249515b888c206",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "UK authorization not stated"
+ },
+ {
+  "question": "Will you now or in the future require visa sponsorship to work in the United Kingdom?",
+  "type": "radio",
+  "required": false,
+  "name": "5140bbff-90e5-4dc4-ac77-c079c6ca4e7f_8b7d545e-21e1-42b5-8b05-b936be20afdd",
+  "value": "",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "k": "4d88dd8a90e41c8f",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "UK sponsorship not stated"
+ },
+ {
+  "question": "Are you able to work from London?Sierra believes working alongside one another as a team is an important part of building great products and a great culture. We are primarily an in-person company. Does that work for you?",
+  "type": "radio",
+  "required": false,
+  "name": "5140bbff-90e5-4dc4-ac77-c079c6ca4e7f_923d33ee-238d-4b7a-95f3-c99cd426cb2b",
+  "value": "",
+  "options": [
+   "Yes, and I currently live in the London area.",
+   "Yes, and while I do not currently live in the London area, I am open to relocation.",
+   "No or Other. Please add more details in the \"Anything else\" section below."
+  ],
+  "k": "d202f2ce5476c051",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "open to relocation; missed"
+ },
+ {
+  "question": "We use Metaview, an AI notetaking tool, to streamline interviews by recording and summarizing discussions, enabling interviewers to be fully present without manual notetaking. With your approval, it silently records notes during interviews. Can Metaview transcribe all your interviews?",
+  "type": "radio",
+  "required": false,
+  "name": "5140bbff-90e5-4dc4-ac77-c079c6ca4e7f_a81a45d4-4813-4d85-a54d-2564ef19a179",
+  "value": "",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "k": "22e79c6e51366ad9",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "How did you hear about this opportunity?",
+  "type": "radio",
+  "required": false,
+  "name": "5140bbff-90e5-4dc4-ac77-c079c6ca4e7f_c1cdd30e-64d9-4c70-b28e-16fa7a96821c",
+  "value": "",
+  "options": [
+   "Blog or news article",
+   "Company website",
+   "Current employee",
+   "Event",
+   "LinkedIn",
+   "Other",
+   "Podcast",
+   "Search engine"
+  ],
+  "k": "d990a96f51145f93",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "facts don't say"
+ },
+ {
+  "question": "What is your current age?",
+  "type": "radio",
+  "required": false,
+  "name": "39195ad4-3f4a-4a07-964e-b63dffb6cb09_cf0f1bc7-7ce6-4eb3-aebc-b6562141cb68",
+  "value": "",
+  "options": [
+   "Under 30",
+   "30-39",
+   "40-49",
+   "50-59",
+   "60 or older",
+   "I prefer not to answer"
+  ],
+  "k": "3ca483359d768974",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "age not in facts"
+ },
+ {
+  "question": "What is your gender identity?",
+  "type": "radio",
+  "required": false,
+  "name": "39195ad4-3f4a-4a07-964e-b63dffb6cb09_8d7dcc65-3a0b-476a-b679-574b869780bb",
+  "value": "",
+  "options": [
+   "Man",
+   "Woman",
+   "I prefer not to answer"
+  ],
+  "k": "4e75ffb0228cafdb",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "question": "Do you identify as transgender?",
+  "type": "radio",
+  "required": false,
+  "name": "39195ad4-3f4a-4a07-964e-b63dffb6cb09_0a90dc7e-908c-449f-9151-95612d844b10",
+  "value": "",
+  "options": [
+   "Yes",
+   "No",
+   "I prefer not to answer"
+  ],
+  "k": "c0ddf7e75a61972e",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ }
+]

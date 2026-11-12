@@ -1,0 +1,6 @@
+{
+ "tool": "extension",
+ "url": "https://jobs.ashbyhq.com/sierra/9dc1651d-43e9-4970-a757-a5223cef1c4d/application",
+ "error": "site-ledger: jobs.ashbyhq.com is not visited: it showed a block page at 17:37 today (bot check), so it rests until tomorrow. Counted from the machine-wide ledger (/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/ledger); the owner can allow it with JOBADABRA_SITE_LIMIT_OVERRIDE=jobs.ashby",
+ "crashed": true
+}

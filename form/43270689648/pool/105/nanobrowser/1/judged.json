@@ -1,0 +1,230 @@
+[
+ {
+  "question": "Which location are you applying for?",
+  "type": "select-one",
+  "required": false,
+  "name": "opportunityLocationId",
+  "value": "",
+  "options": [
+   "Select...",
+   "Spain",
+   "Madrid",
+   "Barcelona",
+   "New York City, NY"
+  ],
+  "k": "81205bb812fe7c32",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No matching location option for Zurich"
+ },
+ {
+  "question": "Resume/CV ✱ATTACH RESUME/CVCouldn't auto-read resume.Analyzing resume...Success!",
+  "type": "file",
+  "required": false,
+  "name": "resume",
+  "value": "",
+  "k": "7be872b3943d4194",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file should be uploaded"
+ },
+ {
+  "question": "Full name✱",
+  "type": "text",
+  "required": true,
+  "name": "name",
+  "value": "Ada Tester",
+  "k": "4d15b3b34c2fa8a3",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Full name matches"
+ },
+ {
+  "question": "Email✱",
+  "type": "email",
+  "required": true,
+  "name": "email",
+  "value": "",
+  "k": "11416e59d589f1d4",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email is in facts"
+ },
+ {
+  "question": "Phone",
+  "type": "text",
+  "required": false,
+  "name": "phone",
+  "value": "+41 79 555 01 23",
+  "k": "1a337061084bcde5",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Phone matches"
+ },
+ {
+  "question": "Current location ✱No location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "name": "location",
+  "value": "Z",
+  "k": "0d5fa51f6a4ed5eb",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Just 'Z', incomplete location"
+ },
+ {
+  "question": "Current company",
+  "type": "text",
+  "required": false,
+  "name": "org",
+  "value": "",
+  "k": "35df7521bd43856d",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Acme Cloud in CV"
+ },
+ {
+  "question": "LinkedIn URL✱",
+  "type": "text",
+  "required": true,
+  "name": "urls[LinkedIn]",
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "k": "11c8d29e47136841",
+  "verdict": "right",
+  "answerable": true,
+  "note": "LinkedIn matches"
+ },
+ {
+  "question": "Twitter URL",
+  "type": "text",
+  "required": false,
+  "name": "urls[Twitter]",
+  "value": "",
+  "k": "9f42979d83767b92",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No Twitter in facts"
+ },
+ {
+  "question": "GitHub URL",
+  "type": "text",
+  "required": false,
+  "name": "urls[GitHub]",
+  "value": "",
+  "k": "fd7a769f06a431b4",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No GitHub in facts"
+ },
+ {
+  "question": "Portfolio URL",
+  "type": "text",
+  "required": false,
+  "name": "urls[Portfolio]",
+  "value": "",
+  "k": "37f339764bcd5d31",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No portfolio in facts"
+ },
+ {
+  "question": "Tinybird",
+  "type": "text",
+  "required": false,
+  "name": "urls[Other]",
+  "value": "",
+  "k": "0f4fe79a40515c79",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Unclear question, not in facts"
+ },
+ {
+  "question": "Tell us about yourself!",
+  "type": "textarea",
+  "required": false,
+  "name": "cards[b38d4943-c7d2-4936-b707-0e4d8403fbb2][field0]",
+  "value": "",
+  "k": "6f4e9d1733958b76",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Summary available for this field"
+ },
+ {
+  "question": "GenderSelect ...MaleFemaleDecline to self-identify",
+  "type": "select-one",
+  "required": false,
+  "name": "eeo[gender]",
+  "value": "",
+  "options": [
+   "Select ...",
+   "Male",
+   "Female",
+   "Decline to self-identify"
+  ],
+  "k": "9a85d89887f3e368",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Gender not in facts"
+ },
+ {
+  "question": "RaceSelect ...Hispanic or LatinoWhite (Not Hispanic or Latino)Black or African American (Not Hispanic or Latino)Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)Asian (Not Hispanic or Latino)American Indian or Alaska Native (Not Hispanic or Latino)Two or More Races (Not Hispanic or Latino)Decline to self-identifyHispanic or LatinoA person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race.White (Not Hispanic or Latino)A person having origins in any of the original peoples of Europe, the Middle East, or North Africa.Black or African American (Not Hispanic or Latino)A person having origins in any of the black racial groups of Africa.Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands.Asian (Not Hispanic or Latino)A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.American Indian or Alaska Native (Not Hispanic or Latino)A person having origins in any of the original peoples of North and South America (including Central America), and who maintain tribal affiliation or community attachment.Two or More Races (Not Hispanic or Latino)All persons who identify with more than one of the above five races.",
+  "type": "select-one",
+  "required": false,
+  "name": "eeo[race]",
+  "value": "",
+  "options": [
+   "Select ...",
+   "Hispanic or Latino",
+   "White (Not Hispanic or Latino)",
+   "Black or African American (Not Hispanic or Latino)",
+   "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)",
+   "Asian (Not Hispanic or Latino)",
+   "American Indian or Alaska Native (Not Hispanic or Latino)",
+   "Two or More Races (Not Hispanic or Latino)",
+   "Decline to self-identify"
+  ],
+  "k": "32d1b02939715539",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Race not in facts"
+ },
+ {
+  "question": "Veteran statusSelect ...I am a veteranI am not a veteranDecline to self-identify",
+  "type": "select-one",
+  "required": false,
+  "name": "eeo[veteran]",
+  "value": "",
+  "options": [
+   "Select ...",
+   "I am a veteran",
+   "I am not a veteran",
+   "Decline to self-identify"
+  ],
+  "k": "cd49b7562019ac16",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Veteran status not in facts"
+ },
+ {
+  "question": "Current location ✱Zürich, CHENo location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "name": "location",
+  "value": "Zurich, Switzerland",
+  "k": "53415909c51c135a",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zurich, Switzerland correct"
+ },
+ {
+  "question": "Current location ✱Zürich, CHEZurich, NLDZurich, CA, USANo location found. Try entering a different locationLoading",
+  "type": "text",
+  "required": true,
+  "name": "location",
+  "value": "Zürich",
+  "k": "c4a819b6ecabfd03",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Zürich matches location forms"
+ }
+]
