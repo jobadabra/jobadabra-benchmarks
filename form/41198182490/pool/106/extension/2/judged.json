@@ -1,0 +1,136 @@
+[
+ {
+  "question": "First name",
+  "type": "text",
+  "required": true,
+  "name": "firstname",
+  "value": "Ada",
+  "k": "40c7688628b792fa",
+  "verdict": "right",
+  "answerable": true,
+  "note": "First name correct"
+ },
+ {
+  "question": "Last name",
+  "type": "text",
+  "required": true,
+  "name": "lastname",
+  "value": "Tester",
+  "k": "2e7630c476cc8a91",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Last name correct"
+ },
+ {
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "name": "email",
+  "value": "ada.tester@example.test",
+  "k": "5e0a559897d3cb4e",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Email correct"
+ },
+ {
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "name": "phone",
+  "value": "79 555 01 23",
+  "k": "0f3bbc1ab3edbf5a",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Phone without country code, plausible"
+ },
+ {
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "name": "address",
+  "value": "Musterstrasse 12",
+  "k": "6e8b10db8e2a47e4",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Street matches"
+ },
+ {
+  "question": "Summary",
+  "type": "textarea",
+  "required": false,
+  "name": "summary",
+  "value": "Senior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale, strong in observability and incident response.",
+  "k": "70e4fd99b65442a3",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches summary"
+ },
+ {
+  "question": "Resume Choose file",
+  "type": "file",
+  "required": true,
+  "name": "input_files_input_aXikGWE0xqzR3etp",
+  "value": "",
+  "k": "ef0b1facbd88a361",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "CV file available; twin of the uploaded CV box",
+  "twin": true
+ },
+ {
+  "question": "Cover letter",
+  "type": "textarea",
+  "required": false,
+  "name": "cover_letter",
+  "value": "",
+  "k": "4efb56034c3c8601",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Cover letter style given; optional"
+ },
+ {
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "name": "CA_9741",
+  "value": "CHF 140,000–160,000 a year, gross",
+  "k": "313a0b5f2c3fe6bb",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches stated target range"
+ },
+ {
+  "question": "Describe a time you improved backlog cleanliness and Jira structure across multiple teams without adding unnecessary process overhead.",
+  "type": "textarea",
+  "required": true,
+  "name": "QA_12543006",
+  "value": "The closest I can point to for improving backlog cleanliness and Jira structure across multiple teams is building the Terraform platform used by 120 engineers at Acme Cloud.",
+  "k": "904d91acf573b5a2",
+  "verdict": "right",
+  "answerable": false,
+  "note": "Hedged closest stated fact, no false claim",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Have you been referred to this position by a Semios employee? If so, please let us know their full name.",
+  "type": "text",
+  "required": true,
+  "name": "QA_12542843",
+  "value": "",
+  "k": "d375bfa2d41d7fa4",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No referral info"
+ },
+ {
+  "question": "Resume Replace file",
+  "type": "file",
+  "required": false,
+  "name": "input_files_input_aXikGWE0xqzR3etp",
+  "value": "cv.pdf",
+  "k": "df1b0dcb90cb6838",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV filename provided"
+ }
+]

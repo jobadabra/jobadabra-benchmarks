@@ -1,0 +1,45 @@
+{
+ "tool": "stagehand",
+ "url": "https://job-boards.greenhouse.io/safariai/jobs/5233682007",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 94,
+ "final": "Filled the Greenhouse application at the given URL without submitting. Entered First Name (Ada), Last Name (Tester), Email, Phone (+41 79 555 01 23, country +41), uploaded cv.pdf as Resume, set Degree to Bachelor's Degree, Discipline to Computer Science, start year 2014, end year 2018, and LinkedIn URL. Verified these values in the accessibility tree. Left School empty because \"Example University\"",
+ "completed": false,
+ "tokens": {
+  "in": 694382,
+  "out": 16150,
+  "cacheRead": 286787,
+  "cacheWrite": 7751,
+  "calls": 44
+ },
+ "usd": 0.08134994499999999,
+ "longCalls": 0,
+ "maxCallIn": 31062,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 155.7,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST csp.withgoogle.com/csp/apiserving (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST grnhse-prod-jben-us-east-1.s3.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 160,
+ "score": {
+  "fields": 15,
+  "right": 10,
+  "wrong": 0,
+  "emptyShouldFill": 3,
+  "emptyOk": 2,
+  "emptyRequired": 1,
+  "requiredTotal": 8
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

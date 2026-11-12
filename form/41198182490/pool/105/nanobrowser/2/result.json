@@ -1,0 +1,70 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://jobs.lever.co/tinybird/22cbcc27-89c4-4f87-87bc-6937712e7b10/apply",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 19,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":13,\"maxSteps\":40,\"details\":\"The application is only partly filled, and it has NOT been submitted.\\n\\nFilled:\\n- Full name: Ada Tester\\n- Phone: +41 79 555 01 23\\n- LinkedIn URL: https://www.linkedin.com/in/ada-tester (entered after a misplaced first attempt, so please check it)\\n\\nStill needs your action:\\n- Resume/CV: not uploaded. Please upload /home/runner/work/joba",
+ "completed": true,
+ "tokens": {
+  "in": 248900,
+  "out": 20172,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 19
+ },
+ "usd": 0.034976,
+ "longCalls": 0,
+ "maxCallIn": 18328,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 147.6,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.lever.co/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.5156909079705179:1793 (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 152,
+ "score": {
+  "fields": 18,
+  "right": 5,
+  "wrong": 1,
+  "emptyShouldFill": 4,
+  "emptyOk": 8,
+  "emptyRequired": 1,
+  "requiredTotal": 6
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

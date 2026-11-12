@@ -1,0 +1,68 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://apply.workable.com/semios/j/0A6915AC27/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 27,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":19,\"maxSteps\":40,\"details\":\"The Workable application for Product Delivery Lead (Semios) is partially filled and has NOT been submitted.\\n\\nFilled from your facts:\\n- First name: Ada\\n- Last name: Tester\\n- Phone: country +41, number 79 555 01 23 (re-entered, please verify)\\n- Address: Musterstrasse 12, 8001 Zurich, Switzerland (display truncated, please verify)\\n- Summ",
+ "completed": true,
+ "tokens": {
+  "in": 475859,
+  "out": 26924,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 27
+ },
+ "usd": 0.06104789999999999,
+ "longCalls": 0,
+ "maxCallIn": 24145,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 214.1,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.5156909079705179:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 219,
+ "score": {
+  "fields": 11,
+  "right": 4,
+  "wrong": 1,
+  "emptyShouldFill": 4,
+  "emptyOk": 2,
+  "emptyRequired": 4,
+  "requiredTotal": 9
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

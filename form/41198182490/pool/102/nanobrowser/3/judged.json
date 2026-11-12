@@ -1,0 +1,167 @@
+[
+ {
+  "question": "First Name*",
+  "type": "text",
+  "required": true,
+  "name": "first_name",
+  "value": "Ada",
+  "k": "79f00b5ff313b8f3",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches first name"
+ },
+ {
+  "question": "Last Name*",
+  "type": "text",
+  "required": true,
+  "name": "last_name",
+  "value": "Tester",
+  "k": "cabcac7c4314257f",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches last name"
+ },
+ {
+  "question": "Email*",
+  "type": "text",
+  "required": true,
+  "name": "email",
+  "value": "",
+  "k": "11fe03957f2e6eff",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Email available"
+ },
+ {
+  "question": "Country",
+  "type": "text",
+  "required": false,
+  "name": "country",
+  "value": "+41",
+  "k": "90366aedbc5109bb",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Swiss dial code +41"
+ },
+ {
+  "question": "Phone",
+  "type": "tel",
+  "required": false,
+  "name": "phone",
+  "value": "795550123",
+  "k": "123744fec7986a96",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Phone digits without country code"
+ },
+ {
+  "question": "Attach",
+  "type": "file",
+  "required": false,
+  "name": "resume",
+  "value": "",
+  "k": "c402889abebd5851",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available to attach"
+ },
+ {
+  "question": "Attach",
+  "type": "file",
+  "required": false,
+  "name": "cover_letter",
+  "value": "",
+  "k": "c402889abebd5851",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available to attach"
+ },
+ {
+  "question": "School*",
+  "type": "text",
+  "required": true,
+  "name": "school--0",
+  "value": "",
+  "k": "27c393df4830bba5",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Example University in CV"
+ },
+ {
+  "question": "Degree*",
+  "type": "text",
+  "required": true,
+  "name": "degree--0",
+  "value": "",
+  "k": "f584903929f1b0c5",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Bachelor's degree available"
+ },
+ {
+  "question": "Discipline*",
+  "type": "text",
+  "required": true,
+  "name": "discipline--0",
+  "value": "",
+  "k": "d57877cf062e6ba8",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Computer Science available"
+ },
+ {
+  "question": "Start date year*",
+  "type": "number",
+  "required": true,
+  "name": "start-year--0",
+  "value": "",
+  "k": "94b12b7f9c2e0821",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Education start 2014 available"
+ },
+ {
+  "question": "End date year*",
+  "type": "number",
+  "required": true,
+  "name": "end-year--0",
+  "value": "",
+  "k": "1f1f94fd47e07243",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "End year 2018 available"
+ },
+ {
+  "question": "LinkedIn Profile",
+  "type": "text",
+  "required": false,
+  "name": "question_12859325007",
+  "value": "",
+  "k": "bd6fa00cb0c64b17",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "LinkedIn available"
+ },
+ {
+  "question": "Github Link",
+  "type": "text",
+  "required": false,
+  "name": "question_12859560007",
+  "value": "",
+  "k": "40f7fad808aa6308",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No GitHub in facts"
+ },
+ {
+  "question": "Any other links you'd like us to review & consider?",
+  "type": "text",
+  "required": false,
+  "name": "question_12859326007",
+  "value": "",
+  "k": "3f435b294051cb97",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No other links given"
+ }
+]
