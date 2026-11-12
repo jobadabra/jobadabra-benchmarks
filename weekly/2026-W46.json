@@ -1,0 +1,95 @@
+{
+ "seed": "week-2026-W46",
+ "source": "career-ops templates/portals.example.yml (career-ops-v1.38.0)",
+ "pickedAt": "2026-11-12T21:50:30.956Z",
+ "per": {
+  "greenhouse": 2,
+  "ashby": 2,
+  "lever": 1,
+  "workable": 1
+ },
+ "picks": [
+  {
+   "id": 264601,
+   "platform": "greenhouse",
+   "company": "praetorian",
+   "host": "www.praetorian.com",
+   "title": "Software Engineer",
+   "location": "Remote within the United States",
+   "url": "https://www.praetorian.com/careers/?gh_jid=5386005003#job-opening"
+  },
+  {
+   "id": 264602,
+   "platform": "greenhouse",
+   "company": "traderepublicbank",
+   "host": "traderepublic.com",
+   "title": "Engagement Manager",
+   "location": "Headquarter",
+   "url": "https://traderepublic.com/en-de/about?jobId=7777169003&gh_jid=7777169003"
+  },
+  {
+   "id": 264603,
+   "platform": "ashby",
+   "company": "langchain",
+   "host": "jobs.ashbyhq.com",
+   "title": "Senior Backend Software Engineer, AI Observability & Evals Platform (SF)",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/langchain/f07c1416-f126-4925-8606-5dd7c5a90f6f/application"
+  },
+  {
+   "id": 264604,
+   "platform": "ashby",
+   "company": "addi",
+   "host": "jobs.ashbyhq.com",
+   "title": "Bank Fraud Operations Lead",
+   "location": "LatAm",
+   "url": "https://jobs.ashbyhq.com/addi/92b68b7e-ae93-4313-aa53-7bd0f814d407/application"
+  },
+  {
+   "id": 264605,
+   "platform": "lever",
+   "company": "contentsquare",
+   "host": "jobs.lever.co",
+   "title": "Enterprise Account Executive UKI",
+   "location": "London",
+   "url": "https://jobs.lever.co/contentsquare/1c8067de-7d20-4351-90e5-23dbf2b1eb82/apply"
+  },
+  {
+   "id": 264606,
+   "platform": "greenhouse",
+   "company": "planetscale",
+   "host": "job-boards.greenhouse.io",
+   "title": "Brand Designer",
+   "location": "Remote - USA",
+   "url": "https://job-boards.greenhouse.io/planetscale/jobs/4396843009",
+   "fillsFor": "workable"
+  }
+ ],
+ "skipped": [
+  {
+   "ats": "workable",
+   "slug": "doist",
+   "why": "no open postings"
+  },
+  {
+   "ats": "workable",
+   "slug": "toggl",
+   "why": "tested or fixed on before"
+  },
+  {
+   "ats": "workable",
+   "slug": "huggingface",
+   "why": "tested or fixed on before"
+  },
+  {
+   "ats": "workable",
+   "slug": "platzi",
+   "why": "tested or fixed on before"
+  },
+  {
+   "ats": "workable",
+   "slug": "semios",
+   "why": "tested or fixed on before"
+  }
+ ]
+}
