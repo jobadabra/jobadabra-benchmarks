@@ -1,0 +1,35 @@
+# One-off, by hand: keeps the judged lists of every earlier benchmark round whose Actions artifact still exists, under the tag bench-archive (tools/archive.sh), before the
+# 30- and 90-day retention deletes them. Safe to run again: an archived file is never replaced, a round already there adds nothing.
+# Why (12 Nov 2026, owner: "do we keep track of all the benchmark runs?... Or the results are being lost", then "why are we doing it locally and not on the CI? ... It's very load heavy"):
+# the first backfill ran on the owner's Mac and was stopped; it runs here. From now on each round archives itself (search-round.yml, form-round.yml).
+name: archive backfill (by hand)
+on:
+  workflow_dispatch:
+permissions:
+  contents: write   # moves the tag bench-archive
+  actions: read     # lists and downloads the artifacts
+concurrency: {group: bench-archive, cancel-in-progress: false}   # one writer at a time on the tag
+jobs:
+  archive:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+      - name: Archive every judged artifact that is still downloadable
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          gh api "repos/$REPO/actions/artifacts?per_page=100" --paginate \
+            --jq '.artifacts[] | select(.expired == false) | select(.name | test("judged")) | [.name, .workflow_run.id, .created_at] | @tsv' | sort -k3 > artifacts.tsv
+          wc -l < artifacts.tsv
+          while IFS=$'\t' read -r name run at; do
+            d="dl/$run"; mkdir -p "$d"
+            gh run download "$run" --repo "$REPO" -n "$name" -D "$d"
+            if [ "$name" = search-round-judged ]; then
+              n=$(gh api "repos/$REPO/actions/runs/$run" --jq .run_number); kind=search; key=$(printf '%s-r%05d' "${at:0:10}" "$n")
+            else kind=form; key=$run; fi
+            tools/archive.sh "$kind" "$key" "$d"
+          done < artifacts.tsv
+          echo "archived $(wc -l < artifacts.tsv) rounds"
