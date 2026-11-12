@@ -1,0 +1,432 @@
+{
+ "persona": {
+  "family": "chef",
+  "title": "Chef de Partie",
+  "kind": "non-tech",
+  "city": "Krakow",
+  "country": "Poland",
+  "language": "Polish"
+ },
+ "seed": "bench-judge-5",
+ "model": "sonnet (Claude plan)",
+ "judged_jobs": 41,
+ "tokens_in": 0,
+ "tokens_out": 0,
+ "cost_usd": 0.0,
+ "rows": [
+  {
+   "tool": "eures",
+   "title": "Specjalista ds. Sprzedaży B2B (Business Development) (K/M)",
+   "company": "VISUAL PROMOTION SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Dekarz/pomocnik dekarza",
+   "company": "Zakład Blacharsko-Dekarski Kozak Marian",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Dekarz K/M",
+   "company": "ACERO SYSTEM SP.Z O.O.",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Dekarz (K/M)",
+   "company": "TMK-DACH Tomasz Kułaga",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Dekarz K/M",
+   "company": "JACEK SZYJKA KRESBUD",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Product Designer K/M",
+   "company": "AXENCE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA JAWNA",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pomoc dentystyczna",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Tokarz/frezer (K,M)",
+   "company": "Pracownia Ślusarsko Odlewnicza \"KUFREJ\" Mikołaj Wiesław Proszek",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Product Designer K/M",
+   "company": "AXENCE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA JAWNA",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pomoc dentystyczna",
+   "company": "Powiatowy Urząd Pracy",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Cieśla/dekarz K/M",
+   "company": "FIRMA PRODUKCYJNO - HANDLOWO - USŁUGOWA \"DOMAR\" MARIUSZ GRZYB",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Frontend Developer (React) K/M",
+   "company": "AXENCE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA JAWNA",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Technik protetyk dentystyczny K/M (O)",
+   "company": "Jagoda Świątek JagoDent",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Dekarz, monter konstrukcji k/m",
+   "company": "MOSKAL-BUD Krystian Moskal",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Osoba na stanowisku dekarz",
+   "company": "ROBERT MAKOŚ DOMY Z BALI",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Senior Frontend Developer (React) K/M",
+   "company": "AXENCE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA JAWNA",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Pośrednik usług biznesowych/ Junior Business Development Specialist (k/m).",
+   "company": "SAAS DISTRIBUTION SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Specjalista ds. Rozwoju Biznesu z językiem niemieckim/Business Development Representative with German (k/m).",
+   "company": "TTEC EUROPE B.V. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ ODDZIAŁ W POLSCE",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "no",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Szef kuchni/kucharz K/M",
+   "company": "KORONA SANATORIUM UZDROWISKOWE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz K/M",
+   "company": "Miejski Ośrodek Sportu i Rekreacji",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz (K/M)",
+   "company": "Firma Handlowo- Usługowa -Rafał Deć",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz/kucharka OfPr/26/0600 (S)",
+   "company": "KAROL GACAL \"CAR- LOGISTIK\"",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz/Kucharka (O)",
+   "company": "\"OMEGA PILZNO\" INTERNATIONAL&SPEDITION Godawski & Godawski Sp.z.o.o.",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz K/M",
+   "company": "Samorządowe Przedszkole nr 61 \"Pod Wawelem\"",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz (K/M)",
+   "company": "GRZEGORZ FILIPOWSKI RESTAURACJA \"SMAKI ŚWIATA'', IN.TRADE IMPORT EXPORT",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Szef Kuchni K/M",
+   "company": "SPECJALNY OŚRODEK SZKOLNO-WYCHOWAWCZY NR 4",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz / kucharka",
+   "company": "OLD TOWN TOMASZ MARZECKI",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz/ Kucharka",
+   "company": "Angel Stradom Hotel sp. z o.o.",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz / kucharka",
+   "company": "BABIOGÓRSKIE CENTRUM REHABILITACJI I HIPOTERAPII \"KLAUDIA\" BOŻENA MOSUR",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz/kucharka",
+   "company": "LITWIŃSKI TRANSPORT - SPRZĘT - BUDOWNICTWO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz (K/M)",
+   "company": "NEW FLAVORS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz / Pizzer    K/M  (możliwość przyuczenia)",
+   "company": "Tomasz Balcer \" BRAVIDA \"",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz (k/m)",
+   "company": "Samorządowe Przedszkole nr 5",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz (K/M)",
+   "company": "SAMORZĄDOWE PRZEDSZKOLE NR 120 W KRAKOWIE",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz K/M",
+   "company": "EDYTA GALAS \"ETON\"",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz (K/M)",
+   "company": "SAMORZĄDOWE PRZEDSZKOLE NR 120 W KRAKOWIE",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz K/M",
+   "company": "EDYTA GALAS \"ETON\"",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz   K/M",
+   "company": "DOROTA LIPA \"Przystań U Lipy\" ; RESTAURACJA MANHATTAN",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "kucharz/kucharka",
+   "company": "RESTAURACJA POD IRYSAMI S.C. BARBARA TOPOLSKA, TOMASZ TOPOLSKI",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "eures",
+   "title": "Kucharz/ kucharka",
+   "company": "ALEKSANDER WINCENTY",
+   "location": "Krakow region (Malopolskie), Poland (PL21)",
+   "provider": "EURES",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Osoba do pracy w kuchni restauracyjnej",
+   "company": "Praca.pl",
+   "location": "Dąbrowa Górnicza, Śląskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Starszy Kucharz / Starsza Kucharka",
+   "company": "Stowarzyszenie Autorów ZAiKS",
+   "location": "Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine (Peruvian Restaurant)",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "Chef de Cuisine",
+   "company": "Sheraton Hotels & Resorts",
+   "location": "Cracow, Małopolskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "yes"
+  },
+  {
+   "tool": "jobspy",
+   "title": "KUCHARZ K/M",
+   "company": "Łódzki Klaster ICT",
+   "location": "Jędrzejów, Świętokrzyskie, Poland",
+   "provider": "JobSpy/linkedin",
+   "role": "yes",
+   "place": "no"
+  }
+ ]
+}

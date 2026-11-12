@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/search-bench/judge.py", line 130, in <module>
+    main()
+  File "/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/search-bench/judge.py", line 121, in main
+    rows, count, tokens, cost = judge(p, index, json.load(open(pool_path)), ledger, ask, limit=limit, plan=plan, key=os.environ.get('BENCH_JUDGE_KEY', ''))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/search-bench/judge.py", line 100, in judge
+    verdicts, usage = ask_fn(key, profile, chunk)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/search-bench/judge.py", line 44, in ask
+    return ask_plan(profile, jobs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/search-bench/judge.py", line 38, in ask_plan
+    data = json.loads(re.search(r'\{.*\}', reply['result'], re.S).group(0))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'
