@@ -1,0 +1,6 @@
+{
+ "tool": "extension",
+ "url": "https://job-boards.greenhouse.io/humeai/jobs/4775962008",
+ "error": "site-ledger: job-boards.greenhouse.io is not visited: it showed a block page at 18:21 today (bot check), so it rests until tomorrow. Counted from the machine-wide ledger (/home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/ledger); the owner can allow it with JOBADABRA_SITE_LIMIT_OVERRIDE=jo",
+ "crashed": true
+}

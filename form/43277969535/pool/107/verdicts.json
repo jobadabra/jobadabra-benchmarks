@@ -1,0 +1,146 @@
+[
+ {
+  "k": "6e8b10db8e2a47e4",
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "value": "Musterstrasse 12",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Street matches facts"
+ },
+ {
+  "k": "83216db2f45b70d2",
+  "question": "Briefly describe one example where you used market/customer insights to influence a product, portfolio, or market expansion decision. What was your role and the resulting recommendation? Please lkeep your response high-level and do not include confidential information.",
+  "type": "textarea",
+  "required": true,
+  "value": "The closest I can point to for using market/customer insights to influence a product, portfolio, or market expansion decision is migrating 60 services to Kubernetes at Beta Systems, where I introduced SLOs and error budgets.",
+  "verdict": "right",
+  "answerable": false,
+  "note": "Hedged closest stated fact",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "70e4fd99b65442a3",
+  "question": "Summary",
+  "type": "textarea",
+  "required": false,
+  "value": "Senior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale, strong in observability and incident response.",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches profile summary"
+ },
+ {
+  "k": "2e7630c476cc8a91",
+  "question": "Last name",
+  "type": "text",
+  "required": true,
+  "value": "Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Last name correct"
+ },
+ {
+  "k": "f85dc117f63af41d",
+  "question": "Briefly describe one example where you used market/customer insights to influence a product, portfolio, or market expansion decision. What was your role and the resulting recommendation? Please lkeep your response high-level and do not include confidential information.",
+  "type": "textarea",
+  "required": true,
+  "value": "The closest I can point to for using market/customer insights to influence a product, portfolio, or market expansion decision is the Terraform platform I built at Acme Cloud, used by 120 engineers.",
+  "verdict": "right",
+  "answerable": false,
+  "note": "Hedged closest stated fact",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "d375bfa2d41d7fa4",
+  "question": "Have you been referred to this position by a Semios employee? If so, please let us know their full name.",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No referral stated; empty correct",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "ef0b1facbd88a361",
+  "question": "Resume Choose file",
+  "type": "file",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available but not uploaded"
+ },
+ {
+  "k": "4efb56034c3c8601",
+  "question": "Cover letter",
+  "type": "textarea",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Cover letter could be written from facts"
+ },
+ {
+  "k": "40c7688628b792fa",
+  "question": "First name",
+  "type": "text",
+  "required": true,
+  "value": "Ada",
+  "verdict": "right",
+  "answerable": true,
+  "note": "First name correct"
+ },
+ {
+  "k": "6e8e7151feb615de",
+  "question": "Briefly describe one example where you used market/customer insights to influence a product, portfolio, or market expansion decision. What was your role and the resulting recommendation? Please lkeep your response high-level and do not include confidential information.",
+  "type": "textarea",
+  "required": true,
+  "value": "The closest I can point to for using market/customer insights to influence a product, portfolio, or market expansion decision is building the Terraform platform used by 120 engineers at Acme Cloud.",
+  "verdict": "right",
+  "answerable": false,
+  "note": "Hedged closest stated fact",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "df1b0dcb90cb6838",
+  "question": "Resume Replace file",
+  "type": "file",
+  "required": false,
+  "value": "cv.pdf",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV file name provided"
+ },
+ {
+  "k": "5e0a559897d3cb4e",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "ada.tester@example.test",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Email matches"
+ },
+ {
+  "k": "0f3bbc1ab3edbf5a",
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "value": "79 555 01 23",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Number matches, country code likely separate"
+ },
+ {
+  "k": "313a0b5f2c3fe6bb",
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "value": "CHF 140,000–160,000 a year, gross",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target compensation"
+ }
+]

@@ -1,0 +1,146 @@
+{
+ "browser-use": {
+  "score": 85.7,
+  "spread": [
+   81.5,
+   88.7
+  ],
+  "runs": [
+   {
+    "run": "1",
+    "right": 46,
+    "wrong": 0,
+    "emptyAnswerable": 6,
+    "notReached": 1,
+    "forms": 6,
+    "score": 86.8
+   },
+   {
+    "run": "2",
+    "right": 47,
+    "wrong": 1,
+    "emptyAnswerable": 4,
+    "notReached": 1,
+    "forms": 6,
+    "score": 88.7
+   },
+   {
+    "run": "3",
+    "right": 44,
+    "wrong": 2,
+    "emptyAnswerable": 7,
+    "notReached": 1,
+    "forms": 6,
+    "score": 81.5
+   }
+  ]
+ },
+ "extension": {
+  "score": 96.8,
+  "spread": [
+   94.6,
+   98.1
+  ],
+  "runs": [
+   {
+    "run": "1",
+    "right": 53,
+    "wrong": 0,
+    "emptyAnswerable": 2,
+    "notReached": 1,
+    "forms": 5,
+    "score": 94.6
+   },
+   {
+    "run": "2",
+    "right": 52,
+    "wrong": 0,
+    "emptyAnswerable": 1,
+    "notReached": 0,
+    "forms": 5,
+    "score": 98.1
+   },
+   {
+    "run": "3",
+    "right": 44,
+    "wrong": 0,
+    "emptyAnswerable": 1,
+    "notReached": 0,
+    "forms": 4,
+    "score": 97.8
+   }
+  ]
+ },
+ "nanobrowser": {
+  "score": 45.6,
+  "spread": [
+   45.6,
+   45.6
+  ],
+  "runs": [
+   {
+    "run": "1",
+    "right": 26,
+    "wrong": 3,
+    "emptyAnswerable": 26,
+    "notReached": 2,
+    "forms": 6,
+    "score": 45.6
+   },
+   {
+    "run": "2",
+    "right": 26,
+    "wrong": 1,
+    "emptyAnswerable": 28,
+    "notReached": 2,
+    "forms": 6,
+    "score": 45.6
+   },
+   {
+    "run": "3",
+    "right": 26,
+    "wrong": 1,
+    "emptyAnswerable": 28,
+    "notReached": 2,
+    "forms": 6,
+    "score": 45.6
+   }
+  ]
+ },
+ "stagehand": {
+  "score": 43.2,
+  "spread": [
+   25.9,
+   61.8
+  ],
+  "runs": [
+   {
+    "run": "1",
+    "right": 23,
+    "wrong": 7,
+    "emptyAnswerable": 23,
+    "notReached": 2,
+    "forms": 6,
+    "score": 41.8
+   },
+   {
+    "run": "2",
+    "right": 15,
+    "wrong": 8,
+    "emptyAnswerable": 33,
+    "notReached": 2,
+    "forms": 6,
+    "score": 25.9
+   },
+   {
+    "run": "3",
+    "right": 34,
+    "wrong": 4,
+    "emptyAnswerable": 16,
+    "notReached": 1,
+    "forms": 6,
+    "score": 61.8
+   }
+  ]
+ }
+}

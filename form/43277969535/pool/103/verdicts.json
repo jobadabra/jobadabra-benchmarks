@@ -1,0 +1,716 @@
+[
+ {
+  "k": "5cc8f646e4b68a41",
+  "question": "LinkedIn",
+  "type": "text",
+  "required": true,
+  "value": "https://www.linkedin.com/in/ada-tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "matches LinkedIn"
+ },
+ {
+  "k": "d990a96f51145f93",
+  "question": "How did you hear about this opportunity?",
+  "type": "radio",
+  "required": false,
+  "value": "",
+  "options": [
+   "Blog or news article",
+   "Company website",
+   "Current employee",
+   "Event",
+   "LinkedIn",
+   "Other",
+   "Podcast",
+   "Search engine"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "facts don't say"
+ },
+ {
+  "k": "0026dcf701de1b91",
+  "question": "Bisexual",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Bisexual"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "56798fb6d7260d86",
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "value": "+41 79 555 01 23e",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "stray trailing 'e'"
+ },
+ {
+  "k": "7140494d64549b59",
+  "question": "Other",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Other"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "d747a30483edb92e",
+  "question": "Veteran",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Veteran"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "3c9cbd140f51a4d6",
+  "question": "Mixed or Multiple Ethnic Groups",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Mixed or Multiple Ethnic Groups"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "edc42d85301029a7",
+  "question": "Heterosexual / straight",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Heterosexual / straight"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "3a249515b888c206",
+  "question": "Are you legally authorized to work in the United Kingdom?",
+  "type": "radio",
+  "required": false,
+  "value": "",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "UK authorization not stated"
+ },
+ {
+  "k": "206dbfb7e6595136",
+  "question": "Gay",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Gay"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "4a186f31d3656263",
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "value": "+41 79 555 01 23",
+  "verdict": "right",
+  "answerable": true,
+  "note": "phone correct"
+ },
+ {
+  "k": "2f38e807585e4225",
+  "question": "Are you able to work from a Sierra office listed for this role?Sierra believes working alongside one another as a team is an important part of building great products and a great culture. We are primarily an in-person company. Does that work for you?",
+  "type": "radio",
+  "required": false,
+  "value": "While I am not currently based in one of Sierra's office locations, I am open to relocation.",
+  "options": [
+   "Yes, I am based in one of Sierra's office locations.",
+   "While I am not currently based in one of Sierra's office locations, I am open to relocation.",
+   "No, I am not able to work from a Sierra office."
+  ],
+  "verdict": "right",
+  "answerable": true,
+  "note": "Open to relocating within Europe; London covered"
+ },
+ {
+  "k": "5653d5551dc96a12",
+  "question": "Parent",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Parent"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "64930a4e77abbbd0",
+  "question": "White",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "White"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "d202f2ce5476c051",
+  "question": "Are you able to work from London?Sierra believes working alongside one another as a team is an important part of building great products and a great culture. We are primarily an in-person company. Does that work for you?",
+  "type": "radio",
+  "required": false,
+  "value": "",
+  "options": [
+   "Yes, and I currently live in the London area.",
+   "Yes, and while I do not currently live in the London area, I am open to relocation.",
+   "No or Other. Please add more details in the \"Anything else\" section below."
+  ],
+  "verdict": "empty",
+  "answerable": true,
+  "note": "open to relocation; missed"
+ },
+ {
+  "k": "1f4ef564f6fe96ed",
+  "question": "Legal First Name",
+  "type": "text",
+  "required": true,
+  "value": "Ada",
+  "verdict": "right",
+  "answerable": true,
+  "note": "first name correct"
+ },
+ {
+  "k": "033b29dd8f0ee68f",
+  "question": "Anything else? (Optional)",
+  "type": "textarea",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "optional free text"
+ },
+ {
+  "k": "40fcc7e120410cc4",
+  "question": "Legal Last Name",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "last name missed"
+ },
+ {
+  "k": "d8ab172b3d9df452",
+  "question": "What is your current age?",
+  "type": "radio",
+  "required": false,
+  "value": "I prefer not to answer",
+  "options": [
+   "Under 30",
+   "30-39",
+   "40-49",
+   "50-59",
+   "60 or older",
+   "I prefer not to answer"
+  ],
+  "verdict": "right",
+  "answerable": false,
+  "note": "Sensible prefer-not-to-answer choice",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "32867a53e365e679",
+  "question": "Lesbian",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Lesbian"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "3e12d88f162304fd",
+  "question": "Preferred First & Last Name",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "name missed"
+ },
+ {
+  "k": "7f874561f7115342",
+  "question": "LinkedIn",
+  "type": "text",
+  "required": true,
+  "value": "https://www.linkedin.com/in/ada-testr",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "URL typo ada-testr"
+ },
+ {
+  "k": "3ca483359d768974",
+  "question": "What is your current age?",
+  "type": "radio",
+  "required": false,
+  "value": "",
+  "options": [
+   "Under 30",
+   "30-39",
+   "40-49",
+   "50-59",
+   "60 or older",
+   "I prefer not to answer"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "age not in facts"
+ },
+ {
+  "k": "51895ec6cd565586",
+  "question": "Anything else? (Optional)",
+  "type": "textarea",
+  "required": false,
+  "value": "I have 8 years of experience running Kubernetes on AWS at scale. As a Senior SRE at Acme Cloud in Zurich, I ran 400 microservices on EKS, cut incident time by 40 percent with Datadog and OpenTelemetry, and built the Terraform platform used by 120 engineers.",
+  "verdict": "right",
+  "answerable": true,
+  "note": "All claims match profile and CV facts"
+ },
+ {
+  "k": "1a1e3d8570765017",
+  "question": "Autofill from resume",
+  "type": "file",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV not uploaded"
+ },
+ {
+  "k": "6bbf9be858024664",
+  "question": "Neurodiverse",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Neurodiverse"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "f522b61487f304bd",
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "phone missed"
+ },
+ {
+  "k": "22e79c6e51366ad9",
+  "question": "We use Metaview, an AI notetaking tool, to streamline interviews by recording and summarizing discussions, enabling interviewers to be fully present without manual notetaking. With your approval, it silently records notes during interviews. Can Metaview transcribe all your interviews?",
+  "type": "radio",
+  "required": false,
+  "value": "",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "ccf8e1d2cce4f6fd",
+  "question": "Asian or Asian British",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Asian or Asian British"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "06f587c3399272c5",
+  "question": "LinkedIn",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "LinkedIn missed"
+ },
+ {
+  "k": "ec817ac543eec0a0",
+  "question": "Queer",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Queer"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "b50f137293ab62d7",
+  "question": "Resume",
+  "type": "file",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV not uploaded"
+ },
+ {
+  "k": "fd37f0e5139d5b2e",
+  "question": "What's your favorite junk food?",
+  "type": "text",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "4e75ffb0228cafdb",
+  "question": "What is your gender identity?",
+  "type": "radio",
+  "required": false,
+  "value": "",
+  "options": [
+   "Man",
+   "Woman",
+   "I prefer not to answer"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "f49f28d3a2d042d3",
+  "question": "What is your gender identity?",
+  "type": "radio",
+  "required": false,
+  "value": "I prefer not to answer",
+  "options": [
+   "Man",
+   "Woman",
+   "I prefer not to answer"
+  ],
+  "verdict": "right",
+  "answerable": false,
+  "note": "Sensible prefer-not-to-answer choice",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "c0ddf7e75a61972e",
+  "question": "Do you identify as transgender?",
+  "type": "radio",
+  "required": false,
+  "value": "",
+  "options": [
+   "Yes",
+   "No",
+   "I prefer not to answer"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "6fc598e2f290da2f",
+  "question": "Black or Black British",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Black or Black British"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "f91ef32398f6914c",
+  "question": "Resume",
+  "type": "file",
+  "required": false,
+  "value": "cv.pdf",
+  "verdict": "right",
+  "answerable": true,
+  "note": "cv.pdf uploaded"
+ },
+ {
+  "k": "2083eaa968f84f3b",
+  "question": "Legal Last Name",
+  "type": "text",
+  "required": true,
+  "value": "Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "last name correct"
+ },
+ {
+  "k": "8477ab3eace68f08",
+  "question": "By submitting, I acknowledge my personal data will be processed in accordance with Sierra’s Privacy Policy.",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "on"
+  ],
+  "verdict": "empty",
+  "answerable": true,
+  "note": "consent not ticked"
+ },
+ {
+  "k": "a4ad44b3c7ed718b",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "esda.tester@exam",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "truncated garbled email"
+ },
+ {
+  "k": "7e80ae44d0948395",
+  "question": "Person with disability",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Person with disability"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "5e0a559897d3cb4e",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "ada.tester@example.test",
+  "verdict": "right",
+  "answerable": true,
+  "note": "email correct"
+ },
+ {
+  "k": "e75626ea3ea1a7d4",
+  "question": "Autofill from resume",
+  "type": "file",
+  "required": false,
+  "value": "cv.pdf",
+  "verdict": "right",
+  "answerable": true,
+  "note": "cv.pdf uploaded"
+ },
+ {
+  "k": "ac129f1b76bfc056",
+  "question": "By submitting, I acknowledge my personal data will be processed in accordance with Sierra’s Privacy Policy.",
+  "type": "checkbox",
+  "required": false,
+  "value": "on",
+  "options": [
+   "on"
+  ],
+  "verdict": "right",
+  "answerable": true,
+  "note": "consent given"
+ },
+ {
+  "k": "4d88dd8a90e41c8f",
+  "question": "Will you now or in the future require visa sponsorship to work in the United Kingdom?",
+  "type": "radio",
+  "required": false,
+  "value": "",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "UK sponsorship not stated"
+ },
+ {
+  "k": "bdb266d6c208ce62",
+  "question": "Diversity SurveyThis optional survey is collected by Sierra Technologies, Inc. to help us evaluate our diversity and inclusion efforts. Participation is voluntary and refusal to submit the survey will not affect your job application. If you submit the survey, your responses will not be used to asses",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "I prefer not to answer",
+   "I prefer not to answer",
+   "I prefer not to answer"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "optional survey"
+ },
+ {
+  "k": "2a5d483c6605758c",
+  "question": "None of the above",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "None of the above"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "0b22ea5ac16a2497",
+  "question": "Trust is one of Sierra’s values. I confirm that the information I provide is true, complete, and reflects my own experience and thinking, and I understand that an offer may be withdrawn, or employment ended, if Sierra learns otherwise.",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "on"
+  ],
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Consent checkbox left unchecked"
+ },
+ {
+  "k": "e7440f62a1cb3134",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "TAaeddsaat .eTtreesstteerr@example.",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "garbled email"
+ },
+ {
+  "k": "7fc76308738d3b08",
+  "question": "Do you identify as transgender?",
+  "type": "radio",
+  "required": false,
+  "value": "I prefer not to answer",
+  "options": [
+   "Yes",
+   "No",
+   "I prefer not to answer"
+  ],
+  "verdict": "right",
+  "answerable": false,
+  "note": "Sensible prefer-not-to-answer choice",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "748899ac334665ed",
+  "question": "Preferred First & Last Name",
+  "type": "text",
+  "required": true,
+  "value": "Ada Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "full name correct"
+ },
+ {
+  "k": "b869e4fb7a9f897b",
+  "question": "Refugee or immigrant",
+  "type": "checkbox",
+  "required": false,
+  "value": "",
+  "options": [
+   "Refugee or immigrant"
+  ],
+  "verdict": "empty",
+  "answerable": false,
+  "note": "not in facts"
+ },
+ {
+  "k": "c6072f166098e09d",
+  "question": "Diversity SurveyThis optional survey is collected by Sierra Technologies, Inc. to help us evaluate our diversity and inclusion efforts. Participation is voluntary and refusal to submit the survey will not affect your job application. If you submit the survey, your responses will not be used to asses",
+  "type": "checkbox",
+  "required": false,
+  "value": "I prefer not to answer, I prefer not to answer, I prefer not to answer",
+  "options": [
+   "I prefer not to answer",
+   "I prefer not to answer",
+   "I prefer not to answer"
+  ],
+  "verdict": "right",
+  "answerable": false,
+  "note": "Prefer-not-to-answer on optional survey",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "da969c736161835d",
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "value": "+41 79 555 01 23a",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "stray trailing 'a'"
+ },
+ {
+  "k": "f0dc30486b7f6352",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "email missed"
+ },
+ {
+  "k": "1616f8f597b26e72",
+  "question": "Are you able to work from London?Sierra believes working alongside one another as a team is an important part of building great products and a great culture. We are primarily an in-person company. Does that work for you?",
+  "type": "radio",
+  "required": false,
+  "value": "Yes, and while I do not currently live in the London area, I am open to relocation.",
+  "options": [
+   "Yes, and I currently live in the London area.",
+   "Yes, and while I do not currently live in the London area, I am open to relocation.",
+   "No or Other. Please add more details in the \"Anything else\" section below."
+  ],
+  "verdict": "right",
+  "answerable": true,
+  "note": "open to relocation fits"
+ }
+]

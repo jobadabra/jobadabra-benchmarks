@@ -1,0 +1,40 @@
+{
+ "tool": "stagehand",
+ "url": "https://job-boards.greenhouse.io/humeai/jobs/4775962008",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 3,
+ "final": "I read the Hume AI application page (AI Researcher, NYC/San Jose/Remote) but did not fill any fields, upload the CV, or submit. I judged the role a poor match: the location isn't clearly within the applicant's Switzerland/remote-Europe constraints, the role is AI Researcher rather than the SRE/Platform/DevOps roles the applicant wants, and the US work-authorization question isn't answered by the f",
+ "completed": false,
+ "tokens": {
+  "in": 17553,
+  "out": 1425,
+  "cacheRead": 7751,
+  "cacheWrite": 7751,
+  "calls": 3
+ },
+ "usd": 0.0035141849999999995,
+ "longCalls": 0,
+ "maxCallIn": 14351,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 9.4,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 18,
+ "score": {
+  "fields": 10,
+  "right": 0,
+  "wrong": 0,
+  "emptyShouldFill": 7,
+  "emptyOk": 3,
+  "emptyRequired": 5,
+  "requiredTotal": 5
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}
