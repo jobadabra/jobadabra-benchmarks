@@ -6,13 +6,16 @@ const dir = path.join(import.meta.dirname, '..', '.github', 'workflows');
 const read = f => fs.readFileSync(path.join(dir, f), 'utf8');
 /** The jobs of a workflow text: {name: its block}. */
 const jobsOf = text => { const out = {}, from = text.indexOf('\njobs:\n'); const lines = text.slice(from + 7).split('\n'); let name = null; for (const line of lines) { const m = line.match(/^  ([\w-]+):/); if (m) { name = m[1]; out[name] = ''; } if (name) out[name] += line + '\n'; } return out; };
+// Why (12 Nov 2026, owner: "Broker, Claude plan, Haiku"): the search round's AI moves onto the broker too. Ours (search-ours.yml `search`, and the two caller jobs that must grant it, a called job cannot hold more than its caller)
+// and the judge (reads the pools as data, runs no rival's code) hold the token; the rivals' jobs (search-rivals.yml, jooble included) never do.
+const ALLOWED = ['form-round.yml:run-ours', 'search-ours.yml:search', 'search-round.yml:ours', 'search-round.yml:ours_all', 'search-round.yml:judge'];
 const holdsToken = block => /^\s+id-token: write/m.test(block);
 
 test('only the job that runs ours holds id-token: write; no job that runs a rival does', () => {
   for (const file of fs.readdirSync(dir).filter(f => /\.ya?ml$/.test(f))) {
     const text = read(file);
     if (/^permissions:[\s\S]*?\n {2}id-token: write/m.test(text.split('\njobs:')[0])) assert.fail(`${file}: a workflow-wide id-token: write reaches every job`);
-    for (const [name, block] of Object.entries(jobsOf(text))) if (holdsToken(block)) assert.ok(file === 'form-round.yml' && name === 'run-ours', `${file}: job ${name} holds id-token: write (only form-round.yml's run-ours may)`);
+    for (const [name, block] of Object.entries(jobsOf(text))) if (holdsToken(block)) assert.ok(ALLOWED.includes(`${file}:${name}`), `${file}: job ${name} holds id-token: write (only ${ALLOWED.join(', ')} may)`);
   }
   const jobs = jobsOf(read('form-round.yml'));
   assert.ok(holdsToken(jobs['run-ours']), 'ours has the token the broker asks for');
@@ -31,4 +34,15 @@ test('the two lists are split on the tool name extension, and the called workflo
 });
 test('the form round gives ours no Anthropic key variable (the app has no API-key path on CI since jobadabra #3177)', () => {
   assert.doesNotMatch(read('form-round.yml') + read('form-round-job.yml'), /E2E_ANTHROPIC_KEY/);
+});
+
+test('the search round: no rival job holds the token, the judge and ours have no stored AI secret, and the broker is the only AI route', () => {
+  const round = read('search-round.yml'), ours = read('search-ours.yml');
+  assert.doesNotMatch(jobsOf(round).rivals, /permissions:[\s\S]*id-token/, 'the rivals caller gets no token');
+  assert.doesNotMatch(read('search-rivals.yml'), /id-token|CLAUDE_CODE_OAUTH_TOKEN|ANTHROPIC/, 'rivals: no broker, no AI secret');
+  assert.doesNotMatch(round + ours, /secrets\.CLAUDE_CODE_OAUTH_TOKEN/, 'the round holds no plan token any more');
+  assert.match(jobsOf(round).judge, /BENCH_JUDGE_ENGINE: broker/);
+  assert.match(ours, /^ {2}JOBADABRA_CHECK_CHAIN: claude$/m, 'every call on the Claude engine, never Codex or Free AI');
+  assert.match(ours, /node tools\/persona-search\/codex\.mjs -- node tools\/persona-search\/run\.mjs draw/, 'the draw runs behind the broker relay');
+  assert.match(jobsOf(ours).search, /^\s+id-token: write/m); assert.doesNotMatch(jobsOf(ours).build, /id-token/);
 });

@@ -127,8 +127,8 @@ test('form-round.yml: our eligibility check is off', () =>
   assert.match(fs.readFileSync(path.join(dir, 'form-round-job.yml'), 'utf8'), /^\s+LIVE_ELIGIBILITY: 'off'/m));
 
 // The search round every 3 days (owner, 27 Oct 2026): ours (1 search per persona, every persona) and the three free rivals, judged blind
-// on the plan, published, then one Telegram note; the plan token reaches only the judge step.
-test('search-round.yml: every 3 days, ours + free rivals, judged on the plan, published, a Telegram note', () => {
+// on the plan, published, then one Telegram note; the broker's run token reaches only the judge job and ours.
+test('search-round.yml: every 3 days, ours + free rivals, judged through the broker, published, a Telegram note', () => {
   const text = fs.readFileSync(path.join(dir, 'search-round.yml'), 'utf8');
   assert.deepEqual([...text.matchAll(/cron: '([^']+)'/g)].map(m => m[1]), ['0 7 * * *']);
   assert.match(text, every3Days);
@@ -136,8 +136,8 @@ test('search-round.yml: every 3 days, ours + free rivals, judged on the plan, pu
   assert.match(text, /uses: \.\/\.github\/workflows\/search-rivals\.yml\n    with:\n      rivals: '\["jobspy","eures","adzuna","jooble"\]'/);
   assert.doesNotMatch(text, /uses: \.\/\.github\/workflows\/search-(bench-)?career-ops/, 'career-ops stays by hand');
   const judge = text.slice(text.indexOf('- name: Blind judge'), text.indexOf('- name: Publish'));
-  assert.match(judge, /BENCH_JUDGE_ENGINE: plan/); assert.match(judge, /search-bench\/judge\.py/);
-  assert.equal(text.split('secrets.CLAUDE_CODE_OAUTH_TOKEN').length - 1, 1, 'the token appears once'); assert.ok(judge.includes('secrets.CLAUDE_CODE_OAUTH_TOKEN'), 'in the judge step');
+  assert.match(judge, /BENCH_JUDGE_ENGINE: broker/); assert.match(judge, /search-bench\/judge\.py/);
+  assert.doesNotMatch(text, /secrets\.CLAUDE_CODE_OAUTH_TOKEN/, 'the judge asks the broker with the run token: no stored AI secret (12 Nov 2026)');
   assert.match(text, /SELFHEAL_PUBLISH_KEY: \$\{\{ secrets\.BENCHMARK_PUBLISH_KEY \}\}\n {8}run: node search-bench\/publish\.mjs work --round/);
   assert.match(text, /node search-bench\/note\.mjs work [^\n]*--baseline search-bench\/results\/2026-10-27/);
   assert.match(text, /CI_ALERTS_TELEGRAM_BOT_TOKEN: \$\{\{ secrets\.CI_ALERTS_TELEGRAM_BOT_TOKEN \}\}/); assert.match(text, /CI_ALERTS_TELEGRAM_CHAT_ID: \$\{\{ secrets\.CI_ALERTS_TELEGRAM_CHAT_ID \}\}/); assert.doesNotMatch(text, /BENCH_TELEGRAM/, 'the Engineering bot only (owner, 12 Nov 2026): no fall back to the old benchmarks bot');

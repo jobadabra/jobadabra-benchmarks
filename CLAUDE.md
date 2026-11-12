@@ -44,7 +44,7 @@ Public page: jobadabra.top/benchmark (site repo `jobadabra-web`); the full runs 
     `node judge-blind.mjs --cases judge-cases.json` ($0), before its PR. A verdict the big batch gets wrong goes to `rounds/fixed/corrections.json`.
   - **Same place, same AI for every contestant** (owner, 27 Oct 2026: "If using locally, then locally ours and theirs. If using CI, then CI
     ours and theirs. If using Haiku then haiku ours and theirs"): both rounds on CI, every AI contestant on Haiku 5.5 (form round: the
-    Benchmarks API key; search round: the owner's plan token). No extra "as shipped" row. A local run is a side note, never the scoreboard.
+    the search round's AI (ours on Haiku, the judge on Sonnet): the AI broker on the owner's Claude plan). No extra "as shipped" row. A local run is a side note, never the scoreboard.
     Guarded by test/workflows.test.mjs.
   - **A re-run is the whole round, same day** (27 Oct 2026): when ours must run again (a known bug fixed after the round), re-run
     every contestant of that round the same day; never one contestant alone. The earlier result stays as a labelled "before" row.
@@ -57,9 +57,10 @@ Public page: jobadabra.top/benchmark (site repo `jobadabra-web`); the full runs 
     then clear the clipboard. A CLI that prints a token (`claude setup-token`) runs in a pty writing to a 600 file; read back only status
     lines, never the lines around the token: terminals wrap it, and a mask on one line printed its tail once. Wipe the file after.
   - Which: the agents' API calls use the Benchmarks workspace key ($5/month limit; owner: "a separate API Key for the benchmarks");
-    the search round (ours and career-ops' docs run) uses the owner's plan token; in career-ops' run only Claude Code sees it (its scripts
-    run as another Linux user; test/workflows).
-    The plan token stays a GitHub secret for the scheduled rounds (owner, 27 Oct 2026: "Keep the plan token", "Keep it standing"); revoke it only if it leaks
+    the search round's ours arm and its judge go through the AI broker with the run's GitHub OIDC token, no stored secret (owner, 12 Nov 2026: "Broker, Claude plan,
+    Haiku"; `id-token: write` only on those jobs, never on a rival's: test/form-round-token.test.mjs); career-ops' docs run alone uses the owner's plan token, and
+    only Claude Code sees it (its scripts run as another Linux user; test/workflows).
+    The plan token stays a GitHub secret for career-ops' by-hand run (owner, 27 Oct 2026: "Keep the plan token", "Keep it standing"); revoke it only if it leaks
     (claude.ai → Settings → Claude Code). It expires 27 Oct 2027.
 - Tests: `node --test test/<file>.test.mjs`, one file at a time on the Mac.
 - Watch a round: Monitor on `tools/watch-runs.sh <run id>...` (ends, failed jobs and steps, gh errors). Pass `product_ref` as a

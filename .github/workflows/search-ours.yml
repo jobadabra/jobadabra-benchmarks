@@ -1,6 +1,6 @@
 # Our arm of the search round on CI, beside the rivals (owner, 27 Oct 2026: "If using CI, then CI ours and theirs. If using Haiku then haiku
-# ours and theirs"): every AI step on Haiku 5.5 (JOBADABRA_MODEL_OVERRIDE), on the owner's Claude plan through the token ($0, his choice),
-# the same model and plan career-ops' docs run uses (search-career-ops-docs.yml). By hand, or called by search-round.yml every 3 days (test/workflows.test.mjs).
+# ours and theirs"): every AI step on Haiku 5.5 (JOBADABRA_MODEL_OVERRIDE), through the AI broker on the owner's Claude plan ($0, his choice;
+# Why (12 Nov 2026, owner: "Broker, Claude plan, Haiku"): this run's GitHub OIDC token, no stored secret; tools/persona-search/codex.mjs in our product is the relay). By hand, or called by search-round.yml every 3 days (test/workflows.test.mjs).
 # One fresh install per persona and press count: "first search" (1 press) and "after 3 searches" (3 presses), each press with the product's own
 # 3-minute cap. Writes the jobs found (title, company, place: search-bench/extract.py) and the per-press numbers; never applies.
 name: search ours (by hand)
@@ -28,8 +28,9 @@ on:
 permissions:
   contents: read
 env:
-  CLAUDE_CODE_VERSION: 2.1.311
   JOBADABRA_MODEL_OVERRIDE: claude-haiku-5-5
+  CI_AI_PROVIDER: codex   # the broker (codex.mjs asks aiProvider); JOBADABRA_CHECK_CHAIN below keeps every call on Claude, Haiku, never Codex or Free AI
+  JOBADABRA_CHECK_CHAIN: claude
 jobs:
   build:   # resolves product_ref ONCE: a branch can move or be deleted mid-round (27 Oct 2026, all jobs failed at checkout); test/workflows
     runs-on: ubuntu-24.04
@@ -45,6 +46,9 @@ jobs:
     needs: build
     runs-on: ubuntu-24.04
     timeout-minutes: 40
+    permissions:
+      contents: read
+      id-token: write   # Why (12 Nov 2026, owner: "Broker, Claude plan, Haiku"): the broker's run token, held by the job that runs OUR arm only (test/broker-token.test.mjs); no rival's code runs here
     strategy:
       fail-fast: false
       max-parallel: 2   # the owner's plan: two sessions at a time (with career-ops' docs run, do not start both together)
@@ -60,24 +64,18 @@ jobs:
         with: {node-version: '22'}
       - uses: actions/setup-python@v6
         with: {python-version: '3.12'}
-      - name: Jobadabra's engine, app libraries, a browser and Claude Code (pinned)
+      - name: Jobadabra's engine, app libraries and a browser
         run: |
           pip install --quiet -r jp/requirements.txt
           (cd jp/desktop && npm ci && node scripts/stage.mjs --files-only)   # the app's shared files, as the product's own CI stages them
           (cd jp/desktop/e2e && (npm ci || npm install) && npx playwright-core install --with-deps chromium)
-          npm install -g "@anthropic-ai/claude-code@$CLAUDE_CODE_VERSION"
           echo "our build: $(git -C jp rev-parse --short HEAD)" | tee build.txt
-      - name: Claude answers on this runner (the app's call shape; stops the job if not, so a dead AI is never a quiet 0)
-        env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      - name: The broker answers Haiku on this runner (stops the job if not, so a dead AI is never a quiet 0)
         run: |
-          cd "$RUNNER_TEMP" && echo "Reply with just: ok" | env -u ANTHROPIC_API_KEY MAX_THINKING_TOKENS=0 claude -p --output-format json --model "$JOBADABRA_MODEL_OVERRIDE" \
-            --tools '' --permission-mode dontAsk --max-turns 1 > probe.json 2> probe.err; echo "exit $?"
-          python3 -c "import json;d=json.load(open('probe.json'));print({k:d.get(k) for k in ('is_error','subtype','result')});exit(0 if d.get('result','').strip()=='ok' else 1)" \
-            || { head -c 600 probe.json; echo; tail -5 probe.err; exit 1; }
-      - name: The persona's fake CV, then Find jobs (Haiku 5.5 for every step, the owner's plan)
-        env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          set -o pipefail
+          node jp/tools/persona-search/codex.mjs --proof 2>&1 | tee proof.txt
+          grep -q 'AI: claude / claude-haiku-5-5' proof.txt || { echo "the broker did not answer on Claude Haiku 5.5"; exit 1; }
+      - name: The persona's fake CV, then Find jobs (Haiku 5.5 for every step, through the broker)
         run: |
           set -o pipefail; mkdir -p out
           JP=$PWD/jp python3 search-bench/make-cv.py search-bench/personas.json "${{ matrix.persona }}" out | tee out/persona.json
@@ -86,10 +84,11 @@ jobs:
           # every rival's source (search-bench/rivals.json: jobspy, eures, adzuna, jooble); "ours-all" keeps them, as a user has them.
           off=""; [ "${{ inputs.arm }}" = ours-all ] || off=$(node -p 'JSON.parse(require("fs").readFileSync("search-bench/rivals.json","utf8")).join(",")')
           echo "sources off: ${off:-none}" | tee out/sources-off.txt
-          (cd jp && env -u ANTHROPIC_API_KEY JOBADABRA_DISABLE="$off" JOBADABRA_NO_DOTENV=1 node tools/persona-search/run.mjs draw "$GITHUB_WORKSPACE/out" \
-            --presses "${{ matrix.presses }}" --fresh --tag bench) 2>&1 | tee out/run.log
+          (cd jp && env -u ANTHROPIC_API_KEY JOBADABRA_DISABLE="$off" JOBADABRA_NO_DOTENV=1 node tools/persona-search/codex.mjs -- node tools/persona-search/run.mjs draw "$GITHUB_WORKSPACE/out" \
+            --presses "${{ matrix.presses }}" --engine api --fresh --tag bench) 2>&1 | tee out/run.log
           echo $(( $(date +%s) - start )) > out/seconds.txt
-          grep -h 'with claude-' out/draw/run-*.log | grep -v -c 'claude-haiku-5-5' > out/non-haiku-steps.txt || true
+          # Why (12 Nov 2026): the relay line names each call's tier; Haiku is `small`, so any other tier is a step off the round's model
+          grep -h '^relay: ' out/run.log | grep -v -c '^relay: small ' > out/non-haiku-steps.txt || true
           python3 search-bench/extract.py ours "$(node -p 'require("os").tmpdir()')/jp-persona-draw-bench/data/jobs.sqlite" out/jobs.json
       - uses: actions/upload-artifact@v6
         if: always()

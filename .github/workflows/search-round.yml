@@ -1,9 +1,9 @@
 # The job-search round on CI every 3 days (owner, 27 Oct 2026: "I want job search benchmarks to run on the CI and me getting telegram
-# notifications"; "not weekly, but every 3 days"): ours on main (search-ours.yml, 1 search per persona, Haiku 5.5 on the owner's plan) and the
-# free rivals JobSpy, EURES and Adzuna (search-rivals.yml, no AI), then the blind judge (judge.py, the Claude plan, $0), the page
+# notifications"; "not weekly, but every 3 days"): ours on main (search-ours.yml, 1 search per persona, Haiku 5.5 through the AI broker on the owner's Claude plan) and the
+# free rivals JobSpy, EURES, Adzuna and Jooble (search-rivals.yml, no AI), then the blind judge (judge.py, Sonnet through the broker, $0), the page
 # /admin/job-search/benchmark (publish.mjs) and one Telegram note against the previous run and the 27 Oct baseline (note.mjs).
-# career-ops stays by hand (it found 0-1 relevant jobs and takes plan time). The plan token stays in the repo's secrets
-# (owner, 27 Oct 2026: "Keep it standing (Recommended)").
+# career-ops stays by hand (it found 0-1 relevant jobs and takes plan time) and is the only one left on the plan token (secret CLAUDE_CODE_OAUTH_TOKEN,
+# owner, 27 Oct 2026: "Keep it standing (Recommended)"); the round itself holds no stored AI secret since 12 Nov 2026 (owner: "Broker, Claude plan, Haiku").
 name: search round (every 3 days)
 on:
   schedule:
@@ -28,6 +28,9 @@ jobs:
   ours:   # the fair arm: every rival's source off (search-ours.yml reads search-bench/rivals.json)
     needs: when
     if: needs.when.outputs.go == 'yes'
+    permissions:
+      contents: read
+      id-token: write   # the broker's run token for the called job that runs OUR arm (a called job cannot hold more than its caller); test/broker-token.test.mjs
     uses: ./.github/workflows/search-ours.yml
     with:
       product_ref: ${{ inputs.product_ref || 'main' }}
@@ -38,6 +41,9 @@ jobs:
   ours_all:   # the second line: as a user has it, EURES and the rest on (owner, 27 Oct 2026)
     needs: [when, ours]   # one after the other: the owner's plan runs two sessions at a time
     if: ${{ !cancelled() && needs.when.outputs.go == 'yes' }}
+    permissions:
+      contents: read
+      id-token: write   # the broker's run token for the called job that runs OUR arm (a called job cannot hold more than its caller); test/broker-token.test.mjs
     uses: ./.github/workflows/search-ours.yml
     with:
       product_ref: ${{ inputs.product_ref || 'main' }}
@@ -57,22 +63,21 @@ jobs:
     if: ${{ !cancelled() && needs.when.outputs.go == 'yes' }}
     runs-on: ubuntu-24.04
     timeout-minutes: 90
-    env:
-      CLAUDE_CODE_VERSION: 2.1.311
+    permissions:
+      contents: write   # the same as the workflow's: moves the tag weekly-picks (a job's own permissions replace the workflow's)
+      actions: read
+      id-token: write   # Why (12 Nov 2026, owner: "Broker, Claude plan, Haiku"): the judge's AI goes through the broker on this run's token, no stored secret; the job runs no rival's code, only reads their data (test/broker-token.test.mjs)
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with: {node-version: '22'}
-      - name: Claude Code (pinned), for the judge
-        run: npm install -g "@anthropic-ai/claude-code@$CLAUDE_CODE_VERSION"
       - uses: actions/download-artifact@v5
         with: {path: art, pattern: 'search-*'}
       - name: The pools (title, employer, place per job; no URLs)
         run: node search-bench/pool.mjs art work
-      - name: Blind judge, on the Claude plan ($0)
+      - name: Blind judge, through the AI broker (Claude plan, $0)
         env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          BENCH_JUDGE_ENGINE: plan
+          BENCH_JUDGE_ENGINE: broker
         run: |
           set -o pipefail
           for n in 1 2 3 4 5 6 7 8 9 10; do

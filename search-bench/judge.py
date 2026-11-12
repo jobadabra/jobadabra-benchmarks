@@ -9,7 +9,8 @@ import re
 import sys
 import urllib.request
 
-MODEL = 'claude-sonnet-5-5' if os.environ.get('BENCH_JUDGE_ENGINE') != 'plan' else 'sonnet (Claude plan)'
+ENGINE = os.environ.get('BENCH_JUDGE_ENGINE', '')   # '' = the Anthropic API with a key; 'plan' = Claude Code on the plan token; 'broker' = the AI broker on this run's OIDC token (the round, 12 Nov 2026)
+MODEL = {'plan': 'sonnet (Claude plan)', 'broker': 'sonnet (Claude plan, through the AI broker)'}.get(ENGINE, 'claude-sonnet-5-5')
 PRICE = (2.00, 10.00)   # $ per million input/output tokens (src/ai/cost.py, 2 Oct 2026)
 BATCH = 60
 SYSTEM = ('You check a job search for one job seeker. You get their short profile and a numbered list of jobs (title, employer, place). For EACH job decide two things on their own. '
@@ -39,8 +40,20 @@ def ask_plan(profile, jobs):
     return {r['n']: r for r in data['jobs']}, {'input_tokens': 0, 'output_tokens': 0}
 
 
+def ask_broker(profile, jobs):
+    """The same question through the AI broker (tier mid = Sonnet, Claude engine only): no key, no token of ours, $0; the broker has no system field, so the rules lead the prompt."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))   # the workflow runs `python3 -I`, which leaves the script's folder off the path
+    import broker
+    prompt = SYSTEM + '\n\n' + profile + '\n\nJOBS\n' + '\n'.join(f'{j["n"]}. {j["title"]} | {j["company"] or "?"} | {j["location"] or "(no place)"}' for j in jobs)
+    answer = broker.ask(prompt, tier='mid')
+    data = json.loads(re.search(r'\{.*\}', answer['reply'], re.S).group(0))
+    return {r['n']: r for r in data['jobs']}, {'input_tokens': 0, 'output_tokens': 0}
+
+
 def ask(key, profile, jobs):
-    if os.environ.get('BENCH_JUDGE_ENGINE') == 'plan':
+    if ENGINE == 'broker':
+        return ask_broker(profile, jobs)
+    if ENGINE == 'plan':
         return ask_plan(profile, jobs)
     body = {'model': MODEL, 'max_tokens': 8000, 'system': SYSTEM, 'messages': [{'role': 'user', 'content': profile + '\n\nJOBS\n' + '\n'.join(
         f'{j["n"]}. {j["title"]} | {j["company"] or "?"} | {j["location"] or "(no place)"}' for j in jobs)}]}
@@ -114,7 +127,7 @@ def judge(p, index, pool, ledger, ask_fn, limit=None, plan=False, cap=None, max_
 def main():
     personas, index, pool_path, out_path = sys.argv[1:5]
     limit = int(sys.argv[sys.argv.index('--limit') + 1]) if '--limit' in sys.argv else None
-    plan = os.environ.get('BENCH_JUDGE_ENGINE') == 'plan'
+    plan = ENGINE in ('plan', 'broker')   # both run on a subscription: no per-call price, no ledger
     ledger = os.environ.get('BENCH_JUDGE_LEDGER') or os.path.join(os.path.dirname(os.path.abspath(out_path)), 'judge-spend.json')
     p = json.load(open(personas))['personas'][int(index) - 1]
     try:
