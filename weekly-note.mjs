@@ -15,4 +15,4 @@ const lastDir = arg('last'), last = lastDir && fs.existsSync(lastDir) ? rj(path.
 const text = noteText(note, arg('baseline') ? rj(arg('baseline')) : null, last, arg('url'));
 if (arg('out')) fs.writeFileSync(arg('out'), JSON.stringify(note, null, 1) + '\n');
 console.log(text);
-await sendNote(text);
+await sendNote(text, process.env, fetch, 'form-benchmark-note');

@@ -21,3 +21,26 @@ test('in GitHub Actions a missing secret fails; the old BENCH_* pair is never us
 test('a refusal names Telegram\'s words, never the token', async () => {
   await assert.rejects(() => sendNote('x', {CI_ALERTS_TELEGRAM_BOT_TOKEN: 'SECRET', CI_ALERTS_TELEGRAM_CHAT_ID: 'C'}, async () => ({ok: false, status: 400, json: async () => ({description: "can't parse entities"})})), err => /400 can't parse entities/.test(err.message) && !/SECRET/.test(err.message));
 });
+test('the switchboard goes first; the CI-alerts bot is only the fallback and the switchboard is told', async () => {
+  const env = {SELFHEAL_PUBLISH_KEY: 'K', CI_ALERTS_TELEGRAM_BOT_TOKEN: 'T', CI_ALERTS_TELEGRAM_CHAT_ID: 'C', GITHUB_ACTIONS: 'true'};
+  const calls = [];
+  const board = async (url, init) => { calls.push({url, body: JSON.parse(init.body), auth: init.headers.Authorization}); return {ok: true, status: 200, json: async () => ({sent: true})}; };
+  assert.deepEqual(await sendNote('<b>hi</b>', env, board, 'search-benchmark-note'), {sent: true, via: 'switchboard'});
+  assert.equal(calls.length, 1); assert.match(calls[0].url, /\/ops\/notify$/); assert.equal(calls[0].auth, 'Bearer K');
+  assert.deepEqual(calls[0].body, {event: 'search-benchmark-note', text: '<b>hi</b>', html: true});
+  // the owner's switch holds it on purpose: done, the old bot does not send
+  const held = async () => ({ok: true, status: 200, json: async () => ({sent: false, why: 'off'})});
+  assert.deepEqual(await sendNote('x', env, held, 'form-benchmark-note'), {sent: false, via: 'switchboard'});
+  // the switchboard is down (503): the old bot sends, then the switchboard is told
+  const urls = [];
+  const down = async (url, init) => { urls.push(url); return /ops\/notify/.test(url) && !JSON.parse(init.body).fallback ? {ok: false, status: 503, json: async () => ({})} : ok; };
+  assert.deepEqual(await sendNote('x', env, down, 'form-benchmark-note'), {sent: true});
+  assert.deepEqual(urls.map(u => u.replace(/^https:\/\/[^/]+/, '')), ['/ops/notify', '/botT/sendMessage', '/ops/notify']);
+});
+test('without the key, or without an event, the old bot sends and the switchboard is not asked', async () => {
+  const urls = [];
+  const fetcher = async url => { urls.push(url); return ok; };
+  await sendNote('x', {CI_ALERTS_TELEGRAM_BOT_TOKEN: 'T', CI_ALERTS_TELEGRAM_CHAT_ID: 'C'}, fetcher, 'form-benchmark-note');
+  await sendNote('x', {SELFHEAL_PUBLISH_KEY: 'K', CI_ALERTS_TELEGRAM_BOT_TOKEN: 'T', CI_ALERTS_TELEGRAM_CHAT_ID: 'C'}, fetcher);
+  assert.deepEqual(urls, ['https://api.telegram.org/botT/sendMessage', 'https://api.telegram.org/botT/sendMessage']);
+});

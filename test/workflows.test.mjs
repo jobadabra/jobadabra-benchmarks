@@ -60,6 +60,7 @@ test('form-round.yml: a weekly run ends with one Telegram note against the basel
   assert.match(text, /node weekly-note\.mjs pool --round "\$ROUND" "\$\{base\[@\]\}" --last "picks\/notes\/\$kind"/);
   assert.match(text, /base=\(--baseline rounds\/fixed\/baseline\.json\)/);
   assert.match(text, /CI_ALERTS_TELEGRAM_BOT_TOKEN: \$\{\{ secrets\.CI_ALERTS_TELEGRAM_BOT_TOKEN \}\}/); assert.match(text, /CI_ALERTS_TELEGRAM_CHAT_ID: \$\{\{ secrets\.CI_ALERTS_TELEGRAM_CHAT_ID \}\}/); assert.doesNotMatch(text, /BENCH_TELEGRAM/, 'the Engineering bot only (owner, 12 Nov 2026): no fall back to the old benchmarks bot');
+  assert.match(text, /\n {10}SELFHEAL_PUBLISH_KEY: \$\{\{ secrets\.SELFHEAL_PUBLISH_KEY \}\}[^\n]*\n {10}URL:/, 'the note step hands the switchboard key to the sender (owner, 13 Nov 2026: move the CI alerts messages to the switchboard)');
 });
 
 // Every round publishes itself as its last step (owner via 6e, 27 Oct 2026): a form round takes `publish` and its last job judges, scores
@@ -141,6 +142,7 @@ test('search-round.yml: every 3 days, ours + free rivals, judged on the plan, pu
   assert.match(text, /SELFHEAL_PUBLISH_KEY: \$\{\{ secrets\.BENCHMARK_PUBLISH_KEY \}\}\n {8}run: node search-bench\/publish\.mjs work --round/);
   assert.match(text, /node search-bench\/note\.mjs work [^\n]*--baseline search-bench\/results\/2026-10-27/);
   assert.match(text, /CI_ALERTS_TELEGRAM_BOT_TOKEN: \$\{\{ secrets\.CI_ALERTS_TELEGRAM_BOT_TOKEN \}\}/); assert.match(text, /CI_ALERTS_TELEGRAM_CHAT_ID: \$\{\{ secrets\.CI_ALERTS_TELEGRAM_CHAT_ID \}\}/); assert.doesNotMatch(text, /BENCH_TELEGRAM/, 'the Engineering bot only (owner, 12 Nov 2026): no fall back to the old benchmarks bot');
+  assert.match(text, /\n {10}SELFHEAL_PUBLISH_KEY: \$\{\{ secrets\.SELFHEAL_PUBLISH_KEY \}\}[^\n]*\n {10}URL:/, 'the note step hands the switchboard key to the sender (owner, 13 Nov 2026: move the CI alerts messages to the switchboard)');
 });
 
 

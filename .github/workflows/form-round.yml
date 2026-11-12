@@ -160,6 +160,7 @@ jobs:
         env:
           CI_ALERTS_TELEGRAM_BOT_TOKEN: ${{ secrets.CI_ALERTS_TELEGRAM_BOT_TOKEN }}   # the Engineering bot (owner, 12 Nov 2026); a missing secret fails the step (lib/telegram.mjs)
           CI_ALERTS_TELEGRAM_CHAT_ID: ${{ secrets.CI_ALERTS_TELEGRAM_CHAT_ID }}
+          SELFHEAL_PUBLISH_KEY: ${{ secrets.SELFHEAL_PUBLISH_KEY }}   # the owner's Notifications switchboard asks first; the bot above is the fallback (owner, 13 Nov 2026)
           URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           kind=week; base=(); name=$(date -u +%G-W%V); [ "$ROUND" = fixed ] && { kind=fixed; base=(--baseline rounds/fixed/baseline.json); name=$(date -u +%F); }   # fixed runs every 3 days: one note per day
