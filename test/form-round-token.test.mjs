@@ -24,6 +24,7 @@ test('only the job that runs ours holds id-token: write; no job that runs a riva
 test('the two lists are split on the tool name extension, and the called workflow sets no permissions of its own', () => {
   const build = jobsOf(read('form-round.yml')).build;
   assert.match(build, /ours=\$\(jq -c '\[\.\[\] \| select\(\. == "extension"\)\]'/); assert.match(build, /rivals=\$\(jq -c '\[\.\[\] \| select\(\. != "extension"\)\]'/);
+  assert.match(build, /test "\$\(jq 'length' <<<"\$TOOLS"\)" -gt 0/, 'an empty tools list fails the build, as the old single matrix did');
   const callee = read('form-round-job.yml');
   assert.doesNotMatch(callee, /^\s+permissions:/m, 'a called job inherits the caller\'s permissions; it must not widen them'); assert.doesNotMatch(callee, /^\s*id-token:/m);
   assert.match(jobsOf(read('form-round.yml'))['run-rivals'], /permissions:\n\s+contents: read[^\n]*\n\s+uses:/, 'the rivals job: contents: read only');

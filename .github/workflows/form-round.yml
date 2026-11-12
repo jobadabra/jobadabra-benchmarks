@@ -67,6 +67,7 @@ jobs:
         run: |
           echo "ours=$(jq -c '[.[] | select(. == "extension")]' <<<"$TOOLS")" | tee -a "$GITHUB_OUTPUT"
           echo "rivals=$(jq -c '[.[] | select(. != "extension")]' <<<"$TOOLS")" | tee -a "$GITHUB_OUTPUT"
+          test "$(jq 'length' <<<"$TOOLS")" -gt 0   # Why (12 Nov 2026, Gitar on #20): an empty list used to fail the one matrix visibly; split in two it would skip both and publish nothing
   run-rivals:   # every rival; one job per (tool, run), all started together, each on a fresh runner; every tool on BENCH_MODEL (owner, 27 Oct 2026: the same AI for all)
     needs: build
     if: needs.build.outputs.rivals != '[]'

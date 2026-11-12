@@ -25,7 +25,7 @@ test('each of the three writers reads and writes the tag weekly-picks through th
 });
 
 test('the forms file of a weekly draw is read from the tag (forms_from is tag:path)', () => {
-  const text = code('form-round.yml');
+  const text = code('form-round.yml') + code('form-round-job.yml');   // the per-job reader moved into the called workflow (12 Nov 2026, Gitar on #20)
   assert.equal((text.match(/git fetch -q --depth 1 origin "\+refs\/tags\/\$tag:refs\/tags\/\$tag"/g) || []).length, 2, 'both readers fetch the tag');
   assert.equal((text.match(/git show "refs\/tags\/\$tag:\$\{FROM#\*:\}"/g) || []).length, 2, 'both readers show the file from the tag');
   assert.ok(!/FETCH_HEAD:\$\{FROM#\*:\}/.test(text), 'no branch fetch of the forms file');
