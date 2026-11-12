@@ -1,0 +1,95 @@
+# One CI job of the objective round: ONE tool, ONE run number (form-round.yml calls it per matrix cell). Why a workflow of its own (12 Nov 2026, owner via the
+# coordinator: "Our runs move to a job of their own that alone has id-token: write"): the broker answers any run token of this repo on the owner's Claude plan, so the
+# job where a rival's third-party code runs (Browser Use, Stagehand, Nanobrowser) must never hold the token. This file sets no `permissions`: the caller's job decides
+# (a called job can only keep or lower them), and test/workflows.test.mjs holds the two callers apart.
+name: form round job (called by form-round.yml)
+on:
+  workflow_call:
+    inputs:
+      tool: {type: string, required: true}
+      repeat: {type: string, required: true}
+      sha: {type: string, required: true}
+      forms: {type: string, required: true}
+      forms_from: {type: string, default: ''}
+      only: {type: string, default: ''}
+      agent_cap: {type: string, default: '0.30'}
+    secrets:
+      BENCH_ANTHROPIC_KEY: {required: false}
+env:
+  BENCH_MODEL: claude-haiku-5-5   # a caller's workflow-level env does not reach a called workflow: pinned here too, the same model for every contestant (owner, 27 Oct 2026)
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    env:
+      BENCH_ANTHROPIC_KEY: ${{ secrets.BENCH_ANTHROPIC_KEY }}   # the Benchmarks workspace key ($5/month limit), held by the metering pass-through
+      JP_REPO: ${{ github.workspace }}/jp/desktop/e2e
+      JOBADABRA_HEAVY: '0'
+      JOBADABRA_SESSION: form round ${{ github.run_id }} ${{ inputs.tool }} ${{ inputs.repeat }}
+      JOBADABRA_VISIT_KIND: hand
+      JOBADABRA_SITE_LEDGER_DIR: ${{ github.workspace }}/ledger
+      LIVE_ELIGIBILITY: 'off'   # ours fills like every tool: the bench asks each to fill the application (owner via 6e, 27 Oct 2026); the page says so
+      JP_NO_REPORT: '1'
+      ANONYMIZED_TELEMETRY: 'false'
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: {node-version: '22'}
+      - uses: actions/setup-python@v6
+        with: {python-version: '3.12'}
+      - name: The harness, a browser and a virtual display
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium chromium-headless-shell
+          sudo apt-get install -y -qq xvfb >/dev/null
+      - name: Browser Use (pinned, requirements.txt)
+        if: inputs.tool == 'browser-use'
+        run: python -m venv venv && venv/bin/pip install -q -r requirements.txt
+      - name: Nanobrowser (release v0.2.0)
+        if: inputs.tool == 'nanobrowser'
+        env: {GH_TOKEN: '${{ github.token }}'}
+        run: |
+          gh release download v0.2.0 -R nanobrowser/nanobrowser -p 'nanobrowser-v0.2.0.zip' -D "$RUNNER_TEMP"
+          mkdir -p "$RUNNER_TEMP/nb-0.2.0" && unzip -q "$RUNNER_TEMP/nanobrowser-v0.2.0.zip" -d "$RUNNER_TEMP/nb-0.2.0"
+          echo "NANOBROWSER_DIR=$RUNNER_TEMP/nb-0.2.0" >> "$GITHUB_ENV"
+      - name: Jobadabra (public repo) at the asked commit (every tool reads its fake applicant, CV file and site ledger)
+        uses: actions/checkout@v5
+        with: {repository: GarryOne/jobadabra, ref: '${{ inputs.sha }}', path: jp, persist-credentials: false}
+      - name: Jobadabra's test harness
+        run: |
+          (cd jp/desktop/e2e && (npm ci || npm install))
+          echo "our build: $(git -C jp rev-parse --short HEAD)"
+      - name: Jobadabra's app (our leg)
+        if: inputs.tool == 'extension'
+        run: |
+          (cd jp/desktop && npm ci)
+          (cd jp/desktop/e2e && npx playwright-core install --with-deps chromium)
+          pip install --quiet -r jp/requirements.txt
+      - name: The forms file from the weekly-picks tag
+        if: inputs.forms_from != ''
+        env: {FROM: '${{ inputs.forms_from }}', FORMS: '${{ inputs.forms }}'}
+        run: |
+          tag="${FROM%%:*}"; git fetch -q --depth 1 origin "+refs/tags/$tag:refs/tags/$tag" && git show "refs/tags/$tag:${FROM#*:}" > "$FORMS"
+      - name: The round's forms, this tool, this run
+        run: |
+          set -o pipefail
+          case "${{ inputs.tool }}" in extension) cap=0.05;; *) cap="${{ inputs.agent_cap }}";; esac
+          xvfb-run -a --server-args='-screen 0 1440x900x24' node round-job.mjs --tool "${{ inputs.tool }}" --run "${{ inputs.repeat }}" \
+            --forms "${{ inputs.forms }}" --only "${{ inputs.only }}" --out round-out --cap "$cap" 2>&1 | tee round.log
+      - name: This job's runs (no network records, no captured pages)
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: form-round-${{ inputs.tool }}-${{ inputs.repeat }}
+          retention-days: 30
+          path: |
+            round.log
+            round-out/**/result.json
+            round-out/**/fields.json
+            round-out/**/manifest.json
+            round-out/**/guard.jsonl
+            round-out/**/run.log
+            round-out/**/fill.log
+            round-out/**/start.png
+            round-out/**/end.png
+            round-out/job-*.json

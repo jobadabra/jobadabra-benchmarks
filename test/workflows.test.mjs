@@ -18,6 +18,7 @@ test('there are workflows to check', () => assert.ok(files.length > 0));
 // The search round too, every 3 days (owner, 27 Oct 2026: "I want job search benchmarks to run on the CI and me getting telegram
 // notifications"; "not weekly, but every 3 days"); it calls the ours and rivals workflows, which also start by hand.
 const SCHEDULED = {'form-weekly.yml': ['schedule', 'workflow_dispatch'], 'search-round.yml': ['schedule', 'workflow_dispatch'],
+  'form-round-job.yml': ['workflow_call'],   // the form round's one job, called by form-round.yml (12 Nov 2026)
   'search-ours.yml': ['workflow_dispatch', 'workflow_call'], 'search-rivals.yml': ['workflow_dispatch', 'workflow_call']};
 // Unit tests are no benchmark: a workflow that holds no secret and runs only a test file may start on a PR or a push (search-bench-tests.yml,
 // 21 Oct 2026: the judge's spend-cap tests, no API call).
@@ -66,7 +67,7 @@ test('form-round.yml: a weekly run ends with one Telegram note against the basel
 test('form-round.yml: the last job judges, scores and publishes the round', () => {
   const text = fs.readFileSync(path.join(dir, 'form-round.yml'), 'utf8'), last = text.slice(text.lastIndexOf('\n  publish:'));
   assert.match(text, /^ {6}publish:\n {8}description:/m, 'a publish input');
-  assert.match(last, /needs: run\n/); assert.match(last, /if: \$\{\{ !cancelled\(\) && \(inputs\.judge_only \|\| inputs\.publish != ''\) \}\}/);
+  assert.match(last, /needs: \[run-rivals, run-ours\]\n/); assert.match(last, /if: \$\{\{ !cancelled\(\) && \(inputs\.judge_only \|\| inputs\.publish != ''\) \}\}/);
   for (const step of [/node judge-blind\.mjs pool --forms "\$FORMS"/, /node score-round\.mjs pool/, /node publish-fair\.mjs pool --round "\$ROUND"/]) assert.match(last, step);
   assert.match(last, /cp -R rounds\/fixed\/\. pool\//, 'the fixed set judges inside its frozen baseline');
   assert.match(last, /BENCHMARK_PUBLISH_KEY: '\$\{\{ secrets\.BENCHMARK_PUBLISH_KEY \}\}'/);
@@ -123,7 +124,7 @@ for (const f of files) {
 // The form bench asks every tool to fill the application, so ours fills it too: our eligibility stop is off (owner via 6e, 27 Oct 2026:
 // "Off for the form bench (Recommended)"; the round had it on, and ours filled only the contact details on North-America jobs).
 test('form-round.yml: our eligibility check is off', () =>
-  assert.match(fs.readFileSync(path.join(dir, 'form-round.yml'), 'utf8'), /^\s+LIVE_ELIGIBILITY: 'off'/m));
+  assert.match(fs.readFileSync(path.join(dir, 'form-round-job.yml'), 'utf8'), /^\s+LIVE_ELIGIBILITY: 'off'/m));
 
 // The search round every 3 days (owner, 27 Oct 2026): ours (1 search per persona, every persona) and the three free rivals, judged blind
 // on the plan, published, then one Telegram note; the plan token reaches only the judge step.
