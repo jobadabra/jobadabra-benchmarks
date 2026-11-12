@@ -1,0 +1,6 @@
+{
+ "tool": "extension",
+ "url": "https://jobs.ashbyhq.com/sierra/9dc1651d-43e9-4970-a757-a5223cef1c4d/application",
+ "error": "live row on CI: no GitHub OIDC token for the AI broker (the workflow needs `permissions: id-token: write`); the app has no other way to ask the AI on a runner",
+ "crashed": true
+}

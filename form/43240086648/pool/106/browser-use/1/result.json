@@ -1,0 +1,42 @@
+{
+ "tool": "browser-use",
+ "url": "https://apply.workable.com/semios/j/0A6915AC27/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 15,
+ "final": "Filled the Workable application at https://apply.workable.com/semios/j/0A6915AC27/apply/ and did not submit it.\n\nFilled from the facts:\n- First name: Ada\n- Last name: Tester\n- Email: ada.tester@example.test\n- Phone: +41 (Switzerland) 79 555 01 23\n- Address: Musterstrasse 12\n- City: Zurich\n- Postcode: 8001\n- Country: Switzerland\n- Summary: 'Senior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale, strong in observability and incident response.'\n- Salary expectation: 'CHF 140,000–160,000 gross per year (estimate)'\n- CV: cv.pdf uploaded (the page shows it attached with vie",
+ "completed": true,
+ "tokens": {
+  "in": 138653,
+  "out": 18512,
+  "cacheRead": 217743,
+  "cacheWrite": 0,
+  "calls": 16
+ },
+ "usd": 0.025298730000000005,
+ "longCalls": 0,
+ "maxCallIn": 26803,
+ "usdReportedByTool": 0.02116581,
+ "seconds": 117.6,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.5156909079705179:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST workable-application-form.s3.us-east-1.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 124,
+ "score": {
+  "fields": 12,
+  "right": 8,
+  "wrong": 0,
+  "emptyShouldFill": 1,
+  "emptyOk": 3,
+  "emptyRequired": 3,
+  "requiredTotal": 9
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "browser-use",
+ "url": "https://jobs.ashbyhq.com/sierra/9dc1651d-43e9-4970-a757-a5223cef1c4d/application",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 11,
+ "final": "The Sierra application form is filled with the supplied facts and has NOT been submitted.\n\nFilled:\n- Legal first name: Ada\n- Legal last name: Tester\n- Preferred/full name: Ada Tester\n- Email: ada.tester@example.test\n- Phone: +41 79 555 01 23\n- LinkedIn: https://www.linkedin.com/in/ada-tester\n- Resume: /home/runner/work/jobadabra-benchmarks/jobadabra-benchmarks/jp/desktop/e2e/fixtures/cv.pdf (shows as cv.pdf attached; an earlier 'failed to upload' toast was not present on re-check)\n\nLeft empty because the facts do not answer them:\n- What's your favorite junk food?\n- Are you legally authorized t",
+ "completed": true,
+ "tokens": {
+  "in": 90323,
+  "out": 14938,
+  "cacheRead": 159847,
+  "cacheWrite": 0,
+  "calls": 12
+ },
+ "usd": 0.01809977,
+ "longCalls": 0,
+ "maxCallIn": 22318,
+ "usdReportedByTool": 0.01683123,
+ "seconds": 83.1,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 87,
+ "score": {
+  "fields": 36,
+  "right": 7,
+  "wrong": 0,
+  "emptyShouldFill": 2,
+  "emptyOk": 27,
+  "emptyRequired": 0,
+  "requiredTotal": 6
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

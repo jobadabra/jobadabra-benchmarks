@@ -1,0 +1,42 @@
+{
+ "tool": "browser-use",
+ "url": "https://apply.workable.com/semios/j/0A6915AC27/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 11,
+ "final": "The application form at https://apply.workable.com/semios/j/0A6915AC27/apply/ is filled with the applicant facts. I did not press Submit/Apply/Send and did not open any external links.\n\nFilled:\n- First name: Ada\n- Last name: Tester\n- Email: ada.tester@example.test\n- Phone: country +41 (Switzerland), number 79 555 01 23 (corrected from an earlier mis-entry)\n- Address: Musterstrasse 12, Zurich, Switzerland\n- City: Zurich\n- Postcode: 8001\n- Country: Switzerland\n- Summary: 'Senior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale, strong in observability and incident respon",
+ "completed": true,
+ "tokens": {
+  "in": 105600,
+  "out": 17453,
+  "cacheRead": 159847,
+  "cacheWrite": 0,
+  "calls": 12
+ },
+ "usd": 0.02088497,
+ "longCalls": 0,
+ "maxCallIn": 26224,
+ "usdReportedByTool": 0.014295659999999998,
+ "seconds": 105.8,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.5156909079705179:1793 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST workable-application-form.s3.us-east-1.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 110,
+ "score": {
+  "fields": 12,
+  "right": 8,
+  "wrong": 0,
+  "emptyShouldFill": 1,
+  "emptyOk": 3,
+  "emptyRequired": 3,
+  "requiredTotal": 9
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}
