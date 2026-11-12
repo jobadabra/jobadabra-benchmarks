@@ -3,14 +3,14 @@
 //          [--last <dir of earlier notes of this kind>] [--out note.json] [--url <run url>]
 // Telegram: $CI_ALERTS_TELEGRAM_BOT_TOKEN and $CI_ALERTS_TELEGRAM_CHAT_ID (the Engineering bot, owner 12 Nov 2026); unset: printed only, and a failure in GitHub Actions.
 import fs from 'node:fs'; import path from 'node:path';
-import {scoreRound} from './score-round.mjs'; import {noteOf, noteText, readFailures} from './lib/weekly-note.mjs'; import {sendNote} from './lib/telegram.mjs'; import {setChanges} from './lib/forms.mjs';
+import {scoreRound} from './score-round.mjs'; import {noteOf, noteText, readFailures, rivalsSince} from './lib/weekly-note.mjs'; import {sendNote} from './lib/telegram.mjs'; import {setChanges} from './lib/forms.mjs';
 const arg = n => { const i = process.argv.indexOf(`--${n}`); return i > 0 ? process.argv[i + 1] : ''; };
 const rj = f => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return null; } };
 const pool = process.argv[2], round = arg('round');
 const buildOf = () => { for (const form of fs.readdirSync(pool)) { const dir = path.join(pool, form, 'extension'); if (!fs.existsSync(dir)) continue;
   for (const run of fs.readdirSync(dir)) { const m = rj(path.join(dir, run, 'manifest.json')); if (m?.build) return String(m.build).slice(0, 7); } } return ''; };
 const scored = scoreRound(pool, {rows: true}), failed = scored.tools.extension ? {runs: 0, reason: ''} : readFailures(pool, 'extension');
-const note = noteOf(scored, {round, build: arg('build') || buildOf(), setChanges: round === 'fixed' ? setChanges(rj(arg('forms') || 'forms-objective.json') || []) : [], ourFailure: failed.runs ? `all ${failed.runs} of our runs failed: ${failed.reason || 'no reason in their result files'}` : ''});
+const note = noteOf(scored, {round, build: arg('build') || buildOf(), rivalsSince: round === 'fixed' ? rivalsSince(pool) : '', setChanges: round === 'fixed' ? setChanges(rj(arg('forms') || 'forms-objective.json') || []) : [], ourFailure: failed.runs ? `all ${failed.runs} of our runs failed: ${failed.reason || 'no reason in their result files'}` : ''});
 const lastDir = arg('last'), last = lastDir && fs.existsSync(lastDir) ? rj(path.join(lastDir, fs.readdirSync(lastDir).filter(f => f.endsWith('.json')).sort().at(-1) || '-')) : null;
 const text = noteText(note, arg('baseline') ? rj(arg('baseline')) : null, last, arg('url'));
 if (arg('out')) fs.writeFileSync(arg('out'), JSON.stringify(note, null, 1) + '\n');

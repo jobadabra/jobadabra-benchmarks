@@ -37,31 +37,34 @@ export function readRound(dir) {
   return out;
 }
 
-/** note, baseline and last (notes or null), {missing: ["ours p3"], notServed, url} -> the message, Telegram HTML (12 Nov 2026, owner: "improve the visual aspect of the message"): bold verdict first, our numbers against the previous run and the baseline, rivals on one line, one aligned row per persona, notes last. */
+/**
+ * note, baseline and last (notes or null), {missing: ["ours p3"], notServed, url} -> the message, Telegram HTML.
+ * Why (12 Nov 2026, owner: "Not very clear to me"; the shape of the form note, chosen via AskUserQuestion, "Yes, this shape"): a verdict line, one line with every tool's number,
+ * the searches that found nothing and the biggest moves, and what to know (failed jobs, rivals without data); the per-search table and the build lines are gone.
+ */
 export function noteText(note, baseline, last, {missing = [], notServed = [], url = ''} = {}) {
-  const ours = note.tools.ours, none = Object.values(note.personas).filter(p => p.relevant === 0).length;
+  const ours = note.tools.ours, searches = Object.keys(note.personas).length, empty = Object.entries(note.personas).filter(([, p]) => p.relevant === 0);
   // Why (27 Oct 2026, gitar-bot, #9): "ours" now runs with the rivals' sources off; the baseline and the notes saved before ran with everything on. Each line is
   // compared only with a reference that ran the same way: ours with a note that has rivalsOff, ours-all with a note's ours-all, or (an old note) its ours, which had every source on.
   const same = (ref, tool) => (tool === 'ours' ? (ref?.rivalsOff ? ref.tools.ours : undefined) : ref?.tools['ours-all'] || (ref && !ref.rivalsOff ? ref.tools.ours : undefined));
   const vs = (ref, label, tool = 'ours') => { const r = same(ref, tool)?.relevant; return r === undefined ? '' : `${delta(note.tools[tool].relevant, r, 0)} vs ${label} ${r}`; };
   const ref = same(last, 'ours') ? last : same(baseline, 'ours') ? baseline : null, down = ref && ours.relevant < ref.tools.ours.relevant;   // 🟡: down against the nearest reference that ran the same way
   const chip = missing.length || ours.relevant === 0 ? CHIP.bad : down ? CHIP.warn : CHIP.good;
-  const meta = [note.round && `round ${note.round}`, note.build && `build ${note.build}`].filter(Boolean).map(esc).join(' · ');
-  const versus = [vs(last, 'the previous run'), vs(baseline, 'baseline')].filter(Boolean).join(' · ');
-  const lines = [`${chip} <b>Ours ${ours.relevant} relevant of ${ours.found} shown</b> · search round`, ...(meta ? [meta] : []), versus ? `${versus} <i>(rivals' sources off)</i>` : `<i>no earlier run with the rivals' sources off yet</i>`];
-  const all = note.tools['ours-all'];
-  if (all) lines.push(`With every source: ${all.relevant} of ${all.found}${[vs(last, 'the previous run', 'ours-all'), vs(baseline, 'baseline', 'ours-all')].filter(Boolean).map(v => ` · ${v}`).join('')}`);
-  if (note.beyond) lines.push(`We add beyond ${Object.entries(note.beyond).map(([r, k]) => `${esc(NAME[r] || r)} ${k}`).join(' · ')}`);
+  const versus = ref ? `, ${vs(ref, ref === last ? 'the previous run' : 'baseline')}` : '';
+  const lines = [`${chip} <b>Job search: ours ${ours.relevant} relevant of ${ours.found} shown</b>${versus}`];
   const rivals = Object.entries(note.tools).filter(([t]) => t !== 'ours' && t !== 'ours-all').sort((a, b) => b[1].relevant - a[1].relevant);
-  if (rivals.length) lines.push(rivals.map(([t, s]) => `${esc(NAME[t] || t)} ${s.relevant}${(d => (d ? ` ${d}` : ''))(delta(s.relevant, (last || baseline)?.tools[t]?.relevant, 0))}`).join(' · '));
-  lines.push(`Searches with none: ${none} of ${Object.keys(note.personas).length}`);
-  const rows = Object.entries(note.personas).sort((a, b) => a[0] - b[0]).map(([n, p]) => {
-    const prior = same(last || baseline, 'ours') ? (last || baseline)?.personas?.[n] : undefined;   // the same way of running, or no arrow
-    return [String(p.relevant).padStart(3), '/', String(p.found).padEnd(3), delta(p.relevant, prior?.relevant, 0).padEnd(4), p.label];
-  });
-  if (rows.length) lines.push('', '<b>By search</b> (relevant/shown)', `<pre>${rows.map(r => esc(r.join(' ').replace(' / ', '/').trimEnd())).join('\n')}</pre>`);
-  if (missing.length) lines.push(`⚠ <b>Missing</b> (a job failed, not a 0): ${esc(missing.join(', '))}`);
-  if (notServed.length) lines.push(`<i>ℹ Not served (the rival has no data for that place; not a failure, not a 0): ${esc(notServed.join(', '))}</i>`);
+  lines.push(`🏁 ${[`Ours ${ours.relevant}`, ...rivals.map(([t, s]) => `${esc(NAME[t] || t)} ${s.relevant}`)].join(' · ')}`);
+  if (note.beyond) lines.push(`➕ We add beyond ${Object.entries(note.beyond).map(([r, k]) => `${esc(NAME[r] || r)} ${k}`).join(' · ')}`);
+  const moves = Object.entries(note.personas).map(([n, p]) => [p, p.relevant - (same(last || baseline, 'ours') ? (last || baseline)?.personas?.[n]?.relevant ?? p.relevant : p.relevant)]).filter(([, d]) => d)
+    .sort((a, b) => Math.abs(b[1]) - Math.abs(a[1])).slice(0, 3).map(([p, d]) => `${d > 0 ? '▲' : '▼'} ${esc(p.label)} ${d > 0 ? '+' : '−'}${Math.abs(d)}`);
+  lines.push(empty.length ? `⚠️ ${empty.length} of ${searches} searches found nothing: ${empty.slice(0, 4).map(([, p]) => esc(p.label)).join('; ')}${empty.length > 4 ? ' …' : ''}` : `✅ ${searches === 1 ? 'the search' : `all ${searches} searches`} found something`);
+  if (moves.length) lines.push(`📈 ${moves.join('; ')}`);
+  const all = note.tools['ours-all'], info = [];
+  if (all) info.push(`with every source ours finds ${all.relevant} of ${all.found}${[vs(last, 'the previous run', 'ours-all'), vs(baseline, 'baseline', 'ours-all')].filter(Boolean).map(v => `, ${v}`).join('')}`);
+  if (!ref) info.push(`no earlier run with the rivals' sources off yet`);
+  if (notServed.length) info.push(`no data from the rivals for: ${esc(notServed.join(', '))} (not a failure, not a 0)`);
+  if (info.length) lines.push(`ℹ️ ${info.join('; ')}`);
+  if (missing.length) lines.push(`⚠️ <b>Missing</b> (a job failed, not a 0): ${esc(missing.join(', '))}`);
   if (url) lines.push(link(url));
   return lines.join('\n');
 }
