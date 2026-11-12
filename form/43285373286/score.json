@@ -1,0 +1,74 @@
+{
+ "browser-use": {
+  "score": 84.6,
+  "spread": [
+   84.6,
+   84.6
+  ],
+  "runs": [
+   {
+    "run": "1",
+    "right": 44,
+    "wrong": 1,
+    "emptyAnswerable": 7,
+    "notReached": 0,
+    "forms": 6,
+    "score": 84.6
+   }
+  ]
+ },
+ "extension": {
+  "score": 92.7,
+  "spread": [
+   92.7,
+   92.7
+  ],
+  "runs": [
+   {
+    "run": "1",
+    "right": 51,
+    "wrong": 2,
+    "emptyAnswerable": 2,
+    "notReached": 0,
+    "forms": 5,
+    "score": 92.7
+   }
+  ]
+ },
+ "nanobrowser": {
+  "score": 35.2,
+  "spread": [
+   35.2,
+   35.2
+  ],
+  "runs": [
+   {
+    "run": "1",
+    "right": 19,
+    "wrong": 4,
+    "emptyAnswerable": 30,
+    "notReached": 1,
+    "forms": 6,
+    "score": 35.2
+   }
+  ]
+ },
+ "stagehand": {
+  "score": 72.5,
+  "spread": [
+   72.5,
+   72.5
+  ],
+  "runs": [
+   {
+    "run": "1",
+    "right": 37,
+    "wrong": 3,
+    "emptyAnswerable": 11,
+    "notReached": 0,
+    "forms": 6,
+    "score": 72.5
+   }
+  ]
+ }
+}

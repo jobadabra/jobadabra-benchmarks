@@ -1,0 +1,53 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://apply.workable.com/semios/j/4708134E21/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 12,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":8,\"maxSteps\":40,\"details\":\"The application is partly filled and has NOT been submitted.\\n\\nFilled from your facts:\\n- First name: Ada\\n- Last name: Tester\\n- Email: as provided in your facts\\n- Phone: Switzerland (+41), 79 555 01 23\\n- Salary expectation: CHF 140,000-160,000 gross per year (estimate)\\n\\nNot completed:\\n- CV upload: the browser tool could not open the f",
+ "completed": true,
+ "tokens": {
+  "in": 163479,
+  "out": 13408,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 12
+ },
+ "usd": 0.0230519,
+ "longCalls": 0,
+ "maxCallIn": 17774,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 114.3,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/7c7fee70a876/0.5903331228282543:1794 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 119,
+ "score": {
+  "fields": 11,
+  "right": 4,
+  "wrong": 2,
+  "emptyShouldFill": 3,
+  "emptyOk": 2,
+  "emptyRequired": 3,
+  "requiredTotal": 9
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

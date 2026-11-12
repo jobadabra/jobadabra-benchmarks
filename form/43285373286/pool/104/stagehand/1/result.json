@@ -1,0 +1,53 @@
+{
+ "tool": "stagehand",
+ "url": "https://jobs.ashbyhq.com/semgrep/b75ac9b5-1c27-4f5c-94d7-0eceba74de83/application",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 50,
+ "final": "Filled the application at jobs.ashbyhq.com/semgrep (Sales Solutions Engineer - Digital Native) with the facts: Name, Email, Phone, LinkedIn URL, and attached cv.pdf via the Resume field. Left Website, US sponsorship, CI/CD, and the optional EEO/diversity sections blank because the facts don't answer them. Never clicked Submit. Issues: a \"cv.pdf failed to upload\" error toast is still visible even t",
+ "completed": false,
+ "tokens": {
+  "in": 355334,
+  "out": 8499,
+  "cacheRead": 155920,
+  "cacheWrite": 7796,
+  "calls": 23
+ },
+ "usd": 0.042316599999999996,
+ "longCalls": 0,
+ "maxCallIn": 29143,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 109.6,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql unreadable or other write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 117,
+ "score": {
+  "fields": 33,
+  "right": 5,
+  "wrong": 0,
+  "emptyShouldFill": 0,
+  "emptyOk": 28,
+  "emptyRequired": 0,
+  "requiredTotal": 4
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

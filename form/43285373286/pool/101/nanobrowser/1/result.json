@@ -1,0 +1,44 @@
+{
+ "tool": "nanobrowser",
+ "url": "https://job-boards.greenhouse.io/humeai/jobs/4775962008",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 3,
+ "final": "{\"taskId\":\"bakeoff-1\",\"step\":1,\"maxSteps\":40,\"details\":\"I did not fill in or upload anything on this application, and nothing was submitted.\\n\\nReasons:\\n- The role is on-site in NYC or San Jose. Your facts only allow Switzerland (anywhere) or remote within Europe.\\n- It is an AI Researcher role that asks for publications or 2+ years of industry research experience. Your facts describe SRE, Platfo",
+ "completed": true,
+ "tokens": {
+  "in": 25671,
+  "out": 3814,
+  "cacheRead": 0,
+  "cacheWrite": 0,
+  "calls": 3
+ },
+ "usd": 0.0044741,
+ "longCalls": 0,
+ "maxCallIn": 12285,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 22.6,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)",
+   "POST 127.0.0.1 (stand-in app)"
+  ]
+ },
+ "wallSeconds": 27,
+ "score": {
+  "fields": 10,
+  "right": 0,
+  "wrong": 0,
+  "emptyShouldFill": 7,
+  "emptyOk": 3,
+  "emptyRequired": 6,
+  "requiredTotal": 6
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

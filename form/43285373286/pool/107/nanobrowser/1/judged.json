@@ -1,0 +1,125 @@
+[
+ {
+  "question": "First name",
+  "type": "text",
+  "required": true,
+  "name": "firstname",
+  "value": "Ada",
+  "k": "40c7688628b792fa",
+  "verdict": "right",
+  "answerable": true,
+  "note": "First name correct"
+ },
+ {
+  "question": "Last name",
+  "type": "text",
+  "required": true,
+  "name": "lastname",
+  "value": "Tester",
+  "k": "2e7630c476cc8a91",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Last name correct"
+ },
+ {
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "name": "email",
+  "value": "[EMAIL]",
+  "k": "997229b4922f3117",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Placeholder, not an email"
+ },
+ {
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "name": "phone",
+  "value": "79 555 01 23",
+  "k": "0f3bbc1ab3edbf5a",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Missing country code +41"
+ },
+ {
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "name": "address",
+  "value": "Musterstrasse 12, 8001 Zurich, Switzerland",
+  "k": "497ac2311b90123b",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Full address matches facts"
+ },
+ {
+  "question": "Summary",
+  "type": "textarea",
+  "required": false,
+  "name": "summary",
+  "value": "",
+  "k": "d679f649b8379c62",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Summary available in facts"
+ },
+ {
+  "question": "Resume Choose file",
+  "type": "file",
+  "required": true,
+  "name": "input_files_input_YnGXodopPiMtD6PU",
+  "value": "",
+  "k": "ef0b1facbd88a361",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available to upload"
+ },
+ {
+  "question": "Cover letter",
+  "type": "textarea",
+  "required": false,
+  "name": "cover_letter",
+  "value": "",
+  "k": "4efb56034c3c8601",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Cover letter style exists; could write one"
+ },
+ {
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "name": "CA_9741",
+  "value": "CHF 140,000-160,000 gross per year (estimate)",
+  "k": "512bf419e69ff97e",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target range, estimate noted"
+ },
+ {
+  "question": "Have you been referred to this position by a Semios employee? If so, please let us know their full name.",
+  "type": "text",
+  "required": true,
+  "name": "QA_12521856",
+  "value": "",
+  "k": "d375bfa2d41d7fa4",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No referral stated",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "question": "Briefly describe one example where you used market/customer insights to influence a product, portfolio, or market expansion decision. What was your role and the resulting recommendation? Please lkeep your response high-level and do not include confidential information.",
+  "type": "textarea",
+  "required": true,
+  "name": "QA_12524329",
+  "value": "",
+  "k": "9149c1236b5b9de4",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Facts don't cover; empty correct",
+  "rule": "honest-draft-2026-10-27.3"
+ }
+]

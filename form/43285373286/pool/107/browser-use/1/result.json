@@ -1,0 +1,42 @@
+{
+ "tool": "browser-use",
+ "url": "https://apply.workable.com/semios/j/4708134E21/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 7,
+ "final": "The Workable application form for Semios (Corporate Development & Market Strategy Lead) is filled in with the provided facts. I did NOT submit it.\n\nFilled:\n- First name: Ada; Last name: Tester\n- Email: ada.tester@example.test\n- Phone: +41 (Switzerland) with 79 555 01 23 (the site displays the number without the +41 prefix)\n- Address: Musterstrasse 12; City: Zurich; Postcode: 8001; Country: Switzerland\n- Salary expectation: CHF 140,000–160,000 gross per year\n- Resume: cv.pdf uploaded (the page shows view/delete buttons for cv.pdf)\n\nLeft empty on purpose:\n- Summary: the facts conflict (8 years v",
+ "completed": true,
+ "tokens": {
+  "in": 59562,
+  "out": 11602,
+  "cacheRead": 101951,
+  "cacheWrite": 0,
+  "calls": 8
+ },
+ "usd": 0.01277671,
+ "longCalls": 0,
+ "maxCallIn": 23904,
+ "usdReportedByTool": 0.01080623,
+ "seconds": 74.8,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/7c7fee70a876/0.5903331228282543:1794 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST workable-application-form.s3.us-east-1.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 79,
+ "score": {
+  "fields": 12,
+  "right": 6,
+  "wrong": 1,
+  "emptyShouldFill": 2,
+  "emptyOk": 3,
+  "emptyRequired": 3,
+  "requiredTotal": 9
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

@@ -1,0 +1,42 @@
+{
+ "tool": "stagehand",
+ "url": "https://job-boards.greenhouse.io/safariai/jobs/5233682007",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 99,
+ "final": "Filled First Name (Ada), Last Name (Tester), Email (ada.tester@example.test), Phone (+41 79 555 01 23 with Switzerland +41 code auto-set), LinkedIn (https://www.linkedin.com/in/ada-tester), and uploaded cv.pdf. Left School, Degree, Discipline, start/end years empty: the School search for \"Example University\" returned no options, and Degree/Discipline were not selected. Left Github Link, other link",
+ "completed": false,
+ "tokens": {
+  "in": 676616,
+  "out": 15171,
+  "cacheRead": 279036,
+  "cacheWrite": 7751,
+  "calls": 38
+ },
+ "usd": 0.07900633500000004,
+ "longCalls": 0,
+ "maxCallIn": 33059,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 236.7,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST grnhse-prod-jben-us-west-2.s3.us-west-2.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 240,
+ "score": {
+  "fields": 16,
+  "right": 7,
+  "wrong": 0,
+  "emptyShouldFill": 5,
+  "emptyOk": 4,
+  "emptyRequired": 6,
+  "requiredTotal": 10
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

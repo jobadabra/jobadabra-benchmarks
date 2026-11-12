@@ -1,0 +1,205 @@
+[
+ {
+  "k": "0ec46672887f08d3",
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "value": "CHF 140,000–160,000 gross per yea",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Truncated 'yea'; malformed value"
+ },
+ {
+  "k": "512bf419e69ff97e",
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "value": "CHF 140,000-160,000 gross per year (estimate)",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target range, estimate noted"
+ },
+ {
+  "k": "6e8b10db8e2a47e4",
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "value": "Musterstrasse 12",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Street matches"
+ },
+ {
+  "k": "497ac2311b90123b",
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "value": "Musterstrasse 12, 8001 Zurich, Switzerland",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Full address matches facts"
+ },
+ {
+  "k": "70e4fd99b65442a3",
+  "question": "Summary",
+  "type": "textarea",
+  "required": false,
+  "value": "Senior Site Reliability Engineer with 8 years running Kubernetes on AWS at scale, strong in observability and incident response.",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches CV summary"
+ },
+ {
+  "k": "2e7630c476cc8a91",
+  "question": "Last name",
+  "type": "text",
+  "required": true,
+  "value": "Tester",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Last name correct"
+ },
+ {
+  "k": "0feb66d407ccbab7",
+  "question": "Briefly describe one example where you used market/customer insights to influence a product, portfolio, or market expansion decision. What was your role and the resulting recommendation? Please lkeep your response high-level and do not include confidential information.",
+  "type": "textarea",
+  "required": true,
+  "value": "The closest I can point to for using market/customer insights to influence a product, portfolio, or market expansion decision is my work at Acme Cloud, where I ran 400 microservices on Kubernetes (AWS EKS) and cut incident time by 40 percent with Datadog and OpenTelemetry.",
+  "verdict": "wrong",
+  "answerable": false,
+  "note": "Implies incident work involved market insights",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "9149c1236b5b9de4",
+  "question": "Briefly describe one example where you used market/customer insights to influence a product, portfolio, or market expansion decision. What was your role and the resulting recommendation? Please lkeep your response high-level and do not include confidential information.",
+  "type": "textarea",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "Facts don't cover; empty correct",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "d679f649b8379c62",
+  "question": "Summary",
+  "type": "textarea",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Summary available in facts"
+ },
+ {
+  "k": "d375bfa2d41d7fa4",
+  "question": "Have you been referred to this position by a Semios employee? If so, please let us know their full name.",
+  "type": "text",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": false,
+  "note": "No referral stated",
+  "rule": "honest-draft-2026-10-27.3"
+ },
+ {
+  "k": "ef0b1facbd88a361",
+  "question": "Resume Choose file",
+  "type": "file",
+  "required": true,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "CV file available to upload"
+ },
+ {
+  "k": "4efb56034c3c8601",
+  "question": "Cover letter",
+  "type": "textarea",
+  "required": false,
+  "value": "",
+  "verdict": "empty",
+  "answerable": true,
+  "note": "Cover letter style exists; could write one"
+ },
+ {
+  "k": "40c7688628b792fa",
+  "question": "First name",
+  "type": "text",
+  "required": true,
+  "value": "Ada",
+  "verdict": "right",
+  "answerable": true,
+  "note": "First name correct"
+ },
+ {
+  "k": "df1b0dcb90cb6838",
+  "question": "Resume Replace file",
+  "type": "file",
+  "required": false,
+  "value": "cv.pdf",
+  "verdict": "right",
+  "answerable": true,
+  "note": "CV file name counts"
+ },
+ {
+  "k": "5e0a559897d3cb4e",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "ada.tester@example.test",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Email correct"
+ },
+ {
+  "k": "968ad27f9022e549",
+  "question": "Address",
+  "type": "text",
+  "required": true,
+  "value": "Musterstrasse 12, 8001 Zurich, SwitzerlandC",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Stray trailing 'C' corrupts address"
+ },
+ {
+  "k": "0f3bbc1ab3edbf5a",
+  "question": "Phone",
+  "type": "tel",
+  "required": true,
+  "value": "79 555 01 23",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Missing country code +41"
+ },
+ {
+  "k": "313a0b5f2c3fe6bb",
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "value": "CHF 140,000–160,000 a year, gross",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target range"
+ },
+ {
+  "k": "997229b4922f3117",
+  "question": "Email",
+  "type": "email",
+  "required": true,
+  "value": "[EMAIL]",
+  "verdict": "wrong",
+  "answerable": true,
+  "note": "Placeholder, not an email"
+ },
+ {
+  "k": "2c008d4d3a770ddb",
+  "question": "What are your salary expectations for this role? A range is fine.",
+  "type": "text",
+  "required": true,
+  "value": "CHF 140,000–160,000 gross per year",
+  "verdict": "right",
+  "answerable": true,
+  "note": "Matches target range"
+ }
+]

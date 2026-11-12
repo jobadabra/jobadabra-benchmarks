@@ -1,0 +1,51 @@
+{
+ "tool": "stagehand",
+ "url": "https://jobs.lever.co/tinybird/22cbcc27-89c4-4f87-87bc-6937712e7b10/apply",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 69,
+ "final": "Filled the Lever application at jobs.lever.co/tinybird with the provided facts: full name, email, phone, current location (Zürich, CHE via autocomplete), LinkedIn URL, CV upload (cv.pdf, which Lever flagged as not auto-readable), and the \"Tell us about yourself\" summary. Left empty the fields the facts don't answer: current company, Twitter, GitHub, portfolio, the Tinybird custom field, the \"which",
+ "completed": false,
+ "tokens": {
+  "in": 459037,
+  "out": 15116,
+  "cacheRead": 249152,
+  "cacheWrite": 7786,
+  "calls": 37
+ },
+ "usd": 0.05692647000000001,
+ "longCalls": 0,
+ "maxCallIn": 26336,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 139.5,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.lever.co/cdn-cgi/challenge-platform/h/g/jsd/oneshot/7c7fee70a876/0.5903331228282543:1794 (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST api2.hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST hcaptcha.com/checksiteconfig (non-GET to another host)",
+   "POST jobs.lever.co/parseResume (non-GET to the form site)"
+  ],
+  "writesLetThrough": []
+ },
+ "wallSeconds": 143,
+ "score": {
+  "fields": 16,
+  "right": 7,
+  "wrong": 0,
+  "emptyShouldFill": 1,
+  "emptyOk": 8,
+  "emptyRequired": 0,
+  "requiredTotal": 4
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

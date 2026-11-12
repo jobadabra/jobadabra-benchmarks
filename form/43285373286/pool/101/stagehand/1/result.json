@@ -1,0 +1,46 @@
+{
+ "tool": "stagehand",
+ "url": "https://job-boards.greenhouse.io/humeai/jobs/4775962008",
+ "model": "claude-haiku-5-5",
+ "capped": false,
+ "steps": 41,
+ "final": "Filled First Name (Ada), Last Name (Tester), Email (ada.tester@example.test), Phone (+41 79 555 01 23, country code defaulted to +41), Location (Zurich, Switzerland), and uploaded cv.pdf as Resume/CV. Left \"Why Hume?\", the US work-authorization question, and the \"applied in past 6 months\" question empty because the facts don't answer them. Did not press Submit. Along the way, earlier attempts put ",
+ "completed": true,
+ "tokens": {
+  "in": 287378,
+  "out": 8002,
+  "cacheRead": 178273,
+  "cacheWrite": 7751,
+  "calls": 25
+ },
+ "usd": 0.035490405,
+ "longCalls": 0,
+ "maxCallIn": 23351,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 85.8,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST c.spl.greenhouse.io/com.snowplowanalytics.snowplow/tp2 (non-GET to another host)",
+   "POST csp.withgoogle.com/csp/apiserving (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST grnhse-prod-jben-us-west-2.s3.us-west-2.amazonaws.com (storage upload)",
+   "POST grnhse-prod-jben-us-west-2.s3.us-west-2.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 90,
+ "score": {
+  "fields": 11,
+  "right": 7,
+  "wrong": 0,
+  "emptyShouldFill": 0,
+  "emptyOk": 4,
+  "emptyRequired": 3,
+  "requiredTotal": 7
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

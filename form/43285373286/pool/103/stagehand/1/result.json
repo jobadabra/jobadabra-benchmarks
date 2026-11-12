@@ -1,0 +1,51 @@
+{
+ "tool": "stagehand",
+ "url": "https://jobs.ashbyhq.com/sierra/9dc1651d-43e9-4970-a757-a5223cef1c4d/application",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 20,
+ "final": "Filled the Sierra application form (Product Manager, Agent Development, London) with the applicant facts: first/last/preferred name, email, phone, LinkedIn, and the resume (cv.pdf). The first upload attempts showed a \"cv.pdf failed to upload\" error toast, but the Resume field displays cv.pdf as attached. Left blank the questions the facts don't answer: Sierra office availability, UK work authoriza",
+ "completed": false,
+ "tokens": {
+  "in": 118287,
+  "out": 6543,
+  "cacheRead": 70110,
+  "cacheWrite": 7790,
+  "calls": 12
+ },
+ "usd": 0.01677505,
+ "longCalls": 0,
+ "maxCallIn": 21241,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 45.7,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)",
+   "POST jobs.ashbyhq.com/api/non-user-graphql (graphql write)"
+  ],
+  "writesLetThrough": [
+   "POST jobs.ashbyhq.com (graphql read)",
+   "POST jobs.ashbyhq.com (graphql read)"
+  ]
+ },
+ "wallSeconds": 50,
+ "score": {
+  "fields": 37,
+  "right": 7,
+  "wrong": 0,
+  "emptyShouldFill": 3,
+  "emptyOk": 27,
+  "emptyRequired": 0,
+  "requiredTotal": 7
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}

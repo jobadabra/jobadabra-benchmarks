@@ -1,0 +1,42 @@
+{
+ "tool": "stagehand",
+ "url": "https://apply.workable.com/semios/j/4708134E21/apply/",
+ "model": "claude-haiku-5-5",
+ "capped": true,
+ "steps": 113,
+ "final": "Partially completed; not in a clean state. Filled First name (Ada), Last name (Tester), Email, Phone (+41 79 555 01 23, Switzerland selected), resume cv.pdf uploaded, and salary expectation \"CHF 140,000–160,000 gross per year\". Address is wrong: the last ARIA snapshot reads \"Musterstrasse 12, 8001 Zurich, SwitzerlandC\" (a stray trailing \"C\"), and my final Backspace did not visibly fix it, while th",
+ "completed": false,
+ "tokens": {
+  "in": 850855,
+  "out": 23217,
+  "cacheRead": 302055,
+  "cacheWrite": 7745,
+  "calls": 43
+ },
+ "usd": 0.10068267500000003,
+ "longCalls": 0,
+ "maxCallIn": 37478,
+ "usdNote": "tokens counted at the API (local pass-through), priced per call for claude-haiku-5-5",
+ "seconds": 225.8,
+ "submitPressed": false,
+ "navBlocked": [],
+ "guard": {
+  "aborted": [
+   "POST apply.workable.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/7c7fee70a876/0.5903331228282543:1794 (non-GET to another host)"
+  ],
+  "writesLetThrough": [
+   "POST workable-application-form.s3.us-east-1.amazonaws.com (storage upload)"
+  ]
+ },
+ "wallSeconds": 230,
+ "score": {
+  "fields": 12,
+  "right": 4,
+  "wrong": 3,
+  "emptyShouldFill": 2,
+  "emptyOk": 3,
+  "emptyRequired": 3,
+  "requiredTotal": 9
+ },
+ "judge": "blind, pooled per form, Claude plan (sonnet), $0"
+}
