@@ -10,6 +10,8 @@ const [work] = process.argv.slice(2).filter(arg => !arg.startsWith('--'));
 const flag = (name, fallback) => { const at = process.argv.indexOf(name); return at > 0 ? process.argv[at + 1] : fallback; };
 if (!work) { console.error('usage: node publish.mjs <work dir> [--round YYYY-MM-DD] [--build <sha>] [--dry]'); process.exit(2); }
 const here = import.meta.dirname, round = flag('--round', new Date().toISOString().slice(0, 10)), build = flag('--build', '').slice(0, 7), dry = process.argv.includes('--dry');
+// Why (13 Nov 2026, owner: "Yes, switch to app tiers"; field name from jobadabra-web's `ai` column via mac-9a): our rows say which AI the round ran on, "app" or "haiku" (work/tiers.txt), so the page can mark the break; rivals have no AI and omit it, an old round without the file reads as haiku there.
+const ai = read(path.join(work, 'tiers.txt')).trim() === 'app' ? 'app' : 'haiku';
 const personas = JSON.parse(fs.readFileSync(path.join(here, 'personas.json'), 'utf8')).personas;
 const read = (file, fallback = '') => { try { return fs.readFileSync(file, 'utf8'); } catch { return fallback; } };
 const norm = row => [row.title, row.company, row.location].map(part => (part || '').trim().toLowerCase()).join('|');
@@ -39,6 +41,7 @@ personas.forEach((persona, at) => {
     const missed = {};   // the job systems of this tool's relevant jobs the other tool did not show
     if (tool !== 'ours') for (const row of mine.filter(relevant)) if (!oursKeys.has(norm(row))) missed[row.provider || 'unknown'] = (missed[row.provider || 'unknown'] || 0) + 1;
     rows.push({id: `${round}/p${n}/${tool}`, at: new Date().toISOString(), round, persona: label, kind: persona.kind, country: persona.country, tool: name, ours: tool === 'ours', build: tool === 'ours' ? build : '',
+      ...(tool === 'ours' ? {ai} : {}),
       found: mine.length, place: mine.filter(row => row.place === 'yes').length, role: mine.filter(row => row.role === 'yes').length, relevant: mine.filter(relevant).length,
       employers: new Set(mine.map(row => (row.company || '').toLowerCase()).filter(Boolean)).size, seconds: seconds[tool] || 0, cents: 0, missed});
   }
