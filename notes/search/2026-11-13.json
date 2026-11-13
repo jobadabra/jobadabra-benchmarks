@@ -1,26 +1,23 @@
 {
  "round": "2026-11-13",
- "build": "ac8553a",
+ "build": "81a506d",
+ "tiers": "app",
  "tools": {
   "ours": {
-   "relevant": 131,
-   "found": 172
+   "relevant": 190,
+   "found": 248
   },
   "eures": {
-   "relevant": 99,
-   "found": 399
+   "relevant": 83,
+   "found": 393
   },
   "jooble": {
-   "relevant": 210,
-   "found": 685
-  },
-  "ours-all": {
-   "relevant": 144,
-   "found": 211
+   "relevant": 260,
+   "found": 684
   },
   "jobspy": {
    "relevant": 149,
-   "found": 291
+   "found": 286
   },
   "adzuna": {
    "relevant": 5,
@@ -30,60 +27,54 @@
  "personas": {
   "1": {
    "label": "Truck Driver (Class CE) · Sofia",
-   "relevant": 9,
-   "found": 9
+   "relevant": 10,
+   "found": 10
   },
   "2": {
    "label": "HR Generalist · Cluj-Napoca",
-   "relevant": 2,
-   "found": 2
+   "relevant": 18,
+   "found": 19
   },
   "3": {
    "label": "Carpenter · Brussels",
-   "relevant": 0,
-   "found": 0
+   "relevant": 1,
+   "found": 1
   },
   "4": {
    "label": "Warehouse Operator · Zurich",
-   "relevant": 26,
-   "found": 30
+   "relevant": 24,
+   "found": 32
   },
   "5": {
    "label": "Chef de Partie · Krakow",
-   "relevant": 3,
-   "found": 5
+   "relevant": 24,
+   "found": 26
   },
   "6": {
    "label": "Digital Marketing Manager · Zagreb",
-   "relevant": 0,
-   "found": 1
+   "relevant": 1,
+   "found": 2
   },
   "7": {
    "label": "Customer Support Agent · Stockholm",
-   "relevant": 21,
-   "found": 23
+   "relevant": 30,
+   "found": 59
   },
   "8": {
    "label": "Data Analyst · Nuremberg",
-   "relevant": 7,
-   "found": 33
+   "relevant": 0,
+   "found": 7
   },
   "9": {
    "label": "Software Engineer · Helsinki",
-   "relevant": 63,
-   "found": 69
+   "relevant": 80,
+   "found": 85
   },
   "10": {
    "label": "UX Designer · Lisbon",
-   "relevant": 0,
-   "found": 0
+   "relevant": 2,
+   "found": 7
   }
  },
- "rivalsOff": true,
- "beyond": {
-  "jobspy": 144,
-  "eures": 142,
-  "jooble": 143,
-  "adzuna": 42
- }
+ "rivalsOff": true
 }
