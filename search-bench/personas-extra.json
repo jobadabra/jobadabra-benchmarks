@@ -1,5 +1,5 @@
 {
- "note": "The 20 extra Trello profiles c01-c20 exactly as jobadabra tools/persona-search/search-profiles.json defines them (13 Nov 2026, sa for the owner); only search-targets.yml reads this file, never the round",
+ "note": "The extra Trello profiles c01-c20 and d01-d05 exactly as jobadabra tools/persona-search/search-profiles.json defines them (13 Nov 2026, sa for the owner; the d rows: \"actually let's leave it only for the Trello board\"); only search-targets.yml reads this file, never the round. Profile numbers in search-targets.yml are the row's place in this list (1-20 = c01-c20, 21-25 = d01-d05)",
  "personas": [
   {
    "id": "c01",
@@ -180,6 +180,51 @@
    "city": "Naples",
    "country": "Italy",
    "language": "Italian"
+  },
+  {
+   "id": "d01",
+   "family": "driver",
+   "title": "Truck Driver (CE) and Delivery Driver",
+   "kind": "non-tech",
+   "city": "Nuremberg",
+   "country": "Germany",
+   "language": "German"
+  },
+  {
+   "id": "d02",
+   "family": "music",
+   "title": "Audio and Media Producer (Music, Sound Engineer)",
+   "kind": "non-tech",
+   "city": "Berlin",
+   "country": "Germany",
+   "language": "German"
+  },
+  {
+   "id": "d03",
+   "family": "software",
+   "title": "Programmer (Software Engineer)",
+   "kind": "tech",
+   "city": "Chisinau",
+   "country": "Moldova",
+   "language": "Romanian"
+  },
+  {
+   "id": "d04",
+   "family": "finance",
+   "title": "Financial Analyst (FP&A)",
+   "kind": "non-tech",
+   "city": "Amsterdam",
+   "country": "Netherlands",
+   "language": "Dutch"
+  },
+  {
+   "id": "d05",
+   "family": "data-analyst",
+   "title": "Data Analyst",
+   "kind": "tech",
+   "city": "Geneva",
+   "country": "Switzerland",
+   "language": "French"
   }
  ]
 }
