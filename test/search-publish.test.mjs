@@ -34,3 +34,27 @@ test('publisher keeps a rival failed for every persona as null, never a win or a
   assert.deepEqual(all.map(row => row.beyond.EURES), [1, 1], 'a successful empty search remains a measured lead');
   assert.ok(!rows.some(row => row.tool === NAME.jobspy), 'a failed search never becomes a found-zero score row');
 });
+
+test('our published rows carry the AI the round ran on (app or haiku), the rivals carry none', t => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'search-publish-'));
+  t.after(() => fs.rmSync(root, {recursive: true, force: true}));
+  const scripts = path.join(root, 'search-bench');
+  fs.mkdirSync(scripts);
+  for (const file of ['publish.mjs', 'tools.mjs']) fs.copyFileSync(new URL(`../search-bench/${file}`, import.meta.url), path.join(scripts, file));
+  fs.writeFileSync(path.join(scripts, 'personas.json'), JSON.stringify({personas: [{title: 'Cook', city: 'Town', kind: 'non-tech', country: 'Land'}]}));
+  const run = tiers => {
+    const work = path.join(root, `work-${tiers || 'none'}`); fs.mkdirSync(work);
+    fs.writeFileSync(path.join(work, 'judged1.json'), JSON.stringify({rows: [
+      {tool: 'ours', title: 'Job', company: 'A', location: 'Town', role: 'yes', place: 'yes'},
+      {tool: 'eures', title: 'Other', company: 'B', location: 'Town', role: 'yes', place: 'yes'},
+    ]}));
+    if (tiers !== null) fs.writeFileSync(path.join(work, 'tiers.txt'), tiers);
+    const output = execFileSync(process.execPath, [path.join(scripts, 'publish.mjs'), work, '--round', 'fixture', '--dry'], {encoding: 'utf8'});
+    return JSON.parse(output.slice(0, output.lastIndexOf(']') + 1));
+  };
+  const app = run('app'), old = run('haiku'), none = run(null);
+  assert.equal(app.find(row => row.ours).ai, 'app');
+  assert.ok(app.filter(row => !row.ours).every(row => !('ai' in row)), 'a rival has no AI');
+  assert.equal(old.find(row => row.ours).ai, 'haiku');
+  assert.equal(none.find(row => row.ours).ai, 'haiku', 'a round without tiers.txt reads as haiku');
+});
