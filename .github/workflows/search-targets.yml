@@ -37,7 +37,11 @@ jobs:
       - uses: actions/download-artifact@v5
         with: {path: art, pattern: 'search-*'}
       - name: The pools (title, employer, place per job; no URLs)
-        run: node --input-type=module -e "import {layOut} from './search-bench/pool.mjs'; const r = layOut('art', 'work', {numbers: JSON.parse(process.env.NUMBERS), rivals: ['jobspy', 'jooble'], ours: false}); console.log('missing:', r.missing.join(', ') || 'none', '| not served:', r.notServed.join(', ') || 'none')"
+        run: |
+          node --input-type=module -e "
+          import {layOut} from './search-bench/pool.mjs';
+          const r = layOut('art', 'work', {numbers: JSON.parse(process.env.NUMBERS), rivals: ['jobspy', 'jooble'], ours: false});
+          console.log('missing:', r.missing.join(', ') || 'none', '| not served:', r.notServed.join(', ') || 'none');"
       - name: Blind judge, through the AI broker (Claude plan, $0)
         env:
           BENCH_JUDGE_ENGINE: broker
