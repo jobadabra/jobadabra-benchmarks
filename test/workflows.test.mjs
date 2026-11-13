@@ -191,3 +191,14 @@ for (const f of files) {
     catch (error) { assert.fail(`${f} is not valid YAML: ${String(error.stderr || error.message).split('\n').find(l => /\(.*\):/.test(l)) || error.message}`); }
   });
 }
+
+// Why (13 Nov 2026, sa for the owner, round 2026-11-13-evening: run 43456492064 died on the broker): a round can resume from another run's artifacts. The resumed ones come first, the people searched again
+// lose their old copy, this run's artifacts come last (they win), and the rivals are not run again.
+test('search-round.yml: resume_run downloads the resumed artifacts first, drops the redone people, then this run\'s; no rivals on a resume', () => {
+  const text = fs.readFileSync(path.join(dir, 'search-round.yml'), 'utf8');
+  const at = s => { const i = text.indexOf(s); assert.ok(i > 0, s); return i; };
+  assert.ok(at("run-id: '${{ inputs.resume_run }}'") < at('rm -rf "art/search-ours-p$n-x1"') && at('rm -rf "art/search-ours-p$n-x1"') < at("- uses: actions/download-artifact@v5\n        with: {path: art, pattern: 'search-*'}"));
+  assert.match(text, /pattern: 'search-\*-p\*', run-id/, 'the resumed run\'s own judged folder is not downloaded');
+  assert.match(text, /rivals:\n    needs: when\n    if: \$\{\{ needs\.when\.outputs\.go == 'yes' && !inputs\.only_ours && inputs\.resume_run == '' \}\}/);
+  assert.match(text, /resume_run:\n\s+description:[^\n]*\n\s+default: ''/);
+});

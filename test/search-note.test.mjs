@@ -1,7 +1,8 @@
 // search-bench/note.mjs: the search round's Telegram message (owner, 27 Oct 2026): relevant jobs per tool and ours per persona, against the
 // previous run and the baseline; a failed job is said, not shown as 0; only counts and persona labels, never a job.
 import test from 'node:test'; import assert from 'node:assert/strict';
-import {noteOf, noteText} from '../search-bench/note.mjs';
+import fs from 'node:fs'; import os from 'node:os'; import path from 'node:path';
+import {noteOf, noteText, paidOf} from '../search-bench/note.mjs';
 const job = (tool, role, place, title = 'Zzyx Role') => ({tool, title, company: 'Co', location: 'Town', role, place});
 
 test('ours against the previous run and the baseline, rivals ranked, a line per persona, missing jobs named', () => {
@@ -68,4 +69,18 @@ test('one arm of ours: the note has no "with every source" line and no "beyond" 
   const text = noteText(note, null, oldLast);
   assert.doesNotMatch(text, /every source|➕|beyond/);
   assert.match(text.split('\n')[0], /ours 1 relevant of 1 shown/);
+});
+
+// Why (13 Nov 2026, sa for the owner): the broker gets a paid lane (`paid: true` in a reply); a round with answers from it is a mixed round and the note says which people. Absent = not paid.
+test('paid lane: judged paid_calls and ours relay lines marked paid are named; an unmarked round shows no line', () => {
+  const work = fs.mkdtempSync(path.join(os.tmpdir(), 'note-paid-'));
+  fs.mkdirSync(path.join(work, 'ours'));
+  fs.writeFileSync(path.join(work, 'judged3.json'), JSON.stringify({paid_calls: 2, rows: []})); fs.writeFileSync(path.join(work, 'judged4.json'), JSON.stringify({rows: []}));
+  fs.writeFileSync(path.join(work, 'ours', 'p8.log'), 'relay: small total 1 paid yes status 200\nrelay: mid total 2 status 200\nrelay: mid total 3 paid true status 200\nnot a relay line paid yes\n');
+  fs.writeFileSync(path.join(work, 'ours', 'p9.log'), 'relay: small total 1 sent yes status 200\n');
+  assert.deepEqual(paidOf(work), ['judge p3 (2 batches)', 'ours p8 (2 calls)']);
+  const note = noteOf({1: [job('ours', 'yes', 'yes')]}, {round: 'r', labels: {1: 'A · B'}});
+  assert.match(noteText(note, null, null, {paid: paidOf(work)}), /^💳 <b>Paid lane<\/b> .*: judge p3 \(2 batches\); ours p8 \(2 calls\)$/m);
+  assert.doesNotMatch(noteText(note, null, null, {paid: []}), /Paid lane/);
+  assert.deepEqual(paidOf(path.join(work, 'nothing-here')), []);
 });

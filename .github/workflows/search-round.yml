@@ -22,6 +22,9 @@ on:
       tiers:
         description: app (default, the scoreboard) = the product's own tiers (small Haiku, main Sonnet); haiku = every step on Haiku 5.5, a side note
         default: app
+      resume_run:
+        description: A run id whose search-* artifacts are downloaded first (e.g. one that died on the AI). This run then searches only `personas`; its own artifacts win; the rivals are not run again; pool, judge, publish under `round` as usual
+        default: ''
       only_ours:
         description: Our arm only (no rivals). Published under `round` and counted nowhere else; no Telegram note, nothing saved as the previous run
         type: boolean
@@ -57,7 +60,7 @@ jobs:
     secrets: inherit
   rivals:
     needs: when
-    if: ${{ needs.when.outputs.go == 'yes' && !inputs.only_ours }}
+    if: ${{ needs.when.outputs.go == 'yes' && !inputs.only_ours && inputs.resume_run == '' }}   # Why (13 Nov 2026, sa for the owner): a resumed round keeps the rivals of the run it resumes
     uses: ./.github/workflows/search-rivals.yml
     with:
       rivals: '["jobspy","eures","adzuna","jooble"]'   # the same list as search-bench/rivals.json (test/workflows.test.mjs)
@@ -75,6 +78,16 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with: {node-version: '22'}
+      - name: The resumed run's artifacts first (ours and rivals)
+        if: ${{ inputs.resume_run != '' }}
+        # Why (13 Nov 2026, sa for the owner, round 2026-11-13-evening: run 43456492064 died on the broker's "only-claude: ran-out", ours p10 never searched, p8 and p9 held refused calls): the people that ran well are kept, the others search again.
+        # The pattern leaves out that run's own judged folder (search-round-judged); this run's artifacts, downloaded next, win.
+        uses: actions/download-artifact@v5
+        with: {path: art, pattern: 'search-*-p*', run-id: '${{ inputs.resume_run }}', github-token: '${{ github.token }}'}
+      - name: The people searched again leave no resumed copy behind
+        if: ${{ inputs.resume_run != '' }}
+        env: {PERSONAS: '${{ inputs.personas }}'}
+        run: for n in $(jq -r '.[]' <<<"${PERSONAS:-[]}"); do rm -rf "art/search-ours-p$n-x1"; done
       - uses: actions/download-artifact@v5
         with: {path: art, pattern: 'search-*'}
       - name: One artifact lands without its folder (a one-person side check)

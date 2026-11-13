@@ -51,7 +51,7 @@ def _post(url, headers, body, timeout=300):
 
 
 def ask(prompt, tier='mid', env=None, poster=_post, opener=_get, sleep=time.sleep):
-    """One call on the Claude engine only (this repo's broker is Claude-only; `only` keeps a fallback from answering): returns {'reply', 'model', 'engine'}.
+    """One call on the Claude engine only (this repo's broker is Claude-only; `only` keeps a fallback from answering): returns {'reply', 'model', 'engine', 'paid'} (paid: the broker marked the answer as the paid lane's).
     tier: 'small' = Haiku, 'mid' = Sonnet."""
     env = os.environ if env is None else env
     token = run_token(env, opener, sleep)
@@ -80,4 +80,5 @@ def ask(prompt, tier='mid', env=None, poster=_post, opener=_get, sleep=time.slee
     reply = data.get('reply')
     if not isinstance(reply, str) or not reply.strip():
         raise BrokerError('the broker answered with no text')
-    return {'reply': reply, 'model': data.get('model') or '', 'engine': data.get('engine') or ''}
+    # Why (13 Nov 2026, sa for the owner: the broker's paid lane, `paid: true` in its reply): read defensively; absent or anything but true = not paid
+    return {'reply': reply, 'model': data.get('model') or '', 'engine': data.get('engine') or '', 'paid': data.get('paid') is True}
