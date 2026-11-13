@@ -1,0 +1,80 @@
+{
+ "round": "2026-11-13-evening",
+ "build": "b176aae",
+ "tiers": "app",
+ "tools": {
+  "ours": {
+   "relevant": 262,
+   "found": 371
+  },
+  "jobspy": {
+   "relevant": 174,
+   "found": 325
+  },
+  "eures": {
+   "relevant": 82,
+   "found": 390
+  },
+  "jooble": {
+   "relevant": 238,
+   "found": 685
+  },
+  "adzuna": {
+   "relevant": 5,
+   "found": 8
+  }
+ },
+ "personas": {
+  "1": {
+   "label": "Truck Driver (Class CE) · Sofia",
+   "relevant": 19,
+   "found": 31
+  },
+  "2": {
+   "label": "HR Generalist · Cluj-Napoca",
+   "relevant": 19,
+   "found": 20
+  },
+  "3": {
+   "label": "Carpenter · Brussels",
+   "relevant": 0,
+   "found": 6
+  },
+  "4": {
+   "label": "Warehouse Operator · Zurich",
+   "relevant": 45,
+   "found": 52
+  },
+  "5": {
+   "label": "Chef de Partie · Krakow",
+   "relevant": 39,
+   "found": 49
+  },
+  "6": {
+   "label": "Digital Marketing Manager · Zagreb",
+   "relevant": 2,
+   "found": 3
+  },
+  "7": {
+   "label": "Customer Support Agent · Stockholm",
+   "relevant": 57,
+   "found": 84
+  },
+  "8": {
+   "label": "Data Analyst · Nuremberg",
+   "relevant": 9,
+   "found": 31
+  },
+  "9": {
+   "label": "Software Engineer · Helsinki",
+   "relevant": 69,
+   "found": 79
+  },
+  "10": {
+   "label": "UX Designer · Lisbon",
+   "relevant": 3,
+   "found": 16
+  }
+ },
+ "rivalsOff": true
+}
