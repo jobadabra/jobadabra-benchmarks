@@ -175,3 +175,10 @@ test('judge-only mode scores and saves a run-specific artifact without publishin
   assert.match(text, /- name: The weekly note[^\n]*\n\s+if: \$\{\{ !inputs\.judge_only && inputs\.weekly == 'yes' \}\}/);
   assert.match(text, /name: form-round-judged-\$\{\{ inputs\.judge_only && 'judge-only' \|\| inputs\.publish \}\}-\$\{\{ github\.run_id \}\}/);
 });
+
+// Why (13 Nov 2026, sa for the owner: "JobSpy alone for now"): only the by-hand targets run lets a Jooble country without a key end green; the 3-day round keeps it a red job.
+test('missing_key_ok: search-targets.yml sets it, search-round.yml never does', () => {
+  assert.match(fs.readFileSync(path.join(dir, 'search-targets.yml'), 'utf8'), /^\s+missing_key_ok: true/m);
+  assert.doesNotMatch(fs.readFileSync(path.join(dir, 'search-round.yml'), 'utf8'), /missing_key_ok/);
+  assert.match(fs.readFileSync(path.join(dir, 'search-rivals.yml'), 'utf8'), /missing_key_ok: \{type: boolean, default: false\}/);
+});
