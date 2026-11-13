@@ -14,7 +14,7 @@ const key = row => [row.title, row.company, row.location].map(part => (part || '
 const relevant = row => row.role === 'yes' && row.place === 'yes';
 
 /** rowsByPersona: {N: judged rows of persona N} (judge.py's rows) -> {round, build, tools: {tool: {relevant, found}}, personas: {N: {label, relevant, found}}} (personas: ours only) */
-export function noteOf(rowsByPersona, {round = '', build = '', labels = {}, missing = [], notServed = [], rivalsOff = false} = {}) {
+export function noteOf(rowsByPersona, {round = '', build = '', tiers = '', labels = {}, missing = [], notServed = [], rivalsOff = false} = {}) {
   const tools = {}, personas = {}, beyond = {};
   for (const [n, rows] of Object.entries(rowsByPersona)) {
     for (const rival of RIVALS) {   // our relevant jobs (every source on) that this rival did not show, summed over the personas
@@ -27,7 +27,7 @@ export function noteOf(rowsByPersona, {round = '', build = '', labels = {}, miss
     personas[n] = {label: labels[n] || `Persona ${n}`, relevant: ours.filter(relevant).length, found: ours.length};
   }
   tools.ours ||= {relevant: 0, found: 0};
-  return {round, build, tools, personas, ...(rivalsOff ? {rivalsOff} : {}), ...(Object.keys(beyond).length ? {beyond} : {})};
+  return {round, build, ...(tiers ? {tiers} : {}), tools, personas, ...(rivalsOff ? {rivalsOff} : {}), ...(Object.keys(beyond).length ? {beyond} : {})};
 }
 
 /** Reads judged<N>.json (a work dir) or persona-<N>.json (a results/<round> dir) into {N: rows}. */
@@ -76,7 +76,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const personas = rj(path.join(import.meta.dirname, 'personas.json')).personas;
   const labels = Object.fromEntries(personas.map((p, i) => [i + 1, `${p.title} · ${p.city}`]));
   const missingNow = rj(path.join(work, 'missing.json')) || [], notServedNow = rj(path.join(work, 'notserved.json')) || [];
-  const note = noteOf(readRound(work), {round: arg('round'), build: arg('build'), labels, missing: missingNow, notServed: notServedNow, rivalsOff: true});
+  const note = noteOf(readRound(work), {round: arg('round'), build: arg('build'), tiers: arg('tiers') || '', labels, missing: missingNow, notServed: notServedNow, rivalsOff: true});
   const baseline = arg('baseline') ? noteOf(readRound(arg('baseline')), {labels}) : null;
   const lastDir = arg('last'), lastFile = lastDir && fs.existsSync(lastDir) ? fs.readdirSync(lastDir).filter(f => f.endsWith('.json')).sort().at(-1) : '';
   const last = lastFile ? rj(path.join(lastDir, lastFile)) : null;

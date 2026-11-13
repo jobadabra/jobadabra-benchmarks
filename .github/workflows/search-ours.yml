@@ -1,5 +1,5 @@
 # Our arm of the search round on CI, beside the rivals (owner, 27 Oct 2026: "If using CI, then CI ours and theirs. If using Haiku then haiku
-# ours and theirs"): every AI step on Haiku 5.5 (JOBADABRA_MODEL_OVERRIDE), through the AI broker on the owner's Claude plan ($0, his choice;
+# ours and theirs"): the AI steps on the app's own tiers since 13 Nov 2026 (tiers=app: small Haiku 5.5, main Sonnet; tiers=haiku sets JOBADABRA_MODEL_OVERRIDE, a side check), through the AI broker on the owner's Claude plan ($0, his choice;
 # Why (12 Nov 2026, owner: "Broker, Claude plan, Haiku"): this run's GitHub OIDC token, no stored secret; tools/persona-search/codex.mjs in our product is the relay). By hand, or called by search-round.yml every 3 days (test/workflows.test.mjs).
 # One fresh install per persona and press count: "first search" (1 press) and "after 3 searches" (3 presses), each press with the product's own
 # 3-minute cap. Writes the jobs found (title, company, place: search-bench/extract.py) and the per-press numbers; never applies.
@@ -20,8 +20,8 @@ on:
         description: ours = every rival's source off (search-bench/rivals.json), ours-all = every source on
         default: ours
       tiers:
-        description: haiku = every step on Haiku 5.5 (the scoreboard); app = the product's own tiers (small Haiku, main Sonnet), a side note only
-        default: haiku
+        description: app = the product's own tiers (small Haiku, main Sonnet), the scoreboard since 13 Nov 2026; haiku = every step on Haiku 5.5, a side note
+        default: app
       draft:
         description: A saved strategy (path in this repo) instead of the AI draft, for a one-person side check
         default: ''
@@ -31,7 +31,7 @@ on:
       personas: {type: string, default: '[1,2,3,4,5,6,7,8,9,10]'}
       presses: {type: string, default: '[1]'}
       arm: {type: string, default: ours}
-      tiers: {type: string, default: haiku}   # Why (13 Nov 2026, owner: "Can we do a test with Sonnet instead of Haiku?"): app = the product's own tiers, never the scoreboard
+      tiers: {type: string, default: app}   # Why (13 Nov 2026, owner: "Yes, switch to app tiers (Recommended)", asked in his pane after "Can we do a test with Sonnet instead of Haiku?"): app = the product's own tiers, the scoreboard; haiku stays for a side check
       draft: {type: string, default: ''}   # Why (13 Nov 2026, #3953 via pp-place-patterns-9b): a saved strategy (run.mjs --draft, no AI) so main and a branch search for the same thing; never the scoreboard
 permissions:
   contents: read
