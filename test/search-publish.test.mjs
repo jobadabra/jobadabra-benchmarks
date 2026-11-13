@@ -59,3 +59,18 @@ test('our published rows carry the AI the round ran on (app or haiku), the rival
   assert.equal(old.find(row => row.ours).ai, 'haiku');
   assert.equal(none.find(row => row.ours).ai, 'haiku', 'a round without tiers.txt reads as haiku');
 });
+
+test('--replace is only a flag in the dry print, and a republish takes the judged lists from the run, never judges again', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'search-publish-replace-'));
+  const scripts = path.join(root, 'search-bench'), work = path.join(root, 'work');
+  fs.mkdirSync(scripts); fs.mkdirSync(work);
+  for (const file of ['publish.mjs', 'tools.mjs']) fs.copyFileSync(new URL(`../search-bench/${file}`, import.meta.url), path.join(scripts, file));
+  fs.writeFileSync(path.join(scripts, 'personas.json'), JSON.stringify({personas: [{title: 'Cook', city: 'Town', kind: 'non-tech', country: 'Land'}]}));
+  fs.writeFileSync(path.join(work, 'judged1.json'), JSON.stringify({rows: [{tool: 'ours', title: 'Job', company: 'A', location: 'Town', role: 'yes', place: 'yes'}]}));
+  try {
+    const run = args => execFileSync(process.execPath, [path.join(scripts, 'publish.mjs'), work, '--round', 'fixture', '--dry', ...args], {encoding: 'utf8'});
+    assert.match(run([]), /1 rows \(dry\)\n$/); assert.match(run(['--replace']), /1 rows \(dry\), replace\n$/);
+  } finally { fs.rmSync(root, {recursive: true, force: true}); }
+  const flow = fs.readFileSync(new URL('../.github/workflows/search-republish.yml', import.meta.url), 'utf8');
+  assert.match(flow, /cp art\/search-round-judged\/work\/judged\*\.json work\//); assert.doesNotMatch(flow, /judge\.py|CLAUDE_CODE_OAUTH_TOKEN|id-token/);
+});
