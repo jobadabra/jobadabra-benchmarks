@@ -88,3 +88,11 @@ test('errorsMakeEmptyMissing: an empty list with named errors is a failed read, 
   assert.deepEqual(layOut(art, work, {numbers: [9, 13], rivals: ['jobspy'], ours: false, errorsMakeEmptyMissing: true}).missing, ['jobspy p9']);
   assert.deepEqual(layOut(art, work, {numbers: [9], rivals: ['jobspy'], ours: false}).missing, [], 'the round keeps its old reading');
 });
+
+// Why (13 Nov 2026, run 43480344860): a targets run of one profile whose Jooble job gave no artifact downloaded ONE artifact, and download-artifact then lays its files flat (no subfolder); the 50 JobSpy rows read as "missing".
+test('layOut finds a rival file laid flat when the pattern matched one artifact only', () => {
+  const art = fs.mkdtempSync(path.join(os.tmpdir(), 'art-')), work = fs.mkdtempSync(path.join(os.tmpdir(), 'work-'));
+  fs.writeFileSync(path.join(art, 'jobspy-p24.json'), JSON.stringify([{tool: 'jobspy', title: 'T', company: 'C', location: 'L'}])); fs.writeFileSync(path.join(art, 'jobspy-p24.meta.json'), JSON.stringify({notServed: false, errors: {}}));
+  const {missing} = layOut(art, work, {numbers: [24], rivals: ['jobspy'], ours: false});
+  assert.deepEqual(missing, []); assert.deepEqual(JSON.parse(fs.readFileSync(path.join(work, 'pool24.json'), 'utf8')).map(r => r.tool), ['jobspy']);
+});
