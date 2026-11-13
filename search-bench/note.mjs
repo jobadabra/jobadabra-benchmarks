@@ -32,11 +32,30 @@ export function readRound(dir) {
 }
 
 /**
+ * Which answers the broker marked as its paid lane's (13 Nov 2026, sa for the owner): judge batches from judged<N>.json `paid_calls` and `paid_usd` (the broker's top-level `paid` and `usd`), ours' calls from the relay lines of work/ours/p<N>.log.
+ * Read defensively: a missing field or file is "not paid"; a relay line counts only with the words `paid yes` or `paid true`, its cost from a `usd <number>` pair on the same line when there is one.
+ * @returns {string[]} labels like "ours p8 (12 calls, $0.4100)", "judge p3 (2 batches, $0.0600)"
+ */
+export function paidOf(work) {
+  const out = [];
+  for (const f of fs.existsSync(work) ? fs.readdirSync(work) : []) {
+    const m = f.match(/^judged(\d+)\.json$/), n = m && rj(path.join(work, f))?.paid_calls;
+    if (m && n > 0) out.push(`judge p${m[1]} (${n} ${n === 1 ? 'batch' : 'batches'}, $${(Number(rj(path.join(work, f)).paid_usd) || 0).toFixed(4)})`);
+  }
+  const dir = path.join(work, 'ours');
+  for (const f of fs.existsSync(dir) ? fs.readdirSync(dir) : []) {
+    const m = f.match(/^p(\d+)\.log$/), paidLines = m ? fs.readFileSync(path.join(dir, f), 'utf8').split('\n').filter(l => l.startsWith('relay: ') && /\bpaid (yes|true)\b/.test(l)) : [];
+    if (paidLines.length) out.push(`ours p${m[1]} (${paidLines.length} calls, $${paidLines.reduce((sum, l) => sum + (Number((l.match(/\busd ([0-9.]+)/) || [])[1]) || 0), 0).toFixed(4)})`);
+  }
+  return out.sort((a, b) => a.localeCompare(b, undefined, {numeric: true}));
+}
+
+/**
  * note, baseline and last (notes or null), {missing: ["ours p3"], notServed, url} -> the message, Telegram HTML.
  * Why (12 Nov 2026, owner: "Not very clear to me"; the shape of the form note, chosen via AskUserQuestion, "Yes, this shape"): a verdict line, one line with every tool's number,
  * the searches that found nothing and the biggest moves, and what to know (failed jobs, rivals without data); the per-search table and the build lines are gone.
  */
-export function noteText(note, baseline, last, {missing = [], notServed = [], url = ''} = {}) {
+export function noteText(note, baseline, last, {missing = [], notServed = [], url = '', paid = []} = {}) {
   // Why (12 Nov 2026, owner's Telegram screenshot: "ours 0 relevant of 0 shown, ▼108 vs the previous run 108" after the judge failed on all 10 people): no verdicts is not a 0. Say the judge failed, nothing else.
   if (!Object.keys(note.personas).length && missing.some(m => m.startsWith('judge '))) return [`${CHIP.bad} <b>Job search round not judged</b>: the judge failed, so this round has no numbers`, `⚠️ <b>Missing</b> (a job failed, not a 0): ${esc(missing.join(', '))}`, ...(url ? [link(url)] : [])].join('\n');
   const ours = note.tools.ours, searches = Object.keys(note.personas).length, empty = Object.entries(note.personas).filter(([, p]) => p.relevant === 0);
@@ -57,6 +76,7 @@ export function noteText(note, baseline, last, {missing = [], notServed = [], ur
   if (!ref) info.push(`no earlier run with the rivals' sources off yet`);
   if (notServed.length) info.push(`no data from the rivals for: ${esc(notServed.join(', '))} (not a failure, not a 0)`);
   if (info.length) lines.push(`ℹ️ ${info.join('; ')}`);
+  if (paid.length) lines.push(`💳 <b>Paid lane</b> (the broker's paid answers, not the plan; a mixed round): ${esc(paid.join('; '))}`);
   if (missing.length) lines.push(`⚠️ <b>Missing</b> (a job failed, not a 0): ${esc(missing.join(', '))}`);
   const review = [link(url), adminLink('search', note.round)].filter(Boolean).join(' · ');   // the owner reads the round in Admin first, then publishes it from there
   if (review) lines.push(review);
@@ -73,7 +93,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const lastDir = arg('last'), lastFile = lastDir && fs.existsSync(lastDir) ? fs.readdirSync(lastDir).filter(f => f.endsWith('.json')).sort().at(-1) : '';
   const last = lastFile ? rj(path.join(lastDir, lastFile)) : null;
   const unjudged = personas.map((_, i) => i + 1).filter(n => !fs.existsSync(path.join(work, `judged${n}.json`))).map(n => `judge p${n}`);
-  const text = noteText(note, baseline, last, {missing: [...missingNow, ...unjudged], notServed: notServedNow, url: arg('url')});
+  const text = noteText(note, baseline, last, {missing: [...missingNow, ...unjudged], notServed: notServedNow, url: arg('url'), paid: paidOf(work)});
   // Why (12 Nov 2026): a round the judge did not finish is never the "previous run" of the next one; run 43297527466 saved an all-zero note that the next real round would have been compared with.
   if (arg('out') && unjudged.length) console.log(`note not saved: ${unjudged.length} persona(s) have no verdicts`);
   else if (arg('out')) { fs.mkdirSync(path.dirname(arg('out')), {recursive: true}); fs.writeFileSync(arg('out'), JSON.stringify(note, null, 1) + '\n'); }
