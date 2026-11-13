@@ -10,7 +10,7 @@ test('ours first, then the rivals present, in a fixed order; unknown tools last'
 });
 
 
-test('publisher keeps a rival failed for every persona as null, never a win or a zero-result run', t => {
+test('publisher keeps one row for us (rivals off), a failed rival is never a found-zero row, and no row says "beyond"', t => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'search-publish-'));
   t.after(() => fs.rmSync(root, {recursive: true, force: true}));
   // Run a disposable copy: --dry still saves judged lists beside the script.
@@ -22,15 +22,16 @@ test('publisher keeps a rival failed for every persona as null, never a win or a
     {title: 'Nurse', city: 'City', kind: 'non-tech', country: 'Land'},
   ]}));
   for (const n of [1, 2]) fs.writeFileSync(path.join(work, `judged${n}.json`), JSON.stringify({rows: [
-    {tool: 'ours-all', title: 'Job', company: 'A', location: 'Town', role: 'yes', place: 'yes'},
+    {tool: 'ours', title: 'Job', company: 'A', location: 'Town', role: 'yes', place: 'yes'},
     ...(n === 1 ? [{tool: 'eures', title: 'Different', company: 'B', location: 'Town', role: 'yes', place: 'yes'}] : []),
   ]}));
   fs.writeFileSync(path.join(work, 'missing.json'), JSON.stringify(['jobspy p1', 'jobspy p2']));
   const output = execFileSync(process.execPath, [path.join(scripts, 'publish.mjs'), work, '--round', 'fixture', '--dry'], {encoding: 'utf8'});
   const rows = JSON.parse(output.slice(0, output.lastIndexOf(']') + 1));
-  const all = rows.filter(row => row.tool === NAME['ours-all']);
-  assert.equal(all.length, 2);
-  for (const row of all) assert.equal(row.beyond.JobSpy, null, 'no judged rows anywhere: missing.json must preserve the rival');
-  assert.deepEqual(all.map(row => row.beyond.EURES), [1, 1], 'a successful empty search remains a measured lead');
+  const ours = rows.filter(row => row.ours);
+  assert.equal(ours.length, 2, 'one ours row per person');
+  assert.ok(ours.every(row => row.tool === NAME.ours && !('beyond' in row)), 'the ours arm is the only one, with no beyond map');
+  assert.ok(!rows.some(row => row.tool === 'Jobadabra (with every source)' || 'beyond' in row), 'no "ours with every source" row exists any more');
   assert.ok(!rows.some(row => row.tool === NAME.jobspy), 'a failed search never becomes a found-zero score row');
+  assert.equal(rows.filter(row => row.tool === NAME.eures).length, 1, 'a rival that ran stays');
 });

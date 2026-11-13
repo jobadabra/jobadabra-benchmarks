@@ -23,7 +23,7 @@ on:
         description: app (default, the scoreboard) = the product's own tiers (small Haiku, main Sonnet); haiku = every step on Haiku 5.5, a side note
         default: app
       only_ours:
-        description: Our arm only (rivals-off line; no ours-all line, no rivals). Published under `round` and counted nowhere else; no Telegram note, nothing saved as the previous run
+        description: Our arm only (no rivals). Published under `round` and counted nowhere else; no Telegram note, nothing saved as the previous run
         type: boolean
         default: false
       draft:
@@ -52,23 +52,8 @@ jobs:
       product_ref: ${{ inputs.product_ref || 'main' }}
       personas: ${{ inputs.personas || '[1,2,3,4,5,6,7,8,9,10]' }}   # Why (13 Nov 2026, a side pair on persons 1, 2, 3, 6): the schedule has no inputs, so the default stays all 10
       presses: '[1]'
-      arm: ours
       tiers: ${{ inputs.tiers || 'app' }}
       draft: ${{ inputs.draft || '' }}
-    secrets: inherit
-  ours_all:   # the second line: as a user has it, EURES and the rest on (owner, 27 Oct 2026)
-    needs: [when, ours]   # Why (13 Nov 2026): one after the other again; both arms at once (16 jobs, run 43328684962) starved the broker's 16 slots and ours scored 59 instead of ~150
-    if: ${{ !cancelled() && needs.when.outputs.go == 'yes' && !inputs.only_ours }}
-    permissions:
-      contents: read
-      id-token: write   # the broker's run token for the called job that runs OUR arm (a called job cannot hold more than its caller); test/broker-token.test.mjs
-    uses: ./.github/workflows/search-ours.yml
-    with:
-      product_ref: ${{ inputs.product_ref || 'main' }}
-      personas: '[1,2,3,4,5,6,7,8,9,10]'
-      presses: '[1]'
-      arm: ours-all
-      tiers: ${{ inputs.tiers || 'app' }}
     secrets: inherit
   rivals:
     needs: when
@@ -77,8 +62,8 @@ jobs:
     with:
       rivals: '["jobspy","eures","adzuna","jooble"]'   # the same list as search-bench/rivals.json (test/workflows.test.mjs)
     secrets: inherit
-  judge:   # after both arms, even when one persona failed (pool.mjs names what is missing, the note says so)
-    needs: [when, ours, ours_all, rivals]
+  judge:   # after ours and the rivals, even when one persona failed (pool.mjs names what is missing, the note says so)
+    needs: [when, ours, rivals]
     if: ${{ !cancelled() && needs.when.outputs.go == 'yes' }}
     runs-on: ubuntu-24.04
     timeout-minutes: 90
@@ -106,7 +91,7 @@ jobs:
         env:
           BENCH_JUDGE_ENGINE: broker
         run: |
-          # Why (13 Nov 2026, owner: "more parallelization"): the 10 people judge at once (the arms are done, the broker has 16 slots); one after the other took ~6 min. A person's failure fails the step, after every log is printed.
+          # Why (13 Nov 2026, owner: "more parallelization"): the 10 people judge at once (ours is done, the broker has 24 slots); one after the other took ~6 min. A person's failure fails the step, after every log is printed.
           mkdir -p judge-logs; pids=()
           for n in 1 2 3 4 5 6 7 8 9 10; do
             (env -u ANTHROPIC_API_KEY python3 -I search-bench/judge.py search-bench/personas.json $n work/pool$n.json work/judged$n.json > judge-logs/$n.log 2>&1) &
