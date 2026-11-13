@@ -15,11 +15,11 @@ const keep = row => ({tool: row.tool, title: row.title || '', company: row.compa
 
 /**
  * @param {string} art the folder actions/download-artifact filled (one sub-folder per artifact)
- * @param {{personas?: number, rivals?: string[], numbers?: number[], ours?: boolean}} opts numbers = the persona numbers to lay out (default 1..personas); ours false = no arm of ours (search-targets.yml: rivals only, nothing named missing for it)
+ * @param {{personas?: number, rivals?: string[], numbers?: number[], ours?: boolean}} opts numbers = the persona numbers to lay out (default 1..personas); errorsMakeEmptyMissing = an empty list whose meta names errors is a failed read, not "found 0" (search-targets.yml); ours false = no arm of ours (search-targets.yml: rivals only, nothing named missing for it)
  * @param {string} work where pool<N>.json, ours/p<N>.log, missing.json and build.txt go
  * @returns {{missing: string[], notServed: string[], build: string, tiers: string}} missing = "ours p3"-style labels of jobs that failed; notServed = rivals that said they do not serve that place; build = our short commit, '' if no ours artifact
  */
-export function layOut(art, work, {personas = 10, rivals = RIVALS, numbers = null, ours: withOurs = true} = {}) {
+export function layOut(art, work, {personas = 10, rivals = RIVALS, numbers = null, ours: withOurs = true, errorsMakeEmptyMissing = false} = {}) {
   fs.mkdirSync(path.join(work, 'ours'), {recursive: true});
   const missing = [], notServed = []; let build = '', tiers = '';
   for (const n of numbers || Array.from({length: personas}, (_, i) => i + 1)) {
@@ -33,7 +33,9 @@ export function layOut(art, work, {personas = 10, rivals = RIVALS, numbers = nul
     for (const rival of rivals) {
       const dir = path.join(art, `search-${rival}-p${n}`), file = first([path.join(dir, `${rival}-p${n}.json`), path.join(dir, 'out', `${rival}-p${n}.json`)]), list = rj(file || '-');
       // Why (2 Nov 2026, Gitar on #14): a null list from a rival that says it does not serve the place is "no data", not a failed job; without that word it stays missing.
-      if (Array.isArray(list)) pool.push(...list.map(row => keep({...row, tool: rival})));
+      const errored = errorsMakeEmptyMissing && Array.isArray(list) && list.length === 0 && file && Object.keys(rj(file.replace(/\.json$/, '.meta.json'))?.errors || {}).length > 0;   // Why (13 Nov 2026, run 43432473083, c09): JobSpy's 4 sites all errored and the empty list read as "0 right jobs"
+      if (errored) missing.push(`${rival} p${n}`);
+      else if (Array.isArray(list)) pool.push(...list.map(row => keep({...row, tool: rival})));
       else if (list === null && file && rj(file.replace(/\.json$/, '.meta.json'))?.notServed === true) notServed.push(`${rival} p${n}`);
       else missing.push(`${rival} p${n}`);
     }

@@ -40,7 +40,7 @@ jobs:
         run: |
           node --input-type=module -e "
           import {layOut} from './search-bench/pool.mjs';
-          const r = layOut('art', 'work', {numbers: JSON.parse(process.env.NUMBERS), rivals: ['jobspy', 'jooble'], ours: false});
+          const r = layOut('art', 'work', {numbers: JSON.parse(process.env.NUMBERS), rivals: ['jobspy', 'jooble'], ours: false, errorsMakeEmptyMissing: true});
           console.log('missing:', r.missing.join(', ') || 'none', '| not served:', r.notServed.join(', ') || 'none');"
       - name: Blind judge, through the AI broker (Claude plan, $0)
         env:
