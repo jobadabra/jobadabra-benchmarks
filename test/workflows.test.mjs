@@ -197,10 +197,11 @@ for (const f of files) {
 test('search-round.yml: resume_run downloads the resumed artifacts first, drops the redone people, then this run\'s; no rivals on a resume', () => {
   const text = fs.readFileSync(path.join(dir, 'search-round.yml'), 'utf8');
   const at = s => { const i = text.indexOf(s); assert.ok(i > 0, s); return i; };
-  assert.ok(at("run-id: '${{ inputs.resume_run }}'") < at('rm -rf "art/search-ours-p$n-x1"') && at('rm -rf "art/search-ours-p$n-x1"') < at("- uses: actions/download-artifact@v5\n        with: {path: art, pattern: 'search-*'}"));
+  assert.ok(at("run-id: '${{ inputs.resume_run }}'") < at('rm -rf art/search-ours-p$n-x*') && at('rm -rf art/search-ours-p$n-x*') < at("- uses: actions/download-artifact@v5\n        with: {path: art, pattern: 'search-*'}"));
   assert.match(text, /pattern: 'search-\*-p\*', run-id/, 'the resumed run\'s own judged folder is not downloaded');
   assert.match(text, /rivals:\n    needs: when\n    if: \$\{\{ needs\.when\.outputs\.go == 'yes' && !inputs\.only_ours && inputs\.resume_run == '' \}\}/);
   assert.match(text, /resume_run:\n\s+description:[^\n]*\n\s+default: ''/);
+  assert.match(text, /A resume names the people to search again\n\s+if: \$\{\{ inputs\.resume_run != '' \}\}[\s\S]*?-lt 10/, 'a resume with the default all-10 list stops before anything runs');
 });
 
 // Why (13 Nov 2026, sa for the owner: the paid lane has a daily and a monthly cap and a refusal at the cap must fail the round loudly): a judge that failed for any person fails its step, and the publish step

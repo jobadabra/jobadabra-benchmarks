@@ -29,6 +29,17 @@ class PaidLane(unittest.TestCase):
         self.assertEqual(ask_with({**base, 'usd': 5})['usd'], 0.0, 'a cost without the paid marker is not counted')
         self.assertEqual(ask_with({**base, 'paid': True, 'usd': 'x'})['usd'], 0.0, 'a non-number cost is 0, the call still counts as paid')
 
+    def test_ask_broker_hands_the_marker_on_to_the_judge(self):
+        # Why (Gitar on #37): the first edit sat in ask_plan; the function the round uses is ask_broker, so drive it with a fake broker.ask
+        reply = '{"jobs":[{"n":1,"role":"yes","place":"yes"}]}'
+        real = broker.ask
+        try:
+            broker.ask = lambda prompt, tier='mid': {'reply': reply, 'model': 'm', 'engine': 'claude', 'paid': True, 'usd': 0.0421}
+            _verdicts, usage = judge.ask_broker('Profile: Nurse', [{'n': 1, 'title': 'A', 'company': 'C', 'location': 'L'}])
+        finally:
+            broker.ask = real
+        self.assertEqual((usage['paid'], usage['usd']), (True, 0.0421))
+
     def test_the_judge_counts_paid_batches(self):
         calls = []
 

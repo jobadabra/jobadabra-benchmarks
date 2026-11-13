@@ -52,7 +52,7 @@ class Broker(unittest.TestCase):
     def test_token_is_asked_for_the_brokers_audience_and_the_call_is_claude_only(self):
         opener, poster = Opener('jwt-1'), Poster({'reply': 'ok', 'model': 'claude-sonnet-5-5', 'engine': 'claude'})
         out = broker.ask('hi', tier='mid', env=ENV, poster=poster, opener=opener, sleep=lambda s: None)
-        self.assertEqual(out, {'reply': 'ok', 'model': 'claude-sonnet-5-5', 'engine': 'claude'})
+        self.assertEqual(out, {'reply': 'ok', 'model': 'claude-sonnet-5-5', 'engine': 'claude', 'paid': False, 'usd': 0.0})
         self.assertTrue(opener.calls[0][0].endswith('&audience=jobadabra-ai-broker'))
         url, headers, body = poster.calls[0]
         self.assertTrue(url.endswith('/call'))
@@ -129,7 +129,7 @@ class JudgeOnTheBroker(unittest.TestCase):
         finally:
             broker.ask = real
         self.assertEqual((verdicts[1]['role'], verdicts[1]['place'], verdicts[2]['role']), ('yes', 'no', 'no'))
-        self.assertEqual(usage, {'input_tokens': 0, 'output_tokens': 0})
+        self.assertEqual(usage, {'input_tokens': 0, 'output_tokens': 0, 'paid': False, 'usd': 0.0}, 'an unmarked answer is not paid')
         self.assertTrue(seen['prompt'].startswith(judge.SYSTEM))
         self.assertIn('2. B | ? | (no place)', seen['prompt'])
         self.assertEqual(seen['tier'], 'mid')

@@ -51,7 +51,7 @@ def ask_plan(profile, jobs):
                           '--output-format', 'json'], input=prompt, capture_output=True, text=True, timeout=900, cwd=tempfile.mkdtemp(), env=env)
     reply = json.loads(out.stdout)
     data = parse_jobs(reply['result'])
-    return {r['n']: r for r in data['jobs']}, {'input_tokens': 0, 'output_tokens': 0, 'paid': answer.get('paid') is True, 'usd': answer.get('usd') or 0.0}
+    return {r['n']: r for r in data['jobs']}, {'input_tokens': 0, 'output_tokens': 0}
 
 
 def ask_broker(profile, jobs):
@@ -61,7 +61,7 @@ def ask_broker(profile, jobs):
     prompt = SYSTEM + '\n\n' + profile + '\n\nJOBS\n' + '\n'.join(f'{j["n"]}. {j["title"]} | {j["company"] or "?"} | {j["location"] or "(no place)"}' for j in jobs)
     answer = broker.ask(prompt, tier='mid')
     data = parse_jobs(answer['reply'])
-    return {r['n']: r for r in data['jobs']}, {'input_tokens': 0, 'output_tokens': 0}
+    return {r['n']: r for r in data['jobs']}, {'input_tokens': 0, 'output_tokens': 0, 'paid': answer.get('paid') is True, 'usd': answer.get('usd') or 0.0}   # the broker's paid-lane marker (13 Nov 2026)
 
 
 def ask(key, profile, jobs):

@@ -41,6 +41,13 @@ jobs:
     outputs:
       go: ${{ steps.day.outputs.go }}
     steps:
+      - name: A resume names the people to search again
+        if: ${{ inputs.resume_run != '' }}
+        # Why (13 Nov 2026, Gitar on #37): the default personas list is all 10, which would wipe every good artifact of the run being resumed; a resume lists its people (fewer than all 10)
+        env: {PERSONAS: '${{ inputs.personas }}'}
+        run: |
+          n=$(jq -r 'length' <<<"${PERSONAS:-[]}")
+          test "$n" -ge 1 -a "$n" -lt 10 || { echo "resume_run needs personas: the people to search again (1 to 9 of them), not the default all 10"; exit 1; }
       - id: day
         env: {EVENT: '${{ github.event_name }}'}
         run: echo "go=$([ "$EVENT" = workflow_dispatch ] || [ $(( $(date -u +%s) / 86400 % 3 )) = 0 ] && echo yes || echo no)" | tee -a "$GITHUB_OUTPUT"
@@ -87,7 +94,7 @@ jobs:
       - name: The people searched again leave no resumed copy behind
         if: ${{ inputs.resume_run != '' }}
         env: {PERSONAS: '${{ inputs.personas }}'}
-        run: for n in $(jq -r '.[]' <<<"${PERSONAS:-[]}"); do rm -rf "art/search-ours-p$n-x1"; done
+        run: for n in $(jq -r '.[]' <<<"${PERSONAS:-[]}"); do rm -rf art/search-ours-p$n-x*; done
       - uses: actions/download-artifact@v5
         with: {path: art, pattern: 'search-*'}
       - name: One artifact lands without its folder (a one-person side check)
