@@ -95,7 +95,7 @@ class ExtraProfileCities(unittest.TestCase):
 
     def test_area_codes_look_like_nuts3_of_their_country_and_unverified_ones_have_one(self):
         for city, (code, name) in rivals.REGIONS.items():
-            self.assertRegex(code, r'^[a-z]{2}[0-9a-z]{3}$', city)
+            self.assertRegex(code, r'^[a-z]{2}([0-9a-z]{3})?$', city)   # a NUTS-3 code, or the country's own code for a rival place that is the whole country
         self.assertLessEqual(rivals.UNVERIFIED, set(rivals.REGIONS))
 
 

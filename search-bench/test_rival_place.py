@@ -32,7 +32,22 @@ class RivalPlace(unittest.TestCase):
         import json
         for p in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'personas-extra.json')))['personas']:
             if p.get('area'):
-                self.assertTrue(p.get('rival_place') or p['id'] == 'd06', f"{p['id']}: an area needs a rival_place (d06's is not chosen yet)")
+                self.assertTrue(p.get('rival_place'), f"{p['id']}: an area needs a rival_place")
+
+
+    def test_a_rival_place_that_is_the_country_is_asked_as_the_country(self):
+        import types
+        asked = []
+
+        class Frame:
+            def iterrows(self):
+                return iter([])
+        sys.modules['jobspy'] = types.SimpleNamespace(scrape_jobs=lambda **kw: (asked.append(kw['location']), Frame())[1])
+        try:
+            rivals.jobspy({'title': 'Software Developer', 'city': 'Switzerland', 'country': 'Switzerland'})
+        finally:
+            del sys.modules['jobspy']
+        self.assertEqual(set(asked), {'Switzerland'}, 'not "Switzerland, Switzerland"')
 
 
 if __name__ == '__main__':

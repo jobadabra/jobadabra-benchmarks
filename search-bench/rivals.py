@@ -30,11 +30,12 @@ REGIONS = {'Sofia': ('bg411', 'Sofia (stolitsa)'), 'Cluj-Napoca': ('ro113', 'Clu
            'Naples': ('itf33', 'Naples'), 'Prague': ('cz010', 'Prague'), 'Brno': ('cz064', 'South Moravian Region'), 'Copenhagen': ('dk011', 'Copenhagen'),
            'Oslo': ('no081', 'Oslo'), 'Tallinn': ('ee001', 'Northern Estonia'), 'Ljubljana': ('si041', 'Central Slovenia'), 'Bratislava': ('sk010', 'Bratislava Region'),
            'Berlin': ('de300', 'Berlin'), 'Geneva': ('ch013', 'Geneva'), 'Monthey': ('ch012', 'Valais'),
-           'Lausanne': ('ch011', 'Vaud')}   # Why (13 Nov 2026, owner via sa: d07 "If we have to choose just one. Let's choose Lausanne"): the rivals' one place for d07; EURES lists a canton, so Vaud
+           'Lausanne': ('ch011', 'Vaud'),   # Why (13 Nov 2026, owner via sa: d07 "If we have to choose just one. Let's choose Lausanne"): the rivals' one place for d07; EURES lists a canton, so Vaud
+           'Switzerland': ('ch', 'Switzerland')}   # d06's rival place is the country (owner, 13 Nov 2026: "Switzerland (Recommended)"); EURES takes the country code (2,219 records for one search, probed)
 OUTSIDE_EURES = {'Moldova'}   # EURES covers the EU, the EEA and Switzerland
 # The extra profiles' areas above were written from the NUTS list and no run has shown them returning jobs yet; the 10 cities before them were proven by the rounds. Take a city out of this set once a run's EURES column shows rows for it.
 UNVERIFIED = {'Amsterdam', 'Rotterdam', 'Vienna', 'Graz', 'Lyon', 'Toulouse', 'Paris', 'Madrid', 'Valencia', 'Seville', 'Milan', 'Bologna', 'Naples', 'Prague', 'Brno', 'Copenhagen', 'Oslo',
-              'Tallinn', 'Ljubljana', 'Bratislava', 'Berlin', 'Geneva', 'Monthey', 'Lausanne'}
+              'Tallinn', 'Ljubljana', 'Bratislava', 'Berlin', 'Geneva', 'Monthey', 'Lausanne', 'Switzerland'}
 ADZUNA = {'Belgium': 'be', 'Switzerland': 'ch', 'Poland': 'pl', 'Germany': 'de', 'Austria': 'at', 'France': 'fr', 'Netherlands': 'nl', 'Spain': 'es', 'Italy': 'it'}
 # Jooble's country domain for each persona country (the key is only valid on its own domain).
 JOOBLE = {'Bulgaria': 'bg', 'Romania': 'ro', 'Belgium': 'be', 'Switzerland': 'ch', 'Poland': 'pl', 'Croatia': 'hr', 'Sweden': 'se', 'Germany': 'de', 'Finland': 'fi', 'Portugal': 'pt',
@@ -125,8 +126,9 @@ def jobspy(p):
     rows, errors = [], {}
     for site in ('linkedin', 'indeed', 'glassdoor', 'google'):
         try:
-            ask = dict(site_name=[site], search_term=p['title'], google_search_term=f"{p['title']} jobs near {p['city']}, {p['country']}",
-                       location=f"{p['city']}, {p['country']}", results_wanted=25, verbose=0)
+            where = p['country'] if p['city'] == p['country'] else f"{p['city']}, {p['country']}"   # a rival place that is the country itself (d06) is asked as the country, not "Switzerland, Switzerland"
+            ask = dict(site_name=[site], search_term=p['title'], google_search_term=f"{p['title']} jobs near {where}",
+                       location=where, results_wanted=25, verbose=0)
             try:
                 df = scrape_jobs(**ask, country_indeed=p['country'].lower())
             except ValueError as error:
