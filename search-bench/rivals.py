@@ -34,7 +34,8 @@ ADZUNA = {'Belgium': 'be', 'Switzerland': 'ch', 'Poland': 'pl', 'Germany': 'de',
 # Jooble's country domain for each persona country (the key is only valid on its own domain).
 JOOBLE = {'Bulgaria': 'bg', 'Romania': 'ro', 'Belgium': 'be', 'Switzerland': 'ch', 'Poland': 'pl', 'Croatia': 'hr', 'Sweden': 'se', 'Germany': 'de', 'Finland': 'fi', 'Portugal': 'pt',
           # Why (13 Nov 2026, sa for the owner, "take the target from Jooble or JobSpy"): the 20 extra Trello profiles (search-targets.yml); Estonia and Slovenia stay out: ee.jooble.org and si.jooble.org have no DNS record (checked 13 Nov 2026)
-          'Netherlands': 'nl', 'Austria': 'at', 'France': 'fr', 'Spain': 'es', 'Italy': 'it', 'Czechia': 'cz', 'Denmark': 'dk', 'Norway': 'no', 'Slovakia': 'sk'}
+          'Netherlands': 'nl', 'Austria': 'at', 'France': 'fr', 'Spain': 'es', 'Italy': 'it', 'Czechia': 'cz', 'Denmark': 'dk', 'Norway': 'no', 'Slovakia': 'sk',
+          'Moldova': 'md'}   # Why (13 Nov 2026, owner via sa: "let's add key" for the Netherlands and Moldova): md.jooble.org exists (sa); a key for it is still to be made, until then the run says "no key"
 JOOBLE_PAGE = 50   # asked per page; Jooble may return fewer, so the loop stops on a short page
 JOOBLE_MAX_CALLS = 5   # a persona's key has 100 calls a day: never a retry loop
 
