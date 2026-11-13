@@ -7,7 +7,7 @@
 import fs from 'node:fs'; import path from 'node:path'; import {fileURLToPath} from 'node:url';
 
 // Why (27 Oct 2026, owner: "I want to compete our algorithm with their algorithms"): the rivals are listed once, in rivals.json; search-round.yml turns
-// their sources off in the fair "ours" run, and "ours-all" (every source on) is the second line.
+// their sources off in "ours", the one arm of ours (13 Nov 2026, owner: no run with them on).
 export const RIVALS = JSON.parse(fs.readFileSync(path.join(import.meta.dirname, 'rivals.json'), 'utf8'));
 const rj = f => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return null; } };
 const first = files => files.find(f => fs.existsSync(f));
@@ -25,10 +25,6 @@ export function layOut(art, work, {personas = 10, rivals = RIVALS} = {}) {
     const pool = [], ours = path.join(art, `search-ours-p${n}-x1`);
     const jobs = rj(path.join(ours, 'out', 'jobs.json'));
     if (Array.isArray(jobs)) pool.push(...jobs.map(row => keep({...row, tool: 'ours'}))); else missing.push(`ours p${n}`);
-    const all = rj(path.join(art, `search-ours-all-p${n}-x1`, 'out', 'jobs.json'));
-    if (Array.isArray(all)) pool.push(...all.map(row => keep({...row, tool: 'ours-all'}))); else missing.push(`ours-all p${n}`);
-    const allLog = path.join(art, `search-ours-all-p${n}-x1`, 'out', 'run.log');
-    if (fs.existsSync(allLog)) { fs.mkdirSync(path.join(work, 'ours-all'), {recursive: true}); fs.copyFileSync(allLog, path.join(work, 'ours-all', `p${n}.log`)); }
     const log = path.join(ours, 'out', 'run.log');
     if (fs.existsSync(log)) fs.copyFileSync(log, path.join(work, 'ours', `p${n}.log`));
     build ||= ((fs.existsSync(path.join(ours, 'build.txt')) ? fs.readFileSync(path.join(ours, 'build.txt'), 'utf8') : '').match(/build: (\w+)/) || [])[1] || '';

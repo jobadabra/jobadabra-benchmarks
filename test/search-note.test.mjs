@@ -59,3 +59,13 @@ test('a round the judge did not judge says so, shows no 0 and no delta', () => {
   assert.doesNotMatch(text, /0 relevant|▼|vs the previous run/);
   assert.match(text, /judge p1, judge p2/); assert.match(text, /https:\/\/x\/run/);
 });
+
+test('one arm of ours: the note has no "with every source" line and no "beyond" line, and an old reference with ours-all is ignored for that', () => {
+  // Why (13 Nov 2026, owner: "It doesn't make sense to have a benchmark where we include rivals in our solution"): the "ours with every source" arm is gone.
+  const note = noteOf({1: [job('ours', 'yes', 'yes'), job('eures', 'yes', 'yes', 'Other Role')]}, {round: 'r', rivalsOff: true});
+  assert.equal(note.beyond, undefined);
+  const oldLast = {rivalsOff: true, tools: {ours: {relevant: 1}, 'ours-all': {relevant: 9}}, personas: {1: {relevant: 1}}};
+  const text = noteText(note, null, oldLast);
+  assert.doesNotMatch(text, /every source|➕|beyond/);
+  assert.match(text.split('\n')[0], /ours 1 relevant of 1 shown/);
+});

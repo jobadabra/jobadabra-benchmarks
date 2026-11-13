@@ -8,7 +8,7 @@ const read = f => fs.readFileSync(path.join(dir, f), 'utf8');
 const jobsOf = text => { const out = {}, from = text.indexOf('\njobs:\n'); const lines = text.slice(from + 7).split('\n'); let name = null; for (const line of lines) { const m = line.match(/^  ([\w-]+):/); if (m) { name = m[1]; out[name] = ''; } if (name) out[name] += line + '\n'; } return out; };
 // Why (12 Nov 2026, owner: "Broker, Claude plan, Haiku"): the search round's AI moves onto the broker too. Ours (search-ours.yml `search`, and the two caller jobs that must grant it, a called job cannot hold more than its caller)
 // and the judge (reads the pools as data, runs no rival's code) hold the token; the rivals' jobs (search-rivals.yml, jooble included) never do.
-const ALLOWED = ['form-round.yml:run-ours', 'search-ours.yml:search', 'search-round.yml:ours', 'search-round.yml:ours_all', 'search-round.yml:judge'];
+const ALLOWED = ['form-round.yml:run-ours', 'search-ours.yml:search', 'search-round.yml:ours', 'search-round.yml:judge'];
 const holdsToken = block => /^\s+id-token: write/m.test(block);
 
 test('only the job that runs ours holds id-token: write; no job that runs a rival does', () => {

@@ -9,15 +9,14 @@ test('ours and the rivals land in one pool; the missing ones are named; the buil
   put(path.join(art, 'search-ours-p1-x1', 'build.txt'), 'our build: abc1234\n');
   put(path.join(art, 'search-ours-p1-x1', 'out', 'jobs.json'), [{tool: 'ours', title: 'Nurse', company: 'Clinic', location: 'Town', provider: 'greenhouse', url: 'https://x.test/1'}]);
   put(path.join(art, 'search-ours-p1-x1', 'out', 'run.log'), 'PRESS 1 (120 s)\n');
-  put(path.join(art, 'search-ours-all-p1-x1', 'out', 'jobs.json'), [{tool: 'ours', title: 'Nurse', company: 'Clinic', location: 'Town'}, {tool: 'ours', title: 'Aide', company: 'EURES Co', location: 'Town', provider: 'EURES'}]);
   put(path.join(art, 'search-jobspy-p1', 'jobspy-p1.json'), [{tool: 'jobspy', title: 'Nurse', company: 'Ward', location: 'Town', job_url: 'https://y.test'}]);
   put(path.join(art, 'search-eures-p1', 'out', 'eures-p1.json'), []);
   put(path.join(art, 'search-jooble-p1', 'out', 'jooble-p1.json'), []);
   const {missing, build} = layOut(art, work, {personas: 2});
   assert.equal(build, 'abc1234');
-  assert.deepEqual(missing, ['adzuna p1', 'ours p2', 'ours-all p2', 'jobspy p2', 'eures p2', 'adzuna p2', 'jooble p2']);
+  assert.deepEqual(missing, ['adzuna p1', 'ours p2', 'jobspy p2', 'eures p2', 'adzuna p2', 'jooble p2']);
   const pool = JSON.parse(fs.readFileSync(path.join(work, 'pool1.json'), 'utf8'));
-  assert.deepEqual(pool.map(r => r.tool), ['ours', 'ours-all', 'ours-all', 'jobspy']);
+  assert.deepEqual(pool.map(r => r.tool), ['ours', 'jobspy']);
   assert.deepEqual(Object.keys(pool[0]), ['tool', 'title', 'company', 'location', 'provider'], 'no URL reaches the judge');
   assert.equal(fs.readFileSync(path.join(work, 'ours', 'p1.log'), 'utf8'), 'PRESS 1 (120 s)\n');
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(work, 'missing.json'), 'utf8')), missing);
@@ -27,7 +26,6 @@ test('ours and the rivals land in one pool; the missing ones are named; the buil
 test('a rival that wrote null is missing (unknown); one that wrote an empty list found 0', () => {
   const art = fs.mkdtempSync(path.join(os.tmpdir(), 'pool-art-')), work = fs.mkdtempSync(path.join(os.tmpdir(), 'pool-work-'));
   put(path.join(art, 'search-ours-p1-x1', 'out', 'jobs.json'), []);
-  put(path.join(art, 'search-ours-all-p1-x1', 'out', 'jobs.json'), []);
   put(path.join(art, 'search-jobspy-p1', 'jobspy-p1.json'), []);
   put(path.join(art, 'search-eures-p1', 'out', 'eures-p1.json'), 'null');
   put(path.join(art, 'search-adzuna-p1', 'out', 'adzuna-p1.json'), 'null');
@@ -39,7 +37,6 @@ test('a rival that wrote null is missing (unknown); one that wrote an empty list
 test('a rival that says it does not serve the place is listed as not served, never as a failed job', () => {
   const art = fs.mkdtempSync(path.join(os.tmpdir(), 'pool-art-')), work = fs.mkdtempSync(path.join(os.tmpdir(), 'pool-work-'));
   put(path.join(art, 'search-ours-p1-x1', 'out', 'jobs.json'), []);
-  put(path.join(art, 'search-ours-all-p1-x1', 'out', 'jobs.json'), []);
   put(path.join(art, 'search-jobspy-p1', 'jobspy-p1.json'), []);
   put(path.join(art, 'search-adzuna-p1', 'out', 'adzuna-p1.json'), 'null');
   put(path.join(art, 'search-adzuna-p1', 'out', 'adzuna-p1.meta.json'), {rival: 'adzuna', kept: null, notServed: true, errors: []});
