@@ -97,7 +97,7 @@ jobs:
         # Why (13 Nov 2026, runs 43346001946 and 43346002378, p10 and p3 alone): with exactly one artifact the download put its files straight into art/, pool.mjs looked in art/search-ours-pN-x1/, named every list "missing" and the judge judged 0 jobs. Hypothesis until a one-person run shows relevant > 0.
         run: |
           if [ -f art/out/jobs.json ] && ! ls -d art/search-* >/dev/null 2>&1; then
-            n=$(node -p 'JSON.parse(process.env.PERSONAS)[0]'); mkdir -p "art/search-ours-p$n-x1"
+            n=$(node -p 'JSON.parse(process.env.PERSONAS || "[1]")[0]'); mkdir -p "art/search-ours-p$n-x1"
             mv art/build.txt art/out "art/search-ours-p$n-x1/"; echo "one artifact: moved into art/search-ours-p$n-x1"
           fi
       - name: The pools (title, employer, place per job; no URLs)
