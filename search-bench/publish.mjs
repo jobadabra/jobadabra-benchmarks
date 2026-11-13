@@ -1,4 +1,4 @@
-// node publish.mjs <work dir> [--round YYYY-MM-DD] [--build <sha>] [--dry]: turns one search-bench round (judgedN.json, ours/pN.log, co/pN/.../seconds.txt in <work dir>) into one summary row per tool and persona,
+// node publish.mjs <work dir> [--round YYYY-MM-DD] [--build <sha>] [--replace] [--dry]: turns one search-bench round (judgedN.json, ours/pN.log, co/pN/.../seconds.txt in <work dir>) into one summary row per tool and persona,
 // keeps the judged lists (titles, employers, places, job system; no URLs, no posting texts) in search-bench/results/<round>/, and sends the rows to the owner-only page /admin/benchmark-job-search
 // (PUT /benchmark-search/data, Bearer = Keychain jobadabra.site.selfheal_publish_key or $SELFHEAL_PUBLISH_KEY). --dry prints the rows and sends nothing.
 import fs from 'node:fs';
@@ -10,6 +10,8 @@ const [work] = process.argv.slice(2).filter(arg => !arg.startsWith('--'));
 const flag = (name, fallback) => { const at = process.argv.indexOf(name); return at > 0 ? process.argv[at + 1] : fallback; };
 if (!work) { console.error('usage: node publish.mjs <work dir> [--round YYYY-MM-DD] [--build <sha>] [--dry]'); process.exit(2); }
 const here = import.meta.dirname, round = flag('--round', new Date().toISOString().slice(0, 10)), build = flag('--build', '').slice(0, 7), dry = process.argv.includes('--dry');
+// Why (13 Nov 2026, owner chose "the replace rule" via mac-9a; contract from jobadabra-web): a full round sends {replace: true, runs} in ONE PUT and the site deletes that round's rows first, so a line a round no longer has (the old "with every source" rows) cannot stay; without the flag the site upserts, as every side check needs. Not wired in search-round.yml until the site's replace is live (mac-9a will say).
+const replace = process.argv.includes('--replace');
 const personas = JSON.parse(fs.readFileSync(path.join(here, 'personas.json'), 'utf8')).personas;
 const read = (file, fallback = '') => { try { return fs.readFileSync(file, 'utf8'); } catch { return fallback; } };
 // Why (13 Nov 2026, owner: "Yes, switch to app tiers"; field name from jobadabra-web's `ai` column via mac-9a): our rows say which AI the round ran on, "app" or "haiku" (work/tiers.txt), so the page can mark the break; rivals have no AI and omit it, an old round without the file reads as haiku there.
@@ -47,8 +49,8 @@ personas.forEach((persona, at) => {
   }
 });
 
-if (dry || !rows.length) { console.log(JSON.stringify(rows, null, 1)); console.log(`${rows.length} rows${dry ? ' (dry)' : ''}`); process.exit(0); }
+if (dry || !rows.length) { console.log(JSON.stringify(rows, null, 1)); console.log(`${rows.length} rows${dry ? ' (dry)' : ''}${replace ? ', replace' : ''}`); process.exit(0); }
 const key = process.env.SELFHEAL_PUBLISH_KEY || execFileSync('security', ['find-generic-password', '-a', 'jobadabra', '-s', 'jobadabra.site.selfheal_publish_key', '-w'], {encoding: 'utf8'}).trim();
-const response = await fetch('https://www.jobadabra.top/benchmark-search/data', {method: 'PUT', headers: {Authorization: `Bearer ${key}`, 'content-type': 'application/json'}, body: JSON.stringify({runs: rows})});
+const response = await fetch('https://www.jobadabra.top/benchmark-search/data', {method: 'PUT', headers: {Authorization: `Bearer ${key}`, 'content-type': 'application/json'}, body: JSON.stringify(replace ? {replace: true, runs: rows} : {runs: rows})});
 const answer = await response.text(); console.log(response.status, answer);
 if (!response.ok || !/"ok":true/.test(answer)) process.exit(1);   // Why (27 Oct 2026): on CI a refused publish must turn the round red
