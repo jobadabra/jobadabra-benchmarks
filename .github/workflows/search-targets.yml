@@ -1,4 +1,4 @@
-# The Jooble + JobSpy target of the 20 extra Trello profiles c01-c20 (13 Nov 2026, sa for the owner: "Let's have an average between JobSpy and Jooble"; "if jooble find 20 and jobspy 10 then the target should be 15").
+# The Jooble + JobSpy target of the extra Trello profiles c01-c20 and d01-d05 (13 Nov 2026, sa for the owner: "Let's have an average between JobSpy and Jooble"; "if jooble find 20 and jobspy 10 then the target should be 15").
 # By hand only. The same rivals run (search-rivals.yml, on search-bench/personas-extra.json), the same blind judge (judge.py on the AI broker, Claude plan, $0), nothing else:
 # no publish to /admin, no Telegram, no state tag, so a published round is never replaced and nothing becomes the "previous run". Result: the job summary and the artifact search-targets-<run>.
 name: search targets (by hand)
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       profiles:
-        description: 'Profile numbers 1-20 = c01-c20 (JSON); c09 Tallinn, c13 Brno, c17 Rotterdam = [9,13,17]'
+        description: 'Profile numbers (JSON): 1-20 = c01-c20, 21-25 = d01-d05; c09 Tallinn, c13 Brno, c17 Rotterdam = [9,13,17]; the five d profiles = [21,22,23,24,25]'
         default: '[9,13,17]'
 permissions:
   contents: read
