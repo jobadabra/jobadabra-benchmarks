@@ -104,7 +104,10 @@ def judge(p, index, pool, ledger, ask_fn, limit=None, plan=False, cap=None, max_
     a list over max_jobs, a persona whose estimate does not fit the rest of the cap, or a batch that would cross it raises BudgetExceeded before that call is sent."""
     cap = CAP_USD if cap is None else cap
     max_jobs = MAX_JOBS if max_jobs is None else max_jobs
-    profile = f'Profile: {p["title"]}, 6 years of experience, living in {p["city"]}, {p["country"]}; on-site or hybrid; speaks {p["language"]} and English.'
+    # Why (13 Nov 2026, owner via sa: d07 "Monthey + 100km", d06 "the entire Switzerland", d05 "Geneva or Lausanne, Nyon..."): a persona with an `area` is willing to work in it, said in the title like jobadabra's
+    # profiles.for_judge, so our N and the rivals' X are judged on the same places; a persona without one (the round's 10) gets the same line as before, byte for byte.
+    title = f'{p["title"]} (willing to work {p["area"]})' if p.get('area') else p['title']
+    profile = f'Profile: {title}, 6 years of experience, living in {p["city"]}, {p["country"]}; on-site or hybrid; speaks {p["language"]} and English.'
     unique = {}   # one verdict per distinct job; every tool that found it gets it
     for row in pool:
         unique.setdefault((row['title'].strip().lower(), (row['company'] or '').strip().lower(), (row['location'] or '').strip().lower()), row)

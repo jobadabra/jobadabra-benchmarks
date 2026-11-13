@@ -1,5 +1,5 @@
 {
- "note": "The extra Trello profiles c01-c20 and d01-d05 exactly as jobadabra tools/persona-search/search-profiles.json defines them (13 Nov 2026, sa for the owner; the d rows: \"actually let's leave it only for the Trello board\"); only search-targets.yml reads this file, never the round. Profile numbers in search-targets.yml are the row's place in this list (1-20 = c01-c20, 21-25 = d01-d05)",
+ "note": "The extra Trello profiles c01-c20 and d01-d07 exactly as jobadabra tools/persona-search/search-profiles.json defines them (13 Nov 2026, sa for the owner; the d rows: \"actually let's leave it only for the Trello board\"); only search-targets.yml reads this file, never the round. Profile numbers in search-targets.yml are the row's place in this list (1-20 = c01-c20, 21-27 = d01-d07). A row with an `area` (d05-d07) is judged as willing to work there (judge.py); rivals still search its home city",
  "personas": [
   {
    "id": "c01",
@@ -224,7 +224,28 @@
    "kind": "tech",
    "city": "Geneva",
    "country": "Switzerland",
-   "language": "French"
+   "language": "French",
+   "area": "along Lake Geneva: Geneva, Nyon, Lausanne and the towns between them"
+  },
+  {
+   "id": "d06",
+   "family": "software",
+   "title": "Software Developer",
+   "kind": "tech",
+   "city": "Zurich",
+   "country": "Switzerland",
+   "language": "German",
+   "area": "anywhere in Switzerland"
+  },
+  {
+   "id": "d07",
+   "family": "it-project-manager",
+   "title": "IT Project Manager",
+   "kind": "tech",
+   "city": "Monthey",
+   "country": "Switzerland",
+   "language": "French",
+   "area": "within 100 km of Monthey, including Geneva, Lausanne, Bern, Martigny and Sion"
   }
  ]
 }
