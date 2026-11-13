@@ -1,5 +1,5 @@
 {
- "note": "The extra Trello profiles c01-c20 and d01-d07 exactly as jobadabra tools/persona-search/search-profiles.json defines them (13 Nov 2026, sa for the owner; the d rows: \"actually let's leave it only for the Trello board\"); only search-targets.yml reads this file, never the round. Profile numbers in search-targets.yml are the row's place in this list (1-20 = c01-c20, 21-27 = d01-d07). A row with an `area` (d05-d07) is judged as willing to work there (judge.py); rivals still search its home city",
+ "note": "The extra Trello profiles c01-c20 and d01-d07 exactly as jobadabra tools/persona-search/search-profiles.json defines them (13 Nov 2026, sa for the owner; the d rows: \"actually let's leave it only for the Trello board\"); only search-targets.yml reads this file, never the round. Profile numbers in search-targets.yml are the row's place in this list (1-20 = c01-c20, 21-27 = d01-d07). A row with an `area` (d05-d07) is judged as willing to work there (judge.py); the rivals search its `rival_place` (d05 Geneva, d07 Lausanne: the owner, 13 Nov 2026, \"If we have to choose just one. Let's choose Lausanne\"), a row with an area and no `rival_place` (d06) is not measured by the rivals",
  "personas": [
   {
    "id": "c01",
@@ -225,7 +225,8 @@
    "city": "Geneva",
    "country": "Switzerland",
    "language": "French",
-   "area": "along Lake Geneva: Geneva, Nyon, Lausanne and the towns between them"
+   "area": "along Lake Geneva: Geneva, Nyon, Lausanne and the towns between them",
+   "rival_place": "Geneva"
   },
   {
    "id": "d06",
@@ -245,7 +246,8 @@
    "city": "Monthey",
    "country": "Switzerland",
    "language": "French",
-   "area": "within 100 km of Monthey, including Geneva, Lausanne, Bern, Martigny and Sion"
+   "area": "within 100 km of Monthey, including Geneva, Lausanne, Bern, Martigny and Sion",
+   "rival_place": "Lausanne"
   }
  ]
 }

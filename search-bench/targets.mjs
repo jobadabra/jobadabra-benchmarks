@@ -25,7 +25,9 @@ export function summarize(work, personas, numbers) {
   const missing = rj(path.join(work, 'missing.json'), []), notServed = rj(path.join(work, 'notserved.json'), []);
   return numbers.map(n => {
     const p = personas[n - 1], judged = rj(path.join(work, `judged${n}.json`), null), row = {n, id: p.id, role: p.title, city: p.city, country: p.country};
-    for (const rival of RIVALS) row[rival] = rightOf(judged, rival, `${rival} p${n}`, missing, notServed);
+    row.area = p.area || null; row.rivalPlace = p.rival_place || null;   // Why (13 Nov 2026, owner via sa: "Let's choose Lausanne"): our N counts the area, the rivals one place; the table says which
+    const noPlace = p.area && !p.rival_place;
+    for (const rival of RIVALS) row[rival] = noPlace ? {state: 'not measured (no rival place chosen)'} : rightOf(judged, rival, `${rival} p${n}`, missing, notServed);
     const measured = RIVALS.map(rival => row[rival].right).filter(right => right !== undefined);
     row.counted = measured.length;   // Why (13 Nov 2026, sa: "the average of the rivals that measured that profile, rounded up"): a rival with no site or key for the country is left out, never counted as 0
     row.average = measured.length ? Math.floor((measured.reduce((a, b) => a + b, 0) + measured.length - 1) / measured.length) : null;   // rounded up: 20 and 5 -> 13, 10, 10 and 11 -> 11
@@ -37,7 +39,7 @@ export const cell = c => c.right !== undefined ? `${c.right} (of ${c.found})` : 
 
 export function markdown(rows) {
   const head = '| id | role | place | EURES right | Jooble right | JobSpy right | target (average of the rivals measured, rounded up) |\n|---|---|---|---|---|---|---|\n';
-  return head + rows.map(r => `| ${r.id} | ${r.role} | ${r.city}, ${r.country} | ${cell(r.eures)} | ${cell(r.jooble)} | ${cell(r.jobspy)} | ${r.average === null ? 'not measured (no rival measured it)' : `${r.average} (${r.counted} of ${RIVALS.length})`} |`).join('\n') + '\n';
+  return head + rows.map(r => `| ${r.id} | ${r.role} | ${r.city}, ${r.country}${r.area ? (r.rivalPlace ? ` (rivals searched ${r.rivalPlace})` : ' (no rival place)') : ''} | ${cell(r.eures)} | ${cell(r.jooble)} | ${cell(r.jobspy)} | ${r.average === null ? 'not measured (no rival measured it)' : `${r.average} (${r.counted} of ${RIVALS.length})`} |`).join('\n') + '\n';
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

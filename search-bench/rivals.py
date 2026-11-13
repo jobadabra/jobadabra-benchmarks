@@ -29,11 +29,12 @@ REGIONS = {'Sofia': ('bg411', 'Sofia (stolitsa)'), 'Cluj-Napoca': ('ro113', 'Clu
            'Valencia': ('es523', 'Valencia'), 'Seville': ('es618', 'Seville'), 'Milan': ('itc4c', 'Milan'), 'Bologna': ('ith55', 'Bologna'),
            'Naples': ('itf33', 'Naples'), 'Prague': ('cz010', 'Prague'), 'Brno': ('cz064', 'South Moravian Region'), 'Copenhagen': ('dk011', 'Copenhagen'),
            'Oslo': ('no081', 'Oslo'), 'Tallinn': ('ee001', 'Northern Estonia'), 'Ljubljana': ('si041', 'Central Slovenia'), 'Bratislava': ('sk010', 'Bratislava Region'),
-           'Berlin': ('de300', 'Berlin'), 'Geneva': ('ch013', 'Geneva'), 'Monthey': ('ch012', 'Valais')}
+           'Berlin': ('de300', 'Berlin'), 'Geneva': ('ch013', 'Geneva'), 'Monthey': ('ch012', 'Valais'),
+           'Lausanne': ('ch011', 'Vaud')}   # Why (13 Nov 2026, owner via sa: d07 "If we have to choose just one. Let's choose Lausanne"): the rivals' one place for d07; EURES lists a canton, so Vaud
 OUTSIDE_EURES = {'Moldova'}   # EURES covers the EU, the EEA and Switzerland
 # The extra profiles' areas above were written from the NUTS list and no run has shown them returning jobs yet; the 10 cities before them were proven by the rounds. Take a city out of this set once a run's EURES column shows rows for it.
 UNVERIFIED = {'Amsterdam', 'Rotterdam', 'Vienna', 'Graz', 'Lyon', 'Toulouse', 'Paris', 'Madrid', 'Valencia', 'Seville', 'Milan', 'Bologna', 'Naples', 'Prague', 'Brno', 'Copenhagen', 'Oslo',
-              'Tallinn', 'Ljubljana', 'Bratislava', 'Berlin', 'Geneva', 'Monthey'}
+              'Tallinn', 'Ljubljana', 'Bratislava', 'Berlin', 'Geneva', 'Monthey', 'Lausanne'}
 ADZUNA = {'Belgium': 'be', 'Switzerland': 'ch', 'Poland': 'pl', 'Germany': 'de', 'Austria': 'at', 'France': 'fr', 'Netherlands': 'nl', 'Spain': 'es', 'Italy': 'it'}
 # Jooble's country domain for each persona country (the key is only valid on its own domain).
 JOOBLE = {'Bulgaria': 'bg', 'Romania': 'ro', 'Belgium': 'be', 'Switzerland': 'ch', 'Poland': 'pl', 'Croatia': 'hr', 'Sweden': 'se', 'Germany': 'de', 'Finland': 'fi', 'Portugal': 'pt',
@@ -142,15 +143,29 @@ def jobspy(p):
     return rows[:KEEP], errors
 
 
+def rival_persona(p):
+    """(the persona the rivals search, why none). A persona without an `area` is searched as it is. One with an area is searched at its `rival_place` (its city in the rivals' place); with an
+    area and no rival place there is no search: None + the reason, so the row reads "not measured", never a guessed town. Why (13 Nov 2026, owner via sa: d07 "If we have to choose just one.
+    Let's choose Lausanne"; d06 "the entire Switzerland" has no town the owner chose): our N counts the whole area, the rivals one place, and the table says which."""
+    if not p.get('area'):
+        return p, None
+    if not p.get('rival_place'):
+        return None, 'the persona has an area and no rival_place chosen'
+    return {**p, 'city': p['rival_place']}, None
+
+
 if __name__ == '__main__':
     kind, personas, index, out = sys.argv[1:5]
     p = json.load(open(personas))['personas'][int(index) - 1]
     errors = {}
-    if kind == 'jobspy':
-        rows, errors = jobspy(p)
+    searched, why = rival_persona(p)
+    if searched is None:
+        rows = None
+    elif kind == 'jobspy':
+        rows, errors = jobspy(searched)
     else:
-        rows = {'eures': eures, 'adzuna': adzuna, 'jooble': jooble}[kind](p)
-    meta = {'rival': kind, 'persona': p, 'kept': None if rows is None else len(rows), 'notServed': rows is None, 'errors': errors}
+        rows = {'eures': eures, 'adzuna': adzuna, 'jooble': jooble}[kind](searched)
+    meta = {'rival': kind, 'persona': p, 'kept': None if rows is None else len(rows), 'notServed': rows is None, 'errors': errors, **({'reason': why} if why else {}), **({'searched': searched['city']} if searched is not p else {})}
     json.dump(rows, open(out, 'w'), ensure_ascii=False, indent=1)   # Why (2 Nov 2026, coordinator): null = not served / not measured; pool.mjs lists a non-list as missing (unknown), an empty list is a real 0
     json.dump(meta, open(out.replace('.json', '.meta.json'), 'w'), ensure_ascii=False, indent=1)
     print(kind, p['city'], 'not served' if rows is None else f'{len(rows)} rows', json.dumps(errors)[:300])
