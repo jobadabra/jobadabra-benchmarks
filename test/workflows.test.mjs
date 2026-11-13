@@ -202,3 +202,11 @@ test('search-round.yml: resume_run downloads the resumed artifacts first, drops 
   assert.match(text, /rivals:\n    needs: when\n    if: \$\{\{ needs\.when\.outputs\.go == 'yes' && !inputs\.only_ours && inputs\.resume_run == '' \}\}/);
   assert.match(text, /resume_run:\n\s+description:[^\n]*\n\s+default: ''/);
 });
+
+// Why (13 Nov 2026, sa for the owner: the paid lane has a daily and a monthly cap and a refusal at the cap must fail the round loudly): a judge that failed for any person fails its step, and the publish step
+// has no `if`, so a partly judged round is never published as complete.
+test('search-round.yml: a failed judge stops the publish step', () => {
+  const text = fs.readFileSync(path.join(dir, 'search-round.yml'), 'utf8');
+  assert.match(text, /exit \$failed/);
+  assert.match(text, /- name: Publish to \/admin\/job-search\/benchmark\n {8}env:/, 'the publish step has no `if`: it runs only when every step before it passed');
+});

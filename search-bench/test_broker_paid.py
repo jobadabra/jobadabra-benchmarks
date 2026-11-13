@@ -22,20 +22,23 @@ def ask_with(reply):
 class PaidLane(unittest.TestCase):
     def test_paid_is_true_only_when_the_reply_says_true(self):
         base = {'reply': 'ok', 'model': 'm', 'engine': 'claude'}
-        self.assertIs(ask_with({**base, 'paid': True})['paid'], True)
-        self.assertIs(ask_with(base)['paid'], False, 'absent = not paid')
-        self.assertIs(ask_with({**base, 'paid': 'true'})['paid'], False, "a string is not the broker's marker")
+        paid = ask_with({**base, 'paid': True, 'usd': 0.0123})
+        self.assertEqual((paid['paid'], paid['usd']), (True, 0.0123))
+        self.assertEqual((ask_with(base)['paid'], ask_with(base)['usd']), (False, 0.0), 'absent = not paid')
+        self.assertEqual(ask_with({**base, 'paid': 'true', 'usd': 5})['paid'], False, "a string is not the broker's marker")
+        self.assertEqual(ask_with({**base, 'usd': 5})['usd'], 0.0, 'a cost without the paid marker is not counted')
+        self.assertEqual(ask_with({**base, 'paid': True, 'usd': 'x'})['usd'], 0.0, 'a non-number cost is 0, the call still counts as paid')
 
     def test_the_judge_counts_paid_batches(self):
         calls = []
 
         def ask(key, profile, jobs):
             calls.append(1)
-            return {j['n']: {'n': j['n'], 'role': 'yes', 'place': 'yes'} for j in jobs}, {'input_tokens': 0, 'output_tokens': 0, 'paid': len(calls) == 1}
+            return {j['n']: {'n': j['n'], 'role': 'yes', 'place': 'yes'} for j in jobs}, {'input_tokens': 0, 'output_tokens': 0, 'paid': len(calls) == 1, 'usd': 0.05 if len(calls) == 1 else 0.0}
         persona = {'title': 'Nurse', 'city': 'Town', 'country': 'Land', 'language': 'L'}
         pool = [{'tool': 'ours', 'title': f'N{i}', 'company': 'C', 'location': 'T'} for i in range(judge.BATCH + 1)]
         _rows, _count, tokens, _cost = judge.judge(persona, 1, pool, '/nonexistent/ledger.json', ask, plan=True)
-        self.assertEqual((len(calls), tokens[2]), (2, 1), 'two batches, one of them paid')
+        self.assertEqual((len(calls), tokens[2], tokens[3]), (2, 1, 0.05), 'two batches, one of them paid, its cost summed')
 
 
 if __name__ == '__main__':

@@ -75,12 +75,12 @@ test('one arm of ours: the note has no "with every source" line and no "beyond" 
 test('paid lane: judged paid_calls and ours relay lines marked paid are named; an unmarked round shows no line', () => {
   const work = fs.mkdtempSync(path.join(os.tmpdir(), 'note-paid-'));
   fs.mkdirSync(path.join(work, 'ours'));
-  fs.writeFileSync(path.join(work, 'judged3.json'), JSON.stringify({paid_calls: 2, rows: []})); fs.writeFileSync(path.join(work, 'judged4.json'), JSON.stringify({rows: []}));
-  fs.writeFileSync(path.join(work, 'ours', 'p8.log'), 'relay: small total 1 paid yes status 200\nrelay: mid total 2 status 200\nrelay: mid total 3 paid true status 200\nnot a relay line paid yes\n');
+  fs.writeFileSync(path.join(work, 'judged3.json'), JSON.stringify({paid_calls: 2, paid_usd: 0.0615, rows: []})); fs.writeFileSync(path.join(work, 'judged4.json'), JSON.stringify({rows: []}));
+  fs.writeFileSync(path.join(work, 'ours', 'p8.log'), 'relay: small total 1 paid yes usd 0.0100 status 200\nrelay: mid total 2 status 200\nrelay: mid total 3 paid true usd 0.4000 status 200\nnot a relay line paid yes\n');
   fs.writeFileSync(path.join(work, 'ours', 'p9.log'), 'relay: small total 1 sent yes status 200\n');
-  assert.deepEqual(paidOf(work), ['judge p3 (2 batches)', 'ours p8 (2 calls)']);
+  assert.deepEqual(paidOf(work), ['judge p3 (2 batches, $0.0615)', 'ours p8 (2 calls, $0.4100)']);
   const note = noteOf({1: [job('ours', 'yes', 'yes')]}, {round: 'r', labels: {1: 'A · B'}});
-  assert.match(noteText(note, null, null, {paid: paidOf(work)}), /^💳 <b>Paid lane<\/b> .*: judge p3 \(2 batches\); ours p8 \(2 calls\)$/m);
+  assert.match(noteText(note, null, null, {paid: paidOf(work)}), /^💳 <b>Paid lane<\/b> .*: judge p3 \(2 batches, \$0\.0615\); ours p8 \(2 calls, \$0\.4100\)$/m);
   assert.doesNotMatch(noteText(note, null, null, {paid: []}), /Paid lane/);
   assert.deepEqual(paidOf(path.join(work, 'nothing-here')), []);
 });

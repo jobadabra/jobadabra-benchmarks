@@ -51,7 +51,7 @@ def ask_plan(profile, jobs):
                           '--output-format', 'json'], input=prompt, capture_output=True, text=True, timeout=900, cwd=tempfile.mkdtemp(), env=env)
     reply = json.loads(out.stdout)
     data = parse_jobs(reply['result'])
-    return {r['n']: r for r in data['jobs']}, {'input_tokens': 0, 'output_tokens': 0, 'paid': answer.get('paid') is True}
+    return {r['n']: r for r in data['jobs']}, {'input_tokens': 0, 'output_tokens': 0, 'paid': answer.get('paid') is True, 'usd': answer.get('usd') or 0.0}
 
 
 def ask_broker(profile, jobs):
@@ -119,13 +119,13 @@ def judge(p, index, pool, ledger, ask_fn, limit=None, plan=False, cap=None, max_
         whole = sum(estimate_usd(profile, numbered(jobs[start:start + BATCH])) for start in range(0, len(jobs), BATCH))
         if spent_usd(ledger) + whole > cap:
             raise BudgetExceeded(f'estimated ${whole:.2f} for this persona plus ${spent_usd(ledger):.2f} already spent is over the ${cap:.2f} cap; nothing was sent')
-    tokens = [0, 0]; paid = 0   # paid: batches the broker answered on its paid lane (13 Nov 2026)
+    tokens = [0, 0]; paid = 0; paid_usd = 0.0   # paid: batches the broker answered on its paid lane, paid_usd their list-price cost (13 Nov 2026)
     for start in range(0, len(jobs), BATCH):
         chunk = numbered(jobs[start:start + BATCH])
         if not plan and spent_usd(ledger) + estimate_usd(profile, chunk) > cap:
             raise BudgetExceeded(f'the next batch would take the round past the ${cap:.2f} cap (${spent_usd(ledger):.2f} spent); stopped before sending it')
         verdicts, usage = ask_fn(key, profile, chunk)
-        tokens[0] += usage['input_tokens']; tokens[1] += usage['output_tokens']; paid += 1 if usage.get('paid') else 0
+        tokens[0] += usage['input_tokens']; tokens[1] += usage['output_tokens']; paid += 1 if usage.get('paid') else 0; paid_usd += usage.get('usd') or 0.0
         if not plan:
             json.dump({'spent_usd': round(spent_usd(ledger) + usage['input_tokens'] / 1e6 * PRICE[0] + usage['output_tokens'] / 1e6 * PRICE[1], 6)}, open(ledger, 'w'))
         for i, j in enumerate(jobs[start:start + BATCH]):
@@ -135,7 +135,7 @@ def judge(p, index, pool, ledger, ask_fn, limit=None, plan=False, cap=None, max_
     for row in pool:
         v = verdict.get((row['title'].strip().lower(), (row['company'] or '').strip().lower(), (row['location'] or '').strip().lower()))
         row['role'], row['place'] = (v['role'], v['place']) if v else ('not-judged', 'not-judged')
-    return pool, len(jobs), tokens + [paid], tokens[0] / 1e6 * PRICE[0] + tokens[1] / 1e6 * PRICE[1]
+    return pool, len(jobs), tokens + [paid, round(paid_usd, 4)], tokens[0] / 1e6 * PRICE[0] + tokens[1] / 1e6 * PRICE[1]
 
 
 def main():
@@ -149,8 +149,8 @@ def main():
     except BudgetExceeded as error:
         print(f'judge: {error}', file=sys.stderr)
         sys.exit(3)
-    json.dump({'persona': p, 'seed': f'bench-judge-{index}', 'model': MODEL, 'judged_jobs': count, 'tokens_in': tokens[0], 'tokens_out': tokens[1], 'paid_calls': tokens[2], 'cost_usd': round(cost, 4), 'rows': rows}, open(out_path, 'w'), ensure_ascii=False, indent=1)
-    print(f'judged {count} distinct jobs, {tokens[0]} in / {tokens[1]} out tokens, ${cost:.4f}' + (f'; {tokens[2]} batch(es) answered on the broker\'s paid lane' if tokens[2] else '') + ('' if plan else f' (round total ${spent_usd(ledger):.2f} of ${CAP_USD:.2f})'))
+    json.dump({'persona': p, 'seed': f'bench-judge-{index}', 'model': MODEL, 'judged_jobs': count, 'tokens_in': tokens[0], 'tokens_out': tokens[1], 'paid_calls': tokens[2], 'paid_usd': tokens[3], 'cost_usd': round(cost, 4), 'rows': rows}, open(out_path, 'w'), ensure_ascii=False, indent=1)
+    print(f'judged {count} distinct jobs, {tokens[0]} in / {tokens[1]} out tokens, ${cost:.4f}' + (f'; {tokens[2]} batch(es) answered on the broker\'s paid lane, ${tokens[3]:.4f}' if tokens[2] else '') + ('' if plan else f' (round total ${spent_usd(ledger):.2f} of ${CAP_USD:.2f})'))
 
 
 if __name__ == '__main__':

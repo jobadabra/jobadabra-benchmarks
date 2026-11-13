@@ -80,5 +80,7 @@ def ask(prompt, tier='mid', env=None, poster=_post, opener=_get, sleep=time.slee
     reply = data.get('reply')
     if not isinstance(reply, str) or not reply.strip():
         raise BrokerError('the broker answered with no text')
-    # Why (13 Nov 2026, sa for the owner: the broker's paid lane, `paid: true` in its reply): read defensively; absent or anything but true = not paid
-    return {'reply': reply, 'model': data.get('model') or '', 'engine': data.get('engine') or '', 'paid': data.get('paid') is True}
+    # Why (13 Nov 2026, sa for the owner: the broker's paid lane, `paid: true` and `usd` at the top level of its reply, bl; both absent on plan or Codex answers): read defensively; absent or anything but true = not paid, usd 0
+    paid = data.get('paid') is True
+    usd = data.get('usd') if paid and isinstance(data.get('usd'), (int, float)) and not isinstance(data.get('usd'), bool) and data['usd'] >= 0 else 0.0   # bl's marker: top-level `usd` = that call's list-price cost, only on paid answers
+    return {'reply': reply, 'model': data.get('model') or '', 'engine': data.get('engine') or '', 'paid': paid, 'usd': float(usd)}

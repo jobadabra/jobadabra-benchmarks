@@ -32,20 +32,20 @@ export function readRound(dir) {
 }
 
 /**
- * Which answers the broker marked as its paid lane's (13 Nov 2026, sa for the owner): judge batches from judged<N>.json `paid_calls`, ours' calls from the relay lines of work/ours/p<N>.log.
- * Read defensively: a missing field or file is "not paid"; a relay line counts only with the words `paid yes` or `paid true`.
- * @returns {string[]} labels like "ours p8 (12 calls)", "judge p3 (2 batches)"
+ * Which answers the broker marked as its paid lane's (13 Nov 2026, sa for the owner): judge batches from judged<N>.json `paid_calls` and `paid_usd` (the broker's top-level `paid` and `usd`), ours' calls from the relay lines of work/ours/p<N>.log.
+ * Read defensively: a missing field or file is "not paid"; a relay line counts only with the words `paid yes` or `paid true`, its cost from a `usd <number>` pair on the same line when there is one.
+ * @returns {string[]} labels like "ours p8 (12 calls, $0.4100)", "judge p3 (2 batches, $0.0600)"
  */
 export function paidOf(work) {
   const out = [];
   for (const f of fs.existsSync(work) ? fs.readdirSync(work) : []) {
     const m = f.match(/^judged(\d+)\.json$/), n = m && rj(path.join(work, f))?.paid_calls;
-    if (m && n > 0) out.push(`judge p${m[1]} (${n} ${n === 1 ? 'batch' : 'batches'})`);
+    if (m && n > 0) out.push(`judge p${m[1]} (${n} ${n === 1 ? 'batch' : 'batches'}, $${(Number(rj(path.join(work, f)).paid_usd) || 0).toFixed(4)})`);
   }
   const dir = path.join(work, 'ours');
   for (const f of fs.existsSync(dir) ? fs.readdirSync(dir) : []) {
-    const m = f.match(/^p(\d+)\.log$/), n = m && fs.readFileSync(path.join(dir, f), 'utf8').split('\n').filter(l => l.startsWith('relay: ') && /\bpaid (yes|true)\b/.test(l)).length;
-    if (m && n > 0) out.push(`ours p${m[1]} (${n} calls)`);
+    const m = f.match(/^p(\d+)\.log$/), paidLines = m ? fs.readFileSync(path.join(dir, f), 'utf8').split('\n').filter(l => l.startsWith('relay: ') && /\bpaid (yes|true)\b/.test(l)) : [];
+    if (paidLines.length) out.push(`ours p${m[1]} (${paidLines.length} calls, $${paidLines.reduce((sum, l) => sum + (Number((l.match(/\busd ([0-9.]+)/) || [])[1]) || 0), 0).toFixed(4)})`);
   }
   return out.sort((a, b) => a.localeCompare(b, undefined, {numeric: true}));
 }
