@@ -19,7 +19,7 @@ test('there are workflows to check', () => assert.ok(files.length > 0));
 // notifications"; "not weekly, but every 3 days"); it calls the ours and rivals workflows, which also start by hand.
 const SCHEDULED = {'form-weekly.yml': ['schedule', 'workflow_dispatch'], 'search-round.yml': ['schedule', 'workflow_dispatch'],
   'form-round-job.yml': ['workflow_call'],   // the form round's one job, called by form-round.yml (12 Nov 2026)
-  'search-ours.yml': ['workflow_dispatch', 'workflow_call'], 'search-rivals.yml': ['workflow_dispatch', 'workflow_call']};
+  'search-ours.yml': ['workflow_dispatch', 'workflow_call'], 'search-rivals.yml': ['workflow_dispatch', 'workflow_call']};   // search-targets.yml starts by hand only, like every other workflow (no SCHEDULED entry)
 // Unit tests are no benchmark: a workflow that holds no secret and runs only a test file may start on a PR or a push (search-bench-tests.yml,
 // 21 Oct 2026: the judge's spend-cap tests, no API call).
 const isUnitTests = text => !/secrets\./.test(text) && /^\s+- run: python3 -I search-bench\/test_\w+\.py$/m.test(text);

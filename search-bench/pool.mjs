@@ -15,16 +15,17 @@ const keep = row => ({tool: row.tool, title: row.title || '', company: row.compa
 
 /**
  * @param {string} art the folder actions/download-artifact filled (one sub-folder per artifact)
+ * @param {{personas?: number, rivals?: string[], numbers?: number[], ours?: boolean}} opts numbers = the persona numbers to lay out (default 1..personas); ours false = no arm of ours (search-targets.yml: rivals only, nothing named missing for it)
  * @param {string} work where pool<N>.json, ours/p<N>.log, missing.json and build.txt go
  * @returns {{missing: string[], notServed: string[], build: string, tiers: string}} missing = "ours p3"-style labels of jobs that failed; notServed = rivals that said they do not serve that place; build = our short commit, '' if no ours artifact
  */
-export function layOut(art, work, {personas = 10, rivals = RIVALS} = {}) {
+export function layOut(art, work, {personas = 10, rivals = RIVALS, numbers = null, ours: withOurs = true} = {}) {
   fs.mkdirSync(path.join(work, 'ours'), {recursive: true});
   const missing = [], notServed = []; let build = '', tiers = '';
-  for (let n = 1; n <= personas; n++) {
+  for (const n of numbers || Array.from({length: personas}, (_, i) => i + 1)) {
     const pool = [], ours = path.join(art, `search-ours-p${n}-x1`);
-    const jobs = rj(path.join(ours, 'out', 'jobs.json'));
-    if (Array.isArray(jobs)) pool.push(...jobs.map(row => keep({...row, tool: 'ours'}))); else missing.push(`ours p${n}`);
+    const jobs = withOurs ? rj(path.join(ours, 'out', 'jobs.json')) : null;
+    if (Array.isArray(jobs)) pool.push(...jobs.map(row => keep({...row, tool: 'ours'}))); else if (withOurs) missing.push(`ours p${n}`);
     const log = path.join(ours, 'out', 'run.log');
     if (fs.existsSync(log)) fs.copyFileSync(log, path.join(work, 'ours', `p${n}.log`));
     build ||= ((fs.existsSync(path.join(ours, 'build.txt')) ? fs.readFileSync(path.join(ours, 'build.txt'), 'utf8') : '').match(/build: (\w+)/) || [])[1] || '';

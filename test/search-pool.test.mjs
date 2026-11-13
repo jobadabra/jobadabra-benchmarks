@@ -56,3 +56,27 @@ test('the rivals are listed once (rivals.json): the rivals workflow, the round a
   assert.match(ours, /rivals\.json/, 'the fair arm reads the list');
   assert.match(ours, /JOBADABRA_DISABLE="\$off"/);
 });
+
+// The extra Trello profiles' target (13 Nov 2026, sa for the owner): Jooble and JobSpy per profile, averaged half up; a failed, unserved or half-judged rival is "not measured", never 0.
+test('targets: right jobs per rival, the average rounded half up, and no rival ever reads 0 when it was not measured', async () => {
+  const {summarize, markdown} = await import('../search-bench/targets.mjs');
+  const work = fs.mkdtempSync(path.join(os.tmpdir(), 'targets-')), personas = [{id: 'c01', title: 'Accountant', city: 'Amsterdam', country: 'Netherlands'}, {id: 'c02', title: 'Nurse', city: 'Lyon', country: 'France'}, {id: 'c03', title: 'Welder', city: 'Tallinn', country: 'Estonia'}];
+  const row = (tool, title, role, place, company = 'Co') => ({tool, title, company, location: 'x', role, place});
+  fs.writeFileSync(path.join(work, 'judged1.json'), JSON.stringify({rows: [row('jooble', 'A', 'yes', 'yes'), row('jooble', 'a', 'yes', 'yes'), row('jooble', 'B', 'yes', 'no'), row('jooble', 'C', 'no', 'yes'), ...[...'DEFGH'].map(t => row('jooble', t, 'yes', 'yes')), ...[...'ABCDE'].map(t => row('jobspy', t, 'yes', 'yes'))]}));
+  fs.writeFileSync(path.join(work, 'judged2.json'), JSON.stringify({rows: [row('jobspy', 'A', 'yes', 'yes'), row('jooble', 'B', 'missing', 'missing')]}));
+  fs.writeFileSync(path.join(work, 'judged3.json'), JSON.stringify({rows: [row('jobspy', 'A', 'yes', 'yes'), row('jobspy', 'B', 'yes', 'yes')]}));
+  fs.writeFileSync(path.join(work, 'missing.json'), JSON.stringify(['jobspy p2'])); fs.writeFileSync(path.join(work, 'notserved.json'), JSON.stringify(['jooble p3']));
+  const [one, two, three] = summarize(work, personas, [1, 2, 3]);
+  assert.deepEqual([one.jooble.right, one.jobspy.right, one.average], [6, 5, 6], 'a duplicate title + employer counts once; role no or place no does not count; (6+5)/2 = 5.5 rounds up');
+  assert.equal(two.jooble.state, 'not measured (not fully judged)'); assert.equal(two.jobspy.state, 'not measured (the read failed)'); assert.equal(two.average, null);
+  assert.equal(three.jooble.state, 'not served'); assert.equal(three.jobspy.right, 2); assert.equal(three.average, null, 'one rival alone gives no average');
+  assert.doesNotMatch(markdown([two, three]).split('\n').slice(2).join('\n'), /\| 0 /, 'a rival that was not measured never shows 0');
+});
+
+test('layOut with numbers and no ours lays out only those personas and names no ours job missing', () => {
+  const art = fs.mkdtempSync(path.join(os.tmpdir(), 'art-')), work = fs.mkdtempSync(path.join(os.tmpdir(), 'work-'));
+  fs.mkdirSync(path.join(art, 'search-jooble-p9'), {recursive: true}); fs.writeFileSync(path.join(art, 'search-jooble-p9', 'jooble-p9.json'), JSON.stringify([{tool: 'jooble', title: 'T', company: 'C', location: 'L'}]));
+  const {missing} = layOut(art, work, {numbers: [9], rivals: ['jooble', 'jobspy'], ours: false});
+  assert.deepEqual(missing, ['jobspy p9']); assert.ok(fs.existsSync(path.join(work, 'pool9.json'))); assert.ok(!fs.existsSync(path.join(work, 'pool1.json')));
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(work, 'pool9.json'), 'utf8')).map(r => r.tool), ['jooble']);
+});

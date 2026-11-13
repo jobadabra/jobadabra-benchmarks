@@ -1,0 +1,185 @@
+{
+ "note": "The 20 extra Trello profiles c01-c20 exactly as jobadabra tools/persona-search/search-profiles.json defines them (13 Nov 2026, sa for the owner); only search-targets.yml reads this file, never the round",
+ "personas": [
+  {
+   "id": "c01",
+   "family": "accountant",
+   "title": "Accountant",
+   "kind": "non-tech",
+   "city": "Amsterdam",
+   "country": "Netherlands",
+   "language": "Dutch"
+  },
+  {
+   "id": "c02",
+   "family": "sales",
+   "title": "Sales Representative",
+   "kind": "non-tech",
+   "city": "Vienna",
+   "country": "Austria",
+   "language": "German"
+  },
+  {
+   "id": "c03",
+   "family": "nurse",
+   "title": "Registered Nurse",
+   "kind": "non-tech",
+   "city": "Lyon",
+   "country": "France",
+   "language": "French"
+  },
+  {
+   "id": "c04",
+   "family": "electrician",
+   "title": "Electrician",
+   "kind": "non-tech",
+   "city": "Madrid",
+   "country": "Spain",
+   "language": "Spanish"
+  },
+  {
+   "id": "c05",
+   "family": "civil-engineer",
+   "title": "Civil Engineer",
+   "kind": "non-tech",
+   "city": "Milan",
+   "country": "Italy",
+   "language": "Italian"
+  },
+  {
+   "id": "c06",
+   "family": "mechanic",
+   "title": "Car Mechanic",
+   "kind": "non-tech",
+   "city": "Prague",
+   "country": "Czechia",
+   "language": "Czech"
+  },
+  {
+   "id": "c07",
+   "family": "teacher",
+   "title": "Secondary School Teacher",
+   "kind": "non-tech",
+   "city": "Copenhagen",
+   "country": "Denmark",
+   "language": "Danish"
+  },
+  {
+   "id": "c08",
+   "family": "pharmacist",
+   "title": "Pharmacist",
+   "kind": "non-tech",
+   "city": "Oslo",
+   "country": "Norway",
+   "language": "Norwegian"
+  },
+  {
+   "id": "c09",
+   "family": "hotel",
+   "title": "Hotel Receptionist",
+   "kind": "non-tech",
+   "city": "Tallinn",
+   "country": "Estonia",
+   "language": "Estonian"
+  },
+  {
+   "id": "c10",
+   "family": "welder",
+   "title": "Welder",
+   "kind": "non-tech",
+   "city": "Ljubljana",
+   "country": "Slovenia",
+   "language": "Slovenian"
+  },
+  {
+   "id": "c11",
+   "family": "nurse",
+   "title": "Registered Nurse",
+   "kind": "non-tech",
+   "city": "Bratislava",
+   "country": "Slovakia",
+   "language": "Slovak"
+  },
+  {
+   "id": "c12",
+   "family": "electrician",
+   "title": "Electrician",
+   "kind": "non-tech",
+   "city": "Graz",
+   "country": "Austria",
+   "language": "German"
+  },
+  {
+   "id": "c13",
+   "family": "pharmacist",
+   "title": "Pharmacist",
+   "kind": "non-tech",
+   "city": "Brno",
+   "country": "Czechia",
+   "language": "Czech"
+  },
+  {
+   "id": "c14",
+   "family": "accountant",
+   "title": "Accountant",
+   "kind": "non-tech",
+   "city": "Bologna",
+   "country": "Italy",
+   "language": "Italian"
+  },
+  {
+   "id": "c15",
+   "family": "teacher",
+   "title": "Secondary School Teacher",
+   "kind": "non-tech",
+   "city": "Valencia",
+   "country": "Spain",
+   "language": "Spanish"
+  },
+  {
+   "id": "c16",
+   "family": "sales",
+   "title": "Sales Representative",
+   "kind": "non-tech",
+   "city": "Toulouse",
+   "country": "France",
+   "language": "French"
+  },
+  {
+   "id": "c17",
+   "family": "civil-engineer",
+   "title": "Civil Engineer",
+   "kind": "non-tech",
+   "city": "Rotterdam",
+   "country": "Netherlands",
+   "language": "Dutch"
+  },
+  {
+   "id": "c18",
+   "family": "mechanic",
+   "title": "Car Mechanic",
+   "kind": "non-tech",
+   "city": "Seville",
+   "country": "Spain",
+   "language": "Spanish"
+  },
+  {
+   "id": "c19",
+   "family": "hotel",
+   "title": "Hotel Receptionist",
+   "kind": "non-tech",
+   "city": "Paris",
+   "country": "France",
+   "language": "French"
+  },
+  {
+   "id": "c20",
+   "family": "welder",
+   "title": "Welder",
+   "kind": "non-tech",
+   "city": "Naples",
+   "country": "Italy",
+   "language": "Italian"
+  }
+ ]
+}
