@@ -30,6 +30,10 @@ REGIONS = {'Sofia': ('bg411', 'Sofia (stolitsa)'), 'Cluj-Napoca': ('ro113', 'Clu
            'Naples': ('itf33', 'Naples'), 'Prague': ('cz010', 'Prague'), 'Brno': ('cz064', 'South Moravian Region'), 'Copenhagen': ('dk011', 'Copenhagen'),
            'Oslo': ('no081', 'Oslo'), 'Tallinn': ('ee001', 'Northern Estonia'), 'Ljubljana': ('si041', 'Central Slovenia'), 'Bratislava': ('sk010', 'Bratislava Region'),
            'Berlin': ('de300', 'Berlin'), 'Geneva': ('ch013', 'Geneva'), 'Monthey': ('ch012', 'Valais')}
+OUTSIDE_EURES = {'Moldova'}   # EURES covers the EU, the EEA and Switzerland
+# The extra profiles' areas above were written from the NUTS list and no run has shown them returning jobs yet; the 10 cities before them were proven by the rounds. Take a city out of this set once a run's EURES column shows rows for it.
+UNVERIFIED = {'Amsterdam', 'Rotterdam', 'Vienna', 'Graz', 'Lyon', 'Toulouse', 'Paris', 'Madrid', 'Valencia', 'Seville', 'Milan', 'Bologna', 'Naples', 'Prague', 'Brno', 'Copenhagen', 'Oslo',
+              'Tallinn', 'Ljubljana', 'Bratislava', 'Berlin', 'Geneva', 'Monthey'}
 ADZUNA = {'Belgium': 'be', 'Switzerland': 'ch', 'Poland': 'pl', 'Germany': 'de', 'Austria': 'at', 'France': 'fr', 'Netherlands': 'nl', 'Spain': 'es', 'Italy': 'it'}
 # Jooble's country domain for each persona country (the key is only valid on its own domain).
 JOOBLE = {'Bulgaria': 'bg', 'Romania': 'ro', 'Belgium': 'be', 'Switzerland': 'ch', 'Poland': 'pl', 'Croatia': 'hr', 'Sweden': 'se', 'Germany': 'de', 'Finland': 'fi', 'Portugal': 'pt',
@@ -47,8 +51,8 @@ def post(url, body):
 def eures(p):
     """EURES's place filter takes large regions only (NUTS 1, e.g. be1; be10 returns nothing): that region's best matches, page by page
     (at most 10 pages of 50), keeping those whose place code lies in the city's own area (NUTS 3), until 100 are kept. Each row's place is built from its own codes in that area."""
-    if p['city'] not in REGIONS:
-        return None   # Why (13 Nov 2026, sa: "Moldova has no EURES"): a city outside EURES's area (Chisinau) or without a code here is "not served", named and left out of the target, never 0
+    if p['country'] in OUTSIDE_EURES:
+        return None   # Why (13 Nov 2026, sa: "Moldova has no EURES"): a country outside EURES is "not served", named and left out of the target, never 0; any other city missing from REGIONS stays a KeyError, by name (Gitar on #39)
     region, name = REGIONS[p['city']]
     rows, scanned, place, coarse = [], 0, region[:3], 0   # coarse = jobs whose only codes are broader than the city's area (no town known)
     for page in range(1, 11):
@@ -70,6 +74,8 @@ def eures(p):
                              'location': f"{p['city']} area ({name}, {', '.join(inside)}), {p['country']}", 'provider': 'EURES', 'found': data.get('numberRecords'), 'filter': place})
         if len(rows) >= KEEP or len(jvs) < 50:
             break
+    if not rows and not coarse and p['city'] in UNVERIFIED:
+        return None   # Why (13 Nov 2026, Gitar on #39, sa: "a code is trusted only once a run showed it returns jobs for that place"): a hand-written code that has returned no job of its area may be wrong, so it is unknown, never a 0 in the target's average
     if not rows and coarse:
         return None   # Why (2 Nov 2026, coordinator on benchmarks#14): jobs that carry only a region code (Krakow: PL21) do not say which town, so "none in the city" is unknown, never 0
     for r in rows:
