@@ -18,6 +18,7 @@ jobs:
       rivals: '["jobspy","jooble"]'
       personas_file: search-bench/personas-extra.json
       personas: ${{ inputs.profiles }}
+      missing_key_ok: true   # Jooble has keys for only some countries; the table says "not measured"
     secrets: inherit
   judge:
     needs: rivals
