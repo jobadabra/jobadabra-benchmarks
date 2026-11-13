@@ -19,6 +19,9 @@ on:
       personas:
         description: Persona numbers of OUR arm, JSON (default all 10); the others are reported missing and not published. For a side check of a few people with only_ours
         default: '[1,2,3,4,5,6,7,8,9,10]'
+      tiers:
+        description: haiku (default, the scoreboard) or app = the product's own tiers (small Haiku, main Sonnet) for a side note
+        default: haiku
       only_ours:
         description: Our arm only (rivals-off line; no ours-all line, no rivals). Published under `round` and counted nowhere else; no Telegram note, nothing saved as the previous run
         type: boolean
@@ -47,6 +50,7 @@ jobs:
       personas: ${{ inputs.personas || '[1,2,3,4,5,6,7,8,9,10]' }}   # Why (13 Nov 2026, a side pair on persons 1, 2, 3, 6): the schedule has no inputs, so the default stays all 10
       presses: '[1]'
       arm: ours
+      tiers: ${{ inputs.tiers || 'haiku' }}
     secrets: inherit
   ours_all:   # the second line: as a user has it, EURES and the rest on (owner, 27 Oct 2026)
     needs: [when, ours]   # Why (13 Nov 2026): one after the other again; both arms at once (16 jobs, run 43328684962) starved the broker's 16 slots and ours scored 59 instead of ~150
@@ -60,6 +64,7 @@ jobs:
       personas: '[1,2,3,4,5,6,7,8,9,10]'
       presses: '[1]'
       arm: ours-all
+      tiers: ${{ inputs.tiers || 'haiku' }}
     secrets: inherit
   rivals:
     needs: when

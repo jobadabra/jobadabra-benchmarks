@@ -19,12 +19,16 @@ on:
       arm:
         description: ours = every rival's source off (search-bench/rivals.json), ours-all = every source on
         default: ours
+      tiers:
+        description: haiku = every step on Haiku 5.5 (the scoreboard); app = the product's own tiers (small Haiku, main Sonnet), a side note only
+        default: haiku
   workflow_call:   # Why (27 Oct 2026, owner: "every 3 days"): search-round.yml runs this arm on its schedule
     inputs:
       product_ref: {type: string, default: main}
       personas: {type: string, default: '[1,2,3,4,5,6,7,8,9,10]'}
       presses: {type: string, default: '[1]'}
       arm: {type: string, default: ours}
+      tiers: {type: string, default: haiku}   # Why (13 Nov 2026, owner: "Can we do a test with Sonnet instead of Haiku?"): app = the product's own tiers, never the scoreboard
 permissions:
   contents: read
 env:
@@ -71,13 +75,18 @@ jobs:
           (cd jp/desktop/e2e && (npm ci || npm install) && npx playwright-core install --with-deps chromium)
           echo "our build: $(git -C jp rev-parse --short HEAD)" | tee build.txt
       - name: The broker answers Haiku on this runner (stops the job if not, so a dead AI is never a quiet 0)
+        env: {TIERS: '${{ inputs.tiers }}'}
         run: |
           set -o pipefail
+          if [ "$TIERS" = app ]; then unset JOBADABRA_MODEL_OVERRIDE; fi   # the app's own tiers: no one-model override
           node jp/tools/persona-search/codex.mjs --proof 2>&1 | tee proof.txt
-          grep -q 'AI: claude / claude-haiku-5-5' proof.txt || { echo "the broker did not answer on Claude Haiku 5.5"; exit 1; }
+          if [ "$TIERS" = app ]; then grep -q 'AI: claude / ' proof.txt || { echo "the broker did not answer on Claude"; exit 1; }
+          else grep -q 'AI: claude / claude-haiku-5-5' proof.txt || { echo "the broker did not answer on Claude Haiku 5.5"; exit 1; }; fi
       - name: The persona's fake CV, then Find jobs (Haiku 5.5 for every step, through the broker)
+        env: {TIERS: '${{ inputs.tiers }}'}
         run: |
           set -o pipefail; mkdir -p out
+          if [ "$TIERS" = app ]; then unset JOBADABRA_MODEL_OVERRIDE; fi   # Why (13 Nov 2026, owner): the app's tiers (small Haiku, main Sonnet) instead of the one-model override
           JP=$PWD/jp python3 search-bench/make-cv.py search-bench/personas.json "${{ matrix.persona }}" out | tee out/persona.json
           start=$(date +%s)
           # Why (27 Oct 2026, owner: "I want to compete our algorithm with their algorithms"): in the fair arm the product's own switch turns off
@@ -89,6 +98,8 @@ jobs:
           echo $(( $(date +%s) - start )) > out/seconds.txt
           # Why (12 Nov 2026): the relay line names each call's tier; Haiku is `small`, so any other tier is a step off the round's model
           grep -h '^relay: ' out/run.log | grep -v -c '^relay: small ' > out/non-haiku-steps.txt || true
+          grep -h '^relay: ' out/run.log | awk '{print $2}' | sort | uniq -c > out/tiers.txt || true   # calls per tier (small / main / ...)
+          echo "$TIERS" > out/tiers-mode.txt
           python3 search-bench/extract.py ours "$(node -p 'require("os").tmpdir()')/jp-persona-draw-bench/data/jobs.sqlite" out/jobs.json
       - uses: actions/upload-artifact@v6
         if: always()
@@ -101,6 +112,8 @@ jobs:
             out/seconds.txt
             out/sources-off.txt
             out/non-haiku-steps.txt
+            out/tiers.txt
+            out/tiers-mode.txt
             out/jobs.json
             out/run.log
             out/draw/presses.jsonl
