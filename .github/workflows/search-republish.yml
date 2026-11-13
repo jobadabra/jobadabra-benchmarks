@@ -1,6 +1,7 @@
 # Publish a finished search round to /admin again, from its saved artifacts (owner, 13 Nov 2026: "I shouldn't get it anymore", after a round's rows
 # were stored before the `ai` field existed and old rows of another line stayed beside them). No AI, no search, no Telegram note: it reads the run's
 # own artifacts (the judged lists and ours' logs), turns them into rows with today's publish.mjs and sends them. By hand only.
+# No --replace here on purpose (13 Nov 2026): a one-person republish with replace would delete the round's other nine persons; the old rows were deleted on the site once, by hand.
 # Why the order matters: rows are upserted by id (round/pN/tool), so when a person was re-run alone (a spoiled wait), republish the full run first
 # and the one-person run second; the last write wins.
 name: search republish (by hand)
@@ -29,6 +30,8 @@ jobs:
       - name: The round's work folder from its artifacts (the same pool step as the judge job; the verdicts are copied, never judged again)
         run: |
           node search-bench/pool.mjs art work
+          # Why (13 Nov 2026, Gitar on #34): ours' artifacts live 30 days, the judged one 90; without them tiers and build are empty and every row would be stamped haiku with no build
+          [ -s work/tiers.txt ] && [ -s work/build.txt ] || { echo "ours artifacts missing or expired: refusing to publish a wrong ai/build label"; exit 1; }
           cp art/search-round-judged/work/judged*.json work/
           ls work | head -30
       - name: Publish to /admin/job-search/benchmark

@@ -73,4 +73,5 @@ test('--replace is only a flag in the dry print, and a republish takes the judge
   } finally { fs.rmSync(root, {recursive: true, force: true}); }
   const flow = fs.readFileSync(new URL('../.github/workflows/search-republish.yml', import.meta.url), 'utf8');
   assert.match(flow, /cp art\/search-round-judged\/work\/judged\*\.json work\//); assert.doesNotMatch(flow, /judge\.py|CLAUDE_CODE_OAUTH_TOKEN|id-token/);
+  assert.match(flow, /\[ -s work\/tiers\.txt \] && \[ -s work\/build\.txt \]/, 'refuses a wrong ai/build label'); assert.doesNotMatch(flow, /node search-bench\/publish\.mjs[^\n]*--replace/, 'a one-person republish must never replace the round');
 });
