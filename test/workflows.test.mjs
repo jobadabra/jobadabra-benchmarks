@@ -1,6 +1,6 @@
 // Benchmarks run by hand only (owner, 27 Oct 2026: "We don't want to run this benchmarks daily on the CI. We want to trigger them
 // manually, from time to time. Maybe once in a half a year"): every workflow here starts on workflow_dispatch and nothing else.
-import test from 'node:test'; import assert from 'node:assert/strict'; import fs from 'node:fs'; import path from 'node:path';
+import {execFileSync} from 'node:child_process'; import test from 'node:test'; import assert from 'node:assert/strict'; import fs from 'node:fs'; import path from 'node:path';
 
 const dir = path.join(import.meta.dirname, '..', '.github', 'workflows');
 const triggersOf = text => {   // the keys directly under `on:` (block form), or the inline value
@@ -175,3 +175,19 @@ test('judge-only mode scores and saves a run-specific artifact without publishin
   assert.match(text, /- name: The weekly note[^\n]*\n\s+if: \$\{\{ !inputs\.judge_only && inputs\.weekly == 'yes' \}\}/);
   assert.match(text, /name: form-round-judged-\$\{\{ inputs\.judge_only && 'judge-only' \|\| inputs\.publish \}\}-\$\{\{ github\.run_id \}\}/);
 });
+
+// Why (13 Nov 2026, sa for the owner: "JobSpy alone for now"): only the by-hand targets run lets a Jooble country without a key end green; the 3-day round keeps it a red job.
+test('missing_key_ok: search-targets.yml sets it, search-round.yml never does', () => {
+  assert.match(fs.readFileSync(path.join(dir, 'search-targets.yml'), 'utf8'), /^\s+missing_key_ok: true/m);
+  assert.doesNotMatch(fs.readFileSync(path.join(dir, 'search-round.yml'), 'utf8'), /missing_key_ok/);
+  assert.match(fs.readFileSync(path.join(dir, 'search-rivals.yml'), 'utf8'), /missing_key_ok: \{type: boolean, default: false\}/);
+});
+
+// Why (13 Nov 2026, sa for the owner, golden rule's second half): #35 merged with search-targets.yml invalid YAML (an unquoted `numbers: JSON.parse(...)` in a plain scalar): GitHub registered it without
+// workflow_dispatch and it could not be started. The text checks above never parse a file, so every workflow under .github/workflows is parsed here (Ruby's YAML: node has no parser in this repo, and CI runners have Ruby).
+for (const f of files) {
+  test(`${f}: parses as YAML`, () => {
+    try { execFileSync('ruby', ['-ryaml', '-e', 'YAML.load_file(ARGV[0])', path.join(dir, f)], {stdio: 'pipe'}); }
+    catch (error) { assert.fail(`${f} is not valid YAML: ${String(error.stderr || error.message).split('\n').find(l => /\(.*\):/.test(l)) || error.message}`); }
+  });
+}

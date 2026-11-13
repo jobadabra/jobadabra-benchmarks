@@ -80,3 +80,11 @@ test('layOut with numbers and no ours lays out only those personas and names no 
   assert.deepEqual(missing, ['jobspy p9']); assert.ok(fs.existsSync(path.join(work, 'pool9.json'))); assert.ok(!fs.existsSync(path.join(work, 'pool1.json')));
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(work, 'pool9.json'), 'utf8')).map(r => r.tool), ['jooble']);
 });
+
+test('errorsMakeEmptyMissing: an empty list with named errors is a failed read, a clean empty list stays a found 0', () => {
+  const art = fs.mkdtempSync(path.join(os.tmpdir(), 'art-')), work = fs.mkdtempSync(path.join(os.tmpdir(), 'work-'));
+  put(path.join(art, 'search-jobspy-p9', 'jobspy-p9.json'), []); put(path.join(art, 'search-jobspy-p9', 'jobspy-p9.meta.json'), {kept: 0, errors: {linkedin: 'ValueError: Invalid country_indeed'}});
+  put(path.join(art, 'search-jobspy-p13', 'jobspy-p13.json'), []); put(path.join(art, 'search-jobspy-p13', 'jobspy-p13.meta.json'), {kept: 0, errors: {}});
+  assert.deepEqual(layOut(art, work, {numbers: [9, 13], rivals: ['jobspy'], ours: false, errorsMakeEmptyMissing: true}).missing, ['jobspy p9']);
+  assert.deepEqual(layOut(art, work, {numbers: [9], rivals: ['jobspy'], ours: false}).missing, [], 'the round keeps its old reading');
+});

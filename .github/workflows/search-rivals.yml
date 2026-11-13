@@ -14,11 +14,16 @@ on:
       personas:
         description: Persona numbers in that file, JSON
         default: '[1,2,3,4,5,6,7,8,9,10]'
+      missing_key_ok:
+        description: 'A Jooble country without a key ends the job green, printing "not measured: no key" (search-targets.yml)'
+        type: boolean
+        default: false
   workflow_call:   # Why (27 Oct 2026, owner: "every 3 days"): search-round.yml runs the free rivals on its schedule
     inputs:
       rivals: {type: string, default: '["jobspy","eures","adzuna","jooble"]'}
       personas_file: {type: string, default: search-bench/personas.json}   # Why (13 Nov 2026, sa for the owner): search-targets.yml runs the same rivals on the 20 extra Trello profiles; no second path
       personas: {type: string, default: '[1,2,3,4,5,6,7,8,9,10]'}
+      missing_key_ok: {type: boolean, default: false}   # Why (13 Nov 2026, sa for the owner: "JobSpy alone for now"): the 3-day round keeps a missing key a red job; the targets run has no keys for most c01-c20 countries
 permissions:
   contents: read
 jobs:
@@ -44,10 +49,15 @@ jobs:
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
           # Why (12 Nov 2026, owner): Jooble keys are per country, so one JSON secret {"de": key, ...}; only the jooble job gets it
           PERSONAS_FILE: ${{ inputs.personas_file }}
+          MISSING_KEY_OK: ${{ inputs.missing_key_ok }}
           JOOBLE_API_KEYS: ${{ matrix.rival == 'jooble' && secrets.JOOBLE_API_KEYS || '' }}
         run: |
           mkdir -p out
-          python3 search-bench/rivals.py "${{ matrix.rival }}" "$PERSONAS_FILE" "${{ matrix.persona }}" "out/${{ matrix.rival }}-p${{ matrix.persona }}.json"
+          set +e
+          python3 search-bench/rivals.py "${{ matrix.rival }}" "$PERSONAS_FILE" "${{ matrix.persona }}" "out/${{ matrix.rival }}-p${{ matrix.persona }}.json" 2>&1 | tee "$RUNNER_TEMP/rivals.log"
+          rc=${PIPESTATUS[0]}
+          if [ "$rc" != 0 ] && [ "$MISSING_KEY_OK" = true ] && grep -q 'no key for' "$RUNNER_TEMP/rivals.log"; then echo "not measured: no key"; exit 0; fi
+          exit "$rc"
       - uses: actions/upload-artifact@v6
         if: always()
         with:
