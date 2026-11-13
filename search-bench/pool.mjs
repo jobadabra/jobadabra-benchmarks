@@ -16,11 +16,11 @@ const keep = row => ({tool: row.tool, title: row.title || '', company: row.compa
 /**
  * @param {string} art the folder actions/download-artifact filled (one sub-folder per artifact)
  * @param {string} work where pool<N>.json, ours/p<N>.log, missing.json and build.txt go
- * @returns {{missing: string[], notServed: string[], build: string}} missing = "ours p3"-style labels of jobs that failed; notServed = rivals that said they do not serve that place; build = our short commit, '' if no ours artifact
+ * @returns {{missing: string[], notServed: string[], build: string, tiers: string}} missing = "ours p3"-style labels of jobs that failed; notServed = rivals that said they do not serve that place; build = our short commit, '' if no ours artifact
  */
 export function layOut(art, work, {personas = 10, rivals = RIVALS} = {}) {
   fs.mkdirSync(path.join(work, 'ours'), {recursive: true});
-  const missing = [], notServed = []; let build = '';
+  const missing = [], notServed = []; let build = '', tiers = '';
   for (let n = 1; n <= personas; n++) {
     const pool = [], ours = path.join(art, `search-ours-p${n}-x1`);
     const jobs = rj(path.join(ours, 'out', 'jobs.json'));
@@ -32,6 +32,7 @@ export function layOut(art, work, {personas = 10, rivals = RIVALS} = {}) {
     const log = path.join(ours, 'out', 'run.log');
     if (fs.existsSync(log)) fs.copyFileSync(log, path.join(work, 'ours', `p${n}.log`));
     build ||= ((fs.existsSync(path.join(ours, 'build.txt')) ? fs.readFileSync(path.join(ours, 'build.txt'), 'utf8') : '').match(/build: (\w+)/) || [])[1] || '';
+    tiers ||= (fs.existsSync(path.join(ours, 'out', 'tiers-mode.txt')) ? fs.readFileSync(path.join(ours, 'out', 'tiers-mode.txt'), 'utf8') : '').trim();
     for (const rival of rivals) {
       const dir = path.join(art, `search-${rival}-p${n}`), file = first([path.join(dir, `${rival}-p${n}.json`), path.join(dir, 'out', `${rival}-p${n}.json`)]), list = rj(file || '-');
       // Why (2 Nov 2026, Gitar on #14): a null list from a rival that says it does not serve the place is "no data", not a failed job; without that word it stays missing.
@@ -44,7 +45,8 @@ export function layOut(art, work, {personas = 10, rivals = RIVALS} = {}) {
   fs.writeFileSync(path.join(work, 'missing.json'), JSON.stringify(missing));
   fs.writeFileSync(path.join(work, 'notserved.json'), JSON.stringify(notServed));
   fs.writeFileSync(path.join(work, 'build.txt'), build);
-  return {missing, notServed, build};
+  fs.writeFileSync(path.join(work, 'tiers.txt'), tiers);   // Why (13 Nov 2026, owner: "Yes, switch to app tiers"): app-tier rounds are not comparable with the Haiku ones; the note carries which one a round ran on
+  return {missing, notServed, build, tiers};
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

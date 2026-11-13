@@ -50,3 +50,12 @@ test('the moves line uses the same reference as the verdict line', () => {
   assert.match(text.split('\n')[0], /▼3 vs baseline 4$/); assert.match(text, /^📈 ▼ Nurse · Townville −3$/m);
   assert.doesNotMatch(noteText(note, oldLast, oldLast), /📈/, 'no reference that ran the same way: no verdict delta, no moves');
 });
+
+test('a round the judge did not judge says so, shows no 0 and no delta', () => {
+  // Why (12 Nov 2026, owner's Telegram screenshot after run 43297527466): "ours 0 relevant of 0 shown, ▼108 vs the previous run 108" with the judge failed on all 10 people.
+  const note = noteOf({}, {round: 'r'});
+  const text = noteText(note, null, {rivalsOff: true, tools: {ours: {relevant: 108}}, personas: {1: {relevant: 108}}}, {missing: ['judge p1', 'judge p2'], url: 'https://x/run'});
+  assert.match(text, /^🔴 <b>Job search round not judged<\/b>: the judge failed/m);
+  assert.doesNotMatch(text, /0 relevant|▼|vs the previous run/);
+  assert.match(text, /judge p1, judge p2/); assert.match(text, /https:\/\/x\/run/);
+});

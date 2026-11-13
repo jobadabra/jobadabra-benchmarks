@@ -1,9 +1,9 @@
 # The job-search round on CI every 3 days (owner, 27 Oct 2026: "I want job search benchmarks to run on the CI and me getting telegram
-# notifications"; "not weekly, but every 3 days"): ours on main (search-ours.yml, 1 search per persona, Haiku 5.5 on the owner's plan) and the
-# free rivals JobSpy, EURES and Adzuna (search-rivals.yml, no AI), then the blind judge (judge.py, the Claude plan, $0), the page
+# notifications"; "not weekly, but every 3 days"): ours on main (search-ours.yml, 1 search per persona, the app's own tiers (small Haiku 5.5, main Sonnet) through the AI broker on the owner's Claude plan) and the
+# free rivals JobSpy, EURES, Adzuna and Jooble (search-rivals.yml, no AI), then the blind judge (judge.py, Sonnet through the broker, $0), the page
 # /admin/job-search/benchmark (publish.mjs) and one Telegram note against the previous run and the 27 Oct baseline (note.mjs).
-# career-ops stays by hand (it found 0-1 relevant jobs and takes plan time). The plan token stays in the repo's secrets
-# (owner, 27 Oct 2026: "Keep it standing (Recommended)").
+# career-ops stays by hand (it found 0-1 relevant jobs and takes plan time) and is the only one left on the plan token (secret CLAUDE_CODE_OAUTH_TOKEN,
+# owner, 27 Oct 2026: "Keep it standing (Recommended)"); the round itself holds no stored AI secret since 12 Nov 2026 (owner: "Broker, Claude plan, Haiku").
 name: search round (every 3 days)
 on:
   schedule:
@@ -13,6 +13,22 @@ on:
       product_ref:
         description: The Jobadabra commit or branch (GarryOne/jobadabra)
         default: main
+      round:
+        description: The round's key on /admin (default today's date); a proof round of another route takes its own key, e.g. 2026-11-12-broker, so it never replaces a published round
+        default: ''
+      personas:
+        description: Persona numbers of OUR arm, JSON (default all 10); the others are reported missing and not published. For a side check of a few people with only_ours
+        default: '[1,2,3,4,5,6,7,8,9,10]'
+      tiers:
+        description: app (default, the scoreboard) = the product's own tiers (small Haiku, main Sonnet); haiku = every step on Haiku 5.5, a side note
+        default: app
+      only_ours:
+        description: Our arm only (rivals-off line; no ours-all line, no rivals). Published under `round` and counted nowhere else; no Telegram note, nothing saved as the previous run
+        type: boolean
+        default: false
+      draft:
+        description: A saved strategy for a one-person side check, a path in this repo (e.g. search-bench/drafts/p10-lisbon.json); no AI draft, both sides search for the same thing
+        default: ''
 permissions:
   contents: write   # moves the tag weekly-picks (the notes); Why (2 Nov 2026, owner: "let's use tags not branches for storing things. Otherwise, they keep popping up like that"): the weekly-picks state is the TAG weekly-picks (tools/state-tag.sh: read, and a compare-and-swap write); a pushed branch made GitHub offer "Compare & pull request".
   actions: read
@@ -28,26 +44,35 @@ jobs:
   ours:   # the fair arm: every rival's source off (search-ours.yml reads search-bench/rivals.json)
     needs: when
     if: needs.when.outputs.go == 'yes'
+    permissions:
+      contents: read
+      id-token: write   # the broker's run token for the called job that runs OUR arm (a called job cannot hold more than its caller); test/broker-token.test.mjs
     uses: ./.github/workflows/search-ours.yml
     with:
       product_ref: ${{ inputs.product_ref || 'main' }}
-      personas: '[1,2,3,4,5,6,7,8,9,10]'
+      personas: ${{ inputs.personas || '[1,2,3,4,5,6,7,8,9,10]' }}   # Why (13 Nov 2026, a side pair on persons 1, 2, 3, 6): the schedule has no inputs, so the default stays all 10
       presses: '[1]'
       arm: ours
+      tiers: ${{ inputs.tiers || 'app' }}
+      draft: ${{ inputs.draft || '' }}
     secrets: inherit
   ours_all:   # the second line: as a user has it, EURES and the rest on (owner, 27 Oct 2026)
-    needs: [when, ours]   # one after the other: the owner's plan runs two sessions at a time
-    if: ${{ !cancelled() && needs.when.outputs.go == 'yes' }}
+    needs: [when, ours]   # Why (13 Nov 2026): one after the other again; both arms at once (16 jobs, run 43328684962) starved the broker's 16 slots and ours scored 59 instead of ~150
+    if: ${{ !cancelled() && needs.when.outputs.go == 'yes' && !inputs.only_ours }}
+    permissions:
+      contents: read
+      id-token: write   # the broker's run token for the called job that runs OUR arm (a called job cannot hold more than its caller); test/broker-token.test.mjs
     uses: ./.github/workflows/search-ours.yml
     with:
       product_ref: ${{ inputs.product_ref || 'main' }}
       personas: '[1,2,3,4,5,6,7,8,9,10]'
       presses: '[1]'
       arm: ours-all
+      tiers: ${{ inputs.tiers || 'app' }}
     secrets: inherit
   rivals:
     needs: when
-    if: needs.when.outputs.go == 'yes'
+    if: ${{ needs.when.outputs.go == 'yes' && !inputs.only_ours }}
     uses: ./.github/workflows/search-rivals.yml
     with:
       rivals: '["jobspy","eures","adzuna","jooble"]'   # the same list as search-bench/rivals.json (test/workflows.test.mjs)
@@ -57,42 +82,60 @@ jobs:
     if: ${{ !cancelled() && needs.when.outputs.go == 'yes' }}
     runs-on: ubuntu-24.04
     timeout-minutes: 90
-    env:
-      CLAUDE_CODE_VERSION: 2.1.311
+    permissions:
+      contents: write   # the same as the workflow's: moves the tag weekly-picks (a job's own permissions replace the workflow's)
+      actions: read
+      id-token: write   # Why (12 Nov 2026, owner: "Broker, Claude plan, Haiku"): the judge's AI goes through the broker on this run's token, no stored secret; the job runs no rival's code, only reads their data (test/broker-token.test.mjs)
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with: {node-version: '22'}
-      - name: Claude Code (pinned), for the judge
-        run: npm install -g "@anthropic-ai/claude-code@$CLAUDE_CODE_VERSION"
       - uses: actions/download-artifact@v5
         with: {path: art, pattern: 'search-*'}
+      - name: One artifact lands without its folder (a one-person side check)
+        env: {PERSONAS: '${{ inputs.personas }}'}
+        # Why (13 Nov 2026, runs 43346001946 and 43346002378, p10 and p3 alone): with exactly one artifact the download put its files straight into art/, pool.mjs looked in art/search-ours-pN-x1/, named every list "missing" and the judge judged 0 jobs. Hypothesis until a one-person run shows relevant > 0.
+        run: |
+          if [ -f art/out/jobs.json ] && ! ls -d art/search-* >/dev/null 2>&1; then
+            n=$(node -p 'JSON.parse(process.env.PERSONAS || "[1]")[0]'); mkdir -p "art/search-ours-p$n-x1"
+            mv art/build.txt art/out "art/search-ours-p$n-x1/"; echo "one artifact: moved into art/search-ours-p$n-x1"
+          fi
       - name: The pools (title, employer, place per job; no URLs)
         run: node search-bench/pool.mjs art work
-      - name: Blind judge, on the Claude plan ($0)
+      - name: Blind judge, through the AI broker (Claude plan, $0)
         env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          BENCH_JUDGE_ENGINE: plan
+          BENCH_JUDGE_ENGINE: broker
         run: |
-          set -o pipefail
+          # Why (13 Nov 2026, owner: "more parallelization"): the 10 people judge at once (the arms are done, the broker has 16 slots); one after the other took ~6 min. A person's failure fails the step, after every log is printed.
+          mkdir -p judge-logs; pids=()
           for n in 1 2 3 4 5 6 7 8 9 10; do
-            env -u ANTHROPIC_API_KEY python3 -I search-bench/judge.py search-bench/personas.json $n work/pool$n.json work/judged$n.json 2>&1 | tee -a judge.log
+            (env -u ANTHROPIC_API_KEY python3 -I search-bench/judge.py search-bench/personas.json $n work/pool$n.json work/judged$n.json > judge-logs/$n.log 2>&1) &
+            pids[$n]=$!
           done
+          failed=0
+          for n in 1 2 3 4 5 6 7 8 9 10; do
+            wait "${pids[$n]}" || { echo "judge failed for person $n"; failed=1; }
+            cat judge-logs/$n.log | tee -a judge.log
+          done
+          exit $failed
       - name: Publish to /admin/job-search/benchmark
         env:
           SELFHEAL_PUBLISH_KEY: ${{ secrets.BENCHMARK_PUBLISH_KEY }}
-        run: node search-bench/publish.mjs work --round "$(date -u +%F)" --build "$(cat work/build.txt)"
+          ROUND: ${{ inputs.round }}
+        run: node search-bench/publish.mjs work --round "${ROUND:-$(date -u +%F)}" --build "$(cat work/build.txt)"
       - name: Telegram note, against the previous run and the 27 Oct baseline
-        if: ${{ !cancelled() }}
+        # Why (12 Nov 2026, owner: "rerun the job search benchmarks, but only our result"): an ours-only round has no rivals, so it is no "previous run" for the next full round
+        if: ${{ !cancelled() && !inputs.only_ours }}
         env:
           CI_ALERTS_TELEGRAM_BOT_TOKEN: ${{ secrets.CI_ALERTS_TELEGRAM_BOT_TOKEN }}   # the Engineering bot (owner, 12 Nov 2026); a missing secret fails the step (lib/telegram.mjs)
           CI_ALERTS_TELEGRAM_CHAT_ID: ${{ secrets.CI_ALERTS_TELEGRAM_CHAT_ID }}
           SELFHEAL_PUBLISH_KEY: ${{ secrets.SELFHEAL_PUBLISH_KEY }}   # the owner's Notifications switchboard asks first; the bot above is the fallback (owner, 13 Nov 2026)
           URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ROUND: ${{ inputs.round }}
         run: |
           tools/state-tag.sh read weekly-picks picks
-          mkdir -p picks/notes/search; day=$(date -u +%F)
-          node search-bench/note.mjs work --round "$day" --build "$(cat work/build.txt)" --baseline search-bench/results/2026-10-27 \
+          mkdir -p picks/notes/search; day="${ROUND:-$(date -u +%F)}"
+          node search-bench/note.mjs work --round "$day" --build "$(cat work/build.txt)" --tiers "$(cat work/tiers.txt)" --baseline search-bench/results/2026-10-27 \
             --last picks/notes/search --out "picks/notes/search/$day.json" --url "$URL"
           tools/state-tag.sh write weekly-picks picks "Search note $day" notes
       - name: The judged round

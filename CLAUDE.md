@@ -30,11 +30,14 @@ Public page: jobadabra.top/benchmark (site repo `jobadabra-web`); the full runs 
   (JobSpy, EURES, Adzuna), judges on the plan (`judge.py`), publishes (`publish.mjs`) and sends one Telegram note (`search-bench/note.mjs`:
   ours per persona vs the previous run and `search-bench/results/2026-10-27`). A failed job is named in the note, never shown as 0.
   career-ops stays by hand. $0 (plan only).
+  **Our arm runs on the app's own tiers** (owner, 13 Nov 2026, asked in his pane: "Yes, switch to app tiers (Recommended)"): small Haiku 5.5, main Sonnet, through the AI broker on his plan (`tiers=app`, the default; `tiers=haiku` = every step on Haiku, a side check only).
+  The rivals use no AI and stay as they are. Rounds before 13 Nov ran ours on Haiku: not comparable; the stored note carries `tiers` so the page can mark the break (the page's chart is the site repo's job).
+  Parallel (owner, 13 Nov 2026: "more parallelization"): the judge runs the 10 people at once; ours runs 2 jobs at a time per run (`max-parallel: 2`: 16 jobs at once starved the old 16-slot broker, ours 59 instead of ~150), and the arms run one after the other. By hand, several runs with a `personas` subset may run side by side on the 24-slot broker (10 app-tier searches at once measured clean on 13 Nov: wait p90 under 11 s, 0 non-200); a cell counts only with wait p90 under 20 s and 0 non-200, else it is rerun.
 - **Otherwise by hand only, rarely** (owner, 27 Oct 2026: "trigger them manually, from time to time. Maybe once in a half a year"): every
   other workflow starts on `workflow_dispatch` (or is called by one) and nothing else. Guard: `test/workflows.test.mjs`. Exception: the org's PR checks
   (`pr-checks.yml`, the PR-description check and "All checks passed"; owner, 2 Nov 2026: the same workflow on every repo) start on `pull_request` and hold no secret.
-- **Cost:** a whole round (both benchmarks) costs at most ~$3, or $0 (owner, 27 Oct 2026). Every tool on one model (`BENCH_MODEL`,
-  Haiku 5.5 in the objective round); judges on the Claude plan. Measure a one-form trial before a full round.
+- **Cost:** a whole round (both benchmarks) costs at most ~$3, or $0 (owner, 27 Oct 2026). Every tool on one model in the form round
+  (`BENCH_MODEL`, Haiku 5.5 in the objective round); judges on the Claude plan. Measure a one-form trial before a full round.
 - **Fair:** forms drawn by seed (`pick-forms.mjs`) from a list we did not make, minus every company we tested or fixed on; all tools the
   same day, 3 runs each (the weekly set: 1); the judge never sees the tool (`judge-blind.mjs`), a correction applies to the same answer for every tool.
   - **Honest draft = right** (owner via 5b, 27 Oct 2026: "Honest draft = right (Recommended)"): for a question the facts don't answer, a value
@@ -43,8 +46,9 @@ Public page: jobadabra.top/benchmark (site repo `jobadabra-web`); the full runs 
   - **Judge prompt: a fixed case set** (`judge-cases.json`): a PROMPT change adds its case and replays all of them,
     `node judge-blind.mjs --cases judge-cases.json` ($0), before its PR. A verdict the big batch gets wrong goes to `rounds/fixed/corrections.json`.
   - **Same place, same AI for every contestant** (owner, 27 Oct 2026: "If using locally, then locally ours and theirs. If using CI, then CI
-    ours and theirs. If using Haiku then haiku ours and theirs"): both rounds on CI, every AI contestant on Haiku 5.5 (form round: the
-    Benchmarks API key; search round: the owner's plan token). No extra "as shipped" row. A local run is a side note, never the scoreboard.
+    ours and theirs. If using Haiku then haiku ours and theirs"): both rounds on CI. Form round: every AI contestant on Haiku 5.5 (the Benchmarks API key).
+    Search round: ours on the app's own tiers (owner, 13 Nov 2026, see above), the judge on Sonnet, both through the AI broker on the owner's Claude plan; the rivals have no AI.
+    No extra "as shipped" row. A local run is a side note, never the scoreboard.
     Guarded by test/workflows.test.mjs.
   - **A re-run is the whole round, same day** (27 Oct 2026): when ours must run again (a known bug fixed after the round), re-run
     every contestant of that round the same day; never one contestant alone. The earlier result stays as a labelled "before" row.
@@ -57,9 +61,10 @@ Public page: jobadabra.top/benchmark (site repo `jobadabra-web`); the full runs 
     then clear the clipboard. A CLI that prints a token (`claude setup-token`) runs in a pty writing to a 600 file; read back only status
     lines, never the lines around the token: terminals wrap it, and a mask on one line printed its tail once. Wipe the file after.
   - Which: the agents' API calls use the Benchmarks workspace key ($5/month limit; owner: "a separate API Key for the benchmarks");
-    the search round (ours and career-ops' docs run) uses the owner's plan token; in career-ops' run only Claude Code sees it (its scripts
-    run as another Linux user; test/workflows).
-    The plan token stays a GitHub secret for the scheduled rounds (owner, 27 Oct 2026: "Keep the plan token", "Keep it standing"); revoke it only if it leaks
+    the search round's ours arm and its judge go through the AI broker with the run's GitHub OIDC token, no stored secret (owner, 12 Nov 2026: "Broker, Claude plan,
+    Haiku"; `id-token: write` only on those jobs, never on a rival's: test/form-round-token.test.mjs); career-ops' docs run alone uses the owner's plan token, and
+    only Claude Code sees it (its scripts run as another Linux user; test/workflows).
+    The plan token stays a GitHub secret for career-ops' by-hand run (owner, 27 Oct 2026: "Keep the plan token", "Keep it standing"); revoke it only if it leaks
     (claude.ai → Settings → Claude Code). It expires 27 Oct 2027.
 - Tests: `node --test test/<file>.test.mjs`, one file at a time on the Mac.
 - Watch a round: Monitor on `tools/watch-runs.sh <run id>...` (ends, failed jobs and steps, gh errors). Pass `product_ref` as a

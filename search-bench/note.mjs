@@ -14,7 +14,7 @@ const key = row => [row.title, row.company, row.location].map(part => (part || '
 const relevant = row => row.role === 'yes' && row.place === 'yes';
 
 /** rowsByPersona: {N: judged rows of persona N} (judge.py's rows) -> {round, build, tools: {tool: {relevant, found}}, personas: {N: {label, relevant, found}}} (personas: ours only) */
-export function noteOf(rowsByPersona, {round = '', build = '', labels = {}, missing = [], notServed = [], rivalsOff = false} = {}) {
+export function noteOf(rowsByPersona, {round = '', build = '', tiers = '', labels = {}, missing = [], notServed = [], rivalsOff = false} = {}) {
   const tools = {}, personas = {}, beyond = {};
   for (const [n, rows] of Object.entries(rowsByPersona)) {
     for (const rival of RIVALS) {   // our relevant jobs (every source on) that this rival did not show, summed over the personas
@@ -27,7 +27,7 @@ export function noteOf(rowsByPersona, {round = '', build = '', labels = {}, miss
     personas[n] = {label: labels[n] || `Persona ${n}`, relevant: ours.filter(relevant).length, found: ours.length};
   }
   tools.ours ||= {relevant: 0, found: 0};
-  return {round, build, tools, personas, ...(rivalsOff ? {rivalsOff} : {}), ...(Object.keys(beyond).length ? {beyond} : {})};
+  return {round, build, ...(tiers ? {tiers} : {}), tools, personas, ...(rivalsOff ? {rivalsOff} : {}), ...(Object.keys(beyond).length ? {beyond} : {})};
 }
 
 /** Reads judged<N>.json (a work dir) or persona-<N>.json (a results/<round> dir) into {N: rows}. */
@@ -43,6 +43,8 @@ export function readRound(dir) {
  * the searches that found nothing and the biggest moves, and what to know (failed jobs, rivals without data); the per-search table and the build lines are gone.
  */
 export function noteText(note, baseline, last, {missing = [], notServed = [], url = ''} = {}) {
+  // Why (12 Nov 2026, owner's Telegram screenshot: "ours 0 relevant of 0 shown, ▼108 vs the previous run 108" after the judge failed on all 10 people): no verdicts is not a 0. Say the judge failed, nothing else.
+  if (!Object.keys(note.personas).length && missing.some(m => m.startsWith('judge '))) return [`${CHIP.bad} <b>Job search round not judged</b>: the judge failed, so this round has no numbers`, `⚠️ <b>Missing</b> (a job failed, not a 0): ${esc(missing.join(', '))}`, ...(url ? [link(url)] : [])].join('\n');
   const ours = note.tools.ours, searches = Object.keys(note.personas).length, empty = Object.entries(note.personas).filter(([, p]) => p.relevant === 0);
   // Why (27 Oct 2026, gitar-bot, #9): "ours" now runs with the rivals' sources off; the baseline and the notes saved before ran with everything on. Each line is
   // compared only with a reference that ran the same way: ours with a note that has rivalsOff, ours-all with a note's ours-all, or (an old note) its ours, which had every source on.
@@ -75,13 +77,15 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const personas = rj(path.join(import.meta.dirname, 'personas.json')).personas;
   const labels = Object.fromEntries(personas.map((p, i) => [i + 1, `${p.title} · ${p.city}`]));
   const missingNow = rj(path.join(work, 'missing.json')) || [], notServedNow = rj(path.join(work, 'notserved.json')) || [];
-  const note = noteOf(readRound(work), {round: arg('round'), build: arg('build'), labels, missing: missingNow, notServed: notServedNow, rivalsOff: true});
+  const note = noteOf(readRound(work), {round: arg('round'), build: arg('build'), tiers: arg('tiers') || '', labels, missing: missingNow, notServed: notServedNow, rivalsOff: true});
   const baseline = arg('baseline') ? noteOf(readRound(arg('baseline')), {labels}) : null;
   const lastDir = arg('last'), lastFile = lastDir && fs.existsSync(lastDir) ? fs.readdirSync(lastDir).filter(f => f.endsWith('.json')).sort().at(-1) : '';
   const last = lastFile ? rj(path.join(lastDir, lastFile)) : null;
   const unjudged = personas.map((_, i) => i + 1).filter(n => !fs.existsSync(path.join(work, `judged${n}.json`))).map(n => `judge p${n}`);
   const text = noteText(note, baseline, last, {missing: [...missingNow, ...unjudged], notServed: notServedNow, url: arg('url')});
-  if (arg('out')) { fs.mkdirSync(path.dirname(arg('out')), {recursive: true}); fs.writeFileSync(arg('out'), JSON.stringify(note, null, 1) + '\n'); }
+  // Why (12 Nov 2026): a round the judge did not finish is never the "previous run" of the next one; run 43297527466 saved an all-zero note that the next real round would have been compared with.
+  if (arg('out') && unjudged.length) console.log(`note not saved: ${unjudged.length} persona(s) have no verdicts`);
+  else if (arg('out')) { fs.mkdirSync(path.dirname(arg('out')), {recursive: true}); fs.writeFileSync(arg('out'), JSON.stringify(note, null, 1) + '\n'); }
   console.log(text);
   await sendNote(text, process.env, fetch, 'search-benchmark-note');
 }
