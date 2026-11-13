@@ -57,6 +57,48 @@ class EuresPlace(unittest.TestCase):
         self.assertEqual(self.run_eures([job('Elsewhere', ['BG413'])]), [])
 
 
+class ExtraProfileCities(unittest.TestCase):
+    """Why (13 Nov 2026, sa for the owner: EURES as a rival of the extra Trello profiles; Gitar on #39): the main round's 10 cities behave as before, the new ones are never a guessed 0."""
+
+    def with_post(self, person, answer):
+        real, rivals.post = rivals.post, answer
+        try:
+            return rivals.eures(person)
+        finally:
+            rivals.post = real
+
+    def test_a_country_outside_eures_is_not_served_never_zero(self):
+        self.assertIsNone(rivals.eures({'title': 'Programmer', 'city': 'Chisinau', 'country': 'Moldova'}))
+
+    def test_an_unknown_city_inside_eures_fails_by_name(self):
+        with self.assertRaises(KeyError):
+            rivals.eures({'title': 'Chef', 'city': 'Atlantis', 'country': 'Spain'})
+
+    def test_an_unverified_code_that_returns_no_job_of_its_area_is_unknown_not_zero(self):
+        amsterdam = {'title': 'Accountant', 'city': 'Amsterdam', 'country': 'Netherlands'}
+        elsewhere = lambda url, body: {'numberRecords': 1, 'jvs': [{'title': 'Far', 'employer': {'name': 'Co'}, 'locationMap': {'NL': ['NL411']}}]}
+        self.assertIsNone(self.with_post(amsterdam, elsewhere))
+        self.assertEqual(self.with_post(amsterdam, lambda url, body: {'numberRecords': 0, 'jvs': []}), None)
+
+    def test_an_unverified_code_that_returns_jobs_keeps_them(self):
+        amsterdam = {'title': 'Accountant', 'city': 'Amsterdam', 'country': 'Netherlands'}
+        rows = self.with_post(amsterdam, lambda url, body: {'numberRecords': 1, 'jvs': [{'title': 'In town', 'employer': {'name': 'Co'}, 'locationMap': {'NL': ['NL329']}}]})
+        self.assertEqual([r['title'] for r in rows], ['In town'])
+
+    def test_a_verified_city_with_no_job_in_its_area_is_still_a_real_zero(self):
+        # the main round's behaviour does not change (test_no_job_at_all_is_zero_not_unknown, for Sofia)
+        self.assertEqual(self.with_post({'title': 'Chef', 'city': 'Sofia', 'country': 'Bulgaria'}, lambda url, body: {'numberRecords': 1, 'jvs': [job('Elsewhere', ['BG413'])]}), [])
+
+    def test_every_extra_profile_city_has_an_area_or_is_outside_eures(self):
+        for p in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'personas-extra.json')))['personas']:
+            self.assertTrue(p['city'] in rivals.REGIONS or p['country'] in rivals.OUTSIDE_EURES, f"{p['id']} {p['city']}: add its NUTS-3 area to REGIONS or name its country outside EURES")
+
+    def test_area_codes_look_like_nuts3_of_their_country_and_unverified_ones_have_one(self):
+        for city, (code, name) in rivals.REGIONS.items():
+            self.assertRegex(code, r'^[a-z]{2}[0-9a-z]{3}$', city)
+        self.assertLessEqual(rivals.UNVERIFIED, set(rivals.REGIONS))
+
+
 class NotServed(unittest.TestCase):
     def test_a_country_adzuna_does_not_serve_is_written_as_null_never_an_empty_list(self):
         # Why (2 Nov 2026, coordinator on benchmarks#14): [] reads as "found 0"; null is unknown (pool.mjs lists it as missing). No network: Adzuna refuses before any call.

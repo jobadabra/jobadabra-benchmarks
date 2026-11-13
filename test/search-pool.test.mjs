@@ -57,19 +57,20 @@ test('the rivals are listed once (rivals.json): the rivals workflow, the round a
   assert.match(ours, /JOBADABRA_DISABLE="\$off"/);
 });
 
-// The extra Trello profiles' target (13 Nov 2026, sa for the owner): Jooble and JobSpy per profile, averaged half up; a failed, unserved or half-judged rival is "not measured", never 0.
-test('targets: right jobs per rival, the average rounded half up, and no rival ever reads 0 when it was not measured', async () => {
+// The extra Trello profiles' target (13 Nov 2026, sa for the owner; "Can we measure with both our rivals: JobSPy, Jobble and EURES"): the average of the rivals that measured the profile, rounded up;
+// a failed, unserved or half-judged rival is "not measured" and left out, never 0.
+test('targets: right jobs per rival, the average of the rivals measured rounded up, and no rival ever reads 0 when it was not measured', async () => {
   const {summarize, markdown} = await import('../search-bench/targets.mjs');
   const work = fs.mkdtempSync(path.join(os.tmpdir(), 'targets-')), personas = [{id: 'c01', title: 'Accountant', city: 'Amsterdam', country: 'Netherlands'}, {id: 'c02', title: 'Nurse', city: 'Lyon', country: 'France'}, {id: 'c03', title: 'Welder', city: 'Tallinn', country: 'Estonia'}];
   const row = (tool, title, role, place, company = 'Co') => ({tool, title, company, location: 'x', role, place});
-  fs.writeFileSync(path.join(work, 'judged1.json'), JSON.stringify({rows: [row('jooble', 'A', 'yes', 'yes'), row('jooble', 'a', 'yes', 'yes'), row('jooble', 'B', 'yes', 'no'), row('jooble', 'C', 'no', 'yes'), ...[...'DEFGH'].map(t => row('jooble', t, 'yes', 'yes')), ...[...'ABCDE'].map(t => row('jobspy', t, 'yes', 'yes'))]}));
+  fs.writeFileSync(path.join(work, 'judged1.json'), JSON.stringify({rows: [row('jooble', 'A', 'yes', 'yes'), row('jooble', 'a', 'yes', 'yes'), row('jooble', 'B', 'yes', 'no'), row('jooble', 'C', 'no', 'yes'), ...[...'DEFGH'].map(t => row('jooble', t, 'yes', 'yes')), ...[...'ABCDE'].map(t => row('jobspy', t, 'yes', 'yes')), row('eures', 'A', 'yes', 'yes'), row('eures', 'B', 'yes', 'yes')]}));
   fs.writeFileSync(path.join(work, 'judged2.json'), JSON.stringify({rows: [row('jobspy', 'A', 'yes', 'yes'), row('jooble', 'B', 'missing', 'missing')]}));
-  fs.writeFileSync(path.join(work, 'judged3.json'), JSON.stringify({rows: [row('jobspy', 'A', 'yes', 'yes'), row('jobspy', 'B', 'yes', 'yes')]}));
-  fs.writeFileSync(path.join(work, 'missing.json'), JSON.stringify(['jobspy p2'])); fs.writeFileSync(path.join(work, 'notserved.json'), JSON.stringify(['jooble p3']));
+  fs.writeFileSync(path.join(work, 'judged3.json'), JSON.stringify({rows: [row('jobspy', 'A', 'yes', 'yes'), row('jobspy', 'B', 'yes', 'yes'), row('eures', 'A', 'yes', 'yes')]}));
+  fs.writeFileSync(path.join(work, 'missing.json'), JSON.stringify(['jobspy p2', 'eures p2'])); fs.writeFileSync(path.join(work, 'notserved.json'), JSON.stringify(['jooble p3']));
   const [one, two, three] = summarize(work, personas, [1, 2, 3]);
-  assert.deepEqual([one.jooble.right, one.jobspy.right, one.average], [6, 5, 6], 'a duplicate title + employer counts once; role no or place no does not count; (6+5)/2 = 5.5 rounds up');
-  assert.equal(two.jooble.state, 'not measured (not fully judged)'); assert.equal(two.jobspy.state, 'not measured (the read failed)'); assert.equal(two.average, null);
-  assert.equal(three.jooble.state, 'not served'); assert.equal(three.jobspy.right, 2); assert.equal(three.average, null, 'one rival alone gives no average');
+  assert.deepEqual([one.eures.right, one.jooble.right, one.jobspy.right, one.average, one.counted], [2, 6, 5, 5, 3], 'a duplicate title + employer counts once; role no or place no does not count; (2+6+5)/3 = 4.33 rounds up to 5');
+  assert.equal(two.jooble.state, 'not measured (not fully judged)'); assert.equal(two.jobspy.state, 'not measured (the read failed)'); assert.equal(two.eures.state, 'not measured (the read failed)'); assert.equal(two.average, null, 'no rival measured it: no target');
+  assert.equal(three.jooble.state, 'not served'); assert.deepEqual([three.eures.right, three.jobspy.right, three.average, three.counted], [1, 2, 2, 2], 'a rival with no site is left out of the average: (1+2)/2 = 1.5 rounds up');
   assert.doesNotMatch(markdown([two, three]).split('\n').slice(2).join('\n'), /\| 0 /, 'a rival that was not measured never shows 0');
 });
 
