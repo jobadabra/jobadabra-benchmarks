@@ -51,7 +51,7 @@ jobs:
       id-token: write   # Why (12 Nov 2026, owner: "Broker, Claude plan, Haiku"): the broker's run token, held by the job that runs OUR arm only (test/broker-token.test.mjs); no rival's code runs here
     strategy:
       fail-fast: false
-      max-parallel: 4   # Why (13 Nov 2026, owner: "more parallelization", broker slots 16): 16 jobs at once (run 43328684962) starved the broker: calls waited 94-114 s (solo 10 s), 503s, ours 59 instead of ~150, because each job has several calls in flight; 4 is measured, not guessed (was 2, the plan-token limit)
+      max-parallel: 2   # Why (13 Nov 2026, broker request logs via sa-search-assessment): the broker has 3 Claude slots and one search has up to ~6 calls in flight. 16 jobs at once (run 43328684962): call wait median 82 s, 5-14 non-200 per job, ours 59; at 2 jobs (run 43323531052, ours 150): median 12 s, max 44 s, 0 non-200. More jobs need more Claude slots, not more CI jobs
       matrix:
         persona: ${{ fromJSON(inputs.personas) }}
         presses: ${{ fromJSON(inputs.presses) }}
