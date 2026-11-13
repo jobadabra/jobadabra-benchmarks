@@ -1,0 +1,164 @@
+{
+  "summary": "You'll get UX and product design jobs in Lisbon, hybrid or on-site, plus remote roles that name Portugal, at a mid level. Check the salary floor, which is an estimate, and fill in the ❓ items: notice period, workload and portfolio.",
+  "goals": {
+    "seniority": "Mid-level (5 years)",
+    "work_mode": "Hybrid or on-site in Lisbon",
+    "minimum_salary": "€28,000 a year gross (estimate)",
+    "languages": "Portuguese (native), English (C1)"
+  },
+  "profile_markdown": "## 👤 Profile — CV and Preferences\n\n# Hard constraints\n\n| Constraint | Value |\n|---|---|\n| Countries | Portugal (Lisbon), plus remote roles open to Portugal |\n| Home base | Lisbon, Portugal; ❓ open to relocating? |\n| Acceptable cities / commute | Lisbon |\n| Work mode | Hybrid or on-site in Lisbon |\n| Languages that disqualify a job if required | ❓ |\n| Minimum seniority | Mid-level |\n| Workload | ❓ 100% only, or a range |\n| Employment type | ❓ permanent only, or contract too |\n| Recruiter listings | ❓ allow / down-rank / exclude |\n\n# Compensation\n\n- Minimum acceptable: €28,000 a year gross (estimate)\n\n# Preferences (soft, used for ranking)\n\n| Preference | Value |\n|---|---|\n| Role types, most wanted first | UX Designer, Product Designer, UI Designer, UX Researcher |\n| Company size | ❓ |\n| Industries to prefer / avoid | ❓ |\n| Leadership | ❓ IC only, or design lead roles too? |\n\n# Application form answers — voluntary demographic surveys\n\n# Education\n\n| School | Degree | Discipline |\n|---|---|---|\n| Lisbon (school not named in CV) | BA | Communication Design (2019) |\n\n# Summary (from CV)\n\nUX designer with 5 years on web and mobile products: research, flows, wireframes, prototypes in Figma, usability testing.\n\n# Core skills\n\n- Research: user interviews, usability testing\n- Design: flows, wireframes, prototypes, design system components\n- Tools: Figma\n\n# Experience\n\n## UX Designer, Tejo Digital Example, Lisbon (2021 - now)\n- Checkout and onboarding redesigns\n- Design system components\n- User interviews\n\n## Junior Product Designer, Alfama Apps Example, Lisbon (2019 - 2021)\n\n## 🛂 Work eligibility\n\n- Nationality: Portugal\n- EU / EEA + Switzerland: ❓ [per country]\n- United Kingdom: ❓ [per country]\n- United States: ❓ [per country]\n\n## 💶 Availability & compensation\n\n- Target: ❓ a figure or range, and whether it's net or gross\n- Notice period / earliest start: ❓\n- Salary expectation — Portugal: ❓\n- If a salary field is optional: ❓ leave blank, or always fill\n\n## 🗣️ Languages\n\n- Languages I can work in: Portuguese (native), English (C1)\n",
+  "answers_markdown": "## 📝 Application Answers — Standard Form Fields\n\n# Common questions\n\n| Question | Answer |\n|---|---|\n| How did you hear about us? | Company careers page / the job board where it was found |\n| Previously worked for / applied to this company? | Answered per job |\n| Demographic / EEO questions | ❓ default, e.g. \"Decline to self-identify\" |\n| Pronouns | ❓ or leave blank |\n| Willing to relocate | ❓ |\n| Consent to keep data for future roles | ❓ yes / no |\n| Portfolio link | ❓ optional |\n\n# Cover letter style\n\n- Length: ~150-200 words, 2-3 short paragraphs\n- Tone: concise, direct and factual, no clichés\n- Always mention: user research and testing, Figma prototyping, checkout and onboarding redesigns, design system work\n- Never mention: anything not in the CV\n",
+  "open_questions": [
+    "Notice period and earliest start?",
+    "Would you relocate, in Portugal or abroad?",
+    "Portfolio link?",
+    "Full-time permanent only, or contract too?",
+    "Any languages you can't work in?"
+  ],
+  "search": {
+    "target_roles": [
+      {
+        "title": "ux designer",
+        "also": []
+      },
+      {
+        "title": "designer de ux",
+        "also": []
+      },
+      {
+        "title": "product designer",
+        "also": []
+      },
+      {
+        "title": "designer de produto",
+        "also": []
+      },
+      {
+        "title": "ui designer",
+        "also": []
+      },
+      {
+        "title": "ux researcher",
+        "also": []
+      },
+      {
+        "title": "interaction designer",
+        "also": []
+      }
+    ],
+    "level": [
+      "mid"
+    ],
+    "title_exclude_keywords": [
+      "\\bintern(ship)?\\b",
+      "\\bestagi[aá]rio\\b",
+      "\\bsales\\b",
+      "recruit(er|ing)",
+      "\\bjunior\\b",
+      "\\bhead of\\b",
+      "\\bdirector\\b",
+      "graphic designer",
+      "interior"
+    ],
+    "board_discovery_keywords": [
+      "ux",
+      "ui",
+      "product designer",
+      "designer",
+      "user experience",
+      "design system",
+      "interaction design"
+    ],
+    "quality_stack_keywords": [
+      "figma",
+      "user research",
+      "usability",
+      "wireframe",
+      "prototyp",
+      "design system",
+      "mobile",
+      "\\bux\\b"
+    ],
+    "locations": {
+      "top_tier": [
+        "lisb(on|oa)"
+      ],
+      "country_wide": [],
+      "abroad": []
+    },
+    "remote_excluded_regions": [
+      "\\busa?\\b",
+      "united states",
+      "canada",
+      "apac",
+      "latam",
+      "\\buk\\b",
+      "united kingdom",
+      "\\bunited\\ states\\b",
+      "u\\.s\\.",
+      "\\bcanada\\b",
+      "\\bnorth\\ america\\b",
+      "\\blatam\\b",
+      "\\blatin\\ america\\b",
+      "\\bapac\\b",
+      "\\basia\\b",
+      "\\bindia\\b",
+      "\\baustralia\\b",
+      "\\bbrazil\\b",
+      "\\bmexico\\b",
+      "\\bamericas\\b"
+    ],
+    "remote_jobs": [
+      "Country"
+    ],
+    "google_jobs": {
+      "queries": [
+        "ux designer lisboa",
+        "product designer lisboa",
+        "designer de ux",
+        "ui ux designer lisbon"
+      ],
+      "country": "pt",
+      "locations": [
+        {
+          "location": "Lisbon,Lisbon,Portugal",
+          "language": "pt"
+        }
+      ]
+    },
+    "role_keywords": [
+      "ux designer",
+      "designer de ux",
+      "product designer",
+      "designer de produto",
+      "ui designer",
+      "ux researcher",
+      "interaction designer"
+    ],
+    "jobs_board_search_queries": [
+      "ux designer",
+      "designer de ux",
+      "product designer",
+      "designer de produto",
+      "ui designer"
+    ]
+  },
+  "preferences": {
+    "disqualifying_languages": [],
+    "excluded_companies": [
+      "Tejo Digital Example"
+    ]
+  },
+  "contact": {
+    "first_name": "Rita",
+    "last_name": "Ferreira",
+    "full_name": "Rita Ferreira",
+    "email": "rita.ferreira@example.test",
+    "phone": "+351 21 000 0000",
+    "location": "Lisbon, Portugal",
+    "linkedin": "",
+    "github": "",
+    "website": ""
+  },
+  "usd": 0
+}
