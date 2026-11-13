@@ -1,4 +1,5 @@
-# The Jooble + JobSpy target of the extra Trello profiles c01-c20 and d01-d05 (13 Nov 2026, sa for the owner: "Let's have an average between JobSpy and Jooble"; "if jooble find 20 and jobspy 10 then the target should be 15").
+# The EURES + Jooble + JobSpy target of the extra Trello profiles c01-c20 and d01-d05 (13 Nov 2026, sa for the owner: "Let's have an average between JobSpy and Jooble"; "if jooble find 20 and jobspy 10 then the target should be 15"; then "Can we measure with both our rivals: JobSPy, Jobble and EURES").
+# The target = the average of the rivals that measured the profile, rounded up (sa's reading); a rival with no site or key for the country (Jooble without a key, EURES for Moldova) is "not measured" and left out.
 # By hand only. The same rivals run (search-rivals.yml, on search-bench/personas-extra.json), the same blind judge (judge.py on the AI broker, Claude plan, $0), nothing else:
 # no publish to /admin, no Telegram, no state tag, so a published round is never replaced and nothing becomes the "previous run". Result: the job summary and the artifact search-targets-<run>.
 name: search targets (by hand)
@@ -15,7 +16,7 @@ jobs:
   rivals:
     uses: ./.github/workflows/search-rivals.yml
     with:
-      rivals: '["jobspy","jooble"]'
+      rivals: '["jobspy","jooble","eures"]'
       personas_file: search-bench/personas-extra.json
       personas: ${{ inputs.profiles }}
       missing_key_ok: true   # Jooble has keys for only some countries; the table says "not measured"
@@ -41,7 +42,7 @@ jobs:
         run: |
           node --input-type=module -e "
           import {layOut} from './search-bench/pool.mjs';
-          const r = layOut('art', 'work', {numbers: JSON.parse(process.env.NUMBERS), rivals: ['jobspy', 'jooble'], ours: false, errorsMakeEmptyMissing: true});
+          const r = layOut('art', 'work', {numbers: JSON.parse(process.env.NUMBERS), rivals: ['jobspy', 'jooble', 'eures'], ours: false, errorsMakeEmptyMissing: true});
           console.log('missing:', r.missing.join(', ') || 'none', '| not served:', r.notServed.join(', ') || 'none');"
       - name: Blind judge, through the AI broker (Claude plan, $0)
         env:
@@ -55,7 +56,7 @@ jobs:
         if: ${{ !cancelled() }}
         run: |
           node search-bench/targets.mjs work search-bench/personas-extra.json "$NUMBERS" targets.md targets.json
-          { echo '## Jooble + JobSpy targets (right = role and place yes, one per title + employer)'; cat targets.md; } >> "$GITHUB_STEP_SUMMARY"
+          { echo '## EURES + Jooble + JobSpy targets (right = role and place yes, one per title + employer)'; cat targets.md; } >> "$GITHUB_STEP_SUMMARY"
       - name: The judged targets
         if: always()
         uses: actions/upload-artifact@v6
