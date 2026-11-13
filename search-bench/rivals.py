@@ -108,8 +108,16 @@ def jobspy(p):
     rows, errors = [], {}
     for site in ('linkedin', 'indeed', 'glassdoor', 'google'):
         try:
-            df = scrape_jobs(site_name=[site], search_term=p['title'], google_search_term=f"{p['title']} jobs near {p['city']}, {p['country']}",
-                             location=f"{p['city']}, {p['country']}", results_wanted=25, country_indeed=p['country'].lower(), verbose=0)
+            ask = dict(site_name=[site], search_term=p['title'], google_search_term=f"{p['title']} jobs near {p['city']}, {p['country']}",
+                       location=f"{p['city']}, {p['country']}", results_wanted=25, verbose=0)
+            try:
+                df = scrape_jobs(**ask, country_indeed=p['country'].lower())
+            except ValueError as error:
+                # Why (13 Nov 2026, run 43432473083, c09 Tallinn: all 4 sites "Invalid country_indeed: 'estonia'"): JobSpy checks Indeed's country list before any site; LinkedIn and Google take no Indeed country,
+                # so they run without it (nothing was sent before the check); Indeed and Glassdoor stay a named error.
+                if 'country_indeed' not in str(error) or site not in ('linkedin', 'google'):
+                    raise
+                df = scrape_jobs(**ask)
             for _, r in df.iterrows():
                 rows.append({'tool': 'jobspy', 'title': str(r.get('title') or ''), 'company': str(r.get('company') or ''),
                              'location': str(r.get('location') or ''), 'provider': f'JobSpy/{site}'})
