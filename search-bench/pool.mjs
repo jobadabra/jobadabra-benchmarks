@@ -31,7 +31,7 @@ export function layOut(art, work, {personas = 10, rivals = RIVALS, numbers = nul
     build ||= ((fs.existsSync(path.join(ours, 'build.txt')) ? fs.readFileSync(path.join(ours, 'build.txt'), 'utf8') : '').match(/build: (\w+)/) || [])[1] || '';
     tiers ||= (fs.existsSync(path.join(ours, 'out', 'tiers-mode.txt')) ? fs.readFileSync(path.join(ours, 'out', 'tiers-mode.txt'), 'utf8') : '').trim();
     for (const rival of rivals) {
-      const dir = path.join(art, `search-${rival}-p${n}`), file = first([path.join(dir, `${rival}-p${n}.json`), path.join(dir, 'out', `${rival}-p${n}.json`)]), list = rj(file || '-');
+      const dir = path.join(art, `search-${rival}-p${n}`), file = first([path.join(dir, `${rival}-p${n}.json`), path.join(dir, 'out', `${rival}-p${n}.json`), path.join(art, `${rival}-p${n}.json`)]), list = rj(file || '-');   // Why (13 Nov 2026, run 43480344860, d04 alone: JobSpy wrote 50 rows, the table said "read failed"): download-artifact puts the files of a pattern's ONLY match straight into the folder, with no search-<rival>-p<n>/ subfolder
       // Why (2 Nov 2026, Gitar on #14): a null list from a rival that says it does not serve the place is "no data", not a failed job; without that word it stays missing.
       const errored = errorsMakeEmptyMissing && Array.isArray(list) && list.length === 0 && file && Object.keys(rj(file.replace(/\.json$/, '.meta.json'))?.errors || {}).length > 0;   // Why (13 Nov 2026, run 43432473083, c09): JobSpy's 4 sites all errored and the empty list read as "0 right jobs"
       if (errored) missing.push(`${rival} p${n}`);
