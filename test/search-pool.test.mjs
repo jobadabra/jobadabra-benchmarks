@@ -97,3 +97,18 @@ test('layOut finds a rival file laid flat when the pattern matched one artifact 
   const {missing} = layOut(art, work, {numbers: [24], rivals: ['jobspy'], ours: false});
   assert.deepEqual(missing, []); assert.deepEqual(JSON.parse(fs.readFileSync(path.join(work, 'pool24.json'), 'utf8')).map(r => r.tool), ['jobspy']);
 });
+
+// Why (13 Nov 2026, owner via sa: d07 "If we have to choose just one. Let's choose Lausanne"; d06 has no town): the table names the town the rivals searched; an area without one is not measured by any rival.
+test('targets: a persona with an area names the town the rivals searched, and without one no rival is measured', async () => {
+  const {summarize, markdown} = await import('../search-bench/targets.mjs');
+  const work = fs.mkdtempSync(path.join(os.tmpdir(), 'targets-'));
+  const personas = [{id: 'd07', title: 'IT Project Manager', city: 'Monthey', country: 'Switzerland', area: 'within 100 km of Monthey', rival_place: 'Lausanne'}, {id: 'd06', title: 'Software Developer', city: 'Zurich', country: 'Switzerland', area: 'anywhere in Switzerland'}, {id: 'c01', title: 'Accountant', city: 'Amsterdam', country: 'Netherlands'}];
+  fs.writeFileSync(path.join(work, 'judged1.json'), JSON.stringify({rows: [{tool: 'jobspy', title: 'A', company: 'Co', location: 'Lausanne', role: 'yes', place: 'yes'}]}));
+  fs.writeFileSync(path.join(work, 'judged2.json'), JSON.stringify({rows: [{tool: 'jobspy', title: 'A', company: 'Co', location: 'Zurich', role: 'yes', place: 'yes'}]}));
+  fs.writeFileSync(path.join(work, 'missing.json'), '[]'); fs.writeFileSync(path.join(work, 'notserved.json'), '[]');
+  const [d07, d06, c01] = summarize(work, personas, [1, 2, 3]);
+  assert.equal(d07.jobspy.right, 1); assert.equal(d07.rivalPlace, 'Lausanne');
+  assert.equal(d06.jobspy.state, 'not measured (no rival place chosen)'); assert.equal(d06.average, null, 'the file holds a Zurich job, but the rivals were never asked for the country: not read');
+  const text = markdown([d07, d06, c01]).split('\n');
+  assert.match(text[2], /Monthey, Switzerland \(rivals searched Lausanne\)/); assert.match(text[3], /\(no rival place\)/); assert.match(text[4], /\| c01 \| Accountant \| Amsterdam, Netherlands \|/, 'a row without an area is printed as before');
+});
