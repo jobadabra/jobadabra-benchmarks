@@ -26,6 +26,9 @@ on:
         description: Our arm only (rivals-off line; no ours-all line, no rivals). Published under `round` and counted nowhere else; no Telegram note, nothing saved as the previous run
         type: boolean
         default: false
+      draft:
+        description: A saved strategy for a one-person side check, a path in this repo (e.g. search-bench/drafts/p10-lisbon.json); no AI draft, both sides search for the same thing
+        default: ''
 permissions:
   contents: write   # moves the tag weekly-picks (the notes); Why (2 Nov 2026, owner: "let's use tags not branches for storing things. Otherwise, they keep popping up like that"): the weekly-picks state is the TAG weekly-picks (tools/state-tag.sh: read, and a compare-and-swap write); a pushed branch made GitHub offer "Compare & pull request".
   actions: read
@@ -51,6 +54,7 @@ jobs:
       presses: '[1]'
       arm: ours
       tiers: ${{ inputs.tiers || 'haiku' }}
+      draft: ${{ inputs.draft || '' }}
     secrets: inherit
   ours_all:   # the second line: as a user has it, EURES and the rest on (owner, 27 Oct 2026)
     needs: [when, ours]   # Why (13 Nov 2026): one after the other again; both arms at once (16 jobs, run 43328684962) starved the broker's 16 slots and ours scored 59 instead of ~150

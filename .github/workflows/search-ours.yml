@@ -22,6 +22,9 @@ on:
       tiers:
         description: haiku = every step on Haiku 5.5 (the scoreboard); app = the product's own tiers (small Haiku, main Sonnet), a side note only
         default: haiku
+      draft:
+        description: A saved strategy (path in this repo) instead of the AI draft, for a one-person side check
+        default: ''
   workflow_call:   # Why (27 Oct 2026, owner: "every 3 days"): search-round.yml runs this arm on its schedule
     inputs:
       product_ref: {type: string, default: main}
@@ -29,6 +32,7 @@ on:
       presses: {type: string, default: '[1]'}
       arm: {type: string, default: ours}
       tiers: {type: string, default: haiku}   # Why (13 Nov 2026, owner: "Can we do a test with Sonnet instead of Haiku?"): app = the product's own tiers, never the scoreboard
+      draft: {type: string, default: ''}   # Why (13 Nov 2026, #3953 via pp-place-patterns-9b): a saved strategy (run.mjs --draft, no AI) so main and a branch search for the same thing; never the scoreboard
 permissions:
   contents: read
 env:
@@ -83,7 +87,7 @@ jobs:
           if [ "$TIERS" = app ]; then grep -q 'AI: claude / ' proof.txt || { echo "the broker did not answer on Claude"; exit 1; }
           else grep -q 'AI: claude / claude-haiku-5-5' proof.txt || { echo "the broker did not answer on Claude Haiku 5.5"; exit 1; }; fi
       - name: The persona's fake CV, then Find jobs (Haiku 5.5 for every step, through the broker)
-        env: {TIERS: '${{ inputs.tiers }}'}
+        env: {TIERS: '${{ inputs.tiers }}', DRAFT: '${{ inputs.draft }}'}
         run: |
           set -o pipefail; mkdir -p out
           if [ "$TIERS" = app ]; then unset JOBADABRA_MODEL_OVERRIDE; fi   # Why (13 Nov 2026, owner): the app's tiers (small Haiku, main Sonnet) instead of the one-model override
@@ -93,8 +97,9 @@ jobs:
           # every rival's source (search-bench/rivals.json: jobspy, eures, adzuna, jooble); "ours-all" keeps them, as a user has them.
           off=""; [ "${{ inputs.arm }}" = ours-all ] || off=$(node -p 'JSON.parse(require("fs").readFileSync("search-bench/rivals.json","utf8")).join(",")')
           echo "sources off: ${off:-none}" | tee out/sources-off.txt
+          draftarg=(); if [ -n "$DRAFT" ]; then test -f "$GITHUB_WORKSPACE/$DRAFT" || { echo "no saved strategy at $DRAFT"; exit 1; }; draftarg=(--draft "$GITHUB_WORKSPACE/$DRAFT"); fi
           (cd jp && env -u ANTHROPIC_API_KEY JOBADABRA_DISABLE="$off" JOBADABRA_NO_DOTENV=1 node tools/persona-search/codex.mjs -- node tools/persona-search/run.mjs draw "$GITHUB_WORKSPACE/out" \
-            --presses "${{ matrix.presses }}" --engine api --fresh --tag bench) 2>&1 | tee out/run.log
+            --presses "${{ matrix.presses }}" --engine api --fresh --tag bench "${draftarg[@]}") 2>&1 | tee out/run.log
           echo $(( $(date +%s) - start )) > out/seconds.txt
           # Why (12 Nov 2026): the relay line names each call's tier; Haiku is `small`, so any other tier is a step off the round's model
           grep -h '^relay: ' out/run.log | grep -v -c '^relay: small ' > out/non-haiku-steps.txt || true
