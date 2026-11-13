@@ -1,0 +1,66 @@
+# The Jooble + JobSpy target of the 20 extra Trello profiles c01-c20 (13 Nov 2026, sa for the owner: "Let's have an average between JobSpy and Jooble"; "if jooble find 20 and jobspy 10 then the target should be 15").
+# By hand only. The same rivals run (search-rivals.yml, on search-bench/personas-extra.json), the same blind judge (judge.py on the AI broker, Claude plan, $0), nothing else:
+# no publish to /admin, no Telegram, no state tag, so a published round is never replaced and nothing becomes the "previous run". Result: the job summary and the artifact search-targets-<run>.
+name: search targets (by hand)
+on:
+  workflow_dispatch:
+    inputs:
+      profiles:
+        description: 'Profile numbers 1-20 = c01-c20 (JSON); c09 Tallinn, c13 Brno, c17 Rotterdam = [9,13,17]'
+        default: '[9,13,17]'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  rivals:
+    uses: ./.github/workflows/search-rivals.yml
+    with:
+      rivals: '["jobspy","jooble"]'
+      personas_file: search-bench/personas-extra.json
+      personas: ${{ inputs.profiles }}
+    secrets: inherit
+  judge:
+    needs: rivals
+    if: ${{ !cancelled() }}   # a rival that failed for one profile is named "not measured" in the table, never 0
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    permissions:
+      contents: read
+      actions: read
+      id-token: write   # the judge's AI goes through the broker on this run's token (as search-round.yml's judge); the job runs no rival's code, only reads their data
+    env:
+      NUMBERS: ${{ inputs.profiles }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: {node-version: '22'}
+      - uses: actions/download-artifact@v5
+        with: {path: art, pattern: 'search-*'}
+      - name: The pools (title, employer, place per job; no URLs)
+        run: node --input-type=module -e "import {layOut} from './search-bench/pool.mjs'; const r = layOut('art', 'work', {numbers: JSON.parse(process.env.NUMBERS), rivals: ['jobspy', 'jooble'], ours: false}); console.log('missing:', r.missing.join(', ') || 'none', '| not served:', r.notServed.join(', ') || 'none')"
+      - name: Blind judge, through the AI broker (Claude plan, $0)
+        env:
+          BENCH_JUDGE_ENGINE: broker
+        run: |
+          # 10 at a time: the broker has 24 slots and other rounds use them; a person's failure fails the step after every log is printed.
+          mkdir -p judge-logs
+          jq -r '.[]' <<<"$NUMBERS" | xargs -P 10 -I{} sh -c 'env -u ANTHROPIC_API_KEY python3 -I search-bench/judge.py search-bench/personas-extra.json {} work/pool{}.json work/judged{}.json > judge-logs/{}.log 2>&1' || echo "a judge failed (the table says which)"
+          for n in $(jq -r '.[]' <<<"$NUMBERS"); do echo "== profile $n"; cat "judge-logs/$n.log" 2>/dev/null; done | tee judge.log
+      - name: The table
+        if: ${{ !cancelled() }}
+        run: |
+          node search-bench/targets.mjs work search-bench/personas-extra.json "$NUMBERS" targets.md targets.json
+          { echo '## Jooble + JobSpy targets (right = role and place yes, one per title + employer)'; cat targets.md; } >> "$GITHUB_STEP_SUMMARY"
+      - name: The judged targets
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: search-targets-${{ github.run_id }}
+          retention-days: 90
+          path: |
+            targets.md
+            targets.json
+            judge.log
+            work/judged*.json
+            work/missing.json
+            work/notserved.json

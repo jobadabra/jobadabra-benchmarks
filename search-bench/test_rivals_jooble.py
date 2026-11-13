@@ -57,7 +57,7 @@ class JoobleRival(unittest.TestCase):
 
     def test_a_country_jooble_has_no_domain_for_is_not_served(self):
         self.fake([])
-        self.assertIsNone(rivals.jooble({'title': 'x', 'city': 'Oslo', 'country': 'Norway'}))
+        self.assertIsNone(rivals.jooble({'title': 'x', 'city': 'Tallinn', 'country': 'Estonia'}))
         self.assertEqual(self.calls, [])
 
     def test_a_missing_key_is_a_named_failure_not_a_zero(self):
