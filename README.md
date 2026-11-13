@@ -395,3 +395,5 @@ Hand-filled page (Simplify): paste `simplify/console-snippet.js` in DevTools on 
 ## 🗺️ Repo map
 
 `run.mjs` one tool on one form · `batch.mjs` many forms, budget stop · `report.mjs` scoreboard · `lib/guard.mjs` the write guard · `lib/score.mjs` reader + judge · `lib/trail.mjs` wizard memory · `lib/nanobrowser.mjs`, `lib/anthropic-proxy.mjs`, `lib/bu_agent.py` the agent glue · `fixture/` local forms (single page, 5-step wizard) and the proofs · `forms*.json` the forms (real posting URLs: keep private) · `simplify/` the by-hand kit.
+
+<!-- gl proof 13 Nov 2026: tests the shared PR-labels workflow; closed unmerged -->
