@@ -23,17 +23,16 @@ const SCHEDULED = {'form-weekly.yml': ['schedule', 'workflow_dispatch'], 'search
 // Unit tests are no benchmark: a workflow that holds no secret and runs only a test file may start on a PR or a push (search-bench-tests.yml,
 // 21 Oct 2026: the judge's spend-cap tests, no API call).
 const isUnitTests = text => !/secrets\./.test(text) && /^\s+- run: python3 -I search-bench\/test_\w+\.py$/m.test(text);
-// PR labels are no benchmark either (owner, 2 Nov 2026: "basically on all the repos in the org... the same workflow"): the label workflow writes labels on a PR, holds no secret (the job's
-// own token only) and runs jobadabra's scripts from its main; its exact triggers are listed, so any other trigger still fails here.
-const LABELS = {'pr-labels.yml': ['push', 'pull_request_target', 'pull_request_review', 'issue_comment', 'check_run']};   // check_run added by #19 (5 Nov 2026, jobadabra#3176); the guard was not updated and main's test was red
+// PR labels are no benchmark either (owner, 2 Nov 2026: "basically on all the repos in the org... the same workflow"): pr-labels.yml is the org's one caller (jobadabra templates/org-repo/pr-labels.yml, 13 Nov 2026,
+// "One shared workflow"); it holds no secret (the job's own token only) and its exact triggers are listed, so any other trigger still fails here.
+const LABELS = {'pr-labels.yml': ['push', 'pull_request_target', 'pull_request_review', 'issue_comment', 'check_run', 'workflow_dispatch']};
 for (const f of files) {
   const text = fs.readFileSync(path.join(dir, f), 'utf8');
   // Why (2 Nov 2026, Gitar on benchmarks#16): the org's PR checks (jobadabra templates/org-repo/pr-checks.yml) start on pull_request only and hold no secret: the PR-description check and "All checks passed".
   if (f === 'pr-checks.yml') { test(`${f}: org PR checks, exact trigger, no secret`, () => { assert.deepEqual(triggersOf(text), ['pull_request']); assert.doesNotMatch(text, /secrets\./); }); continue; }
-  if (LABELS[f]) { test(`${f}: PR label workflow, exact triggers, no secret`, () => { assert.deepEqual(triggersOf(text), LABELS[f]); assert.doesNotMatch(text, /secrets\./);
-    // Why (2 Nov 2026, Gitar on web#258 and #307): the scripts come from jobadabra's main as FILE patterns (cone mode reads each entry as a folder and fetches nothing), and a YAML block has no comments.
-    assert.match(text, /sparse-checkout-cone-mode: false/); assert.match(text, /repository: jobadabra\/jobadabra[^\n]*\n\s+ref: main\n/);
-    for (const [, entry] of text.matchAll(/^ +(tools\/\S+)$/gm)) assert.doesNotMatch(entry, /#/);
+  if (LABELS[f]) { test(`${f}: PR label workflow, exact triggers, no secret, the org's one shared workflow`, () => { assert.deepEqual(triggersOf(text), LABELS[f]); assert.doesNotMatch(text, /secrets\./);
+    // Why (13 Nov 2026, jobadabra#4020): the logic, the script checkout and the Gitar check trigger live once in jobadabra's pr-labels-shared.yml; this file only calls it, so no copy can drift (benchmarks #38).
+    assert.match(text, /uses: jobadabra\/jobadabra\/\.github\/workflows\/pr-labels-shared\.yml@main/); assert.doesNotMatch(text, /actions\/checkout/);
   }); continue; }
   if (isUnitTests(text)) { test(`${f}: unit tests only, no secret`, () => assert.ok(triggersOf(text).every(t => ['pull_request', 'push', 'workflow_dispatch'].includes(t)))); continue; }
   test(`${f} starts by hand only${SCHEDULED[f] ? `, or: ${SCHEDULED[f].join(', ')}` : ''}`, () => assert.deepEqual(triggersOf(text), SCHEDULED[f] || ['workflow_dispatch']));
