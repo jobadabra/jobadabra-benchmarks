@@ -78,6 +78,13 @@ jobs:
           (cd jp/desktop && npm ci && node scripts/stage.mjs --files-only)   # the app's shared files, as the product's own CI stages them
           (cd jp/desktop/e2e && (npm ci || npm install) && npx playwright-core install --with-deps chromium)
           echo "our build: $(git -C jp rev-parse --short HEAD)" | tee build.txt
+      # Why (14 Nov 2026, owner via AskUserQuestion, session rb: "Benchmark" among the measures that search the way the app does, then "Ship both"): the app reads job boards that
+      #   refuse the plain reader in its own honest headless Chrome, and pages built by scripts with the engine's renderer; without them ours offered such boards as a visit, 0 jobs.
+      #   As the night (jobadabra search-personas.yml): a failure never stops the round, the search then runs without --beside.
+      - name: The engine's page renderer, as the app has (honest, no stealth)
+        id: render
+        continue-on-error: true
+        run: pip install --quiet -r jp/requirements-render.txt && python3 -m playwright install --with-deps chromium
       - name: The broker answers on a plan engine on this runner (stops the job if not, so a dead AI is never a quiet 0)
         env: {TIERS: '${{ inputs.tiers }}'}
         run: |
@@ -88,7 +95,7 @@ jobs:
           if [ "$TIERS" = app ]; then grep -qE 'AI: (claude|codex) / ' proof.txt || { echo "the broker did not answer on Claude or Codex"; exit 1; }
           else grep -qE 'AI: (claude / claude-haiku-5-5|codex / )' proof.txt || { echo "the broker did not answer on Claude Haiku 5.5 or Codex"; exit 1; }; fi
       - name: The persona's fake CV, then Find jobs (through the broker, Claude plan first, then Codex)
-        env: {TIERS: '${{ inputs.tiers }}', DRAFT: '${{ inputs.draft }}'}
+        env: {TIERS: '${{ inputs.tiers }}', DRAFT: '${{ inputs.draft }}', RENDER: '${{ steps.render.outcome }}'}
         run: |
           set -o pipefail; mkdir -p out
           if [ "$TIERS" = app ]; then unset JOBADABRA_MODEL_OVERRIDE; fi   # Why (13 Nov 2026, owner): the app's tiers (small Haiku, main Sonnet) instead of the one-model override
@@ -98,9 +105,12 @@ jobs:
           # every rival's source (search-bench/rivals.json: jobspy, eures, adzuna, jooble). Why (13 Nov 2026, owner: "It doesn't make sense to have a benchmark where we include rivals in our solution"): there is no second arm with them on.
           off=$(node -p 'JSON.parse(require("fs").readFileSync("search-bench/rivals.json","utf8")).join(",")')
           echo "sources off: ${off:-none}" | tee out/sources-off.txt
+          # --beside: the refusing boards read once a page a day across all CI (the broker's mark, signed through codex.mjs); only with the renderer and a build that has the mark's relay
+          beside=(); if [ "$RENDER" = success ] && grep -q 'JOBADABRA_BOARD_MARK_URL' jp/tools/persona-search/board-mark.mjs 2>/dev/null; then beside=(--beside); fi
+          echo "refusing boards in Jobadabra's browser: ${beside[*]:-off}" | tee out/beside.txt
           draftarg=(); if [ -n "$DRAFT" ]; then test -f "$GITHUB_WORKSPACE/$DRAFT" || { echo "no saved strategy at $DRAFT"; exit 1; }; draftarg=(--draft "$GITHUB_WORKSPACE/$DRAFT"); fi
           (cd jp && env -u ANTHROPIC_API_KEY JOBADABRA_DISABLE="$off" JOBADABRA_NO_DOTENV=1 node tools/persona-search/codex.mjs -- node tools/persona-search/run.mjs draw "$GITHUB_WORKSPACE/out" \
-            --presses "${{ matrix.presses }}" --engine api --fresh --tag bench "${draftarg[@]}") 2>&1 | tee out/run.log
+            --presses "${{ matrix.presses }}" --engine api --fresh --tag bench "${draftarg[@]}" "${beside[@]}") 2>&1 | tee out/run.log
           echo $(( $(date +%s) - start )) > out/seconds.txt
           # Why (12 Nov 2026): the relay line names each call's tier; Haiku is `small`, so any other tier is a step off the round's model
           grep -h '^relay: ' out/run.log | grep -v -c '^relay: small ' > out/non-haiku-steps.txt || true
@@ -117,6 +127,7 @@ jobs:
             out/persona.json
             out/seconds.txt
             out/sources-off.txt
+            out/beside.txt
             out/non-haiku-steps.txt
             out/tiers.txt
             out/tiers-mode.txt
