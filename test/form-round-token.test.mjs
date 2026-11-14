@@ -42,7 +42,7 @@ test('the search round: no rival job holds the token, the judge and ours have no
   assert.doesNotMatch(read('search-rivals.yml'), /id-token|CLAUDE_CODE_OAUTH_TOKEN|ANTHROPIC/, 'rivals: no broker, no AI secret');
   assert.doesNotMatch(round + ours, /secrets\.CLAUDE_CODE_OAUTH_TOKEN/, 'the round holds no plan token any more');
   assert.match(jobsOf(round).judge, /BENCH_JUDGE_ENGINE: broker/);
-  assert.match(ours, /^ {2}JOBADABRA_CHECK_CHAIN: claude$/m, 'every call on the Claude engine, never Codex or Free AI');
+  assert.match(ours, /^ {2}JOBADABRA_CHECK_CHAIN: claude,codex$/m, 'the Claude plan first, then the Codex plan, never Free AI (owner, 14 Nov 2026)');
   assert.match(ours, /node tools\/persona-search\/codex\.mjs -- node tools\/persona-search\/run\.mjs draw/, 'the draw runs behind the broker relay');
   assert.match(jobsOf(ours).search, /^\s+id-token: write/m); assert.doesNotMatch(jobsOf(ours).build, /id-token/);
 });

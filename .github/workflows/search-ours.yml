@@ -33,8 +33,12 @@ permissions:
   contents: read
 env:
   JOBADABRA_MODEL_OVERRIDE: claude-haiku-5-5
-  CI_AI_PROVIDER: codex   # the broker (codex.mjs asks aiProvider); JOBADABRA_CHECK_CHAIN below keeps every call on Claude, Haiku, never Codex or Free AI
-  JOBADABRA_CHECK_CHAIN: claude
+  CI_AI_PROVIDER: codex   # the broker (codex.mjs asks aiProvider); JOBADABRA_CHECK_CHAIN below names the engines a call may use
+  # Why (14 Nov 2026, owner via the coordinator, after the Claude-only arm spent $0.78 on the broker's API key with the Claude week at 90%: "It should use broker. first try claude plan, then try codex plan. then try to Claude API Key."):
+  # the Claude plan first, then the Codex plan, never Free AI. `claude` alone went from the plan straight to the paid key. When both plans are out the broker refuses the call today
+  # (its paid key answers only a Claude-only call, jobadabra-web workers/ai-broker/lib/paid-claude.mjs); the key as the third step is the broker's change, not this file's.
+  # A round with Codex answers is not like-for-like with the Claude-only rounds before it: the note counts the calls per engine (search-bench/note.mjs enginesOf).
+  JOBADABRA_CHECK_CHAIN: claude,codex
 jobs:
   build:   # resolves product_ref ONCE: a branch can move or be deleted mid-round (27 Oct 2026, all jobs failed at checkout); test/workflows
     runs-on: ubuntu-24.04
@@ -74,15 +78,16 @@ jobs:
           (cd jp/desktop && npm ci && node scripts/stage.mjs --files-only)   # the app's shared files, as the product's own CI stages them
           (cd jp/desktop/e2e && (npm ci || npm install) && npx playwright-core install --with-deps chromium)
           echo "our build: $(git -C jp rev-parse --short HEAD)" | tee build.txt
-      - name: The broker answers Haiku on this runner (stops the job if not, so a dead AI is never a quiet 0)
+      - name: The broker answers on a plan engine on this runner (stops the job if not, so a dead AI is never a quiet 0)
         env: {TIERS: '${{ inputs.tiers }}'}
         run: |
           set -o pipefail
           if [ "$TIERS" = app ]; then unset JOBADABRA_MODEL_OVERRIDE; fi   # the app's own tiers: no one-model override
           node jp/tools/persona-search/codex.mjs --proof 2>&1 | tee proof.txt
-          if [ "$TIERS" = app ]; then grep -q 'AI: claude / ' proof.txt || { echo "the broker did not answer on Claude"; exit 1; }
-          else grep -q 'AI: claude / claude-haiku-5-5' proof.txt || { echo "the broker did not answer on Claude Haiku 5.5"; exit 1; }; fi
-      - name: The persona's fake CV, then Find jobs (Haiku 5.5 for every step, through the broker)
+          # Why (14 Nov 2026, owner: Claude plan first, then the Codex plan): a Codex answer is a pass too; with tiers=haiku a Claude answer must still be Haiku 5.5
+          if [ "$TIERS" = app ]; then grep -qE 'AI: (claude|codex) / ' proof.txt || { echo "the broker did not answer on Claude or Codex"; exit 1; }
+          else grep -qE 'AI: (claude / claude-haiku-5-5|codex / )' proof.txt || { echo "the broker did not answer on Claude Haiku 5.5 or Codex"; exit 1; }; fi
+      - name: The persona's fake CV, then Find jobs (through the broker, Claude plan first, then Codex)
         env: {TIERS: '${{ inputs.tiers }}', DRAFT: '${{ inputs.draft }}'}
         run: |
           set -o pipefail; mkdir -p out
