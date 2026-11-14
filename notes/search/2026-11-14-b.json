@@ -3,24 +3,24 @@
  "build": "3ccdbc0",
  "tiers": "app",
  "engines": {
-  "codex": 570
+  "codex": 620
  },
  "tools": {
+  "ours": {
+   "relevant": 169,
+   "found": 357
+  },
   "jobspy": {
-   "relevant": 186,
+   "relevant": 185,
    "found": 325
   },
-  "jooble": {
-   "relevant": 239,
-   "found": 669
-  },
-  "ours": {
-   "relevant": 167,
-   "found": 352
-  },
   "eures": {
-   "relevant": 83,
-   "found": 347
+   "relevant": 82,
+   "found": 391
+  },
+  "jooble": {
+   "relevant": 235,
+   "found": 669
   },
   "adzuna": {
    "relevant": 6,
@@ -30,8 +30,8 @@
  "personas": {
   "1": {
    "label": "Truck Driver (Class CE) · Sofia",
-   "relevant": 0,
-   "found": 0
+   "relevant": 5,
+   "found": 5
   },
   "2": {
    "label": "HR Generalist · Cluj-Napoca",
@@ -65,12 +65,12 @@
   },
   "8": {
    "label": "Data Analyst · Nuremberg",
-   "relevant": 7,
+   "relevant": 5,
    "found": 15
   },
   "9": {
    "label": "Software Engineer · Helsinki",
-   "relevant": 72,
+   "relevant": 71,
    "found": 228
   },
   "10": {
