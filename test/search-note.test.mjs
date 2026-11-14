@@ -2,7 +2,7 @@
 // previous run and the baseline; a failed job is said, not shown as 0; only counts and persona labels, never a job.
 import test from 'node:test'; import assert from 'node:assert/strict';
 import fs from 'node:fs'; import os from 'node:os'; import path from 'node:path';
-import {noteOf, noteText, paidOf} from '../search-bench/note.mjs';
+import {enginesOf, noteOf, noteText, paidOf} from '../search-bench/note.mjs';
 const job = (tool, role, place, title = 'Zzyx Role') => ({tool, title, company: 'Co', location: 'Town', role, place});
 
 test('ours against the previous run and the baseline, rivals ranked, a line per persona, missing jobs named', () => {
@@ -83,4 +83,18 @@ test('paid lane: judged paid_calls and ours relay lines marked paid are named; a
   assert.match(noteText(note, null, null, {paid: paidOf(work)}), /^💳 <b>Paid lane<\/b> .*: judge p3 \(2 batches, \$0\.0615\); ours p8 \(2 calls, \$0\.4100\)$/m);
   assert.doesNotMatch(noteText(note, null, null, {paid: []}), /Paid lane/);
   assert.deepEqual(paidOf(path.join(work, 'nothing-here')), []);
+});
+
+// Why (14 Nov 2026, owner: "first try claude plan, then try codex plan"): a round where Codex answered part of ours is said as mixed, with the calls per engine; a Claude-only round shows no line.
+test('mixed AI: the calls each engine answered are counted from the relay lines and said only when Codex took some', () => {
+  const work = fs.mkdtempSync(path.join(os.tmpdir(), 'note-engines-'));
+  fs.mkdirSync(path.join(work, 'ours'));
+  fs.writeFileSync(path.join(work, 'ours', 'p1.log'), 'relay: small total 1 status 200 engine claude\nrelay: mid total 2 status 200 engine codex why x\nrelay: mid total 3 status 503\nnot a relay line engine codex\n');
+  fs.writeFileSync(path.join(work, 'ours', 'p2.log'), 'relay: small total 1 status 200 engine claude\n');
+  assert.deepEqual(enginesOf(work), {claude: 2, codex: 1});
+  const mixed = noteOf({1: [job('ours', 'yes', 'yes')]}, {round: 'r', engines: enginesOf(work)});
+  assert.deepEqual(mixed.engines, {claude: 2, codex: 1}, 'the stored round carries it');
+  assert.match(noteText(mixed, null, null), /^🤖 <b>Mixed AI<\/b> \(not like-for-like with the Claude-only rounds\): claude 2 calls · codex 1 calls$/m);
+  assert.doesNotMatch(noteText(noteOf({1: [job('ours', 'yes', 'yes')]}, {round: 'r', engines: {claude: 5}}), null, null), /Mixed AI/);
+  assert.equal('engines' in noteOf({}, {round: 'r'}), false);
 });

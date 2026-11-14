@@ -13,7 +13,7 @@ const key = row => [row.title, row.company, row.location].map(part => (part || '
 const relevant = row => row.role === 'yes' && row.place === 'yes';
 
 /** rowsByPersona: {N: judged rows of persona N} (judge.py's rows) -> {round, build, tools: {tool: {relevant, found}}, personas: {N: {label, relevant, found}}} (personas: ours only) */
-export function noteOf(rowsByPersona, {round = '', build = '', tiers = '', labels = {}, missing = [], notServed = [], rivalsOff = false} = {}) {
+export function noteOf(rowsByPersona, {round = '', build = '', tiers = '', engines = {}, labels = {}, missing = [], notServed = [], rivalsOff = false} = {}) {
   const tools = {}, personas = {};
   for (const [n, rows] of Object.entries(rowsByPersona)) {
     for (const row of rows) { const t = (tools[row.tool] ||= {relevant: 0, found: 0}); t.found++; if (relevant(row)) t.relevant++; }
@@ -21,7 +21,7 @@ export function noteOf(rowsByPersona, {round = '', build = '', tiers = '', label
     personas[n] = {label: labels[n] || `Persona ${n}`, relevant: ours.filter(relevant).length, found: ours.length};
   }
   tools.ours ||= {relevant: 0, found: 0};
-  return {round, build, ...(tiers ? {tiers} : {}), tools, personas, ...(rivalsOff ? {rivalsOff} : {})};
+  return {round, build, ...(tiers ? {tiers} : {}), ...(Object.keys(engines).length ? {engines} : {}), tools, personas, ...(rivalsOff ? {rivalsOff} : {})};
 }
 
 /** Reads judged<N>.json (a work dir) or persona-<N>.json (a results/<round> dir) into {N: rows}. */
@@ -51,6 +51,20 @@ export function paidOf(work) {
 }
 
 /**
+ * How many of ours' AI calls each engine answered, from the relay lines of work/ours/p<N>.log (`engine <name>`, written by the product's relay for an answered call).
+ * Why (14 Nov 2026, owner: "first try claude plan, then try codex plan"): ours may now be answered by Codex when the Claude plan is out, and such a round is not like-for-like with the Claude-only rounds; the note and the stored round say how many calls each engine took.
+ * @returns {Record<string, number>} e.g. {claude: 310, codex: 42}; {} when no log names an engine
+ */
+export function enginesOf(work) {
+  const out = {}, dir = path.join(work, 'ours');
+  for (const f of fs.existsSync(dir) ? fs.readdirSync(dir) : []) {
+    if (!/^p\d+\.log$/.test(f)) continue;
+    for (const line of fs.readFileSync(path.join(dir, f), 'utf8').split('\n')) { const m = line.startsWith('relay: ') && line.match(/ engine ([a-z-]+)/); if (m) out[m[1]] = (out[m[1]] || 0) + 1; }
+  }
+  return out;
+}
+
+/**
  * note, baseline and last (notes or null), {missing: ["ours p3"], notServed, url} -> the message, Telegram HTML.
  * Why (12 Nov 2026, owner: "Not very clear to me"; the shape of the form note, chosen via AskUserQuestion, "Yes, this shape"): a verdict line, one line with every tool's number,
  * the searches that found nothing and the biggest moves, and what to know (failed jobs, rivals without data); the per-search table and the build lines are gone.
@@ -76,6 +90,9 @@ export function noteText(note, baseline, last, {missing = [], notServed = [], ur
   if (!ref) info.push(`no earlier run with the rivals' sources off yet`);
   if (notServed.length) info.push(`no data from the rivals for: ${esc(notServed.join(', '))} (not a failure, not a 0)`);
   if (info.length) lines.push(`ℹ️ ${info.join('; ')}`);
+  const answered = Object.entries(note.engines || {}).sort((a, b) => b[1] - a[1]);
+  // Why (14 Nov 2026, owner: Claude plan first, then the Codex plan): said only when another engine than Claude answered, so a Claude-only round reads as before
+  if (answered.some(([engine]) => engine !== 'claude')) lines.push(`🤖 <b>Mixed AI</b> (not like-for-like with the Claude-only rounds): ${esc(answered.map(([engine, calls]) => `${engine} ${calls} calls`).join(' · '))}`);
   if (paid.length) lines.push(`💳 <b>Paid lane</b> (the broker's paid answers, not the plan; a mixed round): ${esc(paid.join('; '))}`);
   if (missing.length) lines.push(`⚠️ <b>Missing</b> (a job failed, not a 0): ${esc(missing.join(', '))}`);
   const review = [link(url), adminLink('search', note.round)].filter(Boolean).join(' · ');   // the owner reads the round in Admin first, then publishes it from there
@@ -88,7 +105,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const personas = rj(path.join(import.meta.dirname, 'personas.json')).personas;
   const labels = Object.fromEntries(personas.map((p, i) => [i + 1, `${p.title} · ${p.city}`]));
   const missingNow = rj(path.join(work, 'missing.json')) || [], notServedNow = rj(path.join(work, 'notserved.json')) || [];
-  const note = noteOf(readRound(work), {round: arg('round'), build: arg('build'), tiers: arg('tiers') || '', labels, missing: missingNow, notServed: notServedNow, rivalsOff: true});
+  const note = noteOf(readRound(work), {round: arg('round'), build: arg('build'), tiers: arg('tiers') || '', engines: enginesOf(work), labels, missing: missingNow, notServed: notServedNow, rivalsOff: true});
   const baseline = arg('baseline') ? noteOf(readRound(arg('baseline')), {labels}) : null;
   const lastDir = arg('last'), lastFile = lastDir && fs.existsSync(lastDir) ? fs.readdirSync(lastDir).filter(f => f.endsWith('.json')).sort().at(-1) : '';
   const last = lastFile ? rj(path.join(lastDir, lastFile)) : null;
