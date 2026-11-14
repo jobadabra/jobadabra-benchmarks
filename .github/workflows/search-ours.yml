@@ -127,6 +127,7 @@ jobs:
             out/persona.json
             out/seconds.txt
             out/sources-off.txt
+            out/beside.txt
             out/non-haiku-steps.txt
             out/tiers.txt
             out/tiers-mode.txt
