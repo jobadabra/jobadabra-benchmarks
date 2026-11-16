@@ -1,0 +1,105 @@
+{
+ "seed": "week-2026-W47",
+ "source": "career-ops templates/portals.example.yml (career-ops-v1.38.0)",
+ "pickedAt": "2026-11-16T14:56:41.483Z",
+ "per": {
+  "greenhouse": 2,
+  "ashby": 2,
+  "lever": 1,
+  "workable": 1
+ },
+ "picks": [
+  {
+   "id": 264701,
+   "platform": "greenhouse",
+   "company": "stabilityai",
+   "host": "stability.ai",
+   "title": "Senior Counsel, Product & Privacy",
+   "location": "United States",
+   "url": "http://stability.ai/careers?gh_jid=5031493101"
+  },
+  {
+   "id": 264702,
+   "platform": "greenhouse",
+   "company": "wizinc",
+   "host": "www.wiz.io",
+   "title": "Senior Customer Assurance Analyst",
+   "location": "Remote - USA",
+   "url": "https://www.wiz.io/careers/job/4728651006/:title?gh_jid=4728651006"
+  },
+  {
+   "id": 264703,
+   "platform": "ashby",
+   "company": "inngest",
+   "host": "jobs.ashbyhq.com",
+   "title": "Distributed Systems Engineer - Platform",
+   "location": "US/Remote",
+   "url": "https://jobs.ashbyhq.com/inngest/ae72d036-b98b-4abb-8454-a687870cf0ca/application"
+  },
+  {
+   "id": 264704,
+   "platform": "ashby",
+   "company": "bland",
+   "host": "jobs.ashbyhq.com",
+   "title": "Enterprise Account Executive",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/bland/dc26ae53-bd0f-4e58-9e01-dea3777c0830/application"
+  },
+  {
+   "id": 264705,
+   "platform": "lever",
+   "company": "pigment",
+   "host": "jobs.lever.co",
+   "title": "Business Transformation Advisory",
+   "location": "UK",
+   "url": "https://jobs.lever.co/pigment/b0e6f446-27dd-40d2-a89a-327cf5146314/apply"
+  },
+  {
+   "id": 264706,
+   "platform": "greenhouse",
+   "company": "later",
+   "host": "job-boards.greenhouse.io",
+   "title": "Sr. Manager, Creative Production",
+   "location": "Boston, MA; Chicago, Illinois, United States; Los Angeles, California, United States; New York, New York, United States; Remote; Vancouver, British Columbia, Canada; Vancouver, Washington, United States",
+   "url": "https://job-boards.greenhouse.io/later/jobs/8863925002",
+   "fillsFor": "workable"
+  }
+ ],
+ "skipped": [
+  {
+   "ats": "lever",
+   "slug": "dlocal",
+   "why": "no open postings"
+  },
+  {
+   "ats": "lever",
+   "slug": "tinybird",
+   "why": "tested or fixed on before"
+  },
+  {
+   "ats": "workable",
+   "slug": "toggl",
+   "why": "tested or fixed on before"
+  },
+  {
+   "ats": "workable",
+   "slug": "platzi",
+   "why": "tested or fixed on before"
+  },
+  {
+   "ats": "workable",
+   "slug": "doist",
+   "why": "no open postings"
+  },
+  {
+   "ats": "workable",
+   "slug": "huggingface",
+   "why": "tested or fixed on before"
+  },
+  {
+   "ats": "workable",
+   "slug": "semios",
+   "why": "tested or fixed on before"
+  }
+ ]
+}
